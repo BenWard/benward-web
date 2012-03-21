@@ -8,7 +8,7 @@ The internet is of a rather fine decentralised construction, and as such you'll 
 
 ## Communication and Social Networks
 
-* <a rel="me" href="https://twitter.com/benward">@benward on Twitter</a>
+* <a rel="me" href="https://twitter.com/benward">@benward on Twitter</a> <a class="twitter-follow-button" href="http://twitter.com/benward" data-show-count="false" data-show-screen-name="false">(Follow)</a>
 * <a rel="me" href="http://facebook.com/bnwrd">Ben Ward on Facebook</a>
 * <a rel="me" href="http://linkedin.com/in/bnwrd">Ben Ward on LinkedIn</a>
 * <a rel="me" href="http://about.me/bnwrd">bnwrd on About.me</a>
@@ -58,5 +58,5 @@ The internet is of a rather fine decentralised construction, and as such you'll 
 
 ## Alternatives to this site
 
-* <a rel="me alternate feed" type="text/html" href="https://twitter.com/benwwward">@benwwward on Twitter</a> posts links to new entries.
+* <a rel="me alternate feed" type="text/html" href="https://twitter.com/benwwward">@benwwward on Twitter</a> <a class="twitter-follow-button" href="http://twitter.com/benwwward" data-show-count="false" data-show-screen-name="false">(Follow)</a>. Posts links to new entries.
 * <a rel="me" href="https://blog.benward.me">A (currently separate) blog on Tumblr</a>
