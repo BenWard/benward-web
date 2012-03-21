@@ -1,0 +1,233 @@
+---
+layout: blog
+category: blog
+title: "iPod. It arrived. Who said it would be easy?"
+date: "2004-10-06T23:59:30+00:00"
+tags: ["all", "technology", "general", "music"]
+atomid: tag:benward.me,2004-10-06:/blog/ipod_usb_error
+---
+Somewhere in the cosmos, someone has it in for me.
+
+They couldn't break my iPod in transit, but they could sure as hell give me the fright of my life when it did arrive. 
+Most iPod owners happily admit that the iPod software update program that you have to run to get it working, is a bit cack. Very cack, let's say. Well, it's error handling is also pretty awful.
+
+My new USB2 card wasn't shipping enough power to it to apply the update (or connect into iTunes, for that matter). Rather than inform me of this though, I got an error message reading: "Could not apply firmware. Disk write error". Now, if I got that error on my PC I'd be scared. It screams 'knackered hard disk'. Therefore seeing it on a brand new iPod (which took 2 weeks to be delivered) is positively terrifying. In fact, what it meant to say was "Not enough power, plug me into a powered hub instead please". Why it can't do this is beyond me.
+Worst was when the progress bar went a little way, then gave up (with the above error) and caused the existing iPod software to disappear from sight - displaying only a picture of a folder on its little screen. Oh, and a patented 'you're fucked' exclaimation-mark-in-a-triangle icon. Fills you with confidence eh?
+
+Once equipped with less crap hardware (a borrowed hub), the iPod is a dream. Absolutely class. Only have 4 gig free already...
+
+I'm a very, very happy bunny.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-202">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/95de3e56cb7d5adff6ec26ba4dccf373.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Pallas</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-202">
+        <time class="published" datetime="2005-01-07T02:05:53+00:00">07 Jan 2005, 02:05</time>
+      </a>
+      <div class="entry-content"><p>I had the same problem with my new iPod and it scared the shit out of me too. After I found your info about the <span class="caps">USB</span> power shortfall, I tried using the <span class="caps">USB</span> port at the back of the PC rather than the one at the front, and it worked!!!! Just to say many thanks for sharing the info; I wouldn&#8217;t have been able to fix it otherwise, which would have been A Very Bad Start to 2005.</p>
+<p>Love and kisses from another very very happy bunny.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-203">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-203">
+        <time class="published" datetime="2005-01-07T13:32:20+00:00">07 Jan 2005, 13:32</time>
+      </a>
+      <div class="entry-content"><p>I can&#8217;t say how glad I am that you&#8217;ve found this useful. It really is a design mistake on the part of Apple.</p>
+<p>The iPod manual talks about &#8220;High Powered&#8221; <span class="caps">USB</span> ports, but I&#8217;ve never, ever heard of such a thing. I don&#8217;t think it&#8217;s common terminology so I have no idea whether some USB2 <span class="caps">PCI</span> cards are capable of &#8220;high powered&#8221; operation or not, I doubt they say so if they are.</p>
+<p>I&#8217;m glad you&#8217;re up an running though &#8211; it&#8217;s a relief when it all starts working.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-204">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/3d41d607f273a2df9a95623516f44fcd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">chris arnold</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-204">
+        <time class="published" datetime="2005-01-10T20:04:33+00:00">10 Jan 2005, 20:04</time>
+      </a>
+      <div class="entry-content"><p>I am having the same problem with my ipod.  I have a <span class="caps">USB</span> 2.0 connection (which it reccommends) and the problem still exists.  What is a hub and how do I connect my ipod up to a &#8220;powered hub&#8221;? <br />
+thanks</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-205">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-205">
+        <time class="published" datetime="2005-01-10T21:07:24+00:00">10 Jan 2005, 21:07</time>
+      </a>
+      <div class="entry-content"><p>Hi Chris,</p>
+<p>A hub is an little box with around four <span class="caps">USB</span> 2 ports on the back of it. It connects into one of your existing USB2 ports and allows you to connect more USB2 devices to your computer.</p>
+<p>This can be convenient if you have more <span class="caps">USB</span> hardware than you have <span class="caps">USB</span> ports on the back of your computer, or if you want to avoid having to reach around the floor to find the back of the computer chassis to plug and unplug hardware.</p>
+<p>A <em>powered</em> hub is the above, but has its own power supply (rather than taking power from your computer itself). Thus by having a powered hub you are (from what I can tell) sure to provide enough power to the iPod and so it should function as you expect it to.</p>
+<p>I have a wonderful <a href="http://catalog.belkin.com/IWCatProductPage.process?Merchant_Id=&amp;Section_Id=200897&amp;pcount=&amp;Product_Id=158027&amp;Section.Section_Path=%2FROOT%2FUSB%2FUSB20%2FHubs%2F" title="Belkin.co.uk - High Speed USB2 Tetra-Hub" rel="nofollow">Belkin 4-port Tetra-Hub</a>. I highly recommend it.<br />
+If you decide to buy a different one, do ensure that you get a powered one, since a passive hub (without its own external power supply) is unlikely to solve your problem.</p>
+<p>The only problem I have had is that if I forget to unplug the iPod from it when I shut down my PC the iPod will discharge overnight. Remember to unplug it and charge using the plug/Firewire cable.</p>
+<p>Actually, one alternative you might have would be to try a Firewire card instead, though I can&#8217;t make any guarantees about power delivery on add in cards for this. You&#8217;d also struggle to find any other use for Firewire on the PC other than iPod.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-206">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/445a68591e00d983040415e92e0f483f.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Nate</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-206">
+        <time class="published" datetime="2005-07-02T03:34:56+00:00">02 Jul 2005, 03:34</time>
+      </a>
+      <div class="entry-content"><p>Me too!  Damnit, it should have been more obvious!  Thanks for posting this comment, it&#8217;s working now&#8230;</p>
+<p>Keep on smurfin&#8217;!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-441">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/87dcc094c4e1c80960910a6c8e8a94cc.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Terry</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-441">
+        <time class="published" datetime="2005-11-17T06:39:11-01:00">17 Nov 2005, 06:39</time>
+      </a>
+      <div class="entry-content"><p>For two damn weeks i have been messing around with this damned ipod and as a last resort decided to &#8220;google&#8221; the message &#8220;firmware disc write error&#8221; &#8211; what an eye opener &#8211; and here was me thinking i was going to be able to just eh!!! listen to music, what a joke, &#8211; firewire,stick a fork in it , unplug,replug,update,restore,redate,nodate, &#8211;  i have never messed around so much with something so small &#8211; but hey great at least i am not the computor illiterate that my dear sweet hubby thinks i am &#8211; its the damn ipod &#8211; <span class="caps">HURRAY</span>!!! &#8211; i can now go and give the thing back to the place i bought it from &#8211; Goodbye ipod &#8211; and good riddance!!!!!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-455">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/1aef4afa7cb9874f7c722a486092fef4.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Justine</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-455">
+        <time class="published" datetime="2005-11-26T06:32:40-01:00">26 Nov 2005, 06:32</time>
+      </a>
+      <div class="entry-content"><p>Thank you so much &#8211; This is the first intelligent response to the problem that I have found on the internet in weeks. It has certainly eased my mind to read.  It was very helpful, your response appears to match my problem exactly. And yes the installer sucks. And yes the error messages suck. But the Ipod itself is sheer beauty if you can get the fucker working :P Thanks again.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-456">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-456">
+        <time class="published" datetime="2005-11-26T13:06:51-01:00">26 Nov 2005, 13:06</time>
+      </a>
+      <div class="entry-content"><p>I&#8217;m impressed that 1 year on, this post is still useful. On the other hand, that also implies that Apple haven&#8217;t done anything to improve the error handling of their update utility.</p>
+<p>The advice I gave is, as best I know, still very much valid, though the number of people who find it handy means I&#8217;m tempted to offer a little �checklist� rather than having to read through my babble�</p>
+<p>Additionally, I&#8217;ve recently updated my PC and while I still have the hub for the convenience of having <span class="caps">USB</span> ports on my desk, I&#8217;ve taken to having the iPod plugged in via Firewire on the motherboard and have had no problems at all. Of course, the newest iPods don&#8217;t support Firewire, but I believe that everything up to the iPod Photo (which were later rebranded to just to iPods �with colour screens�).</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-673">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/1ed7b81deb92f381645b7099cec187fb.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Travis</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-673">
+        <time class="published" datetime="2006-01-18T23:07:24-01:00">18 Jan 2006, 23:07</time>
+      </a>
+      <div class="entry-content"><p>Wow, this problem sucks.  I found that the reason I was having it was because i had 2 usb extension cables plugged together.  Thinking about it now, it makes sense but at the time there was no correlation to that concept whatsoever.  This is seriously lame that it&#8217;s been this long, without being addressed by apple.  The results for these problems are hard to find.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-796">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/c14ea90741bd3b6444a87476cd00bbad.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Felipe Herran</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-796">
+        <time class="published" datetime="2006-02-14T08:06:42+00:00">14 Feb 2006, 08:06</time>
+      </a>
+      <div class="entry-content"><p>Wait a minute, What are you telling me is that I drove One Hour to get a new one that had the same stupid message “Could not apply firmware. Disk write error” and is because Apple is not smart enought to tell you that? Oh! no please, is already 0100 and still fighting with the second one having the same problem when I tried to update the firmware. No, please no, I will leave it charging for the rest of the night and give it a try tomorrow, if that fix the problem, I will kiss you posted message and those <img src="@#$" alt="" /><code>$#</code> Apple &#8230; well just <img src="@#!@$" alt="" />$ (to heavy to be publish).</p>
+<p>Thanks and I let you know about it, tomorrow.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-802">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/c14ea90741bd3b6444a87476cd00bbad.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Felipe</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-802">
+        <time class="published" datetime="2006-02-15T04:32:27+00:00">15 Feb 2006, 04:32</time>
+      </a>
+      <div class="entry-content"><p>Guess what. IT IS <span class="caps">TRUE</span>! so shame on Apple.</p>
+<p>I tried with full battery and did not work also, but I did it with a desktop direct in the back usb port and work as fine as it should, so here is you kiss and love for you post!</p>
+<p>What about sync breaks, resets and start putting everything again.</p>
+<p>thanks,</p>
+<p>By the way, this is on a Gateway MX7515 Laptop. I mean the problem.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-805">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-805">
+        <time class="published" datetime="2006-02-15T17:06:23+00:00">15 Feb 2006, 17:06</time>
+      </a>
+      <div class="entry-content"><p>Felipe, I&#8217;m glad you&#8217;ve found this post useful. I can&#8217;t quite tell from your second post if you were sucessful or not, but there do seem to be a lot of problems with some PC <span class="caps">USB</span> ports.</p>
+<p>Nothing forgives the poor error messages that the iPod generates, but the chances are that your problem is faulty/cheap hardware in your laptop rather than a problem with the iPod itself.</p>
+<p>It&#8217;s a really shame that they&#8217;ve discontinued Firewire support in the new models too, since I&#8217;ve always found that to be far more reliable on PC than <span class="caps">USB</span>.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-2402">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/ce8586e5a0b8f0e13a0dc63dee7132dd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">jack welch</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2402">
+        <time class="published" datetime="2006-05-15T16:11:43+00:00">15 May 2006, 16:11</time>
+      </a>
+      <div class="entry-content"><p>ben, ur amazin, i sent my ipod off to be repaired because it broke (typical ipod) then it came back and had to be restored, thats jus the start, o dear it took ages, but i read the report that you wrote and it fixed my problem after 2 wweks of trying to figure it out, thanks</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-3775">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/99ee1318fb053efd7497c9c8c0cb3d67.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Jeremiah Burke</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-3775">
+        <time class="published" datetime="2006-06-14T22:27:16+00:00">14 Jun 2006, 22:27</time>
+      </a>
+      <div class="entry-content"><p>Thank you very much for posting this fix. I thought my IPod was toast for sure.</p>
+<p>I have two <span class="caps">USB</span> ports in the front of my computer that I have updated my IPod from since I got it. All of the sudden one day I get this error. Seems strange that it would start all of the sudden.</p>
+<p>Anyway, I hooked the cable to one of the <span class="caps">USB</span> ports on the motherboard and everything is fine now.</p>
+<p>Thanks again.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-4233">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/31b9e9bfb9520c9838f3f0cf63c2a869.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">letstatzw</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-4233">
+        <time class="published" datetime="2006-06-22T13:07:18+00:00">22 Jun 2006, 13:07</time>
+      </a>
+      <div class="entry-content"><p>say i am having the same problem but with my firewire port?? formatting failiure, disk write error?? what i do?? i dont have a usd connection from the ipod.. just got firewire??</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-9056">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/3fbbe61cc4c03f1cecc0d6c0fcfbff7f.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Ed</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-9056">
+        <time class="published" datetime="2006-07-30T21:40:28+00:00">30 Jul 2006, 21:40</time>
+      </a>
+      <div class="entry-content"><p>You&#8217;ve just saved me another £200. I was seconds away from elbow-striking my iPod into next week, I was so pissed that it wouldn&#8217;t work.</p>
+<p>Managed to stumble across the idea of plugging it into the back, instead of the front, and now it works fine.</p>
+<p>Cheers.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-114052">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/5973880659fa19a361b0312a605c21f2.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Jack Smith</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-114052">
+        <time class="published" datetime="2007-06-18T09:00:43+00:00">18 Jun 2007, 09:00</time>
+      </a>
+      <div class="entry-content"><p>Get a Microsoft Zune, don&#8217;t waste your money on an iPod. Zune is a whole load better!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-114203">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-114203">
+        <time class="published" datetime="2007-06-18T14:33:43+00:00">18 Jun 2007, 14:33</time>
+      </a>
+      <div class="entry-content"><p>Jack Smith, whilst your lack of any links makes me think this isn&#8217;t spam comment, the lack of European availability, Mac support, quality software and the fact that it&#8217;s large enough to brick my house with continues to stand in the way of the Zune.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

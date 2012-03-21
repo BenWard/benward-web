@@ -1,0 +1,747 @@
+---
+layout: blog
+category: blog
+title: "Understand The Web"
+date: "2010-05-02T16:37:39-08:00"
+updated: "2010-05-06T11:39:00-08:00"
+summary: "The Web _does_ suck at APIs, and hardware devices, and 3D acceleration. None of those things have anything to do with being a _web of information_. This essay tries to explain why I disagree so strongly with recent detractors, and why I passionately believe in the web's true, native architecture: Interlinked information."
+tags: ["all", "technology", "applications", "web-development", "apis", "standards"]
+atomid: http://benward.me/?p=601
+---
+Perceptions of the web are changing. People are advocating that we treat the web like another application framework. An open, cross-platform, multi-device rival to Flash and Cocoa and everything else. I'm all for making the web richer, and exposing new functionality, but I value what makes the web _weblike_ much, much more.
+
+<hr>
+
+The last few days have been tough for web evangelism. Or at least, tough for those of us who like to be regarded as level-headed.
+
+First, "HP purchased Palm":http://www.engadget.com/2010/04/28/hp-buys-palm/, and immediately declared their commitment and belief in WebOS. A great move for both companies for sure, but cue comments like that of "@bgalbs":http://twitter.com/bgalbs/status/13053103975 on Twitter: <q>“The biggest tech company just bet its mobile strategy on the web”</q>. Similarly, "Joe Hewitt":http://twitter.com/joehewitt/status/13031002283 proffered <q>“Hopefully we'll look back on today as the day the mobile web began to eclipse proprietary mobile platforms.”</q>.
+
+Meanwhile, the feuding between Apple and Adobe regarding Flash on iPad took an unexpectedly public twist, with "Steve Jobs writing at length":http://www.apple.com/hotnews/thoughts-on-flash/ everything that John Gruber had "already":http://daringfireball.net/2010/01/apple_adobe_flash  "described":http://daringfireball.net/2010/04/why_apple_changed_section_331 about defending his platform from third-party influence, but also that Apple are choosing to invest in native running open standards. Jobs incorrectly brands this ‘HTML5’. He also criticises Flash for being proprietary whilst evangelising the H.264 video codec (licensing for H.264 is not ‘open’, either.)
+
+Adobe hustled a number of responses. Rapidly, a "live interview with CEO Shantanu Narayen":http://blogs.wsj.com/digits/2010/04/29/live-blogging-the-journals-interview-with-adobe-ceo/. Whilst everyone mentioned so far is guilty of muddying terminology, not saying exactly what they think they mean, and/or some general platform and framework-related confusion that I'll elaborate on below, Mr Narayen is the first to throw some incomprehensible bullshit into the day. He refers to “open content”. _What is that?_ Content wrapped inside an impenetrable, proprietary, single-vendor container format? Flash, by design, locks content away (in exchange for other supposed benefits.) Comments like “Flash is an open specification” is unhelpful too: The "page hosting the Flash specification":http://www.adobe.com/devnet/swf/ doesn't specify a license, the document itself just exerts copyright and disclaimers on behalf of Adobe. Furthermore there are no native or competing implementations of Flash, nor is the development of Flash open to participation.
+
+Adobe has for years relied on bullshit merchandise to remain relevant in the ‘future of the web’ debate. Three years since the launch of the iPhone visibly snubbed them, they have not shipped an acceptable, functional version of Flash on any other handset. If the upcoming Android release doesn't perform well, there will be no reprieve.
+
+<hr>
+
+Web Evangelism got hard. When "Zeldman":http://zeldman.com wrote Designing With Web Standards, there were two standards that mattered: HTML and CSS. They were the path to cross-browser compatibility, and thus they were the route to a brighter future (both for design, and for information publishing.) 12 years later, _holy shit_. JavaScript joined the standards party, and then became quickly obfuscated by frameworks. CSS3 stablised, Webkit extended CSS further (and it's still called CSS3), a plethora of new standards on the server and client: OAuth, OpenID, Contacts, Connect, Geolocation, microformats, widgets, AJAX, HTML5, local storage, SPDY, ‘The Cloud’…
+
+All of these _things_ are vying for attention and evangelism. Some of them are great, some of them are stupid, but they're all clubbed together under this vague banner of ‘The Open Web’. It sets expectations and demands from developers, who are all the while being wowed by the efficiency and quality of proprietary application frameworks like Flash and Cocoa.
+
+<hr>
+
+<aside>There exists on the web a collective memory problem. It's a famous fault in software engineers to instinctively favour reinvention over reuse, not just because they are unfamiliar with what came before, but because they misunderstand why it came before. This is a rule that is important to understand, so that it can be broken. It is not well understood, yet it is regularly broken.</aside>
+
+<hr>
+
+Besides memory, the half-life of most things on the internet is short. Frustratingly, terminology is no exception. From the coinage, we lose meaning and specificity within a few years, sometimes only a matter of months.
+
+‘<dfn>HTML5</dfn>’ now refers to a collection of related client-side technologies, branded together as a product. It is no-longer just a hypertext "specification document":http://dev.w3.org/html5/spec/Overview.html, and everything that concerns document semantics is being ignored anyway. This is usage that Steve Jobs employed this week.
+
+‘<dfn>Open</dfn>’ is lost.
+
+* • The H.264 video codec is not open. It is patent encumbered, and there is a financial obstacle to license those patents. Yet, despite this, H.264 is bundled in with discussion of an _open_ web stack. In practice it may be ‘open enough’ to function on the web. Operating Systems and Browsers will license it for playback, and the authority that grants the licenses is continuing to allow free (as in beer) usage of the codec by web publishers. But a change to those terms, and eventual enforcement of fees on big publishers is possible.
+* • Adobe are certainly full of shit here, though. Absolutely full of it that it makes me angry. ‘Open content’?! Locked up inside Flash containers? That's as closed as can be. At least if you uploaded it as a flat image you could run content through <abbr title="Optical Character Recognition">OCR</abbr> it and recover the text! Let's not get stated on their "open screen project":http://www.openscreenproject.org/. To Adobe, ‘open’ means ‘cross platform, on platforms that Adobe provides support for, for as long as Adobe chooses to support them.’ That's very different. Their use of ‘open’ is an outright lie.
+
+Then, there's ‘web’.
+
+On this word rests most of our understanding (and misunderstanding) of what can and can't be reasonably achieved with applications in the browser, over HTTP. What does it mean to be a ‘web application’? What are the _expectations_ of a web application? Or of any web content, for that matter?
+
+Off the back of the Apple verses Adobe mudslinging, Joe Hewitt went on "a very, very long rant":http://www.exquisitetweets.com/tweets?ids=13031002283.13032980959.13090363860.13090720669.13090747143.13091031807.13091231807.13091325835.13094164197.13094261355.13094326988.13094617071.13095015896.13095170856.13095254263.13095304769.13095460167.13097165783.13097223950 about the state of ‘the web’ as an application platform.
+
+In parts, I agree, certainly with regard to the process of standardisation. Standards are _supposed_ to be derived from implementation, and standardised technologies will be better for real-world iteration. Heck, our entire "microformats process":http://microformats.org/wiki/process is based around codifying examples in the wild. The failure of CSS to define a layout syntax ("choose":http://www.w3.org/TR/css3-layout/ "from":http://www.w3.org/TR/css3-flexbox/ "three":http://www.w3.org/TR/css3-grid/) illustrates the need for implementations to lead.
+
+However, the suggestion that Microsoft were bullied out of innovating the web, or that developers should pursue whizz-bang APIs to the point of single-browser dependency leaves me sour. This is the short, perhaps selective memory that the internet suffers from. It is not acceptable to me that 21st century knowledge retention has become so short and shallow as to be overwritten by influential ranting on Twitter. A greater tool for the dissemination of misinformation has never been known.
+
+<blockquote cite="http://twitter.com/joehewitt/status/13091231807"><p>For those too young to remember, IE was innovating like crazy from 4.0–6.0, right up until the <abbr title="US Department of Justice">DOJ</abbr> and web standards commies intervened.</p></blockquote>
+
+Microsoft Internet Explorer did not stop innovating because of ‘standards commies’. That's offensive and wrong. Web standards advocates went after Microsoft because they failed to adequately support basic, foundational web standards like CSS, necessary to publish an interoperable web of information in which Firefox and KHTML and everyone else could even compete, let alone succeed. That early CSS push was also a vital, huge step in making web content universally accessible beyond visual media.
+
+Microsoft's development of enhancements like ActiveX, and <code>XMLHttpRequest</code> were not being prepared to be standardised for the web with W3C participation, they were invented in such a way as to inject proprietary, Windows-only code into the web. Tools not to make to web better, but to make it dependent on Microsoft. Chris Wilson has since "written more accurately":http://cwilso.com/2010/04/30/the-ie-plateau-a-history-lesson/ about the plateau in IE development on his blog.
+
+Contrast Microsoft's method in the 90's to the more recent CSS efforts coming out of Webkit: Extensions to CSS are followed promptly by proposed specifications (such as "CSS Animations":http://www.w3.org/TR/css3-animations/). Microsoft, from the top down were trying to ‘own’ the web. (More recently, to their immense credit, they're in the right game. The aforementioned "CSS Grid Layout":http://www.w3.org/TR/css3-grid/ module is from Microsoft engineers.)
+
+Meanwhile, "Sachin Agarwal":http://sachin.posterous.com/ is writing that "The Web Sucks":http://sachin.posterous.com/the-web-sucks, again talking about the web as an application platform: 
+
+<blockquote cite="http://sachin.posterous.com/the-web-sucks"><p>Web applications don't have threading, GPU acceleration, drag and drop, copy and paste of rich media, true offline access, or persistence. Are you kidding me?</p></blockquote>
+
+There, in that quote, is where I want to pull all of this together. Sachin's complaint has absolutely _nothing_ to do with the web. Think about that word; ‘web’. Think about why it was so named. It's nothing to do with rich applications. Everything about web architecture; HTTP, HTML, CSS, is designed to serve and render content, but _most importantly_ the web is formed where all of that content is linked together. That is what makes it amazing, and that is what defines it. This purpose and killer application of the web is not even comparable to the application frameworks of any particular operating system.
+
+That's the kicker. We talk about ‘web applications’, the ‘open web stack’. People are citing HP's purchase of Palm and investment in WebOS as a victory for the web. We talk about applications built using HTML, CSS and JavaScript in the same breath as content published using HTML semantics.
+
+Want to know if your ‘HTML application’ is part of the web? Link me into it. Not just link me _to_ it; link me _into_ it. Not just to the black-box frontpage. Link me to a piece of content. Show me that it can be crawled, show me that we can draw strands of silk between the resources presented in your app. *That* is the web: The beautiful interconnection of navigable content. If your website locks content away in a container, outside the reach of hyperlinks, you're not building any kind of ‘web’ app. You're doing something else.
+
+Palm WebOS applications are awesome, but they are *not* part of the web. An app might interact with data on the web, and they are built with similar HTML, CSS and JavaScript technologies. That's great, but they are not  a connected, interlinked part of the web.
+
+We're talking about two very different things: The web of information and content, and a desire for a free, cross-platform Cocoa or .NET quality application framework that runs in the browsers people already use. The latter cause is louder, and risks stomping over the more valuable, more important, more culturally indispensable part of the web.
+
+I'm not saying that better, more abstracted JavaScript APIs are unwelcome. I'm not saying that APIs to access devices like webcams and microphones aren't useful or even important. Even WebGL, as far out of my field of interest as it is, would be a great thing.
+
+_But_, the open publishing nature of the web, and the requirement that information be accessible, will inherently cause it to lag behind other platforms. The success of the web, the success of this impossibly huge network of information is because of the open, universally accessible, cross-platform, cross-device nature of web content. Cross-platform _user interface_ sucks. It's a nightmare of inconsistency and wrong, momentarily obsoleted assumptions. But cross-platform content? Well that _is_ content. It's articles and poems and pictures and movies and music, _everywhere_! How brilliant is that! Calling for browsers to make massive proprietary advances (even with the caveat of standardising later), suggesting that users should tolerate swapping between browsers, or even devices, to access particular content because you've obscured it behind a bespoke API is an absurd throwback to days we've left long behind; a proposition that would result in information and culture being locked away. Nothing is worth that, especially not ‘web applications’.
+
+If you reach the point of building a browser-based application that you depend on so many proprietary enhancements that your users can only access it using Google Chrome, I think you've picked the wrong platform. If you want to built the most amazing user interface, you will *need* to use native platforms. A single vendor's benevolent curation of their framework will always outpace the collaborative, interoperable developments of the web, whether it's locked in a standards process or not. When they do a good job (like Apple have with CocoaTouch) their platform will succeed. But the web will always be the canonical source of information and relationships. That's what it was built for. Blogging at length about how much the device APIs suck won't ever undo that, nor change the fact that turning HTML in a rich application dialect is still a very new idea.
+
+<hr>
+
+Personally, aside from all of this almost ideological disagreement over what the web is for, and what you can reasonably expect it to be good at, I honestly think that ‘Desktop-class Web Applications’ are a fools folly. Java, Flash, AIR and QT demonstrate right now that cross-platform applications are _always_ inferior to the functionality and operation of the native framework on a host platform. Steve Jobs is right in his comments that third-party frameworks are an obstacle to native functionality.
+
+Creating generic, non-native interfaces that run in a web browser won't be any better than the cross-platform applications that came before (see "Cappucino":http://cappuccino.org/.) The idea of undermining the core function of the web to achieve that is detestable.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-227263">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/bb9208a097bb39e814359dd81368f0f2.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Benjamin Jackson</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227263">
+        <time class="published" datetime="2010-05-02T22:10:23-08:00">02 May 2010, 22:10</time>
+      </a>
+      <div class="entry-content"><p>Ben this is brilliant, you clarified a lot of thoughts and captured my current feeling about the web.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227264">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4747fc319f3c2782068c0346a0ff47a5.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.totanus.net/">Matteo Balocco</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227264">
+        <time class="published" datetime="2010-05-02T22:39:51-08:00">02 May 2010, 22:39</time>
+      </a>
+      <div class="entry-content"><p>I don&#8217;t know if this fits well with your words but I think that the WebHooks project (http://www.webhooks.org/) is going in the right direction. What do you think about that project?</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227265">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/a7e904a0b242c8e4194abff1724ee212.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">ClemHerreman</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227265">
+        <time class="published" datetime="2010-05-02T23:18:08-08:00">02 May 2010, 23:18</time>
+      </a>
+      <div class="entry-content"><p>Your article is, indeed, brilliant. As always, with time and lots of marketing and buzzwords, people forget about the connstruction, to focus about the tools.</p>
+<p>Of course having JS that is the same for every browser, or OpenGl in browser would be nice. But the strength of the web is its openness, the fact that anyone, who has a good idea, can put it in practice, and share it with everyone.</p>
+<p>What you describe in this article is what happened to a french system called &#8216;Minitel&#8217; (for those that understand french, please tkat a look at a conference he gave about it : http://www.fdn.fr/Internet-libre-ou-Minitel-2.html).</p>
+<p>Openness of the web isn&#8217;t (really) related to the technologies, langages or stuffs, it&#8217;s about the content, linking into it and sharing it. Sharing the knowledge.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227266">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/55996fee316853fcf56441e9a0fc4129.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://7pl.info">procek</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227266">
+        <time class="published" datetime="2010-05-03T00:25:42-08:00">03 May 2010, 00:25</time>
+      </a>
+      <div class="entry-content"><p>Web is not gallery! It&#8217;s place of our life there are informations, education, sience. Adobe is thinking: Some gadgets can change web in beautiful world, but for example I don&#8217;t want fireforks and fun on websites &#8211; I want informations&#8230;</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227267">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/0abab320b8888891fa3c00256fca89d2.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blogs.developpeur.org/fremycompany">FremyCompany</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227267">
+        <time class="published" datetime="2010-05-03T00:32:11-08:00">03 May 2010, 00:32</time>
+      </a>
+      <div class="entry-content"><p>Great article !</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227268">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/96eee387ae939ab36b24abb4e2dc04b3.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://cheerfulsw.com">Amy</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227268">
+        <time class="published" datetime="2010-05-03T02:52:24-08:00">03 May 2010, 02:52</time>
+      </a>
+      <div class="entry-content"><p>Great essay, but if I can respond to only one line, it would be:</p>
+<p>&gt; I honestly think that ‘Desktop-class Web Applications’ are a fools folly.</p>
+<p>Hear hear.</p>
+<p>I am not a fan of the Bauhaus movement&#8217;s output, but they had something when they talked about &#8220;honesty in materials.&#8221; They over-applied it like zealots &#8212; but I&#8217;d like to see even a little of it applied to the web.</p>
+<p>I design web interfaces and I always build for the web, building interfaces uniquely suited for the browser. I am 100% against anything that tries to pretend to be a desktop platform, like Cappucino.</p>
+<p>Anybody who looks at the web and sees it looking like the desktop in 5 years, is somebody who can&#8217;t think beyond what&#8217;s already in front of them. It&#8217;s a common mistake when evaluating technology to think of it as a fixed replacement for something that already exists.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227269">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/bb5782d0b9a6cbea2a146acc98225bb9.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.dirtyphonebook.com">Derek W</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227269">
+        <time class="published" datetime="2010-05-03T03:48:44-08:00">03 May 2010, 03:48</time>
+      </a>
+      <div class="entry-content"><p>Good article and I&#8217;m glad you&#8217;re <span class="caps">ALSO</span> calling out Adobe on some of their hypocrisy because Apple deserves to take some of the heat but Adobe isn&#8217;t also getting their fair share on most other blogs in my opinion.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227270">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/5a18b01bdb329a8c7e27a8fa76572660.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.thedesignmunchies.com">Shawn McGaff</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227270">
+        <time class="published" datetime="2010-05-03T05:01:26-08:00">03 May 2010, 05:01</time>
+      </a>
+      <div class="entry-content"><p>I honestly had to wait a while before posting a comment because I had to let myself cool off.  I watched the interview with the Adobe <span class="caps">CEO</span> yesterday and I was simply enraged.  I am fed up with this kind of BS especially from people with such power and influence.  And I am only 22!</p>
+<p>This was a great article and I think you did a wonderful job of bringing up the faults on both sides of the apple vs. adobe argument.</p>
+<p>People get lost in their tools far too easily and forget what the original purpose of those tools were.  Don&#8217;t forget that the web is just a tool to connect the world with the answers they need.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227271">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e18bbcd3c247d26919e3c699e5ea7181.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://benward.me">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227271">
+        <time class="published" datetime="2010-05-03T07:03:01-08:00">03 May 2010, 07:03</time>
+      </a>
+      <div class="entry-content"><p>Thank you, for the kind comments, everyone.</p>
+<p><a href="http://benward.me/blog/understand-the-web#comment-227264">@Matteo</a>: I love WebHooks. Jeff is a friend of mine, and they&#8217;re a fantastic design. They should&#8217;ve been on the list of web technologies vying for evangelism.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227272">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/0a8ea5011fa91192b1b705430b67154b.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">contextfree</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227272">
+        <time class="published" datetime="2010-05-03T07:52:48-08:00">03 May 2010, 07:52</time>
+      </a>
+      <div class="entry-content"><p>Where do you draw the line between &#8220;applications&#8221; and &#8220;content&#8221;?  Is there a clear line that can be drawn?</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227273">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/3d3fa6191472c5764f8815854ebadcbe.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://bernhardvogler.de">Bernhard Vogler</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227273">
+        <time class="published" datetime="2010-05-03T08:09:47-08:00">03 May 2010, 08:09</time>
+      </a>
+      <div class="entry-content"><p>Great article!</p>
+<p>.bq Java, Flash, <span class="caps">AIR</span> and QT demonstrate right now that cross-platform applications are always inferior to the functionality and operation of the native framework on a host platform.</p>
+<p>So right! Just talked about the same topic with my brother recently and had the same examples.<br />
+GMail for example is okay – but it will never integrate as Apple Mail does on a Mac.</p>
+<p>As you pointed out: web is information. And online services might have some good <span class="caps">AJAX</span> functionality (like flickr or delicious), enhancing web services.<br />
+But do users <em>really</em> want &#8220;web _apps&#8221;?_</p>
+<p>Shawn is right:<br />
+bq. Don’t forget that the web is just a tool to connect the world with the answers they need.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227274">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/3eda6fcd3204ef285fa52176c28c4d3e.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Tom</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227274">
+        <time class="published" datetime="2010-05-03T08:16:34-08:00">03 May 2010, 08:16</time>
+      </a>
+      <div class="entry-content"><p>Fine, I&#8217;ll getting off your damn lawn!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227275">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/051fd290c1fd55b27dd9ef03e34f40c1.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.slevenbits.com">Alexander Ljungberg</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227275">
+        <time class="published" datetime="2010-05-03T09:01:10-08:00">03 May 2010, 09:01</time>
+      </a>
+      <div class="entry-content"><p>Saying you want more web and less apps is a fine thing, but the fact of the matter is that apps are on the web today are here to stay. Apps on the web go back to Hotmail and longer. And no, it&#8217;s not <em>webby</em>, but then again: nobody really wants you to link into their webmail anyhow. The &#8216;web&#8217; part in that is not about silk strands, it&#8217;s only about the platform.</p>
+<p>Since that platform already exists and since people love their apps on it, the way forward is to do both and to do both well. The web will still be great for documents, and nobody is taking anything from that by extending it with apps. And if you are going to do apps, you should do it right. That&#8217;s where Cappuccino enters the picture.</p>
+<p>Documents are not applications and applications are not documents so don&#8217;t try to do both at the same time.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227276">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/dea00d556e477bc3c0a50cb5171a04e1.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Daniele Grillenzoni</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227276">
+        <time class="published" datetime="2010-05-03T09:30:11-08:00">03 May 2010, 09:30</time>
+      </a>
+      <div class="entry-content"><p>Thank you for saving me the time to put all those thoughts in order. I agree 100% with what you said. HTML5 offline apps are not webapps (hybrid in the best case scenario), but having browsers become better platforms for html5 apps is surely something that would benefit the web as well (the same UX benefits would extend both ways).</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227278">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/9bcefaaa25bd7dd06ac8e92e31ae5555.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.caperet.com">Simon White</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227278">
+        <time class="published" datetime="2010-05-03T16:02:49-08:00">03 May 2010, 16:02</time>
+      </a>
+      <div class="entry-content"><p>One facet of the web which fails to materialise from this otherwise excellent reflection on what the &#8220;web&#8221; is or isn&#8217;t, is the transactional side of business.</p>
+<p>The web survives and thrives today as a means to conduct business. The content is there, but there&#8217;s a business model behind it. Sure, there are lots of companies that make no money providing free content, but they live a short life and then either transform successfully into a viable business, or they wither and die, leaving their ideas behind to be picked up (or re-invented) elsewhere.</p>
+<p>The transactional side of things &#8211; that which I traditionally consider a web application, but server side &#8211; is very important. Designing good, usable, accessible forms, shopping baskets, banking / financial pages takes more than just content management / <span class="caps">HTML</span> wizardry. It also requires discovering something of a &#8220;best practice&#8221; especially in the accessibility arena.</p>
+<p>Key e-commerce players are (or should be) very much required to hold fast to the semantic, accessible web. I&#8217;m not just talking about a web readable by those with disabilities &#8211; I&#8217;m talking about Tim Berners Lee style (paraphrasing) as available as possible to anyone, whatever their mother tongue, whatever their terminal, whatever their access speed.</p>
+<p>Enjoyed reading you.</p>
+<p>Regards<br />
+-Simon [@fruey]</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227279">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/30ba4325e154a43892c26e0ceeb9c425.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Mark A.</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227279">
+        <time class="published" datetime="2010-05-03T18:23:33-08:00">03 May 2010, 18:23</time>
+      </a>
+      <div class="entry-content"><p>You fall into the typical trip of thinking of Flash as an advertising content development tool and/or a media content viewer.  The reality is that it is much more than that, and with the advent of Flex, has become a very, very powerful tool for developing RIA&#8217;s both behind the firewall and on the general web.</p>
+<p>Ironically, I would bet that the bulk of H.264 content being viewed on the web is being viewed via Flash-based viewers.  Adobe has supported H.264 for 3 or 4 years now.</p>
+<p>Finally, many (most) of Sachin Agirwal&#8217;s complaints about web apps are enabled by Flex/Flash.</p>
+<p>While I respect your background and experience, it seems clear that you have not done much work with Flash/Flex, and certainly not enough to justify some of the opinions you&#8217;ve expressed as &#8220;fact&#8221;.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227280">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/30ba4325e154a43892c26e0ceeb9c425.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Mark A.</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227280">
+        <time class="published" datetime="2010-05-03T19:28:28-08:00">03 May 2010, 19:28</time>
+      </a>
+      <div class="entry-content"><p>A few more thoughts:  You fail to criticize the limitations of <span class="caps">HTML</span> (many of which exist with HTML5, also).  Try to implement a multi-threading client with a browser today.  Try to do a reliable drag-and-drop UI in <span class="caps">HTML</span>.  Try to handle binary I/O (which is up to 5-10X more performant in many cases compared to <span class="caps">XML</span> or <span class="caps">JSON</span> for large datasets).  Try to handle complex authentication schemes in <span class="caps">AJAX</span> client code.  Try to create an interactive chart in <span class="caps">HTML</span> (with or without Canvas) with &gt; 5000 datapoints on it and decent performance.</p>
+<p>Bash all you want, but there are many use cases for which an <span class="caps">RIA</span> client plug-in, such as Flash, Java or Silverlight, is considerably more capable than <span class="caps">HTML</span> or <span class="caps">HTML</span> 5 will be.  You have to look at the use cases, and avoid generalizations, to avoid coming off looking like a fanboy.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227281">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/42e57550044496027f9a3a4303f13362.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.justincarmony.com/blog/">Justin Carmony</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227281">
+        <time class="published" datetime="2010-05-03T22:25:29-08:00">03 May 2010, 22:25</time>
+      </a>
+      <div class="entry-content"><p>@Mark A.</p>
+<p>I think you might have missed some of the points of this article. But the fact that you missed them also proves the author&#8217;s point.</p>
+<p>When you start have requirements for your application such as multi-threading, binary I/O, data &amp; memory intensive charts, etc. you should move to a platform like Flash/Flex. Having this tool being able to be accessible in a browser, and communicate with data over <span class="caps">HTTP</span> through web services, is a must and you should do that. You are building a &#8220;tool&#8221; that is focusing on being an application, rather than sharing content.</p>
+<p>What the author is criticizing is lumping <span class="caps">EVERY</span> completing technology that runs on the browser as &#8220;the Web.&#8221; His worry is we compromise what the &#8220;Web&#8221; is good at, the sharing of information across a vast web of information, to compete with RIA&#8217;s like Flash, Flex, Silverlight, etc.</p>
+<p>As developers, the web is convenient. Building desktop applications that have to communicate with other applications across all sorts of different internet connections and barriers is painful. When you build a web application, all you worry about is if the person can access <span class="caps">XYZ</span> site over port 80/443 and you are good. So naturally we want to move more to this style of publishing tools for people. But demanding that a website should be able to compete with everything a desktop application, will compromise the very things that make the web great.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227282">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/88c93f54f2a97654af28b508b13721ea.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://cheznick.net">Nick Aubert</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227282">
+        <time class="published" datetime="2010-05-03T23:49:19-08:00">03 May 2010, 23:49</time>
+      </a>
+      <div class="entry-content"><p>Ben, you make a great argument for the web as a way to disseminate content.  But the web today isn&#8217;t just sharing blog entries and static pages.  There are real benefits to running applications over the web rather than on the desktop.  Obviously, creating the best possible UI isn&#8217;t one of them, but on the other hand we have ease of administration and maintenance, cross-platform portability, instant sharing and backup, and plenty more.   Gmail is an obvious example: with browser-based mail I can access my mail from anywhere.  This is a real advantage over an email client that&#8217;s tied to my desktop.  The same goes for Zoho writer, Google docs, the Salesforce applications, and so on.  Even if these things were bound in Flash, they would still offer benefits over client-side desktop applications.  As the browser becomes more capable, it makes sense for applications migrate into the browser rather than run on the OS.</p>
+<p>So yeah, of course it&#8217;s better for web applications to follow open standards and to be browser-neutral rather than locked inside of Silverlight or Flash or whatnot.  But abstracting the desktop away is real progress.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227285">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/94625109e98872cdfadcb47b0426b27c.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Colby Russell</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227285">
+        <time class="published" datetime="2010-05-04T01:01:40-08:00">04 May 2010, 01:01</time>
+      </a>
+      <div class="entry-content"><p>I really enjoyed this post. I captured part of my own thoughts in a short entry to myself in my personal journal last year, partly due to a lot of hype coming (sadly) from the Mozilla Corporation and some bandying about the phrase &#8220;open web&#8221;:</p>
+<p>Screw the &#8220;open web&#8221;</p>
+<p>Give me an accessible web.</p>
+<p>&#8220;Open web&#8221; is now a hollow catchphrase.</p>
+<p>An accessible web necessitates an open web.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227286">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/94625109e98872cdfadcb47b0426b27c.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Colby Russell</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227286">
+        <time class="published" datetime="2010-05-04T01:02:49-08:00">04 May 2010, 01:02</time>
+      </a>
+      <div class="entry-content"><p>Aww. My Textile-formatted comment was stripped.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227287">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/3ab4d3a66e470ce10eb7ec812fab3c46.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="https://singpolyma.net">Stephen Paul Weber</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227287">
+        <time class="published" datetime="2010-05-04T03:01:28-08:00">04 May 2010, 03:01</time>
+      </a>
+      <div class="entry-content"><p>I agree with all of this very much, except that I&#8217;m not sure cross-platform toolkits show that you can&#8217;t make a good cross-platform toolkit.</p>
+<p>Now, it&#8217;s true that 90% of my UI exp is with Qt and <span class="caps">GTK</span> and so I can&#8217;t compare too much, but I have found them (esp Qt) many times easier to use and with nicer results than Cocoa or Win32GUI.  The biggest complaint I hear about cross platform apps is that they don&#8217;t <strong>look</strong> native, but that&#8217;s not the toolkit&#8217;s fault.  The toolkit (if it is sane, which most are these days) use native widgets anyway, so they&#8217;re just a wrapper around native.  What makes them not look native is the design choices devs make.  I can make an ugly Cocoa app and a pretty Qt app, that&#8217;s all up to me and not the toolkit.</p>
+<p>The best rule of thumb, I find, is to design for mac users, because they&#8217;re the only ones who care what it looks like anyway.  No Win32 user is going to complain that the app looks too mac, but mac users will complain about anything they can think of to complain about :)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227288">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/413b472a05f84938979a59d8ac34e8fb.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.universal-interop-council.org">Paul E. Merrell, J.D.</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227288">
+        <time class="published" datetime="2010-05-04T10:33:58-08:00">04 May 2010, 10:33</time>
+      </a>
+      <div class="entry-content"><p>@ &#8220;Standards are supposed to be derived from implementation&#8221;</p>
+<p>You&#8217;ll find many who would argue with that assertion. In practice, that&#8217;s often the path to a &#8220;standard&#8221; with application-specific dependencies; e.g., <span class="caps">ODF</span> and <span class="caps">OOXML</span>. Generally, professional standard developers take the position that implementations should follow standards, rather than being derived from implementations.</p>
+<p>Sometimes there is need for a de facto standard to become a de jure standard. But the best results seem to flow from collaborative development of a standard by those interested in implementing it, with the draft standard&#8217;s features being negotiated and implemented during development. Witness <span class="caps">HTML</span> and <span class="caps">CSS</span>.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227289">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/b3b97488a3a07b280391bcf3abb33c3e.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Yuvamani</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227289">
+        <time class="published" datetime="2010-05-04T12:35:54-08:00">04 May 2010, 12:35</time>
+      </a>
+      <div class="entry-content"><p>Some of the comments you made about flash are wrong</p>
+<p>Lets see</p>
+<p>&#8220;Furthermore there are no native or competing implementations of Flash, nor is the development of Flash open to participation.&#8221;</p>
+<p>Gnash, Scaleform and SWFDec are competing implementations. Somebody even did a limited implementation in javascript</p>
+<p>&#8220;Comments like “Flash is an open specification” is unhelpful too: The page hosting the Flash specification doesn’t specify a license&#8221;</p>
+<p>Another page has this information. As per the open screen project, you can develop a flash player, the only problem is with codec licensing.</p>
+<p>http://www.adobe.com/aboutadobe/pressroom/pressreleases/200804/050108AdobeOSP.html</p>
+<p>Creating flash content has always been allowed. Back when adobe and macromedia were different companies, Adobe released an authoring environment which created flash. And there were other animation programs which wrote into flash.</p>
+<p>I think Flash is as open as a specification !</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227292">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/92c6e8cb5c3ccdf55949d8c1c4575b2f.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.conorwade.com">Conor Wade</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227292">
+        <time class="published" datetime="2010-05-04T22:03:51-08:00">04 May 2010, 22:03</time>
+      </a>
+      <div class="entry-content"><p>I couldn&#8217;t agree more. Sure there are small details one could argue, but I agreement with the sentiment.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227293">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/1721d25deb9e4d538737402ad7d02c9e.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://quietlightfalling.blogspot.com/">Larry Kyrala</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227293">
+        <time class="published" datetime="2010-05-05T00:07:35-08:00">05 May 2010, 00:07</time>
+      </a>
+      <div class="entry-content"><p>Ben, I think your post is awesome.  I&#8217;m thinking along similar lines and responded more fully on my blog site:</p>
+<p>http://quietlightfalling.blogspot.com/2010/05/ben-ward-says-link-to-it.html</p>
+<p>The short version:<br />
+I think presentation and content can be separated more clearly while maintaining the linkability of web content without sacrificing the kick-ass new interfaces that require native support.</p>
+<p>See my post for how.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227296">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/27b9aaca2520d605651e0314c557f662.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Mike</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227296">
+        <time class="published" datetime="2010-05-07T02:27:46-08:00">07 May 2010, 02:27</time>
+      </a>
+      <div class="entry-content"><p>Time for a new vocabulary to express the difference between wep-apps and web content, open and open-like.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227297">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/639fcd5800b026adb8a730378bc3d5cf.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Grover</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227297">
+        <time class="published" datetime="2010-05-07T02:42:58-08:00">07 May 2010, 02:42</time>
+      </a>
+      <div class="entry-content"><p>Another otherwise intelligent person who doesn&#8217;t understand that open and free are not synonyms. By asserting that they are, you&#8217;re committing the very act you&#8217;re decrying here.</p>
+<p>Enjoyable read regardless though. It made me think of a conference I attended last year where Molly H from Opera was going on and on about how the days of <span class="caps">HTML</span> as a document were over, and I kept thinking &#8220;Well gee, that&#8217;s going to surprise an awful lot of people who want to use the web to publish documents.&#8221;</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227298">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/91394c1e5993bd4328a86256bcd0a5ef.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">mdhughes</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227298">
+        <time class="published" datetime="2010-05-07T02:49:40-08:00">07 May 2010, 02:49</time>
+      </a>
+      <div class="entry-content"><p>Local web content and intranet web content are still &#8220;the web&#8221;. They use the same technology, the same linking behavior, the same browsers. They can&#8217;t be reached from an external address, but they are the dark matter that makes up 90% of the Universe.</p>
+<p>The Cult of Open misses this point: The vast majority of software is engineered behind closed doors, and produces real benefits to real people. That it doesn&#8217;t match some religious ideology, that a nerd can&#8217;t read the source code to every app and use every tool without paying a license fee to the people who worked hard to create it, is totally irrelevant to real engineering.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227299">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/0a2ca5eb7134d2198b7c0b7bb22a6364.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">May</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227299">
+        <time class="published" datetime="2010-05-07T02:59:04-08:00">07 May 2010, 02:59</time>
+      </a>
+      <div class="entry-content"><p>For me the web is one big experimental platform, open to whatever people can invent.<br />
+Not something that&#8217;s meant to be codified and put in ideological boxes.</p>
+<p>Your persuit of the one single truth scares me, to be honest. Historically this attitude has never advanced humanity in any way.</p>
+<p>Regards, M</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227300">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/aa48fc5745f8f886dacfd8c641622ef9.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Dave</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227300">
+        <time class="published" datetime="2010-05-07T03:30:30-08:00">07 May 2010, 03:30</time>
+      </a>
+      <div class="entry-content"><p>Steve Jobs never called H.264 &#8220;open.&#8221;</p>
+<p>He called it an &#8220;industry standard.&#8221;  There&#8217;s a difference.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227301">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/5882a88de52f5b9e01ad10d2b9aa64a2.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">David W.</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227301">
+        <time class="published" datetime="2010-05-07T03:51:03-08:00">07 May 2010, 03:51</time>
+      </a>
+      <div class="entry-content"><p>There is a direction you haven&#8217;t really discussed. That is open data being used for proprietary applications. Many if not a majority of the iPhone apps merely take data that is readily available over &#8220;the web&#8221; and redisplay that in a proprietary application.</p>
+<p>This is very similar to mail clients using <span class="caps">POP</span>, <span class="caps">SMTP</span>, and <span class="caps">IMAP</span> to display your email. For example, my email uses Google&#8217;s servers and I could easily use GMail to read my mail, but I prefer to use Apple&#8217;s Mail program.</p>
+<p>What is amazing about this trend is that people are paying money for a proprietary iPhone app that is merely displaying the same information that they could get from the free &#8220;webapp&#8221; itself. That means people really see a value of an application specifically written for their device vs. a works everywhere approach.</p>
+<p>To me, this is the way the world is really going. It&#8217;s not JavaScript, CSS3, etc. It is making data available in a format that anyone can read.</p>
+<p>The problem with Flash is that is that it is heading the wrong way in two directions at once. In a world that is making data more available, Flash hides it inside a proprietary container.</p>
+<p>Yet, at the same time, in a world where customers ware willing to pay for well written, yet proprietary applications that display the same data that&#8217;s freely available on various webpages, Flash attempts to be a write once/read anywhere framework.</p>
+<p>Apple is against Flash because Apple simply doesn&#8217;t want to be dependent upon Adobe blessing whatever device Apple makes before it can be sold. <span class="caps">ARM</span> has complained that the delay in a <span class="caps">ARM</span> Flash client has hurt <span class="caps">ARM</span> based netbook sales (http://bit.ly/aCNTAL). Flash for Android has been delay for almost a year now. WebOS will probably never get a Flash client.</p>
+<p>To that end, Apple is using its mobile webspace muscle to make Flash irrelevant. If you want your webpage to be viewable to iPad and iPhone customers, you have to get rid of Flash.</p>
+<p>I am not sure what Google thinks of the whole thing. ChromeOS is suppose to run only webbased applications using the grabbag of HTML5 framework. The irony is that Apple originally tried the same trick on the iPhone. Jobs got up and proclaimed that you could write applications for the iPhone using <span class="caps">HTML</span> and JavaScript and got roundly booed. Six months later, Apple changed course and introduced the iPhone <span class="caps">SDK</span>.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227302">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/98b898f7e6d5e0a8e729625096839825.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://projectfondue.com">Cyril</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227302">
+        <time class="published" datetime="2010-05-07T04:03:49-08:00">07 May 2010, 04:03</time>
+      </a>
+      <div class="entry-content"><p>Nice one Ben. Just one comment that sprang to mind as I am currently building what would qualify as a web app.</p>
+<p>What makes most &#8220;web apps&#8221; not web-like is that they break the fundamental rules of the web and misuse technology. As you said, one can&#8217;t link <em>into them</em>.<br />
+And that&#8217;s where progressive enhancement normally helps. But not many people give a shit and are instead letting their magical pieces of javascript and other rich media handle stuff like simple <span class="caps">POST</span> and <span class="caps">GET</span> requests.<br />
+I&#8217;m using two cutting-edge awesome pieces of technology to build my app: links and forms. That means every single piece of content, even if it&#8217;s in what looks like a tab, a list or whatever visual element encapsulates it, has a <span class="caps">URL</span>. I can like into all the pieces of my app. It&#8217;s awesome: I&#8217;m close to having a fully functional 1.0 version and didn&#8217;t have to spend any time on quirky UI interactions, non-native usability matters and all the debugging that involves. I sure plan to add fancy javascriptness, but when it will make sense, when the foundations of the app are solid.</p>
+<p>We&#8217;ve talked a lot about progressive enhancement a few years ago but I think it&#8217;s worth hammering it into the heads of the non-believers again and again. If you build for the web, to contribute to it, then use progressive enhancement. Understand that what you are outputting is a document, which can have links and forms in it. Have a go at using just that to start with and you&#8217;ll see it might be surprisingly hard enough to get right. But never will your app have a more solid base.<br />
+Otherwise you&#8217;re just mucking around with web related technology.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227303">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/453ce8e3ecdb2f531402ecb88643c72b.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Dale</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227303">
+        <time class="published" datetime="2010-05-07T04:09:01-08:00">07 May 2010, 04:09</time>
+      </a>
+      <div class="entry-content"><p>This is an excellent piece. I was fuming so hard after Joe&#8217;s tweet rant the other day that I could not form a coherent thought, and it turns out, I didn&#8217;t need to as you were doing it for me.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227304">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/52f4f5f8343fb7e8d7b1a1a722efcfc6.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">don</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227304">
+        <time class="published" datetime="2010-05-07T04:12:39-08:00">07 May 2010, 04:12</time>
+      </a>
+      <div class="entry-content"><p>Gnash, Scaleform and SWFDec are <span class="caps">NOT</span> competing implementations. Gnash is still beta software after a few years of development, SWFDec is all but dead. To determine competing, I think you would have to perform a sort of Turing test on these players, can you tell those implementations apart from Adobe&#8217;s Flash Player? If you can tell the difference, they are not competing.</p>
+<p>The other point is that there is no committee to which an outside party can submit changes to the Flash specification. You can lobby Adobe for changes, but they still control the specification.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227305">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/98b898f7e6d5e0a8e729625096839825.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://projectfondue.com">Cyril</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227305">
+        <time class="published" datetime="2010-05-07T04:26:46-08:00">07 May 2010, 04:26</time>
+      </a>
+      <div class="entry-content"><p>Just to demonstrate my point above: at tis very moment my wife is unable to renew her professional registration because form buttons actually triggered javascript. Then the system keeps saying it&#8217;ll make her postal address public, even though she clearly ticks the &#8220;No&#8221; option. To top it up some bullshit alert popped up about &#8220;System.WebForms.BlahBlahMSBlahBlah&#8221;.<br />
+And that&#8217;s a regulated government website.</p>
+<p>So yeah thanks Ben again for this post. Looks like we all still have a very long way to go to &#8230;.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227306">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/b4133dea1dcccc0f2e965cf68eb0dc84.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">John</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227306">
+        <time class="published" datetime="2010-05-07T04:47:53-08:00">07 May 2010, 04:47</time>
+      </a>
+      <div class="entry-content"><p>Wouldn&#8217;t it suck if this brilliant article was hidden away in an unindexable Flash container?  ;^)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227307">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/39bde984d316d69c707adf8be6649806.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">JulesLt</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227307">
+        <time class="published" datetime="2010-05-07T06:01:10-08:00">07 May 2010, 06:01</time>
+      </a>
+      <div class="entry-content"><p>It&#8217;s such a shame that <span class="caps">SVG</span> has become bundled up in the <span class="caps">HTML</span> 5 brand, because that&#8217;s the one crucial missing content standard &#8211; more so than video to me.</p>
+<p>(Think of all the wasted effort creating bitmap images, and moving them around, due to the lack of good vector support)</p>
+<p>I&#8217;d still disagree on whether H264 is &#8216;open&#8217; &#8211; to me, it is, in the sense of the term used in the late 80s and into the 90s (i.e. the specification is public, and anyone may implement &#8211; provided they pay the piper). It&#8217;s not so different from <span class="caps">USB</span> or Firefire (or Ethernet &#8211; not sure if there are any patents still standing there).</p>
+<p>The definition of &#8216;open&#8217; as patent-free and royalty-free is a relatively new conception, and to a large degree I value practical standardisation.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227308">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e43179e2bc4ffb1f1da20cfeb47a7db9.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://hdwebdesign.org/photography">Michael Benin</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227308">
+        <time class="published" datetime="2010-05-07T06:51:38-08:00">07 May 2010, 06:51</time>
+      </a>
+      <div class="entry-content"><p>Ben~</p>
+<p>Awesome article, really great points made. It makes a good step in the right direction of objectivity when dealing with this issue. I don&#8217;t agree with everything but I certainly respect your view.</p>
+<p>Browser detection really makes this issue a matter of the past. C&#8217;mon how long does it take us developers to whip together a page when we already have the content provided? LoL the hard part is getting the content.</p>
+<p>Now coming from someone who works with Javascript libraries Ajax and jQuery, <span class="caps">CSS</span>, HTML5, and who has just done heavy research on WebGL, I have to admit I <span class="caps">STILL</span> feel <span class="caps">LIMITED</span> compared to developing in Flash AS3. I love the possibilities and it gives me endless amounts of creative control. You will see that Flash will be used to create content in HTML5 as well.</p>
+<p>What we will see is this possibly. Actionscript 3 is fully open sourced and if it isn&#8217;t the web will slowly degrade back from Flash quality and probably make it back there in 5 or 10 years lol. Yea <span class="caps">HTML</span> will allow all those stupid animations and sounds and people will make those multimedia sites again.</p>
+<p>The app store would not exist if it allowed Flash in the browser, (or Silverlight, Java, etc.)</p>
+<p>Anyways, a buddy of mine recenlty made an awesome web app using ajax. It was stolen less than a week later (sorry Brandon.) With Flash you can protect what you make&#8230;</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227309">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/b73477aead5f78dfc01e49f6ae165621.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Welsh</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227309">
+        <time class="published" datetime="2010-05-07T09:09:21-08:00">07 May 2010, 09:09</time>
+      </a>
+      <div class="entry-content"><p>&#8220;most importantly the web is formed where all of that content is linked together. That is what makes it amazing, and that is what defines it.&#8221;</p>
+<p>The term &#8216;web&#8217; should not replace the term &#8216;public domain.&#8217;</p>
+<p>My bank has made my bank account content available through both web browsers and desktop apps.  If the app utilizes <span class="caps">TCP</span>/IP to transfer content over the internet, it is a &#8216;web&#8217; app.  If you want to think of the &#8216;web&#8217; as content that is public and accessible to anyone, I guess it would be better to call my bank&#8217;s browser based app an &#8216;internet&#8217; app&#8230;  but in that case, IE , Firefox and Safari should be called &#8216;internet&#8217; browsers not &#8216;web&#8217; browsers.</p>
+<p>The beauty of &#8216;The Web&#8217; isn&#8217;t just that some but not all of the content is available to everyone who gets online.  At a lower level, the beauty of the web is the infrastructure and API&#8217;s that are making it easier and easier for people to build and use applications that communicate information over an expanding distance (with or without the use of &#8216;web browsers&#8217;).</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227310">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/32833d3ac17df58279c087afe3f7cf92.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://lineoftheday.com">schwabsauce</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227310">
+        <time class="published" datetime="2010-05-07T13:41:09-08:00">07 May 2010, 13:41</time>
+      </a>
+      <div class="entry-content"><p>I really enjoyed this.  It did occur to me towards the end that I don&#8217;t particularly see anything wrong with writing an app that only works on a particular browser (or browsers).  I use different browsers for different things sometimes and I don&#8217;t see why that constitutes a bad practice or an inconvenience.</p>
+<p>I do see it as a sacrifice you make, related to the sacrifice that Steve Jobs won&#8217;t make in letting too much hybridity into his platform.  These issues are related but I think the sacrifice you make in writing a web app with some client-side desktop flavor is much smaller.</p>
+<p>I suppose if WebOS gets popular and ends up being incompatible with the iPad I might end up eating those words.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227312">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/221a0c54922e6d8804f379cfa0020523.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.alexanderclarke.id.au/">Alexander Clarke</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227312">
+        <time class="published" datetime="2010-05-07T17:44:04-08:00">07 May 2010, 17:44</time>
+      </a>
+      <div class="entry-content"><p>You’ve articulated so precisely exactly what I feel about all this new “HTML5” bullshit.</p>
+<p>Sure, there are certain things that work well in the context of the web, like Facebook. But things like 280 Slides make me sick. They are glorified hacks that will never approach the usability, speed, beauty or responsiveness of a real, native desktop application.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227313">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/505544cf0712e3b8352d12b8a17e0a6e.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://measureonce.wordpress.com">Steve</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227313">
+        <time class="published" datetime="2010-05-08T01:49:50-08:00">08 May 2010, 01:49</time>
+      </a>
+      <div class="entry-content"><p>I agree that web technologies will never match desktop (or native) apps in quality. Sometimes this native level of quality is essential and other times it is not and deployability, openness, accessibility, and other web app qualities dominate. It&#8217;s a shame that selection of UI technologies is rarely based on a rational evaluation of these qualities. Instead the decision often comes down to the golden hammer you&#8217;ve used before or the fashionable up-and-comer that promises to solve the problems of its predecessors.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227318">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/ad7dc61d4a05a09808865bbcb45fccfe.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Duv</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227318">
+        <time class="published" datetime="2010-05-09T01:57:49-08:00">09 May 2010, 01:57</time>
+      </a>
+      <div class="entry-content"><p>You know what, I will try to keep this short.</p>
+<p>Given the length and scope of the video debate in &#8216;HTML5&#8217;, I am a little curious as to how the ogg format didn&#8217;t enter this. Given the facts that you presented&#8230; I think I can understand why, even without the massive flaming debate between the two formats&#8230; there is a great need for something to span the divide between what is becoming defacto and what truly abides to the standards at play in the internet.</p>
+<p>I have said this before, lately it seems that those that bet against the internet, and the way that it&#8217;s designed, will do so at their own peril. The little spat between Apple and Adobe seems to highlight this&#8230;  When you look at the arguments both companies present, both view seems to lead to a road that goes nowhere given the way that the internet is disigned currently. In a way, it almost makes me wish for the web to be something like the &#8220;Wild west&#8221; again.</p>
+<p>That said, this is an eleant piece against all the nose around the <span class="caps">HTML</span> debates, WebOS and it&#8217;s future, Apple v.s. Adobe at the monent. And I welcome the new insight on the terms &#8216;open&#8217; and &#8216;web&#8217;.  For that Ben Ward, I thank you.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227321">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e43179e2bc4ffb1f1da20cfeb47a7db9.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://hdwebdesign.org/photography">Michael Benin</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227321">
+        <time class="published" datetime="2010-05-10T03:45:20-08:00">10 May 2010, 03:45</time>
+      </a>
+      <div class="entry-content"><p>http://vimeo.com/10510576</p>
+<p>I think this video would interest a lot of us here.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227327">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/9414c5a580432141b65bd0f290b30276.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://qmduser.com/">Clark Wilkins</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227327">
+        <time class="published" datetime="2010-05-11T22:07:32-08:00">11 May 2010, 22:07</time>
+      </a>
+      <div class="entry-content"><p>A brilliant read &#8211; good composition and well referenced. But I have to wonder if a lot of it makes any difference at all other than to a deskchair Internet philosopher.</p>
+<p>As someone who does write a very involved &#8220;web application&#8221;, &#8220;the web&#8221; is a transport medium &#8211; nothing more. I embrace <span class="caps">CSS</span>, <span class="caps">HTML</span>, Javascript, <span class="caps">PHP</span> and PostgreSQL with the intention to deliver as close to a &#8220;desktop&#8221; experience as I can. I know we can never get there, but we can come close enough that the other things we can do because of &#8220;the web&#8221; overshadow the gloss of a native application. And that, to me, is what the true promise of &#8220;the web&#8221; is. To be able to allow people to work together from very disparate locations using desktops, laptops, mobile devices to connect to each other and share knowledge.</p>
+<p>Absolutely not &#8220;open&#8221; because we&#8217;re talking about sensitive business intelligence, but if you&#8217;re in the group, the use of &#8220;the web&#8221; and &#8220;web standards&#8221; allows us to give you a very nice and useful &#8220;user experience&#8221;.</p>
+<p>And we can update it instantly because we host all of the logic except the JS. So we like these &#8220;frameworks&#8221; like Scriptaculous that let us leverage &#8220;the web&#8221; and create something akin to a desktop experience where the latency is overshadowed by the benefits of ubiquitous networking and knowledge accessibility.</p>
+<p>For us, the new &#8220;open&#8221; is being able to sit down at a standards-compliant browser anywhere in the world, log in, and do our work. We&#8217;re not interested in sharing our financial results with the world, so we&#8217;re not going to make them public-searchable.</p>
+<p>Perhaps we&#8217;re redefining &#8220;the web&#8221; in a way that makes it lose meaning in a sense that&#8217;s important to a purist, but I submit that leveraging &#8220;the web&#8221; and &#8220;open source&#8221; tools to build systems that work <strong>everywhere</strong> is a very deeply important beneficial expansion of the original idea. Which is why I started working in that direction in 1996 and believe it even more strongly today.</p>
+<p>With respect, I think you&#8217;re right that the meanings are changing, but I disagree that they&#8217;re becoming meaningless.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227328">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/600f36cc8a5f7fae4fd3e60ebf8eec1c.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">JJ</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227328">
+        <time class="published" datetime="2010-05-12T06:11:12-08:00">12 May 2010, 06:11</time>
+      </a>
+      <div class="entry-content"><p>Very nice article. Sadly, almost nobody (normal people, you know, the kind that doesn&#8217;t read this kind of stuff) knows or understands what a <span class="caps">URL</span> is or how to copy it and paste it in an email (that&#8217;s why all those &#8216;send to a friend&#8217; links on websites are so popular). And if you don&#8217;t know what you can do with a <span class="caps">URL</span>, then you don&#8217;t do it. So part of this connectivity is lost. <br />
+Or something&#8230; Time to go to bed. But very nice article. I think Tim Berners-Lee would be proud :) It would actually be interesting to see what he had to say about your article :)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227329">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/d5f6074c829ae978ab46d5d6ed2f3ca8.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.medyumca.com/">medyum</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227329">
+        <time class="published" datetime="2010-05-12T17:44:20-08:00">12 May 2010, 17:44</time>
+      </a>
+      <div class="entry-content"><p>And we can update it instantly because we host all of the logic except the JS. So we like these “frameworks” like Scriptaculous that let us leverage “the web” and create something akin to a desktop experience where the latency is overshadowed by the benefits of ubiquitous networking and knowledge accessibility.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227331">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/9dec2f8ed018ccdfd74f506656a9e530.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://docforge.com/wiki/Main_Page">Matt</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227331">
+        <time class="published" datetime="2010-05-13T23:11:46-08:00">13 May 2010, 23:11</time>
+      </a>
+      <div class="entry-content"><p>Well said!</p>
+<p>I think the initial intent of the web is often forgotten: for academics to share and interlink documents.  That&#8217;s it.  Over time we&#8217;ve added more functionality, but at its core it was built to share and relate simple textual information.</p>
+<p>Most desktop-like web applications would be better served on a more appropriate platform.  The main reason they succeed on the web is the ease of distribution to end users.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227332">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/de99b8be7dc829b26a94ceed112cffd7.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.typoclear.nl">Jasper Kennis</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227332">
+        <time class="published" datetime="2010-05-15T23:27:35-08:00">15 May 2010, 23:27</time>
+      </a>
+      <div class="entry-content"><p>This is truly a wonderful article, clearing so much about the problems we&#8217;re facing. And you&#8217;r right in almost every aspect, except for one.</p>
+<p>Web based applications <span class="caps">WILL</span> be part of the &#8220;web&#8221;, as you describe it and like I agree the web should be. And they will trough social media (something you completely missed in this article).</p>
+<p>With the standardization and centralization of information by, in the end, (probably) Facebook and Google, even &#8220;locked away&#8221; content becomes &#8220;open&#8221; again, via services(sorry, some terminology can never be avoided).</p>
+<p>&#8220;<span class="caps">THE</span> web&#8221; and &#8220;web-based applications&#8221; will, in my vision, continue to live side to side, but they will connect more and more. Silk threads will be woven from one to another, in your words. And it will be pretty, I promise;-)</p>
+<p>Even, the accessibility of content that we in the past tented to hide behind login screens will become more accessible trough OAuth or whatever better alternatives are to show up. And browser specific applications can even keep their content accessible trough these same methods.</p>
+<p>Parts of our community are getting frustrated (extremists in both in the Flash and in the html5 camp for example), and we should be very careful to expel certain possibilities of the web as part of it. If we want an open web, we&#8217;re going to need an open mind too.</p>
+<p>We shouldn&#8217;t be too afraid of &#8220;wrong&#8221; products popping up, as if these could dirty our pretty web. We all know bad products won&#8217;t be used, and only the user can tell what a good product is. Ultimately, it will be that very user who will create the web of tomorrow. I say instead of attempting to &#8220;contribute to a better web&#8221;, try whatever you&#8217;d like to try, and <span class="caps">LEARN</span>.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227339">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/df5ed33116bfdc8bd61273c00dfe1db4.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Another Voice</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227339">
+        <time class="published" datetime="2010-05-17T16:30:43-08:00">17 May 2010, 16:30</time>
+      </a>
+      <div class="entry-content"><p>Are you talking about Qt, the C++ toolkit? Well it looks awesome even on Mac OsX.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227358">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/773dea567fc4b5de35b4a9d5807a6511.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Helmudt</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227358">
+        <time class="published" datetime="2010-05-22T04:09:21-08:00">22 May 2010, 04:09</time>
+      </a>
+      <div class="entry-content"><p>And there&#8217;s nothing stopping you from mixing Qt and native/platform-toolkits like Cocoa.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227428">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/78ba67de0e9b2018c1c053d36afcc943.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.eryamanhaliyikama.biz">eryaman hali yikama</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227428">
+        <time class="published" datetime="2010-06-28T15:24:10-08:00">28 Jun 2010, 15:24</time>
+      </a>
+      <div class="entry-content"><p>Time for a new vocabulary to express the difference between wep-apps and web content, open and open-like.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227432">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/1380b49c44bc931136d999fef1640dbf.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.carmenstore.com">bayan giyim</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227432">
+        <time class="published" datetime="2010-07-21T17:18:31-08:00">21 Jul 2010, 17:18</time>
+      </a>
+      <div class="entry-content"><p>I think the initial intent of the web is often forgotten: for academics to share and interlink documents. That’s it. Over time we’ve added more functionality, but at its core it was built to share and relate simple textual information.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

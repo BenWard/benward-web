@@ -1,0 +1,244 @@
+---
+layout: blog
+category: blog
+title: "Online Banking Twenny"
+date: "2006-01-23T22:18:20-01:00"
+updated: "2006-01-23T23:27:02-01:00"
+summary: "I honestly hope that this year we see a bank stand up and say \"here's an online service that's actually integral to the way you work\". At a time when public internet services are sucking up Ajax and open data from party pitchers, I want to know whether online banking is going to make a similar, user-centric leap forward."
+tags: ["all", "feeds", "ajax", "smile", "online-banking", "bills", "finances", "ical", "xml"]
+atomid: http://ben-ward.co.uk/?p=302
+---
+Online Banking is a strange beast. Because it's tied into something as permanent as my bank account, it's unlike any other software on the web: Free from the carefree attitude held by customers of webmail, search engines and blogging CMS that allows them to migrate to a different service every few years when something shinier comes along, online banking keeps customers for many years regardless of technology moving around it.
+
+Frankly, the stagnation is pissing me off.
+
+To clarify, I bank with <a href="http://smile.co.uk">Smile</a>. I took out the account when I started uni and I can't consider moving until after I graduate as I'm now dependent on the overdraft. The thing is, Smile is an <em>internet only</em> bank. So you'd be forgiven for expecting something quite cutting edge from their software. Something special. It's not. It's functional and little more. 
+
+A knock-on effect of online banking being tied into bank accounts is that I've no recent experience with any other provider. I've see over the shoulder of <a href="http://joanslow.com">Jo</a> using Nationwide's service, and it looks superior to Smile, but it's not a revolution away. At a time when public internet services are sucking up Ajax and open data from party pitchers, I want to know whether online banking is going to make a similar, user-centric leap forward.
+
+Think of this post as a wishlist for online banking. One which I'll email to my bank next week and which I'd rather like to hear your thoughts on. Does some other bank already offer it?
+
+Deep breath.
+<!--more-->
+
+h2. Downloadable XML statements.
+
+The core of it all. Open data. Smile's UI for browsing statements is especially poor, it has to be said, but if I could only download the data into a spreadsheet package I could have so much more control than a web UI could realistically offer anyway.
+
+Filtering, grouping, custom date ranges. All very useful. How about being able to link rows of the statement with clients in a separate database (or even just with the address book)? Develop an open standard for distributing financial data (if there isn't already) and the door is open for any number of third party applications to help manage my money. The door is open for some <em>really good</em> applications.
+
+h2. Feeds of statements.
+
+OK, this is also familiar ground. I get all kinds of information from all over the world fed to me through RSS or Atom. But if I want to know if a client has paid me, or if my phone bill has left my account, why do I still need to log into a website to find it?
+
+I wouldn't necessarily want to see my account movements mixed in with the latest news headlines, but it's another form of information distribution that could very neatly tie in with a number of existing desktop tools. Take an existing Dashboard feed reader widget and _pow_, instant desktop account statement. Oh, sorry, was that too easy?
+
+h2. iCalendar
+
+This is what inspired the post, actually. In iCal, I have a calendar to track  my bill payments and direct debits. Some of the entries are only approximate dates; payments can and do vary a bit (avoiding weekends and so forth). Periodically, I might need to manually intervene to tweak my estimate of when a payment is leaving the account. 
+
+However, all these dates are available from my bank. Why can't I subscribe to an iCalendar containing all my upcoming payments for the next two months? If the next payment date is unknown, then the server can dynamically adjust my calendar entries to the date of the most recent payment whenever they're made, giving me more accurate information.
+
+h2. Except, of course�
+
+I can predict a couple of immediate responses to the idea of making online banking more open. Security is a big one. Online Banking remains an extremely paranoid area of the web as regards security. �Back� buttons are disabled, JavaScript is demanded and the log-in routine is often cryptic at best. People will claim that a consumer friendly RSS feed won't be secure enough but there are two key points. Firstly, this is <strong>read-only</strong> data. We're not giving any authorisation to pay any money to anyone. By all means, keep that kind of functionality locked away if you need to. 
+
+But reading data isn't as critical as having all my money stolen. Sure, it's sensitive and it should certainly be an opt-in choice as to whether the data is available at all ,but the risk is still small. As such, it's a risk that I personally would be prepared to take. Furthermore, provide some sort of Flickr-esque authentication of each application that wants to access the data and lock-out the nasties.
+
+Online banking still <em>seems</em> to be considered as a bit of an add-on and a gimmick by the banks providing it. That is, of course, the most stupid viewpoint they could hold. I really hope that I'm wrong and the real situation isn't so clear cut and negative. I honestly hope that this year we see a bank stand up and say "here's an online service that's actually integral to the way you work".
+
+So who do you bank with? Do they come anywhere close? What would you like to see from a 21st century online bank?
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-684">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/41b8489898510b236321bce12d865038.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://akaxaka.gameover.com/">James AkaXakA</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-684">
+        <time class="published" datetime="2006-01-23T23:45:18-01:00">23 Jan 2006, 23:45</time>
+      </a>
+      <div class="entry-content"><p>Good points. Particulary &#8220;Furthermore, provide some sort of Flickr-esque authentication of each application that wants to access the data and lock-out the nasties.&#8221; is a good idea.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-685">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/f7fc42b69df22cb2f1da8ebc19705e54.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://andrewdisley.com">Andrew Disley</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-685">
+        <time class="published" datetime="2006-01-24T00:03:35-01:00">24 Jan 2006, 00:03</time>
+      </a>
+      <div class="entry-content"><p>I bank online with Halifax and as you put it the service is functional and does what it says on the tin.  The only export of data I&#8217;m aware of is previous statements and that&#8217;s only to &#8220;Microsoft Money&#8221; or &#8220;Quicken&#8221; format which are of no interest to me.  I&#8217;m not sure if this is the same with all banks or just the way the check system works,  but being able to see the status of a cheque would be handy.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-688">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/251689727ca3dbf1a4261f8a48b0b179.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.thewatchmakerproject.com/">Matthew Pennell</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-688">
+        <time class="published" datetime="2006-01-24T08:13:26-01:00">24 Jan 2006, 08:13</time>
+      </a>
+      <div class="entry-content"><p>Never going to happen. I work for a bank, one of the first to offer online banking and we had some fairly &#8220;cutting edge&#8221; stuff when we first started, but the data security concerns are just too great to ever consider making things like public feeds available.</p>
+<p>The key to online banking is constant authentication; you must log-in <em>every time</em> you want to access your account. What you&#8217;re talking about is one-time authentication (like Flickr&#8217;s key-based auth), which would be unacceptable to all but the most cavalier online banks.</p>
+<p>The &#8220;it&#8217;s only read-only data&#8221; argument doesn&#8217;t stand up, either. It&#8217;s classified as &#8220;sensitive personal data&#8221; from the point-of-view of the <span class="caps">DPA</span> &#8211; and do you really not mind that much if random people have the chance to see your bank statements? Don&#8217;t forget that they are likely to include other bits of data like your account number and name &#8211; ripe for identity theft.</p>
+<p>I think the <span class="caps">XML</span> (or other open data format) export is a good idea, though. Many banks already offer downloadable statements for Microsoft Money or Quicken, which I guess is not too far away from that. You&#8217;ve got to question how useful <span class="caps">XML</span> would be to the average consumer, though.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-689">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/3ebedf5c16ec3540f4590b64a904ca33.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.exit404.com">Tony Summerville</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-689">
+        <time class="published" datetime="2006-01-24T16:57:46-01:00">24 Jan 2006, 16:57</time>
+      </a>
+      <div class="entry-content"><p>Like Matthew, I work at a bank as well and although I think your requests would be useful, I agree that they probably will never happen.</p>
+<p>For starters, banks simply aren&#8217;t going to make customer data open and available. Even if the bank wanted to and the customer agreed to it, I&#8217;m sure their are plenty of legal ramifications that would prevent it. Besides, you have to remember that you (and I) are in a very small minority. Most people wouldn&#8217;t care about <span class="caps">XML</span> feeds &amp; wouldn&#8217;t know what to do with them anyway.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-690">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-690">
+        <time class="published" datetime="2006-01-24T17:14:43-01:00">24 Jan 2006, 17:14</time>
+      </a>
+      <div class="entry-content"><p>Just to clarify something: My point about �Flickr-esque application authentication� &#8211; where you have to manually add every external application to a whitelist before it can interact with your account &#8211; would be <em>on top of</em> existing <span class="caps">HTTPS</span> based authenication, not instead of.</p>
+<p><span class="caps">XML</span> in itself isn&#8217;t overly useful to anyone, but since Microsoft Excel 2003 can now make something useful out of a raw <span class="caps">XML</span> document, it might not need to be sold as <span class="caps">XML</span>. Ultimately, it can be any open format you like, just let me download my statements and get them into a spreadsheet. That&#8217;s the functionality I want.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-693">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/6db1ac4911d03473d52634c979a18041.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.benedictoneill.com/">Ben O'Neill</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-693">
+        <time class="published" datetime="2006-01-25T19:25:27-01:00">25 Jan 2006, 19:25</time>
+      </a>
+      <div class="entry-content"><p>With NatWest&#8217;s online banking you can download your statements in the following formats:<br />
+- Microsoft Money (<span class="caps">OFX</span>)<br />
+- Microsoft Money &#8217;97 (<span class="caps">OFC</span>)<br />
+- Quicken 2001 (and up) (<span class="caps">OFC</span>)<br />
+- Sage Line 50 (<span class="caps">OFX</span>)<br />
+- <span class="caps">CSV</span></p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-707">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/13734b0cb20708f79e730809c29c3c48.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://allinthehead.com/">Drew McLellan</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-707">
+        <time class="published" datetime="2006-01-30T12:45:57-01:00">30 Jan 2006, 12:45</time>
+      </a>
+      <div class="entry-content"><p>@ Mathew Pennell: If it&#8217;s classified as &#8220;sensitive personal data&#8221;, why are banks so happy to send it out via the one of the most unreliable, unaccountable and insecure delivery mechanisms known to man: post.</p>
+<p>Do you think banks would be worried if periodically users logged into their accounts and were presented with another customer&#8217;s information? Well, that happens daily already as statements and other important documents are routinely delivered to the wrong addresses by Royal Mail. We only really know our neighbours to talk to because we&#8217;re forever swapping misdelivered post. I instructed my bank stop contacting me by post.</p>
+<p>I&#8217;d be much happier reading account information via an encrypted, authenticated feed than have it pass through the hands of dozens of anonymous, unaccountable and incompetent Royal Mail workers.</p>
+<p>There seems to be a general assumption that anything digital is less secure than its real-world counterpart. Frequently this just isn&#8217;t the case.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-745">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/a3af0c7755c36bb7a5ebc4f894e0b9b8.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.meriwilliams.com">Meri</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-745">
+        <time class="published" datetime="2006-02-05T19:04:31-01:00">05 Feb 2006, 19:04</time>
+      </a>
+      <div class="entry-content"><p><span class="caps">HSBC</span> lets you download your transactions into various formats, including Excel. In my experience, Natwest, Abbey and Smile all have pretty crap online banking. <span class="caps">HSBC</span> is a step better and I particularly like Egg&#8217;s, but still have some security concerns around their whole &#8220;Money Manager&#8221; concept&#8230;</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-746">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/a3af0c7755c36bb7a5ebc4f894e0b9b8.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.meriwilliams.com">Meri</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-746">
+        <time class="published" datetime="2006-02-05T19:06:59-01:00">05 Feb 2006, 19:06</time>
+      </a>
+      <div class="entry-content"><p><span class="caps">BTW</span> @ Drew: Completely agree that the whole mail is frankly absurd, but I asked the same question once and was told that opening mail not addressed to you is apparently a criminal act. So if stuff is misdelivered by Royal Mail, it&#8217;s the fault of whoever opens it &#8212; but under the Data Protection Act there is a lot more onus on the bank to make sure that the data is being transferred safely.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-907">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e5641d12e3734d2b2498c2c989963458.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.thesmalls.net">Dave Small</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-907">
+        <time class="published" datetime="2006-03-19T21:30:37+00:00">19 Mar 2006, 21:30</time>
+      </a>
+      <div class="entry-content"><p>Interesting that there are other people &#8216;out there&#8217; on a low miff with Smile&#8217;s banking service. I&#8217;ve been with Smile for years and years, and I love them for many reasons, but they still don&#8217;t have any means of exporting Smile statements into <span class="caps">QIF</span> format (which would make it readable to MS Money and others).</p>
+<p>In desperation (for my own sanity) I created by own at http colon slash slash www dot 4square dot co dot uk slash smile &#8211; it&#8217;s rudimentary, to say the least, but it does allow me to copy/paste my Smile statements into a textbox and then convert them into <span class="caps">QIF</span> format, which does the job for me.</p>
+<p>Feel free to use it&#8230; I&#8217;m not caching anything server-side, in case you were concerned :)</p>
+<p>When I got in touch with Smile on this issue they stated:</p>
+<p>&gt; Currently, smile doesn&#8217;t offer the feature to download your <br />
+&gt; statements directly to a financial package such as Microsoft <br />
+&gt; Money, Quicken or a spreadsheet format.<br />
+&gt; However, thanks for letting us know that it would be of <br />
+&gt; benefit to you. I&#8217;ve passed your feedback on to our <br />
+&gt; development team. We do take all suggestions into account <br />
+&gt; and a lot of the improvements we&#8217;ve made to the site are <br />
+&gt; as a result of customers&#8217; feedback.</p>
+<p>And when I told them I&#8217;d worked out how to do it:</p>
+<p>&gt; I&#8217;m glad you&#8217;ve found a solution. At the moment we&#8217;re <br />
+&gt; working on all the various changes we&#8217;ve got to make <br />
+&gt; to keep up with the banking laws. We&#8217;ve not forgotten <br />
+&gt; your suggestion, but we need to make sure we don&#8217;t <br />
+&gt; get into trouble by neglecting all the rules we have to <br />
+&gt; follow &#8211; which seem to change quite frequently.</p>
+<p>So seems they&#8217;re very busy elsewhere, which doesn&#8217;t surprise me :)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-3765">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/b9e8582c10a465fa0d785d498ab9f992.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://chrisadams.me.uk">Chris Adams</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-3765">
+        <time class="published" datetime="2006-06-14T16:29:53+00:00">14 Jun 2006, 16:29</time>
+      </a>
+      <div class="entry-content"><p>Dave, that smile <span class="caps">QIF</span>-inator is a godsend!</p>
+<p>Thanks for making it &#8211; I use smile, and I love their service, but the lack of any money software integration is really annoying.<br />
+I&#8217;ve been using liquid ledger on my mac to track my finances now, and this is a boon. <br />
+Do you plan to release the source for how it works at all? <br />
+I&#8217;m keen to try modifying it to give more readable output. It would be nice to have a version that would take all uppercase descriptions and capitalise the first word, and lowercase the rest in the field .)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-4481">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/d1133f9b8122e1b50b62844b5048f4c9.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.thesmalls.net">Dave Small</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-4481">
+        <time class="published" datetime="2006-06-25T21:49:36+00:00">25 Jun 2006, 21:49</time>
+      </a>
+      <div class="entry-content"><p>Hi Chris.</p>
+<p>Happy to know it&#8217;s been useful to someone else :)</p>
+<p>Rather than proliferate versions of this tool, I have made the modification you have requested&#8230; there&#8217;s now a checkbox which allows you to select whether or not you want to convert the descriptions to lower case (except for the first letter). Hope this is useful.</p>
+<p>Please let me know if you need any more mods&#8230;</p>
+<p>Dave<br />
+www dot 4square dot co dot uk slash smile</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-30870">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/496c29be59a54e53f43c79d5f9b9b380.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.mutube.com">Martin Fitzpatrick</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-30870">
+        <time class="published" datetime="2006-11-08T12:15:16+00:00">08 Nov 2006, 12:15</time>
+      </a>
+      <div class="entry-content"><p>I use smile myself and after it seeming terribly futuristic when it first started, it really hasn&#8217;t gone anywhere.  Meanwhile all the other banks have caught up. <span class="caps">RBOS</span> for example has the ability to organise your money into multiple mini-accounts.  That way you can split your budget and see at a glance how much you have left for socialising, shopping, etc.</p>
+<p>Problems I&#8217;ve had with smile include&#8230;</p>
+<p>It&#8217;s annoying that requesting hard-copies of statements costs £2.50 and regularly doesn&#8217;t work.  You can&#8217;t even just browse to a statement and select &#8220;Request hard copy&#8221; &#8211; you have to write down the page numbers and enter them elsewhere.  Other requests (e.g. stationary) regularly don&#8217;t turn up also.  When you tell them it&#8217;s assumed it&#8217;s the Royal Mails fault, but when you have a problem with only one company and have moved address with the problem persisting it&#8217;s difficult to buy this.</p>
+<p>Don&#8217;t bother complaining.  When they removed my overdraft without warning and took 2 months to reinstate it I was passed around for days without anything happening. After saying I needed to pay in one months pay, they then changed this to two after the first lot had been paid in (which was promptly swallowed up, leaving me 2 months without an income).  When I tried to complain I was told &#8220;we do not have a complaints department&#8221; and expected to talk it through &#8211; again &#8211; with the same department who weren&#8217;t doing anything.  When I asked to speak to supervisor/manager I was told &#8220;we don&#8217;t have them&#8221;.</p>
+<p>Smile seems happy to rest on it&#8217;s laurels, self-congratulating itself on being &#8220;the best internet bank ever&#8221; (specifically, this relates to being internet-only &#8211; there isn&#8217;t much competition here).  I&#8217;m also a bit tired of being told that 9/10 customers think they&#8217;re great &#8211; needless to say they&#8217;ve never asked me!</p>
+<p>Like you, I&#8217;d switch tomorrow if I didn&#8217;t have the overdraft.  Thankfully I&#8217;ll be clear in a few months &amp; off to try somewhere else.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-39971">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/bb8088065d15f8059834875f98fbcb7d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Barry Powley</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-39971">
+        <time class="published" datetime="2006-11-22T12:43:40+00:00">22 Nov 2006, 12:43</time>
+      </a>
+      <div class="entry-content"><p>Exporting data from Quicken or Money can easily be done using the Report function which allows exporting to <span class="caps">ASCII</span>, Tab delimited and Lotus file formats of any or all data.  Sadly neither of them seem to accept imports of such data.  However they both support .qif files which are, when all is said and done, <span class="caps">ASCII</span> format</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

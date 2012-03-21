@@ -1,0 +1,43 @@
+---
+layout: blog
+category: blog
+title: "Steve Jobs wants my bank balance."
+date: "2005-01-11T20:56:47+00:00"
+tags: ["technology"]
+atomid: tag:benward.me,2005-01-11:/blog/mac_mini
+---
+As a small aside from writing my forthcoming presentation on an accessible internet.
+
+Today, Apple announced the <a href="http://www.apple.com/uk/macmini/" title="Apple Mac Mini">Mac Mini</a>. It's an Apple Mac. But very, very small. It's silver colour. You use your existing screen/keyboard and it costs <span title="340">little more than</span> an <a href="http://www.apple.com/uk/ipod/" title="Apple iPod">iPod</a>. And it's a Mac. A full featured, all singing Mac.
+<dl class="image"><dt>The new Mac Mini</dt><dd><img src="/media/mac-mini.jpg" alt="" /></dd></dl>
+Please, don't even ask if I want one, else I may accidently click the "Buy Buy Buy" button. I <em>really</em> can't afford it. This month.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-230">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/79b63ab9f0ca95c29a8e4f9cb46f166a.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://dk04.com">mookie</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-230">
+        <time class="published" datetime="2005-01-12T20:06:31+00:00">12 Jan 2005, 20:06</time>
+      </a>
+      <div class="entry-content"><p>i want 2! one to stick on a shelf and run a nice little webserver and another to use as a second desktop.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-231">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-231">
+        <time class="published" datetime="2005-01-12T20:36:14+00:00">12 Jan 2005, 20:36</time>
+      </a>
+      <div class="entry-content"><p>Aye. These little machines are going to get picked up for all kinds of little duties like that I recon, as well as being able to introduce home-user types to a cheap PC replacement when they have one Blue Screen of Death too many.</p>
+<p>The temptation is there&#8230;</p>
+<p>Ooooh. </p></div>
+    </article></li>
+  </ol>
+</div></notextile>

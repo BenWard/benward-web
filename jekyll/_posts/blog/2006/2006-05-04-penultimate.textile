@@ -1,0 +1,33 @@
+---
+layout: blog
+category: blog
+title: "Penultimate"
+date: "2006-05-04T11:03:50+00:00"
+updated: "2006-05-04T11:06:37+00:00"
+summary: "On the imminent closure of my life at university."
+tags: ["all", "university", "eras", "exams", "coursework"]
+atomid: http://ben-ward.co.uk/journal/penultimate/
+---
+Something terrifying is about to happen. Tomorrow is my last lecture at the University of Manchester, swiftly followed by the demonstration of my final year project. By midday, all the teaching and coursework for these four years of university will be completed.
+
+I've been a little bit scared of finishing university these last few months, ‘chapters of life’ coming to a close and so forth. But the sheer weight of work I've had to do over just the past two weeks has reminded me how glad I will be to finish and hopefully get a job that I enjoy more of the time. I have to concede that I find some of the more academic parts of the course a little tedious after four years. I think I've become more of a practically minded developer.
+
+After tomorrow I have what amounts to a week off, followed by one three hour exam a week for three weeks. It's a favourable schedule this summer.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-1917">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/13734b0cb20708f79e730809c29c3c48.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://allinthehead.com/">Drew McLellan</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-1917">
+        <time class="published" datetime="2006-05-04T16:24:00+00:00">04 May 2006, 16:24</time>
+      </a>
+      <div class="entry-content"><p>Best of luck with the exams, old chap.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

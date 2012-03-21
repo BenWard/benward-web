@@ -1,0 +1,59 @@
+---
+layout: blog
+category: blog
+title: "Wednesday 31st May 2006"
+date: "2006-05-31T17:30:36+00:00"
+updated: "2006-05-31T17:30:36+00:00"
+tags: ["all", "university", "life"]
+atomid: http://ben-ward.co.uk/journal/finished-univeristy/
+---
+Today I finished <a href="http://www.informatics.manchester.ac.uk" title="The University of Manchester School of Informatics">university</a>. The terror of the rest of my life beckons, but for now I'm just going to play <a href="http://last.fm/user/Shovel/">my music</a> <strong>really loud</strong>.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-3200">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/6db1ac4911d03473d52634c979a18041.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.benedictoneill.com/">Ben O'Neill</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-3200">
+        <time class="published" datetime="2006-06-01T00:02:11+00:00">01 Jun 2006, 00:02</time>
+      </a>
+      <div class="entry-content"><p>Congrats!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-3232">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">IBBoard</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-3232">
+        <time class="published" datetime="2006-06-01T21:22:18+00:00">01 Jun 2006, 21:22</time>
+      </a>
+      <div class="entry-content"><p>Finished Uni? You&#8217;re not one of these lazy people who&#8217;s done all of their exams already, are you? I&#8217;ve got one down and two to go yet!</p>
+<p>Roll on the 7th, the date of my last exam :)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-3333">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/0e7784d9560802cf8adfa8f83fd7101b.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.myrtledene.co.uk">Neil Ford</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-3333">
+        <time class="published" datetime="2006-06-05T18:00:17+00:00">05 Jun 2006, 18:00</time>
+      </a>
+      <div class="entry-content"><p>Ahh, the world of &#8216;work&#8217; is beckoning. My commiserations to you sir.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-3710">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/357875643926d50246bb4fca3c086dd0.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.flickr.com">ky</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-3710">
+        <time class="published" datetime="2006-06-13T20:39:17+00:00">13 Jun 2006, 20:39</time>
+      </a>
+      <div class="entry-content"><p>Finishing Uni is not the end, there is hell of a lot waiting for you to discover. Get going. Ky.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

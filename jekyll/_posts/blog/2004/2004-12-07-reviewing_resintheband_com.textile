@@ -1,0 +1,57 @@
+---
+layout: blog
+category: blog
+title: "Reviewing ResinTheBand.com"
+date: "2004-12-07T09:07:18+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2004-12-07:/blog/reviewing_resintheband_com
+---
+Following my recent work on the website for <a href="http://www.resintheband.com" title="Resin">Resin</a>, I came across <a href="http://www.43folders.com/2004/12/five_mistakes_b.html" title="43 Folders: Five Mistakes Band &amp; Label Sites Make">Five Mistakes...</a> about designing band sites. It's an interesting read, makes some interesting points <em>and</em> confirms that I need to rethink the navigation. Jo raised concerns over whether the 'popout' style of the nav menus was really any good and I've been pondering the same before and since, especially in the light of having found other and <em>worse</em> implementations of 'drop down' navigation at work.
+
+Ergo, there may be some kind of update over Christmas to fix these issues -- apart from the one about the designer's portfolio... ;)
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-224">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/dc17387f19d96d6aeb53a0a9a02418dd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.jonty.me.uk/">Jonty</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-224">
+        <time class="published" datetime="2004-12-07T09:52:25+00:00">07 Dec 2004, 09:52</time>
+      </a>
+      <div class="entry-content"><p>I have to say I quite like pop-out menus, <span class="caps">CSS</span> ones at any rate.</p>
+<p>Javascript menus, pretty as they are, I can understand for not being liked. If users do not have Javascript enabled, or there&#8217;s a Javascript error on the page, then they&#8217;re left with a sub-par experience.</p>
+<p><span class="caps">CSS</span> menus get around this by usually degrading very nicely, and by requiring no scripting. The only problem is that 90%+ of users won&#8217;t be able to experience them as intended, but that aside, they&#8217;re still rather clever. Moreover, users with visual impairments are likely to be using screen-readers or text-only versions of a page, which again are enhanced by CSS&#8217;s degradability.</p>
+<p>The only problem with drop-down menus which truly annoys me is when they close to soon, or fail to open at all. Whilst Javascript can compensate for this, <span class="caps">CSS</span> sadly cannot. Still, you can&#8217;t have everything :)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-223">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-223">
+        <time class="published" datetime="2004-12-07T10:06:42+00:00">07 Dec 2004, 10:06</time>
+      </a>
+      <div class="entry-content"><p>The problem is not so much the implementation &#8211; I remain immensely proud of the the elegant <span class="caps">CSS</span> implementation I&#8217;ve used. The problem is accessibility.</p>
+<p>While the popup menus are nice to look at, they hide important menu items. I think my choice of top-level headings is good, aided by it being only a small site, but ultimately if you go to the site wanting to hear their music, you have to look for the navigation, rather than have &#8220;MP3 Downloads&#8221; obvious from the outset. In that respect, the Internet Explorer (degraded) version may actually be superior.</p>
+<p>Second level headings, not that there are any right now, would/should be popout menus I think, but I think I need to make more effort to make obvious the items that people really want (as the linked blog suggests).</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-222">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/dc17387f19d96d6aeb53a0a9a02418dd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.jonty.me.uk/">Jonty</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-222">
+        <time class="published" datetime="2004-12-07T12:21:35+00:00">07 Dec 2004, 12:21</time>
+      </a>
+      <div class="entry-content"><p>That&#8217;s a good point, Ben, but I wouldn&#8217;t dismiss the menus out of hand just because of organisation. I agree that there needs to be a balance between logical hierarchical order and simplicity, but perhaps a quick links/favourites section may be apt?</p>
+<p>On many sites you&#8217;ll see a formal navigation system then, somewhere immediately obvious, a few select links to popular items (&#8216;Contact&#8217; etc.).</p>
+<p>I&#8217;m not saying such duplication is right, or right for you, but it does help solve certain problems.</p>
+<p>Good luck with whatever you decide :)</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

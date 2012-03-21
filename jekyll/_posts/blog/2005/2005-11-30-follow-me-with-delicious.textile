@@ -1,0 +1,52 @@
+---
+layout: blog
+category: blog
+title: "Follow me�"
+date: "2005-11-30T02:26:08-01:00"
+updated: "2005-12-18T15:27:28-01:00"
+summary: "An exercise in internet stalking and comment tracking."
+tags: ["all", "delicious", "blogging", "comments", "tagging", "tracking"]
+atomid: http://ben-ward.co.uk/?p=279
+---
+I'm still trying to suss out a reliable, CMS independent way of tracking the comments I've made. It's a step back in terms of automation, but using a <a href="http://delicious.com">Delicious</a> tag seems functional at least - and it lends itself a quick and dirty Bookmarklet too.
+
+I've not integrated any feeds into the site yet, and won't have time to for a little bit, but if you want to see what's got me talking, you can find it <a href="http://del.icio.us/BenWard/@commented-on">tagged with @commented-on</a>.
+
+Edit: The bookmarklet I speak of is a simple modification of the standard Delicious "Add to Delcious" affair, and looks like this:
+
+<pre><code>javascript:location.href='http://del.icio.us/USERNAME?v=3&url='
+  + encodeURIComponent(location.href)
+  + '&title='+encodeURIComponent(document.title)
+  + '&tags=@commented-on'
+</code></pre>
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-592">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/98234c645fe8c935edc0fec0186d28b8.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://morethanseven.net">gareth</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-592">
+        <time class="published" datetime="2005-12-11T23:44:14-01:00">11 Dec 2005, 23:44</time>
+      </a>
+      <div class="entry-content"><p>Excellent idea. I&#8217;d briefly thought about the problem and promptly forgotten about it until I came across your solution. Thanks. I&#8217;ve posted about it too &#8211; I can see a couple of interesting apps if a few people started using it.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>
+
+<notextile><div class="pingbacks hfeed" id="pingbacks">
+  <h2>Pingbacks</h2>
+  <ul>
+    <li class="hentry" id="pingback-799">
+      <a rel="bookmark" class="entry-title" href="http://eightface.com/log/2006/01/22/comment-this/">Comment this // eightface</a>
+    </li>
+  
+    <li class="hentry" id="pingback-801">
+      <a rel="bookmark" class="entry-title" href="http://eightface.com/log/2006/02/14/comment-this/">Comment this // eightface</a>
+    </li>
+  </ul>
+</div></notextile>

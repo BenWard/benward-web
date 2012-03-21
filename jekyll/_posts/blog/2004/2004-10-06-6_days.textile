@@ -1,0 +1,9 @@
+---
+layout: blog
+category: blog
+title: "6 days..."
+date: "2004-10-06T01:18:14+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2004-10-06:/blog/6_days
+---
+... into the month of October and I've blogged something on 4 of those days. Sure this is some kind of important record? Heck, the two I missed were only void due to me leaving the house to have a real life. Now if only I had something useful to say.

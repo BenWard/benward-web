@@ -1,0 +1,15 @@
+---
+layout: blog
+category: blog
+title: "Snippets"
+date: "2008-09-02T08:22:31-01:00"
+updated: "2008-09-02T08:22:31-01:00"
+summary: "Since I'm a failure at regular blogging, I'm pushing microblogging instead. At least then I can only micro-fail, and at scale you're really just talking about some minor disappoint that can be solved with ice cream."
+tags: ["all", "microblogging", "pownce", "tumblr"]
+atomid: http://ben-ward.co.uk/?p=467
+---
+Facing facts, I don't blog. Not much. When I do it's in sporadic bursts between periods of being very busy and periods of being disinterested. That's opposed to having some gloriously valuable essay is permanent percolation.
+
+That is not to say I don't think of things, though, and in the interests of actually exposing them, I'm going to make better effort to post them in an oh-so-trend-although-actually-it's-been-trendy-for-ages-now-I'm-just-late-to-the-party microblogging fashion. Two options are apparent. <a href="http://tumblr.com">Tumblr</a>, which I've previously only used for secret emo outpouring during a frankly unpleasant time in my life, or <a href="http://pownce.com">Pownce</a>, which I've never quite nailed down the niche for. Tumblr is pretty, and flexible and maps to my own domain, so I'm trying that first: <a href="http://snippets.ben-ward.co.uk">snippets.ben-ward.co.uk</a> is alive (give or take a few hours for DNS propagation).
+
+Within a few minutes of setting it up though, I'm immediately wondering if Pownce, with its desktop and iPhone apps, support for images and Fire Eagle integration might be a better choice. I might switch over quite quickly.

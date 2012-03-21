@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml2/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" >
+<head>
+	<title>The TCP Header</title>
+	<meta name="author" content="Ben Ward"/>
+	<meta name="copyright" content="&copy; 2004 Joseph Marsh, Adam McArdle, Nicholas McGovern, James Rutter, Ben Ward, Christopher Wright" />
+	<meta name="description" content="The TCP Header &raquo; An interactive diagram and information page in XHTML and CSS."  />
+	<meta http-equiv="Content-Type" content="charset=ISO-8859-1; application/xhtml+xml;" />
+
+    <link rel="stylesheet" href="style/tcp_diagram.css" media="all" title="Enhanced Super Interactive Style" type="text/css" />
+	
+	<link rel="copyright" href="#footer" title="Copyright Information" type="application/xhtml+xml" />
+    <link rel="home" href="index.xht" title="Homepage" type="application/xhtml+xml" />
+
+	<script type="text/javascript">
+	<![CDATA[
+		// DOM Control Script for interactive diagram behaviour
+		// Vars
+		var justCollapsed = false; 
+		  // set this when collapsing cells to stop them immediately reopenning
+
+		// Function to handle cell clicking
+		function cellClick(cell) {
+						 if(!justCollapsed) {
+						 						 collapseAll();
+						 						 if(cell.className.indexOf("expCell")<0) expand(cell);
+						 }
+						 else {
+						 		 justCollapsed = false;
+						 }								 
+		}
+		function collapseClick(obj) {
+						 collapse(obj.parentNode.parentNode)
+						 justCollapsed = true; 
+						 // added to stop cells reopenning on close. Can cause need for double click to open next cell.
+		}
+  	// Function to expand cell
+		function expand(cell) {
+						 cell.className = cell.className.replace(/cell/,'expCell');
+		} 
+		// Function to collapse a cell
+		function collapse(cell) {
+						 cell.className = cell.className.replace(/expCell/,"cell");
+		}
+		
+		// Collapse all cells
+		function collapseAll() {
+						 // traverse the #diagram DOM tree
+						 var d = document.getElementById("diagram");
+						 var cells = d.getElementsByTagName('div');
+ 						 for(var c=0;c<cells.length;c++)
+						 	  if(cells[c].className.indexOf("expCell") >= 0) 
+								  collapse(cells[c]);
+		}
+		]]>
+  </script>
+</head>
+<body>
+<div id="bodytext"><h1>The TCP Header</h1>
+
+<!-- Here follows is the TCP Header digram, implemented in degraded XHTML. CSS adds layout to match the image version -->
+<!-- class="diagram_row" is for each row of the diagram -->
+<!-- class="cell" is the container for each diagram cell. It responds to click events and adds the shadow -->
+<!-- class="btt" is the link for "Back To Diagram" (formerly "Back To Top") -->
+<!-- when in CSS mode, "btt" closes the current cell (using DOM) -->
+<h2>A guide to the TCP Header Diagram:<a id="top">&nbsp;</a></h2>
+
+<div class="screen-hide">
+ <object data="images/diagram.png" type="image/png" title="The TCP Header" class="fs">
+   <p><em>Please refer to Data and Computer Communications - 7th Edition (William Stallings) 
+   				Figure 20.10 "TCP Header", or view this <a href="images/diagram.png">copy</a>.</em></p>
+ </object>
+</div>
+
+<div id="diagram">
+<!-- <div class="diagram_row"> -->
+ 			<!-- Source Port -->
+			<div id="cell_sourceport" class="cell" onclick="cellClick(this);">
+			  <div>
+				 <a href="#top" title="Back To Diagram" onclick="collapseClick(this);"><object data="images/arrow.png" type="image/png" class="btt">
+				  <p>Back To Diagram</p>
+				 </object></a>
+			   <h3>Source Port</h3>
+					<p>A port is a virtual entity to allow simultaneous TCP services to operate 
+					on the same physical hardware.  The Source port will be variable and assigned 
+					by the client browser or Operating System.</p>
+					<p><small><a href="detail.xht#Port" title="Read More Detail">More...</a></small></p>
+				</div>
+			</div>
+			<!-- Destination Port -->
+			<div id="cell_destinationport" class="cell" onclick="cellClick(this);">
+			  <div>
+				 <a href="#top" title="Back To Diagram" onclick="collapseClick(this);"><object data="images/arrow.png" type="image/png" class="btt">
+				  <p>Back To Diagram</p>
+				 </object></a>
+				 <h3>Destination Port</h3>
+				 <p>A port is a virtual entity to allow simultaneous TCP services to operate on the same physical hardware.  The destination port will be dependant on the server.</p>
+				 <p><small><a href="detail.xht#Port" title="Read More Detail">More...</a></small></p>				 
+				</div>
+			</div>			
+ <!-- </div>
+ <div class="diagram_row"> -->
+ 			<!-- Sequence Number -->
+			<div id="cell_seqnum" class="cell" onclick="cellClick(this);">
+			  <div>
+				 <a href="#top" title="Back To Diagram" onclick="collapseClick(this);"><object data="images/arrow.png" type="image/png" class="btt">
+				  <p>Back To Diagram</p>
+				 </object></a>
+				 <h3>Sequence Number</h3>
+				 <p>Identifies the first byte of data in which the segment represents. If a connection is established (i.e. SYN flag is set) the sequence number for the first byte is the sequence number +1.</p>
+				</div>
+			</div>			
+ <!-- </div>
+ <div class="diagram_row"> -->
+ 			<!-- Acknowledgement Number -->
+			<div id="cell_acknum" class="cell" onclick="cellClick(this);">
+			  <div>
+				 <a href="#top" title="Back To Diagram" onclick="collapseClick(this);"><object data="images/arrow.png" type="image/png" class="btt">
+				  <p>Back To Diagram</p>
+				 </object></a>
+      	 <h3>Acknowledgement Number</h3>
+      	 <p>Identifies the next sequence number that the sender expects to receive. This field is only used if the ACK (acknowledgement) flag is set.</p>
+				</div>
+			</div>			
+ <!-- </div>
+ <div class="diagram_row"> -->
+ 			<!-- Data Offset -->
+			<div id="cell_dataoffset" class="cell" onclick="cellClick(this);">
+			  <div>
+				 <a href="#top" title="Back To Diagram" onclick="collapseClick(this);"><object data="images/arrow.png" type="image/png" class="btt">
+				  <p>Back To Diagram</p>
+				 </object></a>
+          <h3>Data Offset</h3>
+          <p>The number of 32-bit words in the TCP header.</p>
+				</div>
+			</div>			
+			<!-- Reserved -->
+			<div id="cell_reserved" class="cell" onclick="cellClick(this);">
+			  <div>
+				 <a href="#top" title="Back To Diagram" onclick="collapseClick(this);"><object data="images/arrow.png" type="image/png" class="btt">
+				  <p>Back To Diagram</p>
+				 </object></a>
+				 <h3>Reserved</h3>
+				 <p>Reserved for future use. Not used at the present time.</p>
+				</div>
+			</div>			
+			<!-- URG -->
+			<div id="cell_urg" class="cell smallcell" onclick="cellClick(this);">
+			  <div>
+				 <a href="#top" title="Back To Diagram" onclick="collapseClick(this);"><object data="images/arrow.png" type="image/png" class="btt">
+				  <p>Back To Diagram</p>
+				 </object></a>
+				 <h3><span class="vert">U</span><span class="vert">r</span><span class="vert">g</span><span class="trim">ent</span></h3>
+				 <p>When set to 1 informs the receiver that the following data contains urgent data, and that the Urgent Pointer field contains valid data. If this pointer is set to 0, then the Urgent Pointer field is ignored.</p>
+				</div>
+  		</div>			
+			<!-- ACK -->
+			<div id="cell_ack" class="cell smallcell" onclick="cellClick(this);">
+			  <div>
+				 <a href="#top" title="Back To Diagram" onclick="collapseClick(this);"><object data="images/arrow.png" type="image/png" class="btt">
+				  <p>Back To Diagram</p>
+				 </object></a>
+				 <h3><span class="vert">A</span><span class="vert">c</span><span class="vert">k</span><span class="trim">nowledgement</span></h3>
+				 <p>When set to 1 tells the receiver that acknowledgement of receipt is required. this is usually set to 1</p>
+				</div>		
+			</div>	
+			<!-- PSH -->
+			<div id="cell_psh" class="cell smallcell" onclick="cellClick(this);">
+			  <div>
+				 <a href="#top" title="Back To Diagram" onclick="collapseClick(this);"><object data="images/arrow.png" type="image/png" class="btt">
+				  <p>Back To Diagram</p>
+				 </object></a>
+				 <h3><span class="vert">P</span><span class="trim">u</span><span class="vert">s</span><span class="vert">h</span></h3>
+				 <p>When set to 1 instructs transmitter to send all outstanding data</p>
+				</div>			
+			</div>
+			<!-- RST -->
+			<div id="cell_rst" class="cell smallcell" onclick="cellClick(this);">
+			  <div>
+				 <a href="#top" title="Back To Diagram" onclick="collapseClick(this);"><object data="images/arrow.png" type="image/png" class="btt">
+				  <p>Back To Diagram</p>
+				 </object></a>
+				 <h3><span class="vert">R</span><span class="trim">e</span><span class="vert">s</span><span class="trim">e</span><span class="vert">t</span></h3>
+				 <p>When set to 1, reset the connection</p>
+				</div>		
+			</div>	
+			<!-- SYN -->
+			<div id="cell_syn" class="cell smallcell" onclick="cellClick(this);">
+			  <div>
+				 <a href="#top" title="Back To Diagram" onclick="collapseClick(this);"><object data="images/arrow.png" type="image/png" class="btt">
+				  <p>Back To Diagram</p>
+				 </object></a>
+				 <h3><span class="vert">S</span><span class="vert">y</span><span class="vert">n</span><span class="trim">chronised</span></h3>
+				 <p>When set to 1, synchronise sequence numbers</p>
+				</div>		
+			</div>	
+			<!-- FIN -->
+			<div id="cell_fin" class="cell smallcell" onclick="cellClick(this);">
+			  <div>
+				 <a href="#top" title="Back To Diagram" onclick="collapseClick(this);"><object data="images/arrow.png" type="image/png" class="btt">
+				  <p>Back To Diagram</p>
+				 </object></a>
+				 <h3><span class="vert">F</span><span class="vert">i</span><span class="vert">n</span><span class="trim">ished</span></h3>
+				 <p>When set to 1 no more data from sender</p>
+				</div>			
+			</div>
+			<!-- Window -->
+			<div id="cell_window" class="cell" onclick="cellClick(this);">
+			  <div>
+				 <a href="#top" title="Back To Diagram" onclick="collapseClick(this);"><object data="images/arrow.png" type="image/png" class="btt">
+				  <p>Back To Diagram</p>
+				 </object></a>
+				 <h3>Window</h3>
+				 <p>The Window field is used in flow control, in order to ensure that the sender does not send too much data for the receiver to keep up with. The field is 16 bits long, and contains the number of data octets relative to the sequence number in the Acknowledgement Number field, that can be sent.</p>
+				 <p><small><a href="detail.xht#Window" title="Read More Detail">More...</a></small></p>				 
+				</div>			
+			</div>
+ <!-- </div> 
+ <div class="diagram_row"> -->
+ 			<!-- Checksum -->
+			<div id="cell_checksum" class="cell" onclick="cellClick(this);">
+			  <div>
+				 <a href="#top" title="Back To Diagram" onclick="collapseClick(this);"><object data="images/arrow.png" type="image/png" class="btt">
+				  <p>Back To Diagram</p>
+				 </object></a>
+				 <h3>Checksum</h3>
+				 <p>The checksum of the TCP header is an error detection method.  If the sum of the 16 bit words of the message is not zero then the message can be considered to have lost its integrity during transfer.  This method can not correct the data; only tell if it has lost its integrity.</p>
+				 <p><small><a href="detail.xht#Checksum" title="Read More Detail">More...</a></small></p>
+				</div>			
+			</div>			
+			<!-- Urgent Pointer -->
+			<div id="cell_urgpoint" class="cell" onclick="cellClick(this);">
+			  <div>
+				 <a href="#top" title="Back To Diagram" onclick="collapseClick(this);"><object data="images/arrow.png" type="image/png" class="btt">
+				  <p>Back To Diagram</p>
+				 </object></a>
+				 <h3>Urgent Pointer</h3>
+				 <p>The 16-bit urgent pointer is used to inform the receiver how much urgent information is being sent. It is added to segment sequence number to give the last segment of urgent data.</p>
+				</div>			
+			</div>			
+ <!-- </div> 
+ <div class="diagram_row"> -->
+ 			<!-- Options And Padding -->
+			<div id="cell_opt" class="cell" onclick="cellClick(this);">
+			  <div>
+				 <a href="#top" title="Back To Diagram" onclick="collapseClick(this);"><object data="images/arrow.png" type="image/png" class="btt">
+				  <p>Back To Diagram</p>
+				 </object></a>
+				 <h3>Options &amp; Padding</h3>
+				 <p>TCP options are used to convey further information in TCP headers. Currently there are 26 defined options and they fall into two classes; single octet and multi-octet options. An example TCP option defined, specifies the Maximum Segment Size (MSS) and consists of an option indicator (value 2 octet) followed by a data length octet (defined as value 4). The next two octets specify the actual MSS value itself.</p>
+				 <p>TCP options may be separated by a NOOP (No-Operation) octet, defined as value 1. It is used to pad options to a word (32bit) boundary. Finally, the TCP options are terminated by an &lsquo;End of Option List&rsquo; octet (value 0).</p>
+				 <p>Padding is simply a sequence of zeros at the end of the TCP header. It ensures that the packet data is aligned to the start of a 32bit (word) boundary</p>
+				</div>			
+			</div>			
+ </div> 
+
+<div id="footer">
+  <p>This website was authored by <a href="http://www.ben-ward.co.uk" title="Ben Ward">Ben Ward</a>
+	 with content edited by Jim Rutter. All content &copy;2004 Joseph Marsh, Adam McArdle, Nicholoas
+	 McGovern, James Rutter, Christopher Wright &amp; Ben Ward except for 
+	 <em>The TCP Header Diagam [diagram.png]</em>, taken from Data and Computer Communications - 7th Edition 
+	 (William Stallings) &copy;Pearson Education.<br />
+	 These pages were produced as coursework for the CT211 Networking &amp; Open Systems module at 
+	 <a href="http://www.umist.ac.uk" title="UMIST Homepage">UMIST</a>, Manchester.</p>
+	<p><a href="http://www.w3c.org" title="World Wide Web Consortium">W3C Web Standards</a> Compliant: 
+  <a href="http://validator.w3.org/check/referer" title="W3C XHTML Validator">XHTML 1.1</a>, 
+	<a href="http://jigsaw.w3.org/css-validator/validator?profile=css2&amp;warning=2&amp;uri=http://benward.studentssocial.co.uk/projects/tcpheader/style/tcp_header.css" title="W3C CSS Validator">CSS 2.1</a></p>
+</div>
+
+</div></body>
+</html>

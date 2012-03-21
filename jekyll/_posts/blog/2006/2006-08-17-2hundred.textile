@@ -1,0 +1,30 @@
+---
+layout: blog
+category: blog
+title: "2Hundred"
+date: "2006-08-17T16:53:23+00:00"
+updated: "2006-08-17T16:53:23+00:00"
+tags: ["all"]
+atomid: http://ben-ward.co.uk/journal/2hundred/
+---
+<p class="vevent">I'm awful at drawing attention to milestones on my blog. I don't see an awful lot of importance or relevance in doing so, but would anyway if I were to remember. I missed the first <span class="summary">blog anniversary</span>, and the second too (<abbr class="dtstart" title="2004-07-21">July 21st</abbr>) but pretty much by accident, I spotted the post count in Wordpress sitting at 199.</p>
+
+So this is it. Two hundred posts published on Ben-Ward.co.uk. Quality… variable.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-13642">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/db918075a9a56e36671b41563979d23f.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.collylogic.com">Colly</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-13642">
+        <time class="published" datetime="2006-08-29T22:03:42+00:00">29 Aug 2006, 22:03</time>
+      </a>
+      <div class="entry-content"><p>Happy belated Benday!!!</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

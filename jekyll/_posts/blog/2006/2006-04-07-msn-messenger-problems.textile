@@ -1,0 +1,412 @@
+---
+layout: blog
+category: blog
+title: "MSN Messenger Username Change Problems"
+date: "2006-04-07T11:34:44+00:00"
+updated: "2007-06-10T13:07:40+00:00"
+tags: ["all", "identity", "im", "msn-messenger", "broked"]
+atomid: http://ben-ward.co.uk/journal/msn-messenger-problems/
+---
+A few weeks ago as I changed my Gmail/Google Talk address over to my preferred ‘talk@ben-ward.co.uk’ Jabber account (which is hosted on <a href="http://www.dreamhost.com/">Dreamhost</a>). Someone told me at the time that I could change my MSN Messenger address too and that it would magically transfer across all my contacts…
+
+Well, I updated my <a href="http://www.passport.com">Passport</a> and that too should now identify me as ‘talk@ben-ward.co.uk’ (it was formerly ‘msn@ben-ward.co.uk’). It <em>did</em> claim that all my contacts would be transferred over to the new address but seeing as every single MSN messenger contact went offline after I made the change, I'm  a little unconvinced.
+
+I will attempt to fix it at this end, but if you're wanting to get hold of me you may just want to save waiting and add <strong>talk@ben-ward.co.uk</strong> to your contact list.
+
+<strong>Update</strong>: Having completely rebuilt my contact list it seems to be working again. I heartily recommend against renaming your MSN Passport.
+
+<strong>Update</strong>: Since writing this post I get a lot of people adding me to their MSN list asking for help with changing their username, password, email address the works. I'm not really an expert on such matters and as of March 17th 2007 I discovered that Microsoft have changed their <a href="http://account.live.com">Account Settings</a> page such that it only displays fully in Internet Explorer 6 on Windows. I run a Mac and so have no instant access to IE6. I'm afraid this means I'm no-longer able to provide any advice on working with Live Accounts, Passports, MSNs or whatever Microsoft rebrand them to next week. Thanks.
+
+<strong>Update</strong>: If you've arrived here from XBox.com or a search engine looking for help changing your MSN username or password, you need to know that this isn't a support forum, nor was this entry really written as a ‘how to’ piece. Since I get so many comments asking for help though, you should check the following links:
+
+* <a href="https://account.live.com/">Manage your MSN Messenger, Passport, Windows Live Account</a>
+
+Log in to account.live.com and you'll be presented with an Account Summary dashboard. From there, you can click ‘change’ next to your account username (email address) or click ‘change’ next to the asterisks representing your password.
+
+Note that <strong>you cannot change your Live ID username (email address) if you use a Hotmail account</strong>. If you want a different sign-in name and use Hotmail to log in now, you need to register a new account.
+
+* <a href="https://account.live.com/ChangePasswordDL.aspx">Direct link to change your MSN Messenger, Passport, Live ID Password</a>
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-1090">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/abc50d59ef1ac8472737483abc7d870d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Adam</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-1090">
+        <time class="published" datetime="2006-04-08T11:02:25+00:00">08 Apr 2006, 11:02</time>
+      </a>
+      <div class="entry-content"><p>According to michelle, who still uses the <span class="caps">MSN</span> client, your profice changes seamlessly. She just asked &#8220;why has Ben changed his email address?&#8221;</p>
+<p>So it looks like its something that only works on the default client.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-1097">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">IBBoard</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-1097">
+        <time class="published" datetime="2006-04-08T15:27:36+00:00">08 Apr 2006, 15:27</time>
+      </a>
+      <div class="entry-content"><p>Gaim wasn&#8217;t so happy when I just started it up. I&#8217;ve got your new talk@ben-ward.co.uk address in my contacts list, but it also errored and told me that msn@ben-ward.co.uk wasn&#8217;t a valid <span class="caps">MSN</span> passport.</p>
+<p>Just goes to show &#8211; don&#8217;t trust Microsoft, especially when it comes to successfully migrating data!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-1110">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/ece7235b7b178d0dc81c6ed7378e6a7b.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://spaces.msn.com/beardmasterflex">Alexander</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-1110">
+        <time class="published" datetime="2006-04-09T12:19:21+00:00">09 Apr 2006, 12:19</time>
+      </a>
+      <div class="entry-content"><p>Benny bear, long time no speak my fuzzy friend!</p>
+<p>It should work fine, i changed mine to my gmail account and as you say, everyone did go offline. It took a day or so for it to fix itself as people slowly came back online. I think it requires people to accept the re-request to add the new address before they will be visible online.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-1132">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/8e0293544b13499460369217e2a7febd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://charlvn.za.net">Charl van Niekerk</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-1132">
+        <time class="published" datetime="2006-04-10T15:00:05+00:00">10 Apr 2006, 15:00</time>
+      </a>
+      <div class="entry-content"><p>Interesting. I migrated my mom a while ago and never had any problems. She was on my contact list and I never got bugged for anything. Seems to have gone seamless.</p>
+<p>We were both using the &#8220;official&#8221; <span class="caps">MSN</span> Messenger client from Microsoft on Windows at that time. This was somewhere towards the end of last year.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-1133">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-1133">
+        <time class="published" datetime="2006-04-10T15:54:32+00:00">10 Apr 2006, 15:54</time>
+      </a>
+      <div class="entry-content"><p>Hey Charl, it does seem that the official client is able to handle the changeover gracefully. I guess it happens so rarely that the 3rd party developments haven&#8217;t ever tested it.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-1611">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/08523c31e4293e4ed669e13a66c2012f.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.msn.com">Emma Paterson</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-1611">
+        <time class="published" datetime="2006-04-26T11:40:36+00:00">26 Apr 2006, 11:40</time>
+      </a>
+      <div class="entry-content"><p>how do you change your password on msn</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-1745">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-1745">
+        <time class="published" datetime="2006-04-30T01:08:37+00:00">30 Apr 2006, 01:08</time>
+      </a>
+      <div class="entry-content"><p>Emma, if you log in to the <a href="http://www.passport.com" rel="nofollow">Microsoft Passport</a> website, and click ‘Credentials’ you&#8217;ll find the option to change your email address and/or password.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-2359">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/7b8d6407b6995b23c412d110d46f29c8.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://krazykatja.com">katja</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2359">
+        <time class="published" datetime="2006-05-14T08:05:52+00:00">14 May 2006, 08:05</time>
+      </a>
+      <div class="entry-content"><p>my msns trobleshooter keeps saying key ports with an exclamtion mark in front of it. It is hard 2 sign in now !</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-2360">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/7b8d6407b6995b23c412d110d46f29c8.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://krazykatja.com">katja</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2360">
+        <time class="published" datetime="2006-05-14T08:06:48+00:00">14 May 2006, 08:06</time>
+      </a>
+      <div class="entry-content"><p>what 2 do ?</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-2463">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/5ba071a5cfc15c7a154114e995761f7f.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">danny</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2463">
+        <time class="published" datetime="2006-05-16T21:50:32+00:00">16 May 2006, 21:50</time>
+      </a>
+      <div class="entry-content"><p>allright</p>
+<p>my msn is not signing me in lately it says the service is temporairily unavalaible or something like that and i was wondering how to get rid of it because my brothers account an everything works it just seems to be mine help me please</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-2464">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2464">
+        <time class="published" datetime="2006-05-16T22:17:30+00:00">16 May 2006, 22:17</time>
+      </a>
+      <div class="entry-content"><p>Katja &amp; Danny: I&#8217;m not much of a definitive source on debugging and fixing <span class="caps">MSN</span> messenger problems. In retrospect I should probably have given this entry a less ambiguous title!</p>
+<p>That said, I can advise that if you&#8217;re having connection problems and can&#8217;t work out whether it&#8217;s your computer configuration or Microsoft that&#8217;s in the wrong, you could try logging into <span class="caps">MSN</span> using <a href="http://meebo.com" rel="nofollow">Meebo</a>. It&#8217;s an <span class="caps">MSN</span> client that runs inside your web browser. If that works, then you&#8217;ve got something wrong at your end.</p>
+<p>Unfortunately if there is a problem at your end then I don&#8217;t know what to recommend to fix it, sorry!</p>
+<p>Ben</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-3236">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/be76047983df6300b622e32d327941d2.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">KAREN</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-3236">
+        <time class="published" datetime="2006-06-02T00:16:04+00:00">02 Jun 2006, 00:16</time>
+      </a>
+      <div class="entry-content"><p><span class="caps">ALL</span> I <span class="caps">WANTED</span> <span class="caps">WAS</span> TO <span class="caps">JUST</span> <span class="caps">LOG</span> <span class="caps">ONTO</span> <span class="caps">MSN</span> <span class="caps">MESSENGER</span> <span class="caps">WITHOUT</span> <span class="caps">HAVING</span> TO <span class="caps">DOWNLOAD</span> IT</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-13002">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/37d1d923c62f48e40751f0f4ac39e067.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">kesha</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-13002">
+        <time class="published" datetime="2006-08-26T18:13:21+00:00">26 Aug 2006, 18:13</time>
+      </a>
+      <div class="entry-content"><p>how do u change ur name nxt to were it ses onlineand ur name it wnt mak me click on2 it</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-30382">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/3f3e3ff6b7a5762e03207dad99ebf30f.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Aljaz</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-30382">
+        <time class="published" datetime="2006-11-07T17:44:40+00:00">07 Nov 2006, 17:44</time>
+      </a>
+      <div class="entry-content"><p>How do i change my e-mail adress?</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-52823">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/8a3b0c60f20e7d63b2a9e007bbd11cf5.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Layla</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-52823">
+        <time class="published" datetime="2006-12-10T16:58:13+00:00">10 Dec 2006, 16:58</time>
+      </a>
+      <div class="entry-content"><p>How do i change my password</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-54396">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/df3b15e7b528371a6348acc5d2523364.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">lauren</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-54396">
+        <time class="published" datetime="2006-12-30T20:22:59+00:00">30 Dec 2006, 20:22</time>
+      </a>
+      <div class="entry-content"><p>i want to change my email name <br />
+cause when i send emails it&#8217;s comes up with lozzy&#8230;&#8230;<br />
+but i want to to say lauren plz help</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-54811">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/488d01a56bf2640830756aae3eebf7ee.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Jessica</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-54811">
+        <time class="published" datetime="2007-01-17T00:55:00+00:00">17 Jan 2007, 00:55</time>
+      </a>
+      <div class="entry-content"><p>I need to change my e-mail adress cos I live in France and don&#8217;t like having &#8220;.co.uk&#8221; would prefer &#8220;.com&#8221;. Please help. Thanks a lot, Jess.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-55239">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/c39b787bd44fa6eef456b4a3ff82f98b.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">dave jacobson</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-55239">
+        <time class="published" datetime="2007-02-04T10:09:34+00:00">04 Feb 2007, 10:09</time>
+      </a>
+      <div class="entry-content"><p>my msn messenger keeps cutting out &#8211; it reconnects for a few minutes or sometimes ten or so minutes then it disconnects. I have uninstalled it and reinstalled but it is still the same anybody offer any help? Thanks</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-55406">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/a472ebaa5dbc3f1fbda12f44b5ccd37a.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://francescajarman95hotmail.co.uk">francesca</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-55406">
+        <time class="published" datetime="2007-02-11T20:24:26+00:00">11 Feb 2007, 20:24</time>
+      </a>
+      <div class="entry-content"><p>im moving abroud and would like to change my email address to .com as i have .co.uk so please help thanks fran</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-55818">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e7edee54122ecffae0913ffdf26a50fe.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Suzi x</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-55818">
+        <time class="published" datetime="2007-02-23T16:32:47+00:00">23 Feb 2007, 16:32</time>
+      </a>
+      <div class="entry-content"><p>hiya i want to change my msn password as loada people no it and keep going on it but i don&#8217;t want them to. so how do i change it???? x</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-57616">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/73490c9f357f4eb4055611e2aef470d9.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://msn">kayliegh</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-57616">
+        <time class="published" datetime="2007-03-27T20:06:33+00:00">27 Mar 2007, 20:06</time>
+      </a>
+      <div class="entry-content"><p>i read how u change ur password and e-mail adress and i does it so i try 2 log in and it still oesent work</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-57622">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-57622">
+        <time class="published" datetime="2007-03-27T21:37:33+00:00">27 Mar 2007, 21:37</time>
+      </a>
+      <div class="entry-content"><p>Hi Kayliegh, I&#8217;m afraid — as the update in my post says — that I&#8217;m really not an expert on setting up <span class="caps">MSN</span> or Passport or Live! accounts. This was just one little feature of the old <span class="caps">MSN</span> Passport service to change the email address I use to log in to <span class="caps">MSN</span> messenger. I really do know nothing more.</p>
+<p>Since then, Microsoft have completely revamped their page so I don&#8217;t even know where any of the relevant edit profile pages are any more.</p>
+<p>Sorry!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-58036">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/32f1252cb7b98cff4055490290bbda14.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Amy</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-58036">
+        <time class="published" datetime="2007-04-04T14:03:08+00:00">04 Apr 2007, 14:03</time>
+      </a>
+      <div class="entry-content"><p>how do u change ur password on msn and can u change co.uk to com !</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-58047">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-58047">
+        <time class="published" datetime="2007-04-04T20:07:07+00:00">04 Apr 2007, 20:07</time>
+      </a>
+      <div class="entry-content"><p>Amy — I don&#8217;t know what the current process is for changing your Hotmail password, but I&#8217;m certain that you won&#8217;t be able change a co.uk to a .com automatically. amy@hotmail.com and amy@hotmail.co.uk two <strong>completely different</strong> addresses. Just as amy@yahoo.com and amy@gmail.com are also completely different addresses, .com and .co.uk is just the same. The only way to get a .com address rather than co.uk is to register a new Hotmail account.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-58120">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/be892706e28ada3882155744548118c1.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">john</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-58120">
+        <time class="published" datetime="2007-04-06T13:30:01+00:00">06 Apr 2007, 13:30</time>
+      </a>
+      <div class="entry-content"><p>how do u change your password on msn live</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-63071">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/23a963c170090b73120915514e460c22.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://niallburnscfchotmail.co.uk">niall burns</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-63071">
+        <time class="published" datetime="2007-05-16T17:34:38+00:00">16 May 2007, 17:34</time>
+      </a>
+      <div class="entry-content"><p>can u help me i ned 2 change my password</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-65343">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/ec75c80116656209cfb1a2fe2a2488e7.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Zelda Finch</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-65343">
+        <time class="published" datetime="2007-05-23T22:00:33+00:00">23 May 2007, 22:00</time>
+      </a>
+      <div class="entry-content"><p>Hi im Zelda, on msn i Have a Very Easy Secret Question and have had hackers hacking into my account and have got into my bebo account<br />
+ive never seen how easy it is to hack into msn untill now. <br />
+i Need too change my secret question so i can stop these hackers please help me<br />
+all the best<br />
+zelda x<br />
+im counting on you<br />
+too help me thanks x</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-68699">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/058a1e5bc758a0703c7f291c5a71b502.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">ishy</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-68699">
+        <time class="published" datetime="2007-06-01T15:05:33+00:00">01 Jun 2007, 15:05</time>
+      </a>
+      <div class="entry-content"><p>hi i need your help somone has changed my msn i dident iven no plz help me am counting on you u thanx<br />
+safe</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-69505">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/257911fff6c1c1667ae278653463b8ee.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Beau</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-69505">
+        <time class="published" datetime="2007-06-03T19:38:18+00:00">03 Jun 2007, 19:38</time>
+      </a>
+      <div class="entry-content"><p>Hii x<br />
+Can Youu please Tell Mee How To Change My Msn Password As People Are Hacking onto My account. Thanks. Please Reply asap. x Beau</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-70217">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/01e97d7f7b0fb99e4879f2d22896a1a0.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Shelley</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-70217">
+        <time class="published" datetime="2007-06-05T14:18:45+00:00">05 Jun 2007, 14:18</time>
+      </a>
+      <div class="entry-content"><p>hi i need to hcnage my password coz sumone keeps signing into it on a diffrent account how do i do this? x</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-83752">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/9181ac8b7a97256ff583b1203701c283.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">tahlia</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-83752">
+        <time class="published" datetime="2007-06-07T18:00:22+00:00">07 Jun 2007, 18:00</time>
+      </a>
+      <div class="entry-content"><p>how do you change your hotmail address that is if you can ? pls help thank you x</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-84154">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-84154">
+        <time class="published" datetime="2007-06-07T20:22:58+00:00">07 Jun 2007, 20:22</time>
+      </a>
+      <div class="entry-content"><p>I think I need to update this post with some definitive links to Live Messenger functions… Perhaps tomorrow.</p>
+<p>@tahlia: Unfortunately you can&#8217;t change the username of a Passport/Live ID which is also a Hotmail account. That&#8217;s a long running limitation of Hotmail Live IDs. Only bet is to create a new one, sadly.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-85094">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/92cb18faac989bf885b38523175af37c.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">jessica</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-85094">
+        <time class="published" datetime="2007-06-08T06:23:25+00:00">08 Jun 2007, 06:23</time>
+      </a>
+      <div class="entry-content"><p>hello uuuuuuuummmmmmmmm how do i change my msn email password only and leave msn the same</p>
+<p>plz tell me</p>
+<p>xoxox</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-85096">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/92cb18faac989bf885b38523175af37c.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">jessica</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-85096">
+        <time class="published" datetime="2007-06-08T06:27:21+00:00">08 Jun 2007, 06:27</time>
+      </a>
+      <div class="entry-content"><p>how do i change my password for msn email</p>
+<p>plz help people are going on  my email for messenger</p>
+<p>xoxox</p>
+<p>plz help</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-92297">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/47ddce915738a9a4f1783b08046763c1.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">jamie</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-92297">
+        <time class="published" datetime="2007-06-10T10:47:09+00:00">10 Jun 2007, 10:47</time>
+      </a>
+      <div class="entry-content"><p>how can i change my password?? please help people !!!</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

@@ -1,0 +1,67 @@
+---
+layout: blog
+category: blog
+title: "Felt a bit arty"
+date: "2005-03-03T11:50:26+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2005-03-03:/blog/livemark_tshirt
+---
+Feeling a bit arty this evening I did a T-Shirt design based on the excellent "LiveMarks" icon from <a href="http://www.getfirefox.com" title="Mozilla Firefox">Mozilla Firefox</a>. I'm quite a fan of XML feeds and the potential for the technology's use in different forms of data syndication (Microsoft SharePoint, I'm calling you out - again).
+<img src="/media/WellFed.png" alt="T-Shirt design based on Firefox's LiveMarks icon" /> 
+As a T-Shirt I'll admit it is, well, rather nerdy. It would mean wandering around wearing the icon from a computer program on my chest. But it is a <em>very</em> cool icon. To be honest, I think it fits into a similar vein to the too-cool-for-words set of designs that <a href="http://www.panic.com/goods/" title="Panic Software Shop">Panic now sell</a>.
+
+Needless to say, I shan't be wandering around in it tomorrow because my printer has decided to spit red ink over everything that comes near it. Another day.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-242">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/8e0293544b13499460369217e2a7febd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://charlvn.blogspot.com">Charl van Niekerk</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-242">
+        <time class="published" datetime="2005-03-04T16:42:12+00:00">04 Mar 2005, 16:42</time>
+      </a>
+      <div class="entry-content"><p>Not too shabby&#8230; Not too shabby at all!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-243">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/79b63ab9f0ca95c29a8e4f9cb46f166a.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.dk04.com/jono">Jono</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-243">
+        <time class="published" datetime="2005-03-04T17:26:57+00:00">04 Mar 2005, 17:26</time>
+      </a>
+      <div class="entry-content"><p>i like it.. but it just reminds me of the apple airport icon.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-2192">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/a5ef84c6347a45a91ef7dd5a76601a13.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.graphicalwonder.com">Shane Perran</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2192">
+        <time class="published" datetime="2006-05-11T18:11:43+00:00">11 May 2006, 18:11</time>
+      </a>
+      <div class="entry-content"><p>I have to ask:<br />
+(Microsoft SharePoint, I’m calling you out – again)</p>
+<p>What are you talking about exactly?  What are you calling out? :)</p>
+<p>This is obviously old &#8211; and long before the news that V3 has <span class="caps">RSS</span> built in? :)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-2193">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2193">
+        <time class="published" datetime="2006-05-11T18:21:50+00:00">11 May 2006, 18:21</time>
+      </a>
+      <div class="entry-content"><p>Hi Shane,</p>
+<p>The ‘again’ was a bit of a in-joke for the benefit of <a href="http://nascentguruism.com" rel="nofollow">Steve Marshall</a>. The blog readership was much lower when this was written, I&#8217;d never considered it being much of a talking point!</p>
+<p>The story is essentially that 14 months ago Steve and I worked for a company that&#8217;d just attempted a rather substantial Sharepoint deployment. It was imposed on us for the purposes of bug tracking and quite low-level task management. We found the experience absolutely torrid: The lack of full Firefox support, the grotesque <span class="caps">HTML</span> that prevented user-side customisation, clunky UI (form submit buttons at the <em>top</em> of pages, when the forms required significant scrolling) and the one referenced here, the lack of feeds in that version of Sharepoint.</p>
+<p>I don&#8217;t doubt they&#8217;ll have improved in the Office 12 Edition, if only because they couldn&#8217;t possibly have made it worse.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

@@ -1,0 +1,137 @@
+---
+layout: blog
+category: blog
+title: "The Backward State of Society"
+date: "2007-12-24T01:33:41+00:00"
+updated: "2007-12-24T01:37:41+00:00"
+tags: ["all", "identity", "rants", "identity-theft", "banks", "government", "politics"]
+atomid: http://ben-ward.co.uk/journal/identity/
+---
+The weeks roll by and those of us in the UK are <a href="http://news.bbc.co.uk/1/hi/uk/7158688.stm">slowly</a> <a href="http://news.bbc.co.uk/1/hi/uk_politics/7104368.stm">but</a> <a href="http://news.bbc.co.uk/1/hi/uk_politics/7127951.stm">inevitably</a> <a href="http://news.bbc.co.uk/1/hi/uk/7123285.stm">discovering</a> that everybody in the country is actually in possession of everybody else's confidential information; all of which was accidentally printed onto the inside of seventy-five million packets of Kellogg's Rice Krispies. I'm more aware than ever of the technological generation gap. It's growing rapidly and the haves and have-nots in technical competence are heading for a clash.
+
+It's not just the fact that information isn't really as secure or competently handled as we pretend it is. Social networking is encouraging people to share vast quantities of information about themselves that no-one would ever have had access too before. Facebook especially has successfully given people a sense of security through granularity in the amount of information they share with their different networks of friends.
+
+The problem is the reaction of the establishment to this casual whoring of personal details. Insurance companies, banks and Credit Card issuers are stepping out to tell us that we're <em>doing it wrong</em>. Prematurely middle-aged men sternly tell us that sharing so much information on the internets leaves us vulnerable to so called ‘identity theft’. Identity theft is obviously awful; especially at Christmas time. No-one realises the horrible reality until they wake up in the body of their next door neighbour's cat, paralysed by shock, fear and a severe flea infestation. Meanwhile the real Puss has collapsed against a back alley wall of Pets At Home, wasted on a binge cocktail of Whiskers, Felix, Pro Plus and your soul itself. All paid for in your name.
+
+But such short-sighted advice is not going to get us anywhere. The horse has bolted and modern culture is already open. As it spreads through the technophile community, it will become normal. Like everything else published on the internet, telling people not to do something after the fact is ineffective. It didn't work for the music industry and I can't see it working for anything else.
+
+Services — banks, governments and so forth — are supposed to fit the people who make up the society in which they operate. When society goes through a change in attitudes, those services should adapt to reflect the people that they exist for.
+
+It's that which makes this situation backward. The servant is telling us off, trying to scare us into compliance with RSPCA enraging horror stories of feline identity splicing. Nation-wide poster campaigns of bunnies with shotguns and Daily Mail leaders of guinea pigs funding international terrorism (and stealing the jobs of hard-working, white, British terrorist backers) cannot be far behind.
+
+But that message is wrong and should be resisted. If my identity is impersonated because someone pieces together a profile of me from information on the internet, then the safeguards of the organisations who validate my identity are broken. If it is the case that society has decided to share their keys, then it is up to the banks, governments and insurance companies to change their locks. It is for them to fix their broken models, not for us to hold back or regress an evolving society to accommodate bad servants.
+
+If that means logging into an online banking service takes a little longer, then so be it. The inconvenience of additional validation to protect identity is moot when compared to the detriment of preventing an entire generation of people from interacting with each other as freely as they wish.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-224071">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e6e984d5209d0fd381fae0d78c4d0302.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.mattrobin.com">Matt Robin</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-224071">
+        <time class="published" datetime="2007-12-29T16:57:10+00:00">29 Dec 2007, 16:57</time>
+      </a>
+      <div class="entry-content"><p>What a refreshing post from you Ben (I mean, in comparison to other people on the Web)&#8230;I have to leave a comment because, well, it would be rude not to!</p>
+<p>I totally agree with the suggestion raised in the final paragraph: I think tighter validations are the way to go, and despite the added time, it would be worth it. <br />
+What I find a bit at odds with all of this data theft, is the simultaneous rise of a likely OpenID &#8211; a universal id value of sorts, a master-key for multiple sites and&#8230;oh, just one way of getting in to varied personal data on multiple sites instead of the more elaborate, multiple ways at the moment.  I mean, if my identity and a set of passwords is hacked for one site, at the moment, then it&#8217;s likely to only impact the data held at that one site, but if we start using one id for a whole bunch of stuff (although easier for us &#8211; the user) it also gives identity thieves a much larger haul of potential data too&#8230;which seems far worse <span class="caps">IMO</span>!   I&#8217;m back to favouring the stricter validating process and &#8216;changing&#8217; the locks&#8217; suggestion!!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-224180">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/17ad3d59ad6d141b258643cf53b0fdec.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Stuart</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-224180">
+        <time class="published" datetime="2008-01-02T21:22:48+00:00">02 Jan 2008, 21:22</time>
+      </a>
+      <div class="entry-content"><p>&#8220;Social networking is encouraging people to share vast quantities of information about themselves that no-one would ever have had access too before.&#8221;</p>
+<p>Which is the reason why the vast majority of people who know me online (through Dawn of War and other things) know me only as my online handle. Even if they email me and use their name, I still use my handle (with a couple of exceptions for people I know comparatively well, work with quite a bit, and who have earned my respect).</p>
+<p>I generally try to keep my handle and my name separate (with an extra effort over the past year or so to remove the references on my site where I&#8217;ve been less cautious). A WhoIs lookup would have rendered that null and void if I hadn&#8217;t opted out of showing details on .uk domains and got 1 year free privacy protection on the .coms.</p>
+<p>Talking of which, any chance you can strip some info from some old comments if I email you? ;) :D</p>
+<p>&#8220;If it is the case that society has decided to share their keys, then it is up to the banks, governments and insurance companies to change their locks. It is for them to fix their broken models, not for us to hold back or regress an evolving society to accommodate bad servants.&#8221;</p>
+<p>Yes and no, really. Yes, everyone and his dog shouldn&#8217;t be using &#8220;what is your mother&#8217;s maiden name?&#8221; as the security question, but at the same time then people really shouldn&#8217;t be dumb enough to give some of this information out.</p>
+<p>I keep having mixed feelings. I&#8217;ve moved house and it was worryingly easy to change some bank details &#8211; no confirmation of identity, just various details off bank cards/statements read over the phone. Similar situation with changing subscription addresses &#8211; I didn&#8217;t know subscriber numbers, so they look me up in the database and change it for me.</p>
+<p>On the other hand I&#8217;ve tried to open a bank account in Manchester and been asked for photo ID and a bill. If I didn&#8217;t drive and I hadn&#8217;t been out of the country then I wouldn&#8217;t have any photo ID, which they didn&#8217;t seem to have much of an answer for when I commented. Generally, all of the bills are in the wife&#8217;s name rather than mine. That leaves something as simple as a bank account rather difficult to get hold of.</p>
+<p>At the same time, though, I have a credit card with Halifax and that had added protection in the form of some sign-up thing that asks you for a code when you buy with &#8220;extra secure&#8221; retailers. I got it when we were down in Bracknell and have used it once while we were down there. I went to buy something with another &#8220;extra secure&#8221; retailer in the past week or so and I didn&#8217;t have a clue what I&#8217;d set it as.</p>
+<p>When I use some secure information so infrequently then what are the chances of me remembering it? And if I write it down then that just makes it recorded and losable.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-224181">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e18bbcd3c247d26919e3c699e5ea7181.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-224181">
+        <time class="published" datetime="2008-01-02T21:54:13+00:00">02 Jan 2008, 21:54</time>
+      </a>
+      <div class="entry-content"><p>Right, but my point is that sharing the name of place I was born, or tagging pictures of people with their maiden names is not ‘dumb’.</p>
+<p>In fact, whilst there are tens of thousands of inept individuals dragging down society in the months between series of Big Brother, I object to calling anyone dumb for telling the world about themselves. I think it&#8217;s socially very healthy, and it&#8217;s completely unreasonable for lazy companies and government to hold back society because they have weak identity validation and won&#8217;t invest in improvements as society evolves.</p>
+<p>This is tangential, but whilst it&#8217;s obviously your choice to obscure your identity, I will say that finding an alias in a <code>From:</code> field really grinds my gears. It&#8217;s a form of <em>personal</em> communication, after all.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-224182">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e18bbcd3c247d26919e3c699e5ea7181.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-224182">
+        <time class="published" datetime="2008-01-02T21:59:51+00:00">02 Jan 2008, 21:59</time>
+      </a>
+      <div class="entry-content"><p>Matt: Your point about OpenID is an interesting one. But the problem you describe is one of implementation.</p>
+<p>OpenID might be the key to a service, but you needn&#8217;t make it the only key to your service. What&#8217;s stopping you (a service provider) from protecting sensitive personal or social information with additional passwords.</p>
+<p>OpenID is a key enabler of portable social networks, and every new service should support it as it becomes a means of maintaining contact lists between multiple services. But that doesn&#8217;t mean your entire service has to be unlocked with it.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-224223">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/17ad3d59ad6d141b258643cf53b0fdec.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Stuart</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-224223">
+        <time class="published" datetime="2008-01-03T11:28:34+00:00">03 Jan 2008, 11:28</time>
+      </a>
+      <div class="entry-content"><p>Considering how the Internet is home to millions, if not billions, of unknown individuals then it depends how happy you are sharing that information and how you share it.</p>
+<p><span class="caps">TBH</span> I can&#8217;t think of anywhere that has wanted my place of birth as security. Tagging a photo with a maiden name isn&#8217;t dumb either, as it is complex information that needs a lot of effort and deduction to associate. Posting &#8220;I&#8217;m Fred Bob Blogs of 29 Acacia Avenue, Nuttytown. My mum is&#8230;&#8221; and making it easily scrapeable is the problem.</p>
+<p>Besides, it isn&#8217;t as if the information was completely secure before social networking. You want to find out my mother&#8217;s maiden name? Find my birth certificate to get my parent&#8217;s names then my parent&#8217;s wedding certificate. It might involve a bit of work, but then so would discovering the information from image tags.</p>
+<p>As for having an alias in a &#8220;from&#8221; field, yes it is personal communication but the majority of people who email me know me from my websites and the forums I visit. On those then the person I am is my handle, and the person they are personally communicating is the person who goes by that name. It&#8217;s like people who have a first name they don&#8217;t like &#8211; in personal circles everyone knows them by their middle name, but in professional circles they may be known by their first name. I just use the most relevant alias for the context.</p>
+<p>If the banks etc didn&#8217;t use maiden names and other questions as confirmation of identity (especially over the phone) then what information do you think would be suitable that wouldn&#8217;t (like my Halifax/Visa credit card password/code) be forgotten because it is hardly used?</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-224552">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e18bbcd3c247d26919e3c699e5ea7181.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-224552">
+        <time class="published" datetime="2008-01-09T15:26:01+00:00">09 Jan 2008, 15:26</time>
+      </a>
+      <div class="entry-content"><p>Whether the information is scrapeable or not isn&#8217;t the issue, though. Lots of information in the same place makes it <em>easier</em> to automate or perform on a large scale, but it&#8217;s still possible to gather the information to impersonate an identity from tags and so forth. I think it&#8217;s fair to say that the services who broker our identity are not here to serve ‘most people’, they must serve <strong>everyone</strong>, including those whose identities might be explicitly targeted.</p>
+<p>If internet practice has made it possible to piece together certain pieces of information, then that information is out there. So, I&#8217;d follow it is no-longer safe to rely on only that information to validate identity. If it&#8217;s not safe to validate identity with certain information, there should be no social pressure not to publish the information more openly.</p>
+<p>That brings the problem right back around to where I started. The locks are already broken. We&#8217;re being told not to publish the information, rather than the services updating the broken methods of validation. Your argument, Stu, results in most people&#8217;s information being slightly more obscured than otherwise, but does not actually make things any more secure. The security is all in the hands of the service provides, so they should fix it.</p>
+<p>At the end of the day, producing a more robust system costs them money which I&#8217;m certain they&#8217;d sooner not spend. In fact, so long as they can scare enough people into keeping their details locked in jewellery boxes in a bank safe, it may even be that the insurance cost of a small number of people cracking into their systems on an assumed identity is lower than the cost of developing and deploying a better system.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-224553">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e18bbcd3c247d26919e3c699e5ea7181.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-224553">
+        <time class="published" datetime="2008-01-09T15:36:04+00:00">09 Jan 2008, 15:36</time>
+      </a>
+      <div class="entry-content"><p>And in perfect harmony, via <a href="http://adactio.com/journal/1398" rel="friend met" rel="nofollow">Jeremy Keith</a>, <a href="http://www.youtube.com/watch?v=CS9ptA3Ya9E" rev="vote-for" rel="nofollow">That Mitchell &amp; Webb Sound &#8211; Identity Theft</a>.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-224762">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Stuart</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-224762">
+        <time class="published" datetime="2008-01-14T20:28:20+00:00">14 Jan 2008, 20:28</time>
+      </a>
+      <div class="entry-content"><p>But if the information has already been available via other means before technology and &#8216;social networking&#8217; took off then scrapability is still relevant. If the information has always been available then it has always been a problem and the security has been broken from the start.</p>
+<p>I think it all comes down to if the system is &#8220;foolproof&#8221;. If you <em>need</em> to have access to something then it must be foolproof (or have a fallback to let you back in). Unfortunately the world has far too many fools of too high a grade for complex systems of IDs and PINs for everything.</p>
+<p>With any form of identification proof in a lot of situations (i.e. where it can&#8217;t be done &#8216;there and then&#8217;) then you end up with a cycle of &#8220;he has to prove his identity, so he needs something more secure that we can trust like a <span class="caps">PIN</span>, but to have something we can trust he must prove his identity we need to get it to him, but to get it to him then we need to know his address, but to know his address and know he <em>actually lives there</em> we need to confirm it is him at that address, but to confirm it is him at the address we have to prove his identity, so he needs something more secure&#8230;&#8221;</p>
+<p>I&#8217;m still interesting in what alternatives you think there are that could withstand the majority of humanity. I&#8217;d also like to see the level of detail you tag your images with so that your mother&#8217;s maiden name can be fairly easily extracted in a manner that is consistent enough that the identity thieves wouldn&#8217;t get caught (or locked down) trying the possible variations.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

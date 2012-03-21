@@ -1,0 +1,88 @@
+---
+layout: blog
+category: blog
+title: "I too am Yahoo!"
+date: "2007-05-06T12:05:07+00:00"
+updated: "2007-05-06T12:05:07+00:00"
+tags: ["all", "work", "yahoo"]
+atomid: http://ben-ward.co.uk/journal/yahoo/
+---
+This blog post has been delayed about a month whilst a few issues got sorted out, but it's with giddy excitement that I finally announce that I've got a new job; I'm now a web developer for Yahoo! in London.
+
+<a href="http://www.flickr.com/photos/benward/486260997/"><img class="splash" src="http://farm1.static.flickr.com/191/486260997_6a735b95f7_m.jpg" /></a>
+
+It's been a rather frantic and in places stressful turn of events: Returning from South by South West and moving out of Birmingham at short notice, whilst trying pull in freelance gigs and find new permanent employment all once was hard. Luckily I have some rather fabulous friends who put me in touch with the right people in the right places (mostly bars) and the whole process went really quite quickly. So thank you, <a href="http://nascentguruism.com">Steve</a>.
+
+I started at Yahoo! on April 10th, I'm commuting from Cambridge for a little bit; until I get my security deposit back from the estate agent in Birmingham at the very least but even that's proving OK. In fact, I rather like the early mornings — not the getting up, that's hellish, but having a nice calm hour on the train into London is actually doing me some good I think. I like that it gives me time to read (I've got through more books in the past two weeks than at any other point in many months before now).
+
+Working in a large, social environment where everyone around me is affable, good natured and some kind of genius is an amazing set up. There's nobody here who can't teach me something, and no-one hesitates to do so, either.
+
+I have — as I sheepishly tend to do — landed on my feet again and I'm really, really looking forward to the future.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-60613">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/99e47381d2f5469b6cd78f6927f96d70.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://36-degrees.co.uk">Stuart</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-60613">
+        <time class="published" datetime="2007-05-06T14:41:57+00:00">06 May 2007, 14:41</time>
+      </a>
+      <div class="entry-content"><p>Congrats Ben, I&#8217;m glad things all worked out for you, and I guess it could hardly have worked out better. Looks like Yahoo! is hoovering up the cream of the talent, so, erm, I&#8217;ll send in a CV ;)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-60619">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/71d81e39cdc8c9d432142708b384674f.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Jono</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-60619">
+        <time class="published" datetime="2007-05-06T15:08:48+00:00">06 May 2007, 15:08</time>
+      </a>
+      <div class="entry-content"><p>Holy shit, congratulations!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-61032">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/228745652727800807586fa16c4b29f5.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://punkchip.com">Emma</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-61032">
+        <time class="published" datetime="2007-05-08T10:58:36+00:00">08 May 2007, 10:58</time>
+      </a>
+      <div class="entry-content"><p>Well done Ben!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-64366">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/abb5e982d97d7539860141b7904ba31a.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://philwilson.org/blog/">Phil Wilson</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-64366">
+        <time class="published" datetime="2007-05-20T19:52:06+00:00">20 May 2007, 19:52</time>
+      </a>
+      <div class="entry-content"><p>Goodness! Congrats!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-65017">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/3d394a5bbe8d34f6a317e79957528244.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Infared Sauna Kid</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-65017">
+        <time class="published" datetime="2007-05-22T23:01:24+00:00">22 May 2007, 23:01</time>
+      </a>
+      <div class="entry-content"><p>blimey &#8211; a web developer for a proper grown up web company &#8211; congrats!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-65872">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/f4398b400af6f1432f07805bdab8e38e.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.mysticg.com">MYstIC G</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-65872">
+        <time class="published" datetime="2007-05-25T17:53:45+00:00">25 May 2007, 17:53</time>
+      </a>
+      <div class="entry-content"><p>That is super cool.  Congratulations dude! \o/</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

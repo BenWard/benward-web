@@ -1,0 +1,11 @@
+---
+layout: blog
+category: blog
+title: "Lego. Nice."
+date: "2004-07-25T23:46:27+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2004-07-25:/blog/lego_nice
+---
+<img src="/media/Lego Ben.png" border="0" alt="Lego Ben" class="splash" /><a href="http://blog.fatbusinessman.com/archives/2004/07/25/in-the-spirit-of-randomness/" title="blog.fbm">Fatty</a>, being the only other blog that I read at the moment, has twinged at my childhood. Lego always used to be the step in replacement activity when the computer broke and was the staple diet in ye dark agees before computers too.
+
+Kinda cute, no?

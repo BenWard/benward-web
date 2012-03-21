@@ -1,0 +1,36 @@
+---
+layout: blog
+category: blog
+title: "Resolutely Blank"
+date: "2008-01-13T23:46:58+00:00"
+updated: "2008-01-13T23:51:17+00:00"
+tags: ["all", "new-year", "resolutions", "2008"]
+atomid: http://ben-ward.co.uk/journal/blank/
+---
+2008 begins as an undesirably blank canvas. The natural reaction when faced with such a clean slate at the new year might be to contrive a grand set of resolutions, over-ambitiously clawing at physical, social and professional achievement to replace whatever it is that's missing.
+
+But resolutions never stick. They're too fickle a motivator. Reeling off a list of new or old activities that <em>should</em> be done. Because they <em>should</em>. Maybe it's good for the health, or maybe it's ‘needed’, or maybe someone has just been nagging. It's never going to happen without actually wanting to do it. Sitting down and writing a list of resolutions is all an exercise in ‘should’ and not ‘want’; setting chores to get annoyed about later. Get annoyed about doing them, and get annoyed about skipping them. Really, new year resolutions are just a tedious exercise in catch 22.
+
+Life has ways of filling its own blanks, inevitably quicker than is preferable. A set of frail resolutions to keep artificially busy from January 1st onward is only going frustrate matters.
+
+On that basis, better to pass on the whole stupid routine.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-224740">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e6e984d5209d0fd381fae0d78c4d0302.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.mattrobin.com">Matt Robin</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-224740">
+        <time class="published" datetime="2008-01-14T01:59:19+00:00">14 Jan 2008, 01:59</time>
+      </a>
+      <div class="entry-content"><p>I haven&#8217;t made any New Year&#8217;s Resolutions for 3-4 years now, and I&#8217;ve continued that trend this year as well!</p>
+<p>I&#8217;ve got &#8216;private goals&#8217; for the year&#8230;but that&#8217;s not the same as resolutions&#8230;they are more like, mmm, projects.</p>
+<p>Whatever you do this year Ben &#8211; have a great 2008! :)</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

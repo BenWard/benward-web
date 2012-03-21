@@ -1,0 +1,11 @@
+---
+layout: blog
+category: blog
+title: "Today, I have mostly been purchasing..."
+date: "2005-03-22T22:06:43+00:00"
+tags: ["all", "music"]
+atomid: tag:benward.me,2005-03-22:/blog/today_i_have_mostly_been_purchasing
+---
+<img src="/media/BlocParty-SilentAlarm.jpg" title="Cover Art for Bloc Party's &quot;Silent Alarm&quot;" alt="" class="splash" />... CDs. In fact, I seem to have developed a dependence on buying new CDs. My iPod has a playlist, y'see, which contains all the music that I've bought in the last two weeks. When that list empties I get an overpowering urge to buy more to fill it up again (rather than, say, change the SmartPlaylist to contain three weeks music rather than two...).
+
+Technophile dependency aside, I've bought <a href="http://www.beck.com/">Beck</a>'s new "Guero", <a href="http://www.thebravery.com/" title="The Bravery">The Bravery</a>'s self-titled debut and the fantastically good Silent Alarm by <a href="http://www.blocparty.com/" title="Bloc Party">Bloc Party</a>. The latter is heavily recommended for being "Just. So. Good".

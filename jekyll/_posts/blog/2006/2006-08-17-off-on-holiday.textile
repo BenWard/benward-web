@@ -1,0 +1,20 @@
+---
+layout: blog
+category: blog
+title: "Off On Holiday"
+date: "2006-08-17T16:28:48+00:00"
+updated: "2006-08-17T16:42:44+00:00"
+geo:
+  xy: 52.1455,.1418
+tags: ["all", "events", "wards", "family", "holiday", "malta"]
+atomid: http://ben-ward.co.uk/journal/off-on-holiday/
+---
+<img class="splash" src="/res/splashes/Sandcastles.splash.png" alt=""/> After a gruelling graduation ceremony, some casual small-job work, casually hunted for full time jobs and spending a lot of time <a href="http://hanniross.com">cuddling</a>, I need a holiday.
+
+<p class="vevent">Therefore, I'm <span class="summary">off on holiday</span> to <span class="location">Malta</span> with my family <abbr class="dtstart" title="2006-08-18">tomorrow</abbr> until <abbr class="dtend" title="2006-08-28">the 28th</abbr>.</p>
+
+I've not set an auto-response on my email because right now I'm subscribed to mailing lists with it as well and there's nothing more irritating than getting holiday auto-responses through mailing lists. I vow to sort out my list addresses soon, but for now I hope you'll accept this post as notification that I won't be answering any email for a week.
+
+Best wishes for the week.
+
+Sandcastles image is ‘<a href="http://flickr.com/photos/jason_coleman/214608891/">Someone Else's Sandcastles</a>’ by Jason Coleman.

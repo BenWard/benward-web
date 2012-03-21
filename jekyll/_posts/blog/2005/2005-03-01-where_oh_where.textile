@@ -1,0 +1,52 @@
+---
+layout: blog
+category: blog
+title: "Where oh where?"
+date: "2005-03-01T21:24:55+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2005-03-01:/blog/where_oh_where
+---
+February wasn't a good month for this blog. Not only did I manage a paltry <em>one</em> post but I also broke my Blogroll script. Ultimately, not going well.
+
+Since then I've been trying (in vain) to fix said Blogroll, plus working late and dedicating some time to a new web project which hopefully will see light of day soon.
+
+Blog still lives, just gotta try and and fix it.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-239">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/79b63ab9f0ca95c29a8e4f9cb46f166a.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.dk04.com/jono">Jono</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-239">
+        <time class="published" datetime="2005-03-01T21:45:11+00:00">01 Mar 2005, 21:45</time>
+      </a>
+      <div class="entry-content"><p>eeyyyy! you&#8217;re not dead :)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-240">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/abc50d59ef1ac8472737483abc7d870d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Adam</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-240">
+        <time class="published" datetime="2005-03-03T12:41:29+00:00">03 Mar 2005, 12:41</time>
+      </a>
+      <div class="entry-content"><p>Damn! you&#8217;re not dead! ;-)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-241">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-241">
+        <time class="published" datetime="2005-03-04T00:36:41+00:00">04 Mar 2005, 00:36</time>
+      </a>
+      <div class="entry-content"><p>Blogroll is fixed! It now functions through a Perl script run hourly on the webserver. This seems to more reliably download the <span class="caps">RSS</span> than my old integrated-<span class="caps">PHP</span> script. Has a bonus result not having any effect on the production speed of actual pages (since the data is processed in the background) and I can change the regularity of updates from the ease of my Cron control panel. Much, much nicer than having it hacked into the top of the <span class="caps">PHP</span> rendering script.</p>
+<p>In fact, with the process now separated and external, it leads to way for making it do rather more advanced tricks (such as looking up &#8216;most recent entry&#8217; titles for each blog). Because it&#8217;s all in the background I can now afford to write a process that might take rather longer to run. Play time&#8230;</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

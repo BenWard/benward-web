@@ -1,0 +1,14 @@
+---
+layout: blog
+category: blog
+title: "d.Construct"
+date: "2005-10-10T18:09:58-01:00"
+updated: "2005-10-18T22:57:52-01:00"
+tags: ["all", "technology", "web_standards", "steve_marshall", "dconstruct-2005"]
+atomid: http://ben-ward.co.uk/journal/dconstruct/
+---
+In what is best describe as �bloody brilliant�, <a href="http://andybudd.com">Andy Budd</a> has announced a <a href="http://dconstruct.org">last minute, grass-roots web standards conference</a> taking place in Brighton next month. When the ticket price comes in at a student friendly �50 and a 4-week advance ticket from Manchester to <a href="http://nascentguruism.com">Stevie</a> weighs in at �10, you know you're on to a winner.
+
+The best bit is that whilst @media was a fantastic experience for me, the content wasn't especially challenging, d.Construct is focused on the dynamic web (there's a ghastly buzzword for that which I'll omit). It involves a lot of scripting and dealing with webservice APIs. Two skills where I'm pretty low-rung. Not only can I hopefully meet up with some of those from @media again, but I should also learn an awful lot (placing me somewhere between head-explosion and <a href="http://en.wikipedia.org/wiki/Ascension_%28Stargate%29">ascension</a>, I expect).
+
+<strong>Update</strong>: Stevie and I are both going. Fabulous.

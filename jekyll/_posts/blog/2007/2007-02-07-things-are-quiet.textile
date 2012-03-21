@@ -1,0 +1,42 @@
+---
+layout: blog
+category: blog
+title: "Things are quiet"
+date: "2007-02-07T12:20:31+00:00"
+updated: "2007-05-29T09:43:09+00:00"
+tags: ["all"]
+atomid: http://ben-ward.co.uk/journal/things-are-quiet/
+---
+I'm really not in the mood to blog about anything at the moment. So in my absence, here are some ducks. On ice.
+
+<object type="application/x-shockwave-flash" data="http://www.vimeo.com/moogaloop.swf?clip_id=137462" width="400" height="300">‘<a href="http://www.vimeo.com/clip=137462">Duckies on Ice</a>’</object>
+‘<a href="http://www.vimeo.com/clip:137462">Duckies on Ice</a>’ on <a href="http://www.vimeo.com">Vimeo</a>. Also <a href="http://flickr.com/photos/benward/382609652/in/photostream/">on Flickr</a>.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-55295">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/1f00366a932b14e47ab0c8e0b4a3c293.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://fullcreammilk.co.uk/">Owen</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-55295">
+        <time class="published" datetime="2007-02-07T12:46:56+00:00">07 Feb 2007, 12:46</time>
+      </a>
+      <div class="entry-content"><p>Send it to Ze Frank. He likes his duckies.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-55296">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-55296">
+        <time class="published" datetime="2007-02-07T13:58:17+00:00">07 Feb 2007, 13:58</time>
+      </a>
+      <div class="entry-content"><p>When I get a free moment I am going to edit it into a Sports Racer intro. As soon as I&#8217;d done filming and walked away, I immediately regretted not uttering the ‘Welcome to the Show with…’ words of power.</p>
+<p>Oh well, iMovie to the rescue.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

@@ -1,0 +1,73 @@
+---
+layout: blog
+category: blog
+title: "iPod Sync with Smart Playlists"
+date: "2006-11-15T22:55:25+00:00"
+updated: "2006-11-15T23:07:03+00:00"
+tags: ["technology", "music", "itunes", "ipod", "playlists", "smart-playlists", "synchronisation"]
+atomid: http://ben-ward.co.uk/journal/ipod-sync/
+---
+Ackey emailed me today complaining that he'd exceeded his iPod capacity. He wants to know how best to keep it sync'd without missing out on the music he wants to listen to.
+
+Personally I discard iTunes automatic management (because that involves trusting technology, and iTunes at that) and discard manual management because I lose the ability to sync Play Counts and send updates to <a href="http://last.fm">Last.FM</a> (and because it's tedious).
+
+My weapon of choice is Smart Playlists. Incredible little devices in any case, formidable with practice and inexplicably absent from the feature-set of Microsoft's new Zune player. Yes, there's a little tweaking to get set up (especially as you try to fill your capacity optimally) but it's well worth it.
+
+So, my iPod is set to Sync only with ‘Selected Playlists’, and those playlists are as follows:
+
+* ‘iPod Picks’ – One common-or-garden regular static playlist. Into here I manually place any and all music that I <em>always</em> want to have on me. Radiohead's back-catalogue is in here, as is that of Gomez.
+	* ‘New Music’ – Nice and easy Smart Playlist. Selects all music added to my iTunes Library in the past two weeks.
+	* ‘Newish’ – Rather like ‘New Music’, but for music added in the period of 2–6 weeks. You may ask “Why?”. You'd be wise to. It's more to do with my  iTunes habits: I like to shuffle my ‘new’ and ‘newish’ music separately.
+	* ‘Recently Played’ – The iTunes staple. I've edited to limit the playlist to 1000 songs.
+	* ‘Most Played’ – My all time 100 most played tracks.
+	* ‘Year: 2006’ – Fairly self explanatory. I've got one of these for most recent years and includes all music released this year. I also use this in December when formulating review-of-the-year posts.
+	* ‘Indie 500’ – 500 (duh) tracks which are rated higher than <abbr title="3 stars">★★★</abbr> and ordered by rating. All my <abbr title="5 star">★★★★★</abbr> tracks get selected.
+	* ‘Top Class 100’ – This used to have a witty name, but then I upped the track count to 100 and it didn't work any more. No matter. This again selects songs rated greater than <abbr title="3 stars">★★★</abbr>, but this time picks them by ‘Least Often Played’, so the selection will be subtly different to the above, and hopefully pick some rarities.
+	* ‘Lost Songs’ – This is mint; selects 300 songs not played in the last <em>five</em> months. Then, although I vary these restrictions a bit, it excludes songs rated <abbr title="1 star">★</abbr> or <abbr title="2 stars">★★</abbr> (but allows songs with no rating at all) and I've embraced iTunes 7 new ‘Skip Count’ feature so anything skipped 3 times drops off the list too (after all, it's easier to skip a track than mark it with a low rating on the iPod. Although I'm not sure if the 4G iPods actually update the Skip Count or not).
+	
+Finally, there are a handful of other static playlists that go on; Podcast and compilation CD playlists I've created for various people, for example.
+
+And that, at the present time, results in an iPod with 2024 tracks on it, with 400 meg to spare.
+
+If you set up this way you'll need to spend some time tweaking the track limits, since everyone has a different combination of file sizes (mine are generally quite high bit-rate). If you have busy months acquiring new music you'll push over capacity and need to reduce the track count on another playlist (‘Recently Played’ is usually first choice for trimming), but on the whole it's a very stable set-up.
+
+How do you cue yours?
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-34742">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/a4d7a969b5effcd7e3d3295e5a5e8d56.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://de-online.co.uk">David Emery</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-34742">
+        <time class="published" datetime="2006-11-15T23:09:46+00:00">15 Nov 2006, 23:09</time>
+      </a>
+      <div class="entry-content"><p>Personally, I use a horrendously complicated setup that merges the contents of about 4 different Smart Playlists into one master playlist that has a nice mix of new and classic songs from my library <a href="http://de-online.co.uk/2006/10/27/music-habits" rel="nofollow">which I go into a bit more on my blog</a>.</p>
+<p>I really like the idea of the &#8220;Lost Songs&#8221; playlist &#8211; I always get the feeling there&#8217;s so much music I never get to hear from my library that I really, really like&#8230;</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-34762">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-34762">
+        <time class="published" datetime="2006-11-15T23:28:39+00:00">15 Nov 2006, 23:28</time>
+      </a>
+      <div class="entry-content"><p>I was actually really shocked when I first created the Lost Songs list, because I kept increasing the ‘Not played in last x months’ condition and pushing it back and back to see when the track count started to tail off and was amazed when it reach 5 and 6 months. I mean <strong>six months</strong> without listening to a particular piece of music. I find it incredible.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-38532">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e7b9c27540cb7398211a42da3834bb1f.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://cackhanded.net/">Mark Norman Francis</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-38532">
+        <time class="published" datetime="2006-11-20T16:47:05+00:00">20 Nov 2006, 16:47</time>
+      </a>
+      <div class="entry-content"><p>Personally, I&#8217;m addicted to Smart Playlists. Probably more than&#8217;s healthy. I think I&#8217;ve got about 20 base SPs which I then use to build about another 40 with. Brr, scary biscuits.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

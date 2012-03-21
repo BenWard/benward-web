@@ -1,0 +1,15 @@
+---
+layout: blog
+category: blog
+title: "Distributed Social Networking slides"
+date: "2008-06-11T23:02:58-01:00"
+updated: "2008-06-11T23:03:44-01:00"
+tags: ["all", "microformats", "hcard", "blogtalk", "slides", "social-networking", "portable-social-networking", "distributed-social-networking", "diso", "presentations", "keynote", "cc-a-nc-sa", "xfn", "barcamplondon4"]
+atomid: http://ben-ward.co.uk/?p=456
+---
+At BlogTalk back in March and again at BarCamp London 4 last week I did a session on the foundations of Distributed Social Networking; a simple guide through the basics of describing ourselves and social relationships with XFN and hCard and how they can be pulled together to do some first-step but useful things.
+
+I'm not totally sure the slides are useful by themselves, but I've had a few requests so I've published them, with the limited speaker notes I've been working from. I'm releasing them to you under a <a href="http://creativecommons.org">Creative Commons</a> <a href="http://creativecommons.org/licenses/by-sa/2.0/uk/">Attribution–Non-Commercial–Share Alike UK</a> license. <small>Note that I am totally willing for the deck being reused commercially (if you wish to re-use them for a paid engagement, or wish to republish or modify a slide into a graphic for publication), but I do insist that you seek my explicit permission first, beyond the scope of the <abbr title="Creative Commons">CC</abbr> license; I simply wish to reserve the right to decline.</small>
+
+* "Download static PDF":/presents/Distributed-Social-Networking.pdf
+* "Download Apple Keynote Presentation":/presents/Distributed-Social-Networking.zip

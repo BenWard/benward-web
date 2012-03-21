@@ -1,0 +1,76 @@
+---
+layout: blog
+category: blog
+title: "Regarding TV Downloads"
+date: "2006-06-27T13:32:07+00:00"
+updated: "2006-06-27T13:34:36+00:00"
+tags: ["all", "downloads", "tv", "dvd"]
+atomid: http://ben-ward.co.uk/journal/regarding-tv-downloads/
+---
+The ability to download television programmes from the internet (legally) is hotting up, slowly. Unfortunately we're heading fast in the direction of DRM, low-resolution and region-enforcement.
+
+So, very quickly here's what I'd like. When a series starts on TV, let me go to the publisher's website and pre-order the series box-set DVD. Then, for the duration of the run on <abbr title="television">tele</abbr>, let me download the episodes that have been broadcasted. Perhaps release some extras, out-takes, behind the scenes gubbins as we go along too.
+
+At the end of the series run, send me the DVD box set in the post.
+
+Give the benefit of downloading, without losing out on DVD/HD-DVD/Blu-Ray quality.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-4583">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/a489725ad8451b6e87fcb9ed4f189cf9.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.trovster.com">trovster</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-4583">
+        <time class="published" datetime="2006-06-27T14:23:29+00:00">27 Jun 2006, 14:23</time>
+      </a>
+      <div class="entry-content"><p>Similar idea to what I have about buying music albums online. If you buy an entire album, they should ship you the CD in the post. Making you less like to rip the CD (although you still might to remove the <span class="caps">DRM</span>), and will make it more accessible to play in your car! I now I&#8217;d certainly buy for more downloaded music if this was the case.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-4684">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/fb7d81b172292b6034f9c1747d5b11e0.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.fatbusinessman.com/">FatBusinessman</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-4684">
+        <time class="published" datetime="2006-06-28T20:47:44+00:00">28 Jun 2006, 20:47</time>
+      </a>
+      <div class="entry-content"><p>Yeah, this is a good idea. There’s only one problem with it: when it gets into the mind of the nearest marketing/accounting drone, the first thought that goes through their head will be “Well, if people will pay for the <span class="caps">DVD</span> box set, maybe they’ll pay for the download version <em>as well</em>!”</p>
+<p>Then the customer – that’s you – gets royally buggered.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-4690">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben Ward</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-4690">
+        <time class="published" datetime="2006-06-28T22:34:00+00:00">28 Jun 2006, 22:34</time>
+      </a>
+      <div class="entry-content"><p>Oh yes, business would very much like to charge me twice but my point is very much that I have no desire to pay twice for inferior copies of media, so I want someone to step in and give it away before it gets irreversably monetised.</p>
+<p>The <span class="caps">BBC</span> might be the right people to do this.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-5176">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/12317e11efe16651f5bad3ce6374b274.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://cheeseweasel.cjb.net">Wessley</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-5176">
+        <time class="published" datetime="2006-07-06T14:22:07+00:00">06 Jul 2006, 14:22</time>
+      </a>
+      <div class="entry-content"><p>Super idea. Exactly how I&#8217;d like it to be done. I&#8217;d gladly pay the price of the <span class="caps">DVD</span> to be able to download and get the <span class="caps">DVD</span>, hell I&#8217;d pay a bit extra.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-7465">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/7ba33fdcf3b9f2658839421ea0d1d67f.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://voltlick.com/blog/">Luke Stanley</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-7465">
+        <time class="published" datetime="2006-07-22T13:12:23+00:00">22 Jul 2006, 13:12</time>
+      </a>
+      <div class="entry-content"><p>Check out http://www.getdemocracy.com</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

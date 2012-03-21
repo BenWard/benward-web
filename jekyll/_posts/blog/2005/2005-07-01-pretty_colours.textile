@@ -1,0 +1,31 @@
+---
+layout: blog
+category: blog
+title: "Pretty Colours"
+date: "2005-07-01T00:29:48+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2005-07-01:/blog/pretty_colours
+---
+<img src="/media/splashes/wondercolour.splash.gif" alt="" class="splash" />I've been making a bit of an effort in recent entries to start adding a related image to my posts. Obviously my redesign is a way off, but I've found that they do serve to brighten the place up a bit. It's also helping to alleviate some of my 'colour block' I <a href="http://blog.ben-ward.co.uk/archive/2005/06/24/design_without_colour" title="The problem of designing without colour">spoke of recently</a>.
+
+The choices of images aren't hugely inspired - although Neil Buchanan appears as a small nod to my childhood and a reminder that Art Attack was the single good television program on cITV.
+<p class="aside">Aside: Markup wankers will note that the images are inserted a tad strange: They're referenced by a full URI rather than just the relative path, and the <code>&lt;img /></code> includes the long deprecated 'align' attribute. Basically, it's a combination of working around a strange bug in b2Evolution's post validation and being too lazy to alter my soon-to-be-replaced stylesheet. I'll convert the latter it to a proper, semantic class when I migrate to Wordpress, I promise.</p>
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-303">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/627d78d5359c9ed8f307d7afe230cdcb.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://dk04.com">Jono</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-303">
+        <time class="published" datetime="2005-07-01T18:48:47+00:00">01 Jul 2005, 18:48</time>
+      </a>
+      <div class="entry-content"><p>this post officially wins the &#8216;best post this year containing a picture of Neil Buchanan with an oversized paintbrush&#8217; award. Congratulations!</p>
+<p>i also heard that those red sweaters he wears cost around �500 each because theyre made with some special material, because normal �10 matalan sweaters cause horrendous colour bleed on screen. or something.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

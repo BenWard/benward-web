@@ -1,0 +1,152 @@
+---
+layout: blog
+category: blog
+title: "Tackling overused phrases when writing"
+date: "2006-01-13T02:03:49-01:00"
+updated: "2009-06-25T07:19:47-08:00"
+tags: ["all", "software", "writing", "spell-check", "utilities", "tools", "ideas"]
+atomid: http://ben-ward.co.uk/journal/highlighting-overused-phrases/
+---
+I'm not a very good writer. I hope that from time to time I pop out a fairly interesting piece, I can get quite passionate about music and I know a few words. Really, my lack of experience shows. Most noticeably, I overuse certain words and phrases. Especially when proof reading, I swap one phrase for another, inadvertently causing a repetition in the subsequent paragraph.
+
+A thought occured this evening for a useful computer aid. Something to help avoid overuse of sentences that begin with “critically”, “basically” and “to be honest”.
+
+Consider the humble spelling check tool. If I trigger Jeremy Keith's spider-sense by writing “definately”, it is underlined by the word processor (usually). Microsoft Word will even have a crack at correcting my grammar, a behaviour made slightly terrifying as my insufficient literacy leaves me unable to check _its_ grammar in return.
+
+So how about a companion to Spell Check that could be trained to highlight our individual, overused phrases? Store a list of traits and highlight them automatically or on request to help out the proofing process.
+
+It could be as simple as this: Spot one of your writing traits as you're proof reading, highlight it and choose “Always Highlight This Phrase” from the context menu. To garnish, add the option to automatically, subtly underline your trait phrases (ala Spell Check) and a trigger to do it on-demand (such as when proof reading and editing).
+
+A winner?
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-657">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/32a7ad548cd93fa03449073ea01314b9.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ekkoe.com">Ben Young</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-657">
+        <time class="published" datetime="2006-01-13T11:25:37-01:00">13 Jan 2006, 11:25</time>
+      </a>
+      <div class="entry-content"><p>Sounds like a superb idea that would be invaluable for all types of writing. I too have come across the problem of repeating phrases, not least while writing my novel (which I still haven&#8217;t finished). A way to keep track of where I&#8217;ve &#8220;tried that one before&#8221; would be extremely useful.</p>
+<p>Now to find someone to build it&#8230;</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-658">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/fb7d81b172292b6034f9c1747d5b11e0.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.fatbusinessman.com/">FatBusinessman</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-658">
+        <time class="published" datetime="2006-01-13T15:15:31-01:00">13 Jan 2006, 15:15</time>
+      </a>
+      <div class="entry-content"><blockquote>my insufficient literacy leaves me unable to check it�s grammar in return</blockquote>
+<p>I think you mean �its�. Unless this is another of your deliberate-mistakes-honest-guv&#8217;nor.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-659">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/8e0293544b13499460369217e2a7febd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://charlvn.za.net">Charl van Niekerk</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-659">
+        <time class="published" datetime="2006-01-13T16:38:24-01:00">13 Jan 2006, 16:38</time>
+      </a>
+      <div class="entry-content"><p>I always try to place a lot of attention on my writing, but being a non-native English speaker my English all too often sucks terribly!</p>
+<p>I definitely think you have a good idea there. Personally I misuse the word &#8220;basically&#8221; a lot, even the Afrikaans equivalent when I&#8217;m speaking that! But definitely a winner.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-660">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-660">
+        <time class="published" datetime="2006-01-13T20:13:02-01:00">13 Jan 2006, 20:13</time>
+      </a>
+      <div class="entry-content"><blockquote>
+<p>I think you mean �its�.</p>
+</blockquote>
+<p>Thanks. Another use case stems from that: I go through phases of making subconscious errors like muddling �it&#8217;s� and �its�. Not because I&#8217;m a complete English Langauge doofus, but more akin to making a typo. Sometimes I type �server� ever time I mean to type �serve�.</p>
+<p>When I know that I&#8217;m slipping up more often, I could use this highlighting extension to pick out those words and prompt me to double check.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-662">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/f92443abafe237dd61bab48899689589.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://nascentguruism.com">Steve Marshall</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-662">
+        <time class="published" datetime="2006-01-13T22:49:24-01:00">13 Jan 2006, 22:49</time>
+      </a>
+      <div class="entry-content"><p>I see no reason this couldn&#8217;t be done as a system-wide thing in Mac OS X (at least, for Cocoa apps: I&#8217;m less certain about Carbon).<br />
+Even more convincing, I&#8217;d imagine, would be something like the potential for making an <a href="http://www.unsanity.com/haxies/ape" title="Unsanity's APE" rel="nofollow">application enhancer</a>.</p>
+<p>To take it a step or two further, you could have some kind of system where the system tracked all the words in the current document and, if any were over a given threshold, they could be flagged. This, obviously, would need an &#8216;ignore&#8217; list for common words (&#8216;the&#8217;, &#8216;and&#8217;, &#8216;but&#8217;, and so forth) and could be given an &#8216;always track&#8217; list for phrases you know you overuse (which can be added to during use), not to mention a scope (current line, sentence, paragraph, page?).</p>
+<p>When I&#8217;m a tad more proficient in my Mac development, I&#8217;ll have a prod at this&#8230;</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-668">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/11d4b8e0e0638fe55463628d216c34a8.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.joanslow.com">Jo</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-668">
+        <time class="published" datetime="2006-01-16T11:49:56-01:00">16 Jan 2006, 11:49</time>
+      </a>
+      <div class="entry-content"><p>Am I the only non-geek who reads this blog? My immediate thought was &#8220;just give it to me to proof read&#8221;.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-669">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-669">
+        <time class="published" datetime="2006-01-17T01:16:48-01:00">17 Jan 2006, 01:16</time>
+      </a>
+      <div class="entry-content"><p>But� but� but� technology and automation and� and�</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-670">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/11d4b8e0e0638fe55463628d216c34a8.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.joanslow.com">Jo</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-670">
+        <time class="published" datetime="2006-01-17T13:06:25-01:00">17 Jan 2006, 13:06</time>
+      </a>
+      <div class="entry-content"><p>Yes dear.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-698">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/c36b48f5546f3977336c4e7f2f33771a.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.cayenne.co.uk">Sophie</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-698">
+        <time class="published" datetime="2006-01-27T19:49:17-01:00">27 Jan 2006, 19:49</time>
+      </a>
+      <div class="entry-content"><p>No need for a fancy new application. You just need <a href="http://davidseah.com/archives/2005/11/28/i-hope-i-kinda-might-perhaps-wont-write-like-this-anymore-maybe/" rel="nofollow">Dave Seah&#8217;s auto-correct hack</a>. Instantly purge over-used, wishy-washy phrases from your writing by embarrassing the hell out of yourself while you write.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-22733">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/60209b5540d27dfd454dd30f38eec1eb.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Ken</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-22733">
+        <time class="published" datetime="2006-10-11T03:20:29+00:00">11 Oct 2006, 03:20</time>
+      </a>
+      <div class="entry-content"><p>Here is a simple solution&#8212;not perfect, but it will work for now.</p>
+<p>Type your overused word or phrase into Word&#8217;s &#8220;Autocorrect&#8221; table and turn on the feature that automatically replaces a target word with another word. For instance, enter &#8220;basically&#8221; as a target and enter &#8220;essentially&#8221; as the replacement.</p>
+<p>If you merely want Word to call attention to the word or phrase, have autocorrect replace it with a version that needs correcting. Example: enter &#8220;basically&#8221; as a target and &#8220;xasically&#8221; as the replacement.  Spell check will stop on xasically&#8212;you can either replace &#8220;x&#8221; with &#8220;b&#8221; or type in &#8220;fundamentally.&#8221;  You could also leave the &#8220;x&#8221; in place and laugh as you receive all the mail correcting you.</p>
+<p>I know this is a clumsy solution, but we can not rewrite Word. Although, I do have the Beta Test version of Word 2007, and I am overjoyed with the new look and features.  There is an editing program&#8212;Whitesmoke&#8212;that works as a Word Add-in/  It will find style errors.</p>
+<p>Ken</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-192342">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/1400d3155f03ef6ec0c9c4b6a95c3485.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://mitsubishi-richmond.greatbmwclub.cn/2004-mercedes-c-320-faq-forum.htm">Vassilios</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-192342">
+        <time class="published" datetime="2007-07-10T20:44:13+00:00">10 Jul 2007, 20:44</time>
+      </a>
+      <div class="entry-content"><p>Nice&#8230;</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

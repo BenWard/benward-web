@@ -1,0 +1,91 @@
+---
+layout: blog
+category: blog
+title: "T-Mobile. Number One Scum."
+date: "2007-10-03T18:47:33+00:00"
+updated: "2007-10-03T18:47:33+00:00"
+tags: ["all", "t-mobile", "mobile-phone", "contracts", "scum"]
+atomid: http://ben-ward.co.uk/journal/trapped-on-tmobile/
+---
+As mentioned last week, <a href="http://ben-ward.co.uk/journal/nokia-n95-sucks/">my new phone handset is abysmally bad</a>. What I didn't go into is that I'm having problems with the new network as well.
+
+I moved from O2 — who had always been quite nice to me — to T-Mobile. I was lured by their 1GB/month data plan. Unfortunately, a quite dastardly part of their contract has left me high and dry. The story goes a little something like this:
+
+Unlike O2, T-Mobile disenfranchises the Isle of Man from the UK; placing it on their international calling list. This not only has the effect of making calls to <a href="http://hanniross.com" rel="friend met muse everything">Hanni</a>'s +44 roaming number more expensive than other calls to the UK, but it goes so far as to exclude them from my Flext contract's inclusive minutes allowance too.
+
+I pay £40/month for a very large inclusive allowance. I happen to like Hanni rather a lot, y'see.
+
+The discovery that calls to one UK number are actually not charged at the same rate as to other UK numbers is a bit of a surprise. The registration process through T-Mobile's website says nothing about charging different rates. The Terms and Conditions document says nothing with reference to ‘mainland’ or ‘island’ parts of the UK. O2 do not segregate the UK in the same way. The country code is the same and last I checked, the Isle of Man had not claimed independence or left the European Union.
+
+So I contact T-Mobile. Not entirely sure what I can do, but figuring there must be some way to reduce the damage.
+
+I was offered a £100 refund for some calls already made.
+
+I'm still contracted for another 16 months. The calls to Hanni will still cost more. The inclusive minutes sit unused (and unlike O2, do not carry over). I can't change to a cheaper plan for another 9 months. To cancel the contract right now? More than £500.
+
+I am livid.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-221272">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-221272">
+        <time class="published" datetime="2007-10-08T21:20:41+00:00">08 Oct 2007, 21:20</time>
+      </a>
+      <div class="entry-content"><p>Looks like I&#8217;m wrong about O2. They have very recently — perhaps in the last week — changed theirs to place the Channel Islands into a European zone. Vodafone still seem to be honest, though.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-221390">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/95fb502a6af21a51cee84abd8d00fd93.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.iforgothemilk.com">William Tildesley</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-221390">
+        <time class="published" datetime="2007-10-10T10:46:49+00:00">10 Oct 2007, 10:46</time>
+      </a>
+      <div class="entry-content"><p>I had the same problem with T-Mobile, I&#8217;ve got a few months left on my contract and am thinking of canceling it, problem is it costs £150 plus the last months remain bill!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-222686">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-222686">
+        <time class="published" datetime="2007-10-26T18:55:55+00:00">26 Oct 2007, 18:55</time>
+      </a>
+      <div class="entry-content"><p>Well, good news. I was able to argue successfully that T-Mobile&#8217;s website was misleading during purchase. The Flext info boxes clearly state that ‘Calls to the UK cost 20p/min’, with no disclaimer or guidance regarding the outer reaches of our fair land. They should have an ‘* excluding Channel Islands and Isle of Man, refer to International Calling’ note. The Terms and Conditions made no mention either.</p>
+<p>So having eventually got through to their special circumstances customer care, they agreed to let me out without penalty.</p>
+<p>As a further update, O2 have changed their billing and no-longer allow inclusive calls to the Isle of Man either. Vodafone are the only UK network left who let you. I suspect the days for this roaming <span class="caps">SIM</span> malarkey are numbered, but for the time being I&#8217;m moving to Voda and taking the opportunity to get a Sony Ericsson K850 whilst I&#8217;m at it.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-223025">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/2f0052a4631200afa0b5cb8427871720.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">ben_lincs</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-223025">
+        <time class="published" datetime="2007-11-08T12:32:08+00:00">08 Nov 2007, 12:32</time>
+      </a>
+      <div class="entry-content"><p>my dealings with tmob seem to have been better i got the flext 30 and i ended up with loads of costs outside my plan i moaned 6 months into an 18mth contract and they said £140 to cancel or allow me to switch to u-fix 15 at least that way when the credits gone it won&#8217;t keep spirraling.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-223031">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/85ea1f7c5c4acbab27c949ff7342d7ff.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Graham</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-223031">
+        <time class="published" datetime="2007-11-09T22:36:47+00:00">09 Nov 2007, 22:36</time>
+      </a>
+      <div class="entry-content"><p>Hi, the Isle of Man,  and the Channel Islands aren&#8217;t part of the UK or even the EU. They are Crown Dependencies. You don&#8217;t find BT, Vodafone, T-Mobile etc there. The Post Office is different too!</p>
+<p>I have set up an account with Superline. They let you dial a London number (which is included in your inclusive calls) then redial to the Isle of Man (or anywhere on Earth!). Calls to a Isle of Man landline are about a penny a minute and about 15p to a mobile. If you want to use them visit www.superline.co.uk</p>
+<p>I have saved a fortune using Superline as my call carrier whilst calling friends around the world on my mobile.</p>
+<p>If you do sign up I would appreciate it if you quote 07795066044 as the referrers number!</p>
+<p>Many thanks, and no, i don&#8217;t work for Superline&#8230;<br />
+Graham</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

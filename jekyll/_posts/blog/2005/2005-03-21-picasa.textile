@@ -1,0 +1,53 @@
+---
+layout: blog
+category: blog
+title: "Picasa"
+date: "2005-03-21T22:48:43+00:00"
+tags: ["all", "technology", "general"]
+atomid: tag:benward.me,2005-03-21:/blog/picasa
+---
+<a href="http://picasa.com/" title="Picasa 2">Picasa</a> - <a href="http://www.google.com" title="Google">Google</a>'s image organisation and photo retouching program for Windows - reached version 2.0 a while ago and now has <a href="http://www.gmail.com" title="Gmail">Gmail</a> integration. This, combined with the incredibly useful (and simple) photo retouching tools put it in the running for 'my new favourite Windows program'.
+<!--more-->
+<img src="/media/PicasaRetouch.jpg" title="Picasa Retouching - Before and After" alt="" />
+The above picture is a 'Before/After' comparison of Picasa's "I'm feeling lucky" retouching tool and then slightly increasing the colour temperature to restore skin tones. For what was initially a quick and cheap shot taken in a club (5th Avenue in Manchester), the result is suddenly far more respectable.
+
+I'm very pleased with it. All for free, too.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-189">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/fb7d81b172292b6034f9c1747d5b11e0.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.fatbusinessman.com">Fatty</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-189">
+        <time class="published" datetime="2005-03-22T10:08:55+00:00">22 Mar 2005, 10:08</time>
+      </a>
+      <div class="entry-content"><p>Wow: how on Earth did I miss this? If I weren&#8217;t running Debian at the moment I&#8217;d go and install it ;-)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-190">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-190">
+        <time class="published" datetime="2005-03-22T10:58:47+00:00">22 Mar 2005, 10:58</time>
+      </a>
+      <div class="entry-content"><p>Did you ever use the Adobe Photoshop Album? Picasa is essentially a lot like that, but better, and not as slow.</p>
+<p>I&#8217;m not sure about Linux, apart from the comedy gold that is Linspire&#8217;s ongoing existance. There&#8217;s always <a href="http://www.linspire.com/lindows_products_details.php?package_name=lphoto" title="Linspire - Once again doing the world of software an open source a great service.. ahem" rel="nofollow"><em>L</em>Photo</a> <strong>snigger</strong> <strong>ahem</strong>.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-188">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/fb7d81b172292b6034f9c1747d5b11e0.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.fatbusinessman.com/">Fatty</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-188">
+        <time class="published" datetime="2005-03-22T23:44:47+00:00">22 Mar 2005, 23:44</time>
+      </a>
+      <div class="entry-content"><p>I still <em>do</em> use the Adobe Photoshop Album. Although potentially not for much longer&hellip;</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

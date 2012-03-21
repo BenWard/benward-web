@@ -1,0 +1,63 @@
+---
+layout: blog
+category: blog
+title: "Microsoft Zune Hysteria"
+date: "2006-09-15T12:49:30+00:00"
+updated: "2006-09-15T12:49:30+00:00"
+tags: ["technology", "music", "microsoft", "apple", "ipod", "zune", "mp3", "portables"]
+atomid: http://ben-ward.co.uk/journal/zune-hysteria/
+---
+This is partly in response to <a href="http://benedictoneill.com/2006/09/15/zune/">Ben O'Neill's post on the Zune</a>.
+
+Microsoft have announced details of their forthcoming Zune media player.
+
+I'll quite looking forward to seeing what Microsoft come up with, not least because I think some well backed competition for the iPod is increasingly needed. Apple aren't resting on their lorals, but they're not exactly pushing out with new features either. Of course there are plenty of counter arguments about that in both directions but as someone who's interested in a <em>music</em> player, <abbr title="Apple"></abbr> aren't drawing me in with the current video & movie forays.
+
+Of course, the Zune is vapourware at the moment. No one has publicly used one and Microsoft themselves admit they've not finalised how all the features are going to work. We can assume they're getting pretty close, but quite what we'll get when it's released with a price and a battery life quote is another matter, not to mention whether they've got an input mechanism as good as a click-wheel. OK, being realistic they <em>won't</em> have an input as good as the click-wheel, but they need to have something at least competent to have people switch.
+
+I'm not sure about the Wi-Fi. Could be interesting… Actually it could be <strong>very</strong> useful to conventional offline media stores: Imagine if you could get free samples when you walked into HMV or Fopp? I'd really like that. Record labels are already distributing promos over Bluetooth at train stations, Zune offers a powerful enhancement to that concept. So there's potential for the feature but the ‘sharing’ premise is massively flawed as a reason to buy: It's dependent on finding other people with a Zune to share with. It'll only be of life-changing awesomeness if Microsoft get significant marketshare. Now if Apple or a third party released a Wi-Fi add-on for existing iPods (at the right price) that could be a huge, near-instant success (at least with DRM-less music), because the penetration is already great. But Zune has to start from zero and that renders the sharing feature near-useless out of box.
+
+One final point about FM Radios. I never wanted one, I used to mock Creative Labs fanboys who cited it as a killer feature over the iPod. Inside I hoped that Apple were cleverly biding their time for DAB radio chips to become a feasible inclusion: A technology far better suited to a <em>digital</em> music player than analogue radio. Selecting ‘Radio’ would offer up not an analogue tuner but a list of station names. Unfortunately for my technophilia, Apple folded and included FM radio with their most recent remote control headphones so, meh. I was thinking that maybe short range DAB could be used in the same way as the ‘instore previews’ idea mentioned above, with different channels for genre and CDs of the week and so on.
+
+Now obviously I don't want the Zune to be better than the iPod. They've not announced Mac support and I'm sure as hell not switching back to the day-to-day world of pain that is using Windows. Not for an MP3 player. So I won't be getting one. What I do want is for it to be good enough that Apple have to keep their eye on music and not neglect it for video.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-17541">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/6db1ac4911d03473d52634c979a18041.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.benedictoneill.com/">Ben O'Neill</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-17541">
+        <time class="published" datetime="2006-09-15T17:07:42+00:00">15 Sep 2006, 17:07</time>
+      </a>
+      <div class="entry-content"><blockquote>Imagine if you could get free samples when you walked into <span class="caps">HMV</span> or Fopp?</blockquote>
+<p>Oooh I hadn&#8217;t thought of that, that&#8217;d be awesome. Obviously I do want the Zune to be better than the iPod. I wouldn&#8217;t say I particularly love Microsoft or hate Apple (I want a MacBook :)) &#8211; I really do have a lot of anti-iPod though :)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-19396">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/f9f27b1356ad2e3ceb8d228d62ea6d5c.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://charlvn.za.net/">Charl van Niekerk</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-19396">
+        <time class="published" datetime="2006-09-22T12:20:02+00:00">22 Sep 2006, 12:20</time>
+      </a>
+      <div class="entry-content"><p>Regarding sampling in offline music stores, there were some students at the university where my mom teaches that created a .<span class="caps">NET</span>-based solution so that you could walk into a store and use your cellphone and bluetooth to sample music. I believe when they left the university they started a company from this. If it can work in South Africa, I can&#8217;t see how it can&#8217;t work in Europe.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-19401">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-19401">
+        <time class="published" datetime="2006-09-22T12:42:32+00:00">22 Sep 2006, 12:42</time>
+      </a>
+      <div class="entry-content"><p>I&#8217;d have thought offline retailers would be desperate to offer something along those lines: I mean, they must be a little worried about being obliterated by online purchases (depending on which way <span class="caps">DRM</span>/Public awareness of <span class="caps">DRM</span> goes, of course) so they&#8217;ll want to find ways to add value to their shopping experience. Stores like <span class="caps">HMV</span> who run both online and offline stores (albeit using Microsoft&#8217;s PlaysForSureExceptOnAniPodAndZune <span class="caps">DRM</span>) might fancy having some sort of link up between the two (if it&#8217;s even possible for them to sell music for Zune ever).</p>
+<p>The trouble is, there&#8217;s every chance that Zune is going to be completely closed: Like the iPod, ultimately (although hopefully, like iTunes, there&#8217;ll be enough of an <span class="caps">API</span> in the Zune software to support Last.FM submissions). It&#8217;s is a shame in a way because imagine if you could write a Last.FM radio player app to use the WiFi?</p>
+<p>Clearly I don&#8217;t need a Zune, I need a <span class="caps">PDA</span>.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

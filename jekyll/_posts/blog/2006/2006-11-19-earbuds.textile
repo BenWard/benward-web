@@ -1,0 +1,134 @@
+---
+layout: blog
+category: blog
+title: "In need of new earbuds"
+date: "2006-11-19T18:17:58+00:00"
+updated: "2006-11-19T18:17:59+00:00"
+summary: "In which I need new earbuds for my iPod."
+tags: ["all", "technology", "ipod", "earbuds", "shopping", "sony-ex71", "sennheiser-xc300", "shure-ec2"]
+atomid: http://ben-ward.co.uk/journal/earbuds/
+---
+My iPod earbuds have finally <a href="http://flickr.com/photos/benward/298376884/">started</a> to <a href="http://flickr.com/photos/benward/299611581/">give way</a>, so I want to get some replacements before the cable gives out and I lose stereo. 
+
+<img src="/res/posts/EX71vsCX300.png" alt="" />
+
+The options seem to boil down to the Sony EX71 or the Sennheiser CX300. The EX71s  come recommended from a number of people just off the Flickr photo, but do have a number of complaints about build quality in the Amazon reviews. The Sennheiser's are in at the same price point, have better Amazon reviews and therefore strike as possibly a better option. Does anyone have a preference for one over the other though?
+
+The other option is to spend a little more (£40) and consider thea Shure EC-2 earbuds. I do listen to a heck of a lot of music on my iPod, so whilst I can't afford to go nuts, I'll go to £40 if it's going make a worthwhile difference. 
+
+What does the internet say?
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-38013">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/6dd3df0160f1b2f003f17b663587e5e5.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://joeblade.com">paul haine</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-38013">
+        <time class="published" datetime="2006-11-19T19:24:10+00:00">19 Nov 2006, 19:24</time>
+      </a>
+      <div class="entry-content"><p>You can&#8217;t go wrong with Sennheiser.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-38045">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/3f1a3f9249d4008bd007ed846a9c70f0.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Jono</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-38045">
+        <time class="published" datetime="2006-11-19T20:12:50+00:00">19 Nov 2006, 20:12</time>
+      </a>
+      <div class="entry-content"><p>I&#8217;ve had 4 pairs of ex71&#8217;s now and they&#8217;re fantastic; i&#8217;ve only had so many pairs becase my fiancee keeps losing the little rubber earpieces. I&#8217;ve recommended them to everyone i know who uses ipods or other personal music wotsits and i think they&#8217;d all agree with me.</p>
+<p>but &#8211;  i do have a pair of sennhesers that i use when i&#8217;m on the PC and theyre damn good, although not he ones you were looking at.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-38098">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/3282170b113297711ac2a2d41bffb70d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://andyhiggs.co.uk/">Andy Higgs</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-38098">
+        <time class="published" datetime="2006-11-20T00:49:03+00:00">20 Nov 2006, 00:49</time>
+      </a>
+      <div class="entry-content"><p>As with Jono, I agree the ex71s are a good choice. I opted for them because they were cheaper than some of the alternatives and I have a habit of breaking things. In true Higgs fashion, broke the cable on the first pair somehow, but this second pair have lasted about a year so far and are infinitely more comfortable than the old Apple ones that came with the iPod. The sound is of a decent quality too.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-38525">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e7b9c27540cb7398211a42da3834bb1f.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://cackhanded.net/">Mark Norman Francis</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-38525">
+        <time class="published" datetime="2006-11-20T16:34:02+00:00">20 Nov 2006, 16:34</time>
+      </a>
+      <div class="entry-content"><p>I&#8217;ve not tried the Sony headphones. However, I can tell you that until recently I was using Etymotic ER-6i headphones on my PowerBook, iPod and <span class="caps">PSP</span>. They broke, and I grabbed a pair of the CX300s at <span class="caps">HMV</span> as a stop-gap until I could replace them.</p>
+<p>I never did.</p>
+<p>The CX300s are the best in-ear headphones I&#8217;ve ever used. I&#8217;ve got three pairs now. Great detail, good bass, decent volume, very good at keeping external noise at bay, and <strong>far</strong> more comfortable than the Etymotics. I&#8217;d thoroughly recommend the CX300s. I just can&#8217;t compare them for you. :)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-39568">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/6db1ac4911d03473d52634c979a18041.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.benedictoneill.com/">Ben O'Neill</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-39568">
+        <time class="published" datetime="2006-11-22T00:19:49+00:00">22 Nov 2006, 00:19</time>
+      </a>
+      <div class="entry-content"><p>I bought a pair of Creative&#8217;s EP-635 headphones for my girlfriend a year or so ago. They sound great and are comfy too</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-48053">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/7a676a8a8885fdbf4e7111be2d8f4d78.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.stefpause.com">Stef</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-48053">
+        <time class="published" datetime="2006-12-05T14:48:13+00:00">05 Dec 2006, 14:48</time>
+      </a>
+      <div class="entry-content"><p>Can&#8217;t say too much about the Shure E2C&#8217;s as I&#8217;ve never tried them, but I&#8217;ve got the E3C&#8217;s and they&#8217;re stunning. (I bought them when they came out as I couldn&#8217;t get on with the Etymotics.)</p>
+<p>The comfort&#8217;s good, not as snug as my custom musicians&#8217; earplugs, obviously, but pretty close and they come with a fit kit containing different size sleeves to accommodate different ears.</p>
+<p>The only problems are the occasional slippage of the silicone sleeves, gunk buildup (a wax tool is supplied) and the fact that they isolate external noise <em>very</em> effectively so you may be accused of ignoring friends when you walk down the street :)</p>
+<p>I&#8217;d recommend taking a look at the HeadRoom website for some reviews:<br />
+http://www.headphone.com/guide/</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-53881">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/3f9b10918ebe7b23039d7e6049f5632a.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">parnuk</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-53881">
+        <time class="published" datetime="2006-12-22T00:10:22+00:00">22 Dec 2006, 00:10</time>
+      </a>
+      <div class="entry-content"><p>I&#8217;ve had the sony and really liked the sound but then the cable died like to many others. I bought the sennheiser and it&#8217;s not fair to compare them to the sony headphones because they are so much better. The sound quality is amanzing and can be compared only with headphones that costs more than twice. The cx300 are much more comfort and it won&#8217;t be hard for them to be more relayable</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-56609">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/9e68c0aedfff3f0f8a14b32267daf5e9.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Mark</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-56609">
+        <time class="published" datetime="2007-03-08T12:36:09+00:00">08 Mar 2007, 12:36</time>
+      </a>
+      <div class="entry-content"><p>I use the Soundwise G3. I read a review at www.lordpercy.com I really could not be happier. soundwise also also they do replacement tips. The tips will also fit the cx300 and ex71.  I would honestly rate soundwise G3 well above the Sony Ex71. I did have and I was going to replace, but glad I read the review first</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-64088">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/b0ca38f53f6ac740839989f4dbccace0.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">si levy</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-64088">
+        <time class="published" datetime="2007-05-19T22:04:20+00:00">19 May 2007, 22:04</time>
+      </a>
+      <div class="entry-content"><p>I&#8217;av just brought a Sandisk e280, after my ipod nano broke for some reason. And I love my sandisk but the headphones that come with it are, well rubbish. So I looked at many earbuds, and got my short(ish) list down to the V-Moda Vibe, Sennheiser CX300, Cresyn <span class="caps">LMX</span>-E630 and the Soundwise G3. And I went for the Soundwise G3, they are a great buy. they have perfect sound, good bass and are very comfortable.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-150869">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/2bf2f83fed061f1fcf121990955a74fb.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Josh</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-150869">
+        <time class="published" datetime="2007-06-25T21:18:52+00:00">25 Jun 2007, 21:18</time>
+      </a>
+      <div class="entry-content"><p>After reading several comments, I went on and tried to purchase Soundwise M8 (a level higher than the G3) from www.soundwise.co.uk. The customer service kindly told me that I can purchase from authorized distributor in the US (www.soundwiseusa.com). I called them and asked for information about their earphones. Now I&#8217;m very happy with my purchase. I highly recommend Soundwise M8.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

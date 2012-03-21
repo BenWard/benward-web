@@ -1,0 +1,18 @@
+---
+layout: blog
+category: blog
+title: "Designing websites for the social internet"
+date: "2006-01-14T13:44:40-01:00"
+updated: "2006-01-14T13:47:31-01:00"
+tags: ["all", "web-design", "resin", "riffs", "social-web", "web-services", "url", "customer-reviews"]
+atomid: http://ben-ward.co.uk/journal/urls-and-the-social-internet/
+---
+<a href="http://riffs.com">Riffs</a> launched later on in 2005 and I whilst I didn't really �get it� at first, I did go back and managed to have some fun. Notably, I realised that really, Riffs has the potential to be "Amazon Customer Reviews" for everything on the net. 
+
+In a way, Riffs could prove far more useful as a service integrated back into other sites than on its own. Imagine if two different retailers provided customer reviews from the same service? Both sets of customers would contribute to the same average rating. But then, why be restricted to products in a shop? It's this that I want to draw attention with regards to web design.
+
+I tend to have band websites on my mind a lot, since I'm redesigning for <a href="http://resintheband.com">Resin</a> at the moment. If Resin put out a new record, Riffs could be used as a source of critical comment on their release. A script could pluck out positive feedback and then insert some excerpts into the download or discography pages on their website, as well as being part of the discussion on Riffs itself. However, to do this, the album needs to exist on the net as an entity; as a URL.
+
+A lot of band websites have a single page for their discography, listing each record. But if you wanted to �riff about� their album, bookmarking a generic page isn't sufficient. To promote it on any bookmark-based webservice, the album needs to have a unique (and permanent) URL for those services to reference. As such, the ability to use a URL as a �unique ID� for an offline, physical item like an album becomes an important design decision. 
+
+If people can't easily reference a record on the band's own website, they'll probably use an Amazon URL instead. Which is fine in so far as you might sell a record or two, but less good as it misses the opportunity to drive traffic to the official homepage.

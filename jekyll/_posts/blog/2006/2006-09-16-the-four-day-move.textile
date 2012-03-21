@@ -1,0 +1,41 @@
+---
+layout: blog
+category: blog
+title: "The Four Day Move"
+date: "2006-09-16T12:00:49+00:00"
+updated: "2006-09-16T12:08:47+00:00"
+tags: ["all", "benward", "life", "birmingham", "move", "bt", "multipack"]
+atomid: http://ben-ward.co.uk/journal/the-four-day-move/
+---
+Been a week finding time to write this, but as <a href="http://ben-ward.co.uk/journal/new-job/">mentioned before</a>, I have a new job. I'm a Web Application Developer for yobject in Birmingham. I've just finished my first week in the office and it's be great fun, definitely feel like I've made the right decision.
+
+One week in my flat is now looking somewhat more homely. Having acquired some extra shelving I was able to finished unpacking on Thursday so I'm looking at my first weekend in Birmingham being quite comfortable. This is a nice relief as moving in was anything but. Scheduled to start work on Monday, the most promising set of viewings could only be booked for the preceding Thursday. After a day being dragged around Birmingham and seeing some truly grotty places the flat I now rent was the last property I saw. I managed to get an offer in, have it accepted and get all the forms signed on the spot. On Friday I had the money transferred to secure it and on Saturday I had the tenancy agreement signed over email (tip: Keep a scanned copy of your signature on your laptop). All whilst attending d.Construct, too. 
+
+On Sunday lunchtime I moved in. This is apparently quite an achievement, but exhausting all the same.
+
+Not everything has been smooth since then. I've discovered that living in the real world is bloody expensive. TV licenses, telephone bills, electricity bills, impending council tax… It's a big overwhelming. Of course, I won't have to start paying a phone bill straight away, since the piss artists at BT can't schedule my installation until <strong>October 5th</strong>. Oh, but they'll charge me £125 when they do eventually get around to it.
+
+Anyway, this weekend should be good. This afternoon I'm going to go explore Birmingham a bit more, having not seen an awful lot of it, and tomorrow I'm meeting some <a href="http://multipack.co.uk">multipackers</a> for lunch. I need to buy a Freeview receiver and maybe some of those nested table* things.
+
+See, this adulthood lark, it's under control.
+
+<strong>Update, 13:08</strong>: * I somehow missed the geek reference to ‘nested tables’. I should stress that these are not for work…
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-17999">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/6db1ac4911d03473d52634c979a18041.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.benedictoneill.com/">Ben O'Neill</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-17999">
+        <time class="published" datetime="2006-09-17T10:09:29+00:00">17 Sep 2006, 10:09</time>
+      </a>
+      <div class="entry-content"><p>lol sounds like a lot of fun! When I moved into my current house the landlord&#8217;s decorators had removed the phone line into the house. Cost £50 to put it back in, luckily Mr. Landlord paid!</p>
+<p>Have fun in Brum, make sure you go and get some Millie&#8217;s Cookies. There&#8217;s one in New Street station and one in the bullring thing.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

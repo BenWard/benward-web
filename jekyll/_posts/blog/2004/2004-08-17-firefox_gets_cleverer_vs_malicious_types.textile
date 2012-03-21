@@ -1,0 +1,76 @@
+---
+layout: blog
+category: blog
+title: "Firefox gets cleverer vs. malicious types"
+date: "2004-08-17T23:50:37+00:00"
+tags: ["technology"]
+atomid: tag:benward.me,2004-08-17:/blog/firefox_gets_cleverer_vs_malicious_types
+---
+<a href="http://www.getfirefox.com" title="Mozilla Firefox">Firefox</a>, my web browser of choice and reserve gravestone engraving is evolving nicely as it approaches the end of it's long and much respected test phase.
+
+Recently, genuine security patches were released for FX (extremely promptly, I might add) but one issue that has not yet been resolved is that of "Phishing".
+
+Phishing is the practice of spoofing websites in order to extract personal information from the user. It can be done on any browser as all it requires is a copy of the real page and some changed links. More advanced spoofs will imitate the browser window itself with images of toolbars, the status bar and familiar buttons. This can be done with regular HTML, images or (in Mozilla) the XUL user interface language. Microsoft's new XAML (very much like XUL) may well be abusable in the same way in Internet Explorer.
+
+There's a fundamental problem with these security risks: They're not bugs. The browser software itself is not doing anything wrong. It's just displaying the page like it's being told to. The effectiveness of spoofing is down to tricking the user. However a browser can not be programmed to 'guess' what the user really wants to do, not least because it could catch any number of legitimate websites.
+
+The solution, for now at least, lies in making the user more aware of what is going on. For a long time computer users have been familiar with the "padlock" icon in the bottom left corner of the browser window. This is so familiar it's now rather ignored... therefore the next version of Firefox (which I'm currently testing) is going to change it.
+
+<img src="/media/FX_1.0_StatusBar.png" border="0" alt="FX_StatusBar" />
+Firstly: When on a secure website the padlock icon (now displayed in the middle of the status bar) will also display the web address for the site which you're browsing. Therefore, even if you're in a pop-up window without an address bar, you can still see if you're on the website of your bank, or something else.
+
+<img src="/media/FX_1.0_LocBar.png" border="0" alt="Firefox Location Bar" />
+Second, the URL text box gets turned yellow and a padlock icon also appears on the right hand side of that display.
+
+It all makes it more obvious when you're on a genuinely secure page, and prevents you being so easily deceived.
+Combined with Firefox's setting to 'disable hiding the status bar' (which I really believe should be switched <strong>on</strong> by default), this can help render a lot of even advanced spoofs to look less convincing.
+
+
+I'm impressed. It's hard for a browser to intervene in a security area that entirely consists of fooling end users with devious website designs, but these little touches really seem to make a difference. I certainly hope it will make a difference to 'real world' users too.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-191">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/dc17387f19d96d6aeb53a0a9a02418dd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ww.jonty.me.uk/">Jonty</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-191">
+        <time class="published" datetime="2004-08-18T13:17:12+00:00">18 Aug 2004, 13:17</time>
+      </a>
+      <div class="entry-content"><p>It&#8217;s a good sign that the development teams of these smaller browsers (no disrespect intended) are able to respond to these important problems.</p>
+<p>Sadly as these browsers grow in popularity, it perhaps stands to reason that they will become a more prominent target. I daresay that Microsoft&#8217;s coding isn&#8217;t particularly bad, merely that having such market dominance makes them the ideal target. Another good reason against monopolies :)</p>
+<p>It is intersting that of late, Firefox has had more bug fixes than IE (7 v 4, not that that means much, the problems being general rather than specific, and IE being patched to the teeth as it is).</p>
+<p>Here&#8217;s hoping the reinvigorated Internet Explorer development team get the go ahead for IE7 pre-Longhorn (although whether developer suggestions, to which Microsoft welcome (get posting them!), will get implemented over end-user nicities, as per SP2).</p>
+<p>Kind Regards</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-192">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/fb7d81b172292b6034f9c1747d5b11e0.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.fatbusinessman.com">Fatty</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-192">
+        <time class="published" datetime="2004-08-18T17:47:52+00:00">18 Aug 2004, 17:47</time>
+      </a>
+      <div class="entry-content"><blockquote>I daresay that Microsoft&#8217;s coding isn&#8217;t particularly bad, merely that having such market dominance makes them the ideal target</blockquote>
+<p>I would have to say that, while this has a bearing, it most certainly isn&#8217;t the only reason why Microsoft products seem to get h4x0red more often. The most obvious counter-example for this is Apache which, despite having a 60% market share on Web servers, tends to have fewer security issues than Microsoft&#8217;s <span class="caps">IIS</span>.</p>
+<p>However, you are correct that all software of any size will have bugs and vulnerabilities and, failing that, you can always rely on the user&#8217;s ability to do something stupid.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-193">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-193">
+        <time class="published" datetime="2004-08-18T21:16:57+00:00">18 Aug 2004, 21:16</time>
+      </a>
+      <div class="entry-content"><p>The eternal size vs. security target argument is always interesting and certainly true to some degree (both in terms of blast radius for your little virus you wrote in your bedroom, and also for the actually software and development platform experience of script kiddies themselves).</p>
+<p>MS <i>are</i> somewhat criticised at the moment for bad coding in places. Not necessarily in the efficiency or quality of the code itself, but in terms of the complete disregard for security when they designed IE. ActiveX is the prime example.<br />
+One thing that will be interesting to see is whether IE on Service Pack 2 actually remains more secure &#8211; implying that they&#8217;ve actually gone into the core of it and sorted it out &#8211; or if the new security model is just hacked on top and vunerable to attack itself, so exposing the underlying holes of old. We&#8217;ll see I guess.</p>
+<p>As for &#8220;number of patches&#8221;&#8230; I don&#8217;t think that&#8217;s a fair indicator. In fact, I would argue that &#8220;number of patches&#8221; being greater is a good thing, given that we know as fact that web browsers will have holes, will be attacked and in situations where Microsoft have had issues found in IE, they&#8217;ve taken an age to fix it. Mozilla are priding themselves in having fixes released within days/a week of the initial report, before it&#8217;s ever implimented in the wild. The figure that should be given more attention is that of &#8220;Firefox security holes/bugs within 12 months of 1.0&#8221; vs. &#8220;IE5/6 security holes/bugs within 12 months of release&#8221;. While patches make security holes publicly visible, that does not mean that there are actually more holes, just more patches.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

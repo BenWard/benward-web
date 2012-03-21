@@ -1,0 +1,76 @@
+---
+layout: blog
+category: blog
+title: "The Spam Diaries: Episode #1 of Some"
+date: "2006-03-24T19:52:25+00:00"
+updated: "2006-03-24T19:52:25+00:00"
+tags: ["all", "humour", "spam", "akismet"]
+atomid: http://ben-ward.co.uk/journal/spam-diaries/
+---
+I don't often make posts out of Spam, but this was just a touch too priceless.
+
+The message reads: <q>Personally, I never use more than a single link in the comment I post because doing so can trigger spam catchers if the user has that plugin activated, whereas a single link will not.</q>
+
+Needless to say, <a href="http://akismet.com">Akismet</a> caught it.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-1029">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/c4efdc6c18b3c59d382fadf74187a813.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.contentwithstyle.co.uk">Matthias</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-1029">
+        <time class="published" datetime="2006-04-03T16:29:41+00:00">03 Apr 2006, 16:29</time>
+      </a>
+      <div class="entry-content"><p>I recently got this one: subject: &#8220;whatever&#8221;; text-only content (of course it went right into the junk-mail folder): &#8220;buy viagra or die.&#8221;</p>
+<p>Hilarious. Now that the spam doesn&#8217;t work so well any more, maybe some threats will help!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-1056">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/32a7ad548cd93fa03449073ea01314b9.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ekkoe.com">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-1056">
+        <time class="published" datetime="2006-04-05T18:14:41+00:00">05 Apr 2006, 18:14</time>
+      </a>
+      <div class="entry-content"><p>Hahaha, that&#8217;s a classic! Will they ever learn?</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-1068">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">IBBoard</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-1068">
+        <time class="published" datetime="2006-04-06T18:06:56+00:00">06 Apr 2006, 18:06</time>
+      </a>
+      <div class="entry-content"><p>I&#8217;ve had spam offering to sell me mailing lists. Wonder whether it&#8217;s the same mailing list they used to send me the spam?</p>
+<p>Also had some &#8216;failed&#8217; spam that&#8217;s either not had a body, some haven&#8217;t even managed all of the headers, and I had one that attached an alternate <span class="caps">HTML</span> version to the email, only to leave the <span class="caps">HTML</span> version empty.</p>
+<p>Most of the comment spam I had was fairly standard, though. Apart from the odd &#8220;like your site&#8230;..[insert random poker/drugs spam here]&#8221; comment.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-1070">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">IBBoard</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-1070">
+        <time class="published" datetime="2006-04-06T19:46:01+00:00">06 Apr 2006, 19:46</time>
+      </a>
+      <div class="entry-content"><p>I just got a trackback spam for msn.com. Not a clue why anyone would do that &#8211; random crazy spammers.</p>
+<p>Also, some of the junk filler in spam emails can be quite interesting in a completely odd way. It&#8217;s there to make the spam to normal word balance less spammy, but I posted some interesting ones on my forum (http://forums.hiveworldterra.co.uk/viewtopic.php?t=666)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-1074">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">IBBoard</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-1074">
+        <time class="published" datetime="2006-04-07T07:53:15+00:00">07 Apr 2006, 07:53</time>
+      </a>
+      <div class="entry-content"><p>Completely random &#8211; over last night I got another thirteen trackback spams for Google, <span class="caps">MSN</span> and Yahoo. Some scripting kiddy who doesn&#8217;t have a clue? Or some spammer without two brain cells to rub together?</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

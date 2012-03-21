@@ -1,0 +1,52 @@
+---
+layout: blog
+category: blog
+title: "Wanted: Photo Scanning Workflow"
+date: "2008-04-13T19:04:10-01:00"
+updated: "2008-04-13T19:04:10-01:00"
+summary: "I'm considering scanning all the old family photographs. The question is ‘how?’"
+tags: ["all", "photography", "scanning"]
+atomid: http://ben-ward.co.uk/?p=450
+---
+Back home in Cambridge are boxes. In those boxes are packet upon packet of photographs. It has been an ambition for some time to get those photographs scanned, imported into iPhoto and perhaps a bit of "Flickr":http://flickr.com, too.
+
+The thing which has put me off, besides geographic distance and having too much else to do, is the thought of actually scanning these photographs. Scanning, cropping, colour correction, application of EXIF metadata… over and over and over, a living definition of monotony.
+
+What I want is a very, very simple workflow that would ease the process. Something like this:
+
+# Enter some EXIF defaults before scanning. making the assumption that the precise date and time of  exposure is unknown, allow approximate dates and times to be entered. You should be able to bump this up as you go along, too.
+# With EXIF information set, you scan the first item. In a single step, I want to be able to crop (maintaining the correct aspect ratio), rotate and apply basic colour correction (which should also carry over from picture to picture). I should also be able to override any of those default EXIF values.
+# With corrections made, click a button to move that photo into an iPhoto import queue, and scan the next photograph.
+
+I've never found a piece of software designed like this. It's always death by general purpose, or perhaps geared toward people wishing to carefully correct every single aspect of their photograph in Photoshop. I'm not after optimal quality. Just ‘good enough’. I just need a small piece of software that sits in the middle of this flow.
+
+Does anyone have software recommendations? I'm interested to hear other ideas on how to go about this sort of Grand Project, too.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-226706">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/13734b0cb20708f79e730809c29c3c48.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://allinthehead.com/">Drew</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-226706">
+        <time class="published" datetime="2008-04-15T11:11:05-01:00">15 Apr 2008, 11:11</time>
+      </a>
+      <div class="entry-content"><p>You imagine that it&#8217;s the sort of tool that could be built on top of Leopard&#8217;s snazzy new graphics libraries. Get that sort of tool right and a small developer could totally clean up. It&#8217;s a really common problem for a lot of home users.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-226710">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/a33290f09c16298a40551594cdbcbe9a.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.supervery.com">sue</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-226710">
+        <time class="published" datetime="2008-04-16T08:11:32-01:00">16 Apr 2008, 08:11</time>
+      </a>
+      <div class="entry-content"><p>oh boy<br />
+if you find this i&#8217;m paying you a finders fee, i have thousands of slides with the same issue</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

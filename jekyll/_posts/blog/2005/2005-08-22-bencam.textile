@@ -1,0 +1,96 @@
+---
+layout: blog
+category: blog
+title: "Ben Cam"
+date: "2005-08-22T21:53:13+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2005-08-22:/blog/bencam
+---
+Once upon a time, on a website revision now somewhat more aged than I realised, I had a web cam. I don't think many people used it (bar <a href="http://jo.ben-ward.co.uk">Jo</a>, who could keep tabs on me and a few others who found it a useful means of seeing if I was on the phone and had neglected to set my IM status).
+
+I tried plugging my extremely old Creative Labs webcam into the Mac yesterday, and although the light came on, I couldn't make it do anything. Now it's in the PC, and accessible from <a href="http://ben-ward.co.uk/cam/">http://ben-ward.co.uk/cam/</a>. I shan't promise to turn it on, nor is it served using any advanced means (nor is the picture quality up to much) but heck, it's a bit of fun (if you find a slightly chubby, early 20's male staring at his computer screen fun, that is).
+
+To celebrate, one of the first 'test' shots came out like this:
+<img src="/media/bencam.20050822.jpg" alt="A webcam photograph of Ben Ward, wearing his new 'SimpleBits' T-Shirt and pulling a somewhat silly face" />
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-335">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/bbe284354c8bf028b0b34507b2dd2a07.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Graham Bancroft</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-335">
+        <time class="published" datetime="2005-08-23T01:24:25+00:00">23 Aug 2005, 01:24</time>
+      </a>
+      <div class="entry-content"><p>Is that a Simplebits &#8216;T&#8217;</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-336">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-336">
+        <time class="published" datetime="2005-08-23T09:29:53+00:00">23 Aug 2005, 09:29</time>
+      </a>
+      <div class="entry-content"><p>Yes, it arrived yesterday in fact.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-337">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/8a9cda1122e6e6e9390db4bff3de037c.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://zooibaai.nl/">Rob Mientjes</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-337">
+        <time class="published" datetime="2005-08-23T15:01:07+00:00">23 Aug 2005, 15:01</time>
+      </a>
+      <div class="entry-content"><p>OH MY <span class="caps">GOD</span> <span class="caps">STOP</span> <span class="caps">GIVING</span> ME <span class="caps">THE</span> <span class="caps">SEXY</span> <span class="caps">LOOK</span> ON <span class="caps">THE</span> <span class="caps">NOW</span>-<span class="caps">STATIC</span> IMAGE*cough* I tried to connect my QuickCam once and I didn&#8217;t get any coolness so I decided to find software. There was only one open source project supporting mine, so I tried that and the mini crashed. As if I needed to be reminded that 256MB <span class="caps">RAM</span> IS <span class="caps">NOT</span> <span class="caps">ENOUGH</span>&#8230;</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-334">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-334">
+        <time class="published" datetime="2005-08-23T15:11:18+00:00">23 Aug 2005, 15:11</time>
+      </a>
+      <div class="entry-content"><p>How can you see the sexy look!? My eyes are out-of-focus and my �c&#8217;mere� lips are otherwise engaged with a coffee mug. That look is my little secret! Err�</p>
+<p>The software I use (on Windows), which yesterday decided to start crashing is <a href="http://www.booru.net/news.html" rel="nofollow">Booru WebCam</a>. Free, pretty raw, but certainly used to do the job OK.</p>
+<p>A nights sleep has made realise just how truly awful that picture quality is. Anyone wanna buy me an iSight?</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-339">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/3218e487b7fd7b7b0d6f02bef3227e39.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Steven Marshall</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-339">
+        <time class="published" datetime="2005-08-23T15:50:07+00:00">23 Aug 2005, 15:50</time>
+      </a>
+      <div class="entry-content"><p>Some of us who own webcams (but not blogs, as  you reminded me whilst writing this, you bastard) prefer not to let the rest of the intarwebs (read: perverts a.k.a. Fatty) spy on us�</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-338">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/fb7d81b172292b6034f9c1747d5b11e0.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.fatbusinessman.com/">Fatty</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-338">
+        <time class="published" datetime="2005-08-23T17:27:15+00:00">23 Aug 2005, 17:27</time>
+      </a>
+      <div class="entry-content"><blockquote>Anyone wanna buy me an iSight?</blockquote>
+<p>Um� how about no?And Stevie&#8217;s insulting me again: why am I not surprised?Oh, and �Mmmmmmcoffee��</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-333">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/3218e487b7fd7b7b0d6f02bef3227e39.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Steve Marshall</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-333">
+        <time class="published" datetime="2005-08-23T23:05:11+00:00">23 Aug 2005, 23:05</time>
+      </a>
+      <div class="entry-content"><blockquote>And Stevie&#8217;s insulting me again: why am I not surprised?</blockquote>
+<p>It&#8217;s not so much an insult as it is reaffirming your existence :)</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

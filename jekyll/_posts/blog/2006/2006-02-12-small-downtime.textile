@@ -1,0 +1,20 @@
+---
+layout: blog
+category: blog
+title: "Small Downtime"
+date: "2006-02-12T16:24:57-01:00"
+updated: "2006-02-12T18:48:55+00:00"
+tags: ["all", "ben-wardcouk", "downtime", "migration", "dreamhost"]
+atomid: http://ben-ward.co.uk/journal/small-downtime/
+---
+I've finally got a compelling reason to move my domain over to the Dreamhost package that I've been paying for since October. I need to set up some SVN source control for my university project (Oak).
+
+Email addresses seem to be mirrored OK, but the database needs to be migrated. As such, comments have been disabled site-wide.
+
+With a bit of luck, all will be well in about 24 hours.
+
+<strong>Update</strong>: Well, if you're reading this then your DNS has successfully updated and you're viewing the Dreamhost hosted version of the site.
+
+At the same time as migrating to Dreamhost, I've also upgraded to PHP5, MySQL5 and Wordpress 2. Wordpress initially kicked up some shit, but I think I've fixed all the problems and upgraded my plug-ins. There seem to be some odd character encoding issues littering about (these appear as diamond ‘?’ characters in Mozillian browsers). I hope to find a setting to fix that at some point very soon.
+
+Meanwhile, I can only cross my fingers that my email won't break during the transfer, but it should hopefully be fine. If you urgently need to get in touch with me, my various <abbr title="Instant Messenger">IM</abbr> addresses are listed on the front page.

@@ -1,0 +1,58 @@
+---
+layout: blog
+category: blog
+title: "Reflect & Resolve"
+date: "2009-01-02T09:05:44-08:00"
+updated: "2009-01-02T09:05:44-08:00"
+tags: ["all", "review", "resolutions", "2008", "moving", "2009"]
+atomid: http://ben-ward.co.uk/?p=482
+---
+2008 has been a remarkable year. Quite unsettling in the amount that has changed, really.
+
+A year ago, I sat in my flat in London, somewhat settled, surrounded by wonderful friends. Sometime over the past twenty-four hours I had got monumentally drunk at Barden's Boudoir and <del>danced</del><ins>flailed wildly</ins> happily to Soulwax remixes of Klaxons. At some point I would be handed a half-full bottle of vodka by a barman and pour drinks for twenty people in my immediate vicinity and be cheered on like I'd brought home the World Cup.
+
+Life was, mostly, peachy.
+
+Also around that time I had an intriguing conversation across the Atlantic. ‘Have you ever considered working in the States?’ is the executive summary. ‘Nope… but tell me more’ is my abridge response.
+
+It's difficult to write a retrospective of 2008 because although I didn't move to the US until August, doing so eclipsed everything else that happened this year. In scale and impact, I mean, not necessarily in importance.
+
+2008 is the year I moved to America. Got offered the chance, knew I couldn't refuse, took a deep breath, took a lot of risks, and did it.
+
+Moving, especially when it's at least partially spontaneous, is a rush. So much happens at once that I lost track. So many decisions to make, so many major jobs to do one after another without a break. A new job with new people, new friends to be made.
+
+In a great many ways, I did what I always do, which is to land on my feet and do really well for myself. I don't like to assume that's how things will always work out, but it's become such a recurrence that I should start documenting it more scientifically. That said, at the pace of change, and under the huge rush of emotions and disorientation that comes with moving, I did plenty of things wrong too. My Christmas break came after 139 days in America, and actually, to fly home to England and take stock is exactly what I needed.
+
+The out of control rush had to end, the Yahoo layoffs experience and resultant rush to find new employment did nothing to lower my pulse and so the time away came as a really welcome break.
+
+I've come out of it calmer and more stable. I fly back to the US in a few hours, and I think I'm in a good state of mind for starting a new job, and tying up the last few loose ends of 2008.
+
+I ordinarily dismiss the idea of new years resolutions, but the way my experiences have fallen this year I start 2009 feeling unusually resolute.
+
+Some things are both predictable and rather cliché, but also very necessary. Having an operation for appendicitis in April got my weight down to where it should be (note: not a recommendation form of weight loss, plus you can only do it once). Moving to the States has seen me put it all back on, and exercise less. That has to change, else I'll be a grotesque lardbucket by the time I write the 2009 review.
+
+Elsewhere, the new job is going to let me keep a better work-life balance, since I'll be commuting from Sunnyvale daily. As such, I want to see my personal projects go live. I have lots to do at microformats.org, I have various wiki-related pieces of work in progress and needing to go live, as well as 33FortyFive, which I've been working the concept for for ages now.
+
+I need to track my life better. This year has shown how one really big event can throw off my knowledge of the rest of the year. So starting January first, I'm keeping a retrospective for all my social appointments, so I get a better overview of where my time goes. Maybe I'll make that public, or anonymized somehow, if it proves interesting.
+
+There's all manner of small things, and longer term, niggling tasks that I have to get done. Really, it all falls under a renewed determination I'm feeling. It all starts when I land in SFO on Saturday evening. 
+
+Let's see how this works out…
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-227162">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/41bc6b0ffa58418cbc1e4462344dfe7f.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Joe</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227162">
+        <time class="published" datetime="2009-01-10T04:22:29-08:00">10 Jan 2009, 04:22</time>
+      </a>
+      <div class="entry-content"><p>Your the coolest i.t. guy i&#8217;ve ever heard.  You should consider writing fiction, your style of writing is engaging but intelligent. No offence however, but becoming an american&#8230;? <span class="caps">WHAT</span> <span class="caps">WERE</span> <span class="caps">YOU</span> <span class="caps">THINKING</span>?!!! lol  Joe</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

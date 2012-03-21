@@ -1,0 +1,49 @@
+---
+layout: blog
+category: blog
+title: "@Media 2005"
+date: "2005-06-26T23:00:00+00:00"
+tags: ["all", "technology", "general", "web_standards", "mozilla_firefox"]
+atomid: tag:benward.me,2005-06-26:/blog/atmedia2005
+---
+<img src="/media/splashes/atmedia.splash.jpg" alt="" class="splash" />I'm probably the last of the ~400 delegates to complete their 'proper' @media write up, but I shan't be discouraged. I may, of course, sound like  an old record.
+<!--more-->
+<h4>The glorious 'first time'</h4>
+This was my first conference. I don't have the money to afford such things and won't have for a number of years. However, thanks to a stroke of luck, some jammy holiday planning and selfless generosity on the part of Steve Marshall I got a place. That's Steve who <em><strong>still</strong> doesn't have a blog to link to</em>, by the way.
+
+I only attended Friday, but it was splendid all the same. I met some wonderful people, learned a lot and became something of a DOM convert (like everyone else present at Jeremy Keith's 'Using JavaScript for good, not evil').
+
+<h4>'Hang on, that's Jon Hicks' (and other stories)</h4>
+As a student that shouldn't really have been there, the itinerary worked like this:
+<ol><li>Learn as much as possible from presentations (because there won't be another chance for years)</li>
+<li>Consume free coffee, tea and lunch</li>
+<li>Hunt out and hassle as many recognisable people as possible (not least because I was there on my own).</li></ol>
+I'm delighted that I managed all three of those. It's fantastic to meet, chat to and share beer with people you hold a great deal of respect for. I'm just going to reel off a list because it beats thinking of an original way of presenting this.
+
+Huge thanks to <a href="http://hicksdesign.co.uk">Jon Hicks</a> and <a href="http://38one.com">Denis Radenkovic</a> for keeping me company for most of the day (and the beer). Lovely people. <a href="http://stuffandnonsense.co.uk">Andy Clarke</a> (who has been rightly praised all over the web these last few weeks), <a href="http://andybudd.com">Andy Budd</a>, <a href="http://collylogic.com">Colly</a> (far too brief a hello for the man whose blog I comment on most often), <a href="http://www.456bereastreet.com/">Roger Johansson</a> (friendly guy), <a href="http://joeblade.com">Paul Haine</a> and <a href="http://punkchip.com">Emma Sax</a> (lovely to have met you both. I'll be visiting London quite a lot over the next few years and will try and remember to shout 'fancy a pint' sometime soon).
+The best bit was how inclusive everyone was. It's a shining beacon of wonderment about this part of the web design community <em>how bloody nice everyone is</em>. It's just as true in person as in blog comments.
+
+For example, over lunch I agreed to steal Andy Budd's <a href="http://andybudd.com">site design</a>. How more friendly can you get?
+
+There's more to that, of course. He has agreed to steal it back, on the condition that we repeat the process ad infinitum until we achieve design perfection. I regret to report that phase one ('stealing') has hit a hitch, though. I don't think I've got the right font to change the text in the header image. As such there'll be no movement on this revolutionary design process until I can change my name by deed poll to 'Andy Budd'. Am I likely to get free stuff with that name?
+
+<h4>Learn something</h4>
+I do wish my university lectures were as enjoyable. Douglas Bowman was excellent and did a great reassurance job for me. I came out of his tour through the Blogger redesign thinking 'Thank goodness for that, I <em>am</em> doing this right'.
+
+Jeremy Keith was a revelation. I've had DOM related ideas in my head for a while (we have a decent sized JavaScript enhanced web application at work which is ripe for redevelopment) and Jeremy gave a fantastic overview on how to do it right. I think his master-stroke was showing DOM selectors (<code>getElementById</code>, <code>getElementsByTagName</code>) alongside the equivalent CSS selector. Talking to an audience of the CSS enlightened, you could see the light bulbs go off. It was such a simple comparison to make but it converted a room of 400 to the wonders of the behaviour layer.
+
+Andy Clarke's part-spontaneous presentation-come-rant was, I think, the perfect piece to end on. This is not a man who claims to be hugely techy; to him CSS and HTML are just tools. After a day of solid standards evangelism Andy offered a vital 'come down to earth' message. To paraphrase: 'Are web standards, accessibility, and any other techy bollocks any more important to your client than a good design? Fuck no'. He was dynamic and entertaining throughout, but if I babble any more I'll dilute that core message.
+
+<h4>Spare any <del>change</del><ins>�400</ins>?</h4>
+I loved it this year. The knowledge that I wont be able to afford to go next year is  a bit frustrating. If you'd like to sponsor me to go and enjoy myself for 2 days in 2006 I wont say no. Not really. Really. Nej. Ja. There are probably some more deserving people than me to give a free ticket too, really. Don't worry, I'll be all right (on the outside).
+
+To all those who feel utterly gutted for not going this year, do go in 2006. It's really, really worth it. <a href="http://htmldog.com/ptg/">Patrick Griffiths</a> did an outstanding job in organisation and I've no doubt he'll do the same again.
+
+<notextile><div class="pingbacks hfeed" id="pingbacks">
+  <h2>Pingbacks</h2>
+  <ul>
+    <li class="hentry" id="pingback-4183">
+      <a rel="bookmark" class="entry-title" href="http://ben-ward.co.uk/journal/atmedia-2006-review/">Ben Ward &raquo; @Media 2006 Review</a>
+    </li>
+  </ul>
+</div></notextile>

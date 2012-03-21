@@ -1,0 +1,8 @@
+User-Agent: *
+# Don't index tag index pages. Duplicates date archives/articles
+Disallow: /blog/tags/*
+Disallow: /blog/categories/*
+Disallow: /tags/*
+Disallow: /res
+Disallow: /media
+Disallow: /files

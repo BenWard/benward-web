@@ -1,0 +1,62 @@
+---
+layout: blog
+category: blog
+title: "How to keep track of comments"
+date: "2005-04-25T13:33:25+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2005-04-25:/blog/keeping_track_of_comments
+---
+This has been bugging me for a few days now as a 'hole' in the way Blogging works right now. So, as a short "lunchtime thought":
+
+If people comment on my blog, I know about it. If people update their blog with new entries then I get notified via the Ping that bumps them up on my Blogroll. However, I'm short of a way of tracking where I comment.
+
+Sure, I have a set of regular blogs that I read and check back on regularly, but what about some one-off contribution I make to a blog I may have forgotten all about by tomorrow?
+
+I wonder if there is some space for some sort of 'reverse pingback' feature that sends a ping to the URI you specify as a commenter and would allow some kind of comment tracking feature to be built into my own Blog.
+
+Or, alternatively (and more likely), is there something blindingly obvious that I've missed?
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-269">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/11d4b8e0e0638fe55463628d216c34a8.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://jo.ben-ward.co.uk">Jo</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-269">
+        <time class="published" datetime="2005-04-26T12:20:10+00:00">26 Apr 2005, 12:20</time>
+      </a>
+      <div class="entry-content"><p>What you&#8217;re talking about is a &#8220;subscribe to comments&#8221; feature. You check a little box when you make your comment, and future comments on that entry get e-mailed to you.</p>
+<p>There&#8217;s a plug-in for wordpress <a href="http://www.scriptygoddess.com/archives/2004/06/03/wp-subscribe-to-comments/" rel="nofollow">here</a>.</p>
+<p>I couldn&#8217;t find anything for b2evolution I&#8217;m afraid, but there&#8217;s one for MovableType.</p>
+<p>Hope that helps :)</p>
+<p>Jo</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-270">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-270">
+        <time class="published" datetime="2005-04-26T23:36:03+00:00">26 Apr 2005, 23:36</time>
+      </a>
+      <div class="entry-content"><p>&#8220;Subscribe to comments&#8221; features are nice, though the only blog I regular read with that feature installed is <a href="http://www.collylogic.com" title="CollyLogic" rel="nofollow">Colly</a>&#8216;s.<br />
+It&#8217;s something I&#8217;m keen to add to the next revision of my blog.</p>
+<p>I think I&#8217;ve confused the issue by mumbling about &#8216;reverse-pingback&#8217;, a feature which to be useful to anyone would require the entire internet to upgrade their blogs, rather than providing a fix for now.</p>
+<p>I have a feeling this is going to mean finding an <span class="caps">RSS</span> reader and remember to subscribe to things. It&#8217;s just a bit of a faff really, especially when moving around different computers on a daily basis.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-271">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/8e0293544b13499460369217e2a7febd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://charlvn.blogspot.com">Charl van Niekerk</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-271">
+        <time class="published" datetime="2005-04-28T12:02:15+00:00">28 Apr 2005, 12:02</time>
+      </a>
+      <div class="entry-content"><p>I completely agree with you on this issue. An e-mail or separate feeds are just too much of a fuss. There should be a system that makes it much easier to track your comments from a central place. I don&#8217;t think current technologies will allow you to do that yourself &#8211; maybe a new kind of technology should be invented to make this easy and practical.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

@@ -1,0 +1,34 @@
+---
+layout: blog
+category: blog
+title: "iScrobbler 1.5"
+date: "2007-04-06T13:19:57+00:00"
+updated: "2007-04-06T13:19:57+00:00"
+tags: ["all", "technology", "software", "osx", "lastfm", "iscrobbler"]
+atomid: http://ben-ward.co.uk/journal/iscrobbler/
+---
+For my <a href="http://last.fm">Last.FM</a> update and syncing needs I've long been a user of <a href="http://www.last.fm/group/iScrobbler">iScrobbler</a> — rather than the official client. It's minimal, tidy and provides funcational-enough iPod updating too.
+
+There's a new beta of 1.5 just come out and it's got a really neat new integration of the ‘Love’ and ‘Ban’ buttons normally associated only with Last.FM radio.
+
+<img src="/res/i/iScrobblerLoveHate.png" alt="" />
+
+Seeing as I play my own music far more than Last.FM's this is a mightily neat addition since the Love feature was going unused. You can also send the current track as a recommendation to someone on your friend's list or add tags which is also quite handy.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-58273">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/fb7d81b172292b6034f9c1747d5b11e0.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.fatbusinessman.com/">FatBusinessman</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-58273">
+        <time class="published" datetime="2007-04-09T21:27:09+00:00">09 Apr 2007, 21:27</time>
+      </a>
+      <div class="entry-content"><p>Ooh, that’s pretty shiny. I’ve been using this version of iScrobbler for a while already, but due to nigh-on all my music listening being from the iPod I hadn’t actually noticed that it has this feature.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

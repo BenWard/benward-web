@@ -1,0 +1,49 @@
+---
+layout: blog
+category: blog
+title: "To make Delicious UI tastier"
+date: "2006-12-03T00:52:44+00:00"
+updated: "2008-02-28T16:34:25+00:00"
+summary: "On improving the tag bundles UI in Delicious."
+tags: ["technology", "delicious", "design", "features", "user-interface", "gripes", "suggestions", "web"]
+atomid: http://ben-ward.co.uk/journal/to-make-delicious-ui-tastier/
+---
+<a href="http://del.icio.us">Delicious</a> remains my social‐networking‐bookmarking‐organising service of choice. Despite the raving about the much respected and subjectively prettier <a href="http://ma.gnolia.com">Magnolia</a>'s existence, Delicious does everything I care about rather well, so I persist.
+
+That's not to say that Delicious couldn't use some hard polishing though. For one of few web‑apps in the world that doesn't badge itself ‘beta’, some of the functionality is intensely flaky. Tag management is my gripe today.
+
+<img class="screenshot" src="/res/posts/DeliciousManager.jpg" alt="Why doesn't it auto‑save? Why can't I drag tags together to merge them? Why can't I drag tags onto bundle names?" />
+
+‘Tag bundles’ are a feature of Delicious hidden away in the settings somewhat, but allows you to keep some control over your tags (and thereby make the tags list less overwhelming when you have <a href="http://del.icio.us/BenWard/#list">a lot of tags</a>). So I could group unambiguous tags ‘.net’, ‘.net2’ and ‘c♯’ into a ‘Programming’ bundle. Unambiguous is all relative of course; were I still a classical musician the tag ‘c♯’ might not be so clear cut.
+
+Unfortunately, creating bundles is a royal exercise in tedium. In case you've never looked before, you can find the <abbr title="user interface">UI</abbr> in ‘Settings: Bundle Tags’. First create a bundle, give it a name. Then start clicking the tags from the <em>huge</em> pool to add them to that bundle. But remember to click save, else your selection is lost.
+
+Unfortunately, if while working through the list you spot another tag you'd like to add to a <em>different</em> bundle, you need to stop, save, create the new bundle, find the tag that caught your eye before, add it to the new bundle, save, click on the original bundle to continue editing. Unless in that time you've spotted more tags to add to the second bundle, in which case you're now thoroughly distracted and don't want to go through switching bundle again anyway. Repeat this process of eye‑catching distraction. A lot.
+
+So, as suggested in my screenshot, I'd like to see a little JavaScript enhancement sprinkled over this particular UI, as follows:
+
+* First  up, <strong>auto‑save</strong>. I can't fathom a reason why the saving of bundle changes can't just happen on the quiet.
+* Dragging, dropping, the full shebang. Avoiding the bottleneck of switching between bundles, it would be neater to just allow tags to be dragged onto the the bundle list. Suddenly you can add each tag to any bundle you like and can add new bundles on the fly without having to stop adding tags to any other bundle.
+* At the moment, tags in the selected bundle are highlighted in red, with tags present in other bundles outlined more subtly. To allow simultaneous bundle editing some richer colour differentiation would be beneficial. Also handy would be a Flickr Organizr‑esque filter, such as ‘Show all my un‑bundled tags’.
+
+Finally, another feature from elsewhere in Delicious could be combined; tag merging. I've accumulated a few tags that should be merged: ‘cookery’ and ‘cooking’, for example. Since the workflow of creating tag bundles involves reading down the entire list of tags sequentially, redundent and synonymous tags like those also jump out. What if I could drag one tag onto the other to merge them (keeping the name of the tag dragged <em>on</em>to). It would be neat, no?
+
+Right now, my tags would benefit greatly from being more comprehensively bundled. It would make my Delicious account more useful. But with the current UI, I haven't the motivation.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-53639">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/1880d20a9fdb49fed9e177b519f14c8b.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Andrew</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-53639">
+        <time class="published" datetime="2006-12-16T17:03:26+00:00">16 Dec 2006, 17:03</time>
+      </a>
+      <div class="entry-content"><p>dude, ma.gnolia is not that good &#8211; it&#8217;s painfully slow, when i can be bothered, i&#8217;m coming back to del.icio.us</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

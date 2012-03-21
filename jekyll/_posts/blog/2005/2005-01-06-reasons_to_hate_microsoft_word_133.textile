@@ -1,0 +1,39 @@
+---
+layout: blog
+category: blog
+title: "Reasons to hate Microsoft Word #132"
+date: "2005-01-06T23:30:02+00:00"
+tags: ["all", "general", "software"]
+atomid: tag:benward.me,2005-01-06:/blog/reasons_to_hate_microsoft_word_133
+---
+I will admit right away that I'm not an expert user of Microsoft Word, or any word processor. This is software that I will only ever use as a tool and right now I'm ready to throttle it.
+<dl><dt>Microsoft Word screenshot:</dt><dd><img src="/media/msword-datafields.jpg" alt="Image showing Microsoft Word 2003 editing a document containing 'Data Fields'. The formatting toolbar has been completed disabled when editing a data field" title="Word 2003" /></dd></dl>
+I've spent the evening writing up documents for my <abbr title="British Computer Society">BCS</abbr> log book - documenting my Year in Industry for University. We've been provided with electronic versions so that we can email them back to our tutors.
+
+For reasons best known someone else, the documents are arranged in some kind of form/data field obscurity. This means (for those who are used to just being able to place the cursor and type) that I am restricted in where I can enter text. Fine, it has a data field for all the places that I want to type into. Sadly, these data fields <strong>disable all the formatting options in Word</strong>! Fonts, colours, <em>bullet point and ordered lists</em>... you name it and this document has blocked out the button. <strong>Why?</strong> Worse still, and completely incomprehensible, is that this stupid document has <strong>disabled spell check!</strong>.
+
+Sorry, but I cannot fathom a single reason (good or bad) why any document or any manner of inputting text into a word processor should wish to restrict <em>my</em> access to <em>my</em> spell checker. It's the single most stupid piece of <abbr title="User Interface">UI</abbr> that I've ever seen in my life - and I've run Linux.
+Imagine for a moment that you're sitting in Microsoft HQ and you're designing Microsoft Word. Under what circumstance could you <em>ever</em> say "we should disable the spell check button". I mean it, when can you ever even <em>suggest</em> that, <em>let alone</em> justify it!
+
+All I can do is sit here and blither.
+
+<strong>Update</strong>: The problem was that the documents were marked as "protected documents", which is a feature designed to lock down documents. It's traditional to put a password on when you do this, but apparently I can just click "Unprotect Document" all the problems go away. Security-a-go-go. <del>I can only assume that the spell check problem comes down to Microsoft not having implemented spell check in data-input fields - which still sucks</del> Having unprotected the document the spell check function returns and can check data fields - so I still can't understand why Word disables it.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-98619">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/10e620df6be452489e10a39bdf603712.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">James Vaughn</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-98619">
+        <time class="published" datetime="2007-06-12T18:45:42+00:00">12 Jun 2007, 18:45</time>
+      </a>
+      <div class="entry-content"><p>Regarding spell checking data in a Word form:</p>
+<p>Even though unprotecting the form enables the spell check button, any data entered in a form field is still getting skipped by the spell checker. You can test this by inserting a form field in a document along with regular text. Misspell the word in the field and the same word outside the field. Only the word outside the field will be flagged by the spell checker. I agree that this is dumb, and the only solution I know of is through <span class="caps">VBA</span> programming.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

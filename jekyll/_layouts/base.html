@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="/css/six.css">
+{% include profiles.html %}
+	<link rel="shortcut icon" href="/favicon.png" type="image/png">
+  <link rel="alternate feed" type="application/atom+xml" href="/feed" title="Ben Ward">
+{% include identity.html %}
+  <title>{% if page.title %}{{page.title}} · {% endif %}{{site.title}}</title>
+</head>
+<body id="me-benward">
+  <header>
+    <h1>{% if page.title %}<a rel="home" href="/">{{site.title}}</a>{% else %}{{site.title}}{% endif %}</h1>
+  </header>
+  {{content}}
+  <footer>
+    <abbr title="Copyright">©</abbr>
+    <abbr title="{{site.time | date: '%Y'}}">{{site.time | date: '%Y' | romanize}}</abbr>
+    <address class="vcard"><a class="fn url" href="http://benward.me" rel="me author">Ben Ward</a></address>
+    All rights reserved
+    · <a href="/about">About</a>
+    · <a href="/feeds">Feeds</a>
+    <a class="twitter-follow-button" href="http://twitter.com/benward" data-show-count="false">Follow @benward</a>
+    <p class="footnote">Questions on this blog will be answered gladly if correct
+      postage is enclosed.<a href="http://www.flickr.com/photos/benward/4371355580/">†</a></p>
+  </footer>
+{% include scripts.html %}
+</body>
+</head>

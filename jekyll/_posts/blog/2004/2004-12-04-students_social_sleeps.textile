@@ -1,0 +1,17 @@
+---
+layout: blog
+category: blog
+title: "Students' Social Sleeps"
+date: "2004-12-04T00:25:13+00:00"
+tags: ["all", "technology", "general"]
+atomid: tag:benward.me,2004-12-04:/blog/students_social_sleeps
+---
+<a href="http://www.studentssocial.co.uk" title="Students' Social.co.uk">Students' Social</a> - the somewhat desolate interweb community run by myself and <a href="http://www.fatbusinessman.com" title="David Thompson's Weblog" rel="friend met">David Thompson</a> - is going to be down for a few days.
+
+Basically, we're struggling to justify spending 40 for another year of hosting for a site which probably wont see another update. The amount of time it takes me to write any piece of software means that we'd all have graduated by the time I finished, thus meaning we'd have to think of a new name, as well as getting real lives.
+I don't want to close it though, as that would mean losing the forum which, no matter how few use it, still keeps a load of old friends in touch. Therefore, the site will get re-hosted underneath my personal domain, and the studentssocial.co.uk address will point at it.
+
+It should be back up on Sunday. Ish.
+
+<h4>Update:</h4>
+The site is now uploaded, complete with all data (which has been transformed to reflect the name changes). <em>Hopefully</em> you'll find that Students' Social.co.uk will function again at some point tomorrow, with <a href="http://www.studentssocial.co.uk" title="Students' Social">studentssocial.co.uk</a> pointing to the the new 'proper' address of <a href="http://studentssocial.ben-ward.co.uk" title="The new, relegated domain name for Students' Social">http://studentssocial.ben-ward.co.uk</a>. Any faults need to be pointed at me, really.

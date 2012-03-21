@@ -1,0 +1,16 @@
+---
+layout: blog
+category: blog
+title: "I hate computers"
+date: "2004-10-02T17:27:44+00:00"
+tags: ["technology"]
+atomid: tag:benward.me,2004-10-02:/blog/i_hate_computers
+---
+I've spent 4 days reinstalling my system. Only now, after much swapping of PCI cards, hardware conflicts, crackling sound and the eventual (and unwilling) disabling of my RAID controller do I have a system that resembles stable.
+
+I bought an iPod (it'll arrive in a few days I expect). For that to be of any pleasurable value I needed USB 2.0. I have an old machine that lacks this as standard. One 13 PCI card later, my machine is more unstable than an unstable thing (insert a politically relevent metaphor here: Something about Iraq, or if Iraq has transformed into a utopian paradise when you read this, just something about a chair with uneven legs will do).
+
+Anyway. One reinstall later and it's <i>more</i> stable. However, my recurring reinstall problem of "reinstall == crap sound" problem emerges (Soundblaster Live + VIA KT133 chipset motherboard. They have <a href="http://groups.google.com/groups?hl=en&amp;lr=&amp;ie=UTF-8&amp;client=firefox-a&amp;q=VIA+KT133+Soundblaster+Live+Problem&amp;btnG=Search" title="740 Usenet (Google Groups) discussions on the subject of my problem">many known issues</a>).
+This problem is fixable. Install the correct RAID driver. I've done it before. So I did it again. Crackling sound disappears. What didn't happen last time was that the crackling gets replaced with random and regular system freezes (you know, the ones where the sound just gets stuck on one note and you have to dive for the power button before your eardrums collapse and/or your speakers become knackered). Good eh?
+
+I've now completely rewired my computer, no longer using the RAID controller that once provided me with the only visible speed boost that tweaking ever did for my system. It hurts a bit really, cause I liked my set up. On the plus side, I can listen to music again and the system hasn't crashed (yet). And there's an iPod in the post for me. Hoorah!

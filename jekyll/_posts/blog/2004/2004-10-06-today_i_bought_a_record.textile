@@ -1,0 +1,48 @@
+---
+layout: blog
+category: blog
+title: "Today I bought a record"
+date: "2004-10-06T01:15:02+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2004-10-06:/blog/today_i_bought_a_record
+---
+<img src="/media/Picture(30).jpg" alt="SFA Record" class="splash" />In my search for the Super Furry Animals "The Man Don't Give A Fuck" super-mega-special-edition-live single today, I failed to find a CD, but HMV did have two copies of the limited edition etched vinyl version.
+
+Now, I know nothing about vinyl. I have no idea if if being 'etched' refers to the way in which it has a number scratched onto it, the way in which it looks thicker than Dad's records used to or the way in which it's only grooved on one side, the other being patchy raw vinyl*. I haven't a clue.
+
+What I do know is that in the year 2020 it might count as some form of rock memorabilia. And it's the Super Furry Animals, who have a permanent slot in my life as 'small gods'. Therefore I'm keeping it and will probably listen to it once at some point and never again. I've got the CD on order from t'interweb, so I'm not sacraficing anything...
+... not least because I don't own a record player.
+
+What I do know, is that for 3, it's dead cool.
+
+Update: * The 'patchy raw vinyl' is actually the etching.. oops. Thanks to the <cite>don't_sit_on_the_weeds</cite> comment. I feel a bit sheepish now.
+
+Also, the CD version arrived. The song is great, gotta love the techno set in the middle. The record is proof, as if it were needed, that SFA are one of the best bands of all time. Definately.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-200">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/586ef3015561729305f5b2f5f461486e.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">dont_sit_on_the_weeds</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-200">
+        <time class="published" datetime="2004-10-10T22:25:21+00:00">10 Oct 2004, 22:25</time>
+      </a>
+      <div class="entry-content"><p>the etching on the sfa vinyl is an image of the front ocover of the single&#8230;. :)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-201">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-201">
+        <time class="published" datetime="2004-10-11T00:38:58+00:00">11 Oct 2004, 00:38</time>
+      </a>
+      <div class="entry-content"><p><strong>Looks closer</strong> So it is! Wow, that&#8217;s dead cool :)</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

@@ -1,0 +1,22 @@
+---
+layout: blog
+category: blog
+title: "Listen to my music"
+date: "2005-01-27T19:10:39+00:00"
+tags: ["all", "music"]
+atomid: tag:benward.me,2005-01-27:/blog/listen_to_my_music
+---
+As of today, I've started making some donations to the online services that I use and love. First up, and long overdue, was a donation to <a href="http://www.audioscrobbler.com">Audioscrobbler</a>. I've <a href="http://www.audioscrobbler.com/subscribe.php">dropped them</a> about 5 a month (you can choose how much you want to give, based on how much you value their service) and paid for three months.
+
+Thus, anyone with an AudioScrobbler account (<a href="http://www.audioscrobbler.com/signup.php">free</a>) can <a href="http://www.last.fm/iframes/playeraction.php?a=personalradio&amp;profile=1116611" title="Listen to my music (you need an AudioScrobbler/Last.FM account and a media player)">listen to my music</a> via "Personal Radio" for the next three months. Or you can <a href="http://www.last.fm/iframes/playeraction.php?a=listenas&amp;profile=1116611" title="Listen to music similar to mine">listen to music similar to mine</a> via "Profile Radio" (a feature that you get with the free membership).
+
+Words cannot describe just how cool AudioScrobbler and Last.FM are. A quick summary: AudioScrobbler is a plug-in for your media player of choice that sends the name of each song you play to a central server. That then goes into a <a href="http://www.audioscrobbler.com/user/Shovel" title="My AudioScrobbler Profile">profile</a> that you can view to admire your listening habits.
+Last.FM is a dynamic online radio service that plays you music similar to your tastes. So the more music you listen to with AudioScrobbler installed, the better the music that gets play to you through Last.FM becomes.
+
+The AudioScrobbler profiles get statistically manipulated to work out which other members have similar taste to you (so you can look at their profiles and pick out some new bands, for example). You can also give a simple rating of what you think of the music that Last.FM is playing (and skip tracks) which influences your profile too.
+
+Not to mention that it allows unsigned and independent bands to have their music played alongside huge acts like Radiohead on Last.FM. Consider, my friend Mike's unsigned band <a href="http://www.ptatheband.com" title="PTA">PTA</a>, could put their forthcoming Greedy Gonzalez EP on Last.FM. PTA's music would then get played to someone whose taste was similar to mine. If they click the "Love" button on the Last.FM web page, they will get played that song again and people who have similar taste to them might get PTA played to them. You see where this goes...
+
+Oh, and AudioScrobbler's software is all Open Source and all the data they collect is licensed under <a href="http://www.creativecommons.org" title="Creative Commons Copyleft Licensing">Creative Commons</a>, so anyone can access it. It's <strong>not</strong> some evil record company plot. In fact, it was someone's final year university project.
+
+So listen to my music - and check out <a href="http://www.ptatheband.com" title="PTA">PTA</a> too.

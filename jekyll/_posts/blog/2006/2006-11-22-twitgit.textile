@@ -1,0 +1,116 @@
+---
+layout: blog
+category: blog
+title: "Announcing Twitgit, a Dashboard widget for Twitter"
+date: "2006-11-22T23:08:29+00:00"
+updated: "2006-11-22T23:10:20+00:00"
+tags: ["technology", "osx", "mac", "downloads", "dashboard", "widget", "twitter", "twitgit", "twidget", "projects"]
+atomid: http://ben-ward.co.uk/journal/twitgit/
+---
+I've been working for a week or so now on learning to build Dashboard widgets for Mac OSX. I've got one for the rather incredible <a href="http://last.fm">Last.FM</a> in the works, but since it's quite complex I took time out for something simpler.
+
+Announcing <a href="/widgets/twitgit" title="Twitgit Dashboard Widget">Twitgit</a>! A Dashboard widget for everyone's favourite Web 2.0 time-waster, <a href="http://twitter.com">Twitter</a>. 
+
+<img class="screenshot" src="/res/posts/twitgit/Twitgit05.png" title="Twitgit 0.5 for OSX Dashboard alt="" />
+
+Amusingly, the original name, <a href="http://www.frankmanno.com/widgets/twidget/">Twidget</a>, was already taken as of about 6 hours before Twitgit's release. A hasty name change ensued, along with a bit of polish and a few compromises. I'm calling in 0.5, and will try to do a fresh release every few days (give or take) with improvements and then call it ‘done’ in a week. This is what they call <a href="http://daringfireball.net/2006/11/beta_excuse">buggy</a> software, so please be nice.
+
+<a href="/files/widgets/Twitgit.zip">Download Twitgit 0.5 for Twitter</a>
+
+The <a href="/widgets/twitgit">Twitgit page</a> documents a few initial to-dos, so if you've got feature requests please take a look there in case it's already covered (scroll bars <em>are</em> already on the list). Feel free to post feedback here or <a href="/widgets/twitgit">on the project page</a>.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-40381">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/fd685506016b37418b3a05c1e762716e.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://brandamage.com">luxuryluke</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-40381">
+        <time class="published" datetime="2006-11-23T00:35:35+00:00">23 Nov 2006, 00:35</time>
+      </a>
+      <div class="entry-content"><p>Wooohoooo!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-40576">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/c875baccdf1f7a56f69b21dd7abffbfb.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://cdevroe.com/">Colin D. Devroe</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-40576">
+        <time class="published" datetime="2006-11-23T06:41:32+00:00">23 Nov 2006, 06:41</time>
+      </a>
+      <div class="entry-content"><p>My only fear with this is &#8211; and perhaps this was completely intentional &#8211; is that it makes Twitter seem a chat client.  I believe it&#8217;s original purpose was to show the current status of it&#8217;s members.</p>
+<p>Again, the ability to IM in your statuses (thought of as a matter of convieneance from the developers no doubt), does the same thing as this widget does.  Makes Twitter into a huge Chatroom.</p>
+<p>Nice job on the widget, I&#8217;ll probably end up using it&#8230;. but I got sucked into using Twitter to chat and I don&#8217;t think I&#8217;ll be using it like that ever again.  Huge waste of time.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-40679">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-40679">
+        <time class="published" datetime="2006-11-23T09:46:49+00:00">23 Nov 2006, 09:46</time>
+      </a>
+      <div class="entry-content"><p>Colin: It&#8217;s interesting you think that because for me, one of the reasons for building the widget was to try and get a llittle away from the ‘chat instinct’ that I found when Twitter was integrated into my IM client. For me, at least the widget is in a different place, even though the information is the same.</p>
+<p>Personally, I think in a week or so Twitter will naturally settle down again and return to something that&#8217;s at least nearer the original purpose; at the moment there are bundles of new people signing up enthusiastically every day and it takes everyone a little while to realise that the differing friends lists make it less suitable for all out public chat. Which isn&#8217;t to say the exchange of messages is bad; I do love the way that if you&#8217;re pondering something that can get an answer, you can often get little suggestions back.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-41086">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/c875baccdf1f7a56f69b21dd7abffbfb.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://cdevroe.com/">Colin D. Devroe</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-41086">
+        <time class="published" datetime="2006-11-23T22:50:21+00:00">23 Nov 2006, 22:50</time>
+      </a>
+      <div class="entry-content"><p>To say that Twidgit makes Twitter feel like a chatroom as much, or more than, via IM is not fair.  Twidgit definitely makes Twitter feel less like a chat room than getting statuses via IM.  For sure.</p>
+<p>Looking forward to future releases.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-41387">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/86cf2c38bd61ffc99251cbd5d6ec2dfd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://muffinresearch.co.uk">Stuart Colville</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-41387">
+        <time class="published" datetime="2006-11-24T09:20:03+00:00">24 Nov 2006, 09:20</time>
+      </a>
+      <div class="entry-content"><p>I&#8217;m loving Twitgit. The constant hassling that my IM client was giving me was far too distracting.</p>
+<p>One suggestion would be to replace the &#8220;Refreshing Twitterings&#8221; With an absolutely positioned throbber (spinning disc) in the top right hand corner. This will then not push down the content (which is a distraction in itself) and will also alleviate the cut-off problem in 0.5</p>
+<p>Thanks for building this Ben, it&#8217;s now my preferred method for Twittering.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-41392">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-41392">
+        <time class="published" datetime="2006-11-24T09:50:11+00:00">24 Nov 2006, 09:50</time>
+      </a>
+      <div class="entry-content"><p>Thanks Stuart, it&#8217;s nice to have produced something useful.</p>
+<p>Two things in the works to fix your problem: Once I get scrollbars in I can fix the height of the widget (resizing will come later) and the notification bar will be redone with position:fixed to make it overlay rather than push down. It&#8217;s used to display errors as well as the &#8216;Refreshing&#8217;.</p>
+<p>The &#8216;Refreshing&#8217; will go, and be replaced with another kind of activity indicator. I&#8217;ve got a fair bit of train travel to do this weekend, so I&#8217;ll take a local copy of the <span class="caps">JSON</span> and hack away on the train.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-42002">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/a94083bdbb5091e4a5ef8a8b5a635346.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Brad Dielman</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-42002">
+        <time class="published" datetime="2006-11-25T04:19:25+00:00">25 Nov 2006, 04:19</time>
+      </a>
+      <div class="entry-content"><p>Great work!  I plan on getting a Mac soon and this gives me another item to add to my list of must haves once I&#8217;ve procured one.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-53449">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/fd61e8c33b9f580b90bb8946d8d57467.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.jayonline.co.uk">Jim Callender</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-53449">
+        <time class="published" datetime="2006-12-14T00:46:44+00:00">14 Dec 2006, 00:46</time>
+      </a>
+      <div class="entry-content"><p><span class="caps">WOOHOO</span>! go twitter lovers, something to make this darn thing even more addictive.. sorry family can&#8217;t go to church, at xmas twitter is something i have to attend to!</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

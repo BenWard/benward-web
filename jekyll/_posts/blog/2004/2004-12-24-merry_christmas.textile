@@ -1,0 +1,13 @@
+---
+layout: blog
+category: blog
+title: "Merry Christmas"
+date: "2004-12-24T22:09:31+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2004-12-24:/blog/merry_christmas
+---
+Wishing you well and that you may indulge the Christmas spirit (of your choice) in a way that doesn't get you hurt.
+
+I'll be enjoying 10 days back home with my family and driving down to see <a href="http://studentssocial.ben-ward.co.uk/modules.php?name=Journal&amp;file=display&amp;jid=65" title="Jo">Jo</a> in the afternoon. I hope everyone reading this has a similarly nice time.
+
+Ben

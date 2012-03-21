@@ -1,0 +1,86 @@
+---
+layout: blog
+category: blog
+title: "Is this you at SXSW? I have your camera."
+date: "2008-03-26T02:46:18+00:00"
+updated: "2008-03-26T13:19:29+00:00"
+tags: ["all", "camera", "sxsw", "purevolume", "lost", "lost-property"]
+atomid: http://ben-ward.co.uk/journal/lost-sxsw-camera/
+---
+For reasons I'll elaborate on in a moment, I'm home from South By Southwest with two completely identical cameras. One of them is mine, the other… not.
+
+In the interests of trying to return it to the rightful owner, here are two images taken from the camera. If this is you, or you took the picture, then I would very much like to return your camera.
+
+<img src="/res/posts/lostcamera/MysteryCamera1.jpg" alt=""/>
+
+<img src="/res/posts/lostcamera/MysteryCamera2.jpg" alt=""/>
+
+A little background: During South By Southwest there's a club night off San Jacinto called PureVolume. My attendance was down on last year (once SXSW-Music started up, the place became unbearably full of cigarette smoke), but on one occasion <a href="http://nascentguruism.com">Steve</a> spotted my camera had dropped from my pocket onto the floor. Picking up the camera, it was the very same. Breathing relief that the screen hadn't cracked in the fall, the camera was returned to my person and the night continued somewhat uneventfully. Next morning, sitting parallel on the hotel desk were <em>two</em> cameras. I had not dropped my camera at all. But someone else had dropped their matching model.
+
+I want to get the camera to the rightful owner if I can, so if that's you, read on: To get your camera back you need to <strong>email <a href="mailto:heythatsmycamera@ben-ward.co.uk">heythatsmycamera@ben-ward.co.uk</a></strong> and give me some information. Namely: The manufacturer and model of the camera; also describe the unique identifying customisation that you've made to the camera body; and describe some of the other contents of the memory card.
+
+I'm pretty sure the owner is a SXSW-Interactive attendee, so I'm quite hopeful that this post might find its way to him or her.
+
+Good luck.
+
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-226283">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/c10f7575c8d6228450f5e8cbb8ec6af8.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://thejaronline.com">Adrian</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-226283">
+        <time class="published" datetime="2008-03-26T12:39:27+00:00">26 Mar 2008, 12:39</time>
+      </a>
+      <div class="entry-content"><p>Is that not David Prager of Revsion 3 fame?</p>
+<p>http://en.wikipedia.org/wiki/David_Prager</p>
+<p>The second photo does shoe him wearing a Rev3 hoodie.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-226289">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/1cadde14ad5905131d4099a3af871153.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.jonvictorino.com">Jon</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-226289">
+        <time class="published" datetime="2008-03-27T00:23:04+00:00">27 Mar 2008, 00:23</time>
+      </a>
+      <div class="entry-content"><p>It worked!</p>
+<p>http://twitter.com/dlprager/statuses/777687524</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-226290">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/6aad9e21988d39970ee58f98493da40d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://tornsuits.no">Thomas</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-226290">
+        <time class="published" datetime="2008-03-27T00:51:03+00:00">27 Mar 2008, 00:51</time>
+      </a>
+      <div class="entry-content"><p>That&#8217;s awsome! :)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-226291">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/7ec943045b83d36cb52c2fb3665aedae.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.myspace.com/miche11eh">Michelle</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-226291">
+        <time class="published" datetime="2008-03-27T04:35:45+00:00">27 Mar 2008, 04:35</time>
+      </a>
+      <div class="entry-content"><p>Oh my gosh!  You found my camera!!!  I lost it at Pure Volume that night at the Digg party.  I was hoping someone would recognize my friend Prager.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-226294">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/babf57040876b1c966ee7f8015d6d1ef.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.mijnnaamisramon.nl">Ramon Kool</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-226294">
+        <time class="published" datetime="2008-03-27T06:27:52+00:00">27 Mar 2008, 06:27</time>
+      </a>
+      <div class="entry-content"><p>So cool! Yay for internet!</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

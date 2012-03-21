@@ -1,0 +1,11 @@
+---
+layout: blog
+category: blog
+title: "PTA - Methodology"
+date: "2004-12-24T00:51:27+00:00"
+tags: ["all", "music"]
+atomid: tag:benward.me,2004-12-24:/blog/pta_methodology
+---
+This should traditionally probably go in the side-links section. However, having listened to it twice, <a href="http://ptatheband.com/forum/viewtopic.php?p=8970#8970" title="Methodology by PTA release announcement">this new recording by PTA</a> (whose membership includes one-quarter <a href="http://www.ptatheband.com/plews.html" title="The Plews. Not really a racist.">former housemate</a>) is so damn good it needs to be plugged right here, right now.
+
+Read the thread if you like, but for all that is good <a href="http://www.ptatheband.com/music/pta-methodology.mp3" title="PTA - Methodlogy (Greedy Gonzalez)">listen to the MP3</a>.

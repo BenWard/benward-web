@@ -1,0 +1,129 @@
+---
+layout: blog
+category: blog
+title: "Ajaxising"
+date: "2007-11-20T00:46:34+00:00"
+updated: "2007-11-20T00:46:34+00:00"
+tags: ["all", "ajax", "google", "media", "media-ajax", "ppk", "javascript", "conference"]
+atomid: http://ben-ward.co.uk/journal/ajaxising/
+---
+I'm back from day one of @media Ajax. I'm here because JavaScript is my weak hand. It's the technology I've worked with the least, although I'm plenty experienced as a programmer more generally. It's been a really very interesting day indeed, although perhaps not entirely for what I've learned.
+
+Following sessions from Dion Almaer & Ben Galbraith of Google and Ajaxian, Mike Stenhouse, Derek Featherstone, Christian Heillman and PPK, it's seems as though the ‘Ajax’ professional is on pretty rocky ground. The conference has been excellent, but the messages coming out are mixed.
+
+On the positive side, Mike Stenhouse is adapting his designer role to accommodate more interaction between the backend and frontend development processes. Derek Featherstone has got accessibility for JavaScript techniques increasingly concise and — and for the this I respect him greatly — he's not afraid to just declare when some implementation is <strong>wrong</strong>.
+
+For the past four years, web standards have risen from the fringe ‘proper way to do it’ to being <em>the</em> best practice. Web Standards are not just proper, they are <em>right</em> and they are <em>best</em>. Accessibility is not something you tack on if there's time, it's not something you integrate in the face of legal requirements. It's the accepted right thing to do. It's correct. It's a fundamental part of being a professional web developer and integrating accessibility concerns into your web development process isn't optional.
+
+It's always been questionable quite what planet Google develop on. On the one hand they employ one editor of the HTML 5 specification, on the other hand they produced the mark-up abominations of Gmail, Google Calendar and Google Reader. The impression you get from Dion and Ben is that Google see the web, and the HTML and CSS that powers it, as a massive inconvenience. Really, they'd much rather just write end-to-end Java rather than these lowly, primitive web technologies. But that's how Google are, it seems. Peter-Paul Koch, however, should know better.
+
+PPK's presentation irritated me immensely. He intended to highlight some intricacies of implementing an Ajax application, but his example set a shockingly bad example for everyone in the audience. He demonstrated a family tree, with two outrageously unacceptable assumptions from the outset:
+
+<ul><li>That the data his application presented was unsuitable for representation in a conventional, pages-based web site.</li>
+<li>That adding proprietary attributes to HTML is acceptable.</li></ul>
+
+Because he did not map his application to a conventional pages structure, he claimed justification to produce a single-page, JavaScript-only solution with no fallback, and no URLs.
+
+I'm quite confident that <em>everything</em> can be mapped to a multiple page structure somehow. But, PPK's example data not only <em>can</em> map to URLs, but actually maps <em>very well</em> indeed.
+
+The family tree focuses on individual people. You focus on a single person and view their siblings, spouse(s), parents and children. You click another family member and the view changes. Every single individual person in a family tree is a resource. A resource can (should) have a URL. If every individual person has a URL, you can operate without JavaScript. Adjustments to the displayed depth of ancestry or progeny should then be passed through the query string; that's what it's for.
+
+<ul><li><kbd>http://example.com/person/1232?ancestors=4&descendents=2</kbd></li>
+<li><kbd>http://example.com/person/343</kbd></li>
+<li><kbd>http://example.com/person/2000?ancestors=2</kbd></li></ul>
+
+Second, he proceeds to embed data about the family members into semantically neutral HTML, using invalid attributes. It's not acceptable to abuse HTML like this. PPK's snippet came out something akin to this:
+
+<blockquote><pre><code><div class="person" father="3" mother="5" sibling="2" child="17"> [...] </div></code></pre></blockquote>
+
+That's not OK. It's not OK to preach that sort of HTML misuse to a room expecting to be lectured in best practice by an expert. It is <strong>wrong</strong>. Worse, it's not even necessary.
+
+In this situation, the only attribute you need on a each ‘person’ node is an ID. That ID can be used to map to a data object structure that remains in the script layer. There's simply no need to write the data relationships into HTML at all.
+
+Honestly, it's concerning. Here we are in possession of a quite young technology with which it would be quite easy to create a whole generation of terrible, harmful web applications. With it we could — as Mr Langridge so wonderfully suggested — ‘destroy the web’. That's why we are having conferences like this. We need to set and enforce strong baseline principals. We need need to stand up for the last three years of best practice that events like @media have tried so hard to encourage. If someone is trying to push new best practice in JavaScript whilst disregarding mark-up, CSS and accessibility we need to call it out and declare that it <em>wrong</em>.
+
+Ajax — which seems to have become a catch all term for any modern JavaScript now — is a great opportunity to enhance applications. We can create user experiences that go beyond anything that's been possible before. But those visions, ideas and grand steps forward are worth absolutely nothing if we throw away everything we already know in the process.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-223148">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/36c7326ddbc086107f19416ec3bb3943.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.simonjobling.com">Si Jobling</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-223148">
+        <time class="published" datetime="2007-11-20T11:42:23+00:00">20 Nov 2007, 11:42</time>
+      </a>
+      <div class="entry-content"><p>Seeing as I can&#8217;t attend @media Ajax due to personal commitments, it&#8217;s been useful to read other&#8217;s opinions of the conference, especially those who aren&#8217;t particularly &#8220;Web Celebs&#8221;.</p>
+<p>It&#8217;s refreshing to see an honest opinion about, what sounds like a pretty bad example of implementing &#8220;<span class="caps">AJAX</span>&#8221; into a Web app that, quite frankly, doesn&#8217;t harness the true power and intention of JavaScript. Implementing non-Standard code into your <span class="caps">HTML</span> is just asking for trouble, specifically if that content could be implemented using the correct markup (the example enclosed with fathers and children could, and probably should, be a simple unordered list with class selectors on each list item).</p>
+<p>Thanks for the write up though Ben &#8211; I&#8217;ll be looking forward to your thoughts from Tuesday&#8217;s session.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-223151">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/5897dcf2da3855a679922dc3e7726fc5.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.beyondthetype.com">Martin</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-223151">
+        <time class="published" datetime="2007-11-20T15:06:33+00:00">20 Nov 2007, 15:06</time>
+      </a>
+      <div class="entry-content"><p>You are not alone with your experience of the N95:<br />
+http://beyondthetype.com/2007/8/30/n95-update-3-months-on</p>
+<p>Great phone which I really like but there is some usability issues which can make things quite frustrating at times..</p>
+<p>Martin<br />
+(reading your update on @media ajax via technorati)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-223160">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/7960f43b3a2012753afecc0e4591217c.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://friendlybit.com">Emil Stenström</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-223160">
+        <time class="published" datetime="2007-11-21T18:54:02+00:00">21 Nov 2007, 18:54</time>
+      </a>
+      <div class="entry-content"><p>Hi!</p>
+<p>I also attended the @media ajax conference and I have to agree on the first part of PPKs presentation: his app could well fit into the page metaphor. On the other issue, he wasn&#8217;t really using invalid attributes, he just proposed that as one way to store the data on the server. My guess is that he would replace them with javascript on the client later on. He needed the info on the clientside to build the graphs.</p>
+<p>None the less, good writeup!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-223161">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e6e984d5209d0fd381fae0d78c4d0302.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.mattrobin.com">Matt Robin</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-223161">
+        <time class="published" datetime="2007-11-21T20:09:51+00:00">21 Nov 2007, 20:09</time>
+      </a>
+      <div class="entry-content"><p>Great article Ben, very thorough!</p>
+<p>I&#8217;m glad Derek&#8217;s presentation went well, and I&#8217;m very disappointed to read that PPK&#8217;s gig was so very wrong!</p>
+<p>In fact, reading the <span class="caps">HTML</span> snippet you provided made me groan (and not in a good way!) To give such misleading content at a presentation &#8211; from someone of his expected good reputation &#8211; is definitely alarming&#8230;and I hope it&#8217;s not a sign of things to come!  Ajax, despite the hype, is really quite good stuff (as far as I can tell), so it would be a waste if we see it implemented badly on the Interwebs based on the poor guidance from some of the alleged experts!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-223178">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e18bbcd3c247d26919e3c699e5ea7181.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-223178">
+        <time class="published" datetime="2007-11-22T23:06:05+00:00">22 Nov 2007, 23:06</time>
+      </a>
+      <div class="entry-content"><p>Emil,</p>
+<blockquote cite="http://ben-ward.co.uk/journal/ajaxising/#comment-223160">On the other issue, he wasn’t really using invalid attributes, he just proposed that as one way to store the data on the server. My guess is that he would replace them with javascript on the client later on. He needed the info on the clientside to build the graphs.</blockquote>
+<p>Just to respond to this, because having started out on a blunt whim of ‘it matters’ I feel should at least maintain the corrections.</p>
+<p>The attributes <span class="caps">PPK</span> wrote into his <span class="caps">HTML</span> <em>were</em> invalid. They don&#8217;t exist in the HTML4 spec. I find it hard to justify making up new attributes in any situation (we have the open-ended <code>class</code> attribute, after all), although efforts like <span class="caps">ARIA</span> (introducing the role attribute from XHTML2 into <span class="caps">HTML</span>) at least have some organisation behind them to support their recommendation. Making up attributes on a whim is just bad form, though.</p>
+<p>And to expand on the reasons why he didn&#8217;t need the attributes at all: The data was loaded from an Ajax call to the server. The application received <span class="caps">XML</span> back, which contained all of the data needed to map the relationships. Having parsed the <span class="caps">XML</span>, all the relationship information is <em>already</em> on the client side. There&#8217;s no need for it to be written into the <span class="caps">HTML</span> elements themselves. An object can just remain in JavaScript, mapping the <code>ID</code> attribute of the <span class="caps">HTML</span> elements, to the extended data about the relationships. Writing it into the <span class="caps">HTML</span> is not only invalid, but also adds expensive steps to read the data back from the <span class="caps">DOM</span> again.</p>
+<p>Hope that clarifies.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-223181">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/3e4cf7e19b113ea93fa0c000ca02605d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://eatyourgreens.org.uk">Jim</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-223181">
+        <time class="published" datetime="2007-11-23T00:08:39+00:00">23 Nov 2007, 00:08</time>
+      </a>
+      <div class="entry-content"><p>I thought he was comparing <span class="caps">HTML</span> vs. <span class="caps">XML</span> (vs. <span class="caps">JSON</span> vs. <span class="caps">CSV</span>) at that point as a mechanism for transporting data from the server to the browser. With the point that <span class="caps">HTML</span> requires extra attributes to store the relationships. I think the <span class="caps">HTML</span> that was added to the page, and rendered in the browser, had invalid attributes removed.</p>
+<p>I could be remembering the talk incorrectly, though.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

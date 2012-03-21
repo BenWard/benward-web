@@ -1,0 +1,11 @@
+---
+layout: blog
+category: blog
+title: "Zeldman Presents... Visual Aids"
+date: "2004-11-30T23:45:31+00:00"
+tags: ["all", "technology", "web_standards"]
+atomid: tag:benward.me,2004-11-30:/blog/zeldman_presents_visual_aids
+---
+<a href="http://www.zeldman.com/" title="Jeffrey Zeldman Presents The Daily Report">Jeffrey Zeldman</a> recently supplied <a href="http://www.happycog.com/mov/" title="Zeldman WEB ESSENTIALS 04 Keynote">keynote video</a> for a Web Essentials conference in Australia. Unable to attend, he offers up a short, sweet and highly entertaining presentation on web standards and their influence on today's internet.
+
+Don't expect to learn anything much, but if anyone wants to get me any of his "<abbr title="eXtensible Hypertext Markup Language">XHTML</abbr> + <abbr title="Cascading Style Sheets">CSS</abbr> + <abbr title="Document Object Model">DOM</abbr>" visual aids (the wind-up dinosaurs, ideally) for Christmas, my desk at work will be delighted.

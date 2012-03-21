@@ -1,0 +1,73 @@
+---
+layout: blog
+category: blog
+title: "Tired of this phase"
+date: "2007-10-08T00:24:53+00:00"
+updated: "2007-10-08T00:24:53+00:00"
+tags: ["all"]
+atomid: http://ben-ward.co.uk/journal/getting-up/
+---
+"I'm stuck in a phase of not getting up promptly", I say, pathetically.
+"No, you've never ever been good at mornings", says She.
+
+She, of course is correct. I don't do mornings. An alarm goes off and I silence it. A second is scheduled fifteen minutes later. The last thirty minutes after that. The Last and I then complete a half hour routine of sleep and wake. Eventually I get up when there's no time left to waste.
+
+It's not a phase. It's the worst kind of habit. It's stupid and there's no good reason for it but for mental laziness. It's that, at this time of night I feel determined not to waste the next morning. When morning comes around, my brain turns to mush and through habit I don't fight back. I let myself believe that it really is a struggle, that it's normal or that it requires some kind of special effort not to stay in bed until mid morning. I have decided that it is time to reasses that faith.
+
+Tomorrow my arse will be out of bed at 7. Not abnormal. Not unreasonable. Not remarkable in any way at all. This week, I'm taking the "don't be so pathetic" method to not being shit at stuff.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-221271">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-221271">
+        <time class="published" datetime="2007-10-08T21:16:12+00:00">08 Oct 2007, 21:16</time>
+      </a>
+      <div class="entry-content"><p>Victory! I got up at 7. Now to keep it up for a week.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-221332">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/17ad3d59ad6d141b258643cf53b0fdec.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Stuart</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-221332">
+        <time class="published" datetime="2007-10-09T20:09:24+00:00">09 Oct 2007, 20:09</time>
+      </a>
+      <div class="entry-content"><p>7am? Pah, you&#8217;re still a student really :P</p>
+<p>If I&#8217;m going into work on my own then I&#8217;m up by 6:15, out of the house by about 7:15 and get to work for about 8am (Hereford is a bit of a drive from Malvern).</p>
+<p>If I&#8217;m giving the missus a lift in (we&#8217;ve been married three weeks now!) then we&#8217;re still up at 6:15 but out of the house by 7:45 and at work some time between 8:30 and 8:45.</p>
+<p>Until we move to Malvern, when I will start at 8:30 and get up at about 7:15 then cycle across town to work :D</p>
+<p>Personally, I hate doing the &#8220;multiple alarms to wake up to&#8221;. She does it as well, but I don&#8217;t see the point. If she&#8217;s not planning to wake up until 8am on a weekend then why have a 7am and a 7:30am alarm? Apparently something to do with &#8220;waking up so you know you can sleep in a while longer and enjoy it&#8221;. Personally I&#8217;d rather just have the solid sleep ;)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-222684">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/abb5e982d97d7539860141b7904ba31a.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">phil wilson</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-222684">
+        <time class="published" datetime="2007-10-26T17:31:30+00:00">26 Oct 2007, 17:31</time>
+      </a>
+      <div class="entry-content"><p>+1</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-222951">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/c4efdc6c18b3c59d382fadf74187a813.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.contentwithstyle.co.uk">Matthias Willerich</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-222951">
+        <time class="published" datetime="2007-10-30T12:42:10+00:00">30 Oct 2007, 12:42</time>
+      </a>
+      <div class="entry-content"><p>My ability to get up when I planned to is directly connected with how late I went to bed the night before, and what I expect of the day.</p>
+<p>If I think the day is going to be crap, getting up is close to impossible, and only the train times etched in my brain somehow make their way through (&#8220;later train? of course. Super-late train? maybe&#8221;).<br />
+If there&#8217;s something that I&#8217;m looking forward to, I&#8217;m pretty free to get up when it&#8217;s best for me.</p>
+<p>Funnily enough, drinking itself has no real impact. I&#8217;ve had weekday mornings I was still drunk after a Thursday&#8217;s PubStandards, and would happily suffer through the rollercoaster ride hangover until early afternoon, because the day itself was fine.</p>
+<p>So, the advice I can give is not to be so hard on yourself about not being able to get up, but rather work on finding things in a day that you&#8217;re looking forward to. Or is that the advice I should give myself?</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

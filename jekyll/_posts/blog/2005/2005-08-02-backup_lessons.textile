@@ -1,0 +1,37 @@
+---
+layout: blog
+category: blog
+title: "Reasons to make back-ups #1"
+date: "2005-08-02T00:06:42+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2005-08-02:/blog/backup_lessons
+---
+This post starts with the phrase �Having just set up the Internet Explorer 7 beta on my machine� but does not concern ruining my system with Microsoft's latest.
+
+Having just set up the Internet Explorer 7 beta on my machine, I set about checking some of my sites (and sites of those close to me) to see if anything was effected by Microsoft's 2 bug fixes. Needless to say the side-by-side comparisons with IE6 were identical, but I did suddenly spot that on <a href="http://jo.ben-ward.co.uk">Jo's Blog</a>, the Callylily image that normally lives in her header had gone awol. �Strange bug� I thought, until it twigged that the image was nowhere to be found in any browser on Mac or PC.
+
+Of course, muggins here had upgraded Jo's Wordpress installation last week and may have slightly almost somewhat overwritten the Callylily image. Whoops.
+
+However, in a strange change to my normal upgrade routine (overwrite and hope), I actually made back-ups of Jo's site. It must be because I love her so much. I even put said back-up on two different machines and archived it in my Gmail storage. Unusually thorough.
+
+The image has of course been quietly restored before writing this blog post. So, please, do remember to take back-ups (especially of your girlfriend's web site). 
+
+And now, if we're all really quiet, she'll never even know I screwed up�
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-318">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/11d4b8e0e0638fe55463628d216c34a8.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://jo.ben-ward.co.uk">Jo</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-318">
+        <time class="published" datetime="2005-08-02T18:08:11+00:00">02 Aug 2005, 18:08</time>
+      </a>
+      <div class="entry-content"><p>Hmmmm. Problem being that I read your site! Thanks for fixing it though.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

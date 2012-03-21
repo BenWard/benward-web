@@ -1,0 +1,141 @@
+---
+layout: blog
+category: blog
+title: "Concerning Foursquare and communicating privacy."
+date: "2010-07-25T13:36:46-08:00"
+updated: "2010-07-26T11:23:13-08:00"
+summary: "Leo Hickman wrote about FourSquare. Badly. But not entirely incorrectly, which means swallowing geek pride, and focus on a the major social behaviour problem that he highlights."
+tags: ["technology", "location", "articles", "communication", "foursquare", "the-guardian", "leo-hickman", "responses", "privacy"]
+atomid: http://benward.me/?p=617
+---
+"Foursquare":http://foursquare.com has hit 2 million users, and with it the attention of the general media. The little location service that the geeks of San Francisco and New York embraced has grown up, and the user base now takes in people of entirely different attitudes towards friends, sharing, and the web in general. Like every new internet shiny, it attracts cynicism, and like everything successful, criticism too.
+
+Together, these factors make Leo Hickman's "How I became a Foursquare cyberstalker":http://www.guardian.co.uk/technology/2010/jul/23/foursquare, published in The Guardian on Friday. Lede: “<q>It's the coolest social networking tool in the world. But is the geo-location app Foursquare a stalker's dream? Just how easy it is to uncover the intimate details of a complete stranger's life?”</q>.
+
+Within a small pool of people that I follow the article garnered two kinds of response: Those regarding it an interesting read, and those who think it's sensationalist bullshit (<q class="tweet" cite="http://twitter.com/teacup/status/19342446790">“‘Using Foursquare to tell people where you are results in them knowing where you are! SHOCK, PANIC’ Sod off, Guardian”</q> — <cite><a href="http://twitter.com/teacup/status/19342446790">Dot</a>, on the Twitter</cite>.)
+
+We will not be discussing the _comments_ on said article. Holy hell.
+
+The article _was_ interesting, and written in a somewhat even handed way, and the central premise that you can use new tools to find out where a total stranger is was clearly demonstrated. This is a problem for Foursquare, certainly. But the article is an infuriating read to anyone with intermediate knowledge of Foursquare for a number of reasons.
+
+h2. A plethora of technical errors and misrepresentations in Leo Hickman's article
+
+Throughout, Hickman only semi-qualifies a vast number of his criticisms. You read the article and are given conflicting information about what Foursquare does and does not share, and with who. Some things, as written, are outright falsehoods: 
+
+* “<q>Glance down at your phone and – as I did with Louise – see the names of all the other users around you within a mile or so</q>”. That _is_ a terrifying feature. Also, it's not true. Foursquare doesn't do that, not even second hand through other services. Foursquare only shows you nearby people who are already your friends on the service.
+* The writer's obsession with ‘GPS’ as a buzzword is irrelevant and misleading in the context of a venue-based, check-in–based system. ‘GPS’ suggests that the service reflects each step you take. But Foursquare only uses GPS as a mechanism to look up venues. The sharing of that location is a separate step, with additional granularity. Technically, also, Foursquare doesn't require GPS. The Mobile Web interface is entirely text search based. At one point, Hickman writes “<q>Foursquare also uses your smartphone's global positioning system (GPS) to broadcast your precise location to your friends</q>”. That is not correct.
+* At points, Hickman writes ‘friends’ in quotation marks, in the same way as you would about “friends” on MySpace. Again, this is misleading. It suggests that Foursquare's social network is the same network of strangers and acquaintances as other, less sensitive networks like Twitter and Facebook, and it obscures the fact that you are maintaining a different, explicitly authorized friend list.
+* “<q>She was the user allowing a stranger such as myself access to the most personal information — photograph, full name, Twitter feed etc.</q>” That is not the ‘most personal information’. Foursquare can share your telephone number with your friends, if you let it, and that is never exposed to non-friends.
+* The reference to Jesper Andersen's scraping hack is accurate, but the explanation that it was an oversight and a bug rather than deliberate sharing, and that Foursquare have substantially changed the interface in response to this is missing.
+* Throughout, there is a total blurring of services: It's really not clear from the narrative where a piece of information is sourced from Twitter, vs. where it's sourced directly in Foursquare.
+* “<q>Some people are even checking in when they're at home. Think of the implications. It's crazy.</q>” It is not documented that you can add your home as a venue on Foursquare with approximate (or no) address information, and you can actually replace the map pin to a nearby, inaccurate location (mine is placed on a nearby cross-street, for example.)
+* The article refers to the use case of Foursquare being about getting freebies from coffee shops. That's weird to me, because no-one I know in San Francisco cares about the freebies: It's the social utility, enabling serendipitous meetings and spontaneous, real-world, social events that people here love. More on this complaint below, though.
+
+Near to the end, as the article begins to conclude, comes this admission:
+
+bq. Louise's setting on Foursquare automatically tweets her location whenever she checks into a location, which was how I could tell via her Twitter feed, without being her Foursquare "friend", where she had been in recent days in such detail.
+
+That's a technically very important difference, the clear omission of which has shaped the reader's perception of FourSquare.
+
+h2. People _are_ leaking social information
+
+Overall, this article is a misleading representation of Foursquare to the readership of the Guardian. But it is not my intention to tear apart the article or its author, only to document the substantial faults above, and hopefully serve as a reference to debunk those technical faults. But to rip into it emotively would be wrong, because although much detail and attribution of functionality is fuzzy (or wrong), the social problem that the article describes is absolutely real, to the point that it doesn't really matter that the descriptions of Foursquare aren't always correct.
+
+The problem described is this: That through using Foursquare _in combination with a linked service_—namely Twitter—it is possibly for users to carelessly leak very sensitive information about _some_ of their habits of movement.
+
+That's the actual problem, and it's real.
+
+The problem is caused by people not thinking about what they do. People are infuriating like that, and yes they're ‘doing it wrong’, but it's the truth of the matter. People see the function to pair their Foursquare and Twitter accounts so they do. They see the function to broadcast their check-in to Twitter so they do. They're in an application context of closed friends, and they don't consider that they're spreading information into different places.
+
+This problem is exacerbated by the user's shallow understanding of _Twitter_. Plenty of people don't seem to understand that their public Twitter account can be read by people who are not within their documented friend/follower network. They don't think about it. I posit that most probably have never had an incident to discover someone unexpected has read what they've posted. As such, most are unaware of how far they are spreading a hyperlink to their current venue.
+
+It's also somewhat understandable that when a user sees the presence of a feature in Foursquare at all, they will extend whatever trust they hold in Foursquare to that integrated service. Twitter is a checkbox. There's no gravitas to checking it.
+
+It's Foursquare's problem. Though I'm annoyed at the article and the way it's written, and annoyed because I'm again going to have to explain to my parents that I'm not an irresponsible moron, Foursquare has allowed it to be written. Misinformed and lax articles exist because they are written about misinformed and lax users; those people are using Foursquare now. Foursquare has to address the problems that those people face, regardless of how much the technically literate can separate the concerns. Foursquare have to provide assistance to use the product responsibly, because it has been clearly demonstrated that users don't understand new, complicated socio-technical issues that we take for granted.
+
+h2. Foursquare has to do more
+
+This means: Foursquare needs to explain in their apps more about how people should use it. Foursquare is not an open ended social environment: There are primary use cases, and others that fall outside of the service goals. As such, they can provide both positive education in how to use Foursquare, but also document anti-patterns in such a way that discourages known bad practice in a way that doesn't hurt Foursquare's core function, and also encourages the good practice of thinking about what users share in _all_ parts of the app.
+
+Foursquare itself has a secure design (bugs in implementation notwithstanding.) They don't have to fear hurting growth by discouraging mistaken, over-personal over-sharing. Some options that cross my mind:
+
+# When adding a friend, emphasize to users that you will see all one another's check-ins in real time. When responding to friend requests, use descriptive “Share Location” and “Do Not Share” labels that describe the consequence, rather than ‘Yes’/‘No’ buttons.
+# When friend requests come in, Foursquare needs to do more to help you identify the person. A name alone is woefully inadequate. Inclusion of the profile's URL, and pulling in a Twitter bio would help. More advanced indicators (whether you are already friends on Facebook and Twitter, or if they're saved in your phone address book) would also be smart. Right now, people are responding to friend requests that consist of a name, and two buttons to accept or reject. My response is to reject anyone I can't identify, others will not. There's no guidance. It's a bad interface.
+# When clicking the ‘Share to Twitter’ checkbox for the first time, expand an inline tip that informs the user that Twitter is not restricted to their Foursquare friends, or even their Twitter followers. Educate the user about Twitter inside Foursquare, because it's been demonstrated that the user needs that education.
+# When clicking the ‘Share to Twitter’ checkbox when also checking into a venue that's been categorized or tagged as a ‘Home’, remind the user that this is someone's personal address that perhaps they should think twice about publishing. Checking into home within Foursquare is fine, because it's secure within your approved friends. But it's not the primary case for Foursquare, so encouraging second thoughts doesn't hurt the service uptake. Furthermore, it encourages good manners and sensitivity toward personal venues. You could actually go as far as disabling the sharing functionality for venues categorised as a ‘Home’, but it would be better to actively communicate, so the user understands the principal—they will inevitably check into homes that aren't categorised correctly.
+# Encourage the user to use an approximate address when adding their own home as a venue. Again, it's not a source of Foursquare's income, so if someone decides not to do it at all, no-one gets hurt.
+
+Ultimately, the interconnection of web services is mis-understood. We take it for granted that it happens at all, and by not taking the time or putting in the effort to explain it _very_ clearly, the scenario in Leo Hickman's article is not discouraged, and without the service in question filling in all the blanks at their end, article's like Leo Hickman's cannot be easily refuted.
+
+h2. What is the scale of the problem?
+
+For all of the technical errors in Hickman's article, my biggest complaint is actually this: That he didn't investigate further. As a San Franciscan early adopter of Foursquare, my usage pattern is pretty safe: I only share with actual friends, I remove people when we lose touch, I only share a check-in to Twitter if it's a non-sensitive location (and also, only when I write a message to accompany the check-in, because anything else is annoying.) I don't automatically broadcast mayorship or badge achievements.
+
+But whilst my observation is that this pattern of behavior is quite common to the first generation users (and those who came to Foursquare from its precursor, Dodgeball) I have _no idea_ what the general behavior is around Foursquare's newer generation of users, or when the shift in behaviour occurred. I have every reason to believe that there are entirely different attitudes now, such that I can't dismiss the article's cynical main narrative. If careless, uninformed leaking of location information represents the majority of Foursquare usage, then I and my way of using the app is irrelevant. If most people are irresponsible on Twitter via Foursquare, then Foursquare has to deal with the problem.
+
+Unfortunately, the article makes no qualification of how common the problem is. It suggests that the risk of being stalked and of revealing your information is universal. It isn't. So what percentage of Foursquare users _are_ leaving themselves vulnerable? How many potential targets did Hickman fail to track down? He doesn't say. That's a real shame, and a real failure of journalism in the piece.
+
+At the core though: A service can never do too much to communicate with its users (real users, and interested observers that pass through.) Communicate well and you'll avoid misunderstandings and misuse. Communicate badly and the opposite will happen. Everyone's a cynic, and some of them have the privilege to publish articles about you. Whether it's fair or not, the onus is on Foursquare to communicate better, and prevent this scenario altogether.
+
+h2. Edit History:
+
+<ins datetime="2010-07-25">This article was edited on Sunday 25th to correct the case of ‘Foursquare’ from ‘FourSquare’, add some additional quotes from Leo Hickman's article, add the suggestion that Foursquare include Twitter biographic detail with friend requests, and make a handful of other tweaks to the prose.</ins>
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-227435">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/f9a80e02e1d0bcbc9c8e19d25aa34271.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.metagrrrl.com">Dinah</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227435">
+        <time class="published" datetime="2010-07-28T03:54:32-08:00">28 Jul 2010, 03:54</time>
+      </a>
+      <div class="entry-content"><p>An excellently constructive criticism, Ben. Thank you for writing thoughtfully.</p>
+<p>I&#8217;m pleased to keep seeing this theme of the responsibility of toolmakers arising in discussions of social services. We are getting used to thinking of holding companies accountable for physical issues – hello, BP – but it seems time to make the avoidance of <i>social</i> pollutants also a fundamental cost of doing business.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227436">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/741479460f222ef63dd714c4b1da29e1.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://mikepascucci.com">Mike P</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227436">
+        <time class="published" datetime="2010-07-28T04:23:54-08:00">28 Jul 2010, 04:23</time>
+      </a>
+      <div class="entry-content"><p>Ben,</p>
+<p>Great stuff here. I like the question of when did all of this change in the 2nd, 3rd&#8230;. generation of followers question. I do think that it is a lack of understanding and seen as a game still to those people, the &#8220;he who has the most followers wins&#8221; concept.</p>
+<p>I manage along the same lines as you though, I don&#8217;t accept people that I don&#8217;t know, or who was to friend me from the UK or wherever, I mean why would you do that? I do broadcast to Twitter on occasion, but not always &#8211; I mean you can check in off the grid people!</p>
+<p>The meshing of all of these services together is dangerous in my opinion, and this just proves the case. Facebook is different from LinkedIn is different from Twitter is different from Four Square, and they should be managed differently. The old saying &#8220;buyer beware&#8221; comes to mind, but remember that you are always in control (or at least you should be) of who gets to see what, so do not place the blame elsewhere. It is time to think about your actions and take responsibility for them.</p>
+<p>Mike P<br />
+@mikepascucci</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227437">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e18bbcd3c247d26919e3c699e5ea7181.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://benward.me">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227437">
+        <time class="published" datetime="2010-07-28T06:32:00-08:00">28 Jul 2010, 06:32</time>
+      </a>
+      <div class="entry-content"><blockquote>
+<p>It seems time to make the avoidance of social pollutants also a fundamental cost of doing business.</p>
+</blockquote>
+<p>I think that&#8217;s very fair. The technical community has tried hard over causes like the password-antipattern, where a mis-education threat to regular users was recognised and somewhat successfully fought as most <span class="caps">API</span> providers now do not depend the proliferation of their service passwords.</p>
+<p>With location services—and Foursquare in particular—I don&#8217;t think we as a technical community have universally recognised the risks, though. I mean, Tom Coates does (and those of us lucky enough to work with Tom with the careful privacy management of Fire Eagle are indebted to share in all of that) but as I say above: Foursquare appears to have a total split in user behaviour between first-generation geeks and second, even third generation public-at-large. But because the first generation are using Foursquare carefully in not operating a leaky, unverified social sharing network, we keep our locations locked away but also prevent dissemination of the knowledge we employ to make that decision through the larger Foursquare network.</p>
+<p>New social groups on Foursquare can form in total isolation, and so a heavier weight of responsibility falls on Foursquare as a service. By design, we as advocates have no way to offer help to those people in the way that we do with someone, say, using Retweets wrong on Twitter (facetious example.)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227438">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e18bbcd3c247d26919e3c699e5ea7181.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://benward.me">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227438">
+        <time class="published" datetime="2010-07-28T06:37:03-08:00">28 Jul 2010, 06:37</time>
+      </a>
+      <div class="entry-content"><p>Actually, since the Foursquare data leakage occurs on Twitter, it would be possible for the community to educate people who are easily judged to be sharing rashly just by replying to them. What if there was a ‘FoursquareSafe’ Twitter account that could deliver the inline tips I describe above (reminder about breadth of distribution over Twitter, and reminder about not Tweeting homes) to users whose FourSquare tweets get caught through Twitter Search? It could be automated to only reply to each user once, not to be too spammy or persistent, but maybe that&#8217;s a way to spread awareness beyond personal Foursquare networks?</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

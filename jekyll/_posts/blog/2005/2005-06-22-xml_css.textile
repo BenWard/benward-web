@@ -1,0 +1,88 @@
+---
+layout: blog
+category: blog
+title: "CSS for designers"
+date: "2005-06-22T01:12:21+00:00"
+tags: ["all", "web_standards"]
+atomid: tag:benward.me,2005-06-22:/blog/xml_css
+---
+Here's a question for web designers. It's a bit of a clich� question and I'm not advocating it at all, I'm purely curious.
+
+<em>As a designer, do you think you would find CSS more intuitive if it had been XML based, rather than the syntax they did choose?</em>
+
+I ask because it's on my mind and I'm curious (especially in light of <a href="http://stuffandnonsense.co.uk">Andy Clarke</a>'s comment at @media about CSS not being as easy for designers as the programmers who invented it).
+
+For example, rather than writing:
+<pre class="codeblock"><code>p {<br />  font-family: "Lucida Grande", sans-serif;<br />}
+strong, em {<br />  color: green;<br />}</code></pre>
+What if you could write:
+<pre class="codeblock"><code>&lt;style><br />&lt;applyto>p&lt;/applyto><br />  &lt;font family="'Lucida Grande', sans-serif"><br />&lt;/style>
+&lt;style><br />  &lt;applyto>strong&lt;applyto><br />  &lt;applyto>em&lt;/applyto><br />  &lt;font color="green"><br />&lt;/style></code></pre>
+
+Of course, 'applyto' could be named 'selector', properties could all be standalone elements rather than the element/attribute I picked vaguely at random above. My question concerns whether you think you'd have found CSS easier to pick up and work with if you had a syntax which was ultimately beared more simility to HTML.
+
+To re-emphasise, I'm not saying that CSS should change, or that the real CSS syntax is in any specific way inferior or anything controvertial like that. But if you could choose, which would you use? This <em>is</em> the kind of question that probably gets a certain type of person very upset, sorry about that.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-289">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/235792ff77a1afdf630d547d4ef06eb8.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ellythompson.co.uk/blog">Elly</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-289">
+        <time class="published" datetime="2005-06-22T07:29:12+00:00">22 Jun 2005, 07:29</time>
+      </a>
+      <div class="entry-content"><p>I think an xml based solution would be <em>less</em> intuitive, for the simple reason that you end up with a)more lines of code for any given rule and b)more characters in each rule which are pulely syntactic.</p>
+<p>I&#8217;m gonna go out on a limb here and say that it&#8217;s not <span class="caps">CSS</span> which is difficult to adapt to but code in general, and a way of thinking that facilitates coding.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-290">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/fb7d81b172292b6034f9c1747d5b11e0.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.fatbusinessman.com/">Fatty</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-290">
+        <time class="published" datetime="2005-06-22T08:02:02+00:00">22 Jun 2005, 08:02</time>
+      </a>
+      <div class="entry-content"><p>I&#8217;m going to go with Elly in saying it would be less intuitive in <span class="caps">XML</span>, plus I&#8217;m going to add the reason that I can see much confusion arising when your content and your presentation description look very much the same (i.e. lots of angle-brackets everywhere).</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-291">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/29402a43afdde10b863aa779bfefe496.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://joshuaink.com">John Oxton</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-291">
+        <time class="published" datetime="2005-06-23T13:46:02+00:00">23 Jun 2005, 13:46</time>
+      </a>
+      <div class="entry-content"><p>I dunno, I think it could all get quite confusing too, especially inline styles!</p>
+This looks familiar too! ;-)</div>
+    </article></li>
+    <li><article class="hentry" id="comment-292">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/ee505a7168266ab43549afa8509b149a.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://holst.biz/">Jonathan Holst</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-292">
+        <time class="published" datetime="2005-06-23T18:34:48+00:00">23 Jun 2005, 18:34</time>
+      </a>
+      <div class="entry-content"><p>I think one of the easy things about learning (X)<span class="caps">HTML</span> and <span class="caps">CSS</span>, was that they differed. This might sound contradictory, but it helps in this whole &#8220;separation of mark-up and style&#8221;-thing.</p>
+<p>But at the moment, I&#8217;m not sure. I love the <span class="caps">XML</span>-format due to its simplicity, but I&#8217;m not sure if it would be easier/more intuitive to write my styles in it.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-293">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-293">
+        <time class="published" datetime="2005-06-23T20:12:00+00:00">23 Jun 2005, 20:12</time>
+      </a>
+      <div class="entry-content"><p>I&#8217;m going to chip in with broad agreement. I asked the question at a time that I didn&#8217;t really have an answer of my own, so it&#8217;s been interesting to have my response influenced by all of your before me.</p>
+<p>One thing first: &#8216;Addressing&#8217; the question to designers might have seemed a tad exclusive or odd. The reason is because it is targeted at people who are, often, less techy (or at least the less techy sides of techy people). People who may be less likely to comfortably recognise &#8216;{&#8217; from programming languages, for example. It wasn&#8217;t the best way to word it, really, but I hope you see why existing programmers are more likely to be comfortable with CSS&#8217;s braces and semi-colon filled.</p>
+<p>Anyway. Being a programmer and being perfectly comfortable with <span class="caps">XML</span> and <span class="caps">CSS</span>, I&#8217;m quite happy with the <span class="caps">CSS</span> syntax as it is. I very much agree with Jonathan, though. Whilst having different syntax is a very blunt way of emphasising a difference, <span class="caps">XML</span>-<span class="caps">CSS</span> would suffer from some fundamental confusion issues (if elements were named sensibly). Another <code>&amp;lt;font&amp;gt;</code> tag? Another &lt;style&gt; tag? Although technically different from their <span class="caps">HTML</span> namesakes (<span class="caps">XML</span> namespaces make them different), from a learner&#8217;s point of view (or as someone trying to teach) the confusion would be mind exploding.</p>
+<p>I guess the answer was pretty obvious, but I was curious to see if anyone would say &#8216;yes&#8217;.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

@@ -1,0 +1,114 @@
+---
+layout: blog
+category: blog
+title: "ElfUrl Sidebar Enhancement"
+date: "2005-10-18T17:02:23-01:00"
+updated: "2005-10-18T20:10:09-01:00"
+tags: ["all", "camino", "code", "firefox", "mozilla", "usercss", "tinyurl", "elfurl", "hacks"]
+atomid: http://ben-ward.co.uk/journal/elfurl-sidebar-enhancement/
+---
+<a href="http://elfurl.com">ElfUrl</a> is a service that generates short urls for long and unwieldy urls. Anything with a whopping great query string (Amazon search results, for example) can be converted into a short code that's easier to recite and won't break in email.
+
+ElfUrl is preferable to the ubiquitous <a href="http://tinyurl.com">TinyUrl.com</a> simply because it has a cleaner homepage, it does some trickery with <a href="http://del.icio.us">del.icio.us</a> and it's green.
+
+The homepage mark-up is still bad though. <code>table</code> layout is present, which is a shame, because that prevents it being squashed into a limited horizontal space like, say, the Firefox sidebar (which you can invoke from the �properties� dialog of the ElfUrl bookmarklet, or any other bookmark).
+
+To fix it, and enable a whole box of sidebar joy, here's some Firefox 1.5 and Camino compatible user-css. It uses Gecko's new url media selector to avoid breaking other pages.
+<!--more-->
+<pre><code>/* ElfUrl.com */
+@-moz-document url-prefix(http://elfurl.com/) {
+    #headercontainer, #header
+    {
+      height: auto !important;
+    }
+    #logo
+    {
+      position: static !important;
+    }
+    
+    #logo img
+    {
+     max-width: 99% !important;
+    }
+
+    #toplinks
+    {
+    text-align: left !important;;
+    }
+    
+    #maincolcenter, #maincol, #container
+    {
+      margin-left: 0; margin-right: 0;
+      padding-left: 0; padding-right: 0;
+    }
+    
+    #maincolcenter > table,
+    #maincolcenter > table tr,
+    #maincolcenter > table td
+    {
+     display: block;
+     text-align: left;
+     margin: auto;
+     padding: 0;
+     width: 95%;
+    }
+
+    div
+    {
+     max-width: 99% !important;;
+    }
+    
+    input[type=text] {
+    width: 95% !important;;
+    }
+    
+    input[type=submit] {
+    margin: 0 !important;
+    }
+    
+    /* ads will be beyond the vertical scroll anyway, so just  hide them rather than fixing the layout */
+    #container > #maincolcenter > table + table *
+    {
+      display: none;
+    }
+}</code></pre>
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-397">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/f67bd01505cddb54cd83f34d8a9ed07c.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Dave</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-397">
+        <time class="published" datetime="2005-10-26T22:22:12-01:00">26 Oct 2005, 22:22</time>
+      </a>
+      <div class="entry-content"><p>Yes, elfurl uses tables.<br />
+But the most  short-url service pages are with tables.<br />
+I know only one short url service which uses no tables.<br />
+http://yatuc.com (my preferred tiny url creator :-) ) is tableless, but it also doesn&#8217;t fit into the sidebar.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-398">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/53b19cad3e1b9e92bec876084c437d37.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.m-ven.com">Alexander Muse</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-398">
+        <time class="published" datetime="2005-10-29T18:26:52-01:00">29 Oct 2005, 18:26</time>
+      </a>
+      <div class="entry-content"><p>Our guys are redoing elfURL &#8211; I think they are going to build it in Rails.  If you have any cool ideas, suggestions or desires for the program please email.  I wil make sure they are included.  Hurry&#8230;  amuse@m-ven.com</p></div>
+    </article></li>
+  </ol>
+</div></notextile>
+
+<notextile><div class="pingbacks hfeed" id="pingbacks">
+  <h2>Pingbacks</h2>
+  <ul>
+    <li class="hentry" id="pingback-400">
+      <a rel="bookmark" class="entry-title" href="http://texasvc.weblogswork.com/?p=337">Texas Venture Capital Web 2.0 Blog &raquo; Blog Archive &raquo; Request for comments: elfURL.com</a>
+    </li>
+  </ul>
+</div></notextile>

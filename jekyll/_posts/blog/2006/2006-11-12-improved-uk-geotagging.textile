@@ -1,0 +1,22 @@
+---
+layout: blog
+category: blog
+title: "Improved UK Geotagging"
+date: "2006-11-12T00:45:08+00:00"
+updated: "2006-11-12T01:03:20+00:00"
+tags: ["technology", "flickr", "maps", "photography", "geotagging", "trippermap", "google-earth", "david-thompson"]
+atomid: http://ben-ward.co.uk/journal/improved-uk-geotagging/
+---
+Back in September, <a href="http://fatbusinessman.com" title="David Thompson">Fatty</a> posted a <a href="http://blog.fatbusinessman.com/archives/2006/09/05/further-fun-with-flickr/">thorough tutorial on using Google Earth to tag Flickr photos</a>. As I <a href="http://blog.fatbusinessman.com/archives/2006/09/05/further-fun-with-flickr/#comment-1428">pointed out in the comments</a>, there were a few refinements that can be made by delving into the Google Earth preferences.
+
+I like Google Earth very much. As a toy it's fantastic, swirling around the world in full Hollywood glory will never get old. For geotagging though, I'm in love. Google Earth is just so much more detailed than any of the browser-based mapping tools; you can pinpoint the precise spot on the pavement a shot was taken, or a room in a house. Fabulous.
+
+The ability to specify individual detail on each photo quickly becomes a bit tedious with a backlog of 1000 un-geotagged photos to clear. <a href="http://www.trippermap.com/tutorials/google_earth.php">Trippermap</a> is therefore some kind of awesome. Added in to Google Earth it displays a crosshair in the centre of your map. Target the spot to use for your geotag and click the now centred marker. That takes you to a page on Trippermap to apply that co-ordinate to one or more of your photos (like all 3rd party Flickr add ons, you must authorise the app first).
+
+It works quite well, though the Trippermap UI itself could be better. Whilst functional, the pool of photos to select is limited to a short list of recent photos or search results (which also return a limited number of results, with no pagination).
+
+You apply the co-ordinates one photo at a time (rather than a Flickr-style multi-select behaviour as in the Organizr), although if you're quick you can click a number of photos before the page refreshes. As a result, I tend to have the Flickr Organizr open in another tab and switch between.
+
+I rather wish it came with a standalone iPhoto-esque desktop app for tagging the photos, using some pseudo-protocol URL to invoke it rather than the website. It would perhaps be more responsive; providing a better user experience by keeping up with Google Earth.
+
+All this in the same week as <a href="http://maps.yahoo.net">Yahoo! Maps</a> gets its long awaited UK data update, which makes the Flickr mapping system pretty useful in itself.

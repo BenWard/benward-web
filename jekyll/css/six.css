@@ -1,0 +1,375 @@
+/* benward.me v6.0.0 */
+/* I swear that v7 will be the real thing. Maybe. */
+
+html {
+  margin: 0 auto;
+  max-width: 35em;
+  background: #E8EDF1; /*#f4f4f4;*/
+  font: 100%/150% serif;
+}
+
+body { margin: 0 16px; }
+
+header,
+footer,
+body > article,
+body > section {
+  padding: 32px;
+}
+
+body > article,
+body > section {
+  background: #fff;
+  -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+  -ms-box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-size: 170%;
+  margin: 0;
+}
+
+header h1 a:link,
+header h1 a:visited {
+  color: #000;
+}
+
+article {
+  font-family: serif;
+  font-weight: 200;
+}
+
+article h1,
+article h2,
+article h3 {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+article .dateline {
+  font-size: 80%;
+  color: #333;
+}
+
+h1 {
+  font-size: 130%;
+  line-height: 150%;
+  margin: 0 0 10px 0;
+}
+h2 {
+  font-size: 110%;
+  line-height: 150%;
+  margin: 0 0 5px 0;
+}
+h3, h4 {
+  font-size: 100%;
+  line-height: 150%
+}
+h3 { margin: 0 0 5px 0; }
+
+a:link {
+  color: #A32226;
+  text-decoration: none;
+}
+a:visited { color: #5A1013; }
+a:hover, a:focus { text-decoration: underline; }
+a:active { text-decoration: underline; }
+
+q {
+  quotes: none;
+}
+
+ol, ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+article li {
+  margin: 2px 0 2px 20px;
+  list-style-position: outside;
+}
+
+article ul li {
+  list-style-type: disc;
+}
+
+article ol li {
+  list-style-type: decimal;
+}
+
+blockquote {
+  margin: 6px 12px 6px 0;
+  padding-left: 12px;
+  border: 4px solid #ccc;
+  border-width: 0 0 0 4px;
+}
+
+/* Standard margin for article block content: */
+p, dl, ol, ul  {
+  margin: 0 0 12px;
+}
+
+kbd, output, samp {
+  font-family: Verdana,sans-serif;
+  font-size: 80%;
+  padding: 0 2px;
+  background: #dadada;
+}
+
+code {
+  background: #dadada;
+  font-size: 80%;
+  font-family: monospace;
+  padding: 0 2px;
+}
+
+pre code {
+  display: block;
+  padding: 4px;
+  max-width: 100%;
+  overflow-x: scroll;
+}
+
+article img {
+  text-align: center;
+  max-width: 100%;
+  margin: 0 -32px;
+}
+
+body > article > .entry-content > blockquote:first-child {
+  border: 0;
+  font-size: 200%;
+  line-height: 130%;
+  padding: 0;
+  margin: 16px 0;
+}
+
+article .full-bleed {
+  margin: 0 -32px;
+}
+
+article .full-bleed img {
+  width: 100%;
+  margin: 0;
+}
+
+article .pull-left {
+  float: left;
+  margin: 0 8px 0 -32px;
+}
+
+article .pull-right {
+  float: right;
+  margin: 0 -32px 0 8px;
+}
+
+/** Section: Archive Navigation */
+section.hfeed header,
+article header,
+section.hfeed footer,
+article footer {
+  margin: 16px -32px -32px -32px;
+  padding: 0 32px;
+  border: 1px #ccc solid;
+  border-width: 1px 0 0 0;
+}
+
+section.hfeed header,
+article header {
+  margin: -32px -32px 16px -32px;
+  border-width: 0 0 1px 0;
+}
+
+section.hfeed nav a,
+article.hentry nav a {
+  display: inline-block;
+  text-align: center;
+  margin: 16px 0;
+}
+
+section.hfeed nav a:first-child,
+article nav a:first-child {
+  text-align: left;
+}
+section.hfeed nav a:last-child,
+article nav a:last-child {
+  text-align: right;
+  position: relative; margin-right: -3%; /* Adjust right-align for rounding */
+}
+
+section.hfeed nav a,
+article.hentry nav a {
+  width: 32%;
+}
+
+section.hfeed.annual nav a,
+section.hfeed.recent nav a {
+  width: 49%;
+}
+
+
+/** Section: Page Footer */
+body > footer {
+  font-size: 80%;
+  line-height: 21px; /* match Twitter button */
+}
+
+body > footer address {
+  display: inline;
+  font-style: normal;
+}
+
+body > footer  .twitter-follow-button {
+  float: right;
+}
+
+body > footer .footnote {
+  margin-top: 100%;
+  color: rgba(0,0,0,0.4);
+  text-shadow: rgba(255,255,255,0.4) -1 0 2px;
+}
+body > footer .footnote a {
+  color: rgba(0,0,0,0.4);
+}
+
+/** Section: Cover Image */
+.cover {
+  margin: -32px -32px 16px -32px;
+  height: 293px;
+  background: transparent url(../images/records.jpg) no-repeat 0 0;
+  background-size: 640px auto;
+  position: relative;
+  color: #fff;
+  -webkit-box-shadow: inset 0 0 24px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 0 0 24px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: inset 0 0 24px rgba(0, 0, 0, 0.5);
+  -ms-box-shadow: inset 0 0 24px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 48px rgba(0, 0, 0, 0.5);
+}
+.cover p {
+  position: absolute;
+  bottom: 0; left: 0;
+  margin: 0 0 8px 0;
+  padding: 8px 32px;
+  background: rgba(0,0,0,0.5);
+}
+.cover .photo-credit {
+  position: absolute;
+  top: 0; right: 0;
+  margin: 32px;
+}
+.cover a:link,
+.cover a:visited {
+  color: #eee;
+  text-decoration: underline;
+}
+.cover a:hover {
+  color: #fff;
+}
+
+/** Section: Post tags */
+ul.tags {
+  font-family: Verdana,sans-serif;
+  padding: 0;
+}
+ul.tags li {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  list-style: none;
+  padding: 3px;
+  border-radius: 3px;
+  -ms-box-shadow: 0 0 1px rgba(0,0,0,0.7),
+                  inset 0 0 15px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 0 1px rgba(0,0,0,0.7),
+                 inset 0 0 15px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 1px rgba(0,0,0,0.7),
+                  inset 0 0 15px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 1px rgba(0,0,0,0.7),
+                     inset 0 0 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 1px rgba(0,0,0,0.7),
+              inset 0 0 15px rgba(0, 0, 0, 0.1);
+  background: #eee;
+  margin-bottom: 4px;
+  font-size: 75%;
+  line-height: 120%;
+}
+ul.tags li a {
+  display: inline-block;
+  color: #000;
+}
+
+/** Section: Sharing */
+.share {
+  position: relative;
+}
+.share .twitter-share-button {
+  position: absolute;
+  right: 0;
+}
+.share dl {
+  margin-right: 100px;
+}
+.share dt { margin: 4px 0; }
+.share dd { margin: 0; }
+.share kbd {
+  font-family: Verdana, sans-serif;
+  font-size: 80%;
+  line-height: 100%;
+  background: none;
+}
+
+/** Section: Legacy comments */
+#comments h2 {
+  font-size: 100%;
+}
+#comments .about-comments {
+  font-size: 80%;
+}
+#comments > ol {
+  margin: 0; padding: 0;
+}
+#comments > ol > li {
+  margin: 0 0 16px 0;
+  list-style: none;
+}
+#comments .hentry {
+  position: relative;
+  padding-left: 30px;
+}
+#comments .hentry .photo {
+  position: absolute;
+  top: 0; left: 0;
+  width: 50px; height: 50px;
+}
+/** Section: Legacy pingbacks */
+
+/** Section: Narrow */
+@media (max-width: 420px) {
+  body { margin: 0; }
+  header,
+  footer,
+  body > article,
+  body > section { padding: 16px; }
+  header { padding: 32px 16px; }
+  .cover { margin: -16px -16px 16px -16px; }
+  .cover p { padding: 8px 16px; }
+  article .full-bleed { margin: 0 -16px; }
+  article .pull-left { margin: 0 8px 0 -16px; }
+  article .pull-right { margin: 0 -16px 0 8px; }
+  body > footer .twitter-follow-button { float: none; }
+  section.hfeed header,
+  article header,
+  section.hfeed footer,
+  article footer {
+    margin: 16px -16px -16px -16px;
+    padding: 0 16px;
+  }
+  section.hfeed header,
+  article header { margin: -16px -16px 16px -16px; }
+
+}

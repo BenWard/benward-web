@@ -1,0 +1,187 @@
+---
+layout: blog
+category: blog
+title: "Reboot Badges"
+date: "2005-08-09T00:18:00+00:00"
+updated: "2006-05-23T21:08:37+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2005-08-09:/blog/reboot_badges
+---
+<strong>Updated 09<sup>th</sup> August</strong>: Removed ghastly bevel effect, achieved something closer to the images in my head. Thanks Matt Robin for the polite nudge.
+
+The <a href="http://www.cssreboot.com/blog/2005/08/04/reboot-badges/">CSS Reboot Blog noted</a> that as yet there are no CSS Reboot badges available for the forthcoming Autumn event.
+
+Since I'd quite like to display one myself, and since there are currently none, I've made three. I've provided them in 2 sizes each (200px wide and 100px wide). They are a little generic, but I rather like the seasonal colours. (Update: No more �generic Photoshop bevel effect!�, hoorah!).
+
+If you'd like to use any of these badges you are very welcome (that is, after all the point of publicising their existance), but <strong>please, please, please</strong> copy them to your own server. I don't have any hotlinking protection right now, so please play nice.
+
+The CSS Reboot <span title="Fall">Autumn</span> '05 badges follow. 
+
+<dl><dt>With �Autumn '05� caption</dt>
+<dd><img src="/media/cssreboot/nov05/CSSR-Autumn-200.png" alt="" /></dd>
+<dd><img src="/media/cssreboot/nov05/CSSR-Autumn-100.png" alt="" /></dd>
+<dt>With 'Fall 2005' caption</dt>
+<dd><img src="/media/cssreboot/nov05/CSSR-Fall-200.png" alt="" /></dd>
+<dd><img src="/media/cssreboot/nov05/CSSR-Fall-100.png" alt="" /></dd>
+<dt>With 'November 1<sup>st</sup>' caption</dt>
+<dd><img src="/media/cssreboot/nov05/CSSR-Nov-200.png" alt="" /></dd>
+<dd><img src="/media/cssreboot/nov05/CSSR-Nov-100.png" alt="" /></dd></dl>
+
+You're very welcome to make requests for different colours schemes (or just give feedback on the quality of the graphics - it's all good). However, I can't promise to have time to churn out variations. With that in mind. you are welcome to download the <a href="http://blog.ben-ward.co.uk/media/cssreboot/nov05/CSSR.psd" title="Ben Ward's CSS Reboot Badge">Photoshop original</a>. Feel free to mod it, rehash it and so forth but please remember that giving a little credit is always very pleasant.
+
+Update 23/05/06: The badge is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/uk/">Creative Commons Attribution+ShareAlike License</a> (UK), so you're free to modify it and re-use it but must give me credit in the appropriate places. Thanks.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-329">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">Stuart</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-329">
+        <time class="published" datetime="2005-08-09T08:35:31+00:00">09 Aug 2005, 08:35</time>
+      </a>
+      <div class="entry-content"><p>Very nice &#8211; I like the style: clean, crisp and nicely seasonalised (although being British you should have made Americans use the real name for the season! ;) )</p>
+<p>I might try a <span class="caps">CSS</span> Reboot on my site (especially my blog since it&#8217;s still pretty much a default skin), but at the moment I don&#8217;t have any ideas other than new colours/images for my site and I don&#8217;t think that&#8217;d be enough of a reboot.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-328">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e6e984d5209d0fd381fae0d78c4d0302.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.mattrobin.com">Matt Robin</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-328">
+        <time class="published" datetime="2005-08-09T19:12:55+00:00">09 Aug 2005, 19:12</time>
+      </a>
+      <div class="entry-content"><p>Bevelled beyond belief!!! <strong>Laughs</strong></p>
+<p>Nah &#8211; I&#8217;m just kidding, they look great mate. I decided to stick with the same colours that the site uses for it&#8217;s current layour though &#8211; just to maintain some similarity. I like your designs though&#8230; :)</p>
+<p>Matt</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-327">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/bbe284354c8bf028b0b34507b2dd2a07.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Graham Bancroft</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-327">
+        <time class="published" datetime="2005-08-09T20:45:15+00:00">09 Aug 2005, 20:45</time>
+      </a>
+      <div class="entry-content"><p>Nice! Makes me think of Sushi for some reason?</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-326">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-326">
+        <time class="published" datetime="2005-08-09T21:28:51+00:00">09 Aug 2005, 21:28</time>
+      </a>
+      <div class="entry-content"><p>Matt &#8211; I do agree that the �Photoshop Bevel� is more than a touch clich� and is part of my claim towards �ber genericism. It&#8217;s not quite the look I wanted, but I didn&#8217;t want them flat either so in the absence of the knowledge to do it right, a proverbial coin was tossed and I went with the bevels. It&#8217;s interesting how a nights sleep can change perspective though. When I published these last night, I looked at them and thought �yeah, not bad�, today I&#8217;m in agreement that the bevel is really rather obvious and naff. Sleep is strange.</p>
+<p>Graham &#8211; I&#8217;ve never eaten Sushi in my life, so the Japanese lawyers can lay off already.</p>
+<p>Stu &#8211; You have a blog! Welcome to the wonderful world of �not getting around to redesigning�.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-325">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">Stuart</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-325">
+        <time class="published" datetime="2005-08-10T13:57:02+00:00">10 Aug 2005, 13:57</time>
+      </a>
+      <div class="entry-content"><p>The &#8220;wonderful world of �not getting around to redesigning�&#8221; is it? how long are you going for now with the redesign planned? Hopefully I won&#8217;t be as long redesigning my blog as I think you have been with yours :D<br />
+The hardest part for me is trying to find something graphically interesting (even if it is just discrete and not just a plain block of colour) to go at the top. With my designs, the rest just then ends up being blocks, colours and background colours. But that wasn&#8217;t why I started the blog! Having decided to go all out on the expenses and buy a second .co.uk domain (instead of having my main site as a subdomain &#8211; I wanted to subdomain my subdomain, so it was pretty much necessary!) I needed a use for the old ibboard.co.uk domain, so a dev blog seemed about right :)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-324">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-324">
+        <time class="published" datetime="2005-08-10T14:05:58+00:00">10 Aug 2005, 14:05</time>
+      </a>
+      <div class="entry-content"><p>Stu &#8211; this blog was launched on  July 21st 2004. Which, disappointingly, means I&#8217;ve actually managed to completely miss the 1st aniversary (I could&#8217;ve sworn I actually started blogging in October time, ho hum).</p>
+<p>So yes, the redesign counter now sits at nearly 13 months.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-323">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e6e984d5209d0fd381fae0d78c4d0302.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.mattrobin.com">Matt Robin</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-323">
+        <time class="published" datetime="2005-08-10T23:06:42+00:00">10 Aug 2005, 23:06</time>
+      </a>
+      <div class="entry-content"><p>Ah Ben&#8230;the coin landed the other way for me: I went with flat. But I sort of did a compromise&#8230;(if you look closely at mine &#8211; you&#8217;ll maybe&#8230;<strong>squints</strong>&#8230;.maybe spot that I did give a 3-D look to the text &#8211; all but lost at the scale it&#8217;s at&#8230;but there you go!)</p>
+<p>I know what you mean mate &#8211; some web design ideas seem brilliant one day..and the following morning&#8230;<strong>groans</strong>&#8230;they look like a bad idea. I still liked your originals.</p>
+<p>Graham: The Sushi wraps eh?<br />
+(Where&#8217;s my coffee man?)&#8230;.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-322">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-322">
+        <time class="published" datetime="2005-08-10T23:12:19+00:00">10 Aug 2005, 23:12</time>
+      </a>
+      <div class="entry-content"><p>The originals are still online at http://blog.ben-ward.co.uk/media/cssreboot/old/ (I should probably have put that in the original post, heh).</p>
+<p>I think, one day on, I still like the flatter ones :) One round of applause for second attempts, please.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-321">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e6e984d5209d0fd381fae0d78c4d0302.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.mattrobin.com">Matt Robin</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-321">
+        <time class="published" datetime="2005-08-11T01:09:51+00:00">11 Aug 2005, 01:09</time>
+      </a>
+      <div class="entry-content"><p><strong>applauds</strong></p>
+<p>&#8230;.(And I&#8217;m not usually one to prefer &#8216;flat&#8217; ones&#8230;.<strong>laughs</strong>)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-330">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">Stuart</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-330">
+        <time class="published" datetime="2005-09-26T19:58:56+00:00">26 Sep 2005, 19:58</time>
+      </a>
+      <div class="entry-content"><p>No-one&#8217;s going to read down this old (apart from Ben when he gets a comment notification ;) ) but I got my blog redesigned.  Nothing major, just a simple style change (nice, subtle and minimalist) but it does have some improvements (most notably scrolly &#8220;pre&#8221; overflow boxes for those times when I post code that is too long for a single line)</p>
+<p>Now to see if you get yours done for <span class="caps">CSS</span>:Reboot :D</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-2748">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/71abae296de54b9089efb460449e43ba.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.petemac.net">Peter MacDonald</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2748">
+        <time class="published" datetime="2006-05-23T20:37:32+00:00">23 May 2006, 20:37</time>
+      </a>
+      <div class="entry-content"><p>I like your image; do you mind if I use it?</p>
+<p>http://www.petemac.net/about.php (on the bottom) &#8230;<br />
+If you do mind I can make my own&#8230;</p>
+<p>Thanks.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-2749">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2749">
+        <time class="published" datetime="2006-05-23T21:07:02+00:00">23 May 2006, 21:07</time>
+      </a>
+      <div class="entry-content"><p>Yeah, no probs Peter.</p>
+<p>Consider it licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/uk/" rel="nofollow">Creative Commons Attribution+ShareAlike License</a> (UK).</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-187585">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/ee3db3bad0d92d1fcdb2bdc762b8e967.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://lpdofrwjkr.com">lpdofrwjkr</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-187585">
+        <time class="published" datetime="2007-07-08T22:03:40+00:00">08 Jul 2007, 22:03</time>
+      </a>
+      <div class="entry-content"><p>Hello! Good Site! Thanks you! wextzijcofqz</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

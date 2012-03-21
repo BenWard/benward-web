@@ -1,0 +1,60 @@
+---
+layout: blog
+category: blog
+title: "@Media 2006 Review"
+date: "2006-06-21T20:33:57+00:00"
+updated: "2006-06-21T20:52:52+00:00"
+tags: ["all", "technology", "web", "conferences", "socials", "notmedia", "notmedia2006", "atmedia", "atmedia2006"]
+atomid: http://ben-ward.co.uk/journal/atmedia-2006-review/
+---
+I'm back from @media. I'm tired, blistered, educated but fulfilled.
+
+Last year I got to attend the second day of the inaugural web standards and design conference in London. It was good fun, informative and it was nice to meet and socialise with the web and design geeks whose blogs I'd been reading for a year beforehand. At the time <a href="http://ben-ward.co.uk/journal/atmedia2005/" title="@Media 2005 Review">I found it all very exciting</a>.
+
+With this in mind, <a href="http://vivabit.com/atmedia2006/">@Media 2006</a> was comparatively mind blowing. I attended the entire two day conference, all the parties, meeting an awful lot more people. It was bigger than last year in terms of sessions and attendees and apart from the well documented Wi-Fi shortcomings it all ran really rather well.
+
+I think the sessions were better than last year too. If I had one crudely phrased criticism of the things I saw last year it was that ‘I knew it all already’; this year the bar was raised a bit.
+
+h2. The Sessions
+
+Day One started with Eric Meyer's Keynote. I really enjoyed Eric's ‘10 Years of CSS’ coverage. I was also pleased to see my favourite CSS3 module (<a href="http://www.w3.org/TR/2005/WD-css3-layout-20051215/" title="CSS3 Advanced Layout Module">Advanced Layout</a>) get a slide.
+
+Good Design vs. Great Design Panel with <a href="http://hicksdesign.co.uk">Jon Hicks</a>, <a href="http://veerle.duoh.com/index.php">Veerle Pieters</a> and <a href="http://www.cameronmoll.com/">Cameron Moll</a> provided some interesting discussion. I <em>loved</em> the way they broke most of the panel into three shorter, individual presentations on type, colour and grids. The structure worked really well in an agile, 'crash course' kind-of way.
+
+Chris Wilson did well, providing some open discussion about the future of IE and reassurance about the schedule for future versions. 
+
+I also attended the WCAG2 panel, drawn in looking for clarification on <a href="http://jowclarke.org">Joe Clarke</a>'s recent <a href="http://alistapart.com/articles/tohellwithwcag2">assault on the WCAG2 Last Call documents</a>. We didn't really get that, although the effort and language required to explain the new generic terminology goes some way towards justifying his concerns for me.
+
+At 3pm I slipped out to join in <a href="http://kurafire.net" title="Faruk Ates">Faruk</a>'s <a href="http://notmedia.kurafire.net">!Media</a> football social - missing out on Jeff Veen’s apparently excellent Web Applications session in the process. I'd not been planning to attend the conference originally, y'see. Someone has photos of us playing (Matt Robin?) but I've not seen them on Flickr yet. Frankly, it was too hot.
+
+Day two provided an opportunity to see Robin Chrisopherson present. He was highly respected at last years event for good reason: Many delegates including myself learned as much from observing his use of screen reader software as from the content of his speech. 
+
+The ever animated, captivating and entertaining Molly gave an introduction to Internationalisation - something that <a href="http://nascentguruism.com" title="Steve Marshall">Steve</a> and I are rather familiar with from our time working on <a href="http://www.fujitsu-siemens.com" title="Fujitsu Siemens Computers">Fujitsu Siemens</a>' multinational, multilingual <abbr title="Content Management System">CMS</abbr>. Then Strategic CSS Management gave a good lesson on organising CSS into categorised chunks, to the benefit of personal maintenance and especially team working.
+
+A tough choice at the end to pick <a href="http://tantek.com">Tantek</a> over <a href="http://stuffandnonsense.co.uk">Andy Clarke</a>; Microformats vs. Fine Art of Web Design really summing up the tech/design split at @media. I plumped for Tantek, being the Microformats enthusiast that I am. Already being familiar with <abbr title="microformats">µF</abbr> the presentation itself didn't really teach me anything (although a <strong>lot</strong> of the audience did go 'oooh' and the simple hCard to Address Book demonstration). It was very interesting to hear people's questions at the end though. Microformats are still in that early stage where the hearts and minds of developers matter an awful lot and I came out knowing that we need more, and more user-centric implementations to prove µF as being truly useful. More on that tomorrow.
+
+And although this is getting lengthy, I have to mention the closing ‘Hot Topics’ panel. Jeremy Keith proved himself a talented, entertaining and outright funny moderator. He, Molly, Jon Hicks, Eric Meyer and Tantek produced a lively session that really captured the spirit of the whole two days.
+
+Following @media this time around I've no hesitation in saying that I've learned a lot and I'm once again feeling inspired about web development.
+
+h2. Socials
+
+Crikey, it's been a very busy few days: Football in Hyde Park for !Media, England vs. Trinidad & Tobago, a fabulous geek dinner at Zipangu in Leicester Square, the @Media parties themselves and a really rather nice Saturday at The Livery near St. Pauls.
+
+
+
+It was good to see <a href="http://nascentguruism.com">Steve</a> again and I finally got to meet <a href="http://allinthehead.com">Drew</a> and <a href="http://collylogic.com">Colly</a>, My beer debt with <a href="http://hicksdesign.co.uk">Jon Hicks</a> is cleared and stealing <a href="http://hanniross.com">Hanni</a>'s camera is the best game ever.
+
+There really are too many people to list, maybe I'll post some sort of XFN ‘met roll’ later in the week.
+
+It was especially nice to meet and talk at length with <a href="http://tantek.com">Tantek Çelik</a> about all things Microformats. I'd be lying if I didn't take a lot of satisfaction in <a href="http://flickr.com/photos/hanni/170807565/" title="Flickr: ‘Ben demonstrates his idea to Tantek’">demonstrating my <abbr title="microformats">µF</abbr> browser UI concept</a>. That'll be blogged later on.
+
+h2. What’s Next?
+
+So, @media has passed by again and I've come out feeling a little more motivated about web design than I did before. Hopefully you'll see some web design from me over the next few months and with a bit of luck I can fill the summer with freelancing rather than bar work.
+
+<span class="vevent"><a class="url summary" href="http://2006.dconstruct.org/" title="d.Construct 2006">d.Construct</a> is scheduled for <abbr class="dtstart" title="2006-09-08">September 8th this year</abbr> in </span><span class="location">Brighton</span> and if I can get wind of a ticket I'll be there again.
+
+Thanks to everyone who made it all possible by organising or attending. To everyone who bought me beer, I am in your debt.
+
+I've <a href="http://flickr.com/photos/benward/sets/72157594172801033/">posted a few pictures on Flickr</a> and the <a href="http://flickr.com/photos/tags/atmedia">atmedia tag</a> has swelled to 3,500 pictures.

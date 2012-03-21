@@ -1,0 +1,74 @@
+---
+layout: blog
+category: blog
+title: "Practical Publishing"
+date: "2008-09-29T09:17:21-01:00"
+updated: "2008-09-29T09:17:21-01:00"
+summary: "The scenario I'm trying to support is this: Rather than someone come to this site and subscribe via RSS just to the blog, they would subscribe to the lifestream. But, the lifestream would be built such that the content is relevant enough they don't get irritated by its content."
+tags: ["all", "technology", "blogging", "twitter", "pownce", "lifestreaming", "publishing", "wiki"]
+atomid: http://ben-ward.co.uk/?p=470
+---
+Something that ‘people in San Francisco’ seem to do, that no-one back home in London was doing (or if they were, they kept quiet about it) is maintain a personal wiki. I've avoided it for ages, mostly because I figured that if I have this much trouble maintaining a blog, surely a wiki will just make my cluster of unmaintained pages even larger.
+
+The previous entry on microblogging was the start of a realisation. Realising that Pownce is useful in its capacity as a microblogging platform rather than as an alternative to Twitter, I think that my personal publishing breaks down cleanly into tiers, based on the depth of the content. And a wiki is perhaps the most natural part of that as anything.
+
+Blogging, as in a site like this, is really only well suited to a certain style of publishing. I want to publish content of a consistent style on this blog. I want there to be a certain amount of depth to each entry, and I don't want some detailed attempt all about the philosophy of personal publishing to be punctuated by a single line piece stating that ‘I could really murder a chip butty right now’.
+
+The way I see this breaking down, and this is starting to feel quite natural, is as follows:
+
+<ul>
+  <li><a href="http://pownce.com/benward" rel="me">Pownce</a> is for short things. Thoughts, spontaneous musings, links that you think are <em>remarkable</em> (which contrasts with Delicious, which is a store of links I think are <em>useful</em> in some way). It suits short, sharp content. No room for depth. That's microblogging.</li>
+  <li>This blog contains longer, more considered content. I feel reasonably sure that the things I write here are somehow valuable, either as information or as an expression of my self. They have some depth. Comments are on. I should track responses on other blogs, too. Whilst communicating via separate blogs is a lamentably lost ideal of the original, pre-comments design of blogging, it's a concept I like. In aiming to write content of substance, I'd want to support it.</li>
+</ul>
+
+The critical thing with a blog though, and something that should be embraced, is time sensitivity. What I write here is timestamped and could, upon further reflection in a month or a year prove to be dismissible rambling bullshit. But the timestamp validates that. The moment you read this you know that it's old and that gives you the context to consume it. You can write safe in the knowledge that time will let your obsolete content fade away. Timeless, accidental masterpieces will look after themselves.
+
+Which leads to wikis. A wiki will contain detailed content. Thoughts, projects, entire subjects documented through the eyes of an author. Wikis have long been complemented for being very close to the original ideals of the read/write web that Tim Berners-Lee envisioned (back before no-one  had bothered to implemented the necessary HTTP verbs to do it). It's back to a world of writing standalone pages. And in standalone, I mean to imply <em>timeless</em>. So, my ‘about me’ page isn't a blog entry, it's a page, and wiki is a superior publishing medium to maintain that kind of content. Similarly, documenting my ‘thoughts on personal publishing’, and my ‘current publishing practices’ is a standalone, timeless (and constantly updated) piece of information. Here I blog about how I publish, or rather, how I'm considering doing it. It's driven by a desire for discussion. However, to publish my current publishing behaviour, a wiki is a superior platform. That one URL (let's say, perhaps, <a href="http://ben-ward.co.uk/content/Publishing">http://ben-ward.co.uk/content/Publishing</a>) will always represent current information and is far preferable over regular blog entries every time I change something. ‘Publishing Patterns, August 2008’, ‘Publishing Patterns, November 2008’… a blog is less suitable for versioned content.
+
+<h2 class="flow">So, Twitter is a slight oddball</h2>
+
+I regard it as publishing ‘fragments’ of my day. By my reckoning it fits into the tier below (smaller than) ‘microblogging’. But it grew out from encouraging people to just publish their status and into its own social network. So as well as containing the little snippets of my day, it also contains pieces of social interaction. Twitter is great, but it's a less pure publishing platform.
+
+<h2>Combination. The lifestream.</h2>
+
+The thing about blogging — an issue that produced some background resistance in me to the personal wiki concept — is that whilst you can better maintain content, you're unable to push it to people. A blog has a feed and people consume that feed and therefore people read what you have to say. Sound vain? Get over that and accept that in some capacity we all want people to read what we write and we don't want our output buried somewhere it'll never be found.
+
+If I were to produce a nicely combined life stream (which I will), Pownce, Twitter and the blog are chronological and so slot in neatly. Twitter gets filtered to avoid publishing those ‘social interaction’ posts, but otherwise fits in. But since wiki content is not time sensitive, it is not the content itself but the <em>edits of that content</em> which should be streamed. That in itself is a bit problematic. New pages are probably noteworthy, major edits are probably noteworthy; minor edits not so much.
+
+The scenario I'm trying to support is this: Rather than someone come to this site and subscribe to just the blog feed, they would subscribe to the whole lifestream. But, the lifestream would be built such that the content is relevant enough they don't get irritated by its content. Not an easy balance. Configuration seems like a grossly over-complex solution, but perhaps offering two predefined options would be manageable; substantial content containing blog entries, major wiki edits, and longer Pownce posts could be available separately from the whole life stream.
+
+I suppose I should build it.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-227122">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/7ddb00265584e122285cee3673e30e69.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://dsingleton.co.uk">David Singleton</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227122">
+        <time class="published" datetime="2008-09-29T22:15:55-01:00">29 Sep 2008, 22:15</time>
+      </a>
+      <div class="entry-content"><p>Don&#8217;t go to tantek on me ;)</p>
+<p>I&#8217;m still not sold on Pownce, much like Twitter you need a critical mass of useful friends/content for it to become really useful.</p>
+<p>I&#8217;m curious about the wiki over blog idea, I&#8217;ve been pondering using &#8220;micro blogging&#8221; wiki entries, so keeping a tumble log of stuff, sometimes (almost coincidentally) containing my stuff.</p>
+<p>Certainly if I do get in to gear and work on my site again, I could see myself with a wiki-esque setup, featuring content through micro blogging and a big old activity feed of twitter+everything else.</p>
+<p>Hm, to find it the time.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227127">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/a654a6572f975b985856a3b09f5cf156.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://gedankentank.tumblr.com/">Matthias Wagler</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227127">
+        <time class="published" datetime="2008-10-14T14:51:07-01:00">14 Oct 2008, 14:51</time>
+      </a>
+      <div class="entry-content"><p>Very interesting thoughts. I had similar ideas as I&#8217;m keeping a tumblr blog, use my flickr account as visual diary and have some other side projects. Each of these sources has its own <span class="caps">RSS</span> stream.<br />
+The lifestream could just pull them together and add some filters to it.<br />
+What I find most interesting about the stream would be to provide filtered versions of this lifestream. So you could pass a lifestream to your friends and another version to your collegues for example.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

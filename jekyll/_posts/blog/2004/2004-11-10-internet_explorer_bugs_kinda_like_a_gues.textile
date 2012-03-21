@@ -1,0 +1,47 @@
+---
+layout: blog
+category: blog
+title: "Internet Explorer Bugs - kinda like a guest columnist"
+date: "2004-11-10T22:44:11+00:00"
+tags: ["technology"]
+atomid: tag:benward.me,2004-11-10:/blog/internet_explorer_bugs_kinda_like_a_gues
+---
+The regularity of stop-me-in-my-tracks IE bugs is starting to drag.
+
+<img src="/media/ieclear.jpg" alt="IE Clear Bug Screenshot" />
+
+The photograph is set to float on the right, the text in &lt;div&gt; tags is set to clear on the left only. Firefox and Opera happily wrap around the photo; Internet Explorer makes the fricking box bigger, pushing the news content down the page.
+
+I tolerate most bugs and work around them, but this ones makes the layout truely unacceptable. I hate it.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-213">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/98356ff449228a337c6f4a6a38b7f54d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.positioniseverything.net/articles/hollyhack.html#haslayout">Tauron</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-213">
+        <time class="published" datetime="2005-01-16T22:06:07+00:00">16 Jan 2005, 22:06</time>
+      </a>
+      <div class="entry-content"><p>I know exactly what you mean.</p>
+<p>Check out this page (it is not mine), which has a very good hack/fix for that bug.<br />
+Oh how I hate IE.  Thank heavens for Firefox.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-214">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-214">
+        <time class="published" datetime="2005-01-16T23:07:15+00:00">16 Jan 2005, 23:07</time>
+      </a>
+      <div class="entry-content"><p>Mr Tauron &#8211; thankyouverymuch!</p>
+<p>I must admit I don&#8217;t spend an awful lot of time reading up on IE hacks &#8211; I make common use of <code>* html</code> for content masking, but little else. It&#8217;s a lot of effort to go to!</p>
+<p>That hollyhack does seem pretty clean though, which seems good as far as I&#8217;m concerned! I&#8217;m planning to bump ResinTheBand onto a b2Evolution powered <span class="caps">CMS</span> sometime soon so I may well experiment with that hack in the near future. Thank you.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

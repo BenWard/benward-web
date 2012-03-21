@@ -1,0 +1,78 @@
+---
+layout: blog
+category: blog
+title: "Steven Marshall vs. Internet Explorer, abridged"
+date: "2005-10-05T00:18:16+00:00"
+tags: ["all", "web_standards", "design", "blogging", "steve_marshall", "internet_explorer"]
+atomid: tag:benward.me,2005-10-05:/blog/steven_marshall_vs_internet_explorer_abr
+---
+This evening, <a href="http://nascentguruism.com">Stevie �artistic placeholder� Marshall</a> has been mostly trying to fix his new blog design to work in Microsoft's broken web browser.
+
+Because I'm a bit bored of working on the TextPattern edition of <a href="http://resintheband.com">Resin</a>, I felt I'd preserve for posterity one of his more poetic outbursts. Although this one is clean, my <abbr title="Instant Message">IM</abbr> log suggests that when his blog launches, he might just rival <a href="http://joshuaink.com">Oxton</a> for foul language. Although, I doubt if he knows what he's going to write about yet, far from it for me to guess.
+
+<blockquote>When is 100% width of the parent not 100% width of the parent?</blockquote>
+
+It's fair to say that I'm really glad that my CSS:Reboot is so far behind schedule that IE debugging is not yet a source of frustration for me. Ah.
+
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-357">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/8e0293544b13499460369217e2a7febd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://charlvn.za.net">Charl van Niekerk</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-357">
+        <time class="published" datetime="2005-10-05T07:43:34+00:00">05 Oct 2005, 07:43</time>
+      </a>
+      <div class="entry-content"><p>Excellent, another big <abbr title="Internet Exploder">IE</abbr> fan. &#8220;Join the club&#8221;, I would say. :)</p>
+<p>I&#8217;m actually feeling lucky (no, I&#8217;ve not been recruited by Google&#8230;) since I don&#8217;t even bother to get my design to work in IE in the first place. But then again, I&#8217;m a gangster so I can get away with it. ;)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-356">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/3218e487b7fd7b7b0d6f02bef3227e39.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Steve Marshall</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-356">
+        <time class="published" datetime="2005-10-05T13:57:18+00:00">05 Oct 2005, 13:57</time>
+      </a>
+      <div class="entry-content"><p>I&#8217;m actually shocked you did blog about this; even moreso that you omitted the more � shall we say �potent� comments I made about IE&#8217;s familial lineage and it&#8217;s nature as a piece of the female anatomy.</p>
+<p>As for what I plan on blogging about, I plan on blogging about webby stuff (surprisingly), frustrations thereof, life at large (although certainly nothing massively introspective and personal &ndash; a mistake I&#8217;ve made in the past), music, movies, and whatever comes to mind, really. To be honest, the inspiration for me getting off my arse has been your blog, Ben, and the exposure it&#8217;s given you to the wider community. In other words, you stole my @media thunder, so I intend stealing your blogging thunder!</p>
+<p>(And I&#8217;ll ask <a href="http://www.andybudd.com/" rel="nofollow">Mr. Budd</a> on Monday if he still has no objections to your theft of his design)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-354">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-354">
+        <time class="published" datetime="2005-10-05T15:11:21+00:00">05 Oct 2005, 15:11</time>
+      </a>
+      <div class="entry-content"><p>Money says that Mr Budd won&#8217;t remember the conversation, since it occupied all of 30 seconds of both our lives.</p>
+<p>As for your more creative outbursts, I did actually have them up for a few hours but trimmed it when they stopped being funny. As amusing as it was at the time your appending �<cite>ing�</cite> to a variety of common-or-garden expletives, longetitivity didn&#8217;t seem to suit it them it well.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-355">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-355">
+        <time class="published" datetime="2005-10-05T15:12:26+00:00">05 Oct 2005, 15:12</time>
+      </a>
+      <div class="entry-content"><p>Of course when I say money, I actually mean beer. Or something else that you don&#8217;t actually want.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-377">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/3218e487b7fd7b7b0d6f02bef3227e39.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://nascentguruism.com">Steve Marshall</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-377">
+        <time class="published" datetime="2005-10-12T11:13:41-01:00">12 Oct 2005, 11:13</time>
+      </a>
+      <div class="entry-content"><p>Mr. Budd <strong>did</strong> remember the conversation, so ner!</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

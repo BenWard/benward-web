@@ -1,0 +1,8 @@
+---
+layout: nil
+---
+shorturls:
+{% for post in site.posts %}  post:
+    id: {{post.global_date | date: "%s" | base_60}}
+    url: {{site.url}}{{post.url}}
+{% endfor %}

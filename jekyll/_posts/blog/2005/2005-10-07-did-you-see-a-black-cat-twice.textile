@@ -1,0 +1,76 @@
+---
+layout: blog
+category: blog
+title: "Did you see a black cat twice?"
+date: "2005-10-07T00:28:34-01:00"
+updated: "2005-10-07T01:47:18-01:00"
+tags: ["all", "design", "blogging", "ben_ward", "css_reboot"]
+atomid: http://ben-ward.co.uk/?p=252
+---
+<blockquote>They've changed something�</blockquote>
+
+Yes, it finally happened. The migration to Wordpress was a success, I've tweaked the default theme to look less obviously like the default theme and now I'm free to start the task of re-designing. How long has that taken, eh?
+
+The old blog code is still present, however a meaty <code>.htaccess</code> file <em>should</em> be translating everything from old to new. I'll remove the b2evolution installation after I'm convinced that it works! I'm only providing an Atom feed on the site. All legacy formats from the old blog are being fired off to FeedBurner.
+
+I'll blog the migration process in a few days (including the technical reason for the change in �blog� terminology to �journal�. It's not just to sound arty, dontchaknow?).
+
+Obviously this isn't my CSS:Reboot (though it might be easier for all involved if I said it was). It's the first advance stage of it though and it makes sense to migrate early to make theme development that bit easier.
+
+The best bit for me? That ghastly �Read More� graphic is gone. I never could find which bit of b2Evolution I needed to hack to remove it. 
+
+By all means please click on lots of stuff and see if anything's broken. I'll try and do a round of fixes next week.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-358">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/ee069e4606db55770074d8e8d8292d01.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://pinksocks.co.uk">Hanni</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-358">
+        <time class="published" datetime="2005-10-07T00:42:30-01:00">07 Oct 2005, 00:42</time>
+      </a>
+      <div class="entry-content"><p>Nice one Ben. I&#8217;m glad that the move went relatively smoothly!<br />
+You&#8217;ve also managed to make a very nice looking site by modifying kubrick &#8212; not something you see often!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-359">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/3218e487b7fd7b7b0d6f02bef3227e39.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://nascentguruism.com">Steve Marshall</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-359">
+        <time class="published" datetime="2005-10-07T09:08:06-01:00">07 Oct 2005, 09:08</time>
+      </a>
+      <div class="entry-content"><p>Good work mate, although this theme looks mighty similar to another one I know pretty well&#8230;</p>
+<p>Is the technical reason for the change in �blog� terminology to �journal� by any chance I wanna be as cool as Steve? :-P</p>
+<p><span class="caps">FYI</span>, I&#8217;m currently porting my theme to WordPress and trying to clear as much markup cruft (by both killing it from templates and by plugin creation) from the output as is humanly possible&#8230;</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-360">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/3218e487b7fd7b7b0d6f02bef3227e39.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://nascentguruism.com">Steve Marshall</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-360">
+        <time class="published" datetime="2005-10-07T09:09:45-01:00">07 Oct 2005, 09:09</time>
+      </a>
+      <div class="entry-content"><p>Oooh, how&#8217;d you get your URLs working that way, dude?<br />
+I&#8217;m pretty taken by the /journal/articlename format&#8230;</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-361">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-361">
+        <time class="published" datetime="2005-10-07T11:40:25-01:00">07 Oct 2005, 11:40</time>
+      </a>
+      <div class="entry-content"><p>For permalinks, go to �Options� ? �Permalinks�.</p>
+<p>Mine are set up as follows: For post structure I have <code>/journal/%postname%/</code> and for categories I have <code>/journal/categories</code>.</p>
+<p>Very quickly, the reason for �Journal� is that on this hosting, creating a sub-domain called �blog� (as I&#8217;ve been using for about 15 months now) creates a folder in the root of the server called �blog�. This took priority over having �/blog� in my permalink structure so none of the links worked. I couldn&#8217;t remove it because I need to keep the redirection in place and I can&#8217;t change its name because we don&#8217;t get that level of control on this host. Perhaps Dreamhost would be a good idea�</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

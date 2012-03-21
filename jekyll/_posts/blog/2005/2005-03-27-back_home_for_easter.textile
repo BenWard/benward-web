@@ -1,0 +1,29 @@
+---
+layout: blog
+category: blog
+title: "Back home for Easter"
+date: "2005-03-27T23:05:11+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2005-03-27:/blog/back_home_for_easter
+---
+I'm back home in Cambridge for the long Easter weekend. Thanks to our countries Christian heritage, we get given Good Friday and Easter Monday off work. This is a good thing, since <a href="http://jo.ben-ward.co.uk" title="Jo Anslow's Weblog">Jo</a> keeps telling me I'm stressed, and she tends to be right about such things. In response, I will doing absolutely nothing tomorrow. Apart from possibly introducing my mother to Picasa, just because it's so cool.
+
+I'm still playing the Bloc Party album to death too.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-248">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e87857f4f6dc2cb29dd0c5b25d7e3f7b.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://Guess">Guess</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-248">
+        <time class="published" datetime="2005-04-13T18:52:52+00:00">13 Apr 2005, 18:52</time>
+      </a>
+      <div class="entry-content"><p>Sharepoint does not stress you out..</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

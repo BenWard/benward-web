@@ -1,0 +1,50 @@
+---
+layout: blog
+category: blog
+title: "Geo Accuracy"
+date: "2006-11-12T01:17:46+00:00"
+updated: "2006-11-12T01:17:46+00:00"
+tags: ["technology", "flickr", "geotagging", "google-earth", "lazyweb"]
+atomid: http://ben-ward.co.uk/journal/geo-accuracy/
+---
+With all this talk of geotagging, I've a lazy web question for you. Take the following case:
+
+I went on <a href="http://flickr.com/photos/benward/tags/malta">holiday to Malta</a> back in the summer. Thanks to Google Earth I've managed to geotag some of the photos to the precise location of the hotel we stayed in. In fact, I could target particular sun loungers using GE if so inclined.
+
+Problem is though, I don't know exactly where the other photos were taken. Some I'm not even sure which part of the country we were in. So I want to geotag them as being taken in Malta, but <em>not</em> of being at the precise spot in Malta my cursor is hovering over.
+
+How do I do this? Perhaps by reducing the precision of the number. But does Flickr et al understand that? Would it treat the vague value '1.39' just the same as the precise value '1.390000'?
+
+I like geotagging. I want to make as much use of it as I can. But I don't want to invalidate the entire concept by having photos tagged to a 10 cm^2 patch of earth when really they can only be generalised to an entire island.
+
+Any advice?
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-32670">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/dc17387f19d96d6aeb53a0a9a02418dd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Jonty</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-32670">
+        <time class="published" datetime="2006-11-12T09:45:14+00:00">12 Nov 2006, 09:45</time>
+      </a>
+      <div class="entry-content"><p>Hi Ben</p>
+<p>No practical suggestions, I&#8217;m afraid, but <a href="http://www.geospatialexperts.com/ricoh.html" rel="nofollow">Ricoh</a> have developed a digital camera with built-in <span class="caps">GPS</span>. The camera quality doesn&#8217;t look up to much, and the package seems a little cumbersome, but it&#8217;s an interesting step (plus it&#8217;s compatible with Google Earth).</p>
+<p>In the future you may also be able to use things like Microsoft&#8217;s <a href="http://labs.live.com/photosynth/" rel="nofollow">Photosynth</a>, which can look for similarities in your photos with those elsewhere in your collection or online. Not only does this allow the creation of 3D representations of a space based on your photos, but if you can cross-match with a known location then it provides a more accurate <span class="caps">GPS</span> location (although it obviously ceases being so cool when you step inside or into more obscure places).</p>
+<p>In the meantime, I hope you find a suitable solution! Happy tagging!</p></div>
+    </article></li>
+  </ol>
+</div></notextile>
+
+<notextile><div class="pingbacks hfeed" id="pingbacks">
+  <h2>Pingbacks</h2>
+  <ul>
+    <li class="hentry" id="pingback-35239">
+      <a rel="bookmark" class="entry-title" href="http://ben-ward.co.uk/journal/geo-accuracy-2/">Ben Ward &raquo; Geo Follow-up</a>
+    </li>
+  </ul>
+</div></notextile>

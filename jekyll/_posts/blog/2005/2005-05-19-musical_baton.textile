@@ -1,0 +1,82 @@
+---
+layout: blog
+category: blog
+title: "The Musical Baton"
+date: "2005-05-19T20:26:03+00:00"
+updated: "2005-10-30T14:46:15-01:00"
+tags: ["all", "music", "meme", "itunes"]
+atomid: tag:benward.me,2005-05-19:/blog/musical_baton
+---
+<a href="http://www.ellythompson.co.uk/blog/2005/05/17/musical-baton/" title="Elly Thompson: Musical Baton" rel="friend">Elly</a> has sent the infamous musical baton my way (which, by pleasant coincidence puts me only 5 degrees of separation from <a href="http://www.stuffandnonsense.co.uk/general/destinations.html" title="The Brit Pack">the Brit Pack</a>).
+
+It's nice to see a chain-letter concept mature. Via email this would've been nothing but frustration and instant deletion but through Blogging it becomes well presented and proves fascinating to see such a huge number of people partake in a giant conversation on a common interest. I like.
+
+The geek in me wonders if anyone has written a spider to analyse all these posts (and then ponders if having a <a href="http://developers.technorati.com/wiki/MicroFormat" title="Technorati: Microformats">microformat</a> to mark-up musical meta data would make such an exercise easier).
+
+Anyway, I digress.
+
+<dl>
+<dt>The total volume of music files stored on my computer:</dt>
+<dd><p>I have 34GB of MP3 audio, which at my preferred high bit-rate works out at 4363 individual pieces of music. iTunes says it will take 12.3 days to listen to it all.</p></dd>
+<dt>The last CD I bought was:</dt>
+<dd>All Maps Welcome by <a href="http://www.tommcrae.com">Tom McRae</a></dd>
+<dd><p>I'm a huge fan of Tom. As much as singer-songwriters are ten-a-penny in the UK right now, Tom is by far one of the best and by extension, least commercially successful (figure that out).</p>
+<p>All of his albums are sublime, intricate, emotive and regularly rather morbid.</p></dd>
+<dt>The song I'm playing right now is:</dt>
+<dd>Decent Days and Nights by The Futureheads</dd>
+<dd><p>It's adrenaline in a song...</p></dd>
+<dt>Five songs I listen to a lot, or that mean a lot to me:</dt>
+<dd><dl>
+<dt>"Lucky" - <a href="http://www.radiohead.com">Radiohead</a></dt>
+<dd><p>Picking 5 songs for this list is hard enough when just picking out my favourite 5 Radiohead songs would leave me stumped for hours. "Lucky" is a masterpiece.</p></dd>
+<dt>"Lonely Soul" - <a href="http://www.unkle.com/">Unkle</a></dt>
+<dd><p>A product of collaboration between <a href="http://www.djshadow.com/">DJ Shadow</a>'s Unkle project and The Verve's <a href="http://www.richardashcroft.com/">Richard Ashcroft</a>. Possibly the best piece of music the latter has ever produced.</p></dd>
+<dt>"Northern Lites" - <a href="http://www.superfurry.com">Super Furry Animals</a></dt>
+<dd><p>SFA are one of my favourites bands in the universe. "Northern Lites", with its floaty rhythm and always fantastic steel drums is the song which defines summertime to me.</p></dd>
+<dt>"It's The End of The World As We Know It (And I Feel Fine)" - <a href="http://www.remhq.com/">R.E.M.</a></dt>
+<dd><p>For all the fabulous music R.E.M. have produced since before-I-was-born, this is the song I <em>always</em> come back to and bounce around my bedroom like an utter loon.</p></dd>
+<dt>"Good to Me" by <a href="http://www.brendanbenson.com/">Brendan Benson</a></dt>
+<dd><p>Fantastically bouncy power-pop tune. The observant will see this on <a href="http://jo.ben-ward.co.uk" title="Jo Anslow" rel="friend met muse sweetheart">Jo</a>'s list too.</p></dd></dl>
+</dd>
+<dt><del>Five</del> Three people to whom I�m passing the baton:</dt>
+<dd>Steve (Blog is, err, pending)</dd>
+<dd>Steve</dd>
+<dd>Alex</dd>
+</dl>
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-278">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/11d4b8e0e0638fe55463628d216c34a8.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://jo.ben-ward.co.uk">Jo</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-278">
+        <time class="published" datetime="2005-05-22T21:53:18+00:00">22 May 2005, 21:53</time>
+      </a>
+      <div class="entry-content"><p>However, since I am also &#8220;only 5 degrees of separation from the brit pack&#8221;, I don&#8217;t think it&#8217;s anything to get too excited about!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-3747">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/389aa023e4eb9044c33e9446b63e7d72.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.remove-stretch-marks.net">Tina</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-3747">
+        <time class="published" datetime="2006-06-14T10:59:07+00:00">14 Jun 2006, 10:59</time>
+      </a>
+      <div class="entry-content"><p>love the website !!!</p></div>
+    </article></li>
+  </ol>
+</div></notextile>
+
+<notextile><div class="pingbacks hfeed" id="pingbacks">
+  <h2>Pingbacks</h2>
+  <ul>
+    <li class="hentry" id="pingback-401">
+      <a rel="bookmark" class="entry-title" href="http://nascentguruism.com/journal/the-musical-baton">The musical baton / archive / nascentguruism</a>
+    </li>
+  </ul>
+</div></notextile>

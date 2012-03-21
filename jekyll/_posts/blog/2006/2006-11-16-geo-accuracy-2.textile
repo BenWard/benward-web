@@ -1,0 +1,52 @@
+---
+layout: blog
+category: blog
+title: "Geo Follow-up"
+date: "2006-11-16T10:48:35+00:00"
+updated: "2006-11-16T12:40:18+00:00"
+tags: ["technology", "flickr", "geotagging", "accuracy"]
+atomid: http://ben-ward.co.uk/journal/geo-accuracy-2/
+---
+<blockquote cite=""><p class="song-lyrics">Hello, welcome to dial-a-view
+To locate the area in which you wish to observe
+You must program in the longitude and the latitude
+For a closer, more detailed picture
+Use either the zoom or micro-zoom controls
+Good luck</p></blockquote><cite>‘Miner at the Dial-a-View’ – Grandaddy</cite>
+
+Following my <a href="http://ben-ward.co.uk/journal/geo-accuracy/" rel="me">pondering about Geo-Accuracy</a> earlier in the week, I've finished geotagging (almost all) <a href="http://flickr.com/photos/benward/map">my Flickr photos</a> and spent a bit of time whether some sort of representation of inaccuracy could be incorporated gracefully into the geo  <a href="http://microformats.org">microformat</a>.
+
+Meanwhile on Flickr, I accidentally  discovered this:
+
+<blockquote cite="http://flickr.com/photos/organize/"><p><img src="/res/i/FlickrGeoZoom.png" alt="Wait a moment! We recommend that you place your photos on the map at a higher accuracy level (zoomed in closer). If you drop your photos here, they won't be seen as people zoom in, because it's no clear where they were actually taken. Are you sure you'd like to drop your photo/photos here?" title="Flickr geotagger warning message "/></p></blockquote><cite>Warning message from the Flickr Organizr tool</cite>
+
+So the wonderful revelation is that Flickr already looks out for vague, less accurate geotagging, allowing you to flag something as inaccurate  but still make use of the mapping features. That's very well thought out. I wonder  if they express it through the API, or in mark-up, or if it's just a background flag.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-35358">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/fb7d81b172292b6034f9c1747d5b11e0.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.fatbusinessman.com/">FatBusinessman</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-35358">
+        <time class="published" datetime="2006-11-16T16:02:02+00:00">16 Nov 2006, 16:02</time>
+      </a>
+      <div class="entry-content"><p>Well, according to the <a href="http://www.flickr.com/services/api/flickr.photos.geo.getLocation.html" title="flickr.photos.geo.getLocation" rel="nofollow"><span class="caps">API</span> docs</a> locations are returned with a numeric ‘accuracy’ property. I can only assume that it corresponds somehow to the zoom level of the map when it was placed, but the documentation is rather scrappy on this point.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-35547">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/cad54255a8d5b48756fc81652dfa16a6.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://thedredge.org">Andy Hume</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-35547">
+        <time class="published" datetime="2006-11-16T21:00:00+00:00">16 Nov 2006, 21:00</time>
+      </a>
+      <div class="entry-content"><p>I guess they should really allow tagging with a bounding-box, two pairs of lon/lat coordinates at diagonal opposites of a box.</p>
+<p>Do they allow for searching for photos within an area, or any other kind of spatial query?</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

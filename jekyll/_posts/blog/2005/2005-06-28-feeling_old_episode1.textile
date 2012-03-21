@@ -1,0 +1,60 @@
+---
+layout: blog
+category: blog
+title: "Things that make you feel old #1"
+date: "2005-06-28T23:14:36+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2005-06-28:/blog/feeling_old_episode1
+---
+<img src="/media/splashes/lawnmower.splash.jpg" alt="" class="splash" />As of yesterday, I own a lawnmower. This seems very, very wrong (although since the one provided by our landlord had smoke coming from it, it is ultimately very right).
+
+I'm 21 years old. Should I really have such assets like this of my own? I can't get used to the idea, really.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-298">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/627d78d5359c9ed8f307d7afe230cdcb.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://dk04.com">Jono</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-298">
+        <time class="published" datetime="2005-06-29T00:52:52+00:00">29 Jun 2005, 00:52</time>
+      </a>
+      <div class="entry-content"><p>anything that has spinning blades and makes a cool noise is good, no matter if it does just cut grass. buy it. buy it now. (also a chain saw)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-299">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-299">
+        <time class="published" datetime="2005-06-29T00:57:27+00:00">29 Jun 2005, 00:57</time>
+      </a>
+      <div class="entry-content"><p>It already is bought &#8211; �50. Sadly I&#8217;ve no use for a chainsaw, have I?</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-300">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/9e286e03c4b751ce85bd0e5ff2a8a7db.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.fatbusinessman.com/">Fatty</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-300">
+        <time class="published" datetime="2005-06-29T02:24:53+00:00">29 Jun 2005, 02:24</time>
+      </a>
+      <div class="entry-content"><p>There is <em>always</em> use for a chainsaw�?�</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-301">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/3218e487b7fd7b7b0d6f02bef3227e39.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Steven Marshall</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-301">
+        <time class="published" datetime="2005-06-29T10:25:52+00:00">29 Jun 2005, 10:25</time>
+      </a>
+      <div class="entry-content"><p>Methinks Fatty&#8217;s been playing a little too much <span class="caps">GTA</span>, of late&#8230;</p>
+<p>Second most likely to become a serial killer, indeed!</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

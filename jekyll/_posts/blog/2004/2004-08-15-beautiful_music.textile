@@ -1,0 +1,23 @@
+---
+layout: blog
+category: blog
+title: "Beautiful Music"
+date: "2004-08-15T21:40:23+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2004-08-15:/blog/beautiful_music
+---
+I've recently got into listening to <a href="http://www.last.fm" title="Last FM">Last FM</a> via this t'internet of ours. It's online radio and a sister site of the fantastically cool <a href="http://www.audioscrobbler.com" title="AudioScrobbler">AudioScrobbler</a>.
+
+Using information garnered from the 4500 <a href="http://www.last.fm/user/Shovel" title="My Last.FM Profile">songs I've listened to</a> and logged on AudioScrobbler, Last.FM plays me a customised radio station. It plays me some music that I know, lots that I don't, and uses a very clever system to make sure that, in most cases, I'll like what I get.
+
+The inspiration to write up this entry comes as L.FM has just played me a truly glorious 6 minute version of <a href="http://www.audioscrobbler.com/music/Jeff%20Buckley" title="Audioscrobbler :: Artist :: Jeff Buckley">Jeff Buckley</a> performing <a href="http://www.songlyrics4u.com/jeff-buckley/hallelujah.html" title="Lyrics to Leonard Cohen's Hallelujah. The very famous one that pretty much everyone has performed at some point or other">Hallelujah</a>. It's glorious, wonderful and fantastically emotive.  Kinda similar to the effect that his recording of <a href="http://www.thewalkabouts.com/SAT-LYR.HTM" title="Satisfied Mind Lyrics">Satisfied Mind</a> has on me. It's incredible.
+
+It's also just played me Paranoid Android by Radiohead, which is arguably my favourite song of all time ever. (The chords/lyrics/something will get engraved on my iPod next month, and possibly my grave stone in the more distant future).
+
+You <i>train</i> the L.FM radio by clicking "Love", "Skip" or "Ban" when a song plays, or by just letting it play. Given a little time (and/or a good sized Audioscrobbler profile of your own music), it rarely shoves up dud songs and can really mix up your listening habits. How cool is that?
+
+Last is a wonderful site. It's legal too, for those who've read this far and become suspicious. It's run in the UK where we don't have as many shit laws, and pays a license fee every few months. It's non-subscription but they do offer an enhanced service for a month if you give a donation.
+
+I love it. I really do. It's a gazillion times better than Napster ever was for <em>actually listening to</em> music and I advise everyone to try it, love it and then give them some money to keep going.
+
+Music is great. Really, really great.

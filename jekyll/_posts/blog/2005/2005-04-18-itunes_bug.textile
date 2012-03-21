@@ -1,0 +1,31 @@
+---
+layout: blog
+category: blog
+title: "iTunes buggerage"
+date: "2005-04-18T00:24:20+00:00"
+tags: ["technology"]
+atomid: tag:benward.me,2005-04-18:/blog/itunes_bug
+---
+At midnight, I discovered a fantastic bug in iTunes. I have a smart playlist for "new music", which contains all the music I've put on the computer in the last two weeks.
+
+At midnight, it recalculated this list and discovered that the piece of music <em>that I was listening to</em> was no-longer "new". So it disappears from the list. It also stops playing, rather abruptly. That <em>probably</em> shouldn't happen.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-264">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/fb7d81b172292b6034f9c1747d5b11e0.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.fatbusinessman.com/">Fatty</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-264">
+        <time class="published" datetime="2005-04-18T10:23:54+00:00">18 Apr 2005, 10:23</time>
+      </a>
+      <div class="entry-content"><p>The same thing happens when I&#8217;m using a playlist for the music I haven&#8217;t given a rating to yet: if I rate the track I&#8217;m currently playing, it stops.</p>
+<p>I&#8217;m not entirely sure it counts as a bug: it&#8217;s an entirely logical behaviour, and quite possibly to be expected. Questionable design decision, quite possibly.</p>
+<p>In the case of my &#8220;Unrated&#8221; playlist, I get around this by using the dubiously-named Party Shuffle. This keeps playing a track even if it gets kicked out of the current playlist, just doesn&#8217;t nominate it for playing in future.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

@@ -1,0 +1,144 @@
+---
+layout: blog
+category: blog
+title: "Microformats in 2009"
+date: "2009-01-26T17:13:25-08:00"
+updated: "2009-04-02T15:18:57-08:00"
+summary: "My personal thoughts on the microformats community at the start of 2009, where we might go, where I'd like us to go, and the kinds of new developers I hope get offered to developers. I hope it inspires others to write up their own ambitions for the year."
+tags: ["all", "technology", "microformats"]
+atomid: http://ben-ward.co.uk/?p=505
+---
+<img src="/res/posts/mF.png" alt="">
+
+"Microformats.org":http://microformats.org is an interesting beast to work for. An informally arranged organisation of volunteers, overseeing a broad array of subject areas and points of interaction. 2008 was my first full year of administrative involvement with the group, for what value of ‘administration’ there really is.
+
+This post is on my personal blog because there is no official line of policy at microformats.org. What I write here is just personal intent and what we achieve in the next twelve months is down to shared passions and collaboration, not the will of one person.
+
+There are shared priorities, of course. The past few months have seen a surge of work on the awkwardly named "value excerption":http://microformats.org/wiki/value-excerption-pattern ; a mark-up pattern and parsing rule derived from "hCard":http://microformats.org/wiki/hcard. Honestly, I didn't know ‘excerption’ was a real word until I started leading the work on this. Thankfully, naming is not as important as a good spec.
+
+Basically, value-excerption in hCard got implemented in parsers globally, so we're trying spec it more fully to reflect that. It's a pattern for structuring data values, so in the process we can extend it do something to offer solutions to some long standing accessibility and localisation complaints. The work is sporadic; two weeks here, a month off there. That's just how it happens. Being absent from Yahoo! this last month has helped me pull it together into a massive "public test effort":http://microformats.org/wiki/value-excertion-value-title-test.
+
+My other big task in 2008 was redesigning the microformats wiki, bringing it into line with the look and feel of microformats.org, adapting "Dan Cederholm's":http://simplebits.com still-lovely design. It's a piece of work I'm proud of, and besides being able to junk vast quantities of "MediaWiki's":http://mediawiki.org questionable and bloated default mark-up, it of allowed me to put microformats into the wiki mark-up itself: Each page is now an "hAtom entry":http://microformats.org/wiki/hatom, with an "hCalendar":http://microformats.org/wiki/hcalendar event for the last-modification date of the page.
+
+h2. This Year
+
+I don't care to dissect last year too heavily. It's this year I'm excited about. There's work coming to completion, there's ongoing work that's nearly ready to break cover, ongoing infrastructure improvements brewing and a desire to see a big step up in microformats toolkits for developers.
+
+1. First up, I want to see the value-excerption work seen out within the next couple of months. Testing is going *really* well right now; it's an effort beyond the scale of anything else we've done before. Knowing the accessibility and localisation issues we're trying to overcome, it's vital that we get it right. We can't afford to push something that doesn't solve the problems and complaints of authors as well as we can. I'm taking suggestions for a beer or red wine magnificent enough to open when we call this one ‘done’.
+
+2. Secondly, we've built up a number of issues and enhancement requests against the core microformats — hCard and hCalendar. They're stable, useful and are helping to change the web, but iterating stably is an important step to take as the community and formats mature. Just as "HTML5":http://www.w3.org/TR/html5/ is not versioned like a piece of software, there won't be an ‘hCard 2’. This is the web and we won't be breaking existing pages or forking our specifications; that's absurd. We will evolve. I would like a period of active editing and hope to see hCard and hCalendar ’Second Edition’ published this year.
+
+3. "Recipe":http://microformats.org/wiki/hrecipe and "Audio":http://microformats.org/wiki/haudio formats. Two new drafts in 2008. Bearing in mind that many popular and quite stable formats like "hReview":http://microformats.org/wiki/hreview and "hAtom":http://microformats.org/wiki/hatom are actually still in draft, that's a very significant step — it takes a lot of research and brainstorming to put together a good draft spec. These subjects have much stronger, stable momentum than some previous microformat proposals have had, so I'm confident they'll move smoothly. Structured publishing of music and food is highly Relevant To My Interests. I worked with publishing some of the hAudio draft in my previous music round up. I think it's getting there.
+
+4. I've spend some off-time brainstorming on a new effort myself; ‘embed’. No dedicated wiki page yet as I'm still compiling the initial data to get it rolling. There's nearly enough to push it though; a few more sites to grab examples from to get people thinking. It's deriving some concepts from the "oEmbed":http://oembed.com/ format "Pownce":http://pownce.com supported, allowing sites to describe their ‘embed codes’ for reuse around the web. I want to be able to reuse linked content in an activity stream, and deriving embeds from mark-up rather than writing drivers for every site on the net. It would make reblogging the embedded content more graceful, too. More robust use cases coming soon.
+
+5. Microformats have issues, feature requests, bug reports, tasks to do. At present we track them on the "wiki":http://microformats.org/wiki along with the specification documents themselves. Personally I find it a *nightmare*. Tracking and triaging issues through versioned documents in various structures is harder and less transparent than I'd like, so fixing it would be nice. The "wiki update":http://microformats.org/wiki/wiki-2 last year has the facility to hook spec ‘issues’ links up to other systems, and I'm spending some time experimenting. Community feedback needed here, plus considerations to be made regarding self-hosting something like Trac or offloading to an external tool. It could happen quite quickly, since I don't think there are many sane arguments defending the wiki method; it doesn't scale.
+
+6. Wiki rewrites. I'm good at writing. I'm too verbose for sure, but I communicate well. I've taken great pleasure in applying this to more recent microformats output and I like to think I do a pretty good job of improving the experience of interacting with microformats documentation. Many pages on the wiki aren't as well written. I don't mean to criticise other authors, I refer more to the way in which over time important pages like "the process":http://microformats.org/wiki/process and "how to play":http://microformats.org/wiki/how-to-play page have been edited and added to so many times that at this point, I fear they've become impenetrable to a new visitor, and if they can't follow the rules and  I want to see effort go into reworking those pages to be higher quality documents, more approachable and easier to reference when they need to be enforced.
+
+7. Support transformation efforts. In 2008, I've noted a couple of repeat proposals and desires for using microformat specifications in other contexts than HTML. Being in HTML is part of what makes something a microformat, so we've had instances of proposed forking. Versions of hAudio exist republished for use in "RDFa":http://www.w3.org/TR/xhtml-rdfa-primer/, there's an entire page on the microformats wiki called "jCard":http://microformats.org/wiki/jcard — putting hCard into "JSON":http://json.org for interchange. Per-specification duplication is, in my view, _wrong_. Duplicating specifications leads to fragmentation, confusion, incompatibilities. If people have use cases for transforming a microformat into RDF, or JSON, or anything at all, the core spec needs be the same. What we need documented are consistant rules for transforming HTML into any of those other languages. ‘Transforming microformats into JSON’ could be a single wiki reference page for all current and future microformats, explaining how to convert different microformat patterns into JSON. Not a ‘jCard’ and a ‘jCalendar’ and ‘jAtom’, with an ‘rRecipe’ for RDF and xResume for raw XML. Just one set of rules to handle the transformations that are useful. Within that, defining the parsed object structures of the microformats goes most of the way to serialising into another language, and that's a job for parser authors to settle on the best way to turn microformats into objects consistently.
+
+All of the above is a reasonable ask, I think. It's ongoing progress in an evolutionary approach in development of standards and infrastructure. My big wish for the year is perhaps a bigger step.
+
+h2. The next level: API Kits
+
+Consider existing services: "Google Contacts":http://code.google.com/apis/contacts/, "Yahoo! Address Book":http://developer.yahoo.com/addressbook/. Standalone data providers, whose APIs offer high level methods to access the contacts held within.
+
+A popular use case for hCard and "XFN":http://microformats.org/wiki/xfn is contribution to the distributed social ecosystem. Data about people and social relationships is published all across the web, but consuming it is prohibitively hard for most developers.
+
+Whereas someone developing for the <abbr title='Yahoo! Address Book'>YAB</abbr> or Google data stores can download wrappers around the high-level methods those APIs offer, consuming microformats remains at the parsing level. There's no <code>Person::getFriends('http://ben-ward.co.uk')</code>-like method returning an array of vcard objects. If we're serious about evangelising consumption of hcard in social networks. We need high level, _task centic_ toolkits, not just raw parsers.
+
+A higher level means providing solutions to common problems and use-cases, rather than a solution to ‘microformats’. A ‘Distributed Contacts API’ that follows XFN links between hCards, handles crawling pages and/or interaction with the "Google Social Graph API":http://code.google.com/apis/socialgraph/. Ultimately, you make one call to a high level function and it just _happens_. I want to see microformat-based tools that _boom!_.
+
+I think XFN and hCard offer the two most appealing toolkits: Distributed user profiles (‘Distributed Profile API’) to the profiles information described with hCard, linked with <code>rel='me'</code> and the aforementioned ‘Distributed Contacts API’ for obtaining the profiles of other people you link to as friends.
+
+I'm thinking that methods like these are needed to make it trivial for social applications to start consuming microformats more ambitiously:
+
+<pre><code>Person::getProfile('http://ben-ward.co.uk', callback)</code></pre>
+
+Get all profile info for the person at <var>ben-ward.co.uk</var>, and fire the provided callback function when completed (you need callbacks for all of this since it's both asynchronous handle and crawling the web is going to take a little time).
+
+<pre><code>Person::getConnections(
+    'http://ben-ward.co.uk',
+    [ 'friend', 'acquaintance' ],
+    callback );</code></pre>
+     
+Return the profiles of all the people connected to the person at <var>ben-ward.co.uk</var> connected with XFN ‘<var>friend</var>’ or ‘<var>acquaintance</var>’ relationships.
+
+Methods like these make it simple for developers to start using the huge wealth of published microformatted data to enhance and power their social applications. Right now, getting to those methods is a lot of labour. We need to build it once, and we need to do it in the open. I would love to be in a position this year that we can evangelise microformat _consumption_ with as much strength as we do microformat _publishing_. "OAuth":http://oauth.net and "OpenID":http://openid.net has a lot of evangelic traction because libraries exist to implement it in many languages; ‘You should use OAuth, here's some code you can use!’ is rather more convincing than ‘You should consume microformats! Err…’.
+
+We can't legitimately push sites to consume hCard with an effort barrier so high. If a stable API kit exists that a developer can just drop in to their codebase — like the wrappers for OAuth — then we can make a strong case to see the open web realise a little more of its potential. I've written about the "dream of a distributed, microformatted web before":http://digital-web.com/articles/portable_social_networks_building_blocks_of_a_social_web at "Digital Web":http://digital-web.com. I want to see if become real, rather than just ‘possible’.
+
+You can see this sort of thing in practice already on a tiny but beautiful scale. If you have an OpenID, and an hCard at that same URL, go sign up on "User Voice":http://uservoice.com. You'll auth using OpenID, and when you bounce back to complete your profile, User Voice already knows your name and email address. That information comes not from attribute exchange through OpenID (which the Yahoo OpenID provider doesn't support), but through reading the hCard from my URL. I wondered for a moment what was going on. And then I just smiled. It's the future, now. I want to see that user experience available at low cost to every developer.
+
+So, there's my forward looking. I see the above as pretty concrete ideas. Of course, there's far too much to lead myself. So, who knows. I hope that others in the community will feel inspired and that we'll see this kind of work happen. Just as much, I hope to see the visions of others. This community is diverse. I think I'm one of the most passionate about the actual core of the community (perhaps more so than any particular microformat itself), but there wealth of thoughts and ideas amongst all our membership. If you're one of those, I invite you to write up your vision for the year.
+
+Microformats are a huge deal. Where do we go next? More formats? Reinforcing what we've got? Appealing to new groups of publishers and developers that haven't heard of us yet?
+
+If there's enough posts along these lines I'll link them all together on the "microformats.org blog":http://microformats.org/blog.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-227181">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/0d3d42970011f1d0b1077bd856cdf997.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://seldo.com">Laurie</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227181">
+        <time class="published" datetime="2009-01-27T01:31:26-08:00">27 Jan 2009, 01:31</time>
+      </a>
+      <div class="entry-content"><p>This all sounds very interesting, especially the <span class="caps">API</span> stuff, which sounds like exactly the kind of thing I want to work on next with <span class="caps">CSD</span> at <a href="http://emergentweb.org">Emergent Web</a> .</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227182">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/2a233a4e1300ed0c927235ce21e9d4bc.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://xavierbadosa.com">Xavier Badosa</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227182">
+        <time class="published" datetime="2009-01-27T16:31:38-08:00">27 Jan 2009, 16:31</time>
+      </a>
+      <div class="entry-content"><p>Ben,</p>
+<p>Congratulations for the improvement of the MediaWiki markup. The use of an hAtom entry + an hCalendar event for the last-modification date of the page is an idea Tantek suggested to me back in 2007 in an informal conversation in Asturias. It&#8217;s good to know the microformats.org applies that idea and thus there&#8217;s a public model for that general need.</p>
+<p>And I agree, <span class="caps">API</span> Kits is a promising concept.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227185">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/a05235b69b013b263ba3bc6630f09d77.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.radwebtech.com">Steve Repetti</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227185">
+        <time class="published" datetime="2009-02-03T09:07:40-08:00">03 Feb 2009, 09:07</time>
+      </a>
+      <div class="entry-content"><p>Ben, awesome job and terrific insight.  2009 is already shaping up to be a milestone year in regards to MicroFormats, Data Portability, and so much more!  Let us know over here at DataPortability.org what we can do to help. And did I mention that this is <span class="caps">WAY</span> <span class="caps">COOL</span> <span class="caps">STUFF</span> you are doing??!!!!</p>
+<p>- Steve Repetti<br />
+www.radwebtech.com,<br />
+board member: www.dataportability.org</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227186">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/59ab3c365cc6e42459c83554d5f4fc3a.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.mathewsanders.com/">Mathew Sanders</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227186">
+        <time class="published" datetime="2009-02-11T07:00:17-08:00">11 Feb 2009, 07:00</time>
+      </a>
+      <div class="entry-content"><p>The <span class="caps">API</span> callbacks idea is fantastic :)</p>
+<p>As soon as I found out that technorati had a service (http://technorati.com/contacts) that took the hCard on a webpage and returned a <span class="caps">VCF</span> file so you can add to your address book I added it to my portfolio site.</p>
+<p>I&#8217;d love to have more services like this to use!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227193">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/588505545b42dc77e7358eedbd341502.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://convert-to.com/">Ben Cachel</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227193">
+        <time class="published" datetime="2009-03-09T09:43:19-08:00">09 Mar 2009, 09:43</time>
+      </a>
+      <div class="entry-content"><p>All the bestest with your <span class="caps">API</span> Kits and etc. ideas. On an amusing note; I got influenced through the reading, when it comes than to the <strong>&#8220;suggestions for a beer or red wine&#8221;</strong> opening of time, your computers will be turned off will they ? :)<br />
+Ta from <a href="http://convert-to.com/" title="Site related to calculators and conversions of units measures." rel="nofollow">convert-to.com</a></p></div>
+    </article></li>
+  </ol>
+</div></notextile>

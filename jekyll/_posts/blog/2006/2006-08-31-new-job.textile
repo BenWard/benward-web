@@ -1,0 +1,30 @@
+---
+layout: blog
+category: blog
+title: "Back from Holiday, New Job, Life Update"
+date: "2006-08-31T23:10:47+00:00"
+updated: "2006-08-31T23:16:51+00:00"
+tags: ["all", "holiday", "microformats", "job", "yobject", "birmingham", "hanni"]
+atomid: http://ben-ward.co.uk/journal/new-job/
+---
+Well, this is proving to be a busy busy week.
+
+I had a fabulous 10 days in Malta with my family. Not really had a family holiday in a while so it was strangely refreshing. There are a some <a href="http://flickr.com/photos/benward/sets/72157594262408464/" title="Malta Holiday 2006 photoset" rel="me">photos on Flickr</a>.
+
+Secondly: I have a job. In fact, not only do I have a job I have what looks to be a <em>great</em> job. I now work for YObject (capitalisation is up for debate) in Birmingham. We're building something rather Web 2.0, but actually with a <em>purpose</em>. It's an opportunity to build a really cool <abbr title="web application">webapp</abbr>, there's the freedom to indulge in technology somewhat and when I'm done with it, I'm confident there will be at least one Microformat on every single page. In fact, I fancy our chances of setting a record for the number of different <a href="http://microformats.org">Microformats</a> used in a single application, but I guess we'll all have to wait and see. One way or another, I'm really rather excited.
+
+All that needs to be done is to find a flat in Birmingham and work out how to move all my stuff back out of the loft. I suspect I'll be travelling by horse box again.
+
+In other news: 
+<ul><li><a href="http://nascentguruism.com" title="Steve Marshall" rel="friend met">Steve</a> and I are slowly getting our BarCamp presentation into some sort of shape. I don't think we'll be able to fill a whole hour with presentation (as we're supposed to when paired up) so there's almost certain to be a discussion aspect included.</li>
+<li><a href="http://36-degrees.co.uk" title="Stuart Frisby" rel="friend met">Stuart</a> and my terribly delayed T-Shirts bit-of-fun is approaching the light of day and I'm hoping to put something live in time for d.Construct. We're selling the first few on the quiet and with a bit of luck, they'll start to encroach on Flickr next week too.</li>
+<li><a href="http://hanniross.com" rel="friend met muse sweetheart">Hanni</a> is in France and I miss her like crazy.</li></ul>
+
+<notextile><div class="pingbacks hfeed" id="pingbacks">
+  <h2>Pingbacks</h2>
+  <ul>
+    <li class="hentry" id="pingback-17810">
+      <a rel="bookmark" class="entry-title" href="http://ben-ward.co.uk/journal/the-four-day-move/">Ben Ward &raquo; The Four Day Move</a>
+    </li>
+  </ul>
+</div></notextile>

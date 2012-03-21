@@ -1,0 +1,9 @@
+---
+layout: blog
+category: blog
+title: "38one.com | Denis Radenkovic's portfolio"
+date: "2005-03-23T12:24:39+00:00"
+tags: ["all", "technology", "general"]
+atomid: tag:benward.me,2005-03-23:/blog/38one_com_denis_radenkovic_s_portfolio
+---
+<a href="http://www.38one.com/">Denis Radenkovic</a> did the logo designs for the upcoming @Media2005 conference in London. He also created an illustration for the header for the <a href="http://atmedia2005.co.uk" title="@Media 2005">@Media 2005 website</a>. Is it just me that finds the Godzilla sized <a href="http://www.zeldman.com" title="Jeffery Zeldman">Zeldman</a> looming over London's skyline more than a little unnerving?

@@ -1,0 +1,13 @@
+---
+layout: blog
+category: blog
+title: "Firefox Spellchecking"
+date: "2004-07-26T00:25:30+00:00"
+tags: ["technology"]
+atomid: tag:benward.me,2004-07-26:/blog/firefox_spellchecking
+---
+Some time ago in my <a href="http://www.studentssocial.co.uk" title="Students' Social">Students' Social</a> column I raved about spell checker extension for <a href="http://getfirefox.com" title="Mozilla Firefox Web Browser">Firefox</a>. When the 0.9 <acronym title="Firefox">FX</acronym> update came the spell checker lost compatibility and my spelling went to pot.
+
+It was with some delight therefore that I came across <a href="http://www.exchangecode.com/spellbound/" title="Spellbound">Spellbound</a>, which does the same job and whose website also makes installation an utter doddle. Pick languages, install the extensions all at once (we <em>like</em> the new extension manager muchly), restart and like magic, I can spell again.
+
+I love this browser.

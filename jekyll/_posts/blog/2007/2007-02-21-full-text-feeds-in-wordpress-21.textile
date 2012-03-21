@@ -1,0 +1,42 @@
+---
+layout: blog
+category: blog
+title: "Full Text Feeds in Wordpress 2.1"
+date: "2007-02-21T22:57:12+00:00"
+updated: "2007-02-22T00:41:45+00:00"
+tags: ["all", "wordpress", "bugs", "feeds", "wordpress21", "plugins"]
+atomid: http://ben-ward.co.uk/journal/full-text-feeds-in-wordpress-21/
+---
+Wordpress have inexplicably broken full-text feeds in Wordpress 2.1 but truncating any articles which contain a <code><!-- more --></code> separator — used to reduce the length of articles on the front page.
+
+If you've upgraded to 2.1 and not noticed yet (I mean, it's not like we read our own feeds, is it?) the good news is that <a href="http://cavemonkey50.com/">Ronald Heft</a> has created <a href="http://cavemonkey50.com/code/full-feed">a plug-in</a> to restore the previous full text feed functionality. Yay.
+
+Via <a href="http://binarybonsai.com/archives/2007/02/21/wp21-and-the-tip-of-the-rss-iceberg/">Binary Bonsai"</a>.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-55715">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/45d6e861e9c2610872157388e98669ba.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://cavemonkey50.com/">Ronald Heft</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-55715">
+        <time class="published" datetime="2007-02-22T00:38:23+00:00">22 Feb 2007, 00:38</time>
+      </a>
+      <div class="entry-content"><p>Friendly notice, it&#8217;s Ronald Heft, not Robert. No biggie, just thought I&#8217;d let you know.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-55716">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-55716">
+        <time class="published" datetime="2007-02-22T00:42:13+00:00">22 Feb 2007, 00:42</time>
+      </a>
+      <div class="entry-content"><p>Whoops, apologies Ronald. I&#8217;ve corrected that now.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

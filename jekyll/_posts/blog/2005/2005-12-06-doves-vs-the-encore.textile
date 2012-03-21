@@ -1,0 +1,88 @@
+---
+layout: blog
+category: blog
+title: "Doves vs. The Encore"
+date: "2005-12-06T12:00:28-01:00"
+updated: "2005-12-07T02:48:45-01:00"
+tags: ["music", "doves", "live", "super-furry-animals", "colly", "encore"]
+atomid: http://ben-ward.co.uk/journal/doves-vs-the-encore/
+---
+<img class="splash" src="/media/splashes/SomeCitiesLive.splash.png" alt="" /> I got to see Doves again in Manchester this evening, having missed them back in the spring. The show was very good as ever, but particularly great was their solution to the ever-mundane �encore problem�.
+
+Now, I can perfectly accept that after playing 45 minutes or an hour a band is quite entitled to a drink and quick breather before finishing off. But (and here's my problem) I really can't remember the last time I was even slightly inspired by the �shouting for more� encore-routine. At small gigs or with new bands? Sure, but it's not as if a band the size of Doves aren't going to come back if we don't shout.
+
+So instead, when Doves ambled off-stage for their break, the video backdrop kicks in with pre-recorded footage: The band diving out the side exit of the Apollo, jumping into a limo and driving 300 yards down the road to a local pub (cue cheers for local landmarks; they are Mancs after all). They have a pint and a smoke, read the paper and hop back in their limo and return to the venue. The clip ends just as the band hop back on stage to resume the set. Fantastic.
+
+Also, 20% of my visitors now come via <a href="http://collylogic.com" title="Simon Collison">Colly</a>. So in an attempt to satisfy those who wondered �who the fuck is Ben Ward alongside these names I've heard before?�, here's a mention of the Super Furry Animals. What did you expect? Web Standards?
+
+SFA's habit of just slipping offstage during the techno-mind-fuck part(s) of their sets, again avoiding tedium, is my favourite non-encore so far. Cian Ciaran is generally left on stage, but hey, how hard can pressing the techno-mind-fuck button be? (Techno aficionados should <strong>not</strong> lynch me at this point). It also accommodates changing into Yeti costumes, which is also good.
+
+Do you have any encore-evasion favourites? Or do you believe that the encore routine is a vital part of our musical heritage and I should be lynched for even daring to question it?
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-567">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">IBBoard</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-567">
+        <time class="published" datetime="2005-12-07T10:16:01-01:00">07 Dec 2005, 10:16</time>
+      </a>
+      <div class="entry-content"><p>Interesting alternative to the normal encore routine.  It&#8217;s been ages since I went to a gig and I can&#8217;t remember what happened in the way of encore!</p>
+<p>Deftones at the Carling Apollo probably got a shouted encore, although luckily <span class="caps">INME</span> who were supporting didn&#8217;t try anything more than the bare minimum (their guitar/bass line was good, but adding the whiney singer in ruined it).</p>
+<p>Four Star Mary at the Roadhouse was great, but I don&#8217;t think they did an encore. For one thing, the stage was too small to have much of a &#8216;behind the scenes&#8217; area! They did do signings afterwards though, which is good. That has to be the best of the three gigs I&#8217;ve been to, just because it was so small and personal &#8211; only a few hundred people can fit down in the Roadhouse!</p>
+<p>The only other gig I&#8217;ve been to was My Vitriol at The Academy (whichever Academy it is that&#8217;s upstairs in the main Student Union building). I don&#8217;t remember them doing an encore, but that was while I was at college, so it&#8217;ll be at least four years ago now!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-568">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/11d4b8e0e0638fe55463628d216c34a8.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.joanslow.com">Jo</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-568">
+        <time class="published" datetime="2005-12-07T12:24:16-01:00">07 Dec 2005, 12:24</time>
+      </a>
+      <div class="entry-content"><p>I think you&#8217;re just getting old and jaded, having been to too many gigs. With my grand total of 5, I still enjoy the &#8220;encore&#8221; part, not least because it lets the artist know that they&#8217;re appreciated. Plus, 50,000 people shouting for Simon and Garfunkel to come back was just mind blowing.</p>
+<p>I&#8217;m not saying that the Dove&#8217;s alternative wasn&#8217;t fine, but if every gig included something like it, I think you&#8217;d get bored of that too.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-570">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-570">
+        <time class="published" datetime="2005-12-07T17:00:00-01:00">07 Dec 2005, 17:00</time>
+      </a>
+      <div class="entry-content"><p>Yeah, I know I&#8217;m already an old fart at 21.</p>
+<p>To clarify: 50,000 in a field cheering and clapping for more is alright: I get a nice buzz from there being so many people there.</p>
+<p>Similarly, in a small venue like the Roadhouse, it really means something because (as was the case with The Rifles last month) they aren&#8217;t really planning an encore at all. The Rifles came back and played some more until they were pretty much dragged off the stage.</p>
+<p>Yeah, I&#8217;m picky.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-571">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/6473295cb1ca61aa263a3325f568c409.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.collylogic.com">Colly</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-571">
+        <time class="published" datetime="2005-12-08T10:48:58-01:00">08 Dec 2005, 10:48</time>
+      </a>
+      <div class="entry-content"><p>Primal Scream always do awesome encores, as do Radiohead of course.</p>
+<p>I really like the Doves albums, but live they always underwhelm me &#8211; not the sound, but the sight of three car mechanics doing &#8220;Rock Star <span class="caps">INXS</span>&#8221;. I always end up staring at the back-drops instead of their ugly mugs. Great music, although I think Elbow have out-done them on the &#8220;we&#8217;re from manc and we&#8217;ll sing about it&#8221; front.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-572">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-572">
+        <time class="published" datetime="2005-12-08T12:57:56-01:00">08 Dec 2005, 12:57</time>
+      </a>
+      <div class="entry-content"><p>It&#8217;s true that Dove&#8217;s aren&#8217;t exactly lookers. They seemed to be expressing their stereotypically-northern senses of humour more this time, mind you. They chipped in a line or two of The Doors �Light My Fire�, a cabaret reprise of �The Last Broadcast� (which fell flat,  to good humour). And the encore video, of course.</p>
+<p>I think it&#8217;s because they&#8217;ve started talking to the crowd more, and that Jimi Goodwin seems to have become a local hero, based on the shouting out from the Mancs around me.</p>
+<p>Strangely, for all their great, bouncier songs the pivotal moments at their gigs for me are always the atmospheric ones: �A house� the last time I saw them, and �Ambition� this time around both exude ghostly brilliance.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

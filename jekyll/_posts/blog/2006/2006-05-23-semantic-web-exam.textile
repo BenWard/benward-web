@@ -1,0 +1,12 @@
+---
+layout: blog
+category: blog
+title: "The night before my Semantic Web exam"
+date: "2006-05-23T21:38:05+00:00"
+updated: "2006-05-23T21:38:05+00:00"
+tags: ["technology", "university", "semantic-web", "univeristy", "exam", "revision", "geek"]
+atomid: http://ben-ward.co.uk/journal/semantic-web-exam/
+---
+After a solid week of revision (which is a really big achievement for me… just before my penultimate exam ever) I've just realised that most of the <abbr title="Resource Description Framework">RDF</abbr>, <abbr title="Resource Description Framework Schema">RDFS</abbr> and <abbr title="Web Ontology Language">OWL</abbr> references I've noted lately have been written in pseudo-XPath.
+
+Sometimes even my own geek achievements amaze me.

@@ -1,0 +1,56 @@
+---
+layout: blog
+category: blog
+title: "PHP4 &amp; XML... Help please"
+date: "2005-01-27T19:51:43+00:00"
+tags: ["technology"]
+atomid: tag:benward.me,2005-01-27:/blog/php4_xml_help
+---
+I spend a vast amount of my time programming. I do it for most of my day at work and I do a lot at home too ('cause I'm a bit of a nerd, really).
+
+At work, we use Microsoft's very powerful .NET tools to code Windows and Web applications. One thing they do rather well is XML handling. You can do rather a lot with it.
+
+PHP4, one of the languages which I have access to on this site, doesn't seem to do XML anything like as well. This is a bit-of-a-pain-really(tm). In fact, it's very frustrating because I'd very much like to have a generic XML parser at my disposal so I can parse in some OPML feeds of my blogroll rather than the (seemingly unreliable) RSS I get at the moment. And to do it myself would be nice, y'know?
+
+So, this is a bit of a plea: Can anyone point me towards "how to use XML in an intuitive manner in PHP4"?
+
+I've a couple of ideas that I don't know the possibilities of:
+<ol><li>We also have Perl installed on this server deal of ours. I have been known to do a bit of Perl in my time, has anyone got some experience of using Perl from within a PHP script to generate something XHTML, from the other XML format. I could run the Perl process via Cron and generate XHTML for the PHP to pick up later... maybe that would work well.</li>
+<li>Maybe the most elegant way... can PHP do any kind of server side XSL Transformation of an RSS, OPML or whatever feed into XHTML? I could then output the coverted XHTML. Again, I've never done any XSLT so I have no idea what's involved here.</li></ol>
+
+Thanks.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-237">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/a403c114562b1cb2aa88ef27c59507fd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.mikemontalvo.com">Mike M</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-237">
+        <time class="published" datetime="2005-02-01T13:46:51+00:00">01 Feb 2005, 13:46</time>
+      </a>
+      <div class="entry-content"><p>What fun is .<span class="caps">NET</span> when everything is done for you already?  My friend and I have the friendly rivalry going.  He&#8217;s a .<span class="caps">NET</span> guy, I&#8217;m a <span class="caps">PHP</span> guy.</p>
+<p>In any case, I wrote a php <span class="caps">OPML</span> renderer. It&#8217;s certainly not a generic <span class="caps">XML</span> parser but it could be extended to be.  What it will do is parse <span class="caps">OPML</span> files.<br />
+http://www.mikemontalvo.com/index.php?blog=6<br />
+If you are interested in the code, shoot me an email.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-238">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-238">
+        <time class="published" datetime="2005-02-03T19:47:47+00:00">03 Feb 2005, 19:47</time>
+      </a>
+      <div class="entry-content"><p>Personally I don&#8217;t compare <span class="caps">PHP</span> and .<span class="caps">NET</span> very much. I work in both &#8211; .<span class="caps">NET</span> on some really rather huge projects at work and <span class="caps">PHP</span> at home where freeness is a virtue. I think that both languages are capable providers of fun, the scale of project tends to be different though.</p>
+<p>In any case, I don&#8217;t find having to handle open-tag and close-tag parsing fun. I think it&#8217;s tedious and requires far more effort than it really should, especially when dealing with a data format as vital as <span class="caps">XML</span>.</p>
+<p>What I did in this situation (the night before you linked to your parser, which looks cool, by the way), was to implement a very, very basic XmlDocument object in <span class="caps">PHP</span>. It contains a tree of XmlNode objects (with attributes stored in a simple associative array within an XmlNode). It also implements a getElementsByTagName() method. I will admit, proudly, that I had a <strong>lot</strong> of fun doing it too. So long as the <span class="caps">XML</span> is valid, it works really nicely, but I need more error handling for invalid ones.</p>
+<p>I&#8217;ll hopefully release it soon, but I need to comment it better first.</p>
+<p>On related a note: Sadly I discovered that another problem with my Blogroll is that often I don&#8217;t get a complete download of the <span class="caps">RSS</span> feed from blo.gs&#8230; That seems harder to fix and maybe a task I should ship out to a separate Perl process.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

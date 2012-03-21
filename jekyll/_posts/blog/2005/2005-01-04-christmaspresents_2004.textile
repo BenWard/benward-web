@@ -1,0 +1,24 @@
+---
+layout: blog
+category: blog
+title: "New Year Blog #1 - What I got for Christmas"
+date: "2005-01-04T00:24:34+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2005-01-04:/blog/christmaspresents_2004
+---
+Christmas was spent with my family back home in Cambridge. Thus, other than performing maintainance on their computer (as is the tradition whenever I visit home...) I was largely separated from my Blog.
+
+Here then, is the first catch-up post for the new year. A little self-indulgent look at my Christmas presents. <a href="http://tbhl.theonering.net/index.shtml" title="The Bastards Have Landed - Peter Jackson fan club">Peter Jackson</a> will be pleased.
+<!--more-->
+<dl>
+ <dt>The Lord of the Rings Trilogy Box set (extended editions)</dt>
+ <dd>I've been asking for <a href="http://www.amazon.co.uk/exec/obidos/ASIN/B0002VJT2C/qid=1104797389/ref=pd_ka_0/202-4958663-9304610" title="LoTR Extended Editions">these</a> every year since they first came out. I just need to find 4 more hours spare for Return of the King and I'll be done already.</dd>
+ <dt>MSI <a href="http://www.msicomputer.com/product/netpc/netpc_detail.asp?model=TV@nywhere_Master" title="MSI Product Specification - TV @nywhere Tuner Card">TV Tuner card</a></dt>
+ <dd>To watch television on my computer... Just as soon as I get the aerial in the right position (please God don't let that be "1 metre above your bed and nowhere else")</dd>
+ <dt><a href="http://www.zeldman.com" title="Zeldman.com">Jeffrey Zeldman</a> <del>presents the Bible</del> - <a href="http://www.zeldman.com/dwws/" title="Designing with Web Standards book site">Designing with Web Standards</a></dt>
+ <dd>Seen by most as <em>The Bible</em> of web design.</dd>
+ <dt>Radiohead calendar</dt>
+ <dd>I'm a big fan of Radiohead's artwork and this calendar is full of  more recent work (the Kid A era and beyond, really).</dd>
+ <dt>Photographs from the Wildlife Photographer of the Year exhibition in London</dt>
+ <dd>Not that I've been going on and on about these for some time or anything, but some of them are really rather nice indeed.</dd>
+</dl>

@@ -1,0 +1,14 @@
+---
+layout: blog
+category: blog
+title: "Tease"
+date: "2006-11-08T23:02:51+00:00"
+updated: "2006-11-08T23:03:57+00:00"
+tags: ["all"]
+atomid: http://ben-ward.co.uk/journal/tease/
+---
+I believe it's the done thing in this Web 2.0 world of ours to post indecipherable teasers of our projects. Well, work isn't quite ready for that yet but at least my evenings have produced something perhaps tempting:
+
+<img class="screenshot cropped" src="/res/i/LastWidget.png" alt="Image: A cropped screenshot of something."/>
+
+There are some issues to figure out. Such as why, at the moment I took this screenshot, the entire thing broke. But I promise it's cool.

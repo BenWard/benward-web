@@ -1,0 +1,34 @@
+---
+layout: blog
+category: blog
+title: "Microformats article on Yahoo! Developer blog"
+date: "2008-03-31T17:20:58+00:00"
+updated: "2008-03-31T17:20:58+00:00"
+tags: ["technology", "microformats", "work", "web", "ydn", "kelkoo"]
+atomid: http://ben-ward.co.uk/journal/kelkoo-microformats/
+---
+After a slightly longer drafting period than I'd planned, my article "Kelkoo goes microformatic":http://developer.yahoo.net/blog/archives/2008/03/kelkoo_goes_mic.html has gone live on the "Yahoo! Developer Network blog":http://developer.yahoo.net/blog/.
+
+It's a lengthy piece on the recent redevelopment of "Kelkoo":http://kelkoo.co.uk and the microformats we added to it. It's focused on the consumption of the formats though; putting them to use to build a related products widget for Kelkoo. That was my Hack Day <abbr title="Five">V</abbr> creation (up on "hack.ben-ward":http://hack.ben-ward.co.uk/listing/). I hope it provides a useful introduction to hListing, and the practical benefits of microformats in action.
+
+Feedback so far has been excellent, so thank you to all who've linked it with kind words.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-226432">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/696d78192310159e012d83e6c377d257.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.nestoria.co.uk">Ed</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-226432">
+        <time class="published" datetime="2008-04-03T15:28:02+00:00">03 Apr 2008, 15:28</time>
+      </a>
+      <div class="entry-content"><p>cool stuff man, we just launched support as well. We don&#8217;t have 26M listings, but between UK and Spain we have well over 1M, which is a start.</p>
+<p>Look forward to seeing some applications live as well.</p>
+<p>http://blog.nestoria.co.uk/2008/04/03/nestoria-hlisting-support/</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

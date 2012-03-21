@@ -1,0 +1,86 @@
+---
+layout: blog
+category: blog
+title: "The Legion of Ben"
+date: "2005-12-08T23:14:08-01:00"
+updated: "2005-12-08T23:14:49-01:00"
+tags: ["all", "the-legion-of-ben", "ben", "lastfm"]
+atomid: http://ben-ward.co.uk/journal/the-legion-of-ben/
+---
+There's a new group on <a href="http://www.last.fm">Last.FM</a>, it's called <a href="http://www.last.fm/group/The%2BLegion%2Bof%2BBen">The Legion of Ben</a> and it's for people whose name is also Ben.
+
+It was convieved in a moment of lunatic collaboration with <a href="http://www.benedictoneill.com/">Ben O'Neill</a>, but I still maintain that it's got a great name.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-578">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/ee069e4606db55770074d8e8d8292d01.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://pinksocks.co.uk">Hanni</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-578">
+        <time class="published" datetime="2005-12-09T23:57:35-01:00">09 Dec 2005, 23:57</time>
+      </a>
+      <div class="entry-content"><p>Well, I would join but..</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-579">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-579">
+        <time class="published" datetime="2005-12-10T00:07:48-01:00">10 Dec 2005, 00:07</time>
+      </a>
+      <div class="entry-content"><p>We seem to have attracted one additional Ben in only a few days, so my plan is to leave it for a bit and see whether any more wander in.</p>
+<p>One of the more frustrating things about Last.FM is the number of duplicate groups. For some reason there are two generic &#8216;Manchester Universities&#8217; groups, as well as dedicated ones for the individual unis themselves. Gah, people should learn to search!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-581">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">IBBoard</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-581">
+        <time class="published" datetime="2005-12-10T11:44:23-01:00">10 Dec 2005, 11:44</time>
+      </a>
+      <div class="entry-content"><p><em>hopes <span class="caps">HTML</span> will work in comments</em><br />
+<q>Gah</q>, people should learn to search &#8211; surely that&#8217;s like saying &#8220;people should learn to read the instructions on forms&#8221;? It&#8217;s one of those things that would make everything so much easier, but people think they know what they&#8217;re doing so they think they don&#8217;t need to bother!<br />
+Maybe Last.FM should implement a group merging in the same way as they implemented artist merging for misspelt artists :)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-582">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">IBBoard</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-582">
+        <time class="published" datetime="2005-12-10T11:45:46-01:00">10 Dec 2005, 11:45</time>
+      </a>
+      <div class="entry-content"><p>OK, that&#8217;d be a no on the <span class="caps">HTML</span> working :D The bold was supposed to be asterisks and the &#8220;gah&#8221; quote was meant to be quoted in &#8216;q&#8217; tags. It&#8217;d be nice if it told us it&#8217;d strip <span class="caps">HTML</span> :P :D</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-585">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-585">
+        <time class="published" datetime="2005-12-10T14:34:33-01:00">10 Dec 2005, 14:34</time>
+      </a>
+      <div class="entry-content"><p>I&#8217;m not 100% sure what the state of <span class="caps">HTML</span> input is on the current set up. <span class="caps">HTML</span> isn&#8217;t stripped, but I believe Wordpress may operate with a subset of <span class="caps">HTML</span> tags, and strip <code>&amp;lt;q&amp;gt;</code></p>
+<p>The reason for the bolding of your * * text is because I have the excelllent Textile shorthand enabled, but again I&#8217;m not sure of any quirks in the way it interacts with <span class="caps">HTML</span> input. I&#8217;ll be testing it more thoroughly at some point, probably when I go through my old entries to tag them.</p>
+<p>Oddly, if I edit your comment I can happily add <code>&amp;lt;q&gt;</code> elements. Strange.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-587">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">IBBoard</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-587">
+        <time class="published" datetime="2005-12-10T19:30:14-01:00">10 Dec 2005, 19:30</time>
+      </a>
+      <div class="entry-content"><p>Maybe it just doesn&#8217;t trust me with <span class="caps">HTML</span> :D It does seem to be showing different <span class="caps">HTML</span> in the source now that you&#8217;ve edited it. My Linux Firefox seems to be showing a lot of random q tags all over though!</p>
+<p>Maybe I should make a &#8220;Legion of IBBoard&#8221; group &#8211; although I should be the only one in there :D</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

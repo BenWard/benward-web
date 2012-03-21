@@ -1,0 +1,11 @@
+---
+layout: blog
+category: blog
+title: "A crash course in avian inflammability"
+date: "2008-12-21T02:27:43-01:00"
+updated: "2008-12-21T02:28:25-01:00"
+summary: "I've written an article for the awesome 24ways; <a href=\"http://24ways.org/2008/geotag-everywhere-with-fire-eagle\">Geotag everywhere with Fire Eagle</a>."
+tags: ["all", "technology", "writing", "web", "article", "fire-eagle", "24ways"]
+atomid: http://ben-ward.co.uk/?p=474
+---
+Along with an extremely turbulent week at work, I've also been putting together an article on bringing Fire Eagle to the client side for 24ways. Have a read of <a href="http://24ways.org/2008/geotag-everywhere-with-fire-eagle">Geotag everywhere with Fire Eagle</a> for a quick introduction to location based app building, and a guide through building a bookmarklet to bring your location into every web app you use today. It's something I think I'm going to carry on as a project, since the ideas I mention in the final paragraph are hopefully quite useful. We'll see how that goes over Christmas.

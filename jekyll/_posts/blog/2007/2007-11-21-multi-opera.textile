@@ -1,0 +1,125 @@
+---
+layout: blog
+category: blog
+title: "Opera is Awesome Because…"
+date: "2007-11-21T12:39:12+00:00"
+updated: "2008-02-28T16:33:54+00:00"
+tags: ["technology", "opera", "browsers", "web-development", "web"]
+atomid: http://ben-ward.co.uk/journal/multi-opera/
+---
+This is totally not posted because Chris Mills is sitting next to me, although his presence here did prompt me to try this out.
+
+<ul><li>Internet Explorer cannot, by design, run alongside itself — e.g. IE6 and IE7 (although hacks exist). This is a pain for web development and testing sites. The hacks that exist don't fully function.</li>
+<li>Safari cannot, by design, run alongside itself — e.g. Safari 2 and Safari 3. This is a pain for web development and testing sites. There is a hack for Safari 2, but Webkit builds require you to close Safari and run one at a time.</li>
+<li>Firefox cannot run alongside itself — e.g. Firefox 1.5 and 2.0 or 3.0-alpha.</li></ul>
+
+So to test in those browsers, I have to work through them one by one. I can never compare rendering in Firefox 1.5 to Firefox 2.0, because Firefox locks itself to your profile and reports that it is already running when you try to launch a different version simultaneously.
+
+Opera is awesome because you can start up different versions of the browser all at once, no questions asked, no problems.
+
+Other browsers would piss me off far less if they would do the same; it would be a great help during development.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-223167">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/d34afcabdf6410e3910151a71bab6834.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://hayobethlehem.nl">Hayo</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-223167">
+        <time class="published" datetime="2007-11-22T11:00:38+00:00">22 Nov 2007, 11:00</time>
+      </a>
+      <div class="entry-content"><p>on the other hand, i hate the way updating opera works, having to download a completely new .exe everytime. But that goes hand in hand with what you describe I suppose.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-223176">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/abb5e982d97d7539860141b7904ba31a.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://philwilson.org/blog/">Phil Wilson</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-223176">
+        <time class="published" datetime="2007-11-22T22:15:33+00:00">22 Nov 2007, 22:15</time>
+      </a>
+      <div class="entry-content"><p>Well, let&#8217;s think about the Firefox use-case.</p>
+<ul>
+	<li>You can use the portable versions of 1.5 and 2, leaving you free to install the vanilla 3 alpha (this might be a Windows-only option)</li>
+	<li>You can use Firefox Profile Manager to maintain distinct profiles for different versions (on any platform)</li>
+</ul>
+<p>There might be other ways too, those ones are just off the top of my head.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-223179">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e18bbcd3c247d26919e3c699e5ea7181.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-223179">
+        <time class="published" datetime="2007-11-22T23:50:42+00:00">22 Nov 2007, 23:50</time>
+      </a>
+      <div class="entry-content"><p>I did give Portable Firefoxen a go whilst writing this, but whether it&#8217;s just something about the <span class="caps">OSX</span> versions I&#8217;d downloaded or what but even Portable Firefox didn&#8217;t run simultaneously.</p>
+<p>I hate technology sometimes.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-223702">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/17ad3d59ad6d141b258643cf53b0fdec.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Stuart</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-223702">
+        <time class="published" datetime="2007-12-14T19:26:37+00:00">14 Dec 2007, 19:26</time>
+      </a>
+      <div class="entry-content"><p>Firefox can&#8217;t run beside itself? That&#8217;s strange, because I managed to (accidentally) install 1.5 and 2.0 under Windows without a problem. I never tried to run them both at once, but given that you can add a switch to the shortcut to specify an alternate profile (which I&#8217;ve done with a single install) it should work.</p>
+<p>It&#8217;s even easier in Linux &#8211; download tar.gz, extract to its own folder in /usr/local/, go! IEs4Linux (http://www.tatanka.com.br/ies4linux/page/Main_Page) is also a great help with testing under IE (including IE7 rendering without the ugly interface) on Linux :)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-223742">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e18bbcd3c247d26919e3c699e5ea7181.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-223742">
+        <time class="published" datetime="2007-12-16T20:01:09+00:00">16 Dec 2007, 20:01</time>
+      </a>
+      <div class="entry-content"><p>Multiple versions of Firefox can be installed on the same system, but cannot — in common builds — be run simultaneously, which is the trick I&#8217;m giving Opera credit for.</p>
+<p>I&#8217;ve since seen a build of PortableFirefox for <span class="caps">OSX</span> which can run simultaneously, although the particular one I tried didn&#8217;t.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-223833">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/17ad3d59ad6d141b258643cf53b0fdec.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Stuart</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-223833">
+        <time class="published" datetime="2007-12-21T16:48:43+00:00">21 Dec 2007, 16:48</time>
+      </a>
+      <div class="entry-content"><p>Well I&#8217;m running Firefox 3 beta 2 and Firefox 2.0.0.10 side by side at the moment on different profiles, and have done a bit at work today :)</p>
+<p>Maybe Linux is just better than Mac and Windows because it has some method to allow two copies ;)</p>
+<p>The command I use for the second version is &#8220;firefox -P [profile] &#8212;no-remote&#8221; where [profile] is the case-sensitive name of a profile that you created through the profile manager (&#8220;firefox -profilemanager&#8221;)</p>
+<p>Okay, so you can&#8217;t do it with a single profile with common history (unless you hack it a bit in Linux/Mac with symbolic links, and even that might not work) but it works fine for testing.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-223834">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/17ad3d59ad6d141b258643cf53b0fdec.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Stuart</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-223834">
+        <time class="published" datetime="2007-12-21T16:51:32+00:00">21 Dec 2007, 16:51</time>
+      </a>
+      <div class="entry-content"><p>Gah, stupid Textile code. Those parameters are (and should hopefully remain this time:</p>
+<p>-P [profile]<br />
+and<br />
+-no-remote</p>
+<p>More detail at http://kb.mozillazine.org/Command_line_arguments</p>
+<p>Now if only Firefox didn&#8217;t cause Compiz to lag on cube spins when it is focused&#8230;</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-223835">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/17ad3d59ad6d141b258643cf53b0fdec.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Stuart</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-223835">
+        <time class="published" datetime="2007-12-21T16:53:01+00:00">21 Dec 2007, 16:53</time>
+      </a>
+      <div class="entry-content"><p>That Textism website didn&#8217;t help (unless this is some strange text-box that has two behaviours depending on whether or not it finds a <span class="caps">HTML</span> tag, which is bad UI ;) )</p>
+<p>The second argument is &#8220;no-remote&#8221; with a hyphen before it.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

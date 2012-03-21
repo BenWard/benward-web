@@ -1,0 +1,250 @@
+/*8 Appearence and Layout Style Sheet for TCP Header Diagram */
+@media all {
+  .hidden {
+		 				 display: none;
+	}
+}
+
+@media screen {
+  body {
+        		 font-family: Verdana, Tahoma, sans-serif;
+      			 font-size: 1em;
+						 border-bottom: 1px solid #000;
+						 margin: 0px;
+						 
+						 color: #000;
+						 background: #FFF;
+						 
+						 background-image: url("../images/bg_globe.png");
+						 background-repeat: no-repeat;
+						 background-position: bottom right;		
+  }
+	
+	#bodytext {
+						 margin-left: 10%;
+						 padding-left: 5px; padding-right: 5px;
+						 border-left: 3px groove #CCC;
+	}
+	.screen-hide {
+      			 display: none;
+      			 visibility: hidden;			 
+	}
+	
+	object.fs {
+      			 width: 95%;
+      			 height: auto;	 
+	}
+	
+	/** Layout the Diagram */
+  	#diagram {
+  					 width: 95%; max-width: 800px;
+						 margin-left: auto; margin-right: auto;				 
+						 margin-top: 10px; margin-bottom: 10px;
+						 background: #E6D900;
+						 border: 1px solid #000;
+						 z-index: 0;
+  	}
+  	/** Rows */
+  	#diagram div.diagram_row {
+  					 position: relative;
+						 height: 2.5em;
+  	}
+		
+		/** Hidden Cell Outer */
+		#diagram div.diagram_row div.cell {
+						 cursor: pointer;
+						 height: 2.5em;
+						 z-index: 1;
+		}
+		/** Hidden Cell Inner */
+		#diagram div.diagram_row div.cell div {
+						 background: #E6D900;
+						 background-image: url("../images/cell_off.png");
+						 background-repeat: repeat-x;
+						 background-position: bottom left;
+						 text-align: center;
+						 vertical-align: middle;
+						 border: 1px solid #000;
+						 
+						 height: inherit;
+						 z-index: 1;		 
+		}
+
+		/** Hover Colour Change */
+		#diagram div div.cell:hover div {
+						 background: #CAD8DD;
+						 background-image: url("../images/cell_on.png");
+						 background-repeat: repeat-x;
+						 background-position: bottom left;						 
+		}
+		/** Collapse Content */
+		#diagram div div.cell div .btt, #diagram div div.cell div p {
+						 display: none;
+						 visibility: hidden;
+		}
+		
+		#diagram div div.cell div h3 {
+						 margin: 0px;
+		}
+		/** Expanded Cell Outer */
+		#diagram div div.expCell {
+						 cursor: default;
+						 border: 1px solid #000;			
+						 border-top: 0px;
+						 margin-top: 10px;				 
+						 min-width: 50%;
+						 /** On top */
+						 z-index: 2 !important;
+		}
+		
+		/** Expanded Cell Inner */
+		#diagram div div.expCell div {
+						 background: #CAD8DD;
+						 background-image: url("../images/cell_on.png");
+						 background-repeat: repeat-x;
+						 background-position: bottom left;	
+						 						 
+						 border-top: 1px solid #000;
+						 padding: 5px;
+						 overflow: scroll;						 
+						 min-height: 8em !important;
+						 max-height: 10em !important;
+						 /** On top */
+						 z-index: 2 !important;						 
+		}
+		#diagram div div.expCell h3 {
+						 font-size: 100% !important;
+						 text-align: left !important;
+		}				 
+		
+		/** Override Small cells spans when expanded */
+		#diagram div div.expCell span {
+						 display: inline !important;
+						 text-transform: none !important;
+		}
+		
+		/** Small cells with vertical text */
+		#diagram div div.smallcell {
+						 padding: 0px;
+		}
+		#diagram div div.smallcell div h3 {
+						 font-size: 50%;
+		}
+		#diagram div div.smallcell span.vert {
+						 display:block;
+						 padding: 0px; margin: 0px;
+						 text-transform: uppercase;
+		}
+		#diagram div div.smallcell span.trim {
+						 display:none;
+		}		
+				
+		/** Unique Cells  -- Positioning only */
+		#diagram div #cell_sourceport {
+	 				 position: absolute;
+    				left: 0%;
+    				width: 50%;
+		}
+		#diagram div #cell_destinationport {
+  	 				position: absolute;
+    				left: 50%;
+    				width: 50%;
+		}
+		#diagram div #cell_seqnum {
+  	 				position: absolute;
+						left: 0%;
+    				width: 100%;
+		}		
+		#diagram div #cell_acknum {
+  	 				position: absolute;
+    				left: 0%;
+    				width: 100%;
+		}			
+		#diagram div #cell_dataoffset {
+  	 				position: absolute;
+    				left: 0%;
+    				width: 12.5%;
+												
+						font-size: 95%;
+
+		}					
+		#diagram div #cell_reserved {
+  	 				position: absolute;
+    				left: 12.5%;
+    				width: 18.75%;
+		}
+		#diagram div #cell_urg {
+  	 				position: absolute;
+    				left: 31.25%;
+    				width: 3.125%;
+		}
+		#diagram div #cell_ack {
+  	 				position: absolute;
+    				left: 34.375%;
+    				width: 3.125%;
+		}		
+		#diagram div #cell_psh {
+  	 				position: absolute;
+    				left: 37.5%;
+    				width: 3.125%;
+		}		
+		#diagram div #cell_rst {
+  	 				position: absolute;
+    				left: 40.625%;
+    				width: 3.125%;
+		}
+		#diagram div #cell_syn {
+  	 				position: absolute;
+    				left: 43.75%;
+    				width: 3.125%;
+		}
+		#diagram div #cell_fin {
+  	 				position: absolute;
+    				left: 46.875%;
+    				width: 3.125%;
+		}
+		#diagram div #cell_window {
+  	 				position: absolute;
+    				left: 50%;
+    				width: 50%;
+		}
+		#diagram div #cell_checksum {
+  	 				position: absolute;
+    				left: 0%;
+    				width: 50%;
+		}
+		#diagram div #cell_urgpoint {
+  	 				position: absolute;
+    				left: 50%;
+    				width: 50%;
+		}
+		#diagram div #cell_opt {
+  	 				position: absolute;
+    				left: 0%;
+    				width: 100%;
+		}
+		/** Global (exp|colapsed) Diagram Styles */
+		#diagram h3 {
+						 font-size: 100%;
+						 padding-top: 0.5em; padding-bottom: 0.4em;
+						 margin: 0px;
+		}
+		#diagram small {
+		}
+		#diagram .btt {
+						 float: right;
+		}
+	
+}
+/** Printer Friendly Version */
+@media print {
+	body {
+    			 background: #FFF;
+    	     font-family: Centaur, Georgia, sans-serif;
+	}
+	/** Hide "Back To Top"/"Close" items */
+	.btt {
+    			 display: none;
+    			 visibility: hidden;
+	}
+}

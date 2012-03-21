@@ -1,0 +1,44 @@
+---
+layout: blog
+category: blog
+title: "CSS Reboot"
+date: "2005-08-07T23:41:45+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2005-08-07:/blog/css_reboot
+---
+It's come to my attention that there's another CSS Reboot event this Autumn. That's Autumn, not �Fall� or any other bizarre season name you might have.
+
+CSS Reboot is, to the uninitiated, an organised day when hundreds of web designers all refresh their designs at once. It's all part of evangelising CSS, and provides some people an excuse to change their design every six months.
+
+For me, it gives me 85 days to actually get around to doing my redesign. Maybe a deadline will be enough to make this thing happen!
+
+Ben Ward version 4.0: Coming November 1st 2005. Maybe.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-320">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/8e0293544b13499460369217e2a7febd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://charlvn.za.net">Charl van Niekerk</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-320">
+        <time class="published" datetime="2005-08-08T10:18:02+00:00">08 Aug 2005, 10:18</time>
+      </a>
+      <div class="entry-content"><p>Cool, I also feel ready for a redesign. I&#8217;ll see if I can make the deadline.</p>
+<p>&#8220;Autumn&#8221; doesn&#8217;t make sense for me though, since here in South Africa (being in the southern half of the world) that&#8217;s going to be the Spring. :)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-319">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/3218e487b7fd7b7b0d6f02bef3227e39.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Steve Marshall</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-319">
+        <time class="published" datetime="2005-08-21T13:12:50+00:00">21 Aug 2005, 13:12</time>
+      </a>
+      <div class="entry-content"><p>Maybe I should bully someone into setting up a css:boot site for the likes of me who are too lazy to finish their site and get it live? :P</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

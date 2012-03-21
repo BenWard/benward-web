@@ -1,0 +1,51 @@
+---
+layout: blog
+category: blog
+title: "Read this, it's true."
+date: "2004-07-28T22:19:55+00:00"
+updated: "2005-12-10T01:13:43-01:00"
+tags: ["technology"]
+atomid: tag:benward.me,2004-07-28:/blog/read_this_it_s_true
+---
+My <a href="http://jo.ben-ward.co.uk/?p=30" title="Jo Anslow">lovely, long-time geek-enduring girlfriend, Jo</a> has updated her Blog with some cutting comments about a section of the Firefox community. And she's right about it all. Not just because she has an automatic "I'm right" veto, but because it's actually all true.
+
+It struck just how <em>silly</em> blocking out IE to promote a browser based on <em>Open Standards</em> really is. It's actually really rather distressing.
+
+Now, I've no problem with going ahead and using 'new' web technologies (like &amp;lt;abbr>eviation tags, for instance) when I know that it will still degrade back and function in IE (and everything else that came before). But the idea of deliberately sabotaging pages to promote a browser that suffers from the IE legacy of non-standard broken code seems really... stupid.
+
+I rather wish that <a href="http://www.mozilla.org" title="Mozilla">The Mozilla Foundation</a> would stand up at this point, tell those people who give tech-evangelism this bad name to pack up and leave (therefore resolving MozillaZine's bandwidth cost issues) and support and encourage a community based on an honest, open character rather than letting fanboys ruin the potential that Firefox holds for the mass market. Sadly, and rather embarrassingly, that would require <a href="http://www.bengoodger.com/weblog/" title="Ben Goodger's Old Weblog">Firefox's lead programmer</a> to admit that his old Weblog had the wrong idea too.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-186">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/0f0262a334c4108cf6f66a0193cf2c84.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.jonty.me.uk/">Jonty</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-186">
+        <time class="published" datetime="2004-07-29T14:45:05+00:00">29 Jul 2004, 14:45</time>
+      </a>
+      <div class="entry-content"><p>I&#8217;m with you on this one, Ben.</p>
+<p>Unlike, say, Netscape 4 which just had it&#8217;s own ideas about certain things, IE6 is not so far gone that support cannot be attained with minimal fuss.</p>
+<p>Sure, some quirks require an unnecessary amount of work, but by using your/our approach of working with standards and making modest concessions where necessary, the best of both worlds can be had (and hopefully sites should be viewable as text-only if nothing else).</p>
+<p>Deliberately breaking sites is just against the very principles of modern web design: accessibility for all. If it continues, users will start to react against these subversive evangelists.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-187">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-187">
+        <time class="published" datetime="2004-07-29T18:40:03+00:00">29 Jul 2004, 18:40</time>
+      </a>
+      <div class="entry-content"><p>Absolutely. And given that the attitudes of Firefox users represent the product far more than an &#8216;ordinary&#8217; piece of software off the shelf, I would class this as a genuine threat to the browser&#8217;s success.</p>
+<p>I think Jo&#8217;s feeling that she doesn&#8217;t want to use Firefox because of these peoples&#8217; &#8220;holier than thou&#8221;, stubborn and hypocrite viewpoints is quite reasonable. Why should their offensive attitude be rewarded?</p>
+<p>The deciding factor in these browser issues will be whether people want to see sites at their best, or just competent.</p>
+<p>Netscape 4 users (all 3 of them) will get a shock over the next 12 months as new <span class="caps">XHTML</span>/<span class="caps">CSS</span> sites render without stylesheets (text, with headings and basic formatting). The next Fujitsu-Siemens homepage is going to be lovely and standardsy (or so says the guy who&#8217;s designing it).<br />
+Big companies will never be able to leave IE behind as they risk losing business, but small Blogs like those blocking IE are nothing. Nobodies. No-one <em>cares</em> if they can&#8217;t get to someone&#8217;s Blog, they&#8217;ll just go somewhere else. However, Blogs and smaller projects are the test-beds for new web technology and if the practice of elegant degradation can be realised, then the possibility of a &#8220;Better Web&#8221; <em>will</em> appeal to real users.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

@@ -1,0 +1,197 @@
+---
+layout: blog
+category: blog
+title: "Representing A Divided Nation"
+date: "2008-10-21T09:11:47-01:00"
+updated: "2008-10-21T09:11:47-01:00"
+summary: "On the presentation of voter breakdown in the United States, the division it perpetuates, and the fact that it's horribly wrong and over-emphasises a party-political divide between coastal and central states."
+tags: ["all", "politics", "usa", "election", "election08", "barack-obama", "john-mccain", "electoral-college"]
+atomid: http://ben-ward.co.uk/?p=471
+---
+Election season is upon us in the US. As an alien, it's a fascinating and at times alarming experience to observe the campaigns in action. Coming from England, my naturally liberal attitudes don't make me overly compatible with being an independent over here, but my ineligibility to vote does.
+
+I studied the politics of the United States back in 2000–2001 for an A-Level course. It was just a twelve month study, but it provided an insight into the comparison with the politics back home in the UK. In the US, the cultural aversion to third parties and absolutes of a two party system make for quite blunt presentation. The impression painted is of a severely divided nation.
+
+Red republicans vs. blue democrats. Entire states — entire countries by European scales — grouped into supporting one single party or candidate.
+
+It's a side affect of the allocation of electoral college votes; a system whereby the citizens of each state vote for the president, and the winning candidate in each state receives a number of votes based on population. It's biased toward smaller states to try and protect them from being trampled by the larger ones. It deliberately distorts the popular vote to maintain a stronger union.
+
+So, for example, California has 55 electoral college votes, Texas 34, but comparatively tiny states like North Dakota still get 3.
+
+The electoral college itself is not a huge problem. The problem is with presentation. Consider this electoral map, which you can find as part of MSNBC's excellent <a href="http://www.msnbc.msn.com/id/3032553">Election Dashboard</a>.
+
+<img src="/res/posts/election08/electoral.png" alt="" title="Projected vote for 2008 presidential candiates by state">
+
+The political leaning of each state is represented in terms of absolute victory. Not in terms of margin of victory. Solid blocks of colour show Democrat coasts, and red Republican centre. It shows a nation torn apart. It shows divide.
+
+Maps like this are terrifying. They represents an unreconcilable division of political parties who are, frankly, not ideologically far apart. They encourage casual observer to write off the detailed viewpoints of ‘blue states’ or ‘red states’, simply because they don't affect the vote.
+
+Really, these maps are a gross misrepresentation of the viewpoints of Americans. At an emotionally heated election time, when Republican political rallies become tinged by violence toward their countrymen, it strikes me that perhaps the incessant reinforcement of this map undermines the foundations of the American nationality, not just statistics.
+
+To get to my point. These maps exist to represent the allocation of electoral college votes. Electoral votes are allocated all or nothing — except for Maine and Nebraska, which uses a more proportionally representative Congressional District method. In response to the all-or-nothing allocation, solid blocks of blue represent safe Democrat seats, solid blocks of red safe Republican seats. It implies solid majority support, when really ‘safety’ only means a majority of at least 10 points. 
+
+Take Maine. The magnificent <a href="http://www.fivethirtyeight.com">FiveThirtyEight</a> gives a hugely comprehensive breakdown of polling. Maine is a ‘safe’ Democrat state. But really, it's just a 55 to 43 split in favour of Barack Obama. And that's with a ±5% margin of error.
+
+Summarising today's FiveThirtyEight projections, the divide between Democrat and Republican voters are far less pronounced that the maps across the internet and television make out.
+
+FiveThirtyEight's table is an image, bizarrely, so I've only copied out some of the stats. Hopefully enough to illustrate my point.
+
+<table summary="State by state projections of the upcoming 2008 presidential election, compiled October 20th 2008">
+    <caption>Presidential vote projections by State</caption>
+    <thead>
+        <tr>
+            <th>State</th>
+            <th abbr="Democrat">Dem</th>
+            <th abbr="Republican">Rep</th>
+            <th>Margin</th>
+            <th>Resprentation</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><abbr title="Alaska">AK</abbr></td>
+            <td>41.7</td>
+            <td>57.1</td>
+            <td>15.4</td>
+            <td>Safe GOP</td>
+        </tr>
+        <tr>
+            <td><abbr title="Alabama">AL</abbr></td>
+            <td>38.5</td>
+            <td>60.3</td>
+            <td>21.7</td>
+            <td>Safe GOP</td>
+        </tr>
+        <tr>
+            <td><abbr title="Arkansas">AR</abbr></td>
+            <td>45.5</td>
+            <td>52.9</td>
+            <td>7.4</td>
+            <td>Likely GOP</td>
+        </tr>
+        <tr>
+            <td><abbr title="Arizona">AZ</abbr></td>
+            <td>43.1</td>
+            <td>55.4</td>
+            <td>12.3</td>
+            <td>Safe GOP</td>
+        </tr>
+        <tr>
+            <td><abbr title="California">CA</abbr></td>
+            <td>57.5</td>
+            <td>40.6</td>
+            <td>17</td>
+            <td>Safe DEM</td>
+        </tr>
+        <tr>
+            <td><abbr title="Colorado">CO</abbr></td>
+            <td>52.1</td>
+            <td>46.5</td>
+            <td>5.5</td>
+            <td>Likely DEM</td>
+        </tr>
+        <tr>
+            <td><abbr title="Conneticut">CT</abbr></td>
+            <td>57.5</td>
+            <td>40.3</td>
+            <td>17.2</td>
+            <td>Safe DEM</td>
+        </tr>        
+        <tr>
+            <td><abbr title="Delaware">DE</abbr></td>
+            <td>58.7</td>
+            <td>40</td>
+            <td>18.7</td>
+            <td>Safe DEM</td>
+        </tr>
+        <tr>
+            <td><abbr title="Florida">FL</abbr></td>
+            <td>50.7</td>
+            <td>48.0</td>
+            <td>2.6</td>
+            <td>Leaning Dem</td>
+        </tr>
+        <tr>
+            <td><abbr title="Georgia">GA</abbr></td>
+            <td>46.3</td>
+            <td>52.4</td>
+            <td>6.1</td>
+            <td>Likely GOP</td>
+        </tr>    
+        <tr>
+            <td><abbr title="Hawaii">HI</abbr></td>
+            <td>64.8</td>
+            <td>34</td>
+            <td>30.7</td>
+            <td>Safe DEM</td>
+        </tr>    
+        <tr>
+            <td><abbr title="Iowa">IA</abbr></td>
+            <td>55.6</td>
+            <td>42.7</td>
+            <td>12.9</td>
+            <td>Safe Dem</td>
+        </tr>
+        <tr>
+            <td><abbr title="Idaho">ID</abbr></td>
+            <td>36.8</td>
+            <td>62</td>
+            <td>25.2</td>
+            <td>Safe GOP</td>
+        </tr>
+        <tr>
+            <td><abbr title="Illinois">IL</abbr></td>
+            <td>58.7</td>
+            <td>39.6</td>
+            <td>19</td>
+            <td>Safe DEM</td>
+        </tr>        
+        <tr>
+            <td><abbr title="Indiana">IN</abbr></td>
+            <td>48.2</td>
+            <td>49.8</td>
+            <td>1.6</td>
+            <td>Lean GOP</td>
+        </tr>
+    </tbody>
+</table>
+
+The impression that the coasts are so dominated by democrats or that the centre states are dominated by republicans is false. A 30 percent minority is far too large to be dismissed, and yet that is what the disproportional maps show.
+
+I'd like to redraw that map in different ways. Redraw colour intensity by actually percentages, rather than safety. Redraw each state showing both red and blue. I think it would provide a reassuring view of America. One of integrated political, rather than division. The perception of division appears widespread, and it is a falsehood.
+
+At the core of this? Huge numbers of American voters are disregarded both by the electoral system and the media presentation of the election.
+
+As a liberal minded type, is Texas write off of right-wing politics? No. In fact, 42% of the biggest red blog on the map poll for Democrats, and yet the small majority makes a massive impression on the perception of America's make-up. The reverse is true in Calfornia. That huge hunk of blue that suggests the entire West Coats is a liberal haven? Also 40% Republican. Even Alaska, a state dismissed as neo-conservative due to its Sarah Palin connection in fact polls 41% Democrat. Those people are lost in these maps.
+
+This is not really about whether the electoral system is fair, it's the negative social effect of representing it this way. American politics can do without any more negative social effects.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-227129">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/8e038825d82e0ee514a5d46cf6434540.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.wardelldesign.com/">Wardell</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227129">
+        <time class="published" datetime="2008-11-08T21:23:23-01:00">08 Nov 2008, 21:23</time>
+      </a>
+      <div class="entry-content"><p>Excellent points, in fact I&#8217;m from Obama&#8217;s  state of Illinois where the two previous governors prior to the current one where republican. The national maps can be deceiving the real majorities come into play at  county and city levels.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227138">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/fa951b58ae30ae3cea861b326baab8a4.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.junglecreative.com">Ray</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227138">
+        <time class="published" datetime="2008-11-23T00:03:21-01:00">23 Nov 2008, 00:03</time>
+      </a>
+      <div class="entry-content"><p>As a foreigner in a foreign land, I also closely followed the American elections, since we only get <span class="caps">CNN</span> here   I feel  slightly brainwashed-edly biased, but considering the &#8216;propoganda&#8217; that was presented to you&#8230;</p>
+<p>who would you have voted for?</p>
+<p>[ If I was a yank, I would have voted for Obama as he is gonna change the world, or rather his election, is gonna change the worlds outlook ]</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

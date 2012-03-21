@@ -1,0 +1,35 @@
+---
+layout: blog
+category: blog
+title: "Distributed Social Networking on Digital Web"
+date: "2008-07-03T13:20:43-01:00"
+updated: "2008-07-03T13:21:40-01:00"
+summary: "This week's issue of the excellent \"Digital Web Magazine\":http://digital-web.com leads with an article I've written about Distributed Social Networking, published under the title \"Portable Social Networking: Building Blocks of a Social Web\":http://digital-web.com/articles/portable_social_networks_building_blocks_of_a_social_web/"
+tags: ["technology", "microformats", "web", "social-networking", "dsn", "psn", "article", "digital-web"]
+atomid: http://ben-ward.co.uk/?p=458
+---
+This week's issue of the excellent "Digital Web Magazine":http://digital-web.com leads with an article I've written about Distributed Social Networking, published under the title "Portable Social Networking: Building Blocks of a Social Web":http://digital-web.com/articles/portable_social_networks_building_blocks_of_a_social_web/
+
+It's an overview of distributed social networking in a "microformats":http://microformats.org context, explaining how XFN and hCard gives us most of what we need to start exposing users to the benefits of having information made available between different social sites.
+
+As well as explaining how to go about publishing these things and explaining what the first iteration of consumption could be, I've also tried to emphasise how important it is to guide users into this interconnected world gently, since many won't appreciate that their information is quite so public.
+
+It's a little lengthy, but I hope it gets people thinking about the possibilities.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-227093">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/c7ae926c8fefee45d2ef961fa8c71eb2.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://twitter.com/slydell">slydell</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227093">
+        <time class="published" datetime="2008-07-15T00:04:33-01:00">15 Jul 2008, 00:04</time>
+      </a>
+      <div class="entry-content"><p>it was a great read&#8230;</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

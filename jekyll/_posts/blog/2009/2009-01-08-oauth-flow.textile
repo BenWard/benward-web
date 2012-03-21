@@ -1,0 +1,226 @@
+---
+layout: blog
+category: blog
+title: "The OpenID and OAuth Flow: Playing with UX"
+date: "2009-01-08T16:39:43-08:00"
+updated: "2009-02-15T08:58:54-08:00"
+summary: "In which I analyse Facebook Connect's UI, bash it a bit, and then steal the best bit and apply it to OpenID and OAuth applications. Pictures are provided."
+tags: ["technology", "lastfm", "ui", "user-interface", "yahoo", "facebook", "fire-eagle", "openid", "oauth", "facebook-connect", "user-experience", "ux", "dopplr"]
+atomid: http://ben-ward.co.uk/?p=484
+---
+Delegated authentication and authorisation technologies are one of the biggest developments of last year. Whilst still immature, technologies like "OpenID":http://openid.net and "OAuth":http://oauth.net have their feet down as being integral pieces in the interaction between web services.
+
+OpenID and OAuth are the open, standards based and interoperable editions of this technology, but Yahoo's deprecated "BBAuth":http://developer.yahoo.com/auth/ and "FlickrAuth":http://www.flickr.com/services/api/auth.spec.html and others all came before. Also at the tail-end of last year came "Facebook Connect":http://developers.facebook.com/connect.php, a system whereby websites can piggyback on Facebook profiles for building applications.
+
+For example, take "Fire Eagle":http://fireeagle.yahoo.net. It's a service that stores your location on your behalf, for use by other applications on the web. It uses OAuth to control access to that location; no application can see your location by default. When you visit a site needing your location, it asks Fire Eagle for that information.
+
+Instead providing your Yahoo! username and password to this third party site (which would grant access to your entire Yahoo! account), you are taken to a special page on the Fire Eagle site, click a button to grant specific location permission and then jump back to the original site, which now holds a token to access to your location.
+
+<blockquote><img src="/res/posts/oauth-ux/OAuthTrust.png" alt=""></blockquote>
+<cite>"OAuth Best Practices · Fire Eagle":http://fireeagle.yahoo.net/developer/documentation/oauth_best_practice. Image by Ben Ward & Sam Tripodi</cite>
+
+This process means that the site you shared your location with can't access anything apart from your location (it can't log into your Yahoo! IM account, for example, or send emails through Yahoo mail). Furthermore, you can log in to Fire Eagle and remove that application any time; you don't need to change your password to do so.
+
+It's the future, it's user empowering, and it's going to be great. Eventually.
+
+The user experience of this OAuth process — and OpenID alike — has been criticised a bit. Users don't expect to be moved between different websites, but they are familiar with entering their passwords all over the place. The short ranty version of this article would go like this: If you stop whining and just get on with implementing the OAuth flow, users will get used to it and will be just fine. It's *is* usable as-is, so shut up already. But this is the long, constructive version, so:
+
+_The user experience of OAuth and OpenID is immature, and can still be massively improved and smoothed out with concerted design effort._
+
+Which brings me to Facebook Connect. Connect is a _product_ as well as a proprietary technology. It's a packaged and complete offering from Facebook, and as such, comes with a far more complete and polished user experience than the technology-focused, open standards have so far achieved. Polished and mind bogglingly stupid, in places, but, y'know.
+
+Facebook Connect, whilst proprietary and product-specific and therefore _irrelevant_ in the grand scheme of things, has UX that can be applied to OAuth and OpenID flows. If service providers support this, I think user experience gets *much* better, quickly.
+
+h2. How does Facebook Connect work?
+
+<img src="/res/posts/oauth-ux/FacebookConnectButton.png" alt="">
+
+The most common use case for Facebook Connect appears to be commenting on blogs, such as on "Gawker":http://gawker.com sites. Rather than enter your details standalone, or uniquely register with a site, you log into Facebook, and Gawker uses those details instead.
+
+So, you click the shiny ‘Facebook Connect’ button in the comments form, and an overlay appears:
+
+<img src="/res/posts/oauth-ux/FacebookConnectLoggedIn.png" alt="A dialog confirmed your already logged in Facebook name, a button to confirm the ‘Connection’ and another to reject it.">
+
+This is the crux of the learning for OAuth. Rather than redirect to Facebook, this granting of permission happens right in the page in an embedded control.
+
+It's not _quite_ as simple as this, mind. It's ok that this action occurs in an overlay only because the user is _already logged in to Facebook_. No exchange of credentials takes place: The overlay is an iframe serving a page from Facebook's server, so my current login cookie is used and there's no need for Facebook to ask for my password. A malicious site would gain nothing by spoofing this dialog.
+
+<ins datetime='2009-02-14'><em>Since writing this article, Facebook have improved the behaviour of Connect. Now, if you are signed in you see an overlay as before, but if not signed in Connect opens a new window, where all usual browser functionality is available. This a huge improvement and fixes the complaints that follow.</em></ins>
+
+Unfortunately, Facebook Connect then screws up. The whole point of delegated auth is that we stop users entering their passwords into third party sites. *It has to stop*. That means both _actually_ entering their details into third parties, but also interface that _gives the impression of giving your password to a third party_. When you are not currently logged into Facebook, you instead see this dialog:
+
+<img src="/res/posts/oauth-ux/FacebookConnectNotLoggedIn.png" alt="A Facebook dialog within the Gawker page, prompting for a Facebook username and password.">
+
+_Millions_ of Facebook users, openly encouraged to enter their password into any site that asks. This is wrong. If the user is _not_ already logged into the service, you should be redirected in a more traditional bounce between pages. That way browser-level phishing tools kick in, the URL in the address bar can be manually inspected by the user and, critically, the user is conscious of logging into a different service.
+
+<aside><p>As an aside, I also find one piece of the not-logged-in UI especially galling. The tiny text that reads ‘If you do not trust this site, you can connect on Facebook directly’. This is, perhaps, the most retarded thing ever. _If you don't trust this site, why on earth are you granting it access to your Facebook profile at all, regardless of where you type your password in?!_.</p>
+  
+<p>Once upon a time, Facebook had a wonderful piece of UI when you connected to other people. Asked to describe how you knew someone, the final option offered "I don't even know this person":http://www.flickr.com/photos/srhaber/420854896/. Check it and the ability to add that friend disappears and you are advised to reconsider your ‘friendship’. How times have changed.</p></aside>
+
+Facebook ranting aside, the first half of their Connect overlay UI would be very useful to enhance the user experience of OAuth and OpenID.
+
+Here's a hypothetical Fire Eagle app built into "Last.FM":http://last.fm.
+
+<img src="/res/posts/oauth-ux/LastFMEvents.png" alt="A simple dialog prompting for your current location, ‘San Francisco’, and a button to invoke Fire Eagle as a source for that location.">
+
+In the current implementation of OAuth, clicking ‘Get Fire Eagle Location’ would redirect you to the Fire Eagle website, and then you'd redirect back again after clicking ‘Confirm’.
+
+Instead, OAuth apps should do this by default:
+
+<img src="/res/posts/oauth-ux/LastFMEventsOverlay.png" alt="Display the ‘Grant Permission to the Last.FM application’ UI in the page.">
+
+No redirect, lighter weight UI and more responsive feedback. This, I think, is something that OAuth APIs should support out of box along with their other language wrappers; provide drop-in support.
+
+Now, this behaviour applies for _logged in users only_. If you're not logged in to Fire Eagle for any reason, you should still be moved to the separate site as before. We need to stay strict on keeping users spatially aware of where they are entering their passwords, otherwise the whole effort is undermined.
+
+h2. Overlaid OpenID
+
+With one example down, here's a mock of how Open ID could benefit from the same integrated flow, this time working with Dopplr, since they already support Open ID:
+
+<img src="/res/posts/oauth-ux/DopplrLogIn.png" alt="A simple Yahoo! dialog overlaying the Dopplr website, asking the user to confirm they wish to log in. The surrounding UI for the current Yahoo! Open ID page is retained in this example.">
+
+If not logged in to Yahoo, you get a prompt and just as before, are guided to step through the regular, separate-site process to sign in:
+
+<img src="/res/posts/oauth-ux/DopplrNotLoggedIn.png" alt="The same Yahoo! dialog is overlayed on Dopplr, but this time telling the user they are not logged in, and need to sign in to Yahoo! before they can sign in to Dopplr.">
+
+Clicking ‘Sign in to Yahoo!’ would take the user to Yahoo's standalone page.
+
+h2. How to make this happen?
+
+For this to happen, services need to provide support for it; it can't be done just at the client side. The dialog-sized interfaces for authorising applications or logging into sites need to provided, and they need to support the ‘break out to enter passwords’ flow. But, sites like Fire Eagle already provide a mobile-scale version of the auth page, so further variants are not a major hindrance.
+
+It also needs a JavaScript component to handle the UI side. With a bit of luck, this only needs to be done once and shared between projects.
+
+<aside>In the specific case of Yahoo services, this whole smoother flow is dependent on already being signed in, so for this to work you'll need to _stop logging me out every time I blink_, please.</aside>
+
+The core technology behind OAuth and OpenID is pretty robust. Both have major adopters like Yahoo and Google. OpenID has a bit of a bit of a way to go before users _need_ it, perhaps, but regardless, it's well into the same phase where user experience needs to be a concerted effort, and the status quo needs to be challenged.
+
+Everything in this post is just a small step from what we already have, it's just smoothing out the edges. Maybe that's enough, but I suspect there's a long way to go and a wealth of other ideas out there.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-227150">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e01541d12a830357d50a6d44cd5d515c.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://dharmafly.com">Premasagar Rose</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227150">
+        <time class="published" datetime="2009-01-08T17:45:26-08:00">08 Jan 2009, 17:45</time>
+      </a>
+      <div class="entry-content"><p>These are some vey sound ideas on improving the user flow and weeding out bad practices. Thanks dr paying it out so clearly.</p>
+<p><em>&#8220;Stop logging me out each time I blink, please.&#8221;</em><br />
+Amen. Drives me crazy!</p>
+<p>Cheers Ben.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227151">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e01541d12a830357d50a6d44cd5d515c.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://dharmafly.com">Premasagar Rose</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227151">
+        <time class="published" datetime="2009-01-08T17:47:38-08:00">08 Jan 2009, 17:47</time>
+      </a>
+      <div class="entry-content"><p>Doh! iPhone corrective text!<br />
+I meant to say &#8220;thanks for laying it out so clearly&#8221; :)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227152">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/210507832ef2777b3bd551a5b9a66437.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://andr3.net">André Luís</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227152">
+        <time class="published" datetime="2009-01-08T17:50:13-08:00">08 Jan 2009, 17:50</time>
+      </a>
+      <div class="entry-content"><p>Ben,</p>
+<p>Wonderful read. I almost stopped at the short version, but the lengthy one is far juicier. :)</p>
+<p>I really like the UX mockup you came up with, but I&#8217;m concerned. In the case of OpenID, you&#8217;re ignoring the &#8220;authorize this app forever&#8221; option and also far more complex operations in terms of UI like SimpleRegistration and AttributeExchange. Do you propose this should be done on the RP/consumer or should you be presented with a &#8220;You need to jump to our website to choose which data should be revealed to this app&#8221;&#8230;?</p>
+<p>Your thoughts?</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227157">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e9bbae9180dd3bc5b54ddeef6e786ec9.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://twitter.com/ronin691">Todd</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227157">
+        <time class="published" datetime="2009-01-08T21:12:50-08:00">08 Jan 2009, 21:12</time>
+      </a>
+      <div class="entry-content"><p>1 &#8211; I am worried that your light box, with no way to see the <span class="caps">URL</span>, is open to malice and deception. One of the most reassuring parts of proper Oauth delegation, for me at least, is being taken to the external site and seeing the correct <span class="caps">URL</span> in the address bar. How hard could it be to make a fake light box?</p>
+<p>2 &#8211; I was going to type &#8220;Facebook <span class="caps">FAIL</span><img src="!1" alt="" />&#8221; but its such a perpetual occurrence, all the fun of doing so is gone now.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227158">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/bcc3bb57878f2df247b8bf078da16cfa.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.awakenings.com">David</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227158">
+        <time class="published" datetime="2009-01-09T00:33:01-08:00">09 Jan 2009, 00:33</time>
+      </a>
+      <div class="entry-content"><p>Wondering if, given a standard UI widget, something like BofA&#8217;s site key (http://en.wikipedia.org/wiki/Sitekey) would provide enough assurance to enter credentials in non-logged in case to avoid full trip to OP site &#8230;</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227159">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/5a2e7d91ad8fbdf31ab9bddf78ae08e3.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://sociallipstick.com">Luke Shepard</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227159">
+        <time class="published" datetime="2009-01-09T03:35:43-08:00">09 Jan 2009, 03:35</time>
+      </a>
+      <div class="entry-content"><p>Just to correct a misperception, with Facebook Connect we do use a popup when asking for user credentials. The Javascript checks if the user is logged in, and if so then uses the lightbox.  I think you found a corner case where you were logged into Facebook when you loaded the page, but then logged out before Connect was completed (perhaps by clicking “Not you?” link).</p>
+<p>I’m really excited by the prospect of bringing the ideas from Connect into the OpenID/ Oauth flows around the web. There’s no technical reason why the user experience can’t be fantastic with the open standards, and I’m keen on working to make that a reality.</p>
+<p>For example, one addition to the OpenID spec that would help here is if an OP could optionally return an additional failure code, which said basically &#8220;the user is logged in, but has not authorized your website&#8221;. The RP could then choose to display the auth dialog in an iframe, knowing that the user won&#8217;t be asked to enter their credentials. The OP can then break out of an iframe if it actually needs credentials, thus keeping the user safe.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227160">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e18bbcd3c247d26919e3c699e5ea7181.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227160">
+        <time class="published" datetime="2009-01-09T03:36:40-08:00">09 Jan 2009, 03:36</time>
+      </a>
+      <div class="entry-content"><p>André: In the case of the OpenID mockup I was simply translating the current Yahoo OpenID UI into an overlay. As underlies this whole concept, so long as you are <em>already</em> signed into your OpenID provider (and thus, do not need to enter any credentials to a third party site), any of the more complex information exchange extensions could take place.</p>
+<p>Todd: The overlay ‘lightbox’ UI would only be for users who are <em>already</em> signed into the service provider. So, if you use a Fire Eagle app but are not yet signed into Fire Eagle (or if your cookie has timed out), then you would move over to a separate, verifiable page as per normal. The overlays are designed so that no-one, ever, ever enters their password into a third party site.</p>
+<p>Now, yes, it would be <em>trivially</em> easy to clone an overlay like these, but the only UI allowed in the overlay is what happens <em>after</em> you&#8217;re already logged in. No user ever enters a username or password into this UI, so cloning them as-is has no value, you can&#8217;t gain any real information from them.</p>
+<p>This is where the Facebook UI crashes into a fiery wreck, since you can clone their UI precisely and genuinely, and still obtain passwords. This OAuth/OpenID version, where passwords are only entered back at the service itself, those services could make a bigger deal of educating their users to be vigilant. ‘Only enter you password on this page, never on someone else&#8217;s website.’</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227161">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/5a2e7d91ad8fbdf31ab9bddf78ae08e3.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://sociallipstick.com">Luke Shepard</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227161">
+        <time class="published" datetime="2009-01-09T03:48:54-08:00">09 Jan 2009, 03:48</time>
+      </a>
+      <div class="entry-content"><p>Oh, here&#8217;s some of the info we shared about the Facebook Connect UX from when we presented on it in November: http://therealmccrea.com/2008/10/20/live-blogging-the-openidoauth-ux-summit/</p>
+<p>Also, just to introduce myself, I am an engineer working on Facebook Connect.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227187">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/d83f6a73ee515fa9d7e4e0e8e9eabac8.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://paulannett.co.uk/">Paul Annett</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227187">
+        <time class="published" datetime="2009-02-15T08:03:00-08:00">15 Feb 2009, 08:03</time>
+      </a>
+      <div class="entry-content"><p>Hi Ben</p>
+<p>Good article. I&#8217;m writing a short piece for .Net, not about OAuth (I&#8217;d be far from qualified to write about that, though I do mention it) but just about why asking for third party passwords is a bad idea, and this is all useful stuff.</p>
+<p>One point though &#8211; it seems that Facebook Connect does open in a new window with address bar when asking for username/password. Even then this is not infallible, as would non-geeks notice if it&#8217;s in an iFrame? Or in a chromeless window that emulated the address bar? Someone will always find a way round it.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227188">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e18bbcd3c247d26919e3c699e5ea7181.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227188">
+        <time class="published" datetime="2009-02-15T08:54:39-08:00">15 Feb 2009, 08:54</time>
+      </a>
+      <div class="entry-content"><p>Paul,</p>
+<p>It seems that since I wrote this article Facebook have improved their behaviour. (They&#8217;re a bright bunch, really).</p>
+<p>What now happens is that if you are not already logged in, a new window opens. If you are are logged in, you get the lightbox style overlay.</p>
+<p>It is possible to get a password prompt in the page if you are already logged in but click the ‘I&#8217;m not Ben Ward’ link to log in as a different user. That should probably invoke the separate window as well, but for most of their use, they&#8217;ve nailed it.</p>
+<p>As to whether you can clone this new interface successfully. I guess. But browser chrome is harder to clone accurately (and cross platform). Some research into how aware users are is important, really. We need to start educating them on log-in pages, I think.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

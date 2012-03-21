@@ -1,0 +1,91 @@
+---
+layout: blog
+category: blog
+title: "Mac OSX Typography on Windows"
+date: "2005-10-02T00:50:06+00:00"
+tags: ["all", "technology", "software", "microsoft", "windows", "osx", "apple"]
+atomid: tag:benward.me,2005-10-02:/blog/macosx_typography_on_windows
+---
+<img alt="" src="/media/splashes/mackeyboard.splash.jpg" class="splash"/>One of the many fabulous things about Apple's MacOSX is the incredible number of keyboard shortcuts for advanced typography. Left and right (so called �smart�) quotes are generated with <kbd>Option+]</kbd> and <kbd>Option+Shift+]</kbd>, for example. Some word processors automatically insert them, but when you enter as much content into a web browser as I do, it's a pain to remember a dozen different ALT+1234 style �shortcuts� to make Windows generate the same characters.
+
+What I've hunted out this evening is an application called <a href="http://www.autohotkey.com/">AutoHotKey</a>. It uses scripts to perform an extensive range of macro actions in Windows. You can control specific applications with it, make the clipboard do fancy tricks and (most usefully here) you can generate text in response to key combinations.
+
+I've been able to duplicate some of my favourite keyboard shortcuts from OSX using a fairly simple syntax. The method is actually quite crude (and has some big limitations that I'll come to soon), but fundamentally: It works.
+<!--more-->
+After installation, <abbr title="AutoHotKey">Ahk</abbr> generates a single script file (<code>AutoHotKey.ini</code>). All I've done is add some single-line commands to produce the correct character in response to each key combination.
+<pre><code>; MacOSX Typography Shortcuts (using alt key)
+!]::Send {ASC 0145} ; smart sing-quotes
+!}::Send {ASC 0146}
+
+![::Send {ASC 0147} ; smart double-quotes
+!{::Send {ASC 0148}
+
+!#::Send {ASC 0171} ; French quotes
+!~::Send {ASC 0187}
+ 
+!;::Send {ASC 0133} ; Horizontal ellipsis
+
+!6::Send {ASC 0167} ; Section
+!8::Send {ASC 0149} ; Bullet</code></pre>
+
+First up, I've assigned all of these to the <kbd>Alt</kbd> key, since that seems to make most sense (it being equivalent to <kbd>Option</kbd> on the Mac). The alternative would be to use the <kbd>Windows</kbd> key, which is the same physical location on a Windows keyboard as <kbd>Option</kbd> is on the Mac. Since I already have to shuffle around to use <kbd>Control+C</kbd> rather than <kbd>Command+C</kbd>, I figured I'd stick with <kbd>Alt</kbd>.
+
+In the Ahk notation, <code>!</code> refers to the alt key. <code>^</code> and <code>#</code> are �Control� and �Windows� respectively.
+
+The <code>{ASC 1045}</code> part is what generates the character. It's the equivalent of holding down the ALT key and typing in that number. Very crude, but so long as the application you're using supports the alt+number input method, the hotkey will work too. You can get the number from Windows Character Map (the key combination is displayed on the right of the status bar).
+
+The limitation with this method is that you can't generate extended Unicode characters which <em>don't</em> have an alt+number shortcut. Ahk also doesn't support Unicode script files, so you can't enter the characters directly.
+
+I've sent the latter problem in the direction of the Ahk forums to see if there's a better way of doing it and will update if there is.
+
+I hope that some other Mac &amp; PC users find this a useful starting point.
+
+<a href="http://www.autohotkey.com">AutoHotKey</a> is free software under the GPL, which is nice.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-348">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/abc50d59ef1ac8472737483abc7d870d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Adam</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-348">
+        <time class="published" datetime="2005-10-02T11:51:05+00:00">02 Oct 2005, 11:51</time>
+      </a>
+      <div class="entry-content"><p>Excellent find Ben :) Looks like I finally have a solution to having an American keyboard, but using a British layout. The result of which is I lose my  key, and remembering the <span class="caps">ASCII</span> code for it is a pain</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-349">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/fb7d81b172292b6034f9c1747d5b11e0.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.fatbusinessman.com/">FatBusinessman</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-349">
+        <time class="published" datetime="2005-10-02T22:16:13+00:00">02 Oct 2005, 22:16</time>
+      </a>
+      <div class="entry-content"><p>I&#8217;ve found a really good way to get OS X-style keyboard functionality, OS X-style security and OS X-style usability, all in one go.You can guess what it is, can&#8217;t you?</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-350">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-350">
+        <time class="published" datetime="2005-10-03T00:55:13+00:00">03 Oct 2005, 00:55</time>
+      </a>
+      <div class="entry-content"><p>Soon you&#8217;ll have to get a job. Maybe you&#8217;ll get a job exclusively using Macs, but maybe you won&#8217;t.</p>
+<p>If the latter, perhaps we&#8217;ll see you back at this blog post in a few months time, eh?</p></div>
+    </article></li>
+  </ol>
+</div></notextile>
+
+<notextile><div class="pingbacks hfeed" id="pingbacks">
+  <h2>Pingbacks</h2>
+  <ul>
+    <li class="hentry" id="pingback-906">
+      <a rel="bookmark" class="entry-title" href="http://nascentguruism.com/journal/mac-os-x-keyboard-layouts-on-windows">Mac OS X Keyboard Layouts on Windows / archive / nascentguruism</a>
+    </li>
+  </ul>
+</div></notextile>

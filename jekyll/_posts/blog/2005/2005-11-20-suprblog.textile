@@ -1,0 +1,12 @@
+---
+layout: blog
+category: blog
+title: "SuprBlog"
+date: "2005-11-20T22:57:43-01:00"
+updated: "2005-11-20T22:58:35-01:00"
+tags: ["all", "suprglu", "feeds", "aggregation", "ben-ward"]
+atomid: http://ben-ward.co.uk/journal/suprblog/
+---
+I can't quite decide if <a href="http://suprglu.com">SuprGlu</a> is really useful or not, but it pulls a rather neat trick of munging every piece of Ben Ward related data on the Interweb <a href="http://benward.suprglu.com">into a single page</a>.
+
+Via <a href="http://dhs.neuropirate.com/2005/11/suprglu">DHS</a>.

@@ -1,0 +1,73 @@
+---
+layout: blog
+category: blog
+title: "Word style \"Split Window\" function in Firefox"
+date: "2004-12-02T22:53:23+00:00"
+tags: ["technology"]
+atomid: tag:benward.me,2004-12-02:/blog/word_style_split_window_function_in_fire
+---
+One of my most desired features in <a href="http://www.getfirefox.com" title="Mozilla Firefox">Firefox</a> is to have a "Split Window" view, like you can have in Microsoft Word (and probably others too). It displays the same document in two panes, one above the other and lets you scroll to a different position in each each. Immensely useful if you're trying to keep track of a previous part of a document while reading further on.
+
+The application in web pages is arguably better still as you are able to scroll to the "Reply" box on a web forum, while scrolling up to some post you want to quote without losing your place.
+
+While there's no extension to do this, you can use a Bookmarklet (a piece of JavaScript, saved as a Bookmark) to apply the change.
+
+<blockquote><a href="javascript:w=window.open('');w.document.write('&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;frameset rows=\'50%,*\'&gt;&lt;frame src=' + location.href + '&gt;&lt;frame src=' + location.href + '&gt;&lt;/frameset&gt;&lt;/html&gt;')" title="Split this page">split document</a> -- bookmark or click on this link</blockquote>
+
+You can click on the above link to see a demonstration, or bookmark it to make it accessible from your Bookmarks menu on all/any page.
+
+It works very well, though as a word of warning I'd advise against using this <em>after</em> you've started writing in a form on a website as it will reload the page, losing anything you've written. It's a drawback that maybe a proper Firefox extension could evade.
+
+<h4>Update:</h4>
+After a little testing, this particular bookmarklet doesn't work in IE or Opera so it's probably Firefox users only (we have no testing Mac at work right now). There's no reason why such a thing couldn't be better coded to work on multiple browsers though, or at least there shouldn't be.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-219">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/b5a94b37532c7afb376b19f7dd19d226.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ww.jmesnil.net">Jeff Mesnil</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-219">
+        <time class="published" datetime="2005-01-26T15:44:24+00:00">26 Jan 2005, 15:44</time>
+      </a>
+      <div class="entry-content"><p>I did a better version which worked on IE and Safari in addition to Firefox:<br />
+http://www.jmesnil.net/weblog/2004/07/updated-split-bookmarklets-works-on.html</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-220">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/55eb61cc7259cf23a98114d3e2ed8160.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Jon</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-220">
+        <time class="published" datetime="2005-02-15T21:59:49+00:00">15 Feb 2005, 21:59</time>
+      </a>
+      <div class="entry-content"><p>So I&#8217;m tempted to try this out; however, I don&#8217;t get a right-click link to save/add to my bookmarks in FF 1.0 (SuSE), and also can&#8217;t figure out how to un-split the page after splitting it&#8230;<br />
+Would be great if this could be modded to work in OpenOffice, since they lack that feature.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-221">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-221">
+        <time class="published" datetime="2005-02-15T22:31:30+00:00">15 Feb 2005, 22:31</time>
+      </a>
+      <div class="entry-content"><p>Well, I&#8217;m not sure about the right click problems in SuSE, I&#8217;m afraid. Undoing the split is as simple as reloading the page &#8211; either by clicking in the address bar and hitting [enter] or pressing [Refresh] should do the trick.</p>
+<p>Oh and Jeff, thanks for the comment. The new version is outstandingly good.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-596">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/f072832d067c23252b8aadd0495a752e.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">capiCrimm</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-596">
+        <time class="published" datetime="2005-12-14T04:23:18-01:00">14 Dec 2005, 04:23</time>
+      </a>
+      <div class="entry-content"><p>konqueror already has this.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

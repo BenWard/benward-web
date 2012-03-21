@@ -1,0 +1,21 @@
+---
+layout: blog
+category: blog
+title: "Two Point Oh Yeah!"
+date: "2006-09-09T11:56:42+00:00"
+updated: "2006-09-09T11:58:22+00:00"
+tags: ["all", "events", "twopointohyeah-tshirts-dconstruct-dconstruct06"]
+atomid: http://ben-ward.co.uk/journal/twopointohyeah/
+---
+<img class="splash" src="http://www.spreadshirt.net/image.php?type=image&partner_id=502963&product_id=3967110&img_id=1&size=huge&bgcolor_images=white" alt="" />
+<a href="http://2006.dconstruct.org">d.Construct</a> was an absolute blast and I'll try to write it up properly soon. Meanwhile, I have to move to Birmingham so I've been trying to finish the website for <a href="http://36-degrees.co.uk">Stuart</a> and my little side project.
+
+<strong>Presenting <a href="http://twopointohyeah.com">Two Point <em>Oh Yeah</em></a>! T-Shirts for the AJAX generation.</strong>
+
+A few of us have been wearing the tees for a week now and the ‘Well Fed’ feed icon design has gone down a storm. We've not got the website how we'd like it just yet, but since demand is there we've got a placeholder to tide you over and you can buy the shirts directly from Spreadshirt who're doing the printing.
+
+There are separate stores for the <a href="http://twopointohyeah.spreadshirt.com">US</a> and <a href="http://twopointohyeah.spreadshirt.net">European</a> orders, so import taxes and transatlantic shipping need not be a problem.
+
+The full website will drop in a week or so at <a href="http://twopointohyeah.com">twopointohyeah.com</a>, once I've moved and regained internet access.
+
+Enjoy!

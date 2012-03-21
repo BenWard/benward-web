@@ -1,0 +1,49 @@
+---
+layout: blog
+category: blog
+title: "OK Computer is 10"
+date: "2007-06-18T10:59:32+00:00"
+updated: "2007-06-18T11:11:22+00:00"
+tags: ["music", "radiohead", "ok-computer", "ten", "anniversary"]
+atomid: http://ben-ward.co.uk/journal/ok-computer/
+---
+<a href="http://www.flickr.com/photos/paulhudson/276082587/"><img class="flickr splash" src="http://farm1.static.flickr.com/103/276082587_ed1183af5e_m.jpg" title="Couple, photographed by Paul Hudson" alt="" /></a>
+
+10 years ago, on Monday June 16th 1997, OK Computer was released. This record changed my life and the reality that an entire decade has passed with it as my persistent soundtrack is both awesome and terrifying.
+
+Take some time to play it today, all the way through. It's rare that something so special is created; 58 minutes and 45 seconds of your time is the least you can give.
+
+<blockquote>You know, you know where you are with, 
+you know where you are with, 
+floor collapsing, falling, bouncing back 
+and one day, I am gonna grow wings</blockquote>
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-114107">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/bf4c865dc3c2935766557698a7810c56.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.scottoraw.co.uk">Scott O'Raw</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-114107">
+        <time class="published" datetime="2007-06-18T11:55:03+00:00">18 Jun 2007, 11:55</time>
+      </a>
+      <div class="entry-content"><p>Ben, that is so weird.  I listened to OK Computer this morning, completely on a whim, not having listened to it for some time.</p>
+<p>I also had no idea that it was 10 years old.</p>
+<p>10 years, though.  Blimey! Seems like only yesterday, etc, etc.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-114162">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/98b898f7e6d5e0a8e729625096839825.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://cyrildoussin.com">Cyril Doussin</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-114162">
+        <time class="published" datetime="2007-06-18T13:44:52+00:00">18 Jun 2007, 13:44</time>
+      </a>
+      <div class="entry-content"><p>thanks for making me feel old&#8230;</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

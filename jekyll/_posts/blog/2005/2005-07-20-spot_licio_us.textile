@@ -1,0 +1,19 @@
+---
+layout: blog
+category: blog
+title: "Spot.licio.us"
+date: "2005-07-20T22:00:32+00:00"
+tags: ["technology"]
+atomid: tag:benward.me,2005-07-20:/blog/spot_licio_us
+---
+The more I play with my Mac, the more I like. I vow that I shall write something not about the Mac soon. But for now, read this. It's stupidly cool. And I'll try and keep it shorter, too.
+
+As you'll note from the current recent entry in my sidebar, all my 'link blog' bookmarks are now stored in <a href="http://del.icio.us/Shovel">Del.icio.us</a> (online bookmarks, with tags ala Flickr).
+
+Mac OSX has a cool integrated desktop search feature called <a href="http://www.apple.com/macosx/features/spotlight/">Spotlight</a> and you can install a selection of plug-ins to enhance it. The following screenshot should reveal everything that's cool about this.
+
+<a href="http://www.apple.com/downloads/macosx/spotlight/delimport.html" title="delimport">Such a plug-in exists</a> to allow searching Del.icio.us bookmarks from Spotlight. It means that you simply <em>don't need</em> to use the Bookmarks feature in your browser. Just hit <kbd title="Command">?</kbd>+Space and type a tag name, or the name of the site. Hit <kbd>Return</kbd> and the site loads in the default browser.
+
+<img class="screenshot" src="/media/splashes/spot.licio.us.splash.jpg"  alt="Bookmarks from Del.icio.us are listed alongside any other local content on your computer that matches your search. In this case, I search for �webdev� and receive everything with the corresponding tag in Del.icio.us." />
+
+It's gorgeously slick and means I wont ever need to worry about syncing my bookmarks from PC to Mac and browser-to-browser.

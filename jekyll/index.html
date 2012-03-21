@@ -1,0 +1,17 @@
+---
+layout: base
+---
+<section class="hfeed recent">
+  {% include cover.html %}
+  <h1>Recent Posts</h1>
+  <ol class="posts">
+  {% for post in site.categories.blog limit: 10 %}
+  {% capture last_date %}{{post.date | date: "%Y/%m"}}{% endcapture %}
+  <li>{% include post_summary.html %}</li>
+  {% endfor %}
+  </ol>
+  <footer><nav>
+    <a rel="up" href="/{{last_date}}">↑ Archive</a>
+    <a href="/network">⇶ Elsewhere</a>
+  </nav></footer>
+</section>

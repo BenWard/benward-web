@@ -1,0 +1,90 @@
+---
+layout: blog
+category: blog
+title: "Unoffical Radiohead Album Covers"
+date: "2004-10-26T23:24:53+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2004-10-26:/blog/unoffical_radiohead_album_covers
+---
+I've been slowly working through my iTunes music library adding album art to my MP3s this week. (Aside: damn them and their rather-too-soon-for-my-liking <a href="http://www.apple.com/ipodphoto/" title="Apple iPod Photo (aka Colour iPod)">Colour Screen iPods</a>). While <a href="http://www.amazon.co.uk" title="Amazon.co.uk">Amazon</a> generally provides good quality album art at an optimal size of 300<abbr title="by">x</abbr>300 <abbr title="Pixels">px</abbr> I've hit situations where album art simply does not exist. Tonight was <a href="http://www.radiohead.com" title="Radiohead homepage">Radiohead</a> night, revealing problems with live shows and bootleg albums which (unsurprisingly) Amazon do not stock.
+
+My solution was to make my own. Just two for now, 'cause I'm tired and want to go to bed, but here is 300x300 px 'album' artwork for <cite>Radiohead - Live on Later with Jools Holland</cite> (BBC, 2000) which still exists on my PC in MP3, having been through the formats of VHS video tape, Mini Disc before this point. Also (and the one which I'm rather more proud of as it required some actual original work) is Radiohead's 'Big Top' show from Victoria Park (Kid A release show, I think, also in 2000).
+
+<img src="/media/Radiohead_Later.jpg" alt="Radiohead - Live On Later Album Art" title="Radiohead - Live on Later (2000)" />
+The <abbr title="Radiohead - Live on Later">"...Later"</abbr> artwork comes from the BBC logo for (television program) <cite>Later with Jools Holland</cite> and an image which I believe was used in the broadcast of the Radiohead show itself, showing Ed O'Brian on stage.
+
+<img src="/media/Radiohead-Victoria-Park.jpg" alt="Radiohead - Live In Victoria Park Album Art" title="Radiohead - Live in Victoria Park (2000)" />
+For the Victoria Park show, I've taken a scan of an official ticket from the event (not mine, sadly), extended it to be square and moved the upper and lower text of the ticket the top and bottom respectively. Then I've taken a from-afar image of the Victoria Park tent and drawn around its silhouette and finally applied the Radiohead bear as a repeating background to the tent, as was the style of some of the Kid A era promotion posters. I've also coloured one of the bears red, 'cause it looked cool.
+
+I hope other people with copies of these recordings find a nice use for the artwork. Anyone without will have to hunt for themselves I'm afraid as I really don't have the time to send out copies on request. The Victoria Park show (generally available as one very large MP3) would be my greater recommendation over the Later... gig.
+
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-207">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/980bf3c85a328858dcd190433ec21e59.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Nathan</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-207">
+        <time class="published" datetime="2004-10-27T22:57:06+00:00">27 Oct 2004, 22:57</time>
+      </a>
+      <div class="entry-content"><p>And who do you need to thank for finding that Gig? You wouldn&#8217;t have that if i hadn&#8217;t sat patiently downloading it for 27 hours! Stupid people with modems.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-208">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-208">
+        <time class="published" datetime="2004-10-29T00:53:19+00:00">29 Oct 2004, 00:53</time>
+      </a>
+      <div class="entry-content"><p>Indeed Naith, I am very grateful for you finding that gig for me. Have you figured out how to add the album art into iTunes then?</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-209">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e1a333336aec4b12563cf9917117cb7e.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.resintheband.comcomingsoon">josh</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-209">
+        <time class="published" datetime="2004-10-29T17:29:26+00:00">29 Oct 2004, 17:29</time>
+      </a>
+      <div class="entry-content"><p>who&#8217;s naith? and you call yourself family&#8230;</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-210">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-210">
+        <time class="published" datetime="2004-10-29T17:56:16+00:00">29 Oct 2004, 17:56</time>
+      </a>
+      <div class="entry-content"><p>He gets called Naith regularly at home. What&#8217;s wrong with writing it? Surely &#8220;Nath&#8221; would be pronounced differently? Jo recon&#8217;s there&#8217;s another spelling of Nathan, mind, so maybe I&#8217;m wrong.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-436">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/71536d7db88dcae62c7a28c5a3c9b4c3.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://spaces.msn.com/members/bzoherbert">buzoherbert</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-436">
+        <time class="published" datetime="2005-11-14T14:05:51-01:00">14 Nov 2005, 14:05</time>
+      </a>
+      <div class="entry-content"><p>I loved the work you&#8217;ve done with that covers, im expecting you to publish some other radiohead&#8217;s bootleg albums.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-53855">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/8f614f2f562e11507ea43ca0e91cfda8.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Virus</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-53855">
+        <time class="published" datetime="2006-12-21T00:44:38+00:00">21 Dec 2006, 00:44</time>
+      </a>
+      <div class="entry-content"><p>Could someone scan and send me the The Bends CD label (not the cd cover&#8230; the CD itself!!!) High resolution plz!!!</p>
+<p>Thanks!!!</p>
+<p>virusib@yahoo.com</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

@@ -1,0 +1,16 @@
+---
+layout: blog
+category: blog
+title: "Ugh, spammed."
+date: "2004-10-13T13:42:23+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2004-10-13:/blog/ugh_spammed
+---
+Apologies to those few who try to read this blog regularly. The site has been down for a few days while my ever-helpful host (NeatHosting) tried to handle my site being spammed for all corners of the globe.
+
+The problem centres around b2Evolution's stats page and has been a cause of spam attacks for a variety of people using the software. It's a bit of a worry, but given spammer's Google-rank motivated obsession with Blogs, it's inevitable that they'll look for vulnerabilities like this. What makes less sense is whether the is actually any true benefit in spamming a site or whether it's just childish payback for running a site with a comment-spam filter. The stats page is targeted, apparently, because it can be read from Google and if another spammer has got themselves present on that list then other spammers will target that stats page...
+
+
+... that doesn't make any sense I know. It still leaves the insatiable question: <strong>Why?!</strong>.
+
+Oh well, it's back now. Mustn't grumble.

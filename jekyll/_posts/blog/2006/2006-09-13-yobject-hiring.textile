@@ -1,0 +1,23 @@
+---
+layout: blog
+category: blog
+title: "Wanted: .NET Web Application Developer, Birmingham UK"
+date: "2006-09-13T13:01:42+00:00"
+updated: "2006-10-03T09:14:04+00:00"
+tags: ["all", "yobject", "work", "job", "birmingham", "recruitment", "web-application-developer", "vacancy", "webapps"]
+atomid: http://ben-ward.co.uk/journal/yobject-hiring/
+---
+I've been in my new job three days and already I get to advertise for a colleague, things are moving quite fast here.
+
+<div class="vcard">We at <span class="fn org">Yobject</span> are in the process of building a large scale web application in C# for .NET 2.0 and SQL Server 2005.
+
+We're looking for another thoughful and creative developer to join us full time in <span class="locality">Birmingham</span> building the Yobject app and establishing our online presence (you noted the absence of a hyperlink on ‘Yobject’ above? That's not a typo). You'll initially be expected to jump straight in and work with the design we're building at the moment, but you can expect to input ideas on everything else that happens from day one onwards.
+
+Social networking is crowded. We know that. But we're working in a niche which makes it all viable and we're looking for great ideas that will set us well apart.
+
+You'll need experience with C#, ASP.NET and Microsoft SQL Server (we're using .NET 2.0 and SQL Server 2005), with a good working knowledge of web standards. Experience with modern JavaScript DOM scripting is advantageous and competence with Fireworks or Photoshop would be useful too. From a personal perspective, getting on well with me would be a plus and if you're a Microformats junkie then you may just find yourself loving the app we're building.
+
+<del>If you're interested, <a href="/#benmichaelward">get in touch with me</a> by <a class="email" href="mailto:mail@ben-ward.co.uk">email</a> or otherwise, with some explaination of your skills and experience, some examples of your work and where to find your blog.</del><del>
+
+<ins>Update: We've now filled this vacancy. Future roles will be plugged her as well. Thanks.</ins>
+</del></div>

@@ -1,0 +1,107 @@
+---
+layout: blog
+category: blog
+title: "Office �12�; Microsoft waking up"
+date: "2005-10-03T16:42:02+00:00"
+tags: ["all", "technology", "software", "microsoft", "vista", "windows", "design"]
+atomid: tag:benward.me,2005-10-03:/blog/office_12_first_look
+---
+Many of you will already have seen the preview screenshots of Microsoft's next release of Office. Currently referred to as �Office 12�, it will likely arrive in  late 2006.
+
+Microsoft have been busy of late. Windows Vista is finally showing progress (all the features from MacOSX are just about in�) and they've recently been plugging away at the new revision of Office. Screenshots are emerging and quite unexpectedly, I'm extremely impressed.
+<!--more-->
+
+Microsoft have been criticised rather a lot over recent years because Office has evolved very little. In fact, the word �evolution� seems far to strong. Office 12 changes this rather. It's the first piece of genuinely unique and innovative UI I can recall seeing from Microsoft for a few years. I guess OneNote was a bit different in appearance, although it was really just a port of Word:Mac's �Notebook� functionality.
+
+Office 12 perhaps demonstrates a realisation that MS have been sitting on their laurels and the <a href="http://www.microsoft.com/office/preview/uioverview.mspx" title="The New Microsoft Office User Interface Overview">first screenshots</a> look like it's going to try and really change the way people use the software.
+
+<img class="screenshot" src="/media/Office12/CommandTabs.jpg" alt="Office 12 introduces �Command Tabs�, replacing much of the old toolbar menu functionality and changing the way in which the icon toolbars are used." />
+
+Before I continue (and before some pedantic type jumps straight to the comments) <em>I know that a handful of pre-beta screenshots is not a very reliable way to judge to functionality, quality or box-colour of software</em>. However, whilst the preview screenshots of Windows Vista have been largely underwhelming, offering minimal clues as to what using Vista will really be like, there's something striking about the new Office interface. Please bear with me.
+
+Vista's screenshots are bad to judge because you have to guess at huge parts of the functionality. Thus, responding with �Vista rules!� or �Vista sucks and is just copying all Apple's progress from the past five years!� are both equally useless and unsubstantiated phrases. The reason I think it's worth talking about the Office screenshots is that these screens leave much less to the imagination. You can clearly see where the old functionality has been altered and you can immediately see how the new UI is supposed to be used. That doesn't mean it <em>will</em> work intuitively (though if it doesn't then someone in the Office team will need a good slapping) and it doesn't mean that Office 12 won't somehow suck, but I think it's a more solid foundation on which to base an opinion.
+
+Disclaimer aside, here's why the new interface might just see Microsoft leap ahead of the competition.
+
+Right now, Office contains <em>a lot</em> of functionality. Some would call it bloat, but I'm fairly sure that all of the functionality is used by different groups of people in different places. The collaboration stuff that ties into SharePoint, for example, is useless to the home user but yet invaluable to a team with the misfortune of a SharePoint deployment. Then there's the functionality for reviewing changes, drawing, email, layout and inserting external content into documents. It's all munged together into the File/View/Tools menu structure and free-form toolbars.
+
+What Office 12 is doing is to say: �Why do you need the drawing tools when you're not drawing? Why do you need writing tools available when you are?�. And that's it. That's the entire UI change in a single sentence and it's bloody brilliant.
+
+Tabs along the top of the application determine which tools are available to you. Choose �Write� in Word and you have access to fonts and formatting controls. Choose �Layout� and you get the page orientation options. Both useful sets of functionality but what the Office 12 team have done is to logically group them by context. It seems painfully simple now that it exists, but no-one had done it before. OpenOffice.org just copied the established Office 97 look, so did all the knock-off suites.
+
+First-time users will see clearly named tabs and should need very little instruction on how to start using the new Word. Existing users should take very little time to get accustomed to the new layout and based on the grief I have trying to find functionality in Word's existing labyrinth of menus, I can't see how it won't boost productivity.
+
+Office 12 is also confirmed to have integrated support for PDF (theoretically superior to existing PDF �printers� and if <a href="http://blogs.msdn.com/brian_jones/archive/2005/10/01/476067.aspx#476148">Joe Clark bullies them enough</a>, may allow for accessible PDF tagging too), plus the new �Open� XML formats should allow for some quite fancy document extensibility. Office 12 looks like a  genuinely tasty proposition.
+
+There's loads of further reading on Office 12 thanks to Microsoft's new love for blogging. A lot of it I only discovered after writing all this so my effort may now be completely redundant.
+<ul><li><a href="http://blogs.msdn.com/jensenh/">Jenson Harris' Office User Experience Blog</a></li>
+<li><a href="http://www.microsoft.com/office/preview/default.mspx">Microsoft's Office Preview Site</a></li>
+<li><a href="http://neowin.net/comments.php?id=30382&amp;category=main&amp;highlight=">More screenshots at Neowin</a></li></ul>
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-362">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/8e0293544b13499460369217e2a7febd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://charlvn.za.net">Charl van Niekerk</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-362">
+        <time class="published" datetime="2005-10-07T13:10:35-01:00">07 Oct 2005, 13:10</time>
+      </a>
+      <div class="entry-content"><p>The theme looks particularly like Aqua, but I really like the softer colours (the default on XP is too harsh and Aqua sometimes too).</p>
+<p>As far as the layout is concerned, it looks brilliant. Can&#8217;t wait to use it (although I guess I&#8217;ll have to wait a <em>long</em> time for that). :)</p>
+<p>It seems like Microsoft is indeed finally getting its act together (in certain respects).</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-364">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-364">
+        <time class="published" datetime="2005-10-08T17:20:48-01:00">08 Oct 2005, 17:20</time>
+      </a>
+      <div class="entry-content"><p>Yes, there is a certain <span class="caps">OSX</span>-ness, especially in the tab highlighting. That seems to be inevitable in current trends though. Apple have produced the best user-experience and it&#8217;s understandable that other companies are having trouble emulating the quality without emulating the look too.</p>
+<p>I&#8217;m trying to get together my thoughts on how this affects the Open Source community (something which I&#8217;m sure you&#8217;ll have far more intelligent awareness of than I, Charl). I mean, last I looked, OpenOffice was a competent clone of Microsoft Office circa 97-2000. Functional but chunky and unattractive widgets, combined with the same � Office suite� design stagnation that Microsoft have been stuck in prior to these new screenshots. What does oo.org do? Do they just shamelessly re-clone whatever Office 12 ships with if it proves better?</p>
+<p>Something that strikes me as a problem in <span class="caps">OSS</span> development is the lack of UI design quality. Apart from Firefox, which was something of a wake-up call to all that �UI matters�. The �Microsoft vs. Linux� debate has long been extremely political, but if Microsoft simply produce better software I don&#8217;t see what the likes of OpenOffice can do. Innovating in the area of user-experience is something that makes a gigantic difference to end-users, and I&#8217;ve not seen evidence that <span class="caps">OSS</span> projects possess the resources, design talent and inclination the keep up.</p>
+<p>� I mean no offence to talented UI designers who contribute to <span class="caps">OSS</span> projects. I&#8217;m just under the impression that there&#8217;re not very many of them.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-375">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/8e0293544b13499460369217e2a7febd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://charlvn.za.net">Charl van Niekerk</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-375">
+        <time class="published" datetime="2005-10-12T08:09:07-01:00">12 Oct 2005, 08:09</time>
+      </a>
+      <div class="entry-content"><p>What you say is very true; especially the new Open Office 2.0 on Windows is quite a Microsoft Office 2003 look-alike complete with theme and all. Some technical terms have even been changed to be more consistent with Microsoft Office. Actually, they acknowledge this quite openly; it&#8217;s part of their strategy to win more market share by making Microsoft Office users &#8220;feel at home&#8221; and thus making the migration process easier.</p>
+<p>Underneath the skin, there are quite a few innovations in UI design; many things are accomplished much easier in Open Office than in Microsoft Office for both the novice and the expert, but sadly some of the more advanced formatting features of Microsoft Office isn&#8217;t present in Open Office yet. Apparently this was to avoid feature bloat, which I guess is fair, but I liked some of the features that let you set cool faded backgrounds on stuff, etc easily without opening the Gimp (or equivalent).</p>
+<p>But 10 to 1, if Microsoft makes a success out of their new Office, Open Office will copy the good ideas. :)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-376">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-376">
+        <time class="published" datetime="2005-10-12T10:13:13-01:00">12 Oct 2005, 10:13</time>
+      </a>
+      <div class="entry-content"><p>It&#8217;s good to hear that that OpenOffice is trying to move away from bloat. I still recall ranting somewhat about the presence of a media player in its tools menu.</p>
+<p>In my view, Firefox is a big success UI wise. They didn&#8217;t �clone� Internet Explorer, they built something similar by obeying some very intelligent design goals. They also followed the <span class="caps">HIG</span> guidelines of the respective operating systems they were running on (which makes a <strong>huge</strong> difference to the quality of the product). It&#8217;s a frustrating shame that by-and-large the authors of many extensions don&#8217;t have the same ethic (by which I mean: �Not everything should be on the �Tools� menu�, but that&#8217;s another post).</p>
+<p>It was interesting to see the emergence of the <a href="http://tango-project.org/" rel="nofollow">Tango</a> project this week. Whilst they seem initially focused on creating a universal icon set for Linux, I do get the feeling that if they succeed, promoting some sensible <span class="caps">HIG</span> guidelines for all software on Linux could be a logical step for them. I know that the Gnome desktop already has some guidelines (good for them), but the problem is that few people seem to take note of them.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-380">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/8e0293544b13499460369217e2a7febd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://charlvn.za.net">Charl van Niekerk</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-380">
+        <time class="published" datetime="2005-10-12T17:42:26-01:00">12 Oct 2005, 17:42</time>
+      </a>
+      <div class="entry-content"><p>Yeah Gnome guidelines seem to be followed by quite a few applications but most Linux users I know of don&#8217;t use Gnome anyway (<span class="caps">KDE</span> seems to be more popular in the circles I move in). It looks weird to have an application that looks like Gnome running on <span class="caps">KDE</span>.</p>
+<p>Cross-desktop environment guidelines sound like the right thing; then people can follow those for consistency across all desktop environments.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

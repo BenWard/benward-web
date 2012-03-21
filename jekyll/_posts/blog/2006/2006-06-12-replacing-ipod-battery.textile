@@ -1,0 +1,61 @@
+---
+layout: blog
+category: blog
+title: "Replacing an iPod Battery"
+date: "2006-06-12T16:43:00+00:00"
+updated: "2006-06-12T16:47:01+00:00"
+tags: ["technology", "ipod", "battery", "electronics", "repair", "replacement", "howto"]
+atomid: http://ben-ward.co.uk/journal/replacing-ipod-battery/
+---
+<a href="http://www.flickr.com/photos/benward/165681263/" title="‘New Battery In Place’ on Flickr"><img class="splash" src="http://static.flickr.com/53/165681263_591a5e2fdc_m.jpg" alt="" /></a> My 4th Generation iPod is getting on a bit and as with all rechargeable batteries that get such heavy use, the lifespan between charges was dwindling. You can send iPods back to Apple for replacements, but this costs a not insubstantial amount of money (it’s in the 'why not just save a little more for a new iPod territory).
+
+What you can also do is buy a third party battery for about £20 and fit it yourself. Being the enthusiastic-come-stupid sort, this is the option I went for. Another advantage of fitting your own is that you'll find many third party batteries have a higher capacity than the original iPod battery. Being a sucker for big numbers I bough a <a href="http://www.mdsbattery.co.uk/shop/productprofile.asp?ProductGroupID=1952">High Capacity battery</a>, rated 1200mAh over the original iPod's 630mAh. Theoretically that's a 90% improvement in battery life that finally drags the iPod 4G into the > 20 hour range that its competitors held.
+
+Instructions on how to do it are a little limited (MDS Battery link to <a href="http://www.mdsbattery.co.uk/images/products/iPod_battery_installation_guide.pdf">text-only PDF instructions</a> which are useful, but not exactly easy). With this in mind I took a number of photographs as I went along and have documented them as best I can on Flickr.
+
+Having successfully transplanted my iPod battery I have this to say: Don't do it unless you're comfortable messing about in electronics, have a steady hand and are willing to risk breaking your iPod. It's fiddly, takes patience and isn't really 'consumer friendly' (but then, we knew that when we bought iPods in the first place).
+
+With that in mind, take a look at my <a href="http://flickr.com/photos/benward/sets/72157594163512613/">iPod Autopsy Set on Flickr</a>. Usual ‘don't blame me if you break it’ disclaimers apply but I'll happily try to answer questions here and on Flickr for the curious.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-3675">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">IBBoard</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-3675">
+        <time class="published" datetime="2006-06-13T08:28:24+00:00">13 Jun 2006, 08:28</time>
+      </a>
+      <div class="entry-content"><p>Sounds like you had fun! My Fiancee&#8217;s iPod died of hard-disk failure at about 11 months of owning, but 13-14 months after purchase (because her mum bought it while she was over in America as a Christmas present) so again Apple put new hard-disk in the &#8220;but a new one for a tenner more&#8221; category. I was going to keep it and put a new HD in it when I felt I needed an MP3 player, but then she ended up throwing it away because it was cluttering the place up :(</p>
+<p>Oh well, don&#8217;t really need an iPod anyway :D</p>
+<p>Hope you get the battery life you think you should ;)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-3691">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/6dd3df0160f1b2f003f17b663587e5e5.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://joeblade.com">paul haine</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-3691">
+        <time class="published" datetime="2006-06-13T16:30:22+00:00">13 Jun 2006, 16:30</time>
+      </a>
+      <div class="entry-content"><p>I did this recently myself, as my ipod of 2-and-a-bit years was only holding a charge for about two hours. I went with Sonnet&#8217;s battery: http://www.sonnettech.com/product/ipod/batteries/index.html</p>
+<p>They&#8217;re very good, and came with a video showing exactly what to do. The hardest part I found was just getting the case open &#8211; it took a lot of force and I worried I&#8217;d break it.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-54584">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/74cf97095e69387abcb67ebb29584e04.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Mat West</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-54584">
+        <time class="published" datetime="2007-01-06T17:42:26+00:00">06 Jan 2007, 17:42</time>
+      </a>
+      <div class="entry-content"><p>It&#8217;s actually suprisingly easy to replace the battery in the iPod.</p>
+<p>I replaced the battery on my 3rd Generation iPod with a Sonnet replacement iPod battery from myBoomBox (<a href="http://www.myboombox.co.uk/ipod-battery-upgrades-c-41.html" rel="nofollow">http://www.myboombox.co.uk/ipod-battery-upgrades-c-41.html</a>).</p>
+<p>As the previous comment says it comes with really good video explaining how to open the iPod case and install the battery.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

@@ -1,0 +1,39 @@
+---
+layout: blog
+category: blog
+title: "Rename system folders in Windows"
+date: "2005-07-07T00:07:19+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2005-07-07:/blog/rename_folders_in_windows
+---
+Windows has a ghastly love for prefixing the word 'My' to the names of various folders. It's a pain to type and it's unpleasant to read. You can, of course, rename most of these in the usual Windows way. On my systems, 'My Computer' quickly becomes 'Computer' and 'My' is culled from all the other 'My' folders too. You can use a tool like <a href="http://www.microsoft.com/windowsxp/downloads/powertoys/xppowertoys.mspx">Tweak UI</a> to change the location of Pictures and Music.
+
+This is all very well, but what I hadn't realised until a few months ago (and which has just come to my attention again, hence blogging it) is that your renamed system folders are also accessible from the address bar auto-complete, so you can type <kbd>Computer\Control Panel</kbd> and access the control panel.
+
+<img src="/media/postimages/Windows.Autocomplete.Computer.jpg" alt="" />
+
+Extending this principal a bit, you can give yourself fantastic shorthand access to parts of the computer. I've renamed 'My Documents' to '~' - ala the Unix home directory name. Windows has the 'My Documents' and 'Home' directories a bit confused at the best of times ('Home' exists but is hidden away, so 'My Documents' ends up as the dumping group for a number things which aren't really documents at all).
+
+The point of this? Now, I can type <kbd>~\Pictures</kbd> and I get to My Pictures. I can type <kbd>~\Letters</kbd> and get to my letters directory. With the old, clumsy default names I would very rarely bother with typing into the address bar at all.
+
+<img src="/media/postimages/Windows.Autocomplete.Documents.jpg" alt="" />
+
+For those who are viewing it, the image above <em>does</em> contain a few 'My' prefixed folder names. I've gotten lazy.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-304">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/dc17387f19d96d6aeb53a0a9a02418dd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.jonty.me.uk/">Jonty</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-304">
+        <time class="published" datetime="2005-07-07T09:14:17+00:00">07 Jul 2005, 09:14</time>
+      </a>
+      <div class="entry-content"><p>I believe Microsoft share your view, Ben :) The original &#8216;My&#8217; prefix was intended to create some sort of personal bond between users and their files/computer. In <a href="http://www.microsoft.com/windows/longhorn/default.mspx" title="Learn more about the Longhorn operating system" rel="nofollow">Longhorn</a> Microsoft original decided to promote &#8216;Libraries&#8217; as a suffix replacing &#8216;My&#8217;. Now I believe the latest betas have ditched both and just gone, like you, with good ol&#8217; &#8216;Pictures&#8217;, &#8216;Documents&#8217; and other folders.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

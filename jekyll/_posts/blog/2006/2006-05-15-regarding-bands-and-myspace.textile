@@ -1,0 +1,66 @@
+---
+layout: blog
+category: blog
+title: "Regarding bands and MySpace"
+date: "2006-05-15T17:03:52+00:00"
+updated: "2006-05-15T17:03:52+00:00"
+tags: ["all", "music", "myspace", "web", "bands", "rants", "lisa-brown", "snowfight-in-the-city-centre"]
+atomid: http://ben-ward.co.uk/journal/regarding-bands-and-myspace/
+---
+I shall say this only once, or perhaps thrice:
+
+<strong>Just because MySpace is irreconcilably popular, does not mean that you - a band - can cop out and present it in place of a proper web site.</strong>
+
+<a href="http://www.lisabrown.net/">Lisa Brown/Snowfight in the City Centre</a>, I'm looking it you. It's <em>really annoying</em>.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-2430">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">IBBoard</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2430">
+        <time class="published" datetime="2006-05-16T09:35:44+00:00">16 May 2006, 09:35</time>
+      </a>
+      <div class="entry-content"><p>Yeah, it is a poor show for them to end up doing that. My Vitriol used to have a proper website, but now MyVitriol.com is just a load of press quotes and a link to their MySpace page. Although, even worse with MyVitriol is the style that they&#8217;ve changed it to at some point between now and my last visit a few months ago :| and the performance on the scroll isn&#8217;t too great in Firefox either (too much random scrolling Flash)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-2686">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/a7d7ce9d25a1e09b5c5f1ec1f0c2513f.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">ghww</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2686">
+        <time class="published" datetime="2006-05-22T12:58:17+00:00">22 May 2006, 12:58</time>
+      </a>
+      <div class="entry-content"><p>While I&#8217;m on here, I&#8217;ll also take this chance to slag of myspace. Who decided it was a good idea? It looks utterly shite, is a stupid idea (a better format would be just to have a searchable directory of <span class="caps">PROPER</span> band websites), and to cap it all it&#8217;s owned by Rupert Murdoch. Pah!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-2732">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">IBBoard</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2732">
+        <time class="published" datetime="2006-05-23T13:24:08+00:00">23 May 2006, 13:24</time>
+      </a>
+      <div class="entry-content"><p>Rupert Murdoch? <span class="caps">LOL</span>, that&#8217;d sound about right.</p>
+<p>MySpace does seem like a place for whining emo kids, though. There&#8217;s someone on the FileFront forums who came in, asked for something, started complaining when people were trying to help him do it himself (because it was a fairly simple thing) and then he went off on a rant saying about how he didn&#8217;t care and how he had his MySpace, yada yada yada!</p>
+<p>Some kids these days&#8230; :D</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-46027">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/110f540b38aa1a54b7c3d430e16167a4.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://gameburn.org">Camron</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-46027">
+        <time class="published" datetime="2006-12-01T12:05:45+00:00">01 Dec 2006, 12:05</time>
+      </a>
+      <div class="entry-content"><p>Anyone else having bother with myspace or is it just my pc?<br />
+Last couple of days it seems it wont let me download any song from anywhere.<br />
+Anyone having same bother &#8211; or anyone how to sort it?</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

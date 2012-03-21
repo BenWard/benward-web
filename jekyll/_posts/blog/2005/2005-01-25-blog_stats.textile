@@ -1,0 +1,40 @@
+---
+layout: blog
+category: blog
+title: "Blog Stats"
+date: "2005-01-25T19:51:37+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2005-01-25:/blog/blog_stats
+---
+Having been poking around inside my website's control panel this evening I finally found the access stats package (awstats, it appears). After peering at browser access percentages (IE 50%, Firefox 30%) I spotted an option to tell me the most popular search terms that led to my blog. The result was interesting, a <a href="http://blog.ben-ward.co.uk/archive/2004/11/14/stuffplug_ng_msn_plugin_plugin#comments" title="StuffPlug NG - MSN Plugin-Plugin">past entry on the subject of Stuffplug-NG </a> for MSN Messenger dominates 30% of all incoming searches. Strange. I actually rank 6th on <a href="http://www.google.com" title="Google">Google</a> on the subject. I'll concede that my current understanding of search engines isn't gigantic, but that seems odd.
+
+Two of my better posts crop up: Searches for "<a href="http://blog.ben-ward.co.uk/archive/2004/10/06/ipod_usb_error" title="iPod. It arrived...">iPod disk write error</a>" and "<a href="http://blog.ben-ward.co.uk/archive/2004/10/26/unoffical_radiohead_album_covers" title="Radiohead Bootleg Album covers">radiohead album art</a>" get a handful of percentage points each. All of which get more than searching "Ben Ward".
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-235">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/fb7d81b172292b6034f9c1747d5b11e0.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.fatbusinessman.com">Fatty</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-235">
+        <time class="published" datetime="2005-01-25T23:16:29+00:00">25 Jan 2005, 23:16</time>
+      </a>
+      <div class="entry-content"><p>Not too surprisingly, my top search phrase is &#8220;fatty&#8221;, albeit only with 15% of the searches. Slightly more worrying are &#8220;warren leblanc&#8221; (the guy who murdered his friend and whose parents blamed Manhunt) and &#8220;suicidegirls pass&#8221; (related, apparently, to an ancient comment on a post about BugMeNot).</p>
+<p>Oh, and I have 35% Firefoxers &#8211; beat you ;-)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-236">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/79b63ab9f0ca95c29a8e4f9cb46f166a.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.dk04.com/jono">Jono</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-236">
+        <time class="published" datetime="2005-01-26T00:05:41+00:00">26 Jan 2005, 00:05</time>
+      </a>
+      <div class="entry-content"><p>someone got to my site with a search for &#8220;bobby darin rickets&#8221;. what the hell?</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

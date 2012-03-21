@@ -1,0 +1,59 @@
+---
+layout: blog
+category: blog
+title: "Final Lap"
+date: "2005-09-15T21:44:18+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2005-09-15:/blog/final_lap
+---
+So, this is it.
+
+I've finished working for Fujitsu Siemens in Bracknell, I've had a lovely week in the middle of nowhere in Norfolk with Jo and now I'm about 10 hours off the journey north for one more year in Manchester.
+
+I've now completed 2 years of study, plus a year in industry towards my Computation degree. One day from moving back up north for the last time, it's all rather daunting that this is the end of my time at uni.
+
+Life moves so fast, it's terrifying.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-340">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk/">Stuart</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-340">
+        <time class="published" datetime="2005-09-16T16:25:50+00:00">16 Sep 2005, 16:25</time>
+      </a>
+      <div class="entry-content"><p>I wondered when they were letting you out!</p>
+<p>As for moving up north, having had to spend that extra time in Bracknell, surely it can only be a good thing? :D</p>
+<p>Any ideas on your options yet?</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-341">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-341">
+        <time class="published" datetime="2005-09-16T16:29:49+00:00">16 Sep 2005, 16:29</time>
+      </a>
+      <div class="entry-content"><p>Well, quite likely going to be doing �Semantic Web�, not sure what else yet though. Now that the internet is set up here at home I shall set about researching it.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-342">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk/">Stuart</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-342">
+        <time class="published" datetime="2005-09-16T21:31:41+00:00">16 Sep 2005, 21:31</time>
+      </a>
+      <div class="entry-content"><p>I&#8217;m on CompSci, so luckily I get to avoid DB3 if I want (was talking to some people who didn&#8217;t do IE and they said it was all of the bits that wouldn&#8217;t fit into the previous years, mashed into a module!).</p>
+<p>First Semester is between Intelligent Devision Technologies and Neural Networks (Multimedia and VR doesn&#8217;t seem like a proper degree unit!)</p>
+<p>Second Semester is anything but DB3 &#8211; Computer Supported Co-operative Work, Machine Learning or Semantic Web.  If Semantic Web is semantic <span class="caps">HTML</span> then it might be interesting, and probably comparatively easy.</p>
+<p>I&#8217;ll probably end up going to as many as I can in the first weeks anyway, just to see what they&#8217;re all actually like.</p>
+<p>I&#8217;m just glad I get to avoid things like Business Systems Engineering &#8211; it&#8217;ll lean too much on doing what the business wants and not enough of what the program needs to do (cos you know how different those can be ;) )</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

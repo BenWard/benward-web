@@ -1,0 +1,24 @@
+---
+layout: blog
+category: blog
+title: "New Screens"
+date: "2005-06-14T00:48:05+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2005-06-14:/blog/new_screens
+---
+<dl class="flickr-pic">
+ <dt><a href="http://www.flickr.com/photos/benward/19196708/">New Screens</a></dt>
+ <dd>
+  <a href="http://www.flickr.com/photos/benward/19196708/" title="Show 'New Screens' in full on Flickr">
+    <img src="http://photos15.flickr.com/19196708_afe5226829_m.jpg" alt="" />
+  </a>
+ </dd>
+ <dd>Uploaded by <a href="http://www.flickr.com/photos/benward/">Ben Ward</a>.</dd>
+</dl>
+I've been wanting a dual screen set up for simply ages now. We've had two screens at work pretty much since we started and I'm hooked to point of clinical dependency.
+
+Thanks to the staff purchase scheme I've got something close a 2-for-1 type price on Fujitsu Siemens highest-end 19" model. I'm really rather happy about it.
+
+Colour is good, they're both impressively bright and the bezel is slim all around (which makes working across both screens that bit nicer). Oh, and the "on" lights are a lovely soft shade of bluey-purple.
+
+Of course, now I need a faster computer to run more applications at the same time to fill the extra space. Well, there's a lot of new stuff to practice since @media...

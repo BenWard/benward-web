@@ -1,0 +1,9 @@
+---
+layout: blog
+category: blog
+title: "This is a bit of a test..."
+date: "2004-07-21T23:47:31+00:00"
+tags: ["technology"]
+atomid: tag:benward.me,2004-07-21:/blog/this_is_a_bit_of_a_test
+---
+<a href="http://blog.fatbusinessman.com/archives/2004/07/21/bandwagonery/" title="FBM">Fatty</a> has done his bit for Blogging cross-promotion by linking back to here. He has however discovered that this clever trackback/pingback business doesn't work. This little post should test to see whether it's all just lies.

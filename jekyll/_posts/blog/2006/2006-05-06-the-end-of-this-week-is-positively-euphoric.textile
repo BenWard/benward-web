@@ -1,0 +1,73 @@
+---
+layout: blog
+category: blog
+title: "The end of this week is positively euphoric"
+date: "2006-05-06T17:45:12+00:00"
+updated: "2006-05-06T17:45:12+00:00"
+tags: ["all", "university", "project", "oak", "coursework"]
+atomid: http://ben-ward.co.uk/journal/the-end-of-this-week-is-positively-euphoric/
+---
+So, this is it. My final piece of academic coursework <em>ever</em> has been done. At 11:25 Friday morning I gave a presentation demonstrating my final year project. At midday I exited the Maths & Social Sciences building of the <del>University of Manchester North</del><ins><abbr title="Univeristy of Manchester Institute of Science and Technology, deceased">UMIST</abbr></ins> Campus feeling absolutely bloody great.
+
+There is, of course, a story that goes with this.
+
+Aboout 24 hours ago I installed Oak in Virtual PC on the Mac and promptly discovered at least one super-serious bug in a caching class. A class from Microsoft, not mine. There might've been some issues with Inter-Process Communication too. A bit of debugging reveals that age old .NET development nugget: The application works splendiferously in Visual Studio's debugging environment, but can't stand up on its own legs.
+
+Skipping over the ins and outs of being in this situation at all, with only 12 hours before a presentation it's not a nice revelation. In fact, it's a panic inducing revelation. It's a '30 marks gone' revelation. A failure revelation.
+
+Fixing the bug would require re-writing a chunk of the core of the app, and caches are not quick to write at the best of times (hense using Microsoft's code in the first place). The app itself won't function without the cache, so what's a boy to do?
+
+Hours pass. I sulk a bit.
+
+Somewhere in the region of 1am, I recall a discussion on The List about screen recording. Cogs whirl, Google suggests the Open Source <a href="http://www.camstudio.org/">CamStudio</a> software and 20 minutes later my demonstration is recorded, live. Play back and from the brink of doom comes that little glimmer of ‘Hey, this ain't too bad’…
+
+Suddenly, not only do I have a full speed, high resolution version of my demo, but since it's recorded I'll be free to focus on my voice over, not to mention it enforcing time constraints on my presentation.
+
+It dawns that from facing disaster, I've ended up with a presentation that's <em>better</em> than what I originally planned.
+
+And so it was. My presentation overran not because I tried to say too much (thanks to the time restraint of the video), but because my moderator kept asking interested questions. This made me really rather happy.
+
+So, from out of near-nothing my presentation was a blinding success. Things also look up on the job-hunting front. Factor in that it was the hottest day of the year so far and we <a href="http://flickr.com/photos/benward/tags/picnic/">toddled off for a picnic</a> in the evening.
+
+So, all in all, good days. Although Forest didn't get into the playoffs.
+
+If you're overly curious, I've snuck <a href="/media/video/Oak.avi">the Oak demo up for download</a> (XviD codec, 9MiB, 8 minutes). You can safely skip ahead to the 30 second point.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-2113">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/6db1ac4911d03473d52634c979a18041.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.benedictoneill.com/">Ben O'Neill</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2113">
+        <time class="published" datetime="2006-05-10T09:31:49+00:00">10 May 2006, 09:31</time>
+      </a>
+      <div class="entry-content"><p>May I just say I&#8217;m disgusted at your use of MiB :)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-2114">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/6db1ac4911d03473d52634c979a18041.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.benedictoneill.com/">Ben O'Neill</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2114">
+        <time class="published" datetime="2006-05-10T09:32:35+00:00">10 May 2006, 09:32</time>
+      </a>
+      <div class="entry-content"><p>Nice demo though, I like the icons you chose in the end and the layout of the app is lovely.  Look at the clock in the systray!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-2136">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2136">
+        <time class="published" datetime="2006-05-10T21:37:22+00:00">10 May 2006, 21:37</time>
+      </a>
+      <div class="entry-content"><p>The icons are either from the <a href="http://tangoproject.org" rel="nofollow">Tango Project</a> or made by myself following their standards (although I didn&#8217;t have time to redo the &#8216;Tags&#8217; icon using the Tango pallette).</p>
+<p>The clock is <a href="http://www.softpedia.com/get/Desktop-Enhancements/Clocks-Time-Management/LClock.shtml" rel="nofollow">LClock</a>.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

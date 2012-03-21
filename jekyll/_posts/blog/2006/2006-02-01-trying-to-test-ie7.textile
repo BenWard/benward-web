@@ -1,0 +1,147 @@
+---
+layout: blog
+category: blog
+title: "On trying to test IE7"
+date: "2006-02-01T01:23:03-01:00"
+updated: "2006-02-03T12:52:46-01:00"
+summary: "They make it difficult, donchaknow."
+tags: ["technology", "microsoft", "windows", "rant", "ie7", "activation", "virtual-pc", "software-licensing"]
+atomid: http://ben-ward.co.uk/?p=303
+---
+<img class="splash" src="/media/splashes/ie7.splash.png" alt="A post about Internet Explorer 7." />I want to test <a href="http://www.microsoft.com/windows/ie/ie7/default.mspx">Microsoft's new browser</a> very much. I'm a web developer, so being aware of bleeding edge technology like this is important, especially in the context of Internet Explorer 7 which brings with it big changes.
+
+Unfortunately, some years ago Microsoft made a terrible engineering decision that means you can't run two different versions of Internet Explorer alongside each other in the same Windows installation. Thus, the only way to run <abbr title="Internet Explorer">IE</abbr>7 in anything close to a �standalone� mode, is to use Microsoft's Virtual PC product. This allows you to have a second copy of Windows running in a window on your main system's desktop. It's useful and keeps your main system's files safe while you're testing something.
+
+Except, there's a big catch. Some years ago Microsoft made a terrible engineering decision that involves imposing product activation on Windows XP. This means you can only have Windows installed on one computer at a time. Not unreasonable in itself, until you realise that a Virtual PC installation of Windows is apparently identical to "one computer". Therefore, I can't install my existing copy of Windows through Virtual PC, because I'm already using it on the computer on which Virtual PC is running. Follow?
+
+So, I can't activate Windows. It'll still functional for 30 days though, right? Wrong.  I tried installing the IE7 beta. To install, it requires something called a Windows Genuine Advantage validation check. This is a new thing Microsoft have come up with to stop software pirates getting non-critical updates for Windows. Guess the prerequisite? Activation.
+
+I'm lucky enough to have a copy of Virtual PC through Microsoft's Academic Alliance scheme. That means it's free. Although, if I want to continue using it after I graduate, it will cost �100 for a full license. Next, add an additional license for Windows XP: Also �100. <em>But</em>, a Virtual PC probably doesn't quality for an OEM license (they're for system builders), so instead crank up the Windows license fee to <strong>�250</strong> for the full boxed version.
+
+What I'm trying to say is this: <strong>It costs �350 to legally test Microsoft's shit software in a safe testing environment</strong>. Here we are, locked in to testing for Microsoft's terrible but dominant browser and that's the tax we�re supposed to pay for it. How did they ever get away with this?
+
+<strong>Update</strong>: Thank you for all the suggestions regarding hacked standalone versions of Internet Explorer. I've actually used these for a long time for testing old versions of IE, the purpose of this entry was to emphasise how ridiculous the only <em>supported</em> mechanism is for testing IE7. I had a genuine desire to �do it properly� this time.
+
+Anyway, since �doing it properly� is rarely a sentence associated with <em>any</em> version of Internet Explorer, I've instead got it running by following <a href="http://weblogs.asp.net/jgalloway/archive/2005/12/28/434132.aspx">these instructions from Jon Galloway</a>. The only downside is that it requires you to <abbr title="substitute user identity">su</abbr> into an account with Administrative privileges or else IE7 crashes out instantly. I assume that's a side affect of the hack, not an incredible oversight in the implementation of IE7.
+
+<strong>Update 2</strong>: Ooooor not. Jon Galloway's trick, which is known to work with beta 1 and was then modified so as not to fuck up IE6 with beta 2 actually worked for me� (wait for it)� once. Just once. From then on, <abbr title="IE7 beta 2">IE7b2</abbr> crashes out every time you try to start it. Apparently that's a widely reported change from beta 1, where you _could_ run it standalone like this. I'm going to return to my original "fuck Microsoft" position and sulk.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-715">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/32a7ad548cd93fa03449073ea01314b9.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ekkoe.com">Ben Young</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-715">
+        <time class="published" datetime="2006-02-01T11:40:02-01:00">01 Feb 2006, 11:40</time>
+      </a>
+      <div class="entry-content"><p>It is absolutely ridiculous, and it beggars belief that they should expect the community to pay to test their product, especially with their atrocious track-record with web browsing software.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-716">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/abb5e982d97d7539860141b7904ba31a.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://philwilson.org/blog/">Phil Wilson</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-716">
+        <time class="published" datetime="2006-02-01T11:51:38-01:00">01 Feb 2006, 11:51</time>
+      </a>
+      <div class="entry-content"><p>I don&#8217;t know if IE7 is the same, but you can certainly run more than one version of IE on a Windows XP machine. See http://www.quirksmode.org/browsers/multipleie.html</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-717">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-717">
+        <time class="published" datetime="2006-02-01T12:01:15-01:00">01 Feb 2006, 12:01</time>
+      </a>
+      <div class="entry-content"><p>Phil,</p>
+<p>The quirksmode hacks do exist, it&#8217;s true. There are two key things:</p>
+<ol>
+	<li>They&#8217;re not official, and last night&#8217;s IE7 experience reinforced just how much of a mistake not releasing IE standalones really is. For a company that normally serves developers very well, Microsoft really dropped the ball.</li>
+	<li>The hacked versions of IE <em>generally</em> work (I have 4.0, 5.0 and 5.5 on my system), except in the case of conditional comments: Which is Microsoft&#8217;s new favourite way of filtering <span class="caps">CSS</span> to different versions of IE, instead of using the <code>* html</code> hack. (The problem is that regardless of which version of IE you run, it adopts the version number of the most recent version of IE on your system: So all versions of IE on my system treat conditional comments as IE6).</li>
+</ol>
+<p>Now, it may be that someone worked out how to fix conditional comments. If so, that&#8217;s makes the hack IE&#8217;s a valid workaround again. I have half and inkling that I read about a way to make them work and forgot to mark it in Delicious (as I tend to). Even then, I&#8217;m pretty sure it involved gigantic registry hacking, appeasement of ancient Gods and following a complex set of movements that may or may not be the dance routine to Steps <i>5, 6, 7, 8</i>.</p>
+<p>They should get it fixed, officially. And soon.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-718">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/251689727ca3dbf1a4261f8a48b0b179.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.thewatchmakerproject.com/">Matthew Pennell</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-718">
+        <time class="published" datetime="2006-02-01T12:26:50-01:00">01 Feb 2006, 12:26</time>
+      </a>
+      <div class="entry-content"><p>There is a registry hack somewhere that fixes the &#8220;conditional comments not working on standalones&#8221; issue &#8211; I think it was on Quirksmode, actually.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-720">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/05f47f6982d68be135fa8caa7a798a74.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.reala.net/">Robin</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-720">
+        <time class="published" datetime="2006-02-01T14:05:23-01:00">01 Feb 2006, 14:05</time>
+      </a>
+      <div class="entry-content"><p>There&#8217;s a reg change to reenable conditional comments at http://www.positioniseverything.net/articles/multiIE.html . I&#8217;ve just tested this again after IE7 disabled my previous (working) setup and can confirm it works fine.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-735">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/059f1b6a3e97ba2bc3727401e33ed26c.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.pete-b.co.uk">Pete B</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-735">
+        <time class="published" datetime="2006-02-03T03:24:01-01:00">03 Feb 2006, 03:24</time>
+      </a>
+      <div class="entry-content"><p>Try doing: http://www.hanselman.com/blog/PermaLink.aspx?guid=d9ca26d1-4ac3-419b-bd90-45c6393304d3</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-9203">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/c289f458383d2357d76a81933692781e.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.castelosnoar.com">Roberto Gorjão</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-9203">
+        <time class="published" datetime="2006-07-31T22:35:10+00:00">31 Jul 2006, 22:35</time>
+      </a>
+      <div class="entry-content"><p>I wrote about this subject recently&#8230; maybe you care to have a look? The article is called &#8220;&#8221;http://castelosnoar.com/cna_blog/archives/38&quot; title=&#8220;Conditional Comments working in all IE standalones&#8221; rel=&quot;nofollow&quot;&gt;Conditional Comments working in all IE standalones</a>. While I can&#8217;t say it is the best solution, it&#8217;s the solution I&#8217;m using&#8230;</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-12620">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/5832ede41c8a0807594e7ea6a5d83dd5.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.defhoboz.biz/">Verifex</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-12620">
+        <time class="published" datetime="2006-08-23T19:49:47+00:00">23 Aug 2006, 19:49</time>
+      </a>
+      <div class="entry-content"><p><span class="caps">BTW</span>, <a href="http://www.microsoft.com/downloads/details.aspx?FamilyId=6D58729D-DFA8-40BF-AFAF-20BCB7F01CD1&amp;displaylang=en" rel="nofollow">Virtual PC</a> is now free.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>
+
+<notextile><div class="pingbacks hfeed" id="pingbacks">
+  <h2>Pingbacks</h2>
+  <ul>
+    <li class="hentry" id="pingback-714">
+      <a rel="bookmark" class="entry-title" href="http://rho.slowli.com/2006/02/01/internet-explorer-7-beta/">..::RHOblog::.. &raquo; Internet Explorer 7 Beta</a>
+    </li>
+  
+    <li class="hentry" id="pingback-719">
+      <a rel="bookmark" class="entry-title" href="http://markus.fischer.name/about/archives/2006/02/01/speaking-my-language/">markus&#8217; blog &raquo; Speaking my language</a>
+    </li>
+  
+    <li class="hentry" id="pingback-742">
+      <a rel="bookmark" class="entry-title" href="http://pieceoplastic.com/index.php/2194/ruff-linkage-200605/">&#8230; pieceoplastic.com - proud to be an utter waste of your bandwidth &#8230; &raquo; Blog Archive &raquo; ruff linkage . 200605</a>
+    </li>
+  
+    <li class="hentry" id="pingback-767">
+      <a rel="bookmark" class="entry-title" href="http://www.bernhard-warszawa.info/internet-explorer-7-microsoft-test/">Bernhard Huber Warszawa SEO &raquo; Blog Archive &raquo; Internet Explorer 7 Microsoft : TEST</a>
+    </li>
+  
+    <li class="hentry" id="pingback-914">
+      <a rel="bookmark" class="entry-title" href="http://ben-ward.co.uk/journal/testing-ie7-revisited/">Ben Ward &raquo; Testing IE7 Revisited</a>
+    </li>
+  </ul>
+</div></notextile>

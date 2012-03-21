@@ -1,0 +1,38 @@
+---
+layout: blog
+category: blog
+title: "Pink My Ride"
+date: "2006-10-03T09:30:37+00:00"
+updated: "2006-10-03T09:31:30+00:00"
+tags: ["all"]
+atomid: http://ben-ward.co.uk/journal/pink/
+---
+Like <a href="http://www.thewatchmakerproject.com/journal/373/pink-for-october">many</a> <a href="http://ifelse.co.uk/archives/2006/10/01/a-pink-redesign/">others</a>, I've joined in <a href="http://pinkforoctober.org/">Pink for October</a>, an effort to help promote <a href="http://www.nbcam.com/">Breast Cancer Awareness Month</a>.
+
+It's not the most elaborate of redesigns there's ever been, but then there <em>never has</em> been an elaborate redesign on this site anyway.
+
+I'm considering putting some Google ads up to raise money for the cause (I don't have any ads at time of writing). Good idea? Bad idea? Will I even make any money with them in the first month?
+
+Enjoy the pink. Try not to have too much of a sensory overload as you're browsing the net this October.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-24711">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e1aca000bfb6bf420a14ba1684550715.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://bja888.com">Bryan Austin</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-24711">
+        <time class="published" datetime="2006-10-23T10:29:14+00:00">23 Oct 2006, 10:29</time>
+      </a>
+      <div class="entry-content"><p>My mother was recently diagnosed with breast cancer. Evey she turns there is something big pink display to remind her of the treatments she is trying desperately to forget about.</p>
+<p>In my opinion. Your site isn&#8217;t big enough for google ads.</p>
+<p>And I&#8217;m stealing your IE7 logo. For my site requirements section.<br />
+http://ben-ward.co.uk/media/splashes/ie7.splash.png<br />
+(Found it on google image search &#8220;IE7&#8221;)</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

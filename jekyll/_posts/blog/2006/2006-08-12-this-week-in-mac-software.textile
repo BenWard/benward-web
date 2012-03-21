@@ -1,0 +1,46 @@
+---
+layout: blog
+category: blog
+title: "This week in Mac Software"
+date: "2006-08-12T22:49:25+00:00"
+updated: "2006-08-12T23:05:56+00:00"
+tags: ["technology", "software", "osx", "mac", "saft", "textmate", "dasher", "antirsi"]
+atomid: http://ben-ward.co.uk/journal/this-week-in-mac-software/
+---
+As summer stretches on I've increasingly found that there's just no way I'll cope with using my PC as a full-time machine again. The Mac experience is just too beautiful and working on my iBook is dancing through poppy fields compared to wading through Windows treacle.
+
+That said, this luxurious level of comfort comes in no small part from some third party apps. Earning money this summer has allowed me to actually purchase some of those small-fee shareware apps and it really does improve the experience.
+
+* <a href="http://macromates.com">TextMate</a>. Oh God. I may never be able to develop websites or scripts on Windows again. I love how every day that I use this software I find new keyboard shortcuts to do something else insane cool. Current favourites are invoking the OSX colour picker while in CSS mode (<kbd>⌘⇧C</kbd>), which of course edits the currently selected colour if you have one. The quick, live updating web preview (<kbd>⌃⌥⌘P</kbd>), which also generates a preview page for your stylesheet, if the caret resides in a <code>style</code> block or inside a CSS file at the time. Finally, <kbd>⌘/</kbd> will comment out the current line or selection in the language you're writing in. This is almighty good software.
+* <a href="http://haoli.dnsalias.com/Saft/index.html">Saft</a> for Safari. Adds many a lovely feature in Apple's usually spiffy browser. Particularly good is the automatic restoration of tabs if Safari crashes (ahem), enforcing single window mode and allowing the content of <code>textarea</code>'s to be edited in an external application. Like TextMate.
+* <a href="http://tech.inhelsinki.nl/antirsi/">AntiRSI</a>. <a href="http://hanniross.com" rel="friend neighbor met muse crush sweetheart">Hanni</a> pointed me towards this last night. AntiRSI is a small application that forces you to take breaks in your work. 13 seconds every 4 minutes and 8 minutes every 50. What I love is that this is it maintains the high attention to detail of OSX software: If I take a 15 second break from the keyboard naturally in the course of my work, AntiRSI notices and delays the next prompt, there's nothing clunky about this. Also, when its attractive, Aperture-esque <abbr title="Heads Up Display">HUD</abbr> appears to prompt you to stop for 15 seconds, the timing won't move until you stop typing (and it won't steal focus from your application either).
+* I use Dashboard a lot. I like it, actually. I'm not overly fussed that I can't put widgets directly onto the desktop (yet), but I have been finding that using it for reminders or To-Do lists is flawed, since I have to remember to invoke it to read reminders… a flawed workflow. What I wanted was some way to have Dashboard automatically displayed whenever I returned to my iBook after a few minutes (after those 8 minute AntiRSI breaks, for example). Well, <a href="http://www.splasm.com/products/productdasher.html">Dasher</a> pretty much does the job. It's a simple preference pane that invokes the Dashboard after an idle time period. 5 minutes away from the machine and Dashboard appears ready for me to glance at when I return. Fab.
+
+I've always seen myself as being reasonably even handed with it comes to platform favouritism. Certainly .NET on Windows remains my development platform of choice right now. But it's very hard to be fair on Windows at the moment because right now, in every day of my experience, software on the Mac is just outright _better_ than anything I've used on the PC. User experience matters so much and OSX has it so good right now.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-10614">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/fb7d81b172292b6034f9c1747d5b11e0.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.fatbusinessman.com/">FatBusinessman</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-10614">
+        <time class="published" datetime="2006-08-13T09:58:27+00:00">13 Aug 2006, 09:58</time>
+      </a>
+      <div class="entry-content"><p>While I haven’t used TextMate quite enough to get used to it (or, so far, to shell out money for it), I can’t agree with you more about <a href="http://tech.inhelsinki.nl/antirsi/" title="AntiRSI" rel="nofollow">AntiRSI</a>: I came across it while I was working at <a href="http://www.torchbox.com/" title="Torchbox" rel="nofollow">Torchbox</a> and it pretty much saved my forearms. It also merits pointing out that the timings are entirely customisable so you can set it, in times of high stress, to make you take extra time away from your keyboard and give your wrists a fighting chance.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>
+
+<notextile><div class="pingbacks hfeed" id="pingbacks">
+  <h2>Pingbacks</h2>
+  <ul>
+    <li class="hentry" id="pingback-10890">
+      <a rel="bookmark" class="entry-title" href="http://hanniross.com/notes/my-mac-diet/">hanniross.com &raquo; My Mac Diet</a>
+    </li>
+  </ul>
+</div></notextile>

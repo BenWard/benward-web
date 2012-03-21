@@ -1,0 +1,69 @@
+---
+layout: blog
+category: blog
+title: "Her"
+date: "2007-03-04T20:59:03+00:00"
+updated: "2007-03-04T21:05:54+00:00"
+tags: ["all", "hanni"]
+atomid: http://ben-ward.co.uk/journal/her/
+---
+I'm having an awful day. For some reason I woke up and my mind elected it was going to see every glass half-empty, feel irrational negativity and generally put a downer on everything that comes up and comes to mind. It's the kind of day where really I'd have been better off staying in bed, burying my head and desperately hoping tomorrow would come around and give me a better chance.
+
+Thankfully there is one thing that lifts my spirits a little and though <a href="http://flickr.com/photos/hanni">she</a>'s buried under coursework, at least Flickr keeps her just a click away.
+
+<a href="http://flickr.com/photos/kurafire/185438141/" title="Hanni by Faruk Ateş"><img alt="" src="http://farm1.static.flickr.com/64/185438141_bda29a7762.jpg?v=0" /></a>
+
+<a href="http://flickr.com/photos/benward/169578801/"  title="Hanni by Ben Ward"><img alt="" src="http://farm1.static.flickr.com/48/169578801_161876685e.jpg?v=0" /></a>
+
+<a href="http://flickr.com/photos/hanni/342349688/" title="1st January 2007 by Hanni"><img alt="" src="http://farm1.static.flickr.com/139/342349688_eaabdb59e8.jpg?v=0" /></a>
+
+I love you Hanni Ross. I'm going to miss you so much this week.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-56351">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/cd92cd941551d06a41a002537dbd7f7b.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.katemonkey.co.uk/">Kate Bolin</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-56351">
+        <time class="published" datetime="2007-03-05T08:38:42+00:00">05 Mar 2007, 08:38</time>
+      </a>
+      <div class="entry-content"><p>Awwwwww!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-56390">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/cad54255a8d5b48756fc81652dfa16a6.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://usabletype.com">Andy Hume</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-56390">
+        <time class="published" datetime="2007-03-05T22:30:09+00:00">05 Mar 2007, 22:30</time>
+      </a>
+      <div class="entry-content"><p><em>&quot; For some reason I woke up and my mind elected it was going to see every glass half-empty, feel irrational negativity and generally put a downer on everything that comes up and comes to mind. &quot;</em></p>
+<p>You sound like my Mrs&#8230;. ;)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-56432">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/fb7d81b172292b6034f9c1747d5b11e0.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.fatbusinessman.com/">FatBusinessman</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-56432">
+        <time class="published" datetime="2007-03-06T16:45:29+00:00">06 Mar 2007, 16:45</time>
+      </a>
+      <div class="entry-content"><p>Actually, I was thinking that sounded more like me. Maybe I&#8217;m a bad influence.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-56508">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/6db1ac4911d03473d52634c979a18041.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://benedictoneill.com/">Ben O'Neill</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-56508">
+        <time class="published" datetime="2007-03-07T12:18:34+00:00">07 Mar 2007, 12:18</time>
+      </a>
+      <div class="entry-content"><p>Ew kissing! You&#8217;ll get cooties!</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

@@ -1,0 +1,57 @@
+---
+layout: blog
+category: blog
+title: "Twitgit Updated to 0.7"
+date: "2007-01-07T22:53:29+00:00"
+updated: "2007-05-29T09:46:43+00:00"
+tags: ["technology", "osx", "dashboard", "twitter", "twitgit", "widgets"]
+atomid: http://ben-ward.co.uk/journal/twitgit-07/
+---
+In a rash act of spontaneity I've spent this weekend updating <a href="/widgets/twitgit/">Twitgit</a>, my OSX Dashboard widget for <a href="http://twitter.com">Twitter</a>.
+
+<img class="screenshot" src="/res/posts/twitgit/Twitgit07.png" title="Twitgit 0.7 for OSX Dashboard" alt="" />
+
+<strong><a href="/files/widgets/Twitgit.zip">Download Twitgit 0.7.1 for Mac OSX Dashboard (10.4.3+)</a></strong>
+
+<blockquote cite="/widgets/twitgit">
+
+h2. Fixes and additions in Twitgit 0.7
+
+* New scrolling status view.
+* The ‘Refreshing Twitterings’ text is gone, with network activity now indicated by the Twitter ‘t’ glowing gold.
+* The widget is 100px shorter, and no more widget height jiggling!
+* Message length is now properly capped, so you won't get truncated by Twitter.
+* Fixed a bug that truncated messages containing ‘&’ characters.
+* Twitgit now has an icon of its own, rather than the default OSX widget icon.  
+* Usernames can now be clicked to take you to profile pages
+* URLs within messages are now click‑able, and truncated cleanly as on the Twitter website
+
+<p>There's one known issue, whereby if you enter an erroneous username and password the widget will just sit there, rather than show an error message. I know, that's pretty lame. It'll get fixed in the next release, but for now please type carefully.</p>
+</blockquote>
+
+There's a plan to do a 0.9 release with new features, and then call it 1.0 with some final stability fixes. Not sure when that will be, though!
+
+Enjoy.
+
+<strong>Small note</strong>: If you were eager enough to download 0.7 within the first 4 minutes of me plugging the release on Flickr, you may be in possession of a rare and bugging 0.7.0 release. I left in a bug whereby the text input could end up disabled even after your message had been posted. 0.7.1, the version you can download now, does not disable the text input during posting. Polish like that will return later, once the stability is improved! Sorry about that.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-54926">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/033e75287fa50d88a19b0a13c32cd85d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://digitalhymn.com">Folletto Malefico</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-54926">
+        <time class="published" datetime="2007-01-23T20:54:54+00:00">23 Jan 2007, 20:54</time>
+      </a>
+      <div class="entry-content"><p>Excuse me if I point this out again, but I think that the text field must be <span class="caps">ABOVE</span>, like Twitter itself. :)</p>
+<p>Also, a little design hint: don&#8217;t waste so much space for the &#8220;twitter&#8221; button and its margin. Make it smaller and with a little margin, maybe with a white border with an arrow just like, again Twitter itself. :)</p>
+<p>I&#8217;ve yet to try this, but think that you usually use &#8220;Return/Enter&#8221; and not the button to submit a message, so it doesn&#8217;t have to be huge. :) The button is a &#8220;marginal&#8221; UI component. (well&#8230; not really&#8230; but&#8230;). :)</p>
+<p>I think that if you&#8217;ll do those changes, you&#8217;ll be perfect (excluding bug fixes, if any, of course). :)</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

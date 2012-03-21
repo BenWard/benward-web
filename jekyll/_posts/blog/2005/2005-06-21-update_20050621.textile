@@ -1,0 +1,15 @@
+---
+layout: blog
+category: blog
+title: "They seek him there..."
+date: "2005-06-21T22:08:37+00:00"
+tags: ["all", "technology", "general", "music", "software"]
+atomid: tag:benward.me,2005-06-21:/blog/update_20050621
+---
+I've not finished the @media write up yet. I need to do it tomorrow or else it'll be too far after the event to even be considered 'token'.
+
+In other news, I've made the fabulous discovery of <a href="http://projects.afterglo.ws/wiki/AudioPodHome">AudioPod for Windows</a>. Although a bit clunky and currently limited, it will attempt to submit the songs listened to on my iPod to the incredible <a href="http://audioscrobbler.com">Audioscrobbler</a> service. All of a sudden, my listening habits are going to get recorded rather more accurately. Sadly it can only submit each song once at the moment, but if I get a chance next week I know how to fix it and will submit a patch. After that, I'm ambitiously hoping to pursue integrating the existing iTunes plug-in with the iPod code and remove any risk of conflicts (don't hold your breath though, I have ambitious ideas like that a <em>lot</em>.
+
+Elsewhere, I discovered how incredible <a href="http://del.icio.us">Del.icio.us</a> is early in the week. A bit slow I know, but late as I am, I'm still extremely impressed. I'm planning to follow <a href="http://hicksdesign.co.uk">Jon Hicks</a> example and use it for my sidebar links (once I've switched to Wordpress, which - <strong>*shock*</strong> - <em>I might actually do soon</em>. Again with the absence of breath holding.
+
+The Coldplay album is on <a href="http://audioscrobbler.com/user/Shovel/">heavy rotation</a> this week, I saw Billy Corgan live with Stevie 'no blog' Marshall for his 23rd birthday (happy birthday Steve) and the new Oasis album is growing on me slowly too (though I'm still not sure if it's actually very good or not).

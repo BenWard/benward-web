@@ -1,0 +1,189 @@
+---
+layout: blog
+category: blog
+title: "Alternatives to Windows Explorer"
+date: "2006-03-11T23:57:00+00:00"
+updated: "2006-03-16T17:25:30+00:00"
+summary: "After getting over the amusement of Microsoft making it even harder to run a secure Windows system (quite possibly in the name of security, too), I need an alternative standalone file manager. Some of them look rather OTT for my purposes, so I'm after suggestions."
+tags: ["all", "technology", "windows", "internet-explorer", "ie7", "limited-privileges", "security", "windows-explorer"]
+atomid: http://ben-ward.co.uk/journal/alternatives-to-windows-explorer/
+---
+As someone who runs a limited privileges account in Windows XP I was somewhat dismayed to discover that with Internet Explorer 7 Microsoft have broken one of the major tricks for running an efficient locked down system.
+
+As the primary computer user, I do a lot of 'Administrative' type tasks: Installing/Removing applications, adjusting web server and database settings, tweaking file system permissions, and so forth. Remedial tasks. 
+
+Ordinarily, with a limited account, you would do this by switching user to Administrator and then switching back, but, with a bit of agility, you can also open an Explorer window with Administrator rights from within the current session. This uses the "runas" command line app and <a href="http://nascentguruism.com">Steve</a> told me how to do it a long time ago.
+
+Create a new shortcut with the following as a command line:
+
+<pre><code>%windir%\\system32\\runas.exe /U:Administrator /savecred /noprofile "c:\\program files\\Internet Explorer\\iexplore.exe \\"c:/\\""</code></pre>
+
+On first-run it will prompt for the 'Administrator' user's password and remember it for future use (the <code>/savecred</code> switch). It opens an Internet Explorer window, pointed at 'C:\\'. You can use it to manipulate the computer as Administrator without leaving your Restricted User desktop. Any application you launch from within it will also be launched as Administrator.
+
+Thorough background aside, I've stumbled upon the knowledge that Internet Explorer 7 breaks this behaviour (I've lost the source, sadly). Assuming this is the case and after getting over the amusement of Microsoft making it <em>even harder</em> to run a secure Windows set-up, I need an alternative.
+
+There are a number of standalone file managers in existence but some of them look rather OTT for my purposes. I'm be quite happy with something with similar features to Explorer. So if you, dear reader, know of a reliable and well made Explorer replacement I would love to hear suggestions.
+
+I'll be sure to follow up with reviews in a few weeks.
+
+Thank you.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-888">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/3140e366889093f203d6be8c0020e186.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.eMeidi.com/">Mario Aeby</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-888">
+        <time class="published" datetime="2006-03-12T16:45:50+00:00">12 Mar 2006, 16:45</time>
+      </a>
+      <div class="entry-content"><p>Pay attention to the Shortcut: It should be</p>
+<p><span>windir</span>\system32\runas.exe</p>
+<p>not</p>
+<p><span>windir</span>\system32\unas.exe</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-889">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-889">
+        <time class="published" datetime="2006-03-12T16:51:40+00:00">12 Mar 2006, 16:51</time>
+      </a>
+      <div class="entry-content"><p>Thanks Mario. I had some issues with Wordpress cutting off the backslashes and must have lost that &#8216;r&#8217; in a quick edit. Fixed now.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-890">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">IBBoard</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-890">
+        <time class="published" datetime="2006-03-12T20:34:13+00:00">12 Mar 2006, 20:34</time>
+      </a>
+      <div class="entry-content"><p>Wouldn&#8217;t suprise me if it took the &#8220;\ r&#8221; as a carriage return :D</p>
+<p>Anyway, only alternative to Windows Explorer I know of is called Servant Salamander (one download is at http://www.softpedia.com/get/File-managers/Servant-Salamander.shtml). It is good because it does extra things like calculating folder sizes (recursing down the folders) but it does cost. I ran it for a little while until the demo ran out. Not sure how it&#8217;d take &#8220;runas&#8221; &#8211; it should be ok.</p>
+<p>Other than that the obvious answers are Linux and &#8220;use your laptop&#8221; :D Far more secure with the Unix-style, and less virus prone (as I read somewhere recently, to spread an email virus in *nix style OSes you need to save the file, give it execute permissions and then run it, instead of just having to open the email) or on the slightly less extreme, maybe something like LightStep?</p>
+<p>Places like Softpedia will, no doubt, have a variety of Explorer clones. Either that or just write your own little app in .Net &#8211; simple app, opens a window, window has a single button to load a &#8220;File&#8221; dialog, find the file you want to run, then pass the filename to the RunAs command. I spotted how <span class="caps">WCMS</span> did it to open IE when we were at <span class="caps">FSC</span> (something about Processes). I use some very similar code in one of my apps for Dawn of War, so just yell if you want to do that :)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-891">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-891">
+        <time class="published" datetime="2006-03-12T21:50:25+00:00">12 Mar 2006, 21:50</time>
+      </a>
+      <div class="entry-content"><p>Ahhh yeah. A simple bootstrap application to launch Explorer might work. Good call Stu.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-893">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">IBBoard</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-893">
+        <time class="published" datetime="2006-03-13T16:11:23+00:00">13 Mar 2006, 16:11</time>
+      </a>
+      <div class="entry-content"><p>I&#8217;m not just a pretty face, you know. In fact, I&#8217;m probably not even that :D</p>
+<p>Now to see if this works:</p>
+<pre>+-----+
+|     | think
+|     |
++-----+</pre>
+<p>Thinks outside the box ;)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-894">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">IBBoard</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-894">
+        <time class="published" datetime="2006-03-13T16:13:00+00:00">13 Mar 2006, 16:13</time>
+      </a>
+      <div class="entry-content"><p>Meh, wordpress lost my <span class="caps">PRE</span> tags. You get the idea :D</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-895">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-895">
+        <time class="published" datetime="2006-03-13T16:13:41+00:00">13 Mar 2006, 16:13</time>
+      </a>
+      <div class="entry-content"><p>I should stress that adding in <code>pre</code> elements for you is not a regular service. Although Wordpress is a bit of a nazi when it comes to stripping out useful elements. I seem to recall that it prevents using lists and quotes as well. Unfortunately it requires core-file hacking to change so I shan&#8217;t be fixing that for a little while.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-896">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">IBBoard</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-896">
+        <time class="published" datetime="2006-03-13T16:17:32+00:00">13 Mar 2006, 16:17</time>
+      </a>
+      <div class="entry-content"><p>It should be &#8211; then you could add it in to your CV: &#8220;<span class="caps">PRE</span> tag adder-in-er-er for IBBoard&#8221;. Guaranteed to gain you prestige for that big job interview :D</p>
+<p>Ta muchly :)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-1104">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/9a533187e18ac7637998f39ebb405244.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">janitorman</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-1104">
+        <time class="published" datetime="2006-04-09T04:13:00+00:00">09 Apr 2006, 04:13</time>
+      </a>
+      <div class="entry-content"><p>try Powerdesk 6 on win XP.. theres a free version that doesn&#8217;t expire, or a &#8220;pro version&#8221; with more features that you pay for. I&#8217;m considering the pro version because it has nifty picture previewers&#8230; previous free versions included this but apparently it doesn&#8217;t work on XP with Powerdesk 6.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-3048">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4ab9d401e64198285d93ed69e714695d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Adam</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-3048">
+        <time class="published" datetime="2006-05-29T13:34:44+00:00">29 May 2006, 13:34</time>
+      </a>
+      <div class="entry-content"><p>Your complicated command line in the shortcuts is quite interesting. What I do is much easier though: Just run Paint or Notepad as an administrator, then go to File&gt;Open and use the little dialog box as a file explorer. Its not quite as good as full-fledged Windows Explorer, but if you&#8217;re copying and moving files around, it does just fine.</p>
+<p>Cheers.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-55257">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4f348f563ad9446344b2b2a25d143a56.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Niko</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-55257">
+        <time class="published" datetime="2007-02-05T05:21:16+00:00">05 Feb 2007, 05:21</time>
+      </a>
+      <div class="entry-content"><p>Does everybody agree that Adam&#8217;s way is the only way to run &#8220;Windows Explorer&#8221; as administrator in a not-administrator account and IE7 setup?</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-56669">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/2696bef34dbfd80bc962996a39853554.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">John's Secret Identity</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-56669">
+        <time class="published" datetime="2007-03-09T16:21:20+00:00">09 Mar 2007, 16:21</time>
+      </a>
+      <div class="entry-content"><p>I don&#8217;t agree.</p>
+<p>This works in Win2k. Will probably work in XP as well&#8230;</p>
+<p>1. Log in as administrator  or owner, as the case may be.<br />
+2. run Windows Explorer<br />
+3. Tools &gt; Folder Options&#8230; &gt; View (tab)<br />
+4. Check the box next to &#8220;Launch folder windows in a separate process&#8221;</p>
+<p>Commit the change, log out, and log in as a restricted user. You should now be able to Shift-Right-Click and use &#8220;Run as&#8230;&#8221; on Windows Explorer with the administrator or owner account.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-56670">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/2696bef34dbfd80bc962996a39853554.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">John's Secret Identity</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-56670">
+        <time class="published" datetime="2007-03-09T16:35:48+00:00">09 Mar 2007, 16:35</time>
+      </a>
+      <div class="entry-content"><p>Further explanatory note:</p>
+<p>The reason Windows Explorer normally won&#8217;t run as administrator from another account is that it normally reuses the same process that&#8217;s already running your desktop. When it launches it checks to see if it&#8217;s already running and unless you use a different shell it always will be since explorer is your desktop.</p>
+<p>Checking the box described above disables that behavior so it simply launches a new process, and off you go.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

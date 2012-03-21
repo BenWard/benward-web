@@ -1,0 +1,141 @@
+---
+layout: blog
+category: blog
+title: "StuffPlug NG - MSN plugin-plugin."
+date: "2004-11-14T23:31:57+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2004-11-14:/blog/stuffplug_ng_msn_plugin_plugin
+---
+If you're already familiar with <a href="http://www.msgplus.net/" title="MsgPlus Homepage">MsgPlus</a> - a feature packed MSN Messenger addin - you may or may not be aware of the fact that MsgPlus can itself install add-ons of its own.
+
+One such add-on is <a href="http://www.stuffplug.com" title="StuffPlug NG Homepage">StuffPlus NG</a>, adding a rather smaller array of features but two which I already find indispensable:
+<dl>
+<dt>Timestamps in conversations</dt>
+<dd>No more losing track of messages by displaying the time of arrival/dispatch next to each message</dd>
+<dt>Tabbed Messages</dt>
+<dd>For the tab-fiend in all of us (see: <a href="http://www.getfirefox.com" title="Mozilla Firefox">Firefox</a>, <a href="http://www.opera.com" title="Opera Web Browser/Suite">Opera</a> converts). Rather than have a gazillion chat windows open at once, have them all in one and separated by tabs. A little buggy, but rather nice all the same</dd>
+</dl>
+
+Verrry nice.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-215">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/697259752bddd87ba85f720d571a260c.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">murat</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-215">
+        <time class="published" datetime="2004-12-11T23:56:12+00:00">11 Dec 2004, 23:56</time>
+      </a>
+      <div class="entry-content"><p>i would like the program of stuffplug-ng?.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-216">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-216">
+        <time class="published" datetime="2004-12-12T15:18:28+00:00">12 Dec 2004, 15:18</time>
+      </a>
+      <div class="entry-content"><p>You can find it at http://www.stuffplug.com/ ;-)</p>
+<p>I have to say, having used it for a little bit, that the tabs are not as good as they first seem and I&#8217;ve stopped using them. However, the other features I mentioned are well worth it.</p>
+<p>I don&#8217;t know if it works with the MSN7 Beta.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-217">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/deaed1e252c4e822cc0cfb6bce9c59d2.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">TB</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-217">
+        <time class="published" datetime="2004-12-20T16:54:20+00:00">20 Dec 2004, 16:54</time>
+      </a>
+      <div class="entry-content"><p>Hi, got here trough a little google search :P<br />
+I&#8217;m glad you like my plugin ;)<br />
+I&#8217;m working on writing a better tabbed-conversations engine, expect it somewhere in version 2.2 (2.0 is just in private beta phase).<br />
+And yes, there is already a MSN7 compatible version, but It&#8217;s still a bit bugy :P<br />
+http://www.stuffplug.com/SPNGMSN7.zip</p>
+<p>Bye, TB</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-218">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/1cd72616f155d4db5644ee9e214fa383.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Screeny</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-218">
+        <time class="published" datetime="2005-02-28T20:07:24+00:00">28 Feb 2005, 20:07</time>
+      </a>
+      <div class="entry-content"><p>Like Tb (I Love you! ;P) i&#8217;m just want to leave a comment here. <br />
+Yeah, StuffPlug-NG it&#8217;s an extremely great plugin ;) <span class="caps">BTW</span>: the newest version is 2.1 and it&#8217;s just great.</p>
+<p>Thanks to TB for this Plugin.</p>
+<p>Greetings, Screeny <br />
+(off. StuffPlug German Translater)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-835">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/cc7cfb837947abb323526f82e1c38c1b.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">KHALED</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-835">
+        <time class="published" datetime="2006-02-24T17:05:17+00:00">24 Feb 2006, 17:05</time>
+      </a>
+      <div class="entry-content"><p><span class="caps">ITS</span> <span class="caps">VERY</span> <span class="caps">NICE</span>  <span class="caps">PROGRAM</span>   <span class="caps">THNXXXXXXXXXXXXXXXXXXXXXXXXXX</span></p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-876">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/19532f58fdaa7edb0c2790b4c4a4ec69.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.kasamarela.com.br">Kawik</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-876">
+        <time class="published" datetime="2006-03-07T18:12:19+00:00">07 Mar 2006, 18:12</time>
+      </a>
+      <div class="entry-content"><p>Wow! The link does not work!</p>
+<p>Can you send me this by email?</p>
+<p>thanks!!<br />
+Carlos@Brazil!!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-877">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-877">
+        <time class="published" datetime="2006-03-07T18:36:20+00:00">07 Mar 2006, 18:36</time>
+      </a>
+      <div class="entry-content"><p><a href="http://www.stuffplug.com/" rel="nofollow">Stuffplug.com</a> is still alive, Kawik. As linked in the original post.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-54951">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/93b58899882c388d84e6c4ea30c64b93.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Georg</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-54951">
+        <time class="published" datetime="2007-01-25T04:08:49+00:00">25 Jan 2007, 04:08</time>
+      </a>
+      <div class="entry-content"><p>ich hatte gerne das stuffplug in deutsch für denn msn 7.0</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-54952">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/131d23c408b8b45b4cbe115a9bcbb7b9.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Georg</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-54952">
+        <time class="published" datetime="2007-01-25T04:11:17+00:00">25 Jan 2007, 04:11</time>
+      </a>
+      <div class="entry-content"><p>ich hatte denn gern in deutsch für denn msn 7.0</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-55264">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4e7804877ab66569691b2fa82f6824a0.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Mitch</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-55264">
+        <time class="published" datetime="2007-02-05T17:58:28+00:00">05 Feb 2007, 17:58</time>
+      </a>
+      <div class="entry-content"><p>can somebody please tell me where i can find stuffplug for msn 7.5?</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

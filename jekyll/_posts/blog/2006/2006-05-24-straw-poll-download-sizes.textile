@@ -1,0 +1,149 @@
+---
+layout: blog
+category: blog
+title: "Straw Poll: Download Sizes"
+date: "2006-05-24T22:39:02+00:00"
+updated: "2006-05-28T13:17:33+00:00"
+tags: ["technology", "software", "oak", "downloads", "database", "embedded", "sql-server", "firebird", "opinion"]
+atomid: http://ben-ward.co.uk/journal/straw-poll-download-sizes/
+---
+You're downloading an application from the net, lets say an application that you were curious about but might not turn out to be of much use to you. What's the biggest download size you'd accept? What size of download would make you think ‘I can't be bothered’?
+
+Keep that figure and mind and now consider whether you would mind so much if the download was small (say &lt; 10MB) but the installer automatically downloaded a larger set of prerequisites, without requiring further intervention from you. Would that annoy you?
+
+Answers in the comments please, the explanation for this curiosity follows.
+
+Recently my life was entirely swallowed by a final year project at <a href="http://manchester.ac.uk">Uni</a> and one of the handful of reasons for it taking so long is because at the 11th hour I changed the design.
+
+Originally, my Desktop Search application (‘Oak’) was to use a Microsoft SQL Server Express database backend. Full of glorious developer friendly features (like .NET integration) it is a powerhouse of a database.
+
+However, whilst building some initial test applications I made the horrifying discovery that rather than embed itself in my application, as I'd mistakenly thought it would, SQL Server Express insists on being run as Windows service. Since it's not distributed as a key part of Windows that would have meant having to download about 40MB of SQL server, alongside the 20MB .NET 2.0 redistributable, alongside my application (lets say that'll be somewhere around 6 meg).
+
+This download size prompted me to switch from SQL Server to <a href="http://firebird.sourceforge.net/">Firebird</a> - which adds only 2MB to the application and runs embedded, not as a standalone service.
+
+I made the change because one of my requirements was to produce an application that would be suitable for consumers to actually use. I felt that a 60 MB download for a Desktop Search system was unreasonable and therefore I would better meet my requirement by altering the design. I wouldn't say that I regret the change, but learning Firebird's variation of SQL did make life harder and it falls short of some SQL Server features that I'd been planning to use.
+
+The thing is though, the .NET and SQL Server download doesn't come as one big download. Instead, you would download my 6MB application and the installer (generated from Visual Studio 2005) automatically downloads and configures .NET 2.0 and SQL Server 2005 from Microsoft. So rather than a very long download time, you instead have a very long installation time.
+
+Microsoft have worked quite hard to ease the effort of deployment, but I don't know. Is it enough? If you installed my application and it set about download 60MB of prerequisites would you ignore it and let it finish off in its own time, or would you still think ‘sod this’?
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-2806">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/dc17387f19d96d6aeb53a0a9a02418dd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.jonty.me.uk/">Jonty</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2806">
+        <time class="published" datetime="2006-05-25T04:29:42+00:00">25 May 2006, 04:29</time>
+      </a>
+      <div class="entry-content"><p>Hi Ben! I would say somewhere in the region of 1-10MB for just playing with something. Programs like Notepad2 (~300KB and no installer) and FlashFXP (~3.6MB) are great because they are lightweight, powerful and &#8216;just work&#8217;.</p>
+<p>Concerns surely vary, but some things always seem to put me off. Unknown download sizes, even with a broadband connection, deter me. Like the Office 2007 Beta 2 apparently ranges from 75MB to 1GB in size, which is a pretty big jump :) Bundled packages also dismay me, like the default iTunes+Quicktime (although I know you can still get them separate if you search). Finally, some friends are still on dial-up, as was I not so long back, and that really brings home how important small downloads are :)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-2816">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/2a86104d2cf9a6db94a4e8b0b1e542da.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Andrea</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2816">
+        <time class="published" datetime="2006-05-25T10:37:11+00:00">25 May 2006, 10:37</time>
+      </a>
+      <div class="entry-content"><p>Personally, I very much shy away from installing the .<span class="caps">NET</span> framework, so that would be a dealbreaker for me. I don&#8217;t really have a problem with &gt;20MB installers, or even 60MB (yay for broadband), I&#8217;d worry more about the footprint the software leaves on my machine once I decide to un-install it. If I have to download several extra components to make it work, that&#8217;s quite a bit of clutter I might never need again. Clean un-install &gt; file size.</p>
+<p>(I compulsively try out software every now and then, and I suspect my registry is a mess.)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-2826">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">IBBoard</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2826">
+        <time class="published" datetime="2006-05-25T13:10:33+00:00">25 May 2006, 13:10</time>
+      </a>
+      <div class="entry-content"><p>Ahhh, good old Microsoft and their &#8220;it doesn&#8217;t matter, it&#8217;s a configurable web installer&#8221; options! I&#8217;ve had to look at them recently, although it was for a community tool rather than Uni work.</p>
+<p>On the general topic of download size, I don&#8217;t tend to download too many things to try them out. Mostly I download because I need the app (like Open Office or and update to Gaim or whatever). Having broadband, though, a 20MB download wouldn&#8217;t get too much thought if it looked quite interesting.</p>
+<p>On the specifics of the additional installers, I hate them. My community tool currently uses DevIL.net to load a <span class="caps">TGA</span> image in to a text box, which is an additional 800KB on a 75KB app (C# 1.1) . That isn&#8217;t too bad because I can bundle the DLLs, but I also wanted it to convert TGAs to DDSes and visa versa which needed DirectX (<span class="caps">DDS</span> are DirectDraw Surfaces, DirectX&#8217;s compressed image format). Some 40MB+ of DirectX <span class="caps">SDK</span> later and I&#8217;m happily writing concise C# code to do all of the conversions, until I find that I&#8217;m actually using Managed DirectX which needs another couple of megs of web installer that can download up to 40MB of <span class="caps">MDX</span> files! For a 75KB app that&#8217;s somewhat excessive, but Microsoft have deemed it to be the best way and have no way around it (except Managed C++ wrapping unmanaged DirectX calls, but that was throwing errors at me and not giving debug info)</p>
+<p>So in general, the odd additional installer may be necessary as an additional requirement (like .Net 1.1, which a lot of people probably have from SP2 anyway) especially when it&#8217;s re-usable, but I&#8217;d always avoid them wherever possible and go for an alternative that gives a slightly larger file size. Even on dialup, someone would rather have the extra 2MB of Firebird rather than the who-knows-how-much of Microsoft add-ons (which, incidentally, may be <span class="caps">WGA</span> protected and therefore unaccessible to some people)</p>
+<p>End of long rant/post :D</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-2829">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2829">
+        <time class="published" datetime="2006-05-25T15:43:47+00:00">25 May 2006, 15:43</time>
+      </a>
+      <div class="entry-content"><p>Interesting thoughts.</p>
+<p>I&#8217;m interested to know why you try to avoid .<span class="caps">NET</span> Andrea? From Microsoft&#8217;s perspective it&#8217;s the future of all Windows development so it&#8217;s path you won&#8217;t be able to tread for long.</p>
+<p>My view in balancing user annoyance verses development power works roughly like this.</p>
+<p>I regard .<span class="caps">NET</span> as an essential part of Windows. 20MB <em>could be worse</em> and it&#8217;s perfectly acceptable to say that other applications are going to use it too. I really, really wish that Microsoft would consider .<span class="caps">NET</span> as an essential part of Windows. It&#8217;s a platform and it&#8217;s what their own software development tools have produced for at least five years. They should support it better and push it onto users systems. The different versions sit alongside each other, rather than replacing 1.1 with 2.0, so I see no risk of breaking existing applications in this process. That&#8217;s a big difference from Java if I understand correctly.</p>
+<p>However, I couldn&#8217;t justify pushing <span class="caps">SQL</span> Server out. Firstly, it&#8217;s that bit bigger. It&#8217;s also far less likely to be used by another application the user could letter acquire. On top of that, it runs as a system service, not just when my application is running and finally older versions don&#8217;t have a flawless security record, so pushing such a thing onto a user&#8217;s system to run all the time could even be dangerous.</p>
+<p>Ultimately, Microsoft are in possession of one of the best development frameworks on the planet. They&#8217;re fucking it up by not treating it as part of their platform and forcing this decision onto developers and users.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-2835">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/2a86104d2cf9a6db94a4e8b0b1e542da.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Andrea</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2835">
+        <time class="published" datetime="2006-05-25T19:59:44+00:00">25 May 2006, 19:59</time>
+      </a>
+      <div class="entry-content"><p>Hmm, I really couldn&#8217;t say, Ben. And after IBBoard&#8217;s comment, I&#8217;m not so sure anymore that I don&#8217;t actually have it installed (WinXP SP2)&#8230; I guess it just seems like clutter to me? <strong>sheepish</strong></p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-2836">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/2a86104d2cf9a6db94a4e8b0b1e542da.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Andrea</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2836">
+        <time class="published" datetime="2006-05-25T20:02:20+00:00">25 May 2006, 20:02</time>
+      </a>
+      <div class="entry-content"><p>Um, my asterisks got eaten. But I guess I was feeling <b>very</b> sheepish, so that&#8217;s all right.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-2841">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/6db1ac4911d03473d52634c979a18041.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.benedictoneill.com/">Ben O'Neill</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2841">
+        <time class="published" datetime="2006-05-25T22:58:31+00:00">25 May 2006, 22:58</time>
+      </a>
+      <div class="entry-content"><p>Well getting .<span class="caps">NET</span> isn&#8217;t a problem as I&#8217;ve got it installed and to be honest I&#8217;m sure it will be part of Vista (which I believe is a good thing).  I&#8217;ll handle downloads of 1-10MB for testing like Jonty &#8212; I do <strong>hate</strong> web installers.  I like to know when I download something how big it is, I don&#8217;t like to download an installer that then downloads the rest of the installer.</p>
+<p>Re: Office 2007 Beta 2 &#8212; you download the installers themselves (which can be up to 750MB, i.e. a CD) but at least you know how big it is, it&#8217;s not a web installer :)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-2887">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/f4398b400af6f1432f07805bdab8e38e.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.mysticg.com">MYstIC G</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2887">
+        <time class="published" datetime="2006-05-26T20:02:53+00:00">26 May 2006, 20:02</time>
+      </a>
+      <div class="entry-content"><p>These days with broadband I&#8217;d consider anything under the size of a small CD (650MB) to be a reasonable download.  With this sorta stuff its always more about speed than size anyway.  650MB off a M$ download server is fast but 650MB off a server maybe sitting on dialup would suck!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-2898">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/6db1ac4911d03473d52634c979a18041.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.benedictoneill.com/">Ben O'Neill</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2898">
+        <time class="published" datetime="2006-05-26T22:09:14+00:00">26 May 2006, 22:09</time>
+      </a>
+      <div class="entry-content"><p>That&#8217;s true, it&#8217;s more to do with how long it takes to download.  I&#8217;ll often only wait about 2-5 mins to test something out.  That&#8217;s about 60MB on my connection&#8230;</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-3051">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/2965193680f8266d05258f7a5ac777bf.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Jack</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-3051">
+        <time class="published" datetime="2006-05-29T14:26:04+00:00">29 May 2006, 14:26</time>
+      </a>
+      <div class="entry-content"><p>Ben &#8212;</p>
+<p>As a developer myself, I can fully understand (and support) the decision to switch to Firebird &#8211; I have made the switch myself about 18 months ago for a database project I was working on at that time. However I switched for different reasons: MS <span class="caps">SQL</span> Server was way too slow for what I needed at that time &#8211; Firebird just blew me away by outperforming MS <span class="caps">SQL</span> Server by a factor of 7.5(!). Furthermore, the download and installation of Firebird was a breeze. And if you do not need all the bells and whistles MS has put in <span class="caps">SQL</span> Server, Firebird is a good and cheap solution.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

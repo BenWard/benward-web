@@ -1,0 +1,41 @@
+---
+layout: blog
+category: blog
+title: "2010; 52"
+date: "2010-01-03T08:50:06-08:00"
+updated: "2010-01-03T08:57:03-08:00"
+summary: "2010. A new year, no resolutions, but a strong, well rested desire to embrace writing all over again."
+tags: ["all", "writing", "project52", "personal-publishing"]
+atomid: http://benward.me/?p=540
+---
+2010 is the first new year in a while where I don't feel like I'm washing up off the back of a big wave of change.
+
+2009 was a mostly stable year. I'm in the same place (San Francisco), in the same job (working for YDN is the longest time I've spent on a single team in my nearly three years at Yahoo), and my friends in the States and back home have been that way for a while now. I ended the year feeling that things were _ordinary_, and actually recounting it to friends in England felt really quite dull. I hadn't seen most of them in 12 months, yet little is really going on in my life.
+
+This time last year I'd just been laid off, rehired, and confronted the very real possibility of deportation. Given that, I'm happy to be reflecting on an uneventful year. The Christmas break has me rested, and with nothing big carrying over from 2009, I fly back to California next week knowing that I'm not returning to chaos, but a stable, sane foundation.
+
+In the Bay Area there's a certain pressure to be _doing_. There is an intensity of talented, inspirational people around you. They're always thinking, building, hacking, creating, always doing _something_. It's infectious, and at various points in 2009 I have felt quite desperate with myself for not being part of that. A few small, never-emergent failures—they may yet be resurrected one day—but never really pulling anything together. Ideas are free flowing; that's a good thing for sure, but I look back and realize that whenever I had the urge to produce something, I had too much in the air already.
+
+The temptation is to respond to this clarity and stability with ferocious intent and planning. I'm resisting. There _are_ a number of interesting new things I want to build. There are existing commitments to "microformats.org":http://microformats.org that could always use more time. There are a couple of old projects I'm curious to revive. I'm resisting because I don't know which of those various efforts is most important for my time right now. I'm committing to _nothing_, because committing to doing _anything_ still finds a way to take up my time, producing _nothing_.
+
+Picking any project is not the game. Picking the _right_ project at the right time is the game. Once I'm back home, back in my routine, I'll know what I really need to build. And I'll build it because I can, and because I've left myself the space to do so. I've learned, slowly and unproductively, how to keep myself in the right state of mind to produce interesting things. A bold declaration of vapourware isn't it. When I do start a new project, a repository will appear on "github":http://github.com/benward.
+
+On a different tack, I do have one new project. I've elected to participate in "Anton's":http://antonpeck.com "Project52":http://project52.info/. It's a writing challenge; specifically a blogging challenge, but we're all just writing now, aren't we? Personal publishing fascinates me. It's turned out to be a far more subtle, volatile experience than I ever expected from that first installation of my b2evolution blog in July 2004. I've been through different balances of personal verses impersonal, articles verses links, as well as changing expectations of the content I want to write. My opinions on how others should interact with my content, and how I should interact with theirs has changed over time too: Comments! No comments! Some comments!
+
+In 2009, the blog on this domain—<code>benward.me</code> (née <code>ben-ward.co.uk</code>)—received six ("count them":/blog/2009/) posts. All were long, and all I'm still very happy with. I drove myself into this low-output hole by imposing an expectation on myself that all my posts had to be huge, grand articles. I still want to write like that; I still want to tick the boxes of whatever I think is ‘proper’ writing at the time. But this year I found new outlets: A wiki, and "Tumblr":http://tumblr.com.
+
+Tumblr is an interesting, odd beast. On the surface it's a blog host. That's what drew me to it. It was a blogging platform with a super-simple, clean interface. Their bookmarket for quoting articles, photographs and video was outstanding, and it encouraged me to just link to things, or embed video. It was quick-fire and having been "thrown off Pownce":http://pownce.com/, I learned to love it. Last year, whilst I wrote only six article-length posts over here, I posted 494 items to Tumblr. Things that interested me, spontaneous thoughts, quotes and comment. In the end I wrote a lot.
+
+The thing is, though Tumblr is described as a ‘micro’ blogging service, with its lack of comments, incestuous linking strategies and lightweight follower/subscription model, the ‘micro’ is really only relative to people like me, who through their own fault turned blogging into something big. At the origin of the permalink, Jason Kottke wrote "a single paragraph":http://www.kottke.org/00/03/finally-did-you-notice-the, the post didn't even have a title. Tumblr isn't _micro_blogging; it's _blogging_.
+
+Whilst I love Tumblr; for helping me relearn to write, for connecting me with people, I also have some discomfort. I dislike that the data is locked away behind a very limited API. I dislike the ‘reblogging’ model of conversation (and have been reading Tumblr content in a regular feed reader for a while now), but mostly, I found that the separation I made between this site and my Tumblr blog started to break down.
+
+I'd quote something, and start annotating a response. Suddenly that response was three, four, ten paragraphs long. Suddenly I'd written an article, and it was posted on the ‘wrong’ blog. When I started, I thought a separation between long form writing and short form writing was obvious, but in practice I seem to spontaneously morph between them. Keeping two separate sites is therefore wrong for me.
+
+I'm going to merge my content back together (on this domain), but I'll put tools in place to ensure I'm participating in the Tumblr community as well; I like it, I just need better control of my publishing. The difference between long-form and short-form content will be left to spontaneity, which was probably always the best way to do it anyway. The merge of old posts will happen soon, and I'll expose more granular feeds to accommodate anyone that only wants six posts a year.
+
+My wiki isn't public yet, but it does exist. Along with rediscovering the joy of posting short stuff, I've acted on my old post "Practical Publishing":/blog/practical-publishin ; the separation between publishing chronological content (where accuracy and opinion is rooted in time), and revised content (where you aim to keep a document current as time goes on.) The wiki software I'm running needs a bit of work to roll it into my site, and to expose relevant major edits to chronological consumers, but it's getting there. I'm writing on it, even though you can't see it yet.
+
+In shaking up my writing tools, Project52 makes a lot of sense for me. Merging it all back together, there will be short posts and long posts. There will be wiki pages of documentation and state-of-the-art. By producing (at least) one article of original content each week (either a post, or a wiki page), I hope to find a good balance to my output, and kick myself into finished some long unfinished draft articles, too. In my tools I'm embracing flexibility again, so I hope that will leave me free to write. I'm excited about it.
+
+Happy new year. I hope it treats you well.

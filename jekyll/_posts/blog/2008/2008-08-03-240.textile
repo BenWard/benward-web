@@ -1,0 +1,64 @@
+---
+layout: blog
+category: blog
+title: "£2.40"
+date: "2008-08-03T00:15:07-01:00"
+updated: "2008-08-03T00:15:07-01:00"
+summary: "Pausing before I move to San Francisco."
+tags: ["all", "life", "moving", "london", "rambling", "san-francisco", "friends"]
+atomid: http://ben-ward.co.uk/?p=464
+---
+This week I didn't buy my usual Oyster 7-day season ticket. In the knowledge that I'd only be traveling from my home in Bethnal Green to Yahoo's offices in Shaftesbury Avenue a few more times, I let the credit run down. Over the course of the next few days I'd pass through the gates of Bethnal Green and Tottenham Court Road and the card balance would tick down. An obscure countdown toward the single biggest change in my life so far. 2.40, it turns out, represents ‘zero’.
+
+On Monday I'll be driven to Heathrow airport (Terminal 5) and fly direct to San Francisco. It's a one-way trip. I'm leaving Yahoo! Europe to embark on a whole new adventure, switching over to our Brickhouse team, currently responsible for building <a href="http://fireeagle.com">Fire Eagle</a>.
+
+It's been a hard week. Whilst I'm uncontrollably excited about moving to the <abbr title="United States of America">US</a> and having an incredible adventure, this week has been full of abrupt good-byes. On Monday night I got an email. Kelly (a fantastic woman who's been looking after all the details of my relocation) has found me somewhere to live in the San Francisco Bay Area, starting August 4th. Within an hour I had a flight booked and the next morning a van came to ship away most of my belongings.
+
+Sub Standards Ben was my last Pub Standards event in the UK. Surrounded by the best friends I've ever had, it was an absolute pleasure. Friday night we had some quiet drinks after work and then this morning I packed up the last of my belongings and said goodbye to David (Best. Flatmate. Ever. This year in our flat has been a joy.)
+
+It's like the calm before a storm, perhaps. But it's odd, being torn in two directions. If I'd not been given this incredible opportunity to move to San Francisco I know that I would carry on in London very happily having the time of my life. No matter how great San Francisco is, I'm really very sad to be leaving so many great people behind.
+
+I'm a little sad and a little introspective, but fundamentally optimistic. Also a little lost for words, but that is perhaps clear from my rambling attempt to articulate it all. I'm just aware of needing to take a moment to breathe and pause before the rush of moving thousands of miles engulfs me. I've had wonderful experiences here and every one of them is worth thinking about. This year in London, with these friends, has made me.
+
+You know who you are. Thank you.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-227096">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e6e984d5209d0fd381fae0d78c4d0302.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.mattrobin.com">Matt Robin</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227096">
+        <time class="published" datetime="2008-08-04T09:50:44-01:00">04 Aug 2008, 09:50</time>
+      </a>
+      <div class="entry-content"><p>Using up the remaining credit on your Oyster Card &#8211; it&#8217;s funny which things can highlight the time left in certain places (I think you articulated that part quite well actually). Making a move overseas, especially on a one-way ticket, is a substantial event in anyone&#8217;s life &#8211; done it twice before myself(!) &#8211; it&#8217;s good to see that you appreciate that and it&#8217;s really nice that you made such good friends during your time in London.</p>
+<p>I hope you have a good journey across to California and enjoy living and working over there. All the best, Matt.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227097">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/09c425da65296ba04bb2512948a56fe5.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://andrewdisley.com/">Andrew</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227097">
+        <time class="published" datetime="2008-08-07T05:19:58-01:00">07 Aug 2008, 05:19</time>
+      </a>
+      <div class="entry-content"><p>Congratulations on the move Ben, good luck with it all!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227098">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/576de953e15b2f724b05332d040393f8.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.paulrobertlloyd.com">Paul Lloyd</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227098">
+        <time class="published" datetime="2008-08-10T15:06:47-01:00">10 Aug 2008, 15:06</time>
+      </a>
+      <div class="entry-content"><p>I thought I would have a peek at your blog, as a friend last night said that he found your posts/tweets reminiscent of my move to the Bay Area at the beginning of 2006.  He commented that I had a similar words of excitement, nervousness, opportunity etc, but these slowly disappeared to be replaced by annoyance, anxiousness and disappointment (although I may have been over-dramatising!)</p>
+<p>With that in mind, I just wanted to wish you the best of luck (I&#8217;m sure you don&#8217;t need it) and I hope that your posts don&#8217;t go the same way as mine!  I will say that my time in America changed me in a lot of ways, mainly for the better, yet at the same time made me more cynical too, so I&#8217;ll be interested to follow your journey.</p>
+<p>You won&#8217;t find a friendlier city, and the US really is the land of opportunity, with so many places to see and things to do, so grab it with both hands!</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

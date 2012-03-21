@@ -1,0 +1,21 @@
+---
+layout: blog
+category: blog
+title: "Projects on my cards..."
+date: "2005-02-03T20:15:37+00:00"
+tags: ["all", "technology", "general"]
+atomid: tag:benward.me,2005-02-03:/blog/projects_on_my_cards
+---
+I seem to be pulling my trick of taking on a lot of ideas at once again. Not necessarily a bad thing, though it does mean I have to prioritise my free time, which is maybe a less normal thing to have to do.
+
+At the last count, I had the following things to be doing:
+<ol>
+<li>iToast - a cool little track-change notifier for iTunes. Basic functionality is there, making it useful isn't</li>
+<li><code>BasicXmlDocument</code> PHP class - I seem to have ended up with this in my hands after rewriting my blogroll code. I'll release it at some point, 'cause I think it's pretty useful</li>
+<li>The Blog. I broke it this evening, though I have no idea how. For some reason adding a comment a few posts back triggered an error in my hacks.php file. Tweaking with that broke everything. Thus the 'fuzzy time' for each of my posts is currently commented out</li>
+<li>Added to this, I'm working with some friends on a new 'building websites' related project which although it's not cemented yet, is looking good for going ahead and hosting some interesting content. I'm doing the CMS on this one, plus writing some stuff about CSS.</li>
+</ol>
+
+So my little world is pretty full tech-wise (that, of course doesn't include my life away from the screen... Yes, I do). And the blog keeps breaking by itself.
+
+Oh, and the countdown to my 21st birthday has started... Woo!

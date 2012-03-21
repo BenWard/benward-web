@@ -1,0 +1,120 @@
+---
+layout: blog
+category: blog
+title: "Ben-Ward.co.uk in Internet Explorer"
+date: "2005-11-21T14:26:54-01:00"
+updated: "2005-11-21T14:27:50-01:00"
+tags: ["all", "bugs", "internet-explorer", "google-analytics", "stats"]
+atomid: http://ben-ward.co.uk/journal/internet-explorer/
+---
+<a href="http://jo.ben-ward.co.uk" rel="met partner">Jo</a> reminded me on the phone that this site is currently messy in Microsoft's favourite son. Since this design is going to stick around rather longer than I once planned, consider this a commitment to hack it into shape in a few weeks time.
+
+In related news, <a href="http://google.com/analytics">Google Analytics</a> reckons I've only got 35% IE usage visiting the site, with ~50% using Firefox and a whopping 10% using Safari. I guess the low IE usage is quite likely linked to the aforementioned brokenness, though.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-446">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/8e0293544b13499460369217e2a7febd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://chalvn.za.net">Charl van Niekerk</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-446">
+        <time class="published" datetime="2005-11-21T16:31:22-01:00">21 Nov 2005, 16:31</time>
+      </a>
+      <div class="entry-content"><p>My site breaks in <abbr title="Internet Explorer">IE</abbr> probably worse than yours, and despite putting a sign up to download Firefox the greatest percentage of my visitors still use <abbr>IE</abbr>. Weird.</p>
+<p>I used to use <a href="http://www.statcounter.com" rel="nofollow">StatCounter</a> (quite a good service) but now also moved over to Google Analytics for my blog stats. In comparison, it seems like Google Analytics gives me better stats, is faster and most importantly simpler to set up. Well done to Google on this one!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-447">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-447">
+        <time class="published" datetime="2005-11-21T17:06:28-01:00">21 Nov 2005, 17:06</time>
+      </a>
+      <div class="entry-content"><p>I&#8217;m generally an �any browser� kind of guy, but the issues with IE here were only going to be temporary when I intended to reboot back at the beginning of the month. It seems just to be some mis-sized margins and screwy floats so it&#8217;s probably only an hour&#8217;s work to fix.</p>
+<p>And yes, Analytics seems like another smart aquisition for Google. I do want to try Mint out, but will need to wait until the interactive demo is alive again to judge it. And take a look to see if its �Peppers� are offering up functionality over what Google has going for it. MeasureMap is also of interest, but I&#8217;ve not been invited into the alpha yet.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-448">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/1263bf47b50ccebbadf6bc8c0bf267dc.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://dhs.neuropirate.com/">Dave HS</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-448">
+        <time class="published" datetime="2005-11-21T19:51:52-01:00">21 Nov 2005, 19:51</time>
+      </a>
+      <div class="entry-content"><p>http://www.explorerdestroyer.com/</p>
+<p>&#8220;Think how psyched you would be if less than 50% of your sites&#8217; visitors used IE. It&#8217;s a good target: ambitious, but achievable. So we thought we&#8217;d make it a friendly competition.&#8221;</p>
+<p>Go girl!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-449">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">IBBoard</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-449">
+        <time class="published" datetime="2005-11-24T22:13:36-01:00">24 Nov 2005, 22:13</time>
+      </a>
+      <div class="entry-content"><p>Your browser stats are probably that way because of the people you know like me who check every few days and use good browsers :D I wonder how many of the Safari people are NascentSteve &#8211; or is he still with Omniweb or whichever one was taking his fancy last?</p>
+<p>Firefox is definately making an impact. I&#8217;ve got a counter on two websites, the second of which is more gamer-oriented and so likely to get more Firefox installs, but they&#8217;re running at 21% FF/72% IE and 28% FF/66% IE respectively.</p>
+<p>I get the feeling my Blog breaks in IE, but I&#8217;ve not got round to checking again for ages! It&#8217;s not like anyone reads it much :D</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-451">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/11d4b8e0e0638fe55463628d216c34a8.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://jo.ben-ward.co.uk">Jo</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-451">
+        <time class="published" datetime="2005-11-25T11:33:05-01:00">25 Nov 2005, 11:33</time>
+      </a>
+      <div class="entry-content"><p>IBBoard &#8211; Your blog does indeed break in IE, such that your side bar ends up pushed below all your content (much like Ben&#8217;s).</p>
+<p>And for my site it&#8217;s IE 31%, Unknown 29%, Firefox 25%, Mozilla 13%.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-452">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-452">
+        <time class="published" datetime="2005-11-25T12:45:20-01:00">25 Nov 2005, 12:45</time>
+      </a>
+      <div class="entry-content"><p>Sidebars pushed down is 99% likely the IE float margins bug, so a * html rule should be able to correct it. IE7 claims to have fixed it (when they release it next year�)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-453">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">IBBoard</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-453">
+        <time class="published" datetime="2005-11-25T18:01:59-01:00">25 Nov 2005, 18:01</time>
+      </a>
+      <div class="entry-content"><p>IE has corrected it? good :) And yeah, I thought it would be margins &#8211; I was actually just going to look at it now.</p>
+<p>One important thought for IE&#8217;s &#8216;fix&#8217; though &#8211; is it a fix for the margins, or does it fix it completely so that it won&#8217;t pay attention to the * html rule as well? Would be interesting to know :)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-454">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">IBBoard</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-454">
+        <time class="published" datetime="2005-11-25T18:20:44-01:00">25 Nov 2005, 18:20</time>
+      </a>
+      <div class="entry-content"><p>Thanks to Ben&#8217;s Bloglines list (I needed something to read while waiting for my site&#8217;s server load drop from being through the roof!) I&#8217;ve just read the IE Dev Blog. In one message they talk about <a href="https://blogs.msdn.com/ie/archive/2005/10/12/480242.aspx"><span class="caps">CSS</span> Hacks and the Slashdot website</a>.  From the looks of that the &#8216;* html&#8217; hack will be handled correctly in IE and so we won&#8217;t be able to use it if IE7 still messes certain things up.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-457">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-457">
+        <time class="published" datetime="2005-11-26T13:13:21-01:00">26 Nov 2005, 13:13</time>
+      </a>
+      <div class="entry-content"><p>That&#8217;s correct Stu. They&#8217;re designing IE7 with correctness in mind, so they&#8217;ve fixed hacks like that. It&#8217;s <em>probably</em> the right thing to do, since it allows us to filter between IE7 and IE6. Based on their fix list, that should be more useful than filtering between IE7 and Firefox.</p>
+<p>However, it only takes one bug in their <span class="caps">CSS</span> implementation and we have huge problems if we can&#8217;t filter IE some fixes, I mean patches, err hacks. While a serious <span class="caps">CSS</span> bug in Firefox or Opera will get get fixed quickly, IE releases are few and far between. I dislike conditional comments (the whole mark-up purity thing has stuck with me, however unrealistic it is), but there may yet be ways.</p>
+<p>Last I checked, I believe that if you do <code>@import url("foo") screen, print</code>, with media types on the end, it also filters out IE. I don&#8217;t know what other browser support is like, but I haven&#8217;t seen it listed in the IE7 fixes.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

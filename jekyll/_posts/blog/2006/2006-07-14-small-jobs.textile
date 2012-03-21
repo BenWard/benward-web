@@ -1,0 +1,36 @@
+---
+layout: blog
+category: blog
+title: "Small Job Summer"
+date: "2006-07-14T22:55:10+00:00"
+updated: "2006-07-23T15:02:27+00:00"
+tags: ["all", "holiday", "jobs", "work", "smalljobs"]
+atomid: http://ben-ward.co.uk/journal/small-jobs/
+---
+On a related note to all of this employment talk, I'm currently spending summer at home and trying to pay my way by taking on some small-scale web development jobs.
+
+Therefore, if you've got some HTML/CSS needs fixing, templates building from Photoshop mockups, CMS theme building, PHP hacking or similar then drop an email to <a href="mailto:smalljobs@ben-ward.co.uk">smalljobs@ben-ward.co.uk</a> (you may like to peruse the <a href="/cv#skills">skills section of my CV</a>).
+
+<p class="vevent" id="evAvailable">I'm <span class="summary">available</span> between <abbr class="dtstart" title="2006-07-14">now</abbr> and <abbr class="dtend" title="2006-08-18">August 18th</abbr></p>
+
+<p class="vevent" id="evHoliday">From <abbr class="dtstart" title="2006-08-18">August 18th</abbr> to <abbr class="dtend" title="2006-08-28">August 28th</abbr> I'll be <span class="summary">on holiday with the family</span> but after that I'm available to work until such as time as I find a full time job.</p> 
+
+This is all part of my strict ‘I'm never going back to work in McDonald's’ policy.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-6543">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/fb7d81b172292b6034f9c1747d5b11e0.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.fatbusinessman.com/">FatBusinessman</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-6543">
+        <time class="published" datetime="2006-07-17T21:28:00+00:00">17 Jul 2006, 21:28</time>
+      </a>
+      <div class="entry-content"><p>Oh, but if you don’t go back to work at McDonald’s then who’s going to host barbecues at your house in a McDonald’s-branded cap and apron?</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

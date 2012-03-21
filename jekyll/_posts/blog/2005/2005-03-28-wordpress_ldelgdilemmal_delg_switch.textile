@@ -1,0 +1,25 @@
+---
+layout: blog
+category: blog
+title: "WordPress <del>dilemma</del> switch..."
+date: "2005-03-28T00:34:01+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2005-03-28:/blog/wordpress_ldelgdilemmal_delg_switch
+---
+This blog, as some may have noted, runs not off the insanely popular <a href="http://www.wordpress.org" title="Wordpress">Wordpress</a> blogging engine, but a piece of software called <a href="http://www.b2evolution.net" title="b2Evolution">b2Evolution</a>.
+
+I just wrote a lengthy piece discussing the pros and cons of both pieces of software, based on how I use it. It was going to end with an open dilemma about whether to switch my Blog over to Wordpress or not, but in the course of writing it I convinced myself that I should, so there was no longer any dilemma to pose... Good eh?
+
+I actually installed mySQL on my PC back in Bracknell last week, so I'll be able to have a crack at doing a data conversion later in the week. Critically, it all rests of whether my "Side Links" sub-blog can comfortably fit into the WordPress "Links" feature. It probably can, so switch I probably will.
+<!--more-->
+The main reasons for choosing to try and switch are as follows:
+<ul>
+<li>Pingback appears to be broken in b2Evolution (at least in my install)</li>
+<li>WordPress <em>does</em> get more regular updates</li>
+<li>The WP Plugin architecture works very nicely indeed</li>
+<li>WP 1.5 has nice looking new Spam protection mechanisms</li>
+<li>I've been pondering this for ages now, and if I don't do something soon then I'll <em>never</em> get around to making my own theme</li>
+<li>Integrated 'standalone' pages are a nice feature that I'll probably make better use of than B2e's multiple Blog architecture</li>
+</ul>
+
+That'll do.

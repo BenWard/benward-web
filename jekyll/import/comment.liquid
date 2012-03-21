@@ -1,0 +1,17 @@
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>{% for comment in comments %}
+    <li><article class="hentry" id="comment-{{comment.ID}}">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/{{comment.md5}}.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        {% if comment.url %}<a class="url fn" href="{{comment.url}}">{{comment.author}}</a>{% else %}<span class="fn">{{comment.author}}</span>{% endif %}
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-{{comment.ID}}">
+        <time class="published" datetime="{{comment.published}}">{{comment.formatted_date}}</time>
+      </a>
+      <div class="entry-content">{{comment.content}}</div>
+    </article></li>{% endfor %}
+  </ol>
+</div></notextile>

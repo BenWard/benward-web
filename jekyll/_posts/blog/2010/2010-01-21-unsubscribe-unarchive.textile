@@ -1,0 +1,35 @@
+---
+layout: blog
+category: blog
+title: "Unsubscribe/Unarchive"
+date: "2010-01-21T17:58:31-08:00"
+updated: "2010-01-21T18:05:47-08:00"
+summary: "There is value in email, and that value is communication. Over years, service providers and publishers have taken advantage of email's ubiquity to adapt it for push, notification and automation. Better solutions to those use cases are emerging (or already exist), so this is the time to reclaim the inbox, reduce your email throughput back to what the medium is really good for. I've already seen that a little bit of persistent effort can greatly increase the quality of email as a tool."
+tags: ["all", "technology", "email", "articles", "project52", "communication"]
+atomid: http://benward.me/?p=569
+---
+The evolution in the use of email is quite interesting. Choices we make to balance our communicative overhead, choices others make in the kinds of information they prefer to distribute via email over other mediums, how we react to those changes and learn from reactions. Email is a valuable case study of internet behaviour as it's been with us since the start, and it's never going to go away either. No matter how strongly the bleeding edges of the technology industry push different forms of communication; wikis, Waves, activity streams and so forth, people will always have a need for medium to long form, considered, chronological communication (and even if it's not the most efficient, they'll do it anyway.)
+
+Every change we make to our email behaviour, whether it's organisation, tools or simply trying to email less, we are trying to find an effective balance. I've just come out the other side of one change, and am spending a few weeks making a strong, conscious effort in response.
+
+At this point, my email inbox tends to receive the following: Notifications (from services), content summaries, status changes, reminders; pushed information, newsletters, aggregate news; actual communication, enquiries, conversations, planning and social synchronisation.
+
+My email clients of choice is Mail on Mac OSX, and Mail on my iPhone. Previously I used Gmail from Google, but I quit the service because I found the browser-based user interface clumsy,  and the application as a whole aesthetically ugly. Mac OSX's user interface is elegant, the display of email good for reading, and the desktop client remains robust. My email is on an IMAP server (because that's how email should be accessed), and I can fall back to my service provider—"Fastmail":http://fastmail.fm —for a clean and functional web interface if I'm ever away from my main machine. I have also developed a certain wariness of storing too much of my data with Google for free, and prefer to pay for the excellent service I now get.
+
+Gripes with Gmail as an application remain, but Gmail did massively inform my email behaviour. Most importantly, archiving rather than deletion. I carried over that practice to my new host, and now have some four years worth of email archived on my machine, and backed up around the world. I can, if needed, find pretty much any piece of mail given the right parameters. Not that I will ever need to see most of that mail again. But archiving is easy for a while, and my compulsive nature makes thorough archiving desirable.
+
+I organise my mailboxes annually. Each year I archive everything from the previous year into an annual parent mailbox, effectively removing all the top-level mail folders from my account hierarchy. I start each year with a bare ‘Inbox’, ‘Drafts’, ‘Sent’, ‘Archive’ folder set, and then the categorical mailboxes get recreated when the first relevant piece of mail comes in. Some get recreated within a day, others never come back. For what it's worth, I've always found a simple tree structure to be entirely sufficient for organising email; I never proved multi-dimensional tagging to actually be useful in Gmail.
+
+Although my archive routine is simple, it is slowing me down. Huge amount of archived data, most of it useless. So I have all of my domain renewal notifications? Why? To keep a record of when my registrars have been in contact, so that I know exactly when I was reminded of particular actions. That is an example of me choosing the simplicity of the archive action instead of making a good-value decision about what is worth archiving. I've now accrued too much information to effectively dig through.
+
+So, my first email goal from now on is to archive _less_. To trash messages that are of low value. Being an archivist, completist and pedant is an unhelpful email trait.
+
+Years of signing up for services means that I get a regular stream of automated or blind-mailed content from services. This email I do delete. But because the effort of performing a delete action is so low I have tolerated an increasing quantity of mail for years. The processing cost is low, but occurs frequently and at irregular intervals. The problem is exacerbated in a mobile environment, where a ‘new message’ notification triggers a significant interruption. That interruption would be appropriate for valuable, personal communication.
+
+As well as notifications, I receive a small amount of actual content by email as well; most notably the daily "Snowmail":http://channel4.com/news/snowmail email from Channel 4 News in the UK. Unfortunately, that content is only distributed by email, and is not published as a blog. This is content I read, of value, but is not content that should be pushed to me, it's content I should pull up at my convenience.
+
+My second email goal is to reduce the amount of email I receive in my inbox to be 95% personal communication. This has meant that every day for the past two weeks, I've actually taken the extra time to find the unsubscribe link in the footer, or edit the communication preferences of whichever service is sending notifications, and permanently disable it. I suspect it will take months to clear all of them, since some services are very infrequent in their mailings, but already I'm finding that if my iPhone vibrates, then the message I've received is now most often of actual interest.
+
+Newsletters require more work. Email is the wrong delivery mechanism; they should not be push content in the first place. So I'm going to experiment with subscribing a blog-by-email address to the mailing list in question, so I can convert the content into an RSS feed and have it consumed by "Fever":http://feedafever.com instead.
+
+There is value in email, and that value is communication. Over years, service providers and publishers have taken advantage of email's ubiquity to adapt it for push, notification and automation. Better solutions to those use cases are emerging (or already exist), so this is the time to reclaim the inbox, reduce your email throughput back to what the medium is really good for. I've already seen that a little bit of persistent effort can greatly increase the quality of email as a tool.

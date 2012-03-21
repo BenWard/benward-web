@@ -1,0 +1,80 @@
+---
+layout: blog
+category: blog
+title: "Leopard Wish #1"
+date: "2006-08-17T00:16:50+00:00"
+updated: "2006-08-17T00:16:51+00:00"
+geo:
+  xy: 52.1455,.1418
+tags: ["technology", "osx", "ideas", "mac", "ui", "leopard", "finder", "installation", "mockups", "features"]
+atomid: http://ben-ward.co.uk/journal/osx-leopard-wish-1/
+---
+So, <a href="http://apple.com">Apple</a> have <a href="http://www.apple.com/macosx/leopard/">previewed Mac OSX Leopard</a>. I can't say I was blown away by the WWDC keynote, but everything there was interesting enough: The implementation of virtual desktop is gorgeous, iChat 4 looks very cool (although I continue to dislike the chat bubbles) and Time Machine might just bring backups to all (if Apple start shipping redundant hard discs as standard… which they might, I suppose). OK, so the new Mail.app templates are shite, looking like a car crash between iWeb and Outlook Express (and not of the chocolate and peanut butter kind). In fact, that seemed remarkably consumer-centric for a developers conference but otherwise all is good.
+
+I've actually been far more interested in the less visual enhancements: Tasks being moved into a centralised service for Mail.app and iCal (and anything else) to share, a central feeds service (ala the RSS Platform in Windows Vista, I presume) might mean we don't have to manually subscribe to Podcasts in iTunes anymore if it could just query a central repository for music enclosures (and likewise for pictures in iPhoto).
+
+Tonight, I read through <a href="http://impulsivehighlighters.blogspot.com/">Impulsive Highlighters</a>, a blog full of leaked Leopard screenshots. Lots to appreciate on the evolutionary side of things. Particularly, I noticed this (screenshot from Impulsive Highlighters):
+
+<img src="/res/posts/LeopardTrash.png" alt="The Trash folder in Leopard now has a kind of ‘infobar’ including a nice clear ‘empty trash’ button"/>
+
+This kind of ‘info bar’ UI is very appealing indeed, and I would love to see it used to fix one of my pet-hates with OSX: Application installation.
+
+Yes, you read that right. Installing Applications in OSX is so elegant and smooth it is near theraputic. Drag, drop, run. It's a thing of pure UI beauty. Except, not everyone copes so well with drag-and-drop. Sure, the percentage of Mac users is higher by far  (since they're trained in a world where drag and drop actually works reliably) but I wouldn't fancy telling my Gran to do that. And I would have loved for her to have a Mac rather than a Dell. Ditto my parents. 
+
+The use of <abbr title="drag and drop">D&D</abbr> as a <em>primary</em> means of user interaction is odd generally. Normally it is in addition to something else, a means of intuitively bypassing button and click based interaction for those who want it. In all the recent discussion about drag-and-drop in web applications, it's been emphasised a lot that you should not (nay, <em>must not</em>) use drag-and-drop in place of everything else. Your functionality must not depend on drag-and-drop since fundamentally it's not accessible enough. Yet the glorious easy installation selling point of OSX breaks this rule (you can of course go Edit->Copy and then Paste into the destination, but I don't consider that overly intuitive).
+
+So, here's a mock-up of what I'd like:
+
+<img src="/res/posts/LeopardCopyToAppsMock.png" alt="A Finder window containing an application displays a button labelled ‘Copy to Applications’" />
+
+This ‘Copy to Applications’ button would be displayed at the top of any Finder window for any mounted Disk Image that contains an application. Not only does it make it very clear for less drag-and-drop trained users to install an application to their hard disc, it would make it <em>even easier</em> for existing users to install applications to the most common location.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-13222">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/244d81957c525b2687be19489ffd3dfa.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://lisamcmillan.com">Lisa McMillan</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-13222">
+        <time class="published" datetime="2006-08-27T18:56:30+00:00">27 Aug 2006, 18:56</time>
+      </a>
+      <div class="entry-content"><p>That copy to applications idea is really smart. I&#8217;ve always wondered how such an obvious flaw in interface design got passed the apple design team. I hope they see your post.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-13223">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/244d81957c525b2687be19489ffd3dfa.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://lisamcmillan.com">Lisa McMillan</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-13223">
+        <time class="published" datetime="2006-08-27T18:57:21+00:00">27 Aug 2006, 18:57</time>
+      </a>
+      <div class="entry-content"><p>Erm. Passed = past. grrr.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-14775">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/6db1ac4911d03473d52634c979a18041.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.benedictoneill.com/">Ben O'Neill</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-14775">
+        <time class="published" datetime="2006-09-03T21:07:57+00:00">03 Sep 2006, 21:07</time>
+      </a>
+      <div class="entry-content"><p>I never did quite understand why you&#8217;re forced to copy the program as a way of installing it</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-14787">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-14787">
+        <time class="published" datetime="2006-09-03T23:11:24+00:00">03 Sep 2006, 23:11</time>
+      </a>
+      <div class="entry-content"><p>Well, it&#8217;s kinda logical and simple really. Rather than an ‘application’ being an incredibly complex system requiring a step-by-step process to make it usable on your system (as in the Windows world), <span class="caps">OSX</span> applications are contained in their .app packages and can just be run, as is, from anywhere. They can be moved around at will too (most of them, anyway).</p>
+<p>You can generally run an application direct from the Disc Image (.dmg) download if you wish, but of course to use it regularly it needs to be copied to a permanent location like /Applications.</p>
+<p>I guess the word ‘Installation’ in the context of .app&#8217;s shipped in disc images is somewhat inaccurate (<span class="caps">OSX</span> does of course have a dedicated ‘Installer’ application for more complex software), but the concept of ’copying Applications’ is so simple just because an ‘application’ in <span class="caps">OSX</span> is better designed and more robust than a folder full of files in Windows (although, outside of the <span class="caps">OSX</span> Aqua UI, a .app <em>is</em> just a folder full of files, but handled with great grace).</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

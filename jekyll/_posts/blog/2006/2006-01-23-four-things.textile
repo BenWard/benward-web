@@ -1,0 +1,84 @@
+---
+layout: blog
+category: blog
+title: "Four Things"
+date: "2006-01-23T18:09:31-01:00"
+updated: "2006-01-24T01:51:52-01:00"
+summary: "Hoorah, a meme."
+tags: ["all", "meme", "four-things"]
+atomid: http://ben-ward.co.uk/?p=301
+---
+It's been a while since a meme went around this bit of the internet. It's something to do with "Oxton":http://joshuaink.com syphoning "votes":http://2006.bloggies.com from teenagers and/or the easily deceived. 
+
+Not being one to get in the way of his quest for tagline domination, here I am playing ball. Watch as I cock it up on the first question.
+<!--more-->
+
+h2. Four jobs I've had in my life
+
+Incredibly, I've actually managed to eek out four job titles. Youth, eh?
+
+# Shop Assistant
+# Burger Monkey (That would be 8 weeks in McDonalds. I was very desperate.)
+# Information Systems Developer (ooh, that sounds proper. It was, too.)
+# Web Developer
+
+h2. Four films I can watch over and over
+* Star Wars - Empire Strikes Back
+* Dodgeball
+* Evolution
+* The Matrix
+
+h2. Four TV shows I love to watch
+* Family Guy
+* Futurama
+* Stargate (by this point, you should understand that I have very little shame, but should really start watching Battlestar Galactica instead)
+* My Name Is Earl (which so far is glorious)
+
+h2. Four places I have lived
+* Cambridge
+* Manchester
+* Bracknell
+* The vast fantasy world in my head
+
+h2. Four places I have been on holiday
+* Lille, France
+* Glengarry & Toronto, Canada
+* Greece (sailing)
+* The Lake District (many a time)
+
+h2. Four of my favourite dishes
+* Roast Beef (pink, but after the point at which �blood� becomes �juices�, see?). Usual trimmings, plus fried cabbage+bacon (which cameos as a �favourite side-dish�)
+* A lamb balti dish, with spinach. Short of a name.
+* Crispy Peking Duck
+* Bread and Butter Pudding
+
+h2. Four websites I visit daily
+# "Google":http://google.co.uk
+# "Flickr":http://flickr.com
+# "Delicious/BenWard/@commented-on":http://del.icio.us/BenWard/%40commented-on
+# "Freddyshouse":http://freddyshouse.com
+
+h2. Four places I would rather be right now
+* New Zealand
+* Canada
+* In a "Pier Papasan chair":http://www.pier.co.uk/product_info.php?cPath=58&products_id=2557
+* Within earshot of Radiohead's new album sessions
+
+h2. Four bloggers I'm tagging
+* "Steve Marshall":http://nascentguruism.com
+* "Zach Inglis":http://zachinglis.com
+* "David Thompson":http:/fatbusinessman.com
+* "Jo Anslow":http://joanslow.com
+
+<notextile><div class="pingbacks hfeed" id="pingbacks">
+  <h2>Pingbacks</h2>
+  <ul>
+    <li class="hentry" id="pingback-682">
+      <a rel="bookmark" class="entry-title" href="http://nascentguruism.com/?p=21">Four Things / archive / nascentguruism</a>
+    </li>
+  
+    <li class="hentry" id="pingback-724">
+      <a rel="bookmark" class="entry-title" href="http://blog.fatbusinessman.com/archives/2006/01/25/four-things/">FatBusinessman.com &raquo; Four Things</a>
+    </li>
+  </ul>
+</div></notextile>

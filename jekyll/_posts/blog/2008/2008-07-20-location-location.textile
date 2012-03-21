@@ -1,0 +1,52 @@
+---
+layout: blog
+category: blog
+title: "Location Location"
+date: "2008-07-20T01:38:27-01:00"
+updated: "2008-07-21T00:06:25-01:00"
+summary: "Talking about the importance of disclosure control in location-based applications."
+tags: ["all", "technology", "iphone", "moving", "location", "geo", "fire-eagle", "twitterrific"]
+atomid: http://ben-ward.co.uk/journal/location-location/
+---
+So, my new job is working for Yahoo's super-awesome Brickhouse team. I've moved out of Yahoo's also-super-awesome European web development team, and in about three weeks time I'll be moving to San Francisco.
+
+There's so much that needs to be said about moving, but for now I'm thinking a bit about <a href="http://fireeagle.com">Fire Eagle</a> itself, the gorgeous app I'm going to be working with for the foreseeable future. I've run sessions recently at Mashed 08 and then last week at Mobile Monday running through what we're trying to achieve, and it's quickly put me in a position of thinking about the field of location more generally.
+
+Location is big. The killer apps aren't there yet, but looking at early reaction to iPhone apps, quick criticism comes to those which don't use the CoreLocation API where it could be advantageous. There appears to be a gigantic side effect though: rash, unintended publication of location. Right at the heart of Fire Eagle, and the feature that I feel most passionately about, is control over disclosure. Reducing the level of detail exposed about your location, on a per-application basis. You can disclose your location based on how much you trust the application or website asking to use it, you can disclose to a level suitable to what you'll find useful. Fundamentally, we want people to be empowered and to realise that they do not have to tell anyone who asks precisely where they are to benefit from location-based applications.
+
+Today, I saw this on <a href="http://twitter.com">Twitter</a>:
+
+<img src="/res/posts/LocationExposed.png" alt="A protected Twitter profile page, hiding all posts from me, but showing precise co-ordinates of the user's location">
+
+I've obscured the user's details, but there are a number of key things I want to highlight, without going into much more analysis.
+
+* This user chooses to keep their content protected
+* This user is using Twitterrific for iPhone.
+* The location is added by this app is not abstracted at all, it's just a raw, precise co-ordinate.
+* The location is disclosed to everyone visiting the page; not just the user's friends. There's no trust mechanism.
+
+The iPhone only offers a ‘yes’ or ‘no’ choice on whether to disclose your location to an app. There's no local API to fuzzy that location when you work with it. Through the limited technology of the iPhone platform and the lack of thought on the part of a developer, that location has been made public in a way that it should not be.
+
+Your location is some of the most sensitive information about you. I very much believe it to be a more complex piece of information than an ‘OK/Cancel’ prompt can handle effectively. I also fear that lazy attitudes toward location now, in these early days, could have a catastrophic effect on user perception of the entire location-application field.
+
+Raising this issue is not really about Fire Eagle, we just happen to have approached the problem very thoroughly. It doesn't matter whether you build an app using Fire Eagle's API or not. The crux of this matter is that you absolutely must encourage your user to trust you, else you will lose them.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-227094">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/98234c645fe8c935edc0fec0186d28b8.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://morethanseven.net">Gareth Rushgrove</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227094">
+        <time class="published" datetime="2008-07-20T16:34:58-01:00">20 Jul 2008, 16:34</time>
+      </a>
+      <div class="entry-content"><p>Good points.</p>
+<p>I <em>think</em> this is from the iPhone version of Twitterific. It has a nice crosshairs icon at the bottom of the post screen. Pressing it updates you location. This even appears to work with the iPod Touch version as well.</p>
+<p>Completely agree. Powerful/scary stuff. Even for us early adopters used to living on the internet.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

@@ -1,0 +1,73 @@
+---
+layout: blog
+category: blog
+title: "You know it's exam time when…"
+date: "2006-05-20T21:41:47+00:00"
+updated: "2006-05-20T21:41:47+00:00"
+tags: ["all", "humour", "exams", "uni"]
+atomid: http://ben-ward.co.uk/journal/you-know-its-exam-time-when%e2%80%a6/
+---
+# It's Saturday night. 
+# I'm not drunk. 
+# I'm reading the XHTML DTD.
+
+Something is wrong with this world.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-2633">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/6dd3df0160f1b2f003f17b663587e5e5.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://joeblade.com">paul haine</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2633">
+        <time class="published" datetime="2006-05-20T22:22:46+00:00">20 May 2006, 22:22</time>
+      </a>
+      <div class="entry-content"><p>Hey, at least you have exams as an excuse&#8230;sniff&#8230;</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-2634">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/ce72812a01c992404b450bb351e4dcbe.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://nascentguruism.com/">Steve Marshall</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2634">
+        <time class="published" datetime="2006-05-20T23:33:21+00:00">20 May 2006, 23:33</time>
+      </a>
+      <div class="entry-content"><p>4. You forget to add <code>&lt;acronym /&gt;</code> elements around <span class="caps">XHTML</span> and <span class="caps">DTD</span>.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-2733">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">IBBoard</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2733">
+        <time class="published" datetime="2006-05-23T13:26:13+00:00">23 May 2006, 13:26</time>
+      </a>
+      <div class="entry-content"><p><span class="caps">XHTML</span> <span class="caps">DTD</span>? I guess that&#8217;s one way of avoiding revision &#8211; I&#8217;m sure I could think of more interesting ones with XMen, MI3 and Da Vinci Code out, though ;)</p>
+<p>That is unless you were reading <span class="caps">XHTML</span> for Semantic Web :| I&#8217;ve just been talking with Stefan about Machine Learning and we&#8217;ve been finding that the Machine Learning lecturer didn&#8217;t write one of his sample questions properly! All fun when the exam is on Thursday :D</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-2738">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2738">
+        <time class="published" datetime="2006-05-23T15:58:06+00:00">23 May 2006, 15:58</time>
+      </a>
+      <div class="entry-content"><p>Yes Stu, I was reading the <span class="caps">DTD</span> for Semantic Web revision.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-2825">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">IBBoard</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2825">
+        <time class="published" datetime="2006-05-25T12:55:29+00:00">25 May 2006, 12:55</time>
+      </a>
+      <div class="entry-content"><p>Ah, not so bad if it was revision, although I can imagine it being a little dry :D Hope the exam went okay yesterday &#8211; my first one wasn&#8217;t too bad. Now I&#8217;ve got a little under two weeks until the next two.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

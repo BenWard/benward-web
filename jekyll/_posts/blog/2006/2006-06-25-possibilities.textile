@@ -1,0 +1,44 @@
+---
+layout: blog
+category: blog
+title: "Possibilities"
+date: "2006-06-25T00:23:36+00:00"
+updated: "2006-06-25T00:34:04+00:00"
+tags: ["all", "manchester"]
+atomid: http://ben-ward.co.uk/journal/possibilities/
+---
+<q>The possibilities are endless</q>, sings Micah P Hinson out of my tinny iBook speakers. His voice echoes off the bare white walls of the room that was my home.
+
+Tomorrow I'll leave this city that I've loved.
+
+Good bye Manchester. At least for now.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-4456">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">IBBoard</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-4456">
+        <time class="published" datetime="2006-06-25T09:20:47+00:00">25 Jun 2006, 09:20</time>
+      </a>
+      <div class="entry-content"><p>So long, and thanks for all the fish ;)</p>
+<p>Good luck with whatever you do after Manchester, be it job hunting or lazing around for a while.</p>
+<p>I&#8217;m still in Manchester until mid-August at the latest, then it&#8217;s (for preference) move to my new job (hopefully in Worcestershire if I get the job I want) or fall back to my parent&#8217;s house near Bolton rather than pay an additional £75 per month rent (plus the extra fee for the short-term contract extension)!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-4506">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/abc50d59ef1ac8472737483abc7d870d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Adam</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-4506">
+        <time class="published" datetime="2006-06-26T13:18:25+00:00">26 Jun 2006, 13:18</time>
+      </a>
+      <div class="entry-content"><p>Goodbye for now, hope to see you in this neck of the woods some time soon</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

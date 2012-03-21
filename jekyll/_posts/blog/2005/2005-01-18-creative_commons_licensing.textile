@@ -1,0 +1,49 @@
+---
+layout: blog
+category: blog
+title: "Creative Commons Licensing"
+date: "2005-01-18T00:13:22+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2005-01-18:/blog/creative_commons_licensing
+---
+As a small diversion from presentation preparation I want to ask a small question.
+
+I'm weighing up two <a href="http://www.creativecommons.org" title="Creative Commons">Creative Commons</a> licences for applying to my blog entries but I'm stuck on the issue of Share Alike. I've got no problem with commercial use and all CC licences ensure that credit is given to me for my work. I just can't decide if I want to impose a restriction of redistribution... I lean towards no restriction. However, I want to know what other's think about the matter. If you chose a license for your blog, what would you do?
+
+The two options for licenses are:
+<ol><li><a href="http://creativecommons.org/licenses/by-sa/2.0/" title="Attribution, Share-Alike 2.0">Attribution, Share-Alike 2.0</a></li>
+<li><a href="http://creativecommons.org/licenses/by/2.0/" title="Attribution2.0">Attribution 2.0</a></li></ol>
+
+Something to ponder.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-232">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/8e0293544b13499460369217e2a7febd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://charlvn.blogspot.com">Charl van Niekerk</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-232">
+        <time class="published" datetime="2005-01-18T07:01:26+00:00">18 Jan 2005, 07:01</time>
+      </a>
+      <div class="entry-content"><p>It&#8217;s about time I revise the license on my own weblog. It&#8217;s also currently under a <abbr title="Creative Commons">CC</abbr> license.</p>
+<p>Personally, I would go for the Share-Alike option. I frequently build on other people&#8217;s work, and since they&#8217;re forced to release that work under the same license I don&#8217;t think it could do much harm.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-233">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/dc17387f19d96d6aeb53a0a9a02418dd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.jonty.me.uk/">Jonty</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-233">
+        <time class="published" datetime="2005-01-18T08:58:37+00:00">18 Jan 2005, 08:58</time>
+      </a>
+      <div class="entry-content"><p>Hi Ben</p>
+<p>It&#8217;s tricky one, really, but I&#8217;d probably go with the share-alike licence.</p>
+<p>Although no licence is going to stop the average joe from abusing your content (although it may provide recourse after the fact) those such as businesses will at least have to respect your wishes in terms of distributing any commercial derivative under a &#8216;friendly&#8217; licence, rather than one which may you may consider too restrictive (as most licences probably are :).</p>
+<p>Apparently Creative Commons are working to port the legal text to conform with UK law (http://creativecommons.org/worldwide/uk/), although I wouldn&#8217;t let this put you off choosing a licence now.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

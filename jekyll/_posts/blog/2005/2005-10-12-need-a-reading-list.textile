@@ -1,0 +1,72 @@
+---
+layout: blog
+category: blog
+title: "Need a reading list"
+date: "2005-10-12T00:38:59-01:00"
+updated: "2005-10-18T22:57:33-01:00"
+tags: ["all", "university", "project", "books"]
+atomid: http://ben-ward.co.uk/journal/need-a-reading-list/
+---
+Right, as part of my as-yet unnamed final year project (broadly speaking, it's �desktop search�), I need to do some research. Actually, if anything I need to find some books that tell me what I already know so I can put them in my bibliography to get around the fact that I'm a smart-arse and can't justify any of my knowledge.
+
+The two areas I could do with reading up on are as follows:
+
+# Search - with particular regard to building good algorithms for searching name/value pair metadata. This I actually know very little about (though I know I could bodge something functional, the project is young and I want to �do it properly�).
+# UI Design - with particular regard to building standalone Windows applications, rather than web-based UI.
+
+Number 2 is the toughie because I learned an awful lot about good UI design in my year out where I spent a lot of time building it. Beyond that I've just been assimilating good practice from other applications (37Signals, I'm looking at you). But I can't justify how I know UI design from any handy dead-tree source. I have a feeling that writing �because it's the right thing to do, stupid� won't cut it either.
+
+I also can't escape the fact that this is a very stupid situation to be in. I mean, having to work backwards to justify things that I already know. Perhaps I misunderstood something in the project handbook, or perhaps there's just some inherent stupidity in doing projects for university.
+
+And if suggesting quality reference books isn't your thing, I'm also taking suggestions for application names. I won't promise that the most stupid name will win, but it might make me laugh. Puns on �Spotlight� have been done, though. If you don't it might just end up as �Ben Desktop Search�.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-378">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/6db1ac4911d03473d52634c979a18041.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.benedictoneill.com/">Ben O'Neill</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-378">
+        <time class="published" datetime="2005-10-12T15:21:23-01:00">12 Oct 2005, 15:21</time>
+      </a>
+      <div class="entry-content"><p>For UI design, take a look at a good human-computer interaction book, e.g.<br />
+<a href="http://www.amazon.co.uk/exec/obidos/ASIN/0130461091/ref=ord_cart_shr/026-7857184-3445224?%5Fencoding=UTF8&amp;m=A3P5ROKL5A1OLE">	Human Computer Interaction</a>.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-381">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-381">
+        <time class="published" datetime="2005-10-16T14:50:43-01:00">16 Oct 2005, 14:50</time>
+      </a>
+      <div class="entry-content"><p>Thanks very much for that one Ben. The best bit is that I actually already have that book &#8211; it was prescribed for our <span class="caps">HCI</span> course in the 2nd year. Glad to see if recommended.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-383">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/6db1ac4911d03473d52634c979a18041.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.benedictoneill.com/">Ben O'Neill</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-383">
+        <time class="published" datetime="2005-10-17T00:51:48-01:00">17 Oct 2005, 00:51</time>
+      </a>
+      <div class="entry-content"><p>It&#8217;s our course book for 2nd year <span class="caps">HCI</span> too, does seem like a nice book and the lecturer loves it too.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-384">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/3218e487b7fd7b7b0d6f02bef3227e39.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://nascentguruism.com">Steve Marshall</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-384">
+        <time class="published" datetime="2005-10-18T09:22:45-01:00">18 Oct 2005, 09:22</time>
+      </a>
+      <div class="entry-content"><p>&#8216;I also can�t escape the fact that this is a very stupid situation to be in.&#8217;<br />
+Welcome, my young padawan, to the land of &#8216;been on a half-decent placement year&#8217;: I had exactly the same issue when I went back to uni.</p>
+<p>Take, for example, my final year web technologies course: I corrected the lecturer and marking people on various occassions, based on good, standards-based practices, and they <em>marked me down</em> for it, even though what I was saying was right!</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

@@ -1,0 +1,237 @@
+---
+layout: blog
+category: blog
+title: "Microformats in Web Browsers"
+date: "2006-06-21T21:48:14+00:00"
+updated: "2006-06-22T18:01:15+00:00"
+tags: ["technology", "design", "microformats", "ui", "browsers", "hcard", "hcalendar"]
+atomid: http://ben-ward.co.uk/journal/microformats-ui/
+---
+There's a well established saying and it goes something like this: ‘Don't keep an idea to yourself because you can guarantee that someone else has also thought of it’.
+
+This weekend at @media I finally got to show off to <a href="http://tantek.com">Tantek</a> some UI design I'd been doing for putting user-focused <a href="http://microformats.org">microformats</a> discovery into web browsers. I've been sitting on the sketches for about six weeks due to time commitments at uni and general blogging laziness. For a while I was going to try implementing it myself. Excuses aside, I didn't post it. This morning, <a href="http://hicksdesign.co.uk/journal/a-proposal-for-a-safari-microformats-plugin" title="Hicksdesign Journal: A proposal for a Safari microformats plugin">Jon Hicks pretty much did</a>. Oh how I <del>laughed</del><ins>cried</ins>.
+
+To my relief there are some quite important differences between my interpretation of this idea and Jon's, so really it's all worked out well as a motivating factor to finally get this posted! I recommend <a href="http://hicksdesign.co.uk/journal/a-proposal-for-a-safari-microformats-plugin" title="Hicksdesign Journal: A proposal for a Safari microformats plugin">reading Jon's post</a> too.
+
+So, this is a concept for putting Microformats 'auto-discovery' user interface in a web browser. Any web browser (although the sketches were original conceived as a Firefox extension). Most importantly, this UI is focused on providing functionality to users with no knowledge of a Microformat, nor any need to understand the underlying formats. By which I mean almost everyone who uses the Internet.
+
+I've released the design rather than build it as I have no knowledge of writing Firefox extensions and it's likely too complex to use as a first ‘teach-myself-XUL’ project. Plus, I'd never actually get around to doing it.
+
+<h2>Presenting Microformats in Web Browsers</h2>
+This design is intended to focus on the user interacting with the information: Moving events or contact information from the page into a Calendar or Address Book.
+
+This is all based on the hCard and hCalendar microformats.
+
+<h2>Discovery</h2>
+hCard and hCalendar discovery should be automatic and consistent with the Web Browser's existing auto-discovery behaviour for feeds.
+
+<a href="/res/posts/uf-web-browser/autodiscovery.png" title="Microformats Auto-Discovery Notification"><img src="/res/posts/uf-web-browser/autodiscovery.png" alt=""/></a>
+
+The presence of hCalendar data is indicated with a calendar icon in the location bar, and hCard with a 'contact card' icon (similar to that used by address book applications on Windows and Mac OSX). 
+
+Note that we're being consistent with feed discovery (which could of course be extended to treat hAtom as a first-class feed citizen too). Users are already being trained to look at the location bar for for additional page content.
+
+Again, with this being designed for my Dad to use, the terminology used is 'Calendar' and 'Contact' not 'microformat'.
+
+Clicking the Calendar or Contact icon will invoke the corresponding interface (below).
+
+<h2>Events</h2>
+
+<a href="/res/posts/uf-web-browser/events.png" title="Events Window"><img src="/res/posts/uf-web-browser/events.png" alt=""/></a>
+
+Events are listed in a simple window similar to the Download Manager interfaces of Firefox or Safari. They should be sorted by start date.
+
+Events are summarised with three lines of information, in some order of importance: The event title, location and date are all displayed where available. In cases where some of that information is missing then a less important field could be displayed instead (such as the URL for the event, although the event title could equally double as a hyperlink to the event URL).
+
+To the right of each event listing are three buttons. Working right-to-left, as the outermost button is the most important:
+
+* “Add Event to Calendar”. This converts the hCalendar microformat into an ICS event file and opens it locally on the user's machine, where an installed calendar application will handle it. This should probably be overridable to support Web-based calendars such as Google Calendar.
+* “Add Event Location to Address Book”. Where the hCalendar location is represented by an hCard, the location can be converted into a vCard and opened on the local machine (invoking the default address book application)
+* “View Map of Event Location”. Invokes a mapping service (such as Google or Yahoo! Maps) using information from the location field. In Firefox, this could be customisable using the native installed Mycroft/OpenSearch Search Providers. This particular icon could be a lot better! 
+
+Ideally the interface should also support drag and drop of each event's icon onto the desktop or into other applications to create an iCal event file.
+
+In the status bar of the Events window is a “Subscribe to Calendar” button, which should pass the current page to <a href="http://technorati.com/event/">Technorati's hCalendar pipe</a> to create a subscribable iCalendar.
+
+On the Mac this should open the Technorati URL with a webcal:// prefix, rather than http://. On other platforms it might be preferable just to present the iCalendar URL to allow copy and paste into the user's calendar application (depending on what Windows Vista's iCal clone expects).
+
+hCalendar doesn't facilitate logos for events, so a generic 'Calendar Event' icon is displayed. This should ideally be the system icon for .ics files. Potentially, a logo icon could be extracted from a location hCard (suboptimal) or perhaps from the favicon of the event website.
+
+<h2>People & Places</h2>
+
+<a href="/res/posts/uf-web-browser/contacts.png" title="People &amp; Places Window"><img src="/res/posts/uf-web-browser/contacts.png" alt="" /></a>
+
+As for Events, hCard Contacts are listed in a simple 'download manager-esque' window. Contacts should be sorted by name (the illustration isn't sorted, err, whoops).
+
+A special exception to this sorting is the hCard of the page author (contained in or containing <code>ADDRESS</code> elements), which is bumped to the top. It seems reasonable to predict that users will be most interested in the author's hCard, rather than that of blog comment contributions or blogroll entries.
+
+As for Event listings, buttons on the right hand side offer functionality to open a vCard with the default address book and open a map for the hCard's street address (where present).
+
+It could be useful to provide other buttons for contacts. hCards can embed information about telephone numbers and <abbr title="Instant Messenger">IM</abbr> screen names which could be used to invoke other applications such as diallers, Skype or AIM. However, whilst I'd love to see that functionality I'm reluctant to clutter the example illustrations.
+
+Icons next to contact names should use the logo property of the hCard (I think), but if that is absent a fallback method could load the user's <a href="http://gravatar.com">Gravatar</a> or the favicon found at their URL.
+
+And <em>that</em> is my idea for microformats in web browsers. Consider the lesson about publishing on time well and truly learned. Ahem.
+
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/uk/">Creative Commons Attribution-ShareAlike 2.0 England &amp; Wales License</a>. In the event that you want to implement this and can't meet the Share Alike requirement for commercial reasons, contact me. Lets see how far sharing can go for now though.
+
+h2. Updates
+
+* There's now a <a href="http://microformats.org/wiki/user-interface">page dedicated to µF User Interface</a> on the <a href="http://microformats.org/wiki/">Microformats Wiki</a>
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-4215">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/1de2a5c9c718ffee405647e016942e8b.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://hicksdesign.co.uk">Jon Hicks</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-4215">
+        <time class="published" datetime="2006-06-22T07:23:14+00:00">22 Jun 2006, 07:23</time>
+      </a>
+      <div class="entry-content"><p>I may have beaten you to publish ideas, but you&#8217;ve thought it all through a  whole lot more. I like the idea of seeing a download-style window.</p>
+<p>Instead of icons next to the names, shouldn&#8217;t it look for the &#8216;photo&#8217; property?</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-4235">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/c875baccdf1f7a56f69b21dd7abffbfb.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://cdevroe.com/">Colin D. Devroe</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-4235">
+        <time class="published" datetime="2006-06-22T13:30:43+00:00">22 Jun 2006, 13:30</time>
+      </a>
+      <div class="entry-content"><p>In the interim that something like this happens, what about a Dashboard widget that looks at the current location in Safari and parses the code and spits out something like this?</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-4259">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-4259">
+        <time class="published" datetime="2006-06-22T18:11:48+00:00">22 Jun 2006, 18:11</time>
+      </a>
+      <div class="entry-content"><p><a href="#comment-4215" rel="nofollow">Jon</a>: I think Photo could be used, although the both Tantek and I are using <code>logo</code> in our hCards (mine smoothly integrated in the sidebar blurb). Neither field has any kind of dimensions specification (unlike Atom 1.0, which cleverly recommends an image size for feed logos), but I imagine either <code>logo</code> or <code>photo</code> could be used. Perhaps the browser could check against both graphics and choose one based on which is smallest, or squarest?</p>
+<p><a href="#comment-4235" rel="nofollow">Colin</a>: In the interim &#8211; which basically translates as ‘before auto-discovery gets implemented’ then Dashboard widgets, or perhaps more suitably bookmarklets, could be implemented to provide UI like this, certainly.</p>
+<p>There&#8217;s probably potential to implement the whole lot with GreaseMonkey/UserScript and provide the UI in an overlay ala Lightbox or Flickr&#8217;s ‘add contact’ UI, rather than opening a new Window. It would fall short on the drag and drop to other apps, though.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-4291">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/fd685506016b37418b3a05c1e762716e.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://brandamage.com">luxuryluke</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-4291">
+        <time class="published" datetime="2006-06-23T00:25:31+00:00">23 Jun 2006, 00:25</time>
+      </a>
+      <div class="entry-content"><p>Wow. This is a great idea. Would it be an extension for most of the advanced browsers to adopt, or part of the actual app, as needed?</p>
+<p>Should gravatar be the source of the picons, or should there be a more standard approach?<br />
+should there be a:<br />
+link rel=&#8220;avatar&#8221; href=&#8220;/avatar.gif&#8221; type=&#8220;image/gif&#8221; /<br />
+like the:<br />
+link rel=&#8220;icon&#8221; href=&#8220;/favicon.ico&#8221; type=&#8220;image/x-icon&#8221; /</p>
+<p>?<br />
+Using µformats, of course!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-4312">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-4312">
+        <time class="published" datetime="2006-06-23T11:11:15+00:00">23 Jun 2006, 11:11</time>
+      </a>
+      <div class="entry-content"><p>Luke: <abbr title="In my honest opinion"><span class="caps">IMHO</span></abbr> this should be core browser functionality. It&#8217;s enabling you to do things with really basic data and I think the number of people who could make use of it is sufficiently huge &#8211; especially after Windows Vista comes out and the number of people with access to an iCalendar application increases massively.</p>
+<p>The icons are already covered by the hCard microformat. If you view the source for my sidebar you&#8217;ll see that my icon is marked up with <code>&amp;lt;img class="logo" src="…" alt=""/&gt;</code>. The <code>logo</code> property is used as the icon (NB I&#8217;ve also used the class <code>avatar</code> on that image, but that is for my own use, not part of hCard).</p>
+<p>As I said in my reply to Jon, you could also use the <code>photo</code> property of hCard as an image source. My point in the original post about gravatar and favicons is that they could be used as <em>fall back</em> in the event that a discovered hCard didn&#8217;t have a <code>logo</code> or <code>photo</code> property.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-5163">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/6db1ac4911d03473d52634c979a18041.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.benedictoneill.com/">Ben O'Neill</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-5163">
+        <time class="published" datetime="2006-07-06T10:12:20+00:00">06 Jul 2006, 10:12</time>
+      </a>
+      <div class="entry-content"><p>Have a look at Tails Export:<br />
+https://addons.mozilla.org/firefox/2240/</p>
+<p>It puts an icon in the bottom right, click it and a sidebar shows you the microformats on the page.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-5167">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-5167">
+        <time class="published" datetime="2006-07-06T11:04:51+00:00">06 Jul 2006, 11:04</time>
+      </a>
+      <div class="entry-content"><p><a href="http://ben-ward.co.uk/journal/microformats-ui/#comment-5163" rel="nofollow">Ben</a>: In the first draft of this piece I had a paragraph of why I&#8217;d designed this from scratch rather than based on Tails existing work. I cut it because it seemed to drift off the point, but hadn&#8217;t noticed that I&#8217;d removed all reference to Tails altogether, that was an error.</p>
+<p>Tails. Hmm. Very useful as a developer tool certainly and does allow auto-discovery of Microformats. That&#8217;s fabulous. But it&#8217;s the wrong tool for taking Microformats to the masses. People don&#8217;t ‘Open an <span class="caps">HTML</span> Document’, they browse a web site. In the same way, people aren&#8217;t going to ‘aggregate Microformats’ they&#8217;re going to ‘View contacts’ or ‘show calendar events’.</p>
+<p>I don&#8217;t want to diss Tails, because it&#8217;s a really useful tool for people like us and I&#8217;ve a lot of respect and thanks for the guys who wrote it (and the Tails Export version that followed), but they took Tails in the direction of being a ‘Microformats’ extension rather than a ‘Contacts and Events’ extension. It&#8217;s the latter that I want and that will be useful to non-technical users.</p>
+<p>A simpler answer is just that Tails Export doesn&#8217;t work on <span class="caps">OSX</span>.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-8600">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/d0e99ec257ce6c835ed166f8b70b1bfa.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.stripytshirt.co.uk/">Duncan</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-8600">
+        <time class="published" datetime="2006-07-27T20:56:51+00:00">27 Jul 2006, 20:56</time>
+      </a>
+      <div class="entry-content"><p>You&#8217;re definitely right that the biggest problem with the current Microformats extensions is that they are focused on the technology rather than the utility. Yours is the first extension that I have seen that does not use the Microformats logo.</p>
+<p>There is a tendency to associate Microformats and <span class="caps">RSS</span>/Atom because they both let you extract information from a page (and they are both trendy new technologies) but I&#8217;d make the important distinction that feed information is entirely meta. Most of the Microformats I have seen are visible elements in a web page. The first thing that alerts a user that there is useful information on the page is probably going to be reading it on the page; not a discovery icon so why not provide functionality via the context menu? In Firefox you can right click on an image and &#8216;Set as Desktop Background&#8217;.  In effect the user is taking a visible page element, extracting it and using it elsewhere, just as they would be if they wanted to add an (hCal) date to their diary. I wouldn&#8217;t get rid of the icons in the address bar because it&#8217;s nice to have a dialog(s) where a user can centrally see all of the meta information in a page but it would be great to be able quickly access functionality from the context menu too.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-8602">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/d0e99ec257ce6c835ed166f8b70b1bfa.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.stripytshirt.co.uk/">Duncan</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-8602">
+        <time class="published" datetime="2006-07-27T21:03:14+00:00">27 Jul 2006, 21:03</time>
+      </a>
+      <div class="entry-content"><p>Hello from a fellow <span class="caps">UMIST</span> student by the way.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-8611">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-8611">
+        <time class="published" datetime="2006-07-27T21:41:38+00:00">27 Jul 2006, 21:41</time>
+      </a>
+      <div class="entry-content"><p>Duncan: I certainly think there&#8217;s something to be said more subtle µf integration as well. Context menus are a useful way of placing ‘save contact’, ‘subscribe to event’ type actions. The problem is, how do you know it&#8217;s there? One of my favourite features of µf is that you can slip them neatly into flowing text, but should someone right click on a paragraph? Should some contact or calendar icon pop up when you hover on it? At what point does placing chrome within page content become obtrusive to the page designers? Even if something is indicated on hover, not everyone uses the mouse to track as they&#8217;re reading…</p>
+<p>Of course, there&#8217;s a limit to how many light-up indicators we can cram into browser chrome as well. Maybe 2 years down the line we&#8217;ll have all kinds of useful embedded artefacts through µf that would cause my location bar UI to overflow and clutter up. But by the same note, not every µf would be rightly highlighted like that: hResume would be out of place there.</p>
+<p>There&#8217;re a lot of challenge, and I think implementers should be ready and willing to evolve quickly but right now cruder kind of discover that draws attention to the possibilities might well help the µf is terms of recognition, as well as helping users realise the potential of what they can do in their browser.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>
+
+<notextile><div class="pingbacks hfeed" id="pingbacks">
+  <h2>Pingbacks</h2>
+  <ul>
+    <li class="hentry" id="pingback-4201">
+      <a rel="bookmark" class="entry-title" href="http://factoryjoe.com/blog/2006/06/21/yahoo-local-goes-cuckoo-for-coco-puffs/">Yahoo! Local goes Cuckoo for CoCo Puffs! at FactoryCity</a>
+    </li>
+  
+    <li class="hentry" id="pingback-5741">
+      <a rel="bookmark" class="entry-title" href="http://blog.codeeg.com/2006/07/10/resurrecting-tails/">Don&#8217;t Forget to Plant It! &raquo; Blog Archive &raquo; Resurrecting Tails</a>
+    </li>
+  
+    <li class="hentry" id="pingback-9565">
+      <a rel="bookmark" class="entry-title" href="http://www.hauntedpalace.net/kingdom/2006/08/04/links-for-2006-08-04/">the haunted palace &raquo; Blog Archive &raquo; links for 2006-08-04</a>
+    </li>
+  
+    <li class="hentry" id="pingback-9898">
+      <a rel="bookmark" class="entry-title" href="http://pixelsebi.com/2006-08-08/semantic-web-links-08-08-06/">Semantic Web Links 08-08-06 at pixelsebi&#8217;s repository</a>
+    </li>
+  
+    <li class="hentry" id="pingback-10050">
+      <a rel="bookmark" class="entry-title" href="http://www.idi.ntnu.no/~aslakr/blog/2006/08/06/225">Logg for Aslak Raanes :: Ben Ward » Microformats in Web Browsers</a>
+    </li>
+  
+    <li class="hentry" id="pingback-17403">
+      <a rel="bookmark" class="entry-title" href="http://microformatos.wordpress.com/2006/09/15/microformatos-en-los-navegadores-web/">Microformatos en los navegadores Web &laquo; Microformatos</a>
+    </li>
+  </ul>
+</div></notextile>

@@ -1,0 +1,9 @@
+---
+layout: blog
+category: blog
+title: "Test post for b2Evo"
+date: "2004-08-01T22:56:38+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2004-08-01:/blog/test_post_for_b2evo
+---
+This is a test post to go with my b2Evo forums "Why wont pingback work" thread.

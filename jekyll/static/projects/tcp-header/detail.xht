@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml2/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" >
+<head>
+	 <title>The TCP Header &raquo; Detailed Information</title>
+	 <meta name="author" content="Ben Ward" />
+	 <meta name="copyright" content="&copy; 2004 Joseph Marsh, Adam McArdle, Nicholas McGovern, James Rutter, Ben Michael Ward, Christopher Wright" />
+	 <meta name="description" content="The TCP Header &raquo; An interactive diagram and information page in XHTML1.1 and CSS2.1."  />
+	 <meta name="keywords" content="TCP, Header, Diagram, Description, UMIST, CT211, Coursework, Project" />
+
+	<meta http-equiv="Content-Language" content="en-gb" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta http-equiv="Content-Type" content="charset=ISO-8859-1; text/html;" />
+	<meta name="MSSmartTagsPreventParsing" content="true" />
+	<meta name="robots" content="all" />
+
+  <link rel="stylesheet" href="style/tcp_diagram.css" media="all" title="Enhanced Super Interactive Style" type="text/css" />
+	
+	<link rel="copyright" href="#footer" title="Copyright Information" type="application/xhtml+xml" />
+  <link rel="home" href="index.xht" title="Homepage" type="application/xhtml+xml" />
+  <link rel="prev" href="index.xht" title="Homepage" type="application/xhtml+xml" />	
+</head>
+<body>
+<div id="bodytext">
+<h1>TCP Header Diagram</h1>
+<h2>Additional Detail</h2>
+<h3>Source and Destination Ports<a id="Ports" title="Source &amp; Destination Ports &raquo; Detail">&nbsp;</a></h3>
+<p>A port is a virtual entity to allow simultaneous TCP services to operate on the same physical hardware. The name is taken from the analogy with a &lsquo;port&rsquo; or &lsquo;plug&rsquo; that may be found on the back of a computer.</p>
+<p>Consider a small business situation, where a local area network centres of a single network server, performing a variety of network services. The company intranet requires that a web server is running along with a database server for content. Company email passes through the send/fetch mail daemons, while company internet access is logged and filtered using a Web Proxy. The server itself can be remotely maintained from anywhere in the LAN using the SSH remote access protocol.</p>
+<p>All of the above provide a network service, but they are able to co-exist because each operates on a unique port.</p>
+<div class="right"><object type="image/gif" data="images/ports.png" title="Network Services">
+  <p><a href="images/ports.png" title="Network Services"><em>Image</em>: A Common Network Services Configuration.</a></p>
+</object></div>
+<p>In a web browser, connecting to a website on a non-standard port can often take the format &lsquo;<span class="pre">http://www.example.com:8080</span>&rsquo;. However, ports are not related to the external network routing of TCP packets - that relates to the DNS resolution and the IP address stored in the IP header - on top of the TCP Header. Instead, ports provide a means for computers at each end of a network transaction to internally direct network packets to the appropriate service. Each unique port is maintained with its own data buffer, enabling each network service to operate independently.</p>
+<p>In the above example, all network users will connect to the server machine. A user can browse an external Internet source through the web proxy on port 3126, while at the same time the system administrator can be directly manipulating the server through an SSH connection on port 22. While physically the services reside on the same machine, virtually (or &lsquo;logically&rsquo;) they are separate entities.</p>
+<p>NB: While the example above may imply it, a service running on a single port is <strong>not</strong> restricted to a single user at one time. Multi-User behaviour is handled entirely by that service. Each service will have its own manner for handling multiple connections (for instance - Apache web server has a setting for &lsquo;maximum number of client connections allowed at once&rsquo;). </p>
+<p>The TCP Header contains two Port items - Source and Destination. In a client-server situation like that above the default Destination port for a client connecting to the company web server will be &lsquo;80&lsquo;. The Source port will be variable and assigned by the client browser or Operating System. A summary of client connections on a Windows or Unix machine can be found by running <span class="pre">netstat -a -n -o -p tcp</span> from the command prompt. This returns:-</p>
+
+<pre>D:\bmpw&gt;netstat -a -n -o -p tcp
+Active Connections Proto Local Address     Foreign Address    State
+                     TCP 10.1.103.166:2020 213.129.226.165:80 CLOSE_WAIT
+                     TCP 10.1.103.166:4303 207.46.110.40:80   ESTABLISHED
+                     TCP 10.1.103.166:4438 207.46.110.26:80   ESTABLISHED
+                     TCP 127.0.0.1:1437    127.0.0.1:1438     ESTABLISHED
+                     TCP 127.0.0.1:1438    127.0.0.1:1437     ESTABLISHED</pre>
+
+<p>In the above trimmed output, it can be seen that as well as using ports to connect to remote services (where the local address is listed as 10.1.103.166, the network host IP of the machine) ports are also used to run local services - such as those running on ports 1437 and 1438 on localhost (ip:127.0.0.1).</p>
+
+<h3>Checksum<a id="Checksum" title="Checksum &raquo; Detail">&nbsp;</a></h3>
+<p>The checksum of the TCP header is an error detection method. 
+It uses a method in which a 16 bit number is passed based on the
+number of bits in the message (The header and the data).  The
+receiving machine can then sum the total of the 16 bit words and
+if the total of this ones compliment number is zero
+(1111111111111111) then the message can be considered correct. 
+If the sum of them is not zero then the message can be considered
+to have lost its integrity during transfer.  This method can not
+correct the data; it can only tell if it has lost its
+integrity.</p>
+<p>While calculating the checksum the field of the checksum is
+set to zero.  The sum of all the 16 bit words in the TCP segment
+header and TCP segment data is taken and then inverted (The
+1&rsquo;s compliment of it taken).  If there are not enough bits
+then zeros are used to pad the data out so that a checksum can
+still be made.  This is then put into the checksum field of the
+TCP header.</p>
+<h4>Example</h4>
+<p>If we were to come up with the following words from the TCP
+segment Header and TCP segment data together: </p>
+<pre>Word 1    :    ABCD
+Word 2    :    1903
+Word 3    :    1984
+Word 4    :    5744
+Checksum  :    0000 (Set to 0 while calculating)</pre>
+
+<p>The ones compliment sum of these numbers gives us:</p>
+
+<pre>Word 1    :    1010101111001101
+Word 2    :    0001100100000011
+Word 3    :    0001100110000100
+Word 4    :    0101011101000100
+Checksum  :    0000000000000000
+               ----------------
+Sum       :    0011010110011000
+Inverted  :    1100101001100111  (1&rsquo;s compliment)
+               ----------------</pre>
+
+<p>When this is received the receiving computer
+would get the 5 words and completes the following sum:</p>
+<pre>Word 1    :    1010101111001101
+Word 2    :    0001100100000011
+Word 3    :    0001100110000100
+Word 4    :    0101011101000100
+Checksum  :    1100101001100111
+               ----------------
+               1111111111111111</pre>
+<p>Because we have got zero from the sum of the
+words we can treat this as the data being sent has been sent
+correctly and has its integrity.</p>
+
+<h3>Window<a id="Window" title="Window &raquo; Detail">&nbsp;</a></h3>
+<p>The Window field is used in flow control, in order to ensure that the sender does not send too much data for the receiver to keep up with. The field is 16 bits long, and contains the number of data octets relative to the sequence number in the Acknowledgement Number field, that can be sent.</p>
+<p>Each segment is assigned a Sequence Number, and a &lsquo;window&rsquo; is placed over the stream, see below (a)</p>
+<p>As the first segment is sent, the trailing edge of the window contracts (b)</p>
+<p>As the acknowledgement for segment 0 is received, the leading edge of the window expands. (c). In this way, the window moves along the bit stream, and restricts the number of segments which can be sent at any time to those inside the window.</p>
+<p>This allows the sender to continually send data as long as the window is &lsquo;open&rsquo;, and can send more than one segment before receiving acknowledgement (d) and (e)</p>
+<div><object type="image/png" data="images/window.png" title="Window Examples">
+     <p><a href="images/window.png" title="Window Examples"><em>Image:</em> Examples of the Window Field</a></p>
+   </object>
+</div>
+
+<div id="footer">
+  <p>This website was authored by <a href="http://www.ben-ward.co.uk" title="Ben Ward">Ben Ward</a>
+	 with content edited by Jim Rutter. All content &copy;2004 Joseph Marsh, Adam McArdle, Nicholoas
+	 McGovern, James Rutter, Christopher Wright &amp; Ben Ward except for 
+	 <em>The TCP Header Diagam [diagram.png]</em>, taken from Data and Computer Communications - 7th Edition 
+	 (William Stallings) &copy;Pearson Education.<br />
+	 These pages were produced as coursework for the CT211 Networking &amp; Open Systems module at 
+	 <a href="http://www.umist.ac.uk" title="UMIST Homepage">UMIST</a>, Manchester.</p>
+	<p><a href="http://www.w3c.org" title="World Wide Web Consortium">W3C Web Standards</a> Compliant: 
+  <a href="http://validator.w3.org/check/referer" title="W3C XHTML Validator">XHTML 1.1</a>, 
+	<a href="http://jigsaw.w3.org/css-validator/validator?profile=css2&amp;warning=2&amp;uri=http://benward.studentssocial.co.uk/projects/tcpheader/style/tcp_header.css" title="W3C CSS Validator">CSS 2.1</a>
+	&amp; <a href="http://www.w3.org/TR/xhtml2/" title="XHTML Working Documents">XHTML 2.0</a> Prepared. 
+	<a href="http://www.mozilla.org/products/firefox/" title="Mozilla Firefox">Get Firefox!</a></p>
+</div>
+
+</div></body>
+</html>

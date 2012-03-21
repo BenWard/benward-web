@@ -1,0 +1,43 @@
+---
+layout: blog
+category: blog
+title: "Wanted: Mail.app Auto‑Minimise"
+date: "2006-12-23T19:28:30+00:00"
+updated: "2006-12-23T19:28:30+00:00"
+summary: "On a solution to losing track of half-written email messages."
+tags: ["all", "osx", "writing", "mac", "mail", "gtd", "task-management"]
+atomid: http://ben-ward.co.uk/journal/mail-auto-minimise/
+---
+I have one complaint about using OSX. With my current scatterbrained leanings, I tend towards ‘losing’ windows. For example, I start writing a mail message, then I app-switch to chat to someone, then I get new mail so I switch to the mail box window and lo! My half-written message is hidden behind that window, never to be seen again until much later in the day.
+
+So, whilst the above behaviour probably diagnoses me with a severe absence of GTD, what I'd like is some sort of Mail.app bundle, background script or magic bean that will monitor all my open message windows and, after that window has been idle for 5 minutes, automatically minimise it; placing it visibly into my Dock. Alternatively, or perhaps in addition to, it could display an additional counter badge on my Mail.app Dock icon to indicate the number of open message windows.
+
+So please God of Mac Christmas, place such an add-in in my stocking.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-53929">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/a489725ad8451b6e87fcb9ed4f189cf9.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.trovster.com">trovster</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-53929">
+        <time class="published" datetime="2006-12-24T12:34:55+00:00">24 Dec 2006, 12:34</time>
+      </a>
+      <div class="entry-content"><p>I get this sometimes. Not for Mail, but anything which has multiple windows. And it&#8217;s especially confusing, if you flick virtual-desktop while waiting for it to open/get a prompt. This has happened to me numerous times, when iTunes is asking to import a CD, and I completely lose the prompt. Doesn&#8217;t seem to come back with Exposé even.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-54207">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/71a8ec69df849ba0c17cf3b52e6ded7c.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Bruce</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-54207">
+        <time class="published" datetime="2006-12-29T00:31:10+00:00">29 Dec 2006, 00:31</time>
+      </a>
+      <div class="entry-content"><p>I am having problems with the &#8220;Reply&#8221; button on Mail since installing Parallels.  It takes minutes to open the compose window.  This only happens the first time I try to reply.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

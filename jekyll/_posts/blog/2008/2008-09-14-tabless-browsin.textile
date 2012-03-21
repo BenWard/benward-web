@@ -1,0 +1,55 @@
+---
+layout: blog
+category: blog
+title: "Everything Old Is New Again. Tabless Browsing"
+date: "2008-09-14T03:20:31-01:00"
+updated: "2008-09-14T03:21:07-01:00"
+summary: "Surfing like it's 1998. I've switched from back tabbed to multiple windowed browsing on Mac OSX."
+tags: ["all", "technology", "ui", "tabbed-browser", "software-design", "thinking-out-loud", "safari", "mac-osx", "tabs"]
+atomid: http://ben-ward.co.uk/?p=469
+---
+When Firefox was released, tabbed browsing suddenly became the new essential feature in web browsers. Internet Explorer was belittled for its old school multi-window interface and tabs were pimped as the greatest thing since sliced bread (toasted and generously smothered in butter).
+
+The curious thing about this is that really, tabs suck. They always existed as a simple hack around the operating system's (Windows) inability to handle many windows together. The taskbar got full too easily, and when 75% of the items were browser windows, it all became unmanageable. As a result, tabs went into every browser on every platform, effectively providing a second, browser-context-specific taskbar.
+
+The problem now (and likely then as well) is that the idea of one single ‘browser context’ is bogus. Browsers are now used for such a variety of tasks and applications that it makes less sense to keep, for example, Gmail and Google Calendar in the same context as a set of blogs you might be reading. Your cycle of looking at those pages is different. Mail more regularly than Calendar, and the blogs might just be a reading list to refer to later. Whilst browsers were very quick to add tabs as a feature, non of them have worked them into the idea of working contexts. New items always open in your last used window. Even if you manually break Gmail out into its own window, the moment you open a link you're putting a reading list of pages into your email context. Tabs are implemented in a physical, window based manner, rather than in a workflow based manner.
+
+On Mac OSX specifically, there's an addition problem (actually, physical). The otherwise quite-useful Exposé function doesn't work with tabs in any application. So whilst in Pages, Fireworks, Preview and so on I could hit F10 and see all my documents together, the tabbed browser hides all the content away behind tabs.
+
+Which is a roundabout way of getting to a point. I've turned off tabbed browsing. Switched back to the old way of having each document or application in a separate window. Switching between then with <kbd>Cmd+`</kbd> rather than <kbd>Cmd+Shift+]</kbd>, gaining the ability to see them visually with a swift tap of F10, and losing the recurring bug of thinking I'm finished with all the documents in one manually created context window, only to find the music stops when I accidentally close Last.FM.
+
+To defy my muscle memory for hitting <kbd>Cmd+T</kbd>, I've used Mac OSX's excellent Keyboard preferences to override 'New Window' to <kbd>Cmd+T</kbd>, and New Tab to <kbd>Cmd+Option+T</kbd>.
+
+It's just an experiment. Sometimes you do want tabs to keep things under control, for example working through a feed reader, opening links for reference later creates a single ‘reading list’ task, and you wouldn't want dozens of those individual pages cluttering up the rest of the desktop. There will always be exceptions. But since the browser software has failed to handle work contexts properly, I think reversing the default behaviour is the way to go.
+
+Initial reactions are that this is easier to manage, results in less accidents and no accidents in losing windows (Safari has a ‘Reopen last closed window’ option, but is less graceful with tabs).
+
+Note, this problem with tabs is just a result of needing to break web applications and documents out of the browser context. Efforts like Fluid (a WebKit based browser that creates standalone executables for specific websites) also help break out these contexts for apps you use regularly, but is less suitable for infrequent or new apps. Also, this is not to say that all tabs are broken. Tabs in IM apps like Adium still work me, because the amount of content open at one time is fairly small, and managing two work contexts (‘Work Conversations’ and ‘Personal Conversations’) within a single window interface is trivial. The web browser falls down because the amount of content and the number of contexts now exceeds what I can manage.
+
+We could build better browsers, but it strikes me that the better first action is to step back and stop bypassing the capabilities of the host operating system.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-227121">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/fb7d81b172292b6034f9c1747d5b11e0.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.fatbusinessman.com/">FatBusinessman</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227121">
+        <time class="published" datetime="2008-09-20T17:56:03-01:00">20 Sep 2008, 17:56</time>
+      </a>
+      <div class="entry-content"><p>My first thought when reading this was “But… but… tabs!”</p>
+<p>My second thought was “Well, it would be handy to be able to see all my tabs with Exposé, but it still seems kinda wrong”.</p>
+<p>My third thought was “It could just work. Let’s give it a try”. So I did. And I’m pretty much sold on it. Just a few thoughts and observations:</p>
+<ul>
+	<li>Being able to see all my tabs in Exposé is full of win.</li>
+	<li>As well as changing the keyboard shortcuts for Cmd-T to open a new tab, I’ve found it very useful to change the Safari preferences around so that a Cmd-click (plus, for those of us with third-party mice) a middle-click) opens a new window behind the current one. There’s also the preference for how to open links from other applications, which I believe defaults to opening a new tab in the current window. Easy enough to change though.</li>
+	<li>One other small niggle I’ve found is that, while Safari focuses on the address bar when opening up a new tab, it doesn’t manage quite the same behaviour when opening up a new window. I got around this problem by setting the “New windows open with” preference to open a blank page rather than an actual website.</li>
+</ul>
+<p>I think it’s going to take a couple of weeks to see how well I adjust to the new tabless browsing idea, but I’m really rather hopeful it’ll prove to be the better option.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

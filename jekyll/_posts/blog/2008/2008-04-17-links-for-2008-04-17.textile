@@ -1,0 +1,21 @@
+---
+layout: blog
+category: blog
+title: "links for 2008-04-17"
+date: "2008-04-17T10:40:15-01:00"
+updated: "2008-04-17T10:40:15-01:00"
+tags: ["links"]
+atomid: http://ben-ward.co.uk/journal/links-for-2008-04-17/
+---
+<ul class="delicious">
+	<li>
+		<div class="delicious-link"><a href="http://www.useragentstring.com/">UserAgentString.com - Safari version 3.1</a></div>
+		<div class="delicious-extended">A huge database of user agent strings.</div>
+		<div class="delicious-tags">(tags: <a href="http://del.icio.us/BenWard/UserAgent">UserAgent</a> <a href="http://del.icio.us/BenWard/Browsers">Browsers</a> <a href="http://del.icio.us/BenWard/Reference">Reference</a>)</div>
+	</li>
+	<li>
+		<div class="delicious-link"><a href="http://www.martian.com/SlingShot.html">Martian SlingShot</a></div>
+		<div class="delicious-extended">An app to synchronise iTunes and the like between multiple Macs. I wonder if it can be used to slim down my iTunes library and make it truly portable again?</div>
+		<div class="delicious-tags">(tags: <a href="http://del.icio.us/BenWard/Mac">Mac</a> <a href="http://del.icio.us/BenWard/OSX">OSX</a> <a href="http://del.icio.us/BenWard/Synchronisation">Synchronisation</a> <a href="http://del.icio.us/BenWard/iTunes">iTunes</a> <a href="http://del.icio.us/BenWard/applications">applications</a>)</div>
+	</li>
+</ul>

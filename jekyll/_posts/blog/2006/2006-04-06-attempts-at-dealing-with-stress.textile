@@ -1,0 +1,77 @@
+---
+layout: blog
+category: blog
+title: "Today life isn't so hot…"
+date: "2006-04-06T23:50:16+00:00"
+updated: "2006-04-20T12:52:01+00:00"
+tags: ["all", "university", "stressed", "terrible-metaphors"]
+atomid: http://ben-ward.co.uk/journal/attempts-at-dealing-with-stress/
+---
+I like to think that this blog is, by and large, optimistic. It's also quite impersonal. Perhaps I keep myself too close to my chest, I'm unsure.
+
+Unfortunately for my small readership I'm having a fucking bad day (or perhaps week) and I think I might be able to sleep if I inflict it on you. I mean ‘share’…
+
+For about a month I haven't been working hard enough. Haven't been able. Been distracted. It happens to most people, I suspect. Unfortunately knowing that distraction and occasional misery happens to others doesn't write C♯ code, or an essay on the Semantic Web. Nor does it learn very much in lectures or understand how to pull up my grades. It doesn't address a life-long failure to motivate myself for academic assessments and it doesn't stop me feeling anxious about the quickening passage of time. In fact, knowledge of collective hardship does absolutely nothing to ease my own small problems.
+
+If this were a crap teen drama, I think I'm at the point where I go for that long wander in the low-light, some terribly mediocre music plays in the background (perhaps James Blunt), a conveniently placed feature of nature comes with a space to sit and somewhere in the background running water is audible. A bit of a cry, a stare out into the big nothing and I turn around to a lesser member of the cast who's inexplicably appeared at my side. Turn away and fade to black.
+
+Fade out, please. Because every time it fades back in somehow the world is all right again. For some reason mine isn’t and I know that tomorrow is going to suck.
+
+Apologies for this, but look on the bright side: The first attempt at channelling my state of mind was like bad poetry. I promise that when I get older my metaphors will get better.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-1072">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/ce0f8df84e1e4edb3d9999740472261a.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.snook.ca/jonathan/">Jonathan Snook</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-1072">
+        <time class="published" datetime="2006-04-07T01:16:46+00:00">07 Apr 2006, 01:16</time>
+      </a>
+      <div class="entry-content"><p>Trust me, it doesn&#8217;t get any easier as you get older. The distractions or the metaphors. Oy vey.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-1075">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">IBBoard</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-1075">
+        <time class="published" datetime="2006-04-07T08:00:53+00:00">07 Apr 2006, 08:00</time>
+      </a>
+      <div class="entry-content"><p>I kinda know the feeling with the lack of motivation for this year. Having come back from Industrial Experience, I spent most of the first semester going &#8220;are they teaching us anything yet? this just seems like background info&#8221;, then it was the end of the semester. The second semester has been a bit better, but I&#8217;ve still not done the level of re-reading lectures and note taking that I was planning. Although an IE placement helps with a career, I think it also brings in to focus how the degree doesn&#8217;t directly teach you anything for the outside world (or not for me at least).</p>
+<p>As for the rest of it, I think less teen dramas are the order of the day. I don&#8217;t think I&#8217;ve ever seen one like you described &#8211; must have missed those kind of shows when I was younger. Or avoided them.</p>
+<p>They say time flies when you&#8217;re having fun, but time just flies. Period. All you can do is make the most of what you have and be thanksful that you&#8217;ve got more than some other people. Oh, and that you&#8217;re not a scally ;)</p>
+<p>Good luck, man.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-1112">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/c2986ea4a7ed8483360637ca00b36a9d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Phoebe</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-1112">
+        <time class="published" datetime="2006-04-09T21:42:15+00:00">09 Apr 2006, 21:42</time>
+      </a>
+      <div class="entry-content"><p>look, you&#8217;ll wake up one day and just think &#8216;shit, what have i been mopping about? i better kick myself into gear and try and concentrate because this stuff matters to me&#8217; and then thats what will happen and you&#8217;ll get through the dark patch.</p>
+<p>today i was thinking about how i would love to just fast forward the next few years so i could feel like i&#8217;m actually living. except i am, like it or not, currently living in a surpressed state of work and conflicted desires. its just exams that i hate &#8211; i like revision, but there is always something or one exam i will break down over because i know i&#8217;ve done badly. what you (i, anyone) need to do is to pick themselves up, say it will get better, and you can work on even when your tired, and you will get there.</p>
+<p>i could write the very best mediocre teen drama, but somehow that wouldn&#8217;t help with anything. and it wouldn&#8217;t be James Blunt, it would be some tame rock crap band that no-one really knows and would only be known for that song, and it would be in a convenient gazebo.</p>
+<p>best wished mydear, promise it will get better even if its temporary</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-1130">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/83a3a93811cf3c45ca1827e4c09bfb9c.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">alex</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-1130">
+        <time class="published" datetime="2006-04-10T10:13:33+00:00">10 Apr 2006, 10:13</time>
+      </a>
+      <div class="entry-content"><p>sounds like you have a lot in the mind.  like a computer the brain needs to defrag.</p>
+<p>a trip to the Whitworth Gallery, away from computers helps me.  it has older things that have already been put in their place.  your semantic web essay will come together in the backgound as you browse the artworks;  why not spend some time down there with a notepad and just make some notes? look out of the window overlooking the park. it will re-juvinate without you even knowing.</p>
+<p>i was looking for that thread for the geekup at the cornerhouse.  i couldn&#8217;t make it &#8211; my foot has been opperated on.  anyway&#8230; i really like the idea of inviting anyone along to an event.  it is quite inspired.  i am guessing that you are the one that came up with the idea?</p>
+<p>maybe there sould be a geekup-in-the galery&#8230;. hmmm anyway you have got me thinking, and to get people thi nking is a gift, one which is worth more than expertise at accademic diciplines.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

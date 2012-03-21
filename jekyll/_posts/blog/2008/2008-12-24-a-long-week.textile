@@ -1,0 +1,139 @@
+---
+layout: blog
+category: blog
+title: "A long week"
+date: "2008-12-24T01:53:42-01:00"
+updated: "2008-12-26T11:13:15-01:00"
+summary: "On being laid off from Yahoo!, coping with it and the closure of Brickhouse, having a housewarming party and getting laid on again."
+tags: ["all", "work", "yahoo", "ydn", "brickhouse", "layoffs", "employment"]
+atomid: http://ben-ward.co.uk/?p=478
+---
+When I moved to the US in August, I came at it with an open mind. I'd never planned to move to San Francisco; the opportunity just came up and was irresistible. It was going to be an adventure. I wasn't to be sure how long it would last, how long I'd be drawn to staying in the US, or how long Yahoo! would keep running the Brickhouse program. I wasn't really ready for how short it turned out to be.
+
+Brickhouse was a wonderful thing, and I fear its brilliance and inner creativity was not understand as it should have been. Unfortunately, whatever the cause of judgement, on December 10th Yahoo elected to close our group and approach the challenges of building new products in different ways.
+
+It's was crushing for those of us working there on a number of levels. We loved our co-workers, we loved our product ("Fire Eagle":http://fireeagle.com) and we loved the premise of Brickhouse; an inspiring work environment of ideas and creativity. For the preceding three weeks I'd worked late into the night so that on Tuesday we could launch "Friends on Fire":http://apps.facebook.com/on-fire. I'm glad to have got it out, rather than it be discarded on an SVN server somewhere.
+
+For me, mourning the intellectual loss of a dream job wasn't really a priority. My working in the US was entirely tied to working at Yahoo. For me, unemployment would mean prompt deportation, and moving to a new company required a willingness to sponsor a new visa, and would still leave my location and life in limbo for most of 2009.
+
+The reaction from outside is difficult or me describe. Genuinely, a slack jawed gasp provides as good a summary as any. I witnessed colleagues across the world band together to promote my name and those of my friends also departing the Brickhouse. The quantity of direct contact I received through Twitter and email was astounding. The power of the meritorious society that has developed around the web is huge. People trust one another's recommendations because unlike industries of old, there is no old boys network here. The great people we associate with are people we thrive from. We support and work off one another not because we're friends, but because we do better in proximately to those who are also talented.
+
+I was taken aback by the response and far from sulk in my situation, I've spend the last ten days following up. I think I replied to everyone, but given how bloated my inbox was after just a few hours, I think I should say ‘sorry’ to anyone who hasn't heard back from me, but mostly ‘*thank you*’. Thank you for your support through this. Whether who knew me and knew my skills, or just wanted to talk with me to see if something could be worked out, every query and message has helped sustain me through this.
+
+h2. The Lay Off
+
+Being laid off in America is strange on all manner of levels. It's just like in films. You get told what's happening, and handed a box. You clear your desk then and there, hand over your computer and security pass. Security guards lurk around at the door, purportedly to protect the ones who still have jobs from being attacked by the vengeful disgruntled unemployed. It's a harsh, blunt, heartless process. It's offensive on so many levels, disrespectful to you as a person, disrespectful of the work you care about and that, despite the situation, you might care to have properly passed on to a co-worker. Instead, projects are dropped where they stand, no knowledge transfer takes place, weeks maybe months of work is just discarded.
+
+Apparently it's normal like this in the US. In England you get given an end date, you work up until it, you pass on your work to someone else. You show some respect to your coworkers. Here that doesn't exist even if you want it to.
+
+I've only lost a job once before. Working at Yobject ended suddenly when their finances ran out. I didn't get paid on time, and I only found out when my debit card started to be rejected… whilst I was on holiday at SXSW. Being strategically laid off is rather different.
+
+Needless to say, no-one from Brickhouse started any fights with security. Instead we went to Hotel Utah at 4th & Brannan in San Francisco. Owen Thomas of Valleywag lied that he phoned in to buy everyone shots. He actually purchased six. I guess times are hard in the gutter too. The wonderful Hotel Utah barstaff donated around ten more to make up the difference. The staff are wonderful at Hotel Utah. When you're there, ask them to add bacon to their (magnificent) Mac & Cheese, it's stella.
+
+h2. Warming
+
+Saturday 13th, three days after being laid off, was my housewarming in San Francisco. A more bittersweet timing you could not have engineered. Sitting in a home I've grown very fond of, surrounded by the furniture I picked out for myself and bought, pondering whether I'd still be living here in two months time, or whether it would all have been offloaded in my enforced absence.
+
+I lamented over this briefly, and then countered by getting drunk and playing Rock Band all night. I'm enjoying throwing parties. The support of so many wonderful friends in a time of stress cannot be understated.
+
+h2. No stopping
+
+To stay in the country I needed to put aside the bitter and upset emotions induced by Wednesday and push for a new role at Yahoo. Every contact I have there, and plenty more I made in the process, was contacted in the hope they find an open position within the next few weeks. Get a new role, the visa stays valid and (in some words) ‘it's as if I were never laid off at all’.
+
+I spent my remaining pre-Christmas days in San Francisco keeping up in a scrum of simultaneous conversation with every company who would listen who might sponsor a visa, and harranging everyone I know still inside Yahoo. Getting back into Yahoo! is the option that provides me stability. No leaving the country for any length of time, continuity of home, relationships and friendships. Longer term I can settle and get myself into a less precarious position, but the priority at every step in this horrific process is _do not ruin my life_.
+
+A few people suggested to me that returning to Yahoo was non-obvious. I concede that Yahoo is a little airborne at present (remember, we don’t even have a full-time CEO), and post-layoffs and post–Brickhouse-closure we are still waiting to see a lot of the 2009 plan revealed. Fact is, I make a distinction between the company and the team. There's nothing unreasonable in saying that every single engineer at Yahoo is expecting a lot from the Yahoo board over the next six months, to put itself on the straight and narrow again and offer a vision. But even whilst pending that progress, the teams within these walls make up of some of the most talented engineers I know and if I could get the opportunity to work with them again it would be a great thing, no matter what the circumstances.
+
+With some delight, I can report that I did get that opportunity.
+
+Some time in the new year I'll be switching over into the "Yahoo Developer Network":http://developer.yahoo.com, and hopefully doing awesome things to help people inside and outside Yahoo work with new platforms like "YAP":http://developer.yahoo.com/yap/ "YQL":http://developer.yahoo.com/yql/ and and so forth. I've been pretty passionate about development community infrastructure since I started working with "microformats.org":http://microformats.org, so it's great have that overlap with my day job more.
+
+It will be a shame to lose working from San Francisco all the time, but I'll adapt to the Sunnyvale commute soon enough.
+
+To everyone who helped me out, sent me offers, enquiries and advice over the past two weeks: *Thank you*.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-227141">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e6e984d5209d0fd381fae0d78c4d0302.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.mattrobin.com">Matt Robin</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227141">
+        <time class="published" datetime="2008-12-24T06:03:20-08:00">24 Dec 2008, 06:03</time>
+      </a>
+      <div class="entry-content"><p>That&#8217;s great news Ben! One of the best things I&#8217;ve heard (err, read) in ages! :)</p>
+<p>Well done mate, this should be a huge weight off your shoulders and make the festive season more bearable.</p>
+<p>Merry Christmas! :)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227142">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/82403a5cab95f6b548b95d05ea0dd85e.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://yahooza.com">Wally Punsapy</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227142">
+        <time class="published" datetime="2008-12-24T09:13:43-01:00">24 Dec 2008, 09:13</time>
+      </a>
+      <div class="entry-content"><p>congrats Ben! good to hear that things worked out for you.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227143">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/1d2d3229ed1961d2bd81853242493247.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://dorward.me.uk/">David Dorward</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227143">
+        <time class="published" datetime="2008-12-24T10:27:27-01:00">24 Dec 2008, 10:27</time>
+      </a>
+      <div class="entry-content"><p>Congratulations. </p>
+<p>I had enough problems after Playfire decided to cut costs (i.e. me); I can&#8217;t imagine how much harder is must have been for you, in a foreign country, just after making the investment to settle there.</p>
+<p>Things seem to have worked out well for you though. I don&#8217;t know how you would compare Brickhouse to <span class="caps">YDN</span>, but I confess that the latter is one of my favourite parts of the big purple Y!, so I&#8217;m glad to see them adding your skills to the mix.</p>
+<p>The timing seems to be rather good to &#8211; in the circumstances I can&#8217;t imagine a better Christmas present; which brings me to my final point: <strong>Merry Christmas!</strong></p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227144">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/3282170b113297711ac2a2d41bffb70d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://andyhiggs.co.uk">Andy</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227144">
+        <time class="published" datetime="2008-12-24T11:07:10-01:00">24 Dec 2008, 11:07</time>
+      </a>
+      <div class="entry-content"><p>Hi Ben,<br />
+I&#8217;m glad to hear it worked out for you after all.  It was hard to imagine you not being quickly snapped up elsewhere, but being as it put you through a pretty turbulent time in limbo, I didn&#8217;t envy your situation in the slightest. Hopefully the experience won&#8217;t leave a bad taste &#8211; it&#8217;s was just an unfortunate piece of timing.<br />
+Have a great Christmas celebrating,<br />
+Andy.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227145">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/8e038825d82e0ee514a5d46cf6434540.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.wardelldesign.com/">Wardell</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227145">
+        <time class="published" datetime="2008-12-24T20:05:36-01:00">24 Dec 2008, 20:05</time>
+      </a>
+      <div class="entry-content"><p>Glad to hear things are working out for you.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227146">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/cc06e7d052e2a0848e04507be2658523.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Tracy</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227146">
+        <time class="published" datetime="2008-12-24T23:19:58-01:00">24 Dec 2008, 23:19</time>
+      </a>
+      <div class="entry-content"><p>hi Ben, interesting website. Thanks for the company on the flight and especially your blanket &#8211; I wouldn&#8217;t have slept a wink without it!  I made it home eventually with many aches and pains, but it was worth it. Have a happy Christmas and holiday, Tracy</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227147">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e966cb55e835f583a3bca6c5548d4481.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://groovymother.com/">Rod Begbie</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227147">
+        <time class="published" datetime="2008-12-26T07:00:49-01:00">26 Dec 2008, 07:00</time>
+      </a>
+      <div class="entry-content"><p>Congrats on keeping your American Dream alive!</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

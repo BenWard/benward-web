@@ -1,0 +1,27 @@
+---
+layout: blog
+category: blog
+title: "What I'm up to"
+date: "2004-08-30T22:53:44+00:00"
+tags: ["technology"]
+atomid: tag:benward.me,2004-08-30:/blog/what_i_m_up_to
+---
+I've been quiet for a little while of late. Firstly because projects at work are getting big and eating any chance of a 'quick blog at lunchtime' like I'd get in the first month. I'm also spending my evenings working on a new website project, and the first which will make its way into my forthcoming portfolio. The hope being that I'll have a portfolio of around 5 finished sites by next summer that will make someone want to pay me to do some freelance work before Uni starts up again.
+
+The new site is a very small one for a band  called <a href="http://resintest.ben-ward.co.uk" title="Resin The Band">Resin</a>. It's my brother's band, but provides a nice opportunity to just do some nice static pages and concentrate on mark-up and <a href="http://www.w3c.org/Style/CSS/" title="W3C CSS">CSS</a> without getting bogged down in <a href="http://www.php.net" title="PHP: Hypertext Processor">PHP</a> and database backend. I may add such functionality later, but I'm enjoying designing again and I do more than enough backend work for 8 hours a day at <a href="http://www.fujitsu-siemens.com" title="Fujitsu Siemens Computers">FSC</a>.
+
+The aim with Resin is to make a site that indulges <a href="http://www.w3.org/TR/CSS21/" title="CSS 2.1 Specification">CSS 2.1</a>, implementing a very elegant pure CSS menu system for one, while maintaining still-pleasing support for &lt;<a href="http://www.w3c.org/TR/CSS1" title="CSS1 Specification">CSS1</a> browsers like <a href="http://www.microsoft.com/ie/" title="Microsoft Internet Explorer"><acronym title="Internet Explorer">IE</acronym></a>. Anything that doesn't support @import (~pre IE 4/5) will just drop down to browser-level mark-up.
+
+I've also been toying with how to make more advanced box borders. <a href="http://www.stunicholls.myby.co.uk/boxes/curves.html" title="Stu Nicholls: Curved Corners">Much</a> <a href="http://www.saila.com/attic/sandbox/rounded-corners/" title="Saila: Rounded Corners using CSS">has</a> been <a href="http://www.alistapart.com/articles/slidingdoors/" title="ALA (A List Apart): Sliding Doors of CSS">written</a> on the subject of CSS2.1 curved corners but you are usually limited to issues of fixed width or extra, non-semantic mark-up to hold additional background images.
+
+I've worked around this by designing a simple border flourish (a simple cut-off corner was all I wanted) to match existing an existing CSS border style, so reducing my requirement to providing only the top and left borders. Much more manageable.
+
+In the process of this design I'd actually contemplated making a submission for <a href="http://www.w3c.org/Style/CSS/current-work" title="CSS: Current Work">CSS Level 3</a>. The design make-up of things like curved/non-square corners requires multiple background images to be layered, but a way of doing this within CSS rather than nesting &lt;div&gt;s is needed.
+
+I was going to propose an implementation of a 'background collection'. You could have "background: foo" as normal, but then add "background(1): bar", "background(2): blah" and so forth, with higher indexed backgrounds layered above lower indexes, and with 'background' and 'background(0)' being equal for degradation.
+
+Anyway, I today stumbled across a solution that achieves the same thing. CSS3 will add a host of new pseudo-elements, one of which is <a href="http://www.w3.org/TR/2003/WD-css3-content-20030514/#wrapping" title="CSS3: Wrapping Elements in Pseudo-Elements">::outside</a>. As well as lending itself nicely for someone on <a href="http://alistapart.com" title="A List Apart">ALA</a> to write an article entitled "You wanna take that ::outside?", it allows you to style an infinite number of boxes around a single X/HTML element. It goes beyond what a background collection could do, since it allows you to do anything you like that you could do with the normal box model (colours, borders, floating, ::before, ::after and ::hover pseudo-elements). It looks very cool. Naturally, the root non-pseudo element will be the 'compatibility' style. 
+
+I much prefer this to CSS3's plans to include native support for curved corners and drop-shadow. It strikes me as rather limiting, since while pretty, curved corners are simply the flavour of the month. What about reversed, cut-away corners? I can see myself being much happier using ::outside elements to apply more personalised curves and shapes than browser implementations would offer. Hopefully the spec + implements will have things like z-index of pseudo-elements arranged sensibly, mind...
+
+Can you tell I haven't written in a while?

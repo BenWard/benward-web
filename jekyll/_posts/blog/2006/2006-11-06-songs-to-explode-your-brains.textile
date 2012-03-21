@@ -1,0 +1,14 @@
+---
+layout: blog
+category: blog
+title: "Songs to Explode Your Brains"
+date: "2006-11-06T22:40:31+00:00"
+updated: "2006-11-06T22:41:45+00:00"
+tags: ["all", "music", "lastfm", "shoutbox", "muse", "knights-of-cydonia"]
+atomid: http://ben-ward.co.uk/journal/songs-to-explode-your-brains/
+---
+Came across the <a href="http://www.flickr.com/photos/benward/290932911/?bad=1">best shout-box comment ever</a> on <a href="http://last.fm">Last.FM</a>.
+
+<blockquote cite="http://www.last.fm/music/Muse/_/Knights+of+Cydonia"><cite><a href="http://www.last.fm/user/confusemyweasel/">confusemyweasel</a> said:</cite><p>I WANT TO HAVE SEX WITH THIS SONG</p></blockquote>
+
+The subject? <a href="http://www.last.fm/music/Muse/_/Knights+of+Cydonia">Muse's Knights of Cydonia</a>. Do <a href="http://video.google.co.uk/videoplay?docid=5344561483609764767">watch the video</a>.

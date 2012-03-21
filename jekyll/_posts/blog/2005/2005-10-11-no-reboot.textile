@@ -1,0 +1,33 @@
+---
+layout: blog
+category: blog
+title: "No Reboot"
+date: "2005-10-11T23:37:12-01:00"
+updated: "2005-10-11T23:37:12-01:00"
+tags: ["all", "css-reboot", "redesign", "web-design", "meta"]
+atomid: http://ben-ward.co.uk/journal/no-reboot/
+---
+<img class="splash" src="/media/badges/cssreboot.png"/>This is something I've known for a few days but felt I should announce it for posterity. Whilst my migration from b2Evolution to Wordpress has been a fabulous success, I shan't be completing my design in time for the CSS:Reboot on November 1st.
+
+Reason? Not enough hours in my day. I have an awful lot squabbling for my attention at the moment, the most important of which is supposed to be my university course. If you're lucky, and I get my priorities sorted out, there might be a super-cool web-service friendly desktop search tool out for beta-testing next spring (for anyone that is still using Windows by that point).
+
+I still want to redesign, but I think it'll come in spits rather than waking up one glorious morning to a whole new look. A shame, and I definitely want to do it one day, but that day is not November 1st. Best of luck to everyone else getting finished off.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-379">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/8e0293544b13499460369217e2a7febd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://charlvn.za.net">Charl van Niekerk</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-379">
+        <time class="published" datetime="2005-10-12T17:36:00-01:00">12 Oct 2005, 17:36</time>
+      </a>
+      <div class="entry-content"><p>Oh my goodness, I know how you feel&#8230; Just wrote a horror of a precalculus exam this afternoon! :)</p>
+<p>I also wanted to have something ready for the 1st of November; I think I might make it but my designs are always so minimalist that they typically don&#8217;t take much effort anyway. ;)</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

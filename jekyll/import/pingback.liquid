@@ -1,0 +1,8 @@
+<notextile><div class="pingbacks hfeed" id="pingbacks">
+  <h2>Pingbacks</h2>
+  <ul>{% for ping in pingbacks %}
+    <li class="hentry" id="pingback-{{ping.ID}}">
+      <a rel="bookmark" class="entry-title" href="{{ping.url}}">{{ping.author}}</a>
+    </li>
+  {% endfor %}</ul>
+</div></notextile>

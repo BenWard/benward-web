@@ -1,0 +1,64 @@
+---
+layout: blog
+category: blog
+title: "And Microsoft's revolutionary ‘Origami’ project is…"
+date: "2006-03-09T15:44:49+00:00"
+updated: "2006-03-09T17:13:56+00:00"
+tags: ["all", "technology", "microsoft", "origami", "tablet-pc", "convergence", "samsung"]
+atomid: http://ben-ward.co.uk/journal/origami-unveiled/
+---
+<img class="splash" src="/media/splashes/origami.splash.png" alt="" /> … <a href="http://news.bbc.co.uk/1/hi/technology/4789496.stm">A small, ugly tablet PC with pitiful 3 hour battery life</a>. <em>Awesome work guys</em>.
+
+<blockquote cite="http://news.bbc.co.uk/1/hi/technology/4789496.stm"><p>Introducing the Q1, <cite>Dr David Steel</cite>, Samsung's vice president of digital media business, said: <q>This is a very good sign of convergence coming into the computer industry.</q></p><p><q>Now the consumer has a single mobile computing device that combines the mobile functionality of many different devices.</q></p><p>He claimed that the Q1 would act as a replacement for mobile media players, game handhelds, palmtop computers and notebook PCs.</p><p>When it goes on sale the Q1 is expected to cost about 1,000 euros (£699).</p></blockquote>
+
+I don't have much to say for device convergence. Having acquired a phone able to capture images at the same resolution as my aging digital camera, I admit I've found that I make good use of it. The thing is though, that's a reflection on my poor digital camera, not the quality of my phone.
+
+Microsoft have an obsession about convergence devices. Their over-eager early entry into the Media Centre market demonstrated the same desire to cram a plethora of substandard features into one box. They seem to have no appreciation that perhaps post-iPod people are showing a willingness to buy superior, single-function products over quantity-pushers like Origami.
+
+Who is the customer?
+
+(N.B. Microsoft have, in their eternal branding wisdom renamed the rather neat ‘Origami’ - a name they've used in viral marketing for the past month. It's now called an <a href="http://www.microsoft.com/windowsxp/umpc/default.mspx" rel="nofollow">Ultra-Mobile PC</a>. Catchy.)
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-879">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/9a2a354b0dfd068e0c2df0eb34f33567.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://tvt.blogspot.com/">Al O'Neill</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-879">
+        <time class="published" datetime="2006-03-09T17:31:53+00:00">09 Mar 2006, 17:31</time>
+      </a>
+      <div class="entry-content"><p>Wow that&#8217;s terrible.  A mediocre-to-crappy replacement for a <span class="caps">PSP</span>, an iPod, a <span class="caps">PDA</span> and an iBook that does a crappy job of fitting any single purpose. What am I supposed to do wiht this, anyway?</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-880">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/dc17387f19d96d6aeb53a0a9a02418dd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.jonty.me.uk/">Jonty</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-880">
+        <time class="published" datetime="2006-03-09T19:53:43+00:00">09 Mar 2006, 19:53</time>
+      </a>
+      <div class="entry-content"><p>I feel I should play devil&#8217;s advocate :) Firstly, whilst Microsoft are indeed supporting this venture, the idea of ultra-mobile PCs is in fact more associated with hardware companies who are pioneering the technology to make this possible. But I guess people dislike Microsoft more than they do Intel :)</p>
+<p>Secondly, yes, these first devices are pretty uninspiring, and certainly won&#8217;t replace many dedicated gadgets. However, next year should bring more interesting alternatives, including one day batteries, the Windows Vista operating system, integrated digital TV tuners, WiBro/WiMax support and more.</p>
+<p>Personally I wouldn&#8217;t buy one, but I do support new ideas, and this particular one has been around for some years in various &#8216;select&#8217; devices, just never with major backing.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-908">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-908">
+        <time class="published" datetime="2006-03-19T21:35:04+00:00">19 Mar 2006, 21:35</time>
+      </a>
+      <div class="entry-content"><p>Jonty,</p>
+<p>I think the thing is that <em>next years model</em> does indeed sound rather good. All day battery life would make one of these things genuinely useful I think. A student could carry one around all day in their bag, people could use them around offices and be free to just use the thing.</p>
+<p>The current versions however, with only three hour battery life (which is presumably the maximum), require you to <em>plan</em> to use it. For example: A student would have to prioritise which lessons to use their Origami in and leave it turned off in others to conserve the battery. If I&#8217;m at work and I have a meeting scheduled, I&#8217;d best leave the Origami plugged in for the morning just in case.</p>
+<p>Devices like this have potential, I think, but to be a success people need to be able to use them without thinking. They need to be able to put it down wherever they like, pick it up again with no regard for &#8220;Warning Low Battery&#8221;. Anything less than that and you spend more time worrying about when you can use the device than actually using it.</p>
+<p>My view remains that the current generation should have been nothing more than a technology demo. Take the credit for the invention and tempt people, that&#8217;s all good. But the idea of selling something  for a not insignificant sum of money, that doesn&#8217;t even meet your own concept standards leaves a bad taste for me.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

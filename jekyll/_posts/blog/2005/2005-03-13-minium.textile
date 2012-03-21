@@ -1,0 +1,43 @@
+---
+layout: blog
+category: blog
+title: "Minium"
+date: "2005-03-13T23:55:19+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2005-03-13:/blog/minium
+---
+<img src="/media/minium.png" title="Minium Folder Icons" alt="" class="splash" />Some time ago I was avidly following development of an icon set called Minium by the supremely talented <a href="http://www.rad-e8.com/about/" title="Rad.E8 Design">Sascha Hhne</a>. He's a busy man though so it took an age to finish, his blog didn't get updated and I stopped looking.
+
+More fool me. <a href="http://www.rad-e8.com/log/archives/2005/02/13/20.27/" title="Minium Released">Minium was released on 13th Feb</a> and the icons <a href="http://www.rad-e8.com/downloads/icn/minium/" title="Minium preview and download">look stunningly good</a>. I just wish Windows XP had a half-decent icon replacement program (which was free). Maybe I'll have to learn how to go about hacking Windows core files to replace them properly.
+
+Microsoft, if you're reading, employ this man and throw away the teletubby icons. Please. Thanks.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-244">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/a3af0c7755c36bb7a5ebc4f894e0b9b8.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.meriwilliams.com/">Meri</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-244">
+        <time class="published" datetime="2005-03-22T00:21:36+00:00">22 Mar 2005, 00:21</time>
+      </a>
+      <div class="entry-content"><p>Ummm, Ben, they look almost exactly like the Mac OS X icons. Just switch already ;-P</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-245">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-245">
+        <time class="published" datetime="2005-03-22T00:44:37+00:00">22 Mar 2005, 00:44</time>
+      </a>
+      <div class="entry-content"><p>I know, I know&#8230; I am immensely tempted by a 12&quot; PowerBook. I don&#8217;t really have any need for anything top-of-the-range since all my development at Uni next year will still be Windows based. Depending on whether parents might part-sponsor it, I think I could make very good use of a notebook in lectures and on trains.</p>
+<p>We&#8217;ll see I guess&#8230; certainly no risk of a sudden purchase since I&#8217;d wait for Tiger to come out. It&#8217;s all rather money dependent really&#8230; I&#8217;m getting 2x 19&quot; <span class="caps">TFT</span> screens fairly soon which will hit the wallet <em>just a bit</em>.</p>
+<p>I do want one. QuickSilver is such a stunning little app that&#8217;s almost a PC vs. Mac decider in itself.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

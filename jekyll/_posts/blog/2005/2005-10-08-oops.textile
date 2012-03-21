@@ -1,0 +1,92 @@
+---
+layout: blog
+category: blog
+title: "Oops"
+date: "2005-10-08T13:55:00-01:00"
+updated: "2005-10-11T23:40:32-01:00"
+tags: ["all", "flickr", "jo_anslow", "kittens"]
+atomid: http://ben-ward.co.uk/journal/oops/
+---
+I just suggested that Jo search <a href="http://flickr.com">Flickr</a> for <a href="http://flickr.com/photos/tags/kittens">Kittens</a>. She may never again leave the house.
+
+I don't know what to do, maybe just resign myself to a life vegetating in front of <a href="http://flickr.com/groups/52240578442@N01/pool/" title="Food Porn">porn</a>.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-365">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/cd92cd941551d06a41a002537dbd7f7b.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.katemonkey.co.uk/">Kate Bolin</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-365">
+        <time class="published" datetime="2005-10-08T20:49:06-01:00">08 Oct 2005, 20:49</time>
+      </a>
+      <div class="entry-content"><p>Oh God&#8230;there goes my weekend&#8230;</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-366">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/fb7d81b172292b6034f9c1747d5b11e0.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.fatbusinessman.com/">FatBusinessman</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-366">
+        <time class="published" datetime="2005-10-08T22:13:19-01:00">08 Oct 2005, 22:13</time>
+      </a>
+      <div class="entry-content"><p>Somehow I get the feeling this is <em>not</em> what Tim Berners-Lee had in mind when he invented the web�</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-368">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-368">
+        <time class="published" datetime="2005-10-09T14:07:03-01:00">09 Oct 2005, 14:07</time>
+      </a>
+      <div class="entry-content"><p>Fatty, Jo is aghast that you&#8217;re suggesting <span class="caps">TBL</span> didn&#8217;t like kittens.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-369">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/79b63ab9f0ca95c29a8e4f9cb46f166a.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://dk04.com">Jono</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-369">
+        <time class="published" datetime="2005-10-09T20:14:39-01:00">09 Oct 2005, 20:14</time>
+      </a>
+      <div class="entry-content"><p>we have a new kitten. she is 8 weeks old, pure white, vivid blue eyes, long haired and vicious as fuck. she rocks.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-370">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/f92443abafe237dd61bab48899689589.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://nascentguruism.com">Steve Marshall</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-370">
+        <time class="published" datetime="2005-10-09T21:10:49-01:00">09 Oct 2005, 21:10</time>
+      </a>
+      <div class="entry-content"><p>Didn&rsquo;t you know?<br />
+Every time someone uses a &lt;font&gt; tag, Tim Berners&ndash;Lee kills a kitten!<br />
+It&rsquo;s not so much that he doesn&#8217;t <em>like</em> them; it&rsquo;s that he thinks they taste too good to resist!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-371">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-371">
+        <time class="published" datetime="2005-10-09T22:00:10-01:00">09 Oct 2005, 22:00</time>
+      </a>
+      <div class="entry-content"><p>Why does a random post about kittens generate more comments than posts about design, software or web development? Something here is a askew.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-372">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/fb7d81b172292b6034f9c1747d5b11e0.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.fatbusinessman.com/">FatBusinessman</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-372">
+        <time class="published" datetime="2005-10-10T01:20:18-01:00">10 Oct 2005, 01:20</time>
+      </a>
+      <div class="entry-content"><p>I never said Sir Tim didn&#8217;t like kittens, I just said that they probably weren&#8217;t a dominant feature in his vision for the World Wide Web.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

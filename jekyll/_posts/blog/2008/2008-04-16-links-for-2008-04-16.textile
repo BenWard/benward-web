@@ -1,0 +1,16 @@
+---
+layout: blog
+category: blog
+title: "links for 2008-04-16"
+date: "2008-04-16T10:39:14-01:00"
+updated: "2008-04-16T10:39:14-01:00"
+tags: ["links"]
+atomid: http://ben-ward.co.uk/journal/links-for-2008-04-16/
+---
+<ul class="delicious">
+	<li>
+		<div class="delicious-link"><a href="http://www.tuffmail.com/">Tuffmail Email Hosting</a></div>
+		<div class="delicious-extended">Dedicated email host, might be needed if I move to a dedicated webserver later in the month.</div>
+		<div class="delicious-tags">(tags: <a href="http://del.icio.us/BenWard/Email">Email</a> <a href="http://del.icio.us/BenWard/Hosting">Hosting</a> <a href="http://del.icio.us/BenWard/IMAP">IMAP</a>)</div>
+	</li>
+</ul>

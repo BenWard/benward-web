@@ -1,0 +1,18 @@
+---
+layout: blog
+category: blog
+title: "I like shiny things (with high price tags)"
+date: "2004-07-28T21:22:34+00:00"
+tags: ["technology"]
+atomid: tag:benward.me,2004-07-28:/blog/i_like_shiny_things_with_high_price_tags
+---
+The side affect of my <a href="http://www.fujitsu-siemens.co.uk" title="Fujitsu Siemens Computers">new job</a> is that I now have less debt. In a month or two, I will back in the black for the first time in about 14 months. It's a really nice feeling, tarnished only by my unquenchable thirst to spend it all.
+
+While people at work have suggested giving up on the 'return to Uni with some money' idea, I don't really want to go back as broke as I left.
+
+<img src="/media/172X.jpg" alt="Samsung 172X"  title="Samsung 172x" align="left" />
+When <a href="http://www.apple.com/uk/" title="Apple Computer. Not Shit.">Apple</a> cut the prices on <a href="http://www.apple.com/ipod" title="iPod. Also Not Shit.">iPods</a> and introduce a stunning new line of <a href="http://www.apple.com/displays" title="Apple Cinema Displays. Just LOOK at them. No pun intended.">Cinema Displays</a> starting at <abbr title="More money than I have">999.</abbr> Arrgh.
+
+<img src="/media/ipod.jpg" alt="iPod" title="iPod 4G"   class="splash" />Thankfully, with this being a placement and all, 999 is more than I earn in a month and so is definitely <strong>not</strong> going to happen. However, the <a href="http://www.samsung.com/Products/Monitor/LCDMonitor/Monitor_LCDMonitor_172X.htm" title="Samsung 172X Product Page">Samsung 172X</a> is an altogether more reasonable 350. Sure, it's <i>only</i> 17", but on the other hand, you could have two of these, a new 4G iPod and feed myself for two and a half weeks for <em>less</em> that the aforementioned Cinema display. I think we have a winner, but I also have a feeling that I'm going to selling myself out as a freelance web developer to pay for number 2 next summer.
+
+'y spare change?

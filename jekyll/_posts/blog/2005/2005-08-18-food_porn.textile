@@ -1,0 +1,9 @@
+---
+layout: blog
+category: blog
+title: "Food Porn"
+date: "2005-08-18T21:15:59+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2005-08-18:/blog/food_porn
+---
+Many will already be family with <a href="http://www.flickr.com">Flickr</a>'s many 'pools', but via Adacio's photostream I stumbled into the <a href="http://www.flickr.com/groups/52240578442@N01/pool/">Food Porn</a> pool. Oh God I'm hungry now.

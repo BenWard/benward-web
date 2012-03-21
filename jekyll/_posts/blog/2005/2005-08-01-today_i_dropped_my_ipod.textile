@@ -1,0 +1,55 @@
+---
+layout: blog
+category: blog
+title: "Today I dropped my iPod"
+date: "2005-08-01T22:03:50+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2005-08-01:/blog/today_i_dropped_my_ipod
+---
+You know that feeling of unrelenting terror? Well, scale it down to the relative importance of an iPod and a 3' drop.
+
+It was sitting on the desk next to me, wired in and I scoot across the floor on the executive chair I have at work. Looking back, I could just see the agonising moment in slow motion as it was pulled off the edge of the desk, the headphone jack flying out and the �nooooooooo� moment as it feel to the floor. It bounced (also in slow motion).
+
+Thankfully, it's well padded in a lovely <a href="http://vajacases.com/">Vaja</a> case that <a href="http://jo.ben-ward.co.uk">Jo</a> gave me for my birthday and it seems to be fine. The best bit, is that when the headphones detached it automatically paused the track. Plug in, hit play, don't miss a beat (bar a heartbeat or two).
+
+I'm not planning on pulling the same stunt with my iBook until Vaja make one of their fabulous <a href="http://www.vajacases.com/images/notebook/sony/vaio_tr2a/vaio_tr2a.html">notebook suits</a> for it.
+
+This is the problem with desirable technology.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-315">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/abc50d59ef1ac8472737483abc7d870d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Adam</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-315">
+        <time class="published" datetime="2005-08-02T00:27:51+00:00">02 Aug 2005, 00:27</time>
+      </a>
+      <div class="entry-content"><p>slow motion, not slow moment (line 3, paragraph 2)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-316">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/dc17387f19d96d6aeb53a0a9a02418dd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.jonty.me.uk/">Jonty</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-316">
+        <time class="published" datetime="2005-08-02T14:39:47+00:00">02 Aug 2005, 14:39</time>
+      </a>
+      <div class="entry-content"><p>Glad all is well, Ben! Talking of notebook bags, I can recommend <a href="http://www.booqbags.com/index.html" rel="nofollow">Booq</a> as purveyors of fine cases and sleeves. They&#8217;re very much different to Vaja&#8217;s style, but are made of ballistic nylon, which sounds hopelessly cool and, whilst it won&#8217;t stop bullets, is the same material used in flak jackets. The straps are also made of nylon, this time to the same specifications as car seat belts. Very robust :)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-317">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/8e0293544b13499460369217e2a7febd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://charlvn.za.net">Charl van Niekerk</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-317">
+        <time class="published" datetime="2005-08-02T16:29:03+00:00">02 Aug 2005, 16:29</time>
+      </a>
+      <div class="entry-content"><p>In engineering, this is what we call &#8220;The Human Factor&#8221; and is one of the most important issues when designing something. Luckily, it seems like the engineers of the Vaja case know their stuff. :)</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

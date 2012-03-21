@@ -1,0 +1,75 @@
+---
+layout: blog
+category: blog
+title: "The Open Product"
+date: "2009-05-06T09:32:51-08:00"
+updated: "2009-05-06T13:52:05-08:00"
+summary: "Talking about how comparing OAuth et al to Facebook Connect is an entirely broken analogy and that the ball sits in the court of product makers like Yahoo! and Google to stand up to Facebook, not the OAuth and OpenID communities that just build the foundations of an open web."
+tags: ["technology", "facebook", "openid", "oauth", "facebook-connect", "foocamp", "swfoo", "open-stack", "activitystreams"]
+atomid: http://ben-ward.co.uk/?p=521
+---
+Social Web FooCamp was a full two weeks ago, and even now I'm not entirely sure the lessons of this meeting have entirely sunk in. Surrounded by some of the smartest people in the industry (and other influential oddballs), FooCamp provided a backdrop to see friends and rivals come together and share.
+
+I was there for my work with "microformats":http://microformats.org, and as someone who periodically pops up to suggest "improving the user experience":http://ben-ward.co.uk/blog/oauth-flow/ of "OAuth":http://oauth.net.
+
+h2. People
+
+MySpace, Facebook, Yahoo, Google, OAuth, Portable Contacts, Activity Streams, Open Social and OpenID. All under one roof. Everyone quite keen to move in positive directions. An exciting mix.
+
+It was quite something to spend two days in these surroundings, participating in the conversations that determine what happens next. As is my nature though, perhaps the biggest value came through observation and listening. And to cut to the chase, herein lies my principal learning of Foocamp:
+
+h2. The Open Stack needs a Product
+
+Foo had many, many sessions on the Open Stack; OpenID, OAuth, OpenSocial and Portable Contacts. Some of them concerned with user experience, some with data portability and distributed identity, some with the processes of open development itself. Every single one of those sessions at the very least mentioned Facebook. But more often, the sessions were outright _dominated_ by "Facebook Connect":http://developer.facebook.com.
+
+A session on building a start-up on the Open Stack was turned into a discussion about Facebook's _product_, and what developers wanted from it.
+
+Note the emphasis on Facebook's _product_. The way in which we classify the technology of the open, social web and compare it to Facebook Connect is massively flawed.
+
+Get this clear: Facebook Connect, from inception through API through user experience, is a _single, self-contained, beautifully packaged product_ for developers. And it's _awesome_. Facebook has the combination of detailed, well maintained user data, a huge user-base and excellent user interface design for the Connect experience. It ticks every box.
+
+<aside>(OK, fine, so it doesn't work when JavaScript is unavailable. That's not cool. And I balk at the fake-namespace <code>fb:bar</code> elements. Not on my watch, etceteras. But, the end result is still super-slick.)</aside>
+
+Compare to ‘the Open Stack’. _There is no product_. These are technologies — wonderful technologies — with which you _could_ build something with the functionality of Facebook Connect. But at time of writing, there is no mature offering. The branded products from Yahoo and Google are not as strong as Facebook; they're less mature in every way. Problematically, though, *the tools have a stronger brand than the implementations*.
+
+It's this that causes the Facebook/Open Web comparison to fall down so quickly. The open technologies are right and true. Using the same open auth and identity protocols is a massive win for developers. But what are you actually implementing?
+
+The open stack itself doesn't contain any data, nor provide any service. It is just the mechanism to provide those services. You don't solve anything by ‘integrating OAuth’. _OAuth isn't a service_. The publicity has to shift to actual service providers, where the end users are involved. Because really, it's touching those end users that drives developers, not beautiful snowflakes.
+
+We're all imagining a world where you can implement OpenID+OAuth+<abbr title="Portable Contacts">PoCo</abbr> and seamlessly integrate with Google, Yahoo! and any other social network using the same code. But that doesn't exist yet. Only the foundations of it exist. And without the data provision from actual products, there's no implementation to focus the open stack discussion on.
+
+h2. Not broken
+
+Whilst it all sounds a bit bleak, nothing here is broken. Facebook has a massive head-start in the marketplace. Yahoo, Google, MySpace et al are playing catch-up in terms of the APIs _and_ the user experiences of their own sites. Is "Yahoo! Updates":http://profiles.yahoo.com as rich an experience as Facebook? Not yet, no. There's work happening _everywhere_ to compete, across all aspects of all services. As such, _of course_ Facebook is the more compelling option this year; it's obvious that's the case.
+
+Further, as evidenced by Facebook's "Open Stream API":http://wiki.developers.facebook.com/index.php/Using_the_Open_Stream_API launch last week, their strategy has been formidably well planned. Over the past twelve months they've been hit with sticks by openness advocates for being locked away in their walled garden, but their priorities have been elsewhere. They've been building a rock solid foundation that, once in place (now), they can start to open up and offer good data from the start. They have the luxury of the market lead, and they can use that to release better, more complete services. That's their reward for being first, and they've earned it.
+
+So, the feeling I come out with is that we should stop thinking about Facebook in the context of open standards (except where they implement them, of course). It's a broken comparison. It's hard, because the competitors have everything in the air at once, but it's down to them over the coming months to turn their adolescent, open-powered APIs into compelling _products_. The part OAuth plays in this is just to continue becoming as transparent to users as possible.
+
+It's not the job of OAuth and OpenID as part of this ‘Open Stack’ to take on Facebook in mindshare. The roles of these APIs (<abbr>PoCo</abbr>, Open Social and Activity Streams included) is to be _expected_ and taken for granted in any new implementation. These are the bricks on which houses are built. But people don't buy bricks, and so our eyes need to focus on the products of this work. 
+
+The other point to stress here is that whilst the open stack needs stronger implementations, they don't have to be ‘NotFacebook Connect’. That's only one use for these standards. The big Open Web offering could be somewhat different. _Better_, even.
+
+Be excited. The struggle of Open standards vs. Facebook is a fallacy, they're just efforts a little out of sync. This year, with maturing, big products powered by open technologies, we'll see things built that extend beyond the achievements of Facebook's walled garden age. MySpace, Google, Yahoo! et al are all moving together toward something quite special. Developers will be able to take on exciting new, provider agnostic apps with this technology. Just accept that the second generation of competitors need a little time and encouragement to build out.
+
+Oh, and don't be surprised to see Facebook active in all this, too. In the end, they'll be as open as anyone else.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-227198">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/dc4993d47afa9c402fe4da4c06e395fb.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://brainoff.com/">Mikel</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227198">
+        <time class="published" datetime="2009-05-07T04:19:48-08:00">07 May 2009, 04:19</time>
+      </a>
+      <div class="entry-content"><p>We&#8217;re any of the open source social network projects (Crabgrass, elgg, ..) represented at SocialFoo?</p>
+<p>There&#8217;s a strong relationship between the initial take up of open standards and open source implementations.  Was true of weblogs, and certainly in the mapping field. Without a reference implementation of how it should work, there&#8217;s no real model to hold proprietary instances to account.</p>
+<p>And it&#8217;s something the developers of specs could help happen now!</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

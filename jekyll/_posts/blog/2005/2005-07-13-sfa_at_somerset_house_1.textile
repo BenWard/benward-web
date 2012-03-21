@@ -1,0 +1,39 @@
+---
+layout: blog
+category: blog
+title: "Super Furry Animals @ Somerset House"
+date: "2005-07-13T00:43:07+00:00"
+tags: ["all", "music"]
+atomid: tag:benward.me,2005-07-13:/blog/sfa_at_somerset_house_1
+---
+<img class="splash" src="/media/splashes/sfa.splash.jpg" />As <a href="http://collylogic.com">Colly</a> is all too aware, I am something of a <a href="http://superfurry.com">Super Furry Animals</a> nutjob. It's a love I share with my brother Nathan and my Dad and we make a habit of attending SFA gigs together whenever we can. They're the first band I ever saw live and they've never disappointed me.
+
+Obviously <span class="datetime" title="2005-07-07">Thursday</span> was a pretty shit day for all, and all shows in London were called off. <span class="datetime" title="2005-07-08">Friday</span> was a largely better day and after some initial confusion the SFA gig was on. I've said it elsewhere, but it's my honest opinion that music is the single greatest tribute you can make to people who've just died, so there wasn't a moment's doubt about whether to go or not. Ultimately, if someone ever blows me up for being in the wrong place at the wrong time, I'd like everyone I know to honour me with music.
+
+Anyway, to the gig�?�
+<!--more-->
+I've seen the Furries twice lately - touring Phantom Power and again for their special Easter show at the <del>Royal</del><ins>Peoples</ins> Festival Hall. Both were excellent, but they played essentially the same set. This show - at the beautiful inner-city surroundings of Somerset House - was their first showing of new material from forthcoming album 'Love Kraft'.
+
+They were wonderful, as ever. Dressed up like times of old (in matching blue boiler suit-cum-hooded-err-things), they played songs old and brand new. They played 'Fire in My Heart' with a nod to Thursday's events (<cite>Gruff Rhys</cite>: <q>We don't play this song live very often, as it has a tendency to induce�?� vomiting</q>) and they played 'Ice Hockey Hair', which is always a winner for me.
+
+There's something absolutely timeless about SFA; very little of their music is aging, the new albums have (touch wood) always been excellent and the new songs on Friday night sounded pretty good. They can still do wonderful power-pop ('Golden Retriever'), Techno (the recent 'The Man Don't Give a Fuck' special edition is the best example) and other times just produce music of wonderful beauty (I cannot hear 'The Piccolo Snare' enough times).
+
+This is less a gig review and more a love-in for a band that means a great deal to me. I swear, they can do no wrong.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-306">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/c50da324148e7c4d320b7feaba64c57b.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.enableinteractive.co.uk/">Nic Rodgers</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-306">
+        <time class="published" datetime="2005-07-14T10:47:43+00:00">14 Jul 2005, 10:47</time>
+      </a>
+      <div class="entry-content"><p>I&#8217;m looking forward to seeing them at Bristol Ashton Court Festival this weekend now!!!</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

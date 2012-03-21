@@ -1,0 +1,98 @@
+---
+layout: blog
+category: blog
+title: "RSS Feeds of Flickr Photo-sets"
+date: "2007-08-26T00:44:53+00:00"
+updated: "2008-02-28T16:33:58+00:00"
+summary: "Publication of my mini Hack Day London effort to generate an RSS feed from a Flickr photoset."
+tags: ["technology", "flickr", "hack", "rss", "feed", "hack-day", "hack-day-london", "photosets", "sets", "web"]
+atomid: http://ben-ward.co.uk/journal/flickr-photoset-feeds/
+---
+By design, <a href="http://flickr.com">Flickr</a> does not provide XML feeds of photosets. Photosets can be non-chronological, so a feed doesn't always make sense.
+
+That said, oftentimes a photoset <em>is</em> chronological and a feed would be a useful. My <a href="http://flickr.com/photos/benward/sets/72157594435188323/">Abridged</a> set works this way.
+		
+At <a href="http://hackday.org" title="Hackday">Hack Day London</a> I put together a little script that will convert a set into a feed, and after gigantic delay, I've finally documented it and put it live at <a href="http://flickr.ben-ward.co.uk">Flickr.Ben-Ward.co.uk</a>.
+
+Fuller instructions are provided with the hack, but in short you can pass in a Flickr set ID and out will come an XML feed of the 20 most recent pictures. You can pass extra parameters in the URL to change the number of pictures and the sort order.
+
+For example, to produce a feed of 20 items from the Abridged set: <a href="http://flickr.ben-ward.co.uk/sets/feed/72157594435188323/"><kbd>http://flickr.ben-ward.co.uk/sets/feed/72157594435188323/</kbd></a>
+
+You can use additional segments of the URL to alter the number of feed items and the sort order, for example:
+
+* <a href="http://flickr.ben-ward.co.uk/sets/feed/72157594435188323/40"><kbd>http://flickr.ben-ward.co.uk/sets/feed/72157594435188323/40</kbd></a>
+* <a href="http://flickr.ben-ward.co.uk/sets/feed/72157594435188323/25/asc"><kbd>http://flickr.ben-ward.co.uk/sets/feed/72157594435188323/25/asc</kbd></a>
+* <a href="http://flickr.ben-ward.co.uk/sets/feed/72157594435188323/25/desc"><kbd>http://flickr.ben-ward.co.uk/sets/feed/72157594435188323/25/desc</kbd></a>
+
+Hopefully this will useful, perhaps especially to those using Flickr in <a href="http://pipes/yahoo.com">Pipes</a>.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-218038">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e6e984d5209d0fd381fae0d78c4d0302.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.mattrobin.com">Matt Robin</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-218038">
+        <time class="published" datetime="2007-08-26T02:57:44+00:00">26 Aug 2007, 02:57</time>
+      </a>
+      <div class="entry-content"><p>Ahhh&#8230;Flickr Feeds&#8230;.(the additional segments you mention make sense and are useful to know!) Nice one Ben.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-218118">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/995c750106b1feb529945dd8a6ba3e28.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://strenioff.ru">Strenioff</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-218118">
+        <time class="published" datetime="2007-08-27T11:03:05+00:00">27 Aug 2007, 11:03</time>
+      </a>
+      <div class="entry-content"><p>Thaks!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-218173">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/8c6eb42dfa9b29b522b1336e6bda3d1f.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://fordie.co.uk">Mark Ford</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-218173">
+        <time class="published" datetime="2007-08-28T14:59:40+00:00">28 Aug 2007, 14:59</time>
+      </a>
+      <div class="entry-content"><p>Ben,</p>
+<p>I&#8217;ve just found a small issue with your feed generator (which incidentally is excellent thanks for putting it together); I had an ampersand in a couple of my photo&#8217;s titles. These where not being <span class="caps">HTML</span> encoded in the feed, which caused firefox and IE to choke.</p>
+<p>I fixed it my end by changing the titles, but it&#8217;s something you might want to look at.</p>
+<p>I can now try and sort out my pipe for my facebook feed. Good man!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-218183">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-218183">
+        <time class="published" datetime="2007-08-28T18:58:41+00:00">28 Aug 2007, 18:58</time>
+      </a>
+      <div class="entry-content"><p>Thanks for the bug report, Mark. I&#8217;ve updated the feed generator to encode <span class="caps">HTML</span> special characters. Hopefully that will resolve the problem you were having.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-218833">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/d75c53668ec5762a933c447b8e50226c.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Noah</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-218833">
+        <time class="published" datetime="2007-09-07T05:51:22+00:00">07 Sep 2007, 05:51</time>
+      </a>
+      <div class="entry-content"><p>Ben &#8211; This is excellent!  I&#8217;ve been hunting for something like this.  I&#8217;d like to take it a step further and have the feed import into my SlideShowPro (http://slideshowpro.net) player.  When I try doing it from your script, it errors out because it requires a crossdomain.xml file on your side.  Is it possible for you to provide the script to place on my server so I can avoid this issue? Is it for sale?</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-221839">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/36d3b9b616ff71d4de1c4408348fbf52.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Jared</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-221839">
+        <time class="published" datetime="2007-10-15T20:03:03+00:00">15 Oct 2007, 20:03</time>
+      </a>
+      <div class="entry-content"><p><span class="caps">GREAT</span> <span class="caps">STUFF</span>! I&#8217;d like to see how you got that to work.. been working on this exact thing.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

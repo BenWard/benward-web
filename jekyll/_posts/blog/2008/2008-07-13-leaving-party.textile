@@ -1,0 +1,39 @@
+---
+layout: blog
+category: blog
+title: "I'm Leaving Home!"
+date: "2008-07-13T19:14:25-01:00"
+updated: "2008-07-13T19:15:38-01:00"
+tags: ["all", "events", "me", "party", "moving", "london", "event"]
+atomid: http://ben-ward.co.uk/?p=461
+---
+As may have been noted lately, I'm leaving the UK and moving to San Francisco this summer (sometime early August). To celebrate the fact, and try to engineer the opportunity to see Everyone I've Ever Known one last time, I'm declaring the weekend of July 26th and 27th to be Ben's Great Getaway Weekend. Two days of festivity that basically consists of meeting up in some pubs, oscillating between said pubs and a nearby park, eating, drinking, and having a good time.
+
+I've not picked the venue for Saturday yet, but it's going to be a pub somewhere in very-central London. It should be easily accessible from the underground so people from far and wide should be able to find it without having to brave Zone 2. Sunday is going to be a more local affair at The Dove in Hackney, and probably include a lot more Belgian beer.
+
+Comedic self-hype aside, I would really, really love to see as many people I can before I leave. I don't know how often I'll be back on British soil, so this might be the last time for a while.
+
+Let me know if you can come by flagging yourself attending on one or both of the Upcoming events. Space on the beanbag/sofa/floor of my flat is available, if you ask nicely.
+
+* <a href="http://upcoming.yahoo.com/event/896933">Ben's Great Getaway Saturday</a>
+* <a href="http://upcoming.yahoo.com/event/896938">Ben's Great Getaway Sunday</a>
+
+Leave comments to let me know roughly what time you'll be in, and I'll try to sort table reservations, too.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-227089">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/f470b2ee8f3c0ce812296a6068f5c77d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://dotneil.com">Neil</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227089">
+        <time class="published" datetime="2008-07-13T20:40:12-01:00">13 Jul 2008, 20:40</time>
+      </a>
+      <div class="entry-content"><p>I&#8217;m just a random reader (can&#8217;t actually remember how I originally came across your blog) but good luck with the move! I&#8217;ve been considering doing the same thing (also 24 years old and stuck in England), so I&#8217;m jealous. Keep the blog updated and let us know how it goes.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

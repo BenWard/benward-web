@@ -1,0 +1,23 @@
+---
+layout: blog
+category: blog
+title: "Firefox 1.0 gets tab updates"
+date: "2004-10-25T00:27:07+00:00"
+tags: ["technology"]
+atomid: tag:benward.me,2004-10-25:/blog/firefox_1_0_gets_tab_updates
+---
+Being the geek that I am, I've been updating to the latest Firefox <abbr title="Nightly Release (a non-public, test version)">nightly</abbr> every few days. Along with being able to enjoy the evolving fruits of <a href="http://kmgerich.com/" title="Technical Jiggery Pokery">Kevin Gerich's</a> Winstripe theme, I also get to prod at the new features.
+
+One of the most requested is for 'single window mode' - where rather than use lots and lots of windows and using tabs, the browser should force all web sites which ask to have a 'new window' opened, to open a new tab instead. It's long been thought that this functionality was going to have to wait until after the first Firefox release but it's here now, today instead. Ben Goodger and his colleagues have pulled up some surprise fixes of late, and this is probably the most welcome.
+
+You actually get even more control over opening new windows than anyone requested. The options are:
+<ul><li>Allow opening new windows (only open new tabs when requested)</li>
+<li>Every request for a new window opens a new tab (Single window mode)</li>
+<li>Every request for a new window opens in the same page (single window mode, manual control of new tabs)</li>
+</ul>
+
+You also get similar controls over where to open new links from other sources (like a link in MSN messenger).
+
+The last of these new options is the most interesting. Effectively, it returns control of the browser to the user, completely. To use it effectively, you need a 3-button mouse (middle click is always related to 'new tab' in Firefox). But now, rather than have a site dictate how my browser works, I do. If I want a new tab then I'll click for one. Otherwise, all power returns to the much abused Back button (which, lets face it, gets pushed about by the new-window routine almost as much as the user). It's liberating, it's functionality that actually lives up to the 'Reclaim the web' sloganeering of Mozilla.org.
+
+One bug of note: Middle clicking form buttons doesn't as yet trigger new tabs. This means that I can't choose to have the "Upload a file/image" button in my blog 'new entry' page pop up a new one (at all, there's no context menu either). Nearly there, then. Whoop!

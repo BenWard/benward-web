@@ -1,0 +1,204 @@
+---
+layout: blog
+category: blog
+title: "Nokia's N95 Sucks."
+date: "2007-09-23T13:50:06+00:00"
+updated: "2007-09-23T13:50:06+00:00"
+tags: ["all", "technology", "sucks", "nokia", "n95", "phone", "smartphone", "epic-fail"]
+atomid: http://ben-ward.co.uk/journal/nokia-n95-sucks/
+---
+<strong><q>It's what computers have become</q></strong>; a marketing slogan that's over ambitious, pretentious and painfully accurate all at once.
+
+Most computers you could buy today are abysmally bloated, confusing monstrosities of metal and software. The Nokia N95 is the same: It crams more features into a handset than previously possible, and proceeds to make each and every one of them more difficult to use than previously imaginable.
+
+In the N95, Nokia released the most feature-packed smart phone ever. They thought up some quite ingenious tricks, such as a slider that reveals different controls when slid in different directions. It's got a big screen, a 5 megapixel camera, a GPS receiver and the ability to connect to wireless networks. The form factor is reasonable too, it's a good fit for my hand.
+
+It's interesting, then, that each and every single one of these ‘amazing’ features is implemented with a lazy mediocrity that frustrates and aggravates to the point at which I'm fairly certain the Nokia N95 is the single <em>worst</em> gadget I've ever owned.
+
+The shortcomings and outright failings annoy me each and every time I have to use it. Every time I attempt something as mundane as compose a text message I want to smash it against my desk. That's when the battery hasn't run out.
+
+I feel a need to rant about it, desperately hoping that by standing atop a soapbox I can somehow exorcise the aggression I feel toward this small silver box and start to find the day-to-day experience of using it bearable. I'm imprisoned with it for another sixteen months, I need to find some way to make this work.
+
+Something I feel at the moment is that criticisms of the N95, especially by those of an Apple hardware persuasion, seem to get dismissed. As if dissing the N95 is just another way of glorifying the iPhone. But this is nothing to do with Apple, or iPhone or any other piece of technology past, present, future, real or imaginary: The N95 is a steaming heap of shit all by itself. But over the course of this week, I'm going to back up my rage with more detailed follow-ups about specific problems with the N95. I just hope it makes me feel better.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-220019">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/a489725ad8451b6e87fcb9ed4f189cf9.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.trovster.com">trovster</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-220019">
+        <time class="published" datetime="2007-09-23T16:42:00+00:00">23 Sep 2007, 16:42</time>
+      </a>
+      <div class="entry-content"><p>Oops. After wanting one of these for ages, and then waiting for a fair while after it was finally launched, I picked up my N95 last week&#8230; I do agree that the features are difficult to use and have been implemented with little consideration. I&#8217;m tied for another two years, so hopefully I can settle in to the basics again&#8230;</p>
+<p>Typing a text-message is a bit annoying at the moment, and will need time to adjust to the cancel-button position. Also, the large &#8220;media&#8221; button currently annoys me, hopefully I&#8217;ll be able to adjust to that though&#8230;</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-220021">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/3282170b113297711ac2a2d41bffb70d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://andyhiggs.co.uk">Andy Higgs</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-220021">
+        <time class="published" datetime="2007-09-23T16:44:42+00:00">23 Sep 2007, 16:44</time>
+      </a>
+      <div class="entry-content"><p>Hi Ben,</p>
+<p>Have you considered a hammer?</p>
+<p>Andy.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-220039">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/98234c645fe8c935edc0fec0186d28b8.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://morethanseven.net">Gareth Rushgrove</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-220039">
+        <time class="published" datetime="2007-09-23T21:49:25+00:00">23 Sep 2007, 21:49</time>
+      </a>
+      <div class="entry-content"><p>I did have a look but went for an N800/E65 combo instead which I&#8217;m pretty happy with. I did have to do some tweaking on the E65 in hidden settings to get buttons to do what I wanted it to but the battery life is pretty good.</p>
+<p>One thing that might be worth trying is to update the firmware. That might give you more battery life.</p>
+<p>Steve is likely to make your life unbearable when he (undoubtedly) gets an iPhone.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-220093">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/50dc6b8d07a47e3932b7dc36b15eaf38.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Andrew Phillipo</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-220093">
+        <time class="published" datetime="2007-09-24T15:07:56+00:00">24 Sep 2007, 15:07</time>
+      </a>
+      <div class="entry-content"><p>Man &#8211; I bet your going to enjoy the iPhones that will be floating around our workplace for the foreseeable future :-D  I think your post may have convinced me to get one as I truely hate my Nokia N73.  Contract is up pretty soon!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-220778">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/443b96ff422146dd566183ab491ecc78.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">James Weiner</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-220778">
+        <time class="published" datetime="2007-10-02T10:41:40+00:00">02 Oct 2007, 10:41</time>
+      </a>
+      <div class="entry-content"><p>Yep. Pretty much how I feel about my N73 too. A silvery turd.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-220934">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/abb5e982d97d7539860141b7904ba31a.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://philwilson.org/blog/">Phil Wilson</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-220934">
+        <time class="published" datetime="2007-10-04T09:36:22+00:00">04 Oct 2007, 09:36</time>
+      </a>
+      <div class="entry-content"><p>I don&#8217;t agree. I like my N95.</p>
+<p>I like it, however, in comparison the the surrounding market. Taken on its own, the software usability is shit, but many of the features are so vastly superior to other handsets that in practice, it doesn&#8217;t matter.</p>
+<p>I&#8217;ve only had my N95 for a week but I&#8217;ve had no problems with battery life outside of when I&#8217;ve been heavily using the wifi and <span class="caps">GPS</span> features. On &#8216;normal&#8217; phone usage it lasts as long as any comparable modern phone, and usage with wifi seems better than my experiences with an iPhone.</p>
+<p>I look forward to seeing your particular problems and finding out if they&#8217;re N95-specific.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-220937">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-220937">
+        <time class="published" datetime="2007-10-04T10:08:44+00:00">04 Oct 2007, 10:08</time>
+      </a>
+      <div class="entry-content"><p>As is the way, I&#8217;ve made myself rather busy and haven&#8217;t got the specifics done yet. I&#8217;m also fighting with T-Mobile (see next post) which has been a distraction.</p>
+<p>Mostly though, I&#8217;ve been tipped off that there&#8217;s a software update that I can&#8217;t get yet: I&#8217;m running software version 11 and there&#8217;s a version 12 that I can&#8217;t get. I need to hack the phone or something. I&#8217;m going to hold off being pedantically critical about the UI and so on until I&#8217;ve got that installed.</p>
+<p>I&#8217;m still running with 3G turned off, which has worked around my battery life issues. For all the <span class="caps">FUD</span> coming out of Apple right now, their ‘3G cost too much battery argument’ does now seem reasonable.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-222674">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/68150cb0f582e8f4f25774d25974fc0e.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Michele Rossi</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-222674">
+        <time class="published" datetime="2007-10-26T10:18:19+00:00">26 Oct 2007, 10:18</time>
+      </a>
+      <div class="entry-content"><p>Hi Ben,<br />
+I totally agree with you &#8211; I got an N95 from O2 in the UK after more than a year using a Sony Ericsson K800.<br />
+I immediately realized I had made a big mistake.<br />
+I write software professionally and I am very demanding when it comes to use it.</p>
+<p>The N95 has an appalling user interface, which starts from a bad keyboard layout and it ends with a badly designed operating system.</p>
+<p>Also worth noting: the <span class="caps">GPS</span> is completely useless.<br />
+I live in London, and I&#8217;ve tried several times to use it unsuccessfully.<br />
+It can take 10 minutes to get a lock on the satellites.</p>
+<p>The other thing that seriously annoys me are random crashes.<br />
+The phone re-boots automatically about 5 times a day, for now reason.<br />
+And sometimes you can crash it by simply sliding the keyboard up and down 2 or 3 times.</p>
+<p>Last point, the camera is nearly useless.<br />
+The resulting photos are too compressed.<br />
+The <span class="caps">JPEG</span> compression rate is set to a value which is too high, and all the <span class="caps">JPEG</span> artifacts become visible<br />
+And the flash is meaningless, just a small faint light.<br />
+5Mp wasted pixels.</p>
+<p>I could continue pointing out that the photo browsing is incredibly slow, that the music player often stops playing songs for no reason whatsoever, that the external microphone doesn&#8217;t work well etc etc.. <br />
+I better leave it here.</p>
+<p>I will never buy a Nokia phone again.<br />
+I can&#8217;t wait to get my hands on a Sony Ericsson K850, but I&#8217;ll have to wait for 8 months!</p>
+<p>Michele</p>
+<p>p.s. I have the software version 12, it&#8217;s the same crap as version 11 so don&#8217;t worry if you can&#8217;t get it.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-222675">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/abb5e982d97d7539860141b7904ba31a.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://philwilson.org/blog/">Phil Wilson</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-222675">
+        <time class="published" datetime="2007-10-26T10:28:24+00:00">26 Oct 2007, 10:28</time>
+      </a>
+      <div class="entry-content"><p>Michele, you pretty obviously have a faulty handset. Take it back.</p>
+<p>I&#8217;ll accept usability problems and poor UI design, but I&#8217;ve not used a mobile phone with a good UI, so sucks to be us.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-222676">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-222676">
+        <time class="published" datetime="2007-10-26T10:38:18+00:00">26 Oct 2007, 10:38</time>
+      </a>
+      <div class="entry-content"><p>The most recent irritation I&#8217;ve found is that there&#8217;s not enough memory in the phone to run both the maps application and web browser at the same time. So someone sends me their address as a direct message in Twitter, I load up Maps and get to the ‘Enter Destination’ prompt, try to switch back to the Web Browser and find that it&#8217;s silently quit.</p>
+<p>I start up the web browser again, get back to my direct message and find that Maps has silently quit.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-222677">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/abb5e982d97d7539860141b7904ba31a.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://philwilson.org/blog/">Phil Wilson</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-222677">
+        <time class="published" datetime="2007-10-26T12:56:42+00:00">26 Oct 2007, 12:56</time>
+      </a>
+      <div class="entry-content"><p>Bug &#8211; it should stop you from loading the application in the first place with a &#8220;low memory&#8221; warning. Tell Nokia :)</p>
+<p>All of this is interesting in terms of the kind if performance, reliability and feature set we expect from our phones now. I know a lot of people who didn&#8217;t even know that you could switch applications on a Nokia.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-222680">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-222680">
+        <time class="published" datetime="2007-10-26T15:26:06+00:00">26 Oct 2007, 15:26</time>
+      </a>
+      <div class="entry-content"><p>It does that quite often too. But it will also have moments of killing every background application without notification.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-222683">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/abb5e982d97d7539860141b7904ba31a.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">phil wilson</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-222683">
+        <time class="published" datetime="2007-10-26T17:27:14+00:00">26 Oct 2007, 17:27</time>
+      </a>
+      <div class="entry-content"><p>weird. I use app switching quite heavily and haven&#8217;t had any serious problems. Right now am using my phone to post this in the browser, checking my mail with the gmail app, using the maps app and have messaging open i guess i could push it further as i&#8217;ve not had any warnings yet. My biggest complaint so far is the keypad. Maybe i should blog about it myself. :)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-222962">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/945ca2db0ddc99f01c6b2853c1c52af3.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">bluedragon</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-222962">
+        <time class="published" datetime="2007-10-30T21:22:21+00:00">30 Oct 2007, 21:22</time>
+      </a>
+      <div class="entry-content"><p>I have had my N95 for about a month, on Orange contract. The orange tweaked firmware cripples the phone horribly, constant crashes, slow loading apps so on. so I hacked the phone ( orange will not let you update the firmware to 12. , ) updated the software and hay presto a fast and reliable phone the camera is far better and the gps locks on  in less than 2 mins.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

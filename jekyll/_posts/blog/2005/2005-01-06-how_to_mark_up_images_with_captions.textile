@@ -1,0 +1,26 @@
+---
+layout: blog
+category: blog
+title: "How to mark up images with captions"
+date: "2005-01-06T23:55:27+00:00"
+tags: ["all", "web_standards"]
+atomid: tag:benward.me,2005-01-06:/blog/how_to_mark_up_images_with_captions
+---
+In my previous post I included an image with a caption. I struck me that right now in HTML there is no proper way to mark-up captions for images.
+
+Consider a table: this can contain a <code>&lt;caption&gt;</code> element. In the forthcoming XHTML 2 specification, <code>caption</code> will be extended for use with the <code>&lt;object/&gt;</code> element as well. This - of course - is the preferred way of including multimedia content such as images.
+
+Before then, however, there's a bit of a problem. Hence I'm experimenting and looking for some thoughtful feedback on the matter.
+<!--more-->
+In the previous post I've marked up my image and caption using a <code><abbr title="Definition List">dl</abbr></code> element. Each definition list item has a title (<code>dt</code>) and a description (<code>dd</code>). My semantic interpretation (or argument for) here is that the title is the caption and the description is the content. I think this makes semantic sense. Bear in mind that definition lists are a flexible element in that they can also be used to mark up conversations (title being the name of a person, description being their dialogue). I think this use of mark-up fits into that precedent.
+That said, it results in a list of one item which may or may not be correct for a standard practice like captioning an image. Is this an undesirable flaw?
+
+Alternatives could involve marking up with a heading and containing it within a <code>div</code> element, or maybe marking up the caption as <code><abbr title="emphasis">em</abbr></code> or <code>strong</code> to mark it different from the text flow.
+
+However, I don't think much these latter ideas.
+
+Dismissing heading first (this is easier): A heading represents the start of section. The image is not a separate section of my document. Also, if my blog title was <code>h1</code> and my image caption <code>h2</code>, I can't have content after the <code>h2</code> without declaring another <code>h1</code> (to return to document to the same level - text before the image was written within a <code>h1</code> section, thus text that follows the image (but is in the same section as text before the image) should also be within a first level heading section. HTML doesn't do that though. There isn't a <code>section</code> tag (yet), but there is no sensible need to have another first level heading in the middle of my content. I'd call that incorrect.
+
+The <code>strong</code> mark-up could work better, it does at least respect the document structure. However, while it seems to offer presentational benefit (bold text, a screen reader would emphasise it). it doesn't offer any benefit in structure. A single-item list groups the image and the caption together, this does not.
+
+So, in the absense of true-to-purpose mark-up for captions - what would you choose?

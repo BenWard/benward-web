@@ -1,0 +1,45 @@
+---
+layout: blog
+category: blog
+title: "Making use of genre"
+date: "2004-12-15T22:26:00+00:00"
+tags: ["all", "technology", "music"]
+atomid: tag:benward.me,2004-12-15:/blog/making_use_of_genre_1
+---
+Something which has always bugged me about <abbr title="MPEG Layer 3">MP3</abbr> (or whatever compression format you're using today) is the complete irrelevance of the <code><var>Genre</var></code> field in ID3 tags. It's rubbish. Why media players continue to offer me the choice of browsing by genre is beyond me - what does a list that contains, for instance, "Rock &amp; Punk", "Punk", "Alternative Rock", "Alt.Rock", "Soft Rock" actually mean? What is the difference between songs in each of those 'catagories'.
+
+My answer has long been nothing, hence I have 'browse by genre' switched off in iTunes. For a time, in an attempt to make use of the field, I branded everything remotely "Alt Rock" to a genre of "Alternative/Rock/Indie", classical music as "Classical" and jazz as "Jazz", breaking it up into the three types of music that I would tend to listen to separately. This still sucked.
+
+What I've taken to doing now is rather than classing music in one particular genre, which is far too restrictive for the art that is music, I tend to specify all the genres I feel are related in a space-separated list - "Rock Pop Indie" and "Electronic Dance Techno" for instance. The genres are listed in order of application - so Green Day's excellent American Idiot album will be classed as "Rock Punk" (imho), while Sex Pistols would probably go down as "Punk Rock" (not the same as a genre called 'Punk Rock'). The 'browse by genre' field remains useless, but it does mean you can query genres using Smart Playlists (or Auto Playlists of Smart Views, whatever your media player calls a playlist generated 'live' by the system using a predefined set of rules). Cue a list to return everything relating to "Rock and Punk" and suddently the ID3 tags can be queried in a useful way.
+
+I think I've found a use for <code><var>Genre</var></code> that I like and can actually make some use of. I'm curious to know what others do with it though - do you just accept whatever crap comes out of Gracenote or FreeDB? Or do you have your own meaningful way of using <code><var>Genre</var></code>?
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-225">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/fb7d81b172292b6034f9c1747d5b11e0.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.fatbusinessman.com">Fatty</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-225">
+        <time class="published" datetime="2004-12-16T11:54:13+00:00">16 Dec 2004, 11:54</time>
+      </a>
+      <div class="entry-content"><p>I don&#8217;t use the genre field at the moment &#8211; in fact, all my MP3s have their genre set to &#8220;None&#8221;.</p>
+<p>From what I can glean from the <a href="http://www.id3.org/id3v2.3.0.html" title="ID3v2 - Informal Standard" rel="nofollow">ID3v2 standard</a>, however, the genre (or &#8220;Content type&#8221;, as it&#8217;s been rechristened&quot;) can be defined as just about anything you like, so one possibility might be to add classifications for the mood of the music, such as &#8220;calm&#8221; (Moby) or &#8220;miserable&#8221; (anything by Radiohead). Could potentially be used to conjure up playlists based on your mood, which might be rather more useful than saying &#8220;I want all my rock songs&#8221; and getting <em>n</em> gigs returned.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-226">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/dc17387f19d96d6aeb53a0a9a02418dd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.jonty.me.uk/">Jonty</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-226">
+        <time class="published" datetime="2004-12-16T15:06:32+00:00">16 Dec 2004, 15:06</time>
+      </a>
+      <div class="entry-content"><p>That&#8217;s a very good point, Ben :) I started out using genres but for a while now I&#8217;ve ditched them from my music collection (which itself isn&#8217;t exactly massive) for precisely those reasons.</p>
+<p>Perhaps Fatty&#8217;s reclassification idea based around mood might make more sense, although even then various songs come to mind which are conflicting even at that level. Tsch!</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

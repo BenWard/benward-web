@@ -1,0 +1,51 @@
+---
+layout: blog
+category: blog
+title: "Job Hunting"
+date: "2006-07-14T22:38:50+00:00"
+updated: "2006-07-14T22:59:07+00:00"
+tags: ["all", "microformats", "benward", "jobs", "work", "cv", "resume", "hresume", "telephone"]
+atomid: http://ben-ward.co.uk/journal/job-hunting/
+---
+There are two things I want to write about, both positively.
+
+Firstly, I'm still job hunting. There are some interesting options on my proverbial table, which I may yet take, but I'm yet to sit bolt upright and say ‘that's definitely the right thing for me to do’. I'm looking for a large-scale .NET software development role, ideally with some sort of ‘web twist’. By which I mean, the web fascinates me, inspires me and the facility for such <span lang="fr">grande</span> communication is just too great not to work on. But that doesn't mean I just want to write ASP.NET <abbr title="Web Applications">webapps</abbr> or <abbr title="Content Management Systems">CMS</abbr>.
+
+I had a lot of wonderful experience with <a href="http://www.fujitsu-siemens.com">Fujitsu Siemens</a> writing desktop and browser-based apps for internet and intranet content management. In fact, whilst insane and misguided, trying to write a desktop file management client for SharePoint was also rather fun.
+
+I want something that has scope for variation and scale. I don't mind doing small jobs at all but once in a while it's great to do something genuinely bigger. Geographically, there's a big bit of me drawn back towards Manchester, being rather attached to the place since my university years, but for the right job I'm willing to go pretty much anywhere (in the UK, that is. I've a feeling that ‘the right job’ in America or elsewhere that's willing to let me work only 3/4 days a week and pay for a plane ticket every week to come home and visit <a href="http://hanniross.com" rel="muse sweetheart crush friend met">Hanni</a> might just not exist at this point in my career).
+
+So, with all of that in mind, <a href="http://ben-ward.co.uk/cv" title="Ben Ward's CV">my CV</a> is online a the handily short URL of <a href="http://ben-ward.co.uk/cv" title="Ben Ward's CV">ben-ward.co.uk/cv</a>. Oh, I registered <a href="http://ben-ward.com">ben-ward.com</a> on Tuesday too, that's shorter still and redirects straight to the equivalent co.uk content.
+
+The CV itself is worthy of some comment, since it's <a href="http://microformats.org">microformatted</a> to the gills. Contact details are marked with <a href="http://microformats.org/wiki/hcard">hCard</a>, employment and education history using <a href="http://microformats.org/wiki/hcalendar">hCalendar</a> and skills with rel-tag. All of this should conform to the <a href="http://microformats.org/wiki/hresume">hResume</a> draft. Being a draft there's not a lot of real-world benefit to it (we're some way off using it to search for employee candidates) but in the interests of microformateering and providing some extra test data for implementations I'm on board anyway.
+
+If you read <a href="http://ben-ward.co.uk/cv">my CV</a> you'll note the presence of my telephone number. I've decided I don't mind it being on the net for this purpose and if anything unpleasant were to happen I can always take it away again. This does lead onto the second point I wanted to make, though.
+
+In the last week something rather new happened to me. I was telephoned out of the blue twice with job opportunities. This is great, since one of those calls was very interesting indeed (although cut short as I was on my out to see Elbow at the time). 
+
+Two things to say though. Whilst these days I've got no hesitation in describing myself as socially comfortable (if you'd met me 6 years ago you've have concluded different), I am still better at communicating in writing than verbally on the spot. Of course, as a potential employer I appreciate that putting me on the spot is probably part of the point. Depending on what you want to know though, email is good.
+
+The second thing in support of email is that living back home in Great Shelford, mobile phone signal is sub-optimal. You cannot walk & talk around the family home for fear that one step too far to the left will cut a call short. In fact, the first phone call I received last week got cut off half-way through just sitting in the same spot. With that in mind, you might sometimes get my answerphone (depending on whether I'm standing on my right or left foot at the time). If this happens <em>please do</em> leave a message 'cause I really have no way of knowing when the signal strength comes and goes. I fear I may have missed some calls today because of that.
+
+Of course, if you get through and we get cut off, I apologise in advance for that too. Although it should be O2 apologising (<a href="http://blog.fatbusinessman.com/archives/2005/11/28/o2-avoid-like-the-plague/">they have other reasons to as well</a>).
+
+The last thing that interests me about the calls I've had: Where did you get my number from? I don't mean that in a confrontational way at all, purely from curiosity. I know that one agency has my CV from correspondence a month or so ago but these didn't seem to be linked to that. I'm a very inquisitive person really; I have no issue sharing and publicising information about myself, but I still like to know where you found it.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-8177">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/53b19cad3e1b9e92bec876084c437d37.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.m-ven.com">Alexander Muse</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-8177">
+        <time class="published" datetime="2006-07-26T01:40:52+00:00">26 Jul 2006, 01:40</time>
+      </a>
+      <div class="entry-content"><p>Wonder if you would help us out by trying the WordPress hResume plugin.  The <span class="caps">CSS</span> is a little but of a mess, but we were hoping to get some feedback on the plugin.  Thoughts?</p>
+<p>http://hresume.org</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

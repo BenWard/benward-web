@@ -1,0 +1,35 @@
+---
+layout: blog
+category: blog
+title: "Wildlife Photography"
+date: "2004-11-03T21:21:35+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2004-11-03:/blog/wildlife_photography_1
+---
+I had the pleasure of visiting the <a href="http://internt.nhm.ac.uk" title="The Natural History Museum" rel="external">Natural History Museum</a>'s exhibition of the <a href="http://internt.nhm.ac.uk/jdsml/wildwin/2004/index.html" title="Wildlife Photographer of the Year 2004 Subsite" rel="external">Wildlife Photographer of the Year</a> finalists on <abbr title="Sunday 31st October 2004">Sunday.
+
+I've long been an admirer of photography; the dynamicism, drama and 'wow factor' of nature caught on film. It's able to catch the imagination and attention in ways that much man-made art does not. The collection was sadly not available to purchase on any digitised format (a missed opportunity I feel), but there is a hardback book available. You can also view small copies of the images on the <a href="http://internt.nhm.ac.uk/jdsml/wildwin/2004/ad_index.html" title="Wildlife Photographer of the Year Adult Catagories">website</a>. Entry to the exhibition is 5 (3 for most students or free for students of Imperial College London, and maybe some other London universities). It's open until April and I cannot recommend enough that you go for a look around.
+
+Naturally, I'm inclined to wonder most about the application and appeal of photography in design work and the Blogosphere is full of some more obvious examples: <a href="http://www.hicksdesign.co.uk/" title="Jon Hicks">Jon Hicks</a> stunning redesign is my personal favourite (and the previous version, for that matter). It features a vibrant, unique right-hand background image of a tree and a field (you may need to make your browser window <em>much</em> wider to see it in full). It's a simple concept, but the effects of a) Its sideways-ness and b) the subtle white silhouette at the base make it a real eye-grabbing addition to the page.
+
+There are many designs in the world that take inspiration or direct use of a sunset image, as well as Hicks-approved trees and leaves. It makes me ponder my redesign a lot. Currently the design is looking along the lines of something quite crisp and tidy, but I'm strongly drawn to try something with nature as well as the effect could be outstanding.</abbr>
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-211">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/dc17387f19d96d6aeb53a0a9a02418dd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.jonty.me.uk/">Jonty</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-211">
+        <time class="published" datetime="2004-11-05T14:44:18+00:00">05 Nov 2004, 14:44</time>
+      </a>
+      <div class="entry-content"><p>I&#8217;ve been planning a &#8216;natural&#8217; redesign for over a year now. Methinks by the time I actually get around to completing it the fasion will have passed!</p>
+<p>Good luck with the redesign, Ben, I&#8217;m sure it will rock :)</p>
+<p>Kind Regards</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

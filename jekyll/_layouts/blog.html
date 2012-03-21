@@ -1,0 +1,22 @@
+---
+layout: base
+---
+<article class="hentry">
+  <h1 class="entry-title">{{page.title}}</h1>
+  <p class="dateline"><time class="published" datetime="{{page.global_date}}">{{page.global_date | date: site.dateformat}}</time>.
+  {% if page.updated %}Updated: <time class="updated" datetime="{{page.updated}}">{{page.updated | date: site.dateformat}}</time>.{% endif %}
+  {% if page.geo && page.geo.name %}<span class="geo adr">
+    <span class="value-title" title="{{page.geo.xy}}"></span>
+    <span class="label">{{page.geo.name}}</span>
+  </span>{% endif %}</p>
+  <div class="entry-content">{{content}}</div>
+  <ul class="tags">{% for tag in page.tags %}
+    <li><a rel="tag" href="/tags/{{tag}}">{{tag}}</a></li>{% endfor %}
+  </ul>
+  {% include share.html %}
+  <footer><nav>
+  {% if page.previous %}<a rel="prev" href="{{page.previous.url}}" title="{{page.previous.title}}">← Older</a>{% endif %}
+  <a rel="up" href="/{{page.date | date: "%Y/%m"}}">↑ {{page.date | date: "%B %Y"}}</a>
+  {% if page.next %}<a rel="next" href="{{page.next.url}}" title="{{page.next.title}}">Newer →</a>{% endif %}
+  </nav></footer>
+</article>

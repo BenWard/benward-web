@@ -1,0 +1,78 @@
+---
+layout: blog
+category: blog
+title: "BBC iPlayer"
+date: "2007-02-21T23:09:28+00:00"
+updated: "2007-02-22T21:53:47+00:00"
+tags: ["all", "technology", "microsoft", "bbc", "iplayer", "drm", "on-demand", "consultation", "petition"]
+atomid: http://ben-ward.co.uk/journal/bbc-iplayer/
+---
+Another short post after the lengthy pieces of recent days. The BBC are developing a fabulous piece of software called ‘iPlayer’. It will let you watch BBC television and radio broadcasts in full over the internet for periods of time after their first airing. I want it now.
+
+However, it appears that Microsoft have lobbied in on the game and there's a very real risk that iPlayer could be delivered as a Microsoft-only solution. Now whether this means <em>Windows-only</em> is not entirely clear, but either way it means DRM. Lots and lots of sticky crappy DRM. For stupid commercial entities to push this ineffective restraint on legal patrons is perhaps inevitable, but since we all pay for the BBC regardless of operating system and media lifestyle choices, the idea of such a high profile service being restricted so artificially is abhorrent.
+
+There are two big means of response that I'd urge you to consider completing.
+
+The first is the BBC Trust's <a href="http://www.bbc.co.uk/bbctrust/consult/open_consultations/ondemand_services.html">Open Consultation on On-demand Services</a>. A 10-point questionnaire that doesn't take too long to complete. Question 5 is the big one: “How important is it that the proposed seven-day catch-up service over the internet is available to consumers who are not using Microsoft software?”.
+
+Second is rather simpler. You can add your name to a new <a href="http://petitions.pm.gov.uk/iplayer/">petition at 10 Downing Street</a>. I'm not sure I'd ordinarily be trying to encourage <em>more</em> government intervention in the BBC, given the recent trend of budget slashing. Ultimately though, a cause is a cause. Please join it.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-56180">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/ecf878f2ef4c0d8860758a5c7712864c.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://radeo.net">Darryl Pomicter</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-56180">
+        <time class="published" datetime="2007-03-02T04:45:19+00:00">02 Mar 2007, 04:45</time>
+      </a>
+      <div class="entry-content"><p>For all the <span class="caps">BBC</span> radio offerings easily—including their Radio Player, News Player, Sport Player, Weather Player, Podcasts, and World Service including foreign languages (significantly more then the <span class="caps">BBC</span> intends with their new iPlayer)—try radeo.net.  For a demo of advanced version, including Playlists and set only with <span class="caps">BBC</span> streams, Login as Listener: MyBBC, with no password required).  PC and Mac; IE, Firefox, and Safari; Real Player, Windows Media Player, and Quicktime.</p>
+<p>The Radeo Internet Player                                                               <br />
+More than 10,000 Stations, 20,000 Shows, and 500,000 Episodes—<br />
+Broadcasts, Webcasts, and Podcasts—Audio and Video.<br />
+Wherever You Are, Wherever They Are, and Whatever They Are.<br />
+Easy to Play Your Favorites, Find More, and Share Them.<br />
+www.radeo.net</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-56543">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/fc46309f7e1baea680dd7eb96f99714c.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://onehandshake.blogspot.com">trevor attridge</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-56543">
+        <time class="published" datetime="2007-03-07T21:20:35+00:00">07 Mar 2007, 21:20</time>
+      </a>
+      <div class="entry-content"><p>The <span class="caps">BBC</span> is not a software development / technical solutions shop – it provides content and is bloody good at it.</p>
+<p>Ashley Highfield, <span class="caps">BBC</span> Director of New Media &amp; Technology is quoted as saying in a recent <span class="caps">BBC</span> press release &quot;iMP could just be the iTunes for the broadcast industry –“ so Ashley, why not just use iTunes?</p>
+<p>Combine this with Microsoft’s roadmap for Longhorn ( Vista as it was known then ) touting additional enhancements to the media space surly the Beeb could have spent our money and it’s resources in working on a solution in partnership ( after all great things happen when we work together right ? ) which fulfilled it’s needs for protecting content and also allowed access for more than a select few.</p>
+<p>By taking the responsibility of developing the iplayer to deliver content to the UK population in a secure manner it is undertaking a massive responsibility – it is like the <span class="caps">BBC</span> deciding to adopt and actually build Blue Ray devices ( the new high definition <span class="caps">DVD</span> format ) without considering <span class="caps">HDDVD</span> ( a competing format ).</p>
+<p>http://onehandshake.blogspot.com/2007/02/bbcs-interactive-media-player-imp.html</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-57098">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/f272bedafac28d932ae929bc7ac004fe.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.vecosys.com">Sam Sethi</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-57098">
+        <time class="published" datetime="2007-03-18T11:45:21+00:00">18 Mar 2007, 11:45</time>
+      </a>
+      <div class="entry-content"><p>Fact: Microsoft built the iplayer (imp) for the <span class="caps">BBC</span>.  It was used to demo cool Vista technology at last years Mix06.  Microsoft stupidly forgot to get any legal rights to the code and so it is now the intellectual property of the <span class="caps">BBC</span>.</p>
+<p>This is why it has only Microsoft&#8217;s <span class="caps">DRM</span>.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-61709">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/2e87ae5773586f23109a3a5956f79bb1.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Timbo.</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-61709">
+        <time class="published" datetime="2007-05-11T11:02:59+00:00">11 May 2007, 11:02</time>
+      </a>
+      <div class="entry-content"><p>I&#8217;ve heard that <span class="caps">BBC</span> will be providing cross-platform support but I don&#8217;t think any amount of petitioning will get the <span class="caps">BBC</span> to remove <span class="caps">DRM</span>.</p>
+<p>The fact is that the <span class="caps">BBC</span> buys programs for broadcast like any other TV company. In order to secure permission from other content providers to even start on this project they had to agree to <span class="caps">DRM</span>. Protection hasn&#8217;t been lifted from DVDs and computer games so the hope that protection can be lifted is vain. What we should be seeking is assurances that any spyware or rootkit like aspects of <span class="caps">DRM</span> be eliminated where possible. <span class="caps">DRM</span> is an unfortunate part of modern life, asking for it to be removed would meet with the same levels of success as convincing Simon Cowell to adopt a taste in real music.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

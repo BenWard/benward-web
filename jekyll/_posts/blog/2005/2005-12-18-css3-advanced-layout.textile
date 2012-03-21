@@ -1,0 +1,163 @@
+---
+layout: blog
+category: blog
+title: "CSS3 Advanced Layout"
+date: "2005-12-18T20:16:58-01:00"
+updated: "2005-12-18T23:09:17-01:00"
+summary: "Can you say \"Grids\"?"
+tags: ["all", "css", "css3", "layout", "advanced-layout", "w3c", "hellyeah"]
+atomid: http://ben-ward.co.uk/?p=290
+---
+<img class="splash" alt="" src="/media/splashes/grid.splash.png" /> Can you say "Grids"?
+
+Please don't take this the wrong way but CSS �layout� as we know it today� well frankly it sucks a bit. I mean, consider the grief we go through to get multi-column designs working? Hacking around with floats? Changing the order of our content to make it work just right?
+
+It's more powerful than misusing <code><table /></code> once was (and obviously cross-device compatible, accessible and so forth), but you could have it so much better.
+
+Introducing the <a href="http://www.w3.org/TR/2005/WD-css3-layout-20051215/">CSS3 Advanced Layout Module</a>. It's a working draft and it's *very* open about the fact that there are a number of ways to make it all work. But it exists, that's the main thing.
+
+Most interesting in the new module is what's been called <a href="http://www.w3.org/TR/2005/WD-css3-layout-20051215/#template-based">Template Based Positioning</a>, which allows you to define grids. Grids have a slots, and you can place any element on the page into a slot. That's content order independence covered, by the way.
+
+Here's an example quoted from the draft (please note that I've reformatted the CSS for legibility):
+
+<blockquote cite="http://www.w3.org/TR/2005/WD-css3-layout-20051215/#template-based">Here is how the �<a href="http://www.csszengarden.com/?cssfile=/026/026.css&page=0">zunflower</a>� design of the Zen Garden could be done:
+
+<pre><code>#container { display: "abc" }
+
+#intro { 
+  position: a; 
+  margin-right: -2em; 
+  box-shadow: 0.5em 0.5em 0.5em;
+}
+
+#supportingText { 
+  position: b; 
+  box-shadow: 0.5em 0.5em 0.5em 
+}
+
+#linkList { position: c }</code></pre>
+</blockquote>
+
+If you read down the Templates draft you'll notice that the syntax gets rather more advanced that than too, but this preferred syntax isn't really too far removed from drawing the layout with �ASCII art�. Sounds a bit hacky, perhaps even silly but I think it's a good move; it'll be very easy to explain and grasp. Much similar than a reworked implementation of the <code>&lt;table>&lt;tr>&lt;td colspan="12"></code> syntax, certainly.
+
+Another couple of examples, this time mine. This means they might be wrong, but I think I understand it right. You're very welcome to <a href="/wordpress/wp-content/themes/migration/style.css" title="Ben-Ward.co.uk Migration CSS">view the CSS</a> of this page to see how the layout is done at the moment. In theory, layout could be reduced to this:
+
+<pre><code>body { 
+  display: "aa"
+           "bc";
+           "dd";
+}
+
+#header { position: a; }
+#content { position: b; }
+#sidebar { position: c; }
+#footer { position: d; }</code></pre>
+
+I hope you can see what I mean when I say that this might just be crazy enough to work. Grids can also be defined for other elements, not just the body (or html). For example, rather than floating the accompanying graphic that appears with my posts, I could (if I wanted) do this:
+
+<pre><code>#content .post { 
+  display: "@a"
+           "@@";
+}
+
+#content .post img.splash {
+  position: a;
+}</code></pre>
+
+�@� represents any content that isn't otherwise positioned in a named slot (so the image is placed in �a� and everything else in a post flows through the �@�s). The syntax is then further extended to specify widths on these slots (my examples above aren't complete for rebuilding this site as widths would be divided equally). 
+
+The benefit in this example over using a float is zero, unless I wanted to include the splash image somewhere else in my code than at the very top. But it has rather fancier applications that can be covered another day.
+
+This is a *huge, huge, huge* thing for CSS. Having a simpler and less quirk-prone layout model will make all of our lives easier, and should make CSS easier to learn as well. Once it's implemented (yes, I know�). 
+
+There's lots of work to be done, and obviously we're a way off seeing an implementation (but if there's demand I guess we may see something testable in medium-term Gecko or WebKit builds). Comments are welcome to the <a href="http://lists.w3.org/Archives/Public/www-style/latest">CSS public mailing list</a> as usual.
+
+(The accompanying image is <a href="http://www.flickr.com/photos/omnia_mutantur/60958970/">India</a> by <a href="http://flickr.com/photos/omnia_mutantur/">Omnia Mutantur</a> on <a href="http://flickr.com">Flickr</a>. Used with permission.)
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-3174">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/44d14b45fdae2d299e0053e7467325c3.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://nonecurrently">Tabrizi</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-3174">
+        <time class="published" datetime="2006-05-31T12:25:39+00:00">31 May 2006, 12:25</time>
+      </a>
+      <div class="entry-content"><p>This gives me some faith in the whole <span class="caps">CSS</span> layout thing but how long will it take to be implepented&#8230; 10 years?</p>
+<p>Im quite angry really that browers and <span class="caps">CSS</span> Layout are so far apart. Why? Why? Why?</p>
+<p>You spend ages making a complex Nested <span class="caps">DIV</span> layout only to find out that it looks terrible in IE and fine in Firefox. You try to sort it out only to find hacks to solve the probem. I dont want to use hacks for professional client websites!!! Isnt the term hacking something dodgy? hello?</p>
+<p>This whole revolution in design for web seems stuppid when things dont work and require hacking to solve. I might just stick to validating table designs and flash based sites. <span class="caps">CSS</span> seems a little to big for its boots and needs to grow up!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-53794">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/9cb59d51ad07a049634aec7d32eaaab6.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Daaaave</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-53794">
+        <time class="published" datetime="2006-12-19T06:40:42+00:00">19 Dec 2006, 06:40</time>
+      </a>
+      <div class="entry-content"><p>I&#8217;ve been told many times that <span class="caps">CSS</span> is the future. Well I agree, it&#8217;s the future, not now. Positioning in <span class="caps">CSS</span> sucks and I have yet to find a fluid <span class="caps">CSS</span> layout that doesn&#8217;t break one way or another.</p>
+<p>If <span class="caps">CSS</span> positioning had been thought out properly much earlier then we probably wouldn&#8217;t be in the mess we are in today.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-53798">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-53798">
+        <time class="published" datetime="2006-12-19T10:34:06+00:00">19 Dec 2006, 10:34</time>
+      </a>
+      <div class="entry-content"><p>I&#8217;m not sure I&#8217;d be quite as harsh as that. CSS3 Advanced Layout Module most certainly <em>is</em> the future and it most certainly is much more robust than what we have now. But <em><span class="caps">CSS</span> is now</em> too; that&#8217;s the just the truth of the matter.</p>
+<p><span class="caps">CSS</span> positioning in 2006 is harder than it could be but many thousands of authors have got it sussed; there&#8217;s no going back. It&#8217;s unfortunate that <span class="caps">CSS</span> isn&#8217;t quite pick-up-and-play, but this is also a tool of a skilled profession and therefore it doesn&#8217;t seem unreasonable to me that it requires some commitment to gain proficiency.</p>
+<p>I&#8217;m not convinced that we&#8217;re ‘in a mess’ at all.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-55265">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/d97f4e11fd91a99a033b6ed6a71f71bd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Vogateer</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-55265">
+        <time class="published" datetime="2007-02-05T18:07:43+00:00">05 Feb 2007, 18:07</time>
+      </a>
+      <div class="entry-content"><p>It drives me crazy when someone blames <span class="caps">CSS</span> for Internet Explorer&#8217;s horrible implementation of it.</p>
+<p>I just finished changing a forum&#8217;s table layout to <span class="caps">CSS</span>, and I personally can&#8217;t wait for the day that tables as presentational layout is a horrible, distant memory.</p>
+<p>If this advanced layout module takes hold, I&#8217;ll start using it immediately, since on my forum people can pick how they want things displayed. If you use a broken browser like Internet Explorer, then you simply can&#8217;t take advantage of the goodies.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-58484">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/28f400e6ffebdc9aa707e775a416abb8.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Luziphir</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-58484">
+        <time class="published" datetime="2007-04-12T22:04:15+00:00">12 Apr 2007, 22:04</time>
+      </a>
+      <div class="entry-content"><p>I blame <span class="caps">CSS</span> for Internet Explorer&#8217;s, Opera&#8217;s, Firefox&#8217;s, Konqueror&#8217;s, and Safari&#8217;s horrible implementation of it. <span class="caps">CSS</span> for positioning anything but the most basic layouts (and even for some of those, it&#8217;s awful) is terrible, illogical, and a waste of time and effort. <span class="caps">CSS</span> is the reason that more and more web sites are fixed width these days, except for very simple layouts, fluid width simply isn&#8217;t possible, or is far too convoluted for anyone to consider working with (and this is in compliant browsers). Even with compliant browsers, one usually has to use so many strange &#8220;hacks&#8221; and nested divs that the code is neither &#8220;correct&#8221; nor does it separate layout from content (which is incredibly stupid and irrelevant anyway since any site with a decent amount of content will be using a database or server side includes at the least unless they are completely incompetent).</p>
+<p>Finally, all of the above is irrelevant. You can bitch and moan about how it&#8217;s Internet Explorer&#8217;s fault (which isn&#8217;t even true) as much as you want.</p>
+<p>In the end, this is all supposed to be about doing a professional job, is it not? Exactly how professional is it to ignore 90% of your audience?</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-58490">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-58490">
+        <time class="published" datetime="2007-04-12T23:25:41+00:00">12 Apr 2007, 23:25</time>
+      </a>
+      <div class="entry-content"><p>To be honest, one of the strongest parts of this Advanced Layout proposition is that because the definition of the layout is defined using a single feature of <span class="caps">CSS</span> — rather than the current situation of combining margins/floats/positioning together — it will degrade far far more gracefully into a single column layout. Of course we&#8217;ll still be doing it the current way for a while yet, but when the day comes switching to using CSS3-AL will not break the content in unsupporting browsers.</p>
+<p>That&#8217;s a huge plus over current <span class="caps">CSS</span> layout in legacy browsers like IE5 (PC and Mac), Netscape 4 and so on, which are now sacrificed by illegibility as their partial support for the cocktail of properties used in layout produces incomplete and unpredictable results. CSS3-AL won&#8217;t suffer from that. The layout will disappear in old browsers, but the the colour, graphics and typography will remain. It&#8217;s a far better implementation for how the web is supposed to work.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>
+
+<notextile><div class="pingbacks hfeed" id="pingbacks">
+  <h2>Pingbacks</h2>
+  <ul>
+    <li class="hentry" id="pingback-706">
+      <a rel="bookmark" class="entry-title" href="http://www.okdakor.com/?p=27">Notes pour (beaucoup) plus tard &raquo; Mise en page</a>
+    </li>
+  </ul>
+</div></notextile>

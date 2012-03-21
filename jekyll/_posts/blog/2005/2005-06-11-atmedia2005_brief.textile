@@ -1,0 +1,76 @@
+---
+layout: blog
+category: blog
+title: "@media - in (very) brief"
+date: "2005-06-11T13:52:56+00:00"
+tags: ["all", "technology", "software", "web_standards"]
+atomid: tag:benward.me,2005-06-11:/blog/atmedia2005_brief
+---
+I rather luckily got a place at the @media conference in cloudy London yesterday, and had a fantastic time learning more web design from some supremely talented and entertaining speakers.
+
+I will do a full write up, but I need to finish a university assignment first. This post serves as a place to stick comments if I met you and you think you knew me from somewhere (<a href="http://adactio.com">Jeremy Keith</a>, <em>where</em> do you know my name from? It's slightly terrifying).
+
+Anyway, to keep a couple of "yes, of course I'll blog that" promises before I have time to do something more thorough: Jeremy and <a href="http://stuffandnonsense.co.uk">Andy Clarke</a>'s presentations were the two which got through to me the most. The former for 'I kinda knew I could do that but never saw how' JavaScript enlightenment, and the latter for his presentation that I've renamed: 'A slap in face for everyone who needs to get a grip on the balance between standards-adherence and great design'. Andy's original title was better, mind.
+
+Also, a huge thank you to Jon Hicks for living up to his friendly reputation and introducing me to all these great people.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-284">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/251689727ca3dbf1a4261f8a48b0b179.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.thewatchmakerproject.com/">Matthew Pennell</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-284">
+        <time class="published" datetime="2005-06-11T14:46:10+00:00">11 Jun 2005, 14:46</time>
+      </a>
+      <div class="entry-content"><p>That wasn&#8217;t you I was arguing about chavs and racism with in the pub, was it?</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-285">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/3218e487b7fd7b7b0d6f02bef3227e39.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Steve Marshall</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-285">
+        <time class="published" datetime="2005-06-11T14:51:18+00:00">11 Jun 2005, 14:51</time>
+      </a>
+      <div class="entry-content"><blockquote>I rather luckily got a place at the @media conference[&#8230;]</blockquote>
+<p>Forget to mention someone, did we Mr. Ward?</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-286">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/228745652727800807586fa16c4b29f5.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://punkchip.com">Emma Sax</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-286">
+        <time class="published" datetime="2005-06-13T09:12:43+00:00">13 Jun 2005, 09:12</time>
+      </a>
+      <div class="entry-content"><p>Good talking to you at the wind-down on Friday evening, thanks for the introduction to Jon Hicks!</p>
+<p>See you at @media2006 &#8211; start saving those pennies.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-287">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-287">
+        <time class="published" datetime="2005-06-13T23:09:49+00:00">13 Jun 2005, 23:09</time>
+      </a>
+      <div class="entry-content"><p>@ Matthew: Nope, not me arguing about Chavs and racism I&#8217;m afraid. I think I spent most of my time there with Jon and Emmma and then headed off at about 7. Innocent!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-288">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/5ad82c5ba0264363974af89deb743c20.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://adactio.com/">Jeremy Keith</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-288">
+        <time class="published" datetime="2005-06-15T00:37:27+00:00">15 Jun 2005, 00:37</time>
+      </a>
+      <div class="entry-content"><p>You know, I&#8217;m pretty sure I <em>have</em> been here before. I must have followed a link from a comment you made somewhere.</p>
+<p>Anyway, it was great to meet you even though it was far too brief.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

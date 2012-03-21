@@ -1,0 +1,58 @@
+---
+layout: blog
+category: blog
+title: "Anti‑Link–Spam plug‑in for Wordpress"
+date: "2006-12-09T22:18:35+00:00"
+updated: "2008-02-28T16:34:16+00:00"
+summary: "Anti‑Link–Spam plug‑in for Wordpress is a plug‑in to reduce my comment moderation burden."
+tags: ["all", "technology", "wordpress", "comments", "spam", "plugin", "web"]
+atomid: http://ben-ward.co.uk/journal/anti%e2%80%91link%e2%80%93spam-plug%e2%80%91in-for-wordpress/
+---
+I get a lot of comment spam. Trackbacks are now disabled out of frustration, and most of the spam from the website itself gets eaten by Akismet. Not all, though. Wordpress allows comments containing a certain number of links to automatically be redirected into the moderation queue, which is useful at stopping spam going public but over this weekend resulted in dozens of spam messages containing dozens of links needing to be deleted manually.
+
+Anti‑Link–Spam for Wordpress is a very crude plug‑in that blocks all comments containing 5 or more URLs. In fact, it's cruder than that; it will block all comments containing 5 or more instances of the string ‘http://’ — so it'll block mis‑directed BBCode ‘[url=]’ spam as well. I've not added any comment type filters either, so it should also parse trackbacks and pingbacks if you like to leave them enabled.
+
+It's not pretty, there's no configuration screen (you can change the hyperlink count by setting a variable in the code, and edit the HTML of the error message as well), but I'm confident it'll reduce my comment moderation burden.
+
+<a href="/files/bw-linkspam.zip">Download Anti‑Link–Spam 1.0 for Wordpress</a>.
+
+I've also put up an <a href="/plugins/linkspam">Anti‑Link–Spam</a> page, where you can always find the latest version.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-53445">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/059f1b6a3e97ba2bc3727401e33ed26c.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.pete-b.co.uk">Pete B</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-53445">
+        <time class="published" datetime="2006-12-14T00:31:20+00:00">14 Dec 2006, 00:31</time>
+      </a>
+      <div class="entry-content"><p>I find that the <a href="http://akismet.com/">akismet plugin</a> stops virtually all comment spam I receive.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-53481">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-53481">
+        <time class="published" datetime="2006-12-14T13:30:19+00:00">14 Dec 2006, 13:30</time>
+      </a>
+      <div class="entry-content"><p>I have Akismet as well. At time of writing it&#8217;s caught 92,000 spam comments. The reason for writing this plug-in is to reduce the load on Akismet, perhaps making it possible to review its spam queue, rather than having to just junk everything.</p>
+<p>Also, a larger number of comments were getting through Akismet over the weekend that fitted into the ‘20 links spammed together’ category.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-53640">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/1880d20a9fdb49fed9e177b519f14c8b.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Andrew</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-53640">
+        <time class="published" datetime="2006-12-16T17:06:07+00:00">16 Dec 2006, 17:06</time>
+      </a>
+      <div class="entry-content"><p>i get <a href="http://amkdesign.co.uk/weblog/24/" rel="nofollow">no comment spam</a> anymore, but i did have to delete my catch all pop3 account that came with my website package, its was rendered useless because of the amount of spam it got</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

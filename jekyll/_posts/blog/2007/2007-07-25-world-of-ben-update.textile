@@ -1,0 +1,38 @@
+---
+layout: blog
+category: blog
+title: "World of Ben Update"
+date: "2007-07-25T23:12:33+00:00"
+updated: "2007-07-25T23:19:32+00:00"
+tags: ["all", "music", "flickr", "life", "work", "job", "yahoo", "guillemots", "black-rebel-motorcycle-club", "brmc", "somerset-house", "mika", "mogwai", "yahoo-maps", "yahoo-search"]
+atomid: http://ben-ward.co.uk/journal/world-of-ben-update/
+---
+It's been too long and there's too much to write about, so in unhelpful munged-together form, here're the last few months of my life:
+
+* Work at Yahoo! is going _very_ well indeed. It took a little while to settle in, and my tolerance for the Cambridge–London commute is variable at best, but right now I'm having a ball. The team I'm in is gelled, everyone else is fantastic and whilst I'm assigned to a less-glamourous Yahoo! service, I'm having a lot of fun working on it. Yay.
+* The mostly tolerable commute is soon to be a thing of the past as <a href="http://dsingleton.co.uk/">Dave</a> and I _finally_ found a flat in London. We're all paid up and ready to move next week.
+* I spent most of last week attending gigs at Somerset House: Mogwai produced the most amazing noise I've ever heard, Mika was quite entertaining for the time I was there, Black Rebel Motorcycle club really have grown into their Americana persona rather well, making for a far more varied set than you'd have thought. My favourite event was Guillemots, though. Partly because I was there with Hanni and partly because I'd forgotten to listen to their album more than once in the run up to the show. As a result, the whole thing was a very pleasant surprise as they perfectly moved between dynamics and styles of music. They're very very good.
+
+Other than that, I've spent the past few weeks eating Yahoo's dogfood; using our own services in place of those I used to use to see how we compare. Conclusion is pretty positive, in that after forcing myself to use Yahoo! products for a week, I actually prefer them to what I was using before (namely the Google equivalents). I'm undecided about Search; Yahoo's results are different to Googles and I've not been able to suss out if one is really _better_ yet. I think Google is returning more relevant results on technical searches though. Image search was also very impressive, since Flickr is integrated into the results now so photographic results are now outstanding. 
+
+The thing impressed me most though — and this was a genuine surprise — was maps; namely the <a href="http://uk.maps.yahoo.com" rev="vote-for">new UK Maps</a>. Yahoo's maps app kicks you hard in the crotch from the outset by being implemented entirely in Flash. If anything were to make you hate a website more, I'm yet to find it. But since I was forcing myself to use it, I persevered and whilst I still feel that that building UI elements like the search fields in Flash was misguided, the maps interface itself works rather well, with much smoother transitions than any JavaScript equivalent. The main thing that impressed me was the actual map images Yahoo use now. For ages the UK maps consisted of a blob representing London and a wiggly line running from Brighton to Glasgow. Since then the image data has been refreshed twice and the maps of London are now the prettiest I've seen.
+
+I've come out of the experience far more enthusiastic about Yahoo's services than when I went in, and haven't swapped anything back yet either.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-222348">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/f957b790f694c492649bc7de5dc56494.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ch15.com">Karolyn Leanne</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-222348">
+        <time class="published" datetime="2007-10-21T19:11:54+00:00">21 Oct 2007, 19:11</time>
+      </a>
+      <div class="entry-content"><p>they only wanna do you dir. Karolyn Leanne.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

@@ -1,0 +1,73 @@
+---
+layout: blog
+category: blog
+title: "Resolutions"
+date: "2007-01-01T23:29:52+00:00"
+updated: "2007-01-01T23:29:52+00:00"
+summary: "It's the new year, of course."
+tags: ["all", "books", "new-year", "2007", "resolutions", "fitness", "reading"]
+atomid: http://ben-ward.co.uk/journal/resolutions-2007/
+---
+It's the new year. And there are things in my life that are really quite different to new years of the past. This is a new year that I feel genuinely happy and positive about, rather than indifferent and agnostic which is how I normally greet the increment of <code>YYYY</code>.
+
+This year I have two resolutions.
+
+<strong>Every day I will read from a book. Even if just a little</strong>, I will endeavour to make reading a regular part of my days. 
+
+For far too many years I haven't really read many books at all. Next to me as I write this are three that I started and didn't finish. When I read I enjoy it, but for some reason I just <em>don't</em> when left to my own devices. This year I want that to change. Without books I'm feeling unfulfilled. I'm feeling left out of something that makes other people — notably <a href="http://hanniross.com" rel="friend met sweetheart muse">Hanni</a> — very happy indeed.
+
+<strong>Every morning I will do sit-ups</strong>. Now, there are certain individuals in the world who — if they read this at all — will — if they were drinking at the time — possibly have spat all over their computer with laughter at reading this. It's true; I vow to regularly do sit-ups rather often (four or five times last year, at least). I manage it once, twice — perhaps for a week — and then stop. Maybe I'll fail again but at least it'll do me some post-Christmas good. Also, this time I've ordered myself a fitness mat on which to do them.
+
+Happy new year.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-54454">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/abc50d59ef1ac8472737483abc7d870d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Adam</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-54454">
+        <time class="published" datetime="2007-01-02T12:19:54+00:00">02 Jan 2007, 12:19</time>
+      </a>
+      <div class="entry-content"><p>I don&#8217;t think there&#8217;s anything in there that I don&#8217;t identify with on one level or another! I too want to read more often and get rid of some of the excess blubber burrently residing about my person.</p>
+<p>I&#8217;m sure that, give a week or two, I&#8217;ll still be reading most days and the sit-ups will be long-forgotten, but then 1 out of 2 aint bad!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-54463">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/be6a93a6e2e17e9566377dc357524e0f.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.benedictoneill.com/">Ben O'Neill</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-54463">
+        <time class="published" datetime="2007-01-03T00:01:23+00:00">03 Jan 2007, 00:01</time>
+      </a>
+      <div class="entry-content"><p>I think the book thing is true for quite a lot of people. I really enjoy most of the books I read, but making myself start a book is often very hard.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-54587">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">IBBoard</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-54587">
+        <time class="published" datetime="2007-01-06T21:54:01+00:00">06 Jan 2007, 21:54</time>
+      </a>
+      <div class="entry-content"><p>I&#8217;m the other way round &#8211; I&#8217;ll read fairly often (normally a little bit at least a few times a week) but I end up with a couple of books on the go at the same time :D</p>
+<p>At the moment I&#8217;m reading Science of Discworld 2, before which I read Science of Discworld 3 (we got hold of it first for some reason :D). It&#8217;s not quite a normal book but during Science of Discworld 2 I&#8217;ve read the QI book of General Ignorance. Even better, I started Science of Discworld 3 (and possibly even Pratchett&#8217;s Wintersmith before that) while I&#8217;m half way through the &#8220;House Harkonnen&#8221; Dune book. I will get round to reading it to the end at some point (maybe after Science of Discworld 2 and Why Penguin&#8217;s Feet Don&#8217;t Freeze) but I&#8217;m sure it&#8217;s not right to have so many books on the go at once!</p>
+<p>Good luck with the resolutions ;) I never bother making any because I know they just won&#8217;t stay.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-54622">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/7d6b68836d9e34c75c71a93c0883d989.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.alphanor.org">TdC</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-54622">
+        <time class="published" datetime="2007-01-08T21:30:03+00:00">08 Jan 2007, 21:30</time>
+      </a>
+      <div class="entry-content"><p>sit-ups? yeah riiight pinnoccio :p</p>
+<p>(I need help, I do not get my sit-ups in either :( )</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

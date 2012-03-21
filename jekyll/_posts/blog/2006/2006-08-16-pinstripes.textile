@@ -1,0 +1,22 @@
+---
+layout: blog
+category: blog
+title: "Pinstripes"
+date: "2006-08-16T21:10:58+00:00"
+updated: "2006-08-16T22:06:24+00:00"
+tags: ["technology", "design", "osx", "mac", "ui", "leopard", "tiger", "pinstripes", "trends"]
+atomid: http://ben-ward.co.uk/journal/pinstripes/
+---
+Once regarded as the height of classy UI, it does seem that pinstripes are falling out of fashion and favour faster than a lonely Essex girl.
+
+Indeed, over the life of Mac OSX and since the replacement of the pinstriped iMacs many years ago, the decorative pinstripe backgrounds on toolbars and menus have slowly and subtly faded. In the case of the menu bar, replaced entirely with a snappy looking glossed over gradient.
+
+Since looking forward to upcoming OSX releases is the most international of all sports it's been noticeable that a number of people (non-specific) are crying out for the outright death of the pinstripes. I'm not one of them.
+
+<img src="/res/posts/TigerPinstripes.png" alt=""/>
+
+OK, I will say outright that the <a href="http://en.wikipedia.org/wiki/Image:Mac_OS_X_10.2_Jaguar_screenshot.jpg">dominating pinstripes from, say, Jaguar</a> do now look rather ghastly and have aged horribly but in Tiger things are <em>subtle</em> and I honestly rather like the current balance (certainly with the gloss menu bar to tone things down further).
+
+But what happens when you take the stripes away? You're left with grey. Blocks of grey. In fact, if you install <a href="http://gui.interacto.net/">Uno</a> you can see for yourself. The loss of the detail makes menus in particular stand out as being flat and dull and is thoroughly inadequet. As indifferent as I am towards the Brushed Metal window style, the bland menus and toolbar backgrounds turn me off Uno right away.
+
+Of course, Apple surely know this – they're not exactly dunces when it comes to design (although they are persisting with those ghastly grey buttons from Mail.app and introducing them to at least Preview.app in Leopard too). But if you take the current, subtle pinstripes away, what do you swap them for? A <em>gradient</em>? That won't get tired quick… not at all.

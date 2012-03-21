@@ -1,0 +1,46 @@
+---
+layout: blog
+category: blog
+title: "Twitgit 0.8"
+date: "2008-01-17T00:36:58+00:00"
+updated: "2008-01-17T10:25:23+00:00"
+tags: ["technology", "software", "osx", "mac", "dashboard", "widget", "twitter", "twitgit", "release"]
+atomid: http://ben-ward.co.uk/journal/twitgit08/
+---
+Once upon a time I wrote a dashboard widget called <a href="/widgets/twitgit">Twitgit</a>. It lets you interact with <a href="http://twitter.com">Twitter</a> from the Mac OSX Dashboard.
+
+<img src="/res/posts/twitgit/Twitgit08.png" alt="" title="Twitgit 0.8 for Mac OSX"/>
+
+In the face of stiff competition from the <a href="http://iconfactory.com">Icon Factory</a>'s magnificent <a href="http://iconfactory.com/software/twitterrific">Twitterific</a> application, Twitgit has been rather neglected for over a year now. It's hard to motivate yourself to write software that you don't actually use.
+
+One year and ten days since Twitgit 0.7 (it was released January 7th 2007), I've updated Twitgit again. A very kind gentleman named <a rev="vote-for" href="http://does-not-exist.org/">Thomas Roessler</a> emailed me in December, having inspected my inexperienced and shoddy source code. He rightly pointed out that using the JavaScript <code>eval()</code> function to parse JSON was a really bad idea; especially in a widget running with local system privileges. I should, of course, have been using a proper JSON parser. Twitgit 0.8 is fixed and uses the JavaScript JSON parser from <a href="http://json.org">JSON.org</a> and makes no more calls to <code>eval()</code>. Since I was writing an update, I've tidied up the functionality and added some new features too. Of course, because of this security fix (albeit conceptual and unexploited), Twitgit 0.8 is a vital update for anyone using it.
+
+<strong><a href="/files/widgets/Twitgit08.zip">Download Twitgit 0.8</a></strong>
+
+Since I was working on the code again — with some affection, I might add — I've added some other fixes and new features, too.
+
+* Restored relative ‘5 minutes ago…’ timestamps as they were removed from the Twitter API.
+* Added user icons to tweet display
+* Added automatic creation of links to users referenced with ‘@username’
+* Swapped the tweet input for a slimline text input box, and the chunky ‘Twitter’ button is gone for something more discrete, too.
+* Changed the tweet length limit to 140 characters, as per Twitter’s now well established convention
+
+So, for those of you who prefer Twitter in Dashboard than on the desktop, I hope Twitgit remains useful to you. Having been working with the code again, I have a few more fixes planned for the near future. I hope they'll materialise.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-224897">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/43ded1e0601d882bdfedb072ad30c881.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://markolson.ca">Mark Olson</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-224897">
+        <time class="published" datetime="2008-01-19T08:47:13+00:00">19 Jan 2008, 08:47</time>
+      </a>
+      <div class="entry-content"><p>I wanted to say thank you for twitgit &#8230; it is exactly what I was looking for.  I have tried two other twitter widgets, but they did not work so well.  They would publish to Twitter, but you could not see that it did from the dashboard.  Thanks for all your hard work &#8230; and I hope that you continue updating this amazing widget.   &#8211; a mac user for less than a week.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

@@ -1,0 +1,59 @@
+---
+layout: blog
+category: blog
+title: "Loose Ends..."
+date: "2004-09-20T19:06:52+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2004-09-20:/blog/loose_ends
+---
+It has been, frankly, a while since I last wrote anything here. There are a huge number of things I could write about, since I've been on holiday, starting working  on a new programming project, figured out some clever little ideas for my forthcoming blog redesign and generally had  a decent amount go on in my life. But that's a lot of entries. So here's one big one.
+
+<b>I've been off work for 2 weeks</b> to go on holiday. Went with Jo and her family to sail around the Greek islands for 7 days. Very nice it was too. It took 2 days to get over feeling sea-sick (I'm <strong>not</strong> a sailor) and I really dislike landing in aeroplanes (taking off is fine, flying itself is dull but indifferent, landing was created by Satan to discourage us from evolving wings).
+Anyway, had a nice time and got nicely tanned. Took the opportunity to read two Robert Rankin novels too ("The Hollow Chocolate Bunnies of the Apocalypse" and "The Witches of Chiswick"). Very strange, bizarre and funny. He's called 'a master of far-fetched fiction', which sounds fair. <i>"Witches..."</i> is also the book which inspired much of the now defunct <acronym title="Gaming Service Provider">GSP</acronym> Barrysworld that I've been a hanger-on with since I first went online so it was even more surreal to discover the Rankin references that Barrysworld contained as I went along (Barry the Time Sprout for one, plus smaller references that inspired custom-titles on their message boards).
+
+<b>The software I speak of</b> will be called 'iToast' (therefore I am*) and will be a standalone app using the iTunes COM scripting object. The 'Toaster' is a feature I miss dearly from WinAMP so I've decided to write one for iTunes and, ideally, add some iTunes niceties to it while I'm at it. With a bit of luck it'll actually get finished and be the first piece of software I ever release. I imagine Stevie BM can give me advice on where to plug it...
+
+*Sorry.
+
+<b>Resin's website</b> is coming along. Josh has supposedly written all the content while I was away, so that should hopefully go live by the end of this week. Domain name and 'stuff' will probably follow after when I get some money out him.
+
+<b>Oh,</b> I also ordered myself a 20GB 4G iPod. It'll have 'All the chicken voices in my head' engraved on the back as a reference to my all time favourite song and album.
+
+<b>Firefox</b> 0.10 (or 1.0 <i>Preview Release</i>) came out while I was away too. It's lovely. Not many bugs left now. They also achieved their current marketing goal of 1 million downloads in 10 days in only 4 days. While ultimately not a huge number (consider the number of computers in the world) it's still a noteworthy achievement for a piece of software that isn't finished yet! The final version should be very nice indeed.
+
+
+
+
+<i>"The dust and the screaming, The yuppies networking"</i>
+
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-194">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/fb7d81b172292b6034f9c1747d5b11e0.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.fatbusinessman.com">Fatty</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-194">
+        <time class="published" datetime="2004-09-21T00:21:01+00:00">21 Sep 2004, 00:21</time>
+      </a>
+      <div class="entry-content"><blockquote>I imagine Stevie BM can give me advice on where to plug it</blockquote>
+<p>Hell, I can tell you where you can plug it&#8230; ;-)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-195">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-195">
+        <time class="published" datetime="2004-09-24T13:14:20+00:00">24 Sep 2004, 13:14</time>
+      </a>
+      <div class="entry-content"><p>Indeed :D</p>
+<p>I mentioned Stevie purely because of his Aqua-Soft connection, nothing personal Fatteh :D</p>
+<p>&#8230; Need to finish ResinTheBand first though. Very nearly done, just need to get a piece of javascript working and it&#8217;ll be all fine :)</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

@@ -1,0 +1,83 @@
+---
+layout: blog
+category: blog
+title: "Friendly URLs"
+date: "2005-01-05T19:25:34+00:00"
+tags: ["technology"]
+atomid: tag:benward.me,2005-01-05:/blog/friendly_urls
+---
+Since I'm not adverse to <a href="http://blog.fatbusinessman.com/archives/2004/09/25/deep-voodoo" title="FatBusinessman - Deep Voodoo">regular expressions</a>, I've tidied up the addresses for my blog posts.
+
+Now, rather than an address that looks like "http://blog.ben-ward.co.uk/index.php/2004/01/05/", it looks like "<em>http://blog.ben-ward.co.uk/<strong>archive</strong>/2004/01/05/</em>". Small change, but important because "index.php" means nothing, but "archives" (a naming convention that I've stolen from the rather popular <a href="http://www.wordpress.org" title="Wordpress">Wordpress</a>) does. The URL now bears some relation to accessing one of my historical blog posts.
+
+With that small success in the bag, I've also smoothed out access to my XML feeds. The four XML syndication formats that b2Evolution provides (RSS, RSS 2, RDF and ATOM) can now be accessed via "http://blog.ben-ward.co.uk/read/rss", "/read/rss2" for RSS version 2.0, "/read/rdf" for RDF format and "/read/atom" for an ATOM 0.3 feed.
+<!--more-->
+<h4>Techie "HOWTO" bit...</h4>
+Ultimately, this is user-friendly polish of the highest order and takes some of the pain out of the "one file to rule them all" nature of PHP programming.
+You can achieve the same results (in b2Evolution) using the following Apache mod_rewrite rules. There's still a lot of investigation that I need to do, not least because b2Evo does some URL rewriting of its own separately. That seems to be preventing me getting friendly-urls for my sub-blogs (my bookmarks list, for example).
+
+<dl>
+<dt>"index.php" to "archive"</dt>
+<dd><pre><code># Add this to your .htaccess file
+# URL Rewriting for user-friendliness
+RewriteEngine On
+RewriteBase /
+
+# Use "archive" rather than "index.php"
+RewriteRule ^/?archive(\.php)?(.*)$ /index.php$2</code></pre>
+<p>Once this rule is in place, test it (go to "http://www.yourblog.com/archive" and see if it goes to your homepage).</p>
+<p>To get b2Evo to use this in the URLs that it generates, go into the preferences for your main Blog and set its 'Stub Name' to "archive" and choose the 'Preferred access type' as 'Other blog through stub file'. Presto.</p>
+<p>The <code>(\.php)</code> part of the above rule is a hack that prevents b2Evo breaking in places where it generates links with a .php extension (so generates "archive.php"). It's not wonderfully pretty but it's easier than modifying an unlimited quantity of b2Evolution's source code.</p>
+</dd>
+<dt>XML Feed access</dt>
+<dd><p>These ones don't need any changes afterwards (note that they're hard coded to my main blog (the number 2). I've made the choice that I'll have to set up more rules for any other blogs that I want feeds for.</p>
+<pre><code># XML Syndication Rewrites
+RewriteRule ^/?xml/rss/?$ /xmlsrv/rss.php\?blog=2
+RewriteRule ^/?xml/rss2/?$ /xmlsrv/rss2.php\?blog=2
+RewriteRule ^/?xml/atom/?$ /xmlsrv/atom.php\?blog=2
+RewriteRule ^/?xml/rdf/?$ /xmlsrv/rdf.php\?blog=2
+
+RewriteRule ^/?read/rss/?$ /xmlsrv/rss.php\?blog=2
+RewriteRule ^/?read/rss2/?$ /xmlsrv/rss2.php\?blog=2
+RewriteRule ^/?read/atom/?$ /xmlsrv/atom.php\?blog=2
+RewriteRule ^/?read/rdf/?$ /xmlsrv/rdf.php\?blog=2</code></pre>
+
+<p>As well as "/read/", my feeds are also accessible through "/xml/", for nerdier visitors.</p>
+
+</dd>
+</dl>
+
+Expect an update if/when I figure out how to get the bookmarks blog link working.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-227">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/8e0293544b13499460369217e2a7febd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://charlvn.blogspot.com">Charl van Niekerk</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227">
+        <time class="published" datetime="2005-01-06T11:22:15+00:00">06 Jan 2005, 11:22</time>
+      </a>
+      <div class="entry-content"><p><abbr title="Well Done">WD</abbr>!</p>
+<p>I have one suggestion (although maybe I&#8217;m just going overboard now), but what about getting nice <abbr title="Uniform Resource Identifier"><span class="caps">URI</span></abbr>s for your category links? Like <code>categories/general</code> instead of <code>archive?cat=19</code>? That would be really cool!</p>
+<p>Anyway, keep up the good work. :-)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-228">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-228">
+        <time class="published" datetime="2005-01-06T13:09:29+00:00">06 Jan 2005, 13:09</time>
+      </a>
+      <div class="entry-content"><p>I think that&#8217;s an excellent idea. I must admit, I don&#8217;t use categories an awful lot &#8211; I&#8217;ve only got 4 and half the time I forget to select the right one when I post.</p>
+<p>I do think it would be nice to have though so I&#8217;ll have a look into writing some <span class="caps">PHP</span> (something like a <code>getCategoryByName</code> function). With that, it will require only a single mod_rewrite rule to implement (rather than one rule for each category which is more laborious in the long term).</p>
+<p>I think the eventual ideal would have to wrap up as much of the site in mod_rewrite as possible. I like the idea of having &#8220;/search/Friendly URLs&#8221; actually triggering a search for &#8220;Friendly URLs&#8221;, for example.</p>
+<p>Thanks very much for the suggestion.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

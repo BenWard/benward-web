@@ -1,0 +1,17 @@
+---
+layout: blog
+category: blog
+title: "Most stupid message ever"
+date: "2008-04-28T19:17:47-01:00"
+updated: "2008-04-28T19:17:47-01:00"
+summary: "An excerpt from Smile's online banking system."
+tags: ["all", "smile", "banking", "accessibility"]
+atomid: http://ben-ward.co.uk/?p=454
+---
+An excerpt from <a href="http://smile.co.uk">Smile</a>'s online banking system, when you click ‘Back’.
+
+<blockquote href="https://welcome23.smile.co.uk/SmileWeb/getDomesticStatementPage.do?org.apache.struts.taglib.html.TOKEN=fb1f7f957eed5b489a12976d374171de&pageNumber=122"><p>the browser's navigation functions and keyboard shortcuts have been disabled for security reasons and because the internet banking service has been designed to be more accessible to all customers, including those with disabilities.</p></blockquote>
+
+Yes. Disabling the use of ‘Back’, ‘Forward’ and ‘Refresh’ is _obviously_ going to make the site _more_ accessible.
+
+Pathetic.

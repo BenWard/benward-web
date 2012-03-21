@@ -1,0 +1,59 @@
+---
+layout: blog
+category: blog
+title: "iBook followup: I love�"
+date: "2005-07-17T23:51:08+00:00"
+tags: ["all", "technology", "general"]
+atomid: tag:benward.me,2005-07-17:/blog/ibook_joy
+---
+My iBook arrived on Thursday, as predicted. It's a glorious feat of engineering, I must say. Every part of it says 'well built' on it (figuratively, I mean). I love OS X like it were my child (I'm not a parent. If I ever have children I expect to revoke that statement immediately). I love the way I can select the word �figuratively� and look it up in the integrated dictionary to make sure I picked the right word, I love the integrated spell check, I love the Adium instant messenger and I'm very impressed with Safari.
+
+I love the way in which I can use proper typographical characters like � and � with easy to remember keyboard shortcuts. I love the way there's a dedicated key for the ��� symbol. I love the way the keyboard is comfortable, that I can configure the trackpad and external mouse separately and the way in which preferences take effect without having to click �OK�.
+
+I love the simple address book with its integration into Adium and spotlight and the special �birthdays� calendar it puts into iCal. I love the Dashboard and the way I now know whether it's going to rain tomorrow.
+
+I love how laughably easy it is to install applications, and the way in which you can drag pretty much anything, anywhere and it will do something useful. I love the attention to detail on everything. I love the slick-but-not-annoying animations liberally spread around the operating system. I love having the �up� and �down� scroll arrows together at the base of scrollbars.
+
+I love having Wireless networking that �just works� and stays working. I love the doddle that is synchronising my phone with iSync. I love the way in which iSync has an icon just my my K700i.
+
+Finally, I love the way in which this entire entry was written from my bed, unplugged with four hours of battery life remaining, over a wireless network, streaming music from my iTunes enabled PC to my iTunes enabled Mac without skipping a beat.
+
+I've never been happier with a new piece of technology than this, it's worth every penny.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-309">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/9e286e03c4b751ce85bd0e5ff2a8a7db.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.fatbusinessman.com/">Fatty</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-309">
+        <time class="published" datetime="2005-07-18T11:51:02+00:00">18 Jul 2005, 11:51</time>
+      </a>
+      <div class="entry-content"><p>Welcome to the club ;-)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-310">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/abc50d59ef1ac8472737483abc7d870d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Adam</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-310">
+        <time class="published" datetime="2005-07-20T16:16:17+00:00">20 Jul 2005, 16:16</time>
+      </a>
+      <div class="entry-content"><p>So what you&#8217;re saying is that, given time, you could come to quite like it?</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-311">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-311">
+        <time class="published" datetime="2005-07-20T16:23:04+00:00">20 Jul 2005, 16:23</time>
+      </a>
+      <div class="entry-content"><p>Yeah, that&#8217;s the gist of it Adish. I need to put it down at some point and start back on the blog redesign, really� It&#8217;s a tad distracting.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

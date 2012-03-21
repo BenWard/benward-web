@@ -1,0 +1,33 @@
+---
+layout: blog
+category: blog
+title: "On the iPad"
+date: "2010-01-29T15:27:10-08:00"
+updated: "2010-01-29T15:27:23-08:00"
+summary: "I like the iPad; I'd like to buy one for my parents."
+tags: ["all", "technology", "apple", "ipod", "ipad"]
+atomid: http://benward.me/?p=581
+---
+Like all other technical dorks, it's a race not to be the last to pass comment on the beautiful new "Apple iPad":http://www.apple.com/ipad/. I think it's the perfect device for my parent's living room.
+
+In summary, the iPad is an extremely well designed, meticulously constructed consumer device. The iPad is something which I think will fit perfectly into the life of someone with desktop computer at home. There, it provides lots of new functionality, and will prove useful a lot of the time. It's more convenient, and will enable people to be more social with their cohabitants whilst still having a connection available. It is a device ideal in both size and price for integration information and media access with home life, rather than home-office life. My Father, sat in the living room, is regularly poaching my sister's iBook, looking things up on the internet; searching for prices, fact-checking my siblings, keeping up with sports scores, weather and travel information. For him, an iPad would be a perfect addition (though, I think "Jeff Croft makes a good point":http://jeffcroft.com/blog/2010/jan/28/ipad-thoughts/ with regard to multi-user support; the living room and kitchen scenarios Apple presented on Wednesday set the tablet in a clearly shared environment, whilst providing access to personal information.) Overall, I'm very impressed.
+
+For me, my caveat is that I already use a _laptop_ on the sofa; that makes the iPad a harder sell for immediate adoption. I'm already sat on my sofa, computing. I'll be waiting for functionality to be added to the Tablet over the next six months—from Apple or from third parties—and looking to see where it can really add something to my life. I like the form factor.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-227244">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/8e038825d82e0ee514a5d46cf6434540.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.wardelldesign.com/">Wardell</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227244">
+        <time class="published" datetime="2010-02-01T06:22:20-08:00">01 Feb 2010, 06:22</time>
+      </a>
+      <div class="entry-content"><p>Granted it is a sleek devise, but if given the option today I would have to go with a netbook. I think this device could have been so much better with a scaled back version of OS X (à la Windows 7 Starter), instead what you have is a larger and slightly modified version of another product with a built in revenue stream.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

@@ -1,0 +1,62 @@
+---
+layout: blog
+category: blog
+title: "Are you searching for something?"
+date: "2005-12-17T00:22:33-01:00"
+updated: "2005-12-17T01:06:07-01:00"
+tags: ["all", "redesign", "blogs", "search"]
+atomid: http://ben-ward.co.uk/journal/are-you-searching-for-something/
+---
+<img class="splash" alt="" src="/media/splashes/clouseau.splash.png" /> I�ve been pillaging my red folder marked �redesign� this evening. A portfolio which now documents at least a year of irregular, on-and-off sketching frenzies. I like the way the design has evolved on paper, and I'm reassured that on the whole I still like it (even if I can't suss out how to balance the conflicting pulls of minimising my design, whilst cramming in all sorts of syndicated personal content).
+
+There's one part of my design that I immediately questioned though, and you can help.
+
+Search. On a blog. Ignore for a moment the variable quality of search in blog applications, and focus on �Why�. Please, raise your hand if you go to someone's blog and use their Search function. How often? Why do you do it?
+
+I ask, because it's become very much the norm to give our internal site search boxes extremely prominent positions in site designs. As you can see over the Christmas period, mine is currently blocking out a very pretty Christmas tree; perhaps it's a little like French motorway billboards (but with Christmas, HTML and Hoth instead).
+
+And here�s where I'm going with this: Do we _need_ search on every page? For a fairly small Blog? Really? I wonder if it be more appropriate to link to a dedicated search page, and then display the search box on results pages as well (to allow for easy refinement or changing of search terms).
+
+Thoughts please world.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-609">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/11d4b8e0e0638fe55463628d216c34a8.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.joanslow.com">Jo</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-609">
+        <time class="published" datetime="2005-12-18T00:54:39-01:00">18 Dec 2005, 00:54</time>
+      </a>
+      <div class="entry-content"><p>I have never used a search on a blog, except when there was other content on the site (e.g. html tutorials).<br />
+I generally read the blogs of people I know, and don&#8217;t need to search them.  Any others have been found via a search engine anyway.<br />
+So, if it&#8217;s a pain in designing, I say hide the search away somewhere.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-613">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/fb7d81b172292b6034f9c1747d5b11e0.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.fatbusinessman.com/">FatBusinessman</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-613">
+        <time class="published" datetime="2005-12-18T13:10:18-01:00">18 Dec 2005, 13:10</time>
+      </a>
+      <div class="entry-content"><p>Agreed: the search feature on most blogs (especially those where the majority of the visitors are regular readers) really needn&#8217;t be so prominently displayed: the display space could be better occupied with something more useful (or even left blank for that Zen minimalism feel).</p>
+<p>In the current stage of my redesign, in fact, I&#8217;ve got the search feature on a separate page, combined with searching by tag and probably a bit of date-based archiving too. Ajax-based goodness is in the works, just as soon as I re-learn JavaScript�</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-615">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/8e0293544b13499460369217e2a7febd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://charlvn.za.net">Charl van Niekerk</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-615">
+        <time class="published" datetime="2005-12-18T17:22:20-01:00">18 Dec 2005, 17:22</time>
+      </a>
+      <div class="entry-content"><p>I like a search feature on all sites, even if it&#8217;s only the Google Site Search. A search feature feels so &#8220;standard&#8221; to me that it&#8217;s a must-have on any content-driven site <span class="caps">IMHO</span> (including a blog). However, often the actual search features suck so much that I just use Google to search that specific domain anyway.</p>
+<p>A browser extension to easily use Google to search the current domain would be nice.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

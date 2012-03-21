@@ -1,0 +1,21 @@
+---
+layout: blog
+category: blog
+title: "Small changes"
+date: "2005-07-27T22:01:48+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2005-07-27:/blog/small_blog_changes
+---
+This is my promised �not about the Mac� post.
+
+I've found the inclination to tweak the layout of this 'ere blog wassit a little. Partially because of the pending jumping to Wordpress and thus I'm trimming cruft that's going to disappear or change. I'm also pulling out the pieces that were either useless through their implementation (B2e's archives are rubbish) or not really used by me (categories are a waste of space 'round here right now - that's my bad and I'll fix it post-switch).
+
+Effectively, I've got a smaller side bar and have re-factored some extra links from elsewhere into it for good measure. The search form has been simplified too, and I've fixed some broken links.
+
+One (perhaps critical) note is that I'm going to be trimming down the feeds on offer. They're all still there right now, so don't panic, but it's my intention to only offer two syndication formats in future. Right now I'm favouring �RSS 0.93� (to support every feed reader ever) and �Atom�, since the <a href="http://atompub.org/">Atom 1.0</a> spec looks dead good. This would mean dropping �RDF� and �RSS 2�. I see no point in providing 4 different formats which overlap each other so much. One �current� format and one legacy format should suffice.
+
+What I have done now, though, is to remove all links to the RSS2 and RDF formats. You can still access them through the <a href="http://blog.ben-ward.co.uk/read/rss2" title="Ben Ward RSS2 Feed (obsolete)">/read/rss2</a> and <a href="http://blog.ben-ward.co.uk/read/rdf" title="Ben Ward RDF Feed (obsolete)">/read/rdf</a> URIs on this site, but I'm trying to discourage it. All the auto-discovery URIs for the feeds are now in the mod_rewritten /read/format form I implemented earlier in the year but forgot to update the HTML for. If you're using an old, query string format feed URI I urge you to re-subscribe as those might well break when I migrate (since I'll inevitably forget about them).
+
+If I've made a gross misjudgement and am about to kill a feed format that I really shouldn't, please yelp in the comments and I may well rethink.
+
+Footnote: I have actually started working with Wordpress and am making good progress on being a <a href="http://diveintomark.org/archives/2003/04/13/object_and_internet_explorer" title="DiveIntoMark">mark-up wanker</a>. I don't think that's the same as making actual progress, though.

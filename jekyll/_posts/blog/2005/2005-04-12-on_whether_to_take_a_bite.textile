@@ -1,0 +1,219 @@
+---
+layout: blog
+category: blog
+title: "On whether to take a bite..."
+date: "2005-04-12T23:28:59+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2005-04-12:/blog/on_whether_to_take_a_bite
+---
+About a month ago, I put in a request at my bank to convert �1000 from a 60-day access account into cheque form, and send it to me. The reason, I want a <a href="http://www.apple.com/uk/powerbook" title="Apple PowerBook">PowerBook</a>. I'd like one for Uni and I put aside the money for buying a notebook computer years ago. I never bought one before and I've been flirting with the idea on and off ever since.
+
+The relevance of the month and the 60-days is this: Whenever I toy with the idea of getting a notebook machine I ponder it until the indecisiveness gets too much. Then I just stop thinking about it. This time, I'm already pretty certain that I want one, so I've decided to move the money as a 'decision incentive'. <a href="http://jo.ben-ward.co.uk" title="Jo Anslow">Jo</a> will testify that �1000 is probably a realistic number for encouraging a decision from me.
+
+I've decided that if I get one, I want an Apple Mac; probably the 12" PowerBook flavour. This is a good start, because unlike the Windows PC market, Apple don't tell you what new specs are coming soon, so you've got less "if I wait until next month I can have..." issues. Once Apple launch a product, you know it's good to go for around 6 months to a year before they update it again. It's how they work. It would hurt if you bought the old model a day before the new one comes out, of course, but that's what <a href="http://www.macrumors.com" title="Mac Rumors">rumour</a> <a href="http://www.thinksecret.com" title="Think Secret">sites</a> are there to avert.
+
+The 60 days works like this. The first 30 I've spend contemplating vaguely by myself. Mum knew about the money and maybe I told Jo in passing... but you get my point. This month has been subjecting <em>myself</em> to "will I really use it and why" type questions. With around a month until the money becomes available, now is the time to start asking other people.
+<!--more-->
+Here's the result of personal deliberating.
+<dl>
+<dt>Do I really need it?</dt>
+<dd><em>Need</em>? Probably not in its strictest sense. However, I'm a web designer. Access to Safari would be a huge benefit (though not worth the cost in itself). If I get one, I will take it to lectures (hence wanting the 12" model) and be able to travel with it on the long journeys from Manchester to see friends an family. Not a "need", but a very big plus, especially given that it's final year and I'll have lots of work to do.</dd>
+<dt>Can I afford it?</dt>
+<dd>The money was put aside ages ago for a purpose like this, so yes</dd>
+<dt>Why not buy a cheaper PC?</dt>
+<dd>The battery life on a 12" PB is very good indeed, they certainly consume less than a PC. Then there's the fact that my limited exposure to Apple's Mac OS X over the past few months has made me go "wow" too many times not to desire one.</dd>
+<dt>Is now a good time to buy? Why not wait until I get to Uni?</dt>
+<dd>Because I'm an impatient bastard.</dd>
+<dd>Software wise, Apple have just revised the iLife suite and the operating system itself.</dd>
+<dd>Apple's only major forthcoming upgrade to the PowerBook line - the introduction of the super-awesome G5 processor - is not likely to happen until next year. Even then, no-one knows what hit on power consumption that will entail. Then, the advantage of added raw speed in a notebook machine is relatively mute. The current G4 line is fast, plenty fast enough. My PC hasn't been upgraded for over a year and wont be likely to get one either. In fact, the only real fear is that getting one Mac would make me hate my PC so much as to need to need an Apple desktop as well. That <em>would</em> be costly.</dd>
+</dl>
+
+That's about it. It comes out as a pretty resounding "yes". Now, tell me that I'm wrong.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-252">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/3218e487b7fd7b7b0d6f02bef3227e39.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Steven Marshall</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-252">
+        <time class="published" datetime="2005-04-13T09:35:04+00:00">13 Apr 2005, 09:35</time>
+      </a>
+      <div class="entry-content"><blockquote>The first 30 I&#8217;ve spend contemplating vaguely by myself.</blockquote>
+<p>What am I, chopped liver?</p>
+<p>You know you want to buy it.</p>
+<p>Aaaaaaaaapple&#8230;.  Aaaaaaaaaaaaaaaaaaaapple&#8230;</p>
+<p>woooOOOOOoooooo</p>
+<p>Ok. I&#8217;ll stop being odd now. In all seriousness, mate, as you well know I can&#8217;t think of a single reason that you <em>shouldn&#8217;t</em> buy a sexy lil&#8217; 12&quot; PowerBook.</p>
+<p>Roll on <a href="http://www.nab.org/" title="National Association of Broadcasters" rel="nofollow"><span class="caps">NAB</span></a> on Sunday&#8230;</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-253">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/fb7d81b172292b6034f9c1747d5b11e0.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.fatbusinessman.com/">Fatty</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-253">
+        <time class="published" datetime="2005-04-13T11:08:23+00:00">13 Apr 2005, 11:08</time>
+      </a>
+      <div class="entry-content"><blockquote>Ok. I&#8217;ll stop being odd now</blockquote>
+<p>You&#8217;re a geek &#8211; I suspect that cessation of oddness is highly unlikely.</p>
+<p>Regarding your &#8216;dilemma&#8217;, you <em>know</em> what my answer is: I&#8217;m buying a PowerBook myself.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-251">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/15c830373fb60ebfcd3f24b5d7321b71.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.jonty.me.uk/">Jonty</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-251">
+        <time class="published" datetime="2005-04-13T14:08:26+00:00">13 Apr 2005, 14:08</time>
+      </a>
+      <div class="entry-content"><blockquote>Regarding your &#8216;dilemma&#8217;, you know what my answer is: I&#8217;m buying a PowerBook myself.</blockquote>
+<p>And you know what my thoughts are, Fatty :p You&#8217;re all mad ;)</p>
+<p>For the price of a PowerBook you could be a far superior Windows-based notebook (which you could also install Linux on if you must). It would have better hardware, potentially a nicer screen, and with Centrino battery life can be very impressive indeed. Depending on which manufacturer you choose, with the money you&#8217;d save you&#8217;d probably be able to afford a Mac Mini to sate your Mac needs as well ;)</p>
+<p>Kind Regards</p>
+<p>Jonty</p>
+<p>P.S. Tiger will be released at the end of April, apparently.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-254">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-254">
+        <time class="published" datetime="2005-04-13T14:45:32+00:00">13 Apr 2005, 14:45</time>
+      </a>
+      <div class="entry-content"><p>Not sure that I agree Jonts. While having faster hardware is technically true, at least until the G5 lands, it doesn&#8217;t matter for what I want to do with the machine.</p>
+<p>Also, I&#8217;m not wanting a Mac just for wanting to get away from Windows. For the most part, I have no beef with Windows (unlike, say, Fatty who would probably attack Bill Gates like he was after his grandmother if they ever met).<br />
+Wanting a Mac OS machine is down to Mac OS being very, very good indeed. Better than Windows  by a good margin in my experience; but it&#8217;s not about avoiding Windows at all &#8211; heck my main PC will staty on Windows for at least the next year anyway, to stay in sync with Uni. My final year project is a Desktop Search system for Windows.<br />
+If it was just about getting away from Windows then yeah, I&#8217;d buy a cheap PC and install Linux. But Desktop Linux is crap and will remain so for a number of years yet. I don&#8217;t have the time nor inclination to make it better, either.</p>
+<p>As for hardware: It&#8217;s a mobile machine, so having the most powerful beast on earth is not really a priority. Also, the significantly faster PCs <em>don&#8217;t</em> have as good battery life. The best quotes on Centrino based kit are similar to Apple&#8217;s, the worst are nowhere near.</p>
+<p>There are a lot of little things that make the Mac more appealing. OK, there are the aestheics of the machines themselves, the build quality of the slotloading CD writer, the dual-finger &#8216;gesture&#8217; capable trackpad, Mac OSX&#8217;s superior drag+drop functionality, WiFi that actually bloody works&#8230; the number of quibbles that I do have with Windows which Mac OS resolves is impressive. I&#8217;m sure that it has flaws of its own (the lack of native folder merging seems to be a stupid omission), but from where I&#8217;m sitting it seems to solve a lot of problems.</p>
+<p>The &#8220;better screen&#8221; is interesting, though. What constitutes better in this case? Bearing in mind that the 12&quot; Powerbook isn&#8217;t being lined up just because it&#8217;s the cheapest in Apple&#8217;s range, but because of the size.</p>
+<p>The pondering continues.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-255">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/15c830373fb60ebfcd3f24b5d7321b71.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.jonty.me.uk/">Jonty</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-255">
+        <time class="published" datetime="2005-04-13T14:59:13+00:00">13 Apr 2005, 14:59</time>
+      </a>
+      <div class="entry-content"><p>Hey Ben</p>
+<p>You&#8217;re absolutely right on the usage front, it does depend what you&#8217;re after, so sorry on that score :)</p>
+<p>Personally I like my notebooks to be powerful, hence the 17&quot; model I opted for, but for everyday use having a powerful graphics card or a efficient <span class="caps">CPU</span> isn&#8217;t going to be a priority for everyone if the system isn&#8217;t a replacement for a normal PC (which mine is for when I&#8217;m away).</p>
+<p>I agree with all you say about the MacOS, but that&#8217;s why (again, personally) would get a Mac Mini with the money I&#8217;d save. I know this doesn&#8217;t help one jot for mobile usage, but at least I&#8217;d be able to enjoy the benefits of the MacOS (which as you say are many).</p>
+<p>Battery life on a 12&quot; PowerBook is apparently &#8216;up to 5hrs&#8217; according to Apple, which is great. But beware of &#8216;up to&#8217; figures on both PCs and Macs alikes, they&#8217;re often just idle figures and don&#8217;t represent actually usage. Granted, some notebook power figures are awful, barely above an hour in some instances, but I&#8217;ve known non-Sonoma Centrino notebooks (the older DDR1, non-<span class="caps">PCI</span>-Express based kit) reach 5.5hrs on normal systems and even 8hrs on some ultra portable systems.</p>
+<p>Hardware wise, there&#8217;s nothing which really sets the Mac apart. Granted, it&#8217;s beautifully finished, but other than its features can be found on &#8216;normal&#8217; notebooks, and the ones which can&#8217;t are usually linked to the OS, so there&#8217;s no argument there unless you find special software.</p>
+<p>As for screen, I was thinking mainly about Sony&#8217;s X-Black displays which are widely regarded, both on notebooks and desktops, as the finest in the business. The irony is, though, X-Black screens cost a fortune, thus bumping Sony&#8217;s already high prices up, so that would rule out saving money for a Mac Mini.</p>
+<p>Anyway, rambling aside, you&#8217;re absolutely right, it depends what you want it for. For me, it woudln&#8217;t be suitable, I&#8217;d sooner have a Mac Mini and a &#8216;normal&#8217; notebook. But I think we both know you&#8217;re going to invest in a PowerBook and, from what you&#8217;ve written, I&#8217;m sure you&#8217;ll love it. Then Fatty will buy one too, and I&#8217;ll be surrounded by Mac converts :D Just promise me one thing, don&#8217;t start drinking fancy coffee in coffee bars, going snowboarding for holidays, and growing a goatee, else your journey to the stereotypical web designer will be complete ;) hehe!</p>
+<p>Good luck with it all</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-256">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-256">
+        <time class="published" datetime="2005-04-13T16:55:55+00:00">13 Apr 2005, 16:55</time>
+      </a>
+      <div class="entry-content"><p>Jonty: Poncy coffee bars are less of an issue given my recent, gigantic tea consumption. And as growing a goatee&#8230; even if I lost my mind and tried, Jo would never allow it.</p>
+<p>I don&#8217;t mean to be stubborn about not getting a PC, btw. It&#8217;s just that I&#8217;m not really interested in them at all. I am keen to try out something new and as a software guy, I&#8217;ve started to value the user experience over hardware.</p>
+<p>I think if I were to decide against getting a PB, I probably shan&#8217;t get anything at all and the money will go back in the pile.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-257">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/15c830373fb60ebfcd3f24b5d7321b71.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Jonty</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-257">
+        <time class="published" datetime="2005-04-13T23:04:46+00:00">13 Apr 2005, 23:04</time>
+      </a>
+      <div class="entry-content"><blockquote>I think if I were to decide against getting a PB, I probably shan&#8217;t get anything at all and the money will go back in the pile.</blockquote>
+<p>If you were from Yorkshire that money would never have left the pile, hehe!</p>
+<p>Seriously, though, good luck with whatever you decide. And I&#8217;m glad about the coffee/goatee, although I fear Fatty is half way there already :)</p>
+<p>Kind Regards</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-258">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-258">
+        <time class="published" datetime="2005-04-13T23:59:47+00:00">13 Apr 2005, 23:59</time>
+      </a>
+      <div class="entry-content"><p>Fatty&#8217;s beard phases are a little disturbing I agree. Much like his Microsoft-allergy, I think it&#8217;s a Cambridge University <em>thing</em>. He was clean last time we met up mind. Myself, hmmmm, a little patchy.</p>
+<p>Now, browsing the internet from the sofa, there&#8217;s a plus point.</p>
+<p>I&#8217;m notably short of any reason <em>not</em> to get one (PC vs. Mac debates aside). This is probably a good thing.</p>
+<p>Macworld San Francisco is on June 8th, which will inevitably offer up some new products (probably not PowerBooks, but you never know). Seeing as that&#8217;s within pretty close range of my money coming through I think I&#8217;d be getting one then.</p>
+<p>I&#8217;ve just realised how hopelessly impatient I am, too.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-259">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-259">
+        <time class="published" datetime="2005-04-14T00:02:54+00:00">14 Apr 2005, 00:02</time>
+      </a>
+      <div class="entry-content"><p>Sony XBlacks <em>are</em> nice. My housemate has a 17&quot; one for his PC downstairs. A very good screen indeed, if costly.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-260">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/11d4b8e0e0638fe55463628d216c34a8.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://jo.ben-ward.co.uk">Jo</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-260">
+        <time class="published" datetime="2005-04-14T10:29:55+00:00">14 Apr 2005, 10:29</time>
+      </a>
+      <div class="entry-content"><p>I have just 2 things to say.<br />
+�1000 is probably a large enough sum of money to get a decision out of even you, but I suspect it&#8217;s more about the gadget than the money&#8230;</p>
+<p>And second, feel free to buy one, but I do worry on 3 counts. If you always had a computer with you, I&#8217;d never get to talk to you! Second, I can&#8217;t imagine that laptop keyboards are very good from an <span class="caps">RSI</span> point of view. And finally, if you spend all day at work on the computer, and then ages travelling on the computer, it wouldn&#8217;t do your stress levels, or your eyesight any good.</p>
+<p>But you&#8217;re going to buy one anyway&#8230;</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-262">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/8fcd5b0ff9e38ff01a9d1f5f05ffaeee.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Jeff Duffy</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-262">
+        <time class="published" datetime="2005-04-16T01:34:04+00:00">16 Apr 2005, 01:34</time>
+      </a>
+      <div class="entry-content"><p>If you have already decided on the 12&quot; form factor, you really ought to consider an iBook instead. I&#8217;ve owned both a PowerBook and an iBook and I far prefer the iBook because:<br />
+Unlike the PowerBook, it&#8217;s dead silent and very cool. My PowerBook got very hot and occasionally extremely loud when the fan went into overdrive.The iBook is <b>far</b> more durable. It&#8217;s made of some Lucite like material (designed for students banging it about). Battery life seems to be better with the iBook.</p>
+I do software development (Java, Python, what have you) using a 12&quot; 1.25Ghz iBook G4 as my primary development machine, and it is nothing short of fabulous. I use a cheap external hard drive for music storage, but the 30G HD isn&#8217;t the limiting factor I had worried it would be.
+I did purchase a 1Gig stick of <span class="caps">RAM</span> to up the speed for running things like Tomcat and what have you, but the total cost including AppleCare was still far below that of the PowerBook. I highly advise you to try one out if you can.</div>
+    </article></li>
+    <li><article class="hentry" id="comment-261">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-261">
+        <time class="published" datetime="2005-04-16T12:44:15+00:00">16 Apr 2005, 12:44</time>
+      </a>
+      <div class="entry-content"><p>Jo: Don&#8217;t worry, I&#8217;m not going to become a hermit and communicate with you only over IM. Promise. It&#8217;s just a case that 6 hours+ train travel is a long time and could let me get some work done <em>before</em> I see you, rather than messing up our weekends as much.</p>
+<p>The <span class="caps">RSI</span> stuff is something that I&#8217;m contemplating, mind. I have a feeling that it may boil down to me needing to use computers less, generally, but that doesn&#8217;t mean that having a having a portable machine is anti-that. Definately an issue though.</p>
+<p>Jeff: The iBook&#8230; hmmm&#8230; thinking about it gives me that awkward feeling where part of me knows you&#8217;re right, and the other part is still brainwashed by the shiny aluminium.<br />
+In seriousness, I&#8217;m now definately considering it. After speccing it up, I&#8217;d save about �180 getting an iBook over a PB.</p>
+<p>It rather depends on whether the rumoured iBook upgrades materialise this weekend, really. As it stands, the iBook isn&#8217;t specced high enough to run Tiger properly, but an upgrade of more memory and a better graphics chip would nullify that problem.</p>
+<p>Whether they would also add the PowerBook&#8217;s new hard disk shock protection in also crosses my mind.</p>
+<p>Thank you very much to all who&#8217;ve replied. This hasn&#8217;t made the decision any easier at all, but that&#8217;s for the best.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-263">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-263">
+        <time class="published" datetime="2005-04-20T00:01:44+00:00">20 Apr 2005, 00:01</time>
+      </a>
+      <div class="entry-content"><p>Well, no iBook updates at <span class="caps">NAB</span>, which is a shame. Still some chance of something coming out around the time of Tiger&#8217;s actual release, or failing that at MacWorld SanFran in early June.</p>
+<p>Given the cost saving and the fact that I&#8217;d ultimately be buying a pretty old processor in either the PB or iBook, the cheaper model may be onto a winner here. I think I&#8217;m back to the waiting game, mind you.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

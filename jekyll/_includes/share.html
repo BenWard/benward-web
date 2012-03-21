@@ -1,0 +1,7 @@
+{% capture short_url %}{{site.shortdomain}}/{{page.global_date | date: "%s" | base_60}}{% endcapture %}
+<div id="respond" class="share">
+  <h2>Share this page</h2>
+  <a class="twitter-share-button" href="http://twitter.com/share?text={{page.title | cgi_escape}}&amp;via={{site.author.twitter | cgi_escape}}" data-count="none" data-align="right">Tweet</a>
+  <kbd><a rel="canonical nofollow" href="{{site.url}}{{page.url}}">{{site.url}}{{page.url}}</a></kbd></dd>
+  <!--<kbd><a rel="shortlink nofollow" href="{{short_url}}">{{short_url}}</a></kbd>-->
+</div>

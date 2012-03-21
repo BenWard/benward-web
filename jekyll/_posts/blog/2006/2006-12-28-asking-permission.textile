@@ -1,0 +1,58 @@
+---
+layout: blog
+category: blog
+title: "Asking Permission"
+date: "2006-12-28T17:25:21+00:00"
+updated: "2006-12-28T17:25:21+00:00"
+summary: "On the licensing of personal content, asking permission and the reuse of content by new services like NowPublic."
+geo:
+  xy: 52.1455,.1418
+tags: ["all", "flickr", "nowpublic", "licensing"]
+atomid: http://ben-ward.co.uk/journal/asking-permission/
+---
+This entry is somewhat delayed, but it's also the last flagged item in my inbox. If I write this I can claim some sort of GTD zen like state in time for the new year.
+
+A while ago — back on 5th September, since you ask — I received a message on Flickr from a website called <a href="http://www.nowpublic.com/" rel="nofollow" rev="vote-abstain">NowPublic</a>. It's a user-generated news site, I suppose it's akin to <a href="http://newsvine.com" rev="vote-for">NewsVine</a>.
+
+Anyway, the message was asking my permission to use a couple of photos I'd taken to accompany news stories that had been submitted. It provided a URL through which I could approve or deny their request.
+
+Unfortunately, when I clicked on that URL I was presented with a registration form. To give permission for NowPublic to use my photos I have to register with them. That's a deal breaker. I've got no interest in NowPublic, sorry. I don't use Digg or NewsVine or any aggregated or user controlled news source. I get plenty enough news to satisfy me from elsewhere on the web. 
+
+I'm put off at the idea of registering for services I don't want at the best of times — I now have <a href="http://www.facebook.com/profile.php?id=535575393">a FaceBook account</a>, reluctantly — so I'm certainly not going to register for anyone's site in response to <em>them</em> asking something of <em>me</em>.
+
+In short: If you want to use something I've created, that's great. If you're using an automated system to search for content, parse the <a href="http://microformats.org/wiki/rel-license">rel-license</a> microformat and check for Creative Commons licenses. Plenty often you'll find there's work just sitting on the internet already giving you permissions for reuse. Just attribute the author at the original source. <a href="http://flickr.com/photos/benward">My Flickr photos</a> are licensed with a <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/">Creative Commons Attribution, Non-Commercial, Share-Alike license</a>.
+
+If you want to do something that isn't licensed on the page (such as commercial use, or not sharing your derivative work) then by all means ask, I'll probably say yes. But <strong>don't</strong> use that as a ploy to have me sign up for your service, that's just rude and will guarantee a ‘no’. If it's really necessary for me to log in to your system to make the decision, how about enclosing a guest account?
+
+Creative Commons is the great enabler of automated, user generated, distributed content. The rest of the time, we'll still have polite personal interaction, please.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-54472">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/fb7d81b172292b6034f9c1747d5b11e0.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.fatbusinessman.com/">FatBusinessman</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-54472">
+        <time class="published" datetime="2007-01-03T09:32:35+00:00">03 Jan 2007, 09:32</time>
+      </a>
+      <div class="entry-content"><p>This just happened to me too: needless to say, they ain&#8217;t getting permission from me either.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-56224">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/559bd7404e84078f231719ba6ebf0c29.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.Photopia.TYO.ca">HiMY SYeD</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-56224">
+        <time class="published" datetime="2007-03-02T23:39:01+00:00">02 Mar 2007, 23:39</time>
+      </a>
+      <div class="entry-content"><p>NowPublic keeps spamming me and asking me to use my pics, I&#8217;ve been googling for the past half hour to see if I am the only one who is &#8216;disappointed&#8217; with nowpublic, and your entry here is the first &#8216;negative&#8217; response to them that came up in the search.</p>
+Hear hear.
+In their old interface, the tricked me, by wording it funny, the url in the email I clicked on automatically allowed them to use my photos. Since then I don&#8217;t reply to nor click on anything from nowpublic whatsoever while their increasing numbers of &#8216;reporters&#8217; keep asking to use my pics.
+Reading your entry above plus how I feel at the moment, it shows a lack of respect from them and they just don&#8217;t &#8216;get it&#8217;.</div>
+    </article></li>
+  </ol>
+</div></notextile>

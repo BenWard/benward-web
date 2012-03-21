@@ -1,0 +1,14 @@
+---
+layout: blog
+category: blog
+title: "NME Poem"
+date: "2004-10-05T00:27:48+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2004-10-05:/blog/nme_poem
+---
+On mentioning my current habit of writing <a href="http://www.nme.com" title="The New Musical Express Website">NME</a> bashing song lyrics, Sarah just recited me this poem.
+
+<blockquote>I'm sleeping with the nme tucked underneath my bed, 
+and while I sleep it tries to put opinions in my head</blockquote>
+
+If anyone happens to have the rest of that poem, I'd be glad to hear it. Google has failed on this count.

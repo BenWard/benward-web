@@ -1,0 +1,84 @@
+---
+layout: blog
+category: blog
+title: "Do line breaks really exist?"
+date: "2005-06-03T00:12:34+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2005-06-03:/blog/line_breaks
+---
+I've been working hard for Uni these last few weeks, but before I run up north for a few days, something has been playing on my mind for a while.
+
+<a href="http://joblog.ben-ward.co.uk" title="Joanna Anslow">Jo</a> and I had a conversation not long ago about semantic mark-up. Now, having encouraged Jo into all this semantic standards stuff, she's become quite a purist.
+
+As much as <code>&lt;br></code> is <em>always</em> used presentationally, I'd always thought, in the back of my mind, that it had a valid use in the construction of paragraphs as well. Jo gave me 'a look' at this point of the conversation and pointed out that there was no such thing as a 'half paragraph', so what was it?
+
+Following my thought process through, I realised that this concept of using line breaks comes from writing documents in Microsoft Word (press <kbd>Ctrl+Enter</kbd>). Since citing Microsoft Word is not the most rock-solid of semantic defences I now agree with Jo.
+
+I do remain curious, though. Can anyone explain why line breaks exist at all? (Especially in Word). Were they just a presentational hack in early word processors?
+
+Of course Jo <em>could</em> be wrong. However, that happens rather rarely in our relationship, and 'Half Paragraphs' do seem somewhat silly when you think about it.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-279">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/235792ff77a1afdf630d547d4ef06eb8.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ellythompson.co.uk/blog">Elly</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-279">
+        <time class="published" datetime="2005-06-03T07:37:24+00:00">03 Jun 2005, 07:37</time>
+      </a>
+      <div class="entry-content"><p>Actually, there is such a thing as a part-paragraph. If you are writing a conversation, you start a new line, but not a new paragraph, when a new person speaks. I&#8217;d have thought this would be a legitimate use of a &lt;br&gt; tag.</p>
+<p>There&#8217;s also an argument that it can be <a href="http://www.molly.com/2005/04/29/p-vs-pre/" rel="nofollow">used for poetry</a></p>
+<p>Formatting of text predates the wordprocessor.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-280">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/dac49bca00c7edd6546b14b9a9475a30.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://simon.incutio.com/">Simon Willison</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-280">
+        <time class="published" datetime="2005-06-03T21:58:30+00:00">03 Jun 2005, 21:58</time>
+      </a>
+      <div class="entry-content"><p>The address part of a letter springs to mind.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-281">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/abc50d59ef1ac8472737483abc7d870d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Adam</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-281">
+        <time class="published" datetime="2005-06-04T12:26:40+00:00">04 Jun 2005, 12:26</time>
+      </a>
+      <div class="entry-content"><p>Ctrl+Enter in Microsoft Word is actually a page break, not a line break.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-282">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/a0a0ddfa413531af3ddf2b2a0ac89d3e.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.lazaruscorporation.co.uk">Paul Watson</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-282">
+        <time class="published" datetime="2005-06-14T11:01:47+00:00">14 Jun 2005, 11:01</time>
+      </a>
+      <div class="entry-content"><p>I&#8217;ve used it for line breaks in poetry (about the only real semantic use, although Simon Willison&#8217;s example of the address part of a letter does make sense too).</p>
+<p>In most other cases it should be replaced by a new paragraph tag &#8211; with  the top margin set to zero using a <span class="caps">CSS</span> class if it needs to &#8216;look&#8217; like the default browser rendering of a break tag.</p>
+<p>When used for poetry, though, I always wondered if the break tag should be preceded by a space.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-283">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-283">
+        <time class="published" datetime="2005-06-17T09:08:07+00:00">17 Jun 2005, 09:08</time>
+      </a>
+      <div class="entry-content"><p>Hmm, interesting and very valid ideas. Not being much of a poet, I&#8217;d completely overlooked that!</p>
+<p>Before hCard, I&#8217;d probably have agreed with it for addresses too, but once that microformat is complete it might be more appropriate (if less intuitive) to describe addresses with multiple elements and hCard classnames.</p>
+<p>Another potential use could be representing guitar tablature (although a &lt;pre&gt; block strikes me as better, perhaps).</p>
+<p>Thanks for the comments, it&#8217;s all quite thought provoking.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

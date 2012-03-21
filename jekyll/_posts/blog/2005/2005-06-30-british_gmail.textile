@@ -1,0 +1,46 @@
+---
+layout: blog
+category: blog
+title: "Gmail translated into <del>proper</del><ins>British</ins> English"
+date: "2005-06-30T23:01:58+00:00"
+updated: "2005-10-06T22:11:00-01:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2005-06-30:/blog/british_gmail
+---
+<img src="/media/splashes/britishgmail.splash.jpg" alt="" class="splash" />As a native English speaker, I tend to accept the Americanisms on the internet and will instinctively ignore anything on a web page offering alternative languages. British English (or 'English', as I like to call it) is hardly a  localisation priority if your site already has a US English translation that everyone can read, right?
+
+Poking through the <a href="http://gmail.com">Gmail</a> settings today I stumbled across the new language choices. 'English (United States)' it reads by default. That text seemed curiously precise so I clicked and to my delight there's an 'English (British)' translation. The difference? That ghastly word 'Trash' is replaced by a far more elegant 'Deleted Items'. It's a small but glorious enhancement that I'd recommend to English speakers of all flavours.
+
+That said, I've had a dislike for the word 'trash' since childhood days of Sesame Street, so my passion on the matter is maybe not a surprise.
+
+<strong>Update:</strong> It appears that if you choose British rather than American, you lose the improved 'show images' functionality that Gmail introduced last month. 
+
+Rather than the new 'green' bar, with the option to always show images from particular senders, the British English setting reverts back to the old 'grey' bar without the ability to remember your choice. Stranger still, addresses that I'd authorised to always show images are only remembered when Gmail is in US English, so you can't even work around the shortcoming by temporarily switching between the languages. Very odd.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-302">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/8e0293544b13499460369217e2a7febd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://charlvn.za.net">Charl van Niekerk</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-302">
+        <time class="published" datetime="2005-07-01T09:02:13+00:00">01 Jul 2005, 09:02</time>
+      </a>
+      <div class="entry-content"><p>Thanks, this is great news. In South Africa, we also speak &#8220;normal&#8221; English, so I promptly changed my setting. Much better, indeed!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-440">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/228745652727800807586fa16c4b29f5.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://punkchip.com">Emma Sax</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-440">
+        <time class="published" datetime="2005-11-15T17:53:29-01:00">15 Nov 2005, 17:53</time>
+      </a>
+      <div class="entry-content"><p>I&#8217;m using Opera and I just tried changing to US English as I&#8217;ve always had it set as UK English &#8211; to see what changed.  Ended up having to change back to UK using a non-Opera browser because the rendering of the settings page got screwed up and I couldn&#8217;t click on any of the links! Interesting or what?</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

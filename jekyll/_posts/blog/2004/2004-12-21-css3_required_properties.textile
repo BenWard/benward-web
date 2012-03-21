@@ -1,0 +1,95 @@
+---
+layout: blog
+category: blog
+title: "CSS3 Proposal - !required properties and styles"
+date: "2004-12-21T23:32:25+00:00"
+tags: ["all", "web_standards"]
+atomid: tag:benward.me,2004-12-21:/blog/css3_required_properties
+---
+This was posted to the CSS public mailing list (www-style) today.
+
+It's a proposal for the forthcoming CSS3 specification that would put an end to 'browser sniffing' in the future and allow web designers to embrace new and very powerful CSS techniques while more easily providing simpler presentation for older browsers.
+
+It would be a valuble aid, especially when a new specification as large as CSS3 is to be launched. I'd be most greatful if CSS authors would take the time to read it and consider the value in the use-cases I've cited and any of your own.
+<!--more-->
+Feedback on the proposal should really be sent to the <address>www-style at w3 dot org</address> mailing list, but I welcome more general comments in the Blog as well, just please remember that a comment here is unlikely to be heard by the CSS Working Group, while a post to the mailing list is more likely.
+
+I've recently developed <a href="http://www.resintheband.com" title="Resin">a site</a> in which the lower levels of navigation (lists) are hidden until a parent (a <code>&lt;li&gt;</code>) is <code>:hover</code>'d over. The effect (commonly called "Pure <abbr title="Cascading Style Sheets">CSS</abbr> Menus") is nice. A degraded, <abbr title="Cascading Style Sheets Level 1">CSS1</abbr> supporting version is provided in the same stylesheet by using <abbr title="Cascading Style Sheets Level 2">CSS2</abbr> selectors (namely "<code>&gt;</code>") to hide the newer content from old browsers. However, when testing using Konquorer 3.1.4 (the latest version you can get running on Windows+Cygwin, not actually the current version at all) I discovered a problem.
+
+This version of KHTML supports the "<code>&gt;</code>" selector, so applied the collapsed menu styles, but didn't support <code>:hover</code> on all elements. Thus, the menus displayed collapsed, but the <abbr title="User Agent">UA</abbr> was unable to show the content when hovering.
+
+The CSS spec does not require UAs to only implement complete specs
+(else we'd still be without CSS1...) but when support of the same level of CSS varies in a UA, I would like to avoid resorting to any kind of JavaScript <span class="desc" title="The process of using JavaScript to alter the behaviour or content of a web page depending on which browser it is running in.">sniffing</span> to more finely control implementation. It extends development time in terms of otherwise unnecessary research and adds to the workload of maintenance over a period of years for the site's lifespan.
+
+Hence, this proposal, (which comes in two parts).
+
+1) Introduction of a "<code>!required</code>" declaration. This would be added to the CSS syntax in the same way as the "<code>!important</code>" declaration is used at the moment. It could be specified on a property-by-property basis, or to entire styles.
+
+<blockquote>e.g.
+<pre><code>foo {
+  background-color: #F00;
+  vertical-align: bottom !required;
+}</code></pre>
+</blockquote>
+
+In the above style, for a user-agent to apply the style it must support all properties marked as <code>!required</code>. If a UA does not support <code>vertical-align</code> (as in this example) then it should not apply <code>background-color</code> either.
+Conversely, if it did not support <code>background-color</code> but did support <code>vertical-align</code>, then the style should be applied as normal with the property not marked as <code>!required</code> unrendered.
+
+<blockquote>A larger example:
+<pre><code>foo.watermark {
+  display: none;
+}
+
+foo.watermark {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  opacity: 10% !required;
+}</code></pre>
+</blockquote>
+
+In this case, we have an element <code>foo</code> (which lets say is an image that the author wants used as an overlaying watermark on their site).
+However, if the UA doesn't support the <abbr title="Cascading Style Sheets Level 3">CSS3</abbr> <code>opacity</code> property, then the watermark could obscure the content of the page and make it unusable.
+The first style hides it completely from all UAs, and the second
+should only be implemented by a UA that understands <code>opacity</code>. Thus, the author has no worries about his content being obscured by presentation.
+
+Part 2) A way of declaring 'groups' of styles and requiring entire styles within a group. In my original use case, the problem arose from an unimplemented <code>:hover</code> style. However, this was a different style altogether from that which was responsible for transforming the menu into its initial, collapsed state. It's that collapsing rule that needs to be ignored if <code>:hover</code> is not implemented, not the <code>:hover</code> rule itself (or any property within it).
+
+<blockquote>I have a less solid idea about how to declare this syntax, so consider this as a starting point only.
+<pre><code>/* a group of styles */
+@group {
+
+  /* the first style in the @group */
+  foo bar {
+    display: none
+    background-color: #0F0;
+    color: #000;
+  }
+
+  /* the second style in the @group - this is required */
+  foo:hover bar !required  {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 1em;
+  }
+}</code></pre>
+</blockquote>
+
+In this example, a child element will only be displayed if its parent is hovered over. However, the <code>:hover</code> rule is marked as <code>!required</code>.
+Should the UA not understand the <code>:hover</code> rule (or if that rule fails as a result of any contained property that is also marked as <code>!required</code>) then everything within the <code>@group</code> should be ignored (therefore <code>bar</code> will not be hidden, and some other styles elsewhere could specify a degraded presentation).
+
+For my own use-case: The CSS for displaying the lists as pop-up menus would be wrapped within a <code>@group { }</code> and failure on a <code>li:hover</code> rule would also fail everything related to the collapsed menu system and not make the content inaccessible.
+
+<strong>N.B.</strong>
+<ol><li>If a style is marked as <code>!required</code> and is not contained within a <code>@group</code>, then the entire stylesheet should fail and be ignored.</li>
+<li>If a style is marked as <code>!required</code>, and contains a property that is marked as <code>!required</code> which then fails, then the entire style should fail.</li>
+</ol>
+
+This <code>!required</code> syntax would allow a user-agent to perform a 'self assessment' on what to apply, rather than any grotesque system of conditional styles based on software name (c.f. Microsoft's conditional comments extension to <abbr title="HyperText Mark-up Language">HTML</abbr>).
+
+I see no reason why <code>!required</code> could not also be applied to a <code>@group</code> (<code>@group !required { ... }</code>) and have the same failure inheritance applied to it as any other property &amp; style relationship.
+Whether nesting <code>@groups</code> would be taking the idea too far away from the interests of keeping a simpler syntax I don't know.
+
+Feedback is <em>greatly</em> appreciated, but it would be best sent to the <a href="http://lists.w3.org/Archives/Public/www-style/" title="www-style@w3.org Archive">w3c CSS mailing list</a>.

@@ -1,0 +1,17 @@
+---
+layout: blog
+category: blog
+title: "Tweaking Gmail Aesthetics"
+date: "2005-08-21T20:03:55+00:00"
+tags: ["technology"]
+atomid: tag:benward.me,2005-08-21:/blog/gmail_aesthetics
+---
+One of my chief irritations with <a href="http://gmail.com">Gmail</a> is the way in which it will embolden any folder with new mail, even 'Spam'. Making things bold encourages you to look at them and deal with the items inside it (be that reading or deleting). Spam folders aren't supposed to be distracting like this, they should just be there, lurking, for when I choose to check them.
+
+You can fix the spam distraction in Firefox (and other Mozillian browsers) using the userContent.css override file. You can find instructions for editing that in the <a href="http://kb.mozillazine.org/UserContent.css">Mozillazine Knowledge Base</a>.
+
+Anyway, here's a very simple rule for making the 'Spam' menu item not display in bold, so as not to distract you:
+<pre><code>#ds_spam b
+{
+  font-weight: normal;
+}</code></pre>

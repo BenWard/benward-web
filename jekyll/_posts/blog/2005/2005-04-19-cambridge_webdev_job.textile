@@ -1,0 +1,60 @@
+---
+layout: blog
+category: blog
+title: "Cambridge-based Web Dev Studios"
+date: "2005-04-19T23:55:33+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2005-04-19:/blog/cambridge_webdev_job
+---
+I'm trying to build myself a contingency plan for getting a job over the summer. Ideally I'll be staying in Bracknell until September and doing lots of web standards work for <a class="abbr" href="http://www.fujitsu-siemens.com" title="Fujitsu Siemens Computers">FSC</a>, but since that's rather in the balance for accommodation reasons, I'm looking for an alternative back home that doesn't start with "Mc".
+
+So far all the lists of "web designers" I've been able to find for Cambridge have been of limited use, since there's no way to differentiate between a studio large enough to take me on for 6 weeks as summer cover and the one-man-band-out-of-the-bedroom operations (not meaning any disrespect by that to the latter, it's just that you probably can't give me a job).
+
+More generic software houses are next on the same list, though I'd need to find someone doing pretty similar C#.NET work that what I do now to keep training requirements down.
+
+Suggestions are most welcome. In the chance event that one of the above is reading this very post, an email to ben [at] ben-ward dot co dot uk can provide you with a CV and something that might-possibly-sort of resemble a portfolio.
+
+Thanks very much.
+
+Oh, and this is the <em>proper</em> Cambridge, in the UK, not any funny copycat American Cambridge you might have.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-265">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/fb7d81b172292b6034f9c1747d5b11e0.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.fatbusinessman.com/">Fatty</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-265">
+        <time class="published" datetime="2005-04-20T09:39:31+00:00">20 Apr 2005, 09:39</time>
+      </a>
+      <div class="entry-content"><blockquote>I&#8217;m looking for an alternative back home that doesn&#8217;t start with &#8220;Mc&#8221;.</blockquote>
+<p><a href="http://bkcareers.com/opps.html" title="How about here?" rel="nofollow">http://bkcareers.com/opps.html</a>?</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-266">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/235792ff77a1afdf630d547d4ef06eb8.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ellythompson.co.uk">Elly</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-266">
+        <time class="published" datetime="2005-04-20T11:12:06+00:00">20 Apr 2005, 11:12</time>
+      </a>
+      <div class="entry-content"><blockquote>Oh, and this is the proper Cambridge, in the UK, not any funny copycat American Cambridge you might have.</blockquote>
+<p>You mean Cambridge, Cambridgeshire, UK, rather than Cambridge, Gloucestershire, UK, or any of the however-many-they-have-now US ones right?</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-267">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-267">
+        <time class="published" datetime="2005-04-20T11:43:40+00:00">20 Apr 2005, 11:43</time>
+      </a>
+      <div class="entry-content"><p>Ok, that serves me right for being all smug about the US Cambridges. Thank you for the geography lesson Elly ;)</p>
+<p>So yes, I mean Cambridge in Cambridgeshire.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

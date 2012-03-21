@@ -1,0 +1,25 @@
+---
+layout: blog
+category: blog
+title: "First thoughts on Microformats"
+date: "2005-06-29T00:02:17+00:00"
+tags: ["all", "technology", "web_standards"]
+atomid: tag:benward.me,2005-06-29:/blog/simple_microformats
+---
+<img src="/media/splashes/microformats.splash.gif" alt="" class="splash" /><a href="http://joshuaink.com/blog/351/first-impressions-of-microformats" title="First Impressions of Microformats">John Oxton</a> has posted about the rather spiffy new <a href="http://microformats.org">Microformats</a> specifications which are starting to grow in maturity and usefulness. John's initial reaction goes like this:
+<blockquote cite="http://joshuaink.com/blog/351/first-impressions-of-microformats"><p>My initial impression of Microformats from logging on to the site was that this was some major new technology, so technical is the blog and Wiki. I was a little surprised then to learn it was "just" XHTML after all. First on my Microformats wish list then, get someone on the blog that can communicate with us lower level geeks!</p></blockquote>
+The current state of Microformats is, sadly, very much 'not for lower level geeks' (God forbid the general populace). The specifications are newborn and, not to be too much of an apologist, time is needed for the specs to mature more and for people to really understand and communicate their usefulness in practice. I hope it wont take long.
+
+<a href="http://joshuaink.com/blog/351/first-impressions-of-microformats#c005030" title="Re: First impressions of Microformats">I left a comment</a> which attempts to offer some 'real world' footing to the Microformats concept. Two people said it opened their eyes on the matter and since that's never happened before, I'm going to capitalise and blog about it some more.
+<!--more-->
+
+Things you could one day soon be able to do with a web page embedded with Microformats. The example Microformats I refer to are: <a href="http://www.microformats.org/wiki/hcard">hCard</a> (for contact details), <a href="http://www.microformats.org/wiki/hcalendar">hCalendar</a> (for events) and <a href="http://www.microformats.org/wiki/hreview">hReview</a> (intuitively enough, for reviews).
+<ul><li><p>Visit a web page with an author�s embedded hCard (contained within an &lt;address> block, naturally). A �contact� icon appears in the status bar and clicking the icon gives you the option to �email the page author� and �add the page author to your address book�.</p></li>
+<li><p>Now take hCalendar, a potentially more universally useful format. Sites like <a href="http://upcoming.org">Upcoming.org</a> would no-longer need you to manually enter events information through their website, all you have to do is mark-up a blog post with hCalendar class names and Upcoming could instead glean this information from your RSS feed. Also, you could again have browser-side integration with things like the <a href="http://www.mozilla.org/projects/calendar/">Mozilla Firefox Calendar extension</a>.</p></li>
+<li><p>There�re also formats for mark-up up reviews (hReview) � providing the means for a centralised spider to collect all the ratings of a particular film from the entire Internet into one summary.</p>
+<p>So, rather than <a href="http://amazon.co.uk">Amazon</a> relying solely on members signing up and posting product reviews, Amazon's <a href="http://a9.com">A9 search engine</a> could collect the meta data from hReview mark-up in every website on the internet and add that to the product summaries.</p>
+</li></ul>
+
+I was thinking of what I hope are fairly simple examples. The idea of Amazon jumping on Microformats might be a bit of a pipe dream and would require reputable reviewers to be using hReview mark-up first. It's all a bit chicken and egg in that respect. Maybe something like <a href="http://imdb.com">IMDB</a> would be a more plausible example.
+
+I'm going to use Microformats where I can. Should I actually get on and start learning to write Firefox extensions like I intend to, then the 'add to address book' functionality I mention might not take too long, either.

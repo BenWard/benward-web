@@ -1,0 +1,47 @@
+---
+layout: blog
+category: blog
+title: "A tiny thought about Open Source software and bloat."
+date: "2005-04-06T21:49:48+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2005-04-06:/blog/open_source_bloat
+---
+This statement is getting pinned to my desk during software design sessions.
+
+<blockquote cite="http://blog.ben-ward.co.uk"><em>Why</em> is there a Media Player built into Open Office? <strong>Why</strong> is it in the tools menu of the word processor?</blockquote>
+
+Answers on a postcard. There may well be a postcard generator built into the Mozilla Suite.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-249">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/15c830373fb60ebfcd3f24b5d7321b71.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.jonty.me.uk/">Jonty</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-249">
+        <time class="published" datetime="2005-04-06T22:58:13+00:00">06 Apr 2005, 22:58</time>
+      </a>
+      <div class="entry-content"><p><abbr title="Laughs out Loud">lol</abbr>, good find Ben :) If that was Microsoft bundling products there would half a dozen class action law suits and an EU and US investigation. Oh, hang on &#8230; ;)</p>
+<p>Kind Regards</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-250">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-250">
+        <time class="published" datetime="2005-04-06T23:17:01+00:00">06 Apr 2005, 23:17</time>
+      </a>
+      <div class="entry-content"><p>It&#8217;s not even been bundled with the intend of being any good or trying to beat some other product in market share. I just can&#8217;t comprehend the <em>purpose</em> of it.</p>
+<p>Sure, maybe some kind of multimedia hooks would be appropriate in an Office Suite, but <strong>that&#8217;s why we have file associations</strong> and a means of choosing a preferred media player application.</p>
+<p>It&#8217;s wasted effort, feature bloat and it&#8217;s a bloody item on the Tools menu that <em>three people in the universe</em> will ever use.</p>
+<p>The first part of the Firefox aftermath has been that Open Source projects now have stonking great big &#8220;Download&#8221; links on their homepages. Part two needs to be applying the same &#8220;Why the fuck is that feature even part of our application?&#8221; attitude and (hopefully) encouraging some real UI designers into projects.</p>
+<p>It must be quite humilating to produce applications that get trounced for usability by Microsoft&#8217;s hopscotch approach to user interface&#8230;</p>
+<p>It&#8217;s the same kind of sympathy I&#8217;m preparing for the <abbr title="Internet Explorer">IE</abbr> development team; the feeling of producing a brand new application that&#8217;s not in any way as good as any of your significant rivals is really horrid.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

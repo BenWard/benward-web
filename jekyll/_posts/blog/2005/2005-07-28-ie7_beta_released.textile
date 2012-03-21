@@ -1,0 +1,79 @@
+---
+layout: blog
+category: blog
+title: "IE7 Beta Imminent"
+date: "2005-07-28T00:22:39+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2005-07-28:/blog/ie7_beta_released
+---
+The long awaited first beta of Microsoft's Internet Explorer version 7 has surfaced, and some screenshots with it.
+
+The beta is only going to be officially available to MSDN subscribers (so not public), but Microsoft have released a technical overview, offering details on the new features and bug fixes. You can find that on <a href="http://www.microsoft.com/downloads/details.aspx?FamilyId=718E9B3A-64FE-4A4C-9DDF-57AF0472EAD2&amp;displaylang=en" title="IE7 Beta Technical Notes">MSDN</a>. If you're <del>a goit</del><ins><a href="http:/fatbusinessman.com">Fatty</a></ins> and are allergic to proprietary file formats, I've created a <a href="http://blog.ben-ward.co.uk/media/IE7%20Technical%20Overview.pdf">PDF alternative</a> [1.1MB].
+
+The features list is pretty uninspiring, but until (read: unless) I get my hands on it I shan't comment on the standards support and so forth. That kind of thing can't and shouldn't be judged from armchairs.
+
+What I am concerned about though, is nicely demonstrated in the following screenshot:
+
+<img src="/media/IE7.jpg" alt="A default IE7 window, with standard toolbar buttons, the new tabs implementation and the �File� menu placed, obscurely, underneath the tabs" />
+
+Now, in the recent screenshots from Windows Vista beta 1, Microsoft have been messing about with the �File� menu a lot. They've moved it from its familiar position immediately underneath the title-bar to a position underneath the toolbar, sandwiched above the main window content.
+
+Personally, I think such user interface destruction is blindly stupid from the off. But to include it in the IE7 for Windows XP version too (as they seem to have) is just crazy. It screws up Microsoft's (already rather slim) User Interface rule-book and by moving one of the most familiar pieces of UI in the history of everything, they're going to make IE7 and Vista a lot less intuitive.
+
+Currently, although application windows can be moved around (and the �File� menu with it), the position of �File� is always the same, relative to the title bar (which is visually very distinct). By moving it underneath any number of toolbars, tabs and address bars though, the position is no-longer fixed. Toolbars can and do change in size; 3rd party toolbars added to the application will alter the position again. Then, consider that there is far less contrast between the newly positioned �File� menu and the other surrounding toolbars. Since there's no big blue title bar adjacent to it as a visual anchor, your eyes have to search for the menu every time.
+
+It's inconsistent with every other application on Windows and will, I expect, frustrate a lot of people. I also expect the idea to get dropped very soon - much like the crappy sidebar from the 40xx series of Longhorn builds last year.
+
+Small though it is, it's bewildering design decisions like this that leave me increasingly concerned for the quality of Microsoft's software.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-312">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/dc17387f19d96d6aeb53a0a9a02418dd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.jonty.me.uk/">Jonty</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-312">
+        <time class="published" datetime="2005-07-29T10:57:04+00:00">29 Jul 2005, 10:57</time>
+      </a>
+      <div class="entry-content"><p>I know I always ride to the rescue of Microsoft, but in this case I agree the design decisions highlighted are daft.</p>
+<p>That said, this is supposed to be a closed technical beta, and this tends to be forgetten. Sure, people are bound to be curious, but at the end of the day there&#8217;s still over a year of development time left. The Aero UI for Vista itself not yet finished, and will only be feature complete by Beta 2 which is still months off. Likewise this version of IE7 hasn&#8217;t been released separately because it too is nowhere near finished (quite why I&#8217;m not sure, little seems to have really changed). Anyway, UI wise, I wouldn&#8217;t worry too much until at least the Beta 2 stages.</p>
+<p>What is interesting is the little done to the rendering engine. <a href="http://www.mezzoblue.com/archives/2005/07/28/ie7_css_upda/" rel="nofollow">Mezzoblue</a> has taken the revised engine for a little test drive and, whilst the IE team have indeed fixed what they said they would (just about), they seem to have done little else.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-313">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/fd62601846e75754b6bfbe30a472a4c5.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">James Koole</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-313">
+        <time class="published" datetime="2005-07-29T19:35:34+00:00">29 Jul 2005, 19:35</time>
+      </a>
+      <div class="entry-content"><p>I&#8217;ve got a feeling that the tabs in IE7 are a kludge at best and that they have to put the File menu there to make it work.  In effect, IE7 is a viewer window and each tab is a separate browser, hence the file menu within the tab.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-314">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-314">
+        <time class="published" datetime="2005-07-29T20:06:04+00:00">29 Jul 2005, 20:06</time>
+      </a>
+      <div class="entry-content"><p>Hmm, I now know the reason for the file menu position. In Longhorn, many of the �File� menus are being replaced with a kinda of task-oriented toolbar jobby. The toolbar seems to work better at the bottom, but it seems that the side effect is that any remaining �File� menus are being placed oddly.</p>
+<p>This might work alright in Longhorn where it may or may not be consistant by the time it&#8217;s finished. For the XP version, however, there&#8217;s no good reason for it to be there. Heck, Mozilla can ship versions of Firefox with UI customisations for different operating systems (�Tools ? Options� on Windows, �Edit ? Preferences� on Linux and �Firefox ? Preferences� on Mac).</p>
+<p>They say that the UI in Longhorn won&#8217;t be done until Beta 2, so maybe the same is true of IE7. They&#8217;ve got some horrifying mistakes to rectify though.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-1613">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/f13bdebdbf2e3bba8f7cbb0c1a0592de.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Richard Cline</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-1613">
+        <time class="published" datetime="2006-04-26T13:02:17+00:00">26 Apr 2006, 13:02</time>
+      </a>
+      <div class="entry-content"><p>I just installed the latest iteration of IE7 and I too am having difficulty with the fixed position of the toolbar and the tab bar. I prefer the button bar and and my link list on one bar and my location and classic menu on the line above. If I have more than one page open then I can handle tabs right above the browser. Maybe I&#8217;m jst an old dog but why can&#8217;t they just keep the flexibility in the location of these toolbars?</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

@@ -1,0 +1,23 @@
+---
+layout: blog
+category: blog
+title: "The Internet needs deed polls"
+date: "2005-09-30T10:48:00+00:00"
+tags: ["all", "internet", "blogging", "identity", "ben_ward"]
+atomid: tag:benward.me,2005-09-30:/blog/changing_names
+---
+<img src="/media/splashes/BenNameTag.jpg" alt="" class="splash" />I first got online at the age of 14. It's terrifying in itself because this was nearly 7 years ago, but there's an  after effect of maintaining the same online presence for so long which now manifests itself. At the age of 21, with a growing concern for a more 'grown up' online image, I have a really, really silly name.
+<!--more-->
+Not 'Ben Ward'. I rather like that name and am rather glad not to be a woman and face losing it in marriage. The name in question is 'Shovel'. It's an alias I used when I first came online (stolen from a 5 minute GCSE English sketch, if I remember rightly. A guy called Neil actually thought of it). I joined forums with it, I played Quake with it and to this day am still recognised by it in certain dingy corners of the interweb.
+
+But it's cack. Let's face it, if you've got a <em>good</em> alias (like �Malarkey�, for example) then you're all set. �Shovel� is a garden tool and quite how I got away with it for so long is a bit of a mystery.
+
+The problem is that I've signed up using �Shovel� for a number of services, even quite recently. <a href="http://del.icio.us">Del.icio.us</a> and <a href="http://technorati.com">Technorati</a> spring to mind. A few weeks back, I've been undertaking the task of switching over to my prefered online name of, errr, �BenWard�.
+
+Technorati was a doddle. Sign up for a new account, reclaim my blog and upload the picture: Job done. Del.icio.us was rather harder as it required exporting my bookmarks from the old account and importing them into the new one.
+
+It's a rather difficult process since de.icio.us doesn't have a native process for importing just yet. You can export to XML, which is a handy start. What you then need though is <a href="http://hybernaut.com/bdv/delicious-restore.html">Perl restore script</a> by <a href="http://hybernaut.com/bdv/">Brian Del Vecchio</a>. I found that I got a number of connection time outs running the script on Windows, so running it requires some degree of manual intervention to monitor which links have been imported and trim them from your source XML file. Eventually though, all 110 of my links had been copied across, complete with tags.
+
+So whilst it was a bit of a faff, I seem to have my good name fairly entrenched. Except for <a href="http://last.fm">Last.FM</a>, which doesn't have a means to change username or migrate user data.
+
+All that remains is to collect the remaining hyphen-less variants of my domain name and the job is �done�.

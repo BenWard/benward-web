@@ -1,0 +1,28 @@
+---
+layout: blog
+category: blog
+title: "Post-BarCamp"
+date: "2007-02-20T01:35:51+00:00"
+updated: "2008-02-28T16:34:08+00:00"
+tags: ["all", "technology", "events", "barcamp", "barcamplondon2", "web"]
+atomid: http://ben-ward.co.uk/journal/barcamplondon2/
+---
+<a href="http://barcamp.org">BarCamp London 2</a> was a fantastic and enjoyable success this weekend.
+
+Lots of interesting things presented, but there was no escaping the presence of a more semantic web. 
+
+On a personal level my presentation on ASP.NET and Web Standards got a fairly sparse attendance (not much of a surprise, given ASP.NET's reputation), but I think I presented much, much better than last year so it was well worth it. 
+
+I also got to stand on a <a href="http://microformats.org">microformats</a> panel with people <a href="http://suda.co.uk" title="Brian Suda">far</a> <a href="http://factoryjoe.com" title="Chris Messina">more</a> <a href="http://adactio.com" title="Jeremy Keith">accomplished</a> than myself; an altogether great experience to talk in front of a large audience whilst surrounded by encouraging and passionate speakers. Thank you very much for including me, I hope I proved some worth.
+
+Also, does anyone have a photo of Windows Calendar crashing during my demo? (Update: <a href="http://www.flickr.com/photos/mn_francis/397645143/">Yay Norm!</a>)
+
+The presentations on RDF also caught my interest, and there's a <em>lengthy</em> post about that coming up next.
+
+Elsewhere, it was an all out enjoyable weekend. David Emery gave another interesting insight into the music industry, I finally got to meet fellow microformateers <a href="http://factoryjoe.com">Chris Messina</a> and <a href="http://suda.co.uk">Brian Suda</a>, Jeremy Keith and Brian drafted the XHTML Enemies Network at 4am on Sunday and Werewolf was great fun all night long. Oh, and <a href="http://nascentguruism.com">Steve</a> got <a href="http://www.flickr.com/photos/pixelm/394714797/">ridden side-saddle</a>. All in all, the UK technology scene is looking healthy and enthusiastic; apart from Steve who is just looking powerless in the face of women and Andy Budd's heckling.
+
+So microformats were out in force and are an increasingly accepted tool in the web design utility belt. Not everyone is on board yet, of course, but I do think there's a lot of motivation and encouragement for microformateers to push out some more complex and advanced demonstrations for the converted. Because microformats are so heavily based around real-world usefulness, any ‘next step’ demos we assemble are going to appeal to beginners as well. 
+
+I'm wondering if getting some working demo of decentralised social networking with OpenID would be the way to go. In fact, if a simple PHP library can be developed from that to make it implementable in existing, larger sites it could provide further benefits than a clever demo.
+
+Events like this are going to continue throughout the year with Manchester, Brighton and Newcastle already raised as possible locations for more BarCamp events. Ian also says he's keen to run some smaller grass-roots conferences in London. A good year and a busy conference season is in store.

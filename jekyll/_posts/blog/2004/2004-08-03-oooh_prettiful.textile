@@ -1,0 +1,14 @@
+---
+layout: blog
+category: blog
+title: "Oooh, prettiful"
+date: "2004-08-03T23:48:16+00:00"
+tags: ["technology"]
+atomid: tag:benward.me,2004-08-03:/blog/oooh_prettiful
+---
+The blogroll is fixed! Not really sure what was wrong, but today has been one of those days for senseless bugs, another occurred when I managed to inexplicably lose 4,500 navigation links somewhere in the depths of the Fujitsu-Siemens dev database.
+
+I've also pulled out my figure and added a little bit of prettiness to make the Blog "mine", which appears in the form of the odd and non-descript looking background at the top. It's prettier than plain blue at least. Took about 5 minutes with a rough brush in Photoshop.
+The long term plan is to have a set of randomly selected headers, but I'll have to work out a sensible way of doing that another time.
+
+There's also a little bit of tweaking gone into the AudioScrobbler RDF to stop it using die() when the XML doesn't load. This'll be fixed this week anyway when I actually set up some caching and stop hitting the AS server with every page load. There's not too much worry, since all of 4 people read this Blog but out of good manners and long-term planning I'll implement some sensible caching very soon, probably just rip it out of the blogroll code...

@@ -1,0 +1,87 @@
+---
+layout: blog
+category: blog
+title: "Peanut Butter Crumpets"
+date: "2005-11-10T02:53:26-01:00"
+updated: "2005-11-12T23:33:49-01:00"
+tags: ["all", "jon-hicks", "food", "mcville"]
+atomid: http://ben-ward.co.uk/journal/peanut-butter-crumpets/
+---
+<img class="splash" src="/media/splashes/crumpet.splash.png" alt=""/> I'd never eaten peanut butter outside of a Satay sauce before, but Jon Hicks mentioned something in his <a href="http://www.mcville.net/article/26/jon-hicks-interview">mcville interview</a> that made me outrageously hungry:
+
+<blockquote cite="http://www.mcville.net/article/26/jon-hicks-interview">�hot buttered crumpets with big lashings of peanut butter (all melting into the crumpet!)</blockquote>
+
+All I'm going to say is this: Listen to the man, he knows of what he speaks. 
+And now I'm hungry again.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-427">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/1de2a5c9c718ffee405647e016942e8b.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://hicksdesign.co.uk">Jon Hicks</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-427">
+        <time class="published" datetime="2005-11-10T10:07:29-01:00">10 Nov 2005, 10:07</time>
+      </a>
+      <div class="entry-content"><p>They will most likely kill you though! Crumpets are low in fat, but the butter and peanut butter ain&#8217;t! ;o)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-428">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/3218e487b7fd7b7b0d6f02bef3227e39.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://nascentguruism.com">Steve Marshall</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-428">
+        <time class="published" datetime="2005-11-10T10:31:37-01:00">10 Nov 2005, 10:31</time>
+      </a>
+      <div class="entry-content"><p>mmmmm Killer Crumpets!</p>
+<p>Ok, so not only has Jon worked his way into all of my vavourite browsers (OmniWeb, Safari via pimping, and, obviously, Firefox) now he&#8217;s working his way into my diet too!</p>
+<p>Jon: Maybe PimpMyDiet.com is in order, linking to fabulous cheeses and crumpet toppings?</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-429">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-429">
+        <time class="published" datetime="2005-11-10T12:43:32-01:00">10 Nov 2005, 12:43</time>
+      </a>
+      <div class="entry-content"><p>Steve &#8211; hicksdesign.co.uk already exists, why do you need PimpMyDiet?</p>
+<p>mmmFatalCrumpet�</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-430">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/f92443abafe237dd61bab48899689589.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://nascentguruism.com">Steve Marshall</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-430">
+        <time class="published" datetime="2005-11-10T20:15:24-01:00">10 Nov 2005, 20:15</time>
+      </a>
+      <div class="entry-content"><p>The problem with hicksdesign.co.uk is that it&#8217;s not focused enough on death-by-diet.</p>
+<p>There&#8217;s far too much <a href="http://www.hicksdesign.co.uk/journal/another-use-for-apple-care" rel="nofollow">piracy</a> going on there, for starters&#8230;</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-434">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/5a9583ae807e37ef69f5f650b833d316.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.mcville.net">Marko</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-434">
+        <time class="published" datetime="2005-11-12T21:23:17-01:00">12 Nov 2005, 21:23</time>
+      </a>
+      <div class="entry-content"><p>Heya m8 , it isn&#8217;t spelled McVIlle &#8211; it&#8217;s -&gt; mcville</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-521">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/d513208875bc85e34b54c1649636cb23.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Skip Oberon</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-521">
+        <time class="published" datetime="2005-11-30T21:28:00-01:00">30 Nov 2005, 21:28</time>
+      </a>
+      <div class="entry-content"><p>I have to try those peanut butter crumpets. They sure sound yumlicious. Unlike you, I am quite experienced in peanut butter eating. Don&#8217;t get me wrong, satay is great and all, but there are so many other peanut buttery delights out there. Ever heard of &#8220;Chipped Chicken a la Pete&#8221;? Look it up if you haven&#8217;t. Mmmm-<span class="caps">MMM</span>! Peanut butter isn&#8217;t just for entrees and appetizers either&#8230; there is an entire <span class="caps">UNIVERSE</span> of desserts that involve some form of the gooey, rich and chewy ambrosia. Peanut butter, unlike plain peanuts, is actually a processed food which can be purchased in a jar. Many people are confused by this point. Please do your homework next go &#8216;round and get back to me when you&#8217;ve got it all sorted out.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

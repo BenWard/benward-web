@@ -1,0 +1,48 @@
+---
+layout: blog
+category: blog
+title: "Testing IE7 Revisited"
+date: "2006-03-20T23:10:41+00:00"
+updated: "2006-03-20T23:17:39+00:00"
+tags: ["technology", "microsoft", "windows", "bugs", "ie7", "virtual-pc", "product-activation", "windows-genuine-advantage"]
+atomid: http://ben-ward.co.uk/journal/testing-ie7-revisited/
+---
+At the beginning of February <a href="http://ben-ward.co.uk/journal/trying-to-test-ie7/" title="On trying to test IE7">I wrote about</a> the fact that it seemed impossible to test Microsoft's IE7 beta legally and without hacks without making a large financial outlay for Virtual PC and a fresh Windows XP license.
+
+Today, neatly coinciding with the <a href="http://blogs.msdn.com/ie/archive/2006/03/20/555703.aspx" title="">release of the second beta 2 preview</a> I stumbled upon my long discarded Windows XP Home Edition CD. I swear I thought I'd long lost it. Just before rebooting VPC to reinstall, I figured I'd give Activation one more try - as you do - and if that failed try typing in my Home Edition serial in case that worked and saved me the reinstall (it shouldn't work).
+
+Somewhat unexpectedly my VPC install of Windows, three weeks outside of the activation grace period, successfully ran the activation procedure. I now have a fully functional second install of Windows using the same license key as my host system. All I had to do was… wait.
+
+Some days you just sigh.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-936">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/6db1ac4911d03473d52634c979a18041.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.benedictoneill.com/">Ben O'Neill</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-936">
+        <time class="published" datetime="2006-03-24T14:19:52+00:00">24 Mar 2006, 14:19</time>
+      </a>
+      <div class="entry-content"><p>Once you&#8217;re out of the activation period (when you can use Windows but it nags you) you enter the you-must-activate-windows-now period, where you can&#8217;t do anything until you&#8217;ve activated &#8212; that&#8217;s how I thought it worked.</p>
+<p>Also you can use any valid key, obviously you&#8217;re not supposed to but they don&#8217;t know ;).  I don&#8217;t know what the license actually says about virtual PCs etc.</p>
+<p>I&#8217;ve reinstalled my copy of Windows 10 or more times, most times it activates fine, sometimes it asks me to ring and activate (automated, free phone call).  I think the last time it asked me to ring was when I changed my motherboard &#8230;</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-937">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-937">
+        <time class="published" datetime="2006-03-24T14:59:08+00:00">24 Mar 2006, 14:59</time>
+      </a>
+      <div class="entry-content"><p>That&#8217;s how I thought it worked too. Thing is though, I had Win XP in &#8216;save state&#8217; (a Virtual PC feature where you just &#8216;pause&#8217; the machine rather than &#8216;shutting down&#8217; when you quit. Kinda like &#8216;Hibernate&#8217; or &#8216;Sleep&#8217; on a physical machine I suppose, but without the hosted operating system knowing anything about it).</p>
+<p>I just restored the running Windows XP after about three/four weeks which I suspect bypassed the &#8216;You must activate now!!&#8217; check. It seems that it also confused the feck out of the activation system altogether. It&#8217;s so, so odd. There&#8217;s no logical reason for it to fail activation one day and work later. Is there?</p>
+<p>Anyway, IE7 is now installed for testing. Which is nice.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

@@ -1,0 +1,69 @@
+---
+layout: blog
+category: blog
+title: "The problem of designing without colour"
+date: "2005-06-24T01:20:10+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2005-06-24:/blog/design_without_colour
+---
+You may be aware that I've been quietly and not-so-quietly planning a major redesign of these pages for a while now. It involves switching from <a href="http://b2evolution.com">b2Evo</a> to <a href="http://wordpress.org">Wordpress</a>, tweaking it, customising it and finally revealing a new look to call my own.
+
+There journey so far has not been entirely productive. In journey terms - for those into wreckless analogies - we're about half way down the driveeway. There have been a number of hitches and associated excuses before now, but with some pride this particular hitch is <em>actually related to doing the design</em>. This is progress, see? Crappy progress yes, but at least I'm gaining.
+
+My first designs are always on paper. I have an A4 pad of squared paper (the kind with 80 sheets and the slightly smaller squares) which I sketch designs onto whilst sitting on train journeys. The designs I've got are good, they look unashamedly like a blog. The problem is that they're all grey outlines. Grey pencil, to be precise.
+
+Now I'm sitting with a logo design that I'm pleased with, a layout I like, some thoughts about typography and many thoughts about HTML structure. But no colour. I've become completely accustomed to my new design being greyscale and as much as I try to think through colour ideas it all ends up feeling unbalanced and overpowering.
+
+I have some plans to resolve the problem, but I've no idea if they'll work. Plan number 1 is to 'borrow' as many colour swatches from Homebase as I can and then introduce them to a pair of scissors. Plan number 2 is to learn to make digital colour swatches by following the instructions of <a href="http://joshuaink.com/blog/144/" title="Making a colour swatch in Fireworks">Oxton</a> and <a href="http://www.stuffandnonsense.co.uk/archives/creating_colour_palettes.html" title="Creating colour palettes">Clarke</a> (<a href="http://www.stuffandnonsense.co.uk/archives/web_imitates_art.html" title="Web imitates art">twice</a>). I'm just terrified that it might not help...
+
+So, please lend an idea or three; how do <em>you</em> do colour?
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-294">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/627d78d5359c9ed8f307d7afe230cdcb.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://dk04.com">Jono</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-294">
+        <time class="published" datetime="2005-06-24T09:12:12+00:00">24 Jun 2005, 09:12</time>
+      </a>
+      <div class="entry-content"><p>Usually once i&#8217;ve got the site layout looking how i want it on paper, i will mock it up in illustrator and colour it in there, i find it easy to swap colours then, and its also good for placing your type.I also find it helps if i print out these designs so i can doodle on them later if i get new ideas</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-295">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/235792ff77a1afdf630d547d4ef06eb8.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ellythompson.co.uk">Elly</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-295">
+        <time class="published" datetime="2005-06-24T10:06:13+00:00">24 Jun 2005, 10:06</time>
+      </a>
+      <div class="entry-content"><p>I carry a small pack of coloured pencils with me ;)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-296">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/235792ff77a1afdf630d547d4ef06eb8.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ellythompson.co.uk">Elly</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-296">
+        <time class="published" datetime="2005-06-24T10:25:53+00:00">24 Jun 2005, 10:25</time>
+      </a>
+      <div class="entry-content"><p>Seriously though, besides carrying coloured pencils (and a camera, you never know when you&#8217;re going to find something that&#8217;s a great colour) I find the best way to design <em>for</em> colour is to design <em>with</em> colour &#8211; adjusting later is always easier than adding later.</p>
+<p>And besides, who said greyscale isn&#8217;t a perfectly valid colour palette.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-297">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-297">
+        <time class="published" datetime="2005-06-24T10:33:47+00:00">24 Jun 2005, 10:33</time>
+      </a>
+      <div class="entry-content"><p>That&#8217;s one of the problems. The greyscale sketches look really nice. I&#8217;d actually really like to try and build a page out of pencil sketches. It would be image heavy as lead (or at least, as image heacy as a high resolution picture of lead) but could look really rather nice.</p>
+<p>I&#8217;m off to buy a pocket sized box of pencils. And a new belt to which I can attach my camera. Thanks for those ideas.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

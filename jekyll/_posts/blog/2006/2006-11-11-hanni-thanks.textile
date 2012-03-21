@@ -1,0 +1,10 @@
+---
+layout: blog
+category: blog
+title: "Hanni says “thank you”"
+date: "2006-11-11T23:59:19+00:00"
+updated: "2006-11-12T00:00:33+00:00"
+tags: ["all", "birthday", "hanni", "camera", "hanniross", "thankyou"]
+atomid: http://ben-ward.co.uk/journal/hanni-thanks/
+---
+Since <a href="http://hanniross.com">Hanni's blogging</a> is rather low-key since her pinksocks.co.uk domain combusted, I'll drop a little pointer towards Hanni <a href="http://hanniross.com/notes/thank-you-conspirators/">saying thank you</a> for the camera we got her last week. She's also said it <a href="http://flickr.com/photos/hanni/294592144/">photographically</a>.

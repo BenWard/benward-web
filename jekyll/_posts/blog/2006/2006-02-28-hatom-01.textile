@@ -1,0 +1,96 @@
+---
+layout: blog
+category: blog
+title: "hAtom 0.1 Microformat published"
+date: "2006-02-28T22:29:35+00:00"
+updated: "2006-02-28T23:33:51+00:00"
+tags: ["technology", "feeds", "microformats", "hatom", "atom", "syndication", "comment-tracking"]
+atomid: http://ben-ward.co.uk/journal/hatom-01/
+---
+<img class="splash" alt="" src="/media/splashes/hAtom.splash.png"/> I like <a href="http://microformats.org">Microformats</a>. The potential for doing Really Useful Stuff with the internet is immense: Embedding <a href="http://microformats.org/wiki/hcalendar" title="hCalendar">events</a> and <a href="http://microformats.org/wiki/hcard" title="hCard">contact information</a> into regular (X)HTML pages, <a href="http://gmpg.org/xfn" title="XFN">representing relationships</a> and now, <a href="http://microformats.org/wiki/hatom" title="hAtom">describing feeds</a>.
+
+At first glance, people might wonder what the point of the <a href="http://microformats.org/wiki/hatom">hAtom</a> <abbr title="microformat">µF</abbr> is. Every blogging <abbr title="content management system">CMS</abbr> under the sun already offers content feeds, why duplicate the information? One massive, real-world advantage comes to those who aren't using Wordpress: Comment feeds*.
+
+Wordpress, for all its faults, has one very nifty feature: For every post you make, Wordpress will generate a feed of that post and its comments. If I comment on <a href="http://fatbusinessman.com">Fatty's blog</a> or <a href="http://joanslow.com">Jo's</a> or <a href="http://pinksocks.co.uk">Hanni's</a>, I can subscribe to an RSS2.0 format feed to get updates of the new comments that follow mine. 
+
+However, if I comment on <a href="http://joshuaink.com">John's blog</a>, <a href="http://stuffandnonsense.co.uk">Malarkey's Stuff and Nonsense</a> or <a href="http://collylogic.com">CollyLogic</a>, which run on TextPattern, Movable Type and Expression Engine respectively, I can't subscribe to any comment feed. Those CMS don't provide that feature.
+
+The hAtom µF allows content authors using <em>any</em> CMS to create a per-post Atom feed, by including hAtom feed mark-up as part of their template. The page can be transformed using an XSLT Stylesheet into a standalone Atom 1.0 XML feed, subscribable like the best of them. With a bit of luck, services such as <a href="http://feedburner.com">FeedBurner</a> could even integrate hAtom support directly.
+
+If people would take the time to adopt hAtom as it matures, comment tracking won't be such a mashup of email notifications, feed subscriptions and Delicious bookmarking. Instead, it'll just be one more thing to do with your feed reader.
+
+If you want to experiment with hAtom, Luke Arno is running an <a href="http://lukearno.com/projects/hatom2atom">hAtom to Atom proxy</a>, and has said he'll keep it up to date as the hAtom to Atom XSLT is updated.
+
+*Of course, this is not the only use-case for hAtom. It's got many other potential benefits to content syndication and interoperable mark-up of blog content. It just happens that Comment Tracking is my axe to grind at the moment, and it provides a detailed and practical example. I'm sure there are many new ideas that could be created off the back of more interoperable Blogs.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-865">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/fc6e6f4412f270b70b869cf7757122d4.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://singpolyma-tech.blogspot.com/">Stephen Paul Weber</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-865">
+        <time class="published" datetime="2006-03-06T17:12:06+00:00">06 Mar 2006, 17:12</time>
+      </a>
+      <div class="entry-content"><p>I find this use-case confusing &#8212; hAtom <i>does not</i> encapsulate the comment data in any way.  My <a href="http://blogxoxo.blogspot.com/2006/01/xoxo-blog-format.html" rel="nofollow"><span class="caps">XOXO</span> Blog Format</a> (which is based on hAtom, but needs to be upgraded to work with v0.1) does, but it is not an official standard.  I agree that comments feeds are useful (hence when I created <a href="http://bloggercomments.ning.com/" rel="nofollow">Blogger Recent Comments</a> and the <span class="caps">XOXO</span> Blog Format to do this for Blogger blogs, but how could hAtom help with that if they don&#8217;t even encapsulate the data?</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-866">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-866">
+        <time class="published" datetime="2006-03-06T17:44:58+00:00">06 Mar 2006, 17:44</time>
+      </a>
+      <div class="entry-content"><p>The way understand it, each comment would be marked up as an hEntry. That doesn&#8217;t make a distinction between the original entry and the comments (which could be desirable), but it does create a feed similar to that provided by Wordpress, potentially with the addition of the original entry as the first feed item.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-869">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/6473295cb1ca61aa263a3325f568c409.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.collylogic.com">Colly</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-869">
+        <time class="published" datetime="2006-03-06T23:07:17+00:00">06 Mar 2006, 23:07</time>
+      </a>
+      <div class="entry-content"><p>At least with my blog you can choose to get an email each time someone comments &#8211; which is better than nowt. I think I could set up comment feeds anyway, they just don&#8217;t come by default. I had another point, but it&#8217;s gone&#8230;</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-872">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-872">
+        <time class="published" datetime="2006-03-07T01:26:11+00:00">07 Mar 2006, 01:26</time>
+      </a>
+      <div class="entry-content"><p>Ah blast, I&#8217;d forgotten to mention that in my post, Colly. I do much appreciate the email subscription on your blog (I certainly make good use of it). Yours is just my number one ‘Expression Engine Example’.</p>
+<p>There&#8217;re a handful of other regular reads that offer email notification as well. I do apologise, though, I should&#8217;ve mentioned that your blog makes other efforts, out of politeness if nothing else.</p>
+<p>I guess the thing I strive for is something universal across all blog platforms. Receiving emails for some blogs, checking feeds for others and manually returning to bookmarks for more is the part I don&#8217;t care for in the current generation of blogging technology.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-873">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/fc3a4946f94c3c2d78b0577381527e38.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://nathanpitman.com">Nathan Pitman</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-873">
+        <time class="published" datetime="2006-03-07T10:51:51+00:00">07 Mar 2006, 10:51</time>
+      </a>
+      <div class="entry-content"><p>I think I actually prefer the whole &#8216;email comment subscription&#8217; thing over having to subscribe to a comment feed. Not sure why, just personal preference I guess. :)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-874">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-874">
+        <time class="published" datetime="2006-03-07T11:52:55+00:00">07 Mar 2006, 11:52</time>
+      </a>
+      <div class="entry-content"><p>Given how minimal the UI for email notification is, I think it&#8217;s a good thing to offer anyway (errr, it&#8217;ll come when I redesign, honest guv&#8217;).</p>
+<p>I do think that email notification is OK and it does its job as advertised. However, I also think that a feed would have greater benefits for being able to read an entire thread of comments at once, and that being able to track many conversations through the same interface would be a big convenience.</p>
+<p>Fundamentally, I just want to have the <em>same</em> tracking system available everywhere. If the world favours email over feeds that&#8217;s absolutely fine so long as it becomes a universal feature.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

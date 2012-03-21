@@ -1,0 +1,75 @@
+---
+layout: blog
+category: blog
+title: "Reboot Update"
+date: "2005-10-03T01:35:31+00:00"
+updated: "2005-10-11T23:41:15-01:00"
+tags: ["all", "technology", "design", "blogging", "ben_ward", "css-reboot"]
+atomid: tag:benward.me,2005-10-03:/blog/reboot_update
+---
+We're all of thirty days away from CSS Reboot and things aren't looking so hot at Chateaux Ben.
+
+As is my style, I've got waylaid with other things (�ooh shiny� and so forth) and the design is still very much in genesis. In fact, I'm currently stuck on finding the right font to write �Ben Ward� in. Bear in mind that �Ben Ward� goes at the top of the page and you have some idea of my problems here.
+<!--more-->
+
+Not that my efforts of late are a complete waste. Final year project ambitions are starting to come under control and I've got an opportunity to create a Desktop Search tool that might do something <em>just</em> different enough from the competition to make it worth maintaining after this year is done.
+
+Second job on the go is trying to do a quick port of <a href="http://resintheband.com">Resin</a>'s website over to <a href="http://textpattern.com">TextPattern</a> so that Josh can keep it up-to-date himself.
+
+I've also been lucky enough to get ongoing sneak-peaks and input opportunities for Stevie �no blog� Marshall's <a href="http://nascentguruism.com" title="Nascentguruism">new, err, blog</a>. He and I spent many an hour at work over the last year pooling ideas for our respective redesigns. From the ideas and CSS tricks we created and from what I've seen of his XHTML &amp; CSS since then, the new site is a gospel tribute to being a complete, utter, pedantic goit. That is to say, <em>It's really fucking hardcore attentive hot shit as</em>. The attention to detail in the typography makes me green. (On a closely related note: which is the <em>good</em> typography book, Steve? I need it).
+
+Short of him fucking it up (I have faith really), I'm really looking forward to the reaction it gets from the web standards community. I'm also hoping that he's left in some of our joint endeavours, since that way I can steal some credit for his inevitable success, whilst neatly stepping over my lack thereof.
+
+Anyhow, I look forward to being referred to as Ben �No Redesign� Ward for the foreseeable future.
+
+I did fix a small bug in the current site today, namely that Safari was coking on the <code>&lt;base /></code> and thus the search was broken. That's fixed now, and I've removed the CSS on form buttons because I think that native form controls look better with this design.
+
+<strong>Update:</strong> The URI for Stevie's site is <a href="http://nascentguruism.com" title="Nascentguruism">nascentguruism.com</a>, complete with placeholder and everything.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-352">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/3218e487b7fd7b7b0d6f02bef3227e39.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Steve Marshall</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-352">
+        <time class="published" datetime="2005-10-03T09:34:32+00:00">03 Oct 2005, 09:34</time>
+      </a>
+      <div class="entry-content"><p>Dude, the book you&#8217;re after is <a href="http://www.amazon.co.uk/exec/obidos/ASIN/0881792055/qid=1128327435/sr=2-2/ref=sr_2_11_2/202-4063111-8890251" rel="nofollow">&lsquo;The Elements of Typographic Style&rsquo;</a> by Robert Bringhurst. (It&#8217;s also available in <a href="http://www.amazon.co.uk/exec/obidos/ASIN/0881792063/qid=1128327435/sr=2-1/ref=sr_2_11_1/202-4063111-8890251" rel="nofollow">paperback</a>, but that&#8217;d be like buying a print of the Mona Lisa from the gift shop of Le Louvre and not bothering to see the real thing, especially considering the paltry �5 difference. Get the hardcover; it&#8217;s worth it.)</p>
+<p>As for the site, I have a very slight problem &#8211; I managed to lose my ie_hacks.css file (probably did something really clever like deleting it) and now can&#8217;t get sodding AlphaImageLoaders in IE to play nice and <em>just load the sodding <span class="caps">PNG</span>, you bastard!</em> <strong>ahem</strong></p>
+<p>So yeah, I&#8217;m having issues with IE at the moment. I have, however, come to the following resolute decision: make it look good in Safari, Firefox, and Camino (all three done) and then make it look passable in IE6 (not done). Everything else (Opera, IE&lt;6, IE:mac, NN&lt;=4, phones, et al.) can wait &#8216;til it&#8217;s live, simply because otherwise I&#8217;ll die before it&#8217;s done.</p>
+<p>I really can&#8217;t wait to put it live (I&#8217;m aiming for this weekend, so that it&#8217;s up just in time for <a href="http://www.andybudd.com/" title="Andy Budd" rel="nofollow">someone</a> coming to the office), but I wanna get it sorted in IE first. (If you&#8217;ve got a free evening this week mate, it&#8217;d be helpful). I do, however, need a decent host&hellip; I&#8217;m considering ImHosted&#8217;s <a href="http://imhosted.com/hosting_plans.shtml" rel="nofollow">starter plan</a> &ndash; 5GiB space, 150GiB bandwidth a month, unlimited e-mail addresses, and less than $10 a month. Waddya think?</p>
+<p>I&#8217;m also really glad you think that my work is that good bud, and yes, most of the stuff we worked out (IE hacks notwithstanding) is still there, pretty much untouched. Still, we&#8217;ll see what the wider web thinks soon enough (I hope).</p>
+<p>And I can&#8217;t really comment on your tardiness with <em>redesigning</em>, considering that I&#8217;ve been <em>designing</em> for the last nine months&hellip;</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-351">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-351">
+        <time class="published" datetime="2005-10-03T10:53:59+00:00">03 Oct 2005, 10:53</time>
+      </a>
+      <div class="entry-content"><p>If I can find a free evening then yeah, I&#8217;ll be happy to give a look over the IE hacks. That said, it&#8217;s taken quite a while just to re-familiarise myself with the far simpler <span class="caps">CSS</span> for my brother&#8217;s site, so I shan&#8217;t promise much in the way of results!</p>
+<p>I&#8217;ll pick up a copy of the book, and possibly J. Keith&#8217;s �<cite><span class="caps">DOM</span> Scripting�</cite> when I order my university reading list.</p>
+<p>As for hosting: Fatty and I get along quite happy with much smaller-scale hosting than you quote. It&#8217;s <a href="http://neathosting.com" rel="nofollow">NeatHosting</a>, but I can&#8217;t remember the details &#8217;cause he sorted it all out. It costs us £60 a year and �<cite>just works�</cite> for blog hosting and the like.</p>
+<p>More up market, I&#8217;ve heard very good things about Dreamhost. I think you get pretty substantial power over your set-up with them: Ruby and PHP5 can all be available if I remember rightly. Not sure about newer versions of MySQL. I remember reading about a Gmail-esque storage and bandwidth policy, whereby both just constantly increase over time. I can&#8217;t remember prices though, I imagine it&#8217;ll be in a slightly higher range, though. I&#8217;d give some serious thought to whether you really need something that mega for what you want to put online.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-353">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/3218e487b7fd7b7b0d6f02bef3227e39.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Steve Marshall</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-353">
+        <time class="published" datetime="2005-10-03T11:40:21+00:00">03 Oct 2005, 11:40</time>
+      </a>
+      <div class="entry-content"><p>Dreamhost it is!</p>
+<p>What really sealed the deal was that their <a href="http://www.dreamhost.com/shared/comparison.html" rel="nofollow">crazy domain insane</a> has all the same features as ImHosted&#8217;s basic plan, for the same sort of money&hellip;</p>
+<p>Save the fact that, as it&#8217;s DreamHost&#8217;s 8th birthday, they&#8217;re offering 80% off all 1 or 2 year subscriptions to their service when you provide the promo code &#8216;888&#8217; (sans quotes, of course). Therefore, I&#8217;ve just paid $23.88 (circa �13.50) for a year&#8217;s hosting with nearly 5GiB of storage and 120GiB of bandwidth, which increases every week! That&#8217;s also including domain registration, to boot!</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

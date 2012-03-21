@@ -1,0 +1,94 @@
+---
+layout: blog
+category: blog
+title: "Migrating an iTunes Library"
+date: "2006-06-25T23:46:02+00:00"
+updated: "2006-06-25T23:47:55+00:00"
+tags: ["technology", "music", "windows", "itunes", "xml", "migration", "mac", "plist", "hack"]
+atomid: http://ben-ward.co.uk/journal/migrating-itunes/
+---
+Go go lazyweb!
+
+Here's the deal: I usually use my PC to listen to music but having just moved back home, there's no room to set it up. Therefore I've instead copied a small subset of that music onto my iBook and will be using that instead for the next few months - iPod syncing et al.
+
+This is great, but just copying the files over causes me to lose ratings and play counts, which are in turn vital for the Smart Playlists that are used to fill my iPod.
+
+Both my iTunes/Win and iTunes/Mac music libraries were set to have the music organised by iTunes, therefore the music has the same names and subdirectory structure on both machines. The difference is just the location of the library: <code>file://localhost/D:/All%20Users/Music/</code> on the PC and <code>file://localhost/benward/Music/iTunes/iTunes%20Music/</code> on the Mac.
+
+Now, I've had suggestions of mirroring the <em>entire</em> PC Library onto the Mac and then just trimming out the music I don't want, but there isn't enough disc space. Nor is there enough disc space on the PC the mirror it locally, trim it and then migrate the whole lot to the Mac.
+
+My attempted solution has been to copy ‘iTunes Music Library.xml’ file from the PC to the iBook and use Find+Replace to change the paths to the files. If this worked it would leave about 3000 dead tracks in my iBook Library, but I suspect that can be cleaned up with a script afterwards.
+
+Trouble is, find and replace doesn't work. I amend the PC library's paths, delete the iTunes library files and place the modified XML in the Mac's iTunes Music directory. Restarting iTunes opens with an empty default Library, replacing my hacked version.
+
+So, does anyone understand the iTunes XML PList better than me and fancy a guess at the hacking required to migrate it?
+
+Thanks.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-4512">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/ce72812a01c992404b450bb351e4dcbe.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://nascentguruism.com/">Steve Marshall</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-4512">
+        <time class="published" datetime="2006-06-26T15:32:16+00:00">26 Jun 2006, 15:32</time>
+      </a>
+      <div class="entry-content"><p>Ok… I&#8217;ll try to explain again.</p>
+<p>The full mirror thing is what we, in the industry of techmologies call a &#8216;backup in case Ben breaks things and cries with the waa-waa-waaing&#8217;.</p>
+<p>With that in mind:</p>
+<ol>
+	<li>On the PC, trim down your iTunes library to what you wanna keep in iTunes.</li>
+	<li>Close iTunes <em>everywhere, ever</em></li>
+	<li>Then do the find and replace dance you mentioned.</li>
+	<li>Copy all files to iBook, including iTunes Music Library.xml and iTunes Library.itl, but <em>not</em> to ~/Music/[blah]. <strong>Do not delete the files from the PC just in case of jam/coke/flaming iBook disc rapists</strong></li>
+	<li>Find the equivalent of iTunes Library.itl on the iBook, and rename the copied-from-PC iTunes # Library.itl to match.</li>
+	<li>Move the copied-from-PC files to the appropriate place (library files in ~/Music/iTunes/, but I&#8217;m not certain &#8211; depends where they may be in the PC…)</li>
+	<li>Open iTunes and hope.</li>
+</ol>
+<p>If this doesn&#8217;t work, then I dunno. I think this worked for me. Or it didn&#8217;t, and I simply did the &#8216;import <span class="caps">XML</span>&#8217; thing after copying the files across and putting them where I wanted &#8216;em, but didn&#8217;t worry about losing playcounts and ratings. I forget which. I think it may have been the former, but a knowledge of iTunes suggests the latter.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-5982">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/19332dd43a810d85941c139d0da3597e.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.markwilson.co.uk/blog/">Mark Wilson</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-5982">
+        <time class="published" datetime="2006-07-12T22:25:23+00:00">12 Jul 2006, 22:25</time>
+      </a>
+      <div class="entry-content"><p>Ben,<br />
+You need to empty the .itl file too (i.e. open it up and delete the contents, then save it again) &#8211; that will make iTunes think its corrupt, then will rebuild from your edited .xml.</p>
+<p>There&#8217;s a load more info at http://hifiblog.com/past/2006/05/11/howto-move-your-itunes-music-while-preserving-library-data-when-you-dont-let-itunes-manage-your-music-library/ and it&#8217;s just worked for me &#8211; I&#8217;ll write it up and let you know when I&#8217;ve posted the method on my blog.</p>
+<p><span class="caps">HTH</span>, Mark</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-9204">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-9204">
+        <time class="published" datetime="2006-07-31T22:53:22+00:00">31 Jul 2006, 22:53</time>
+      </a>
+      <div class="entry-content"><p>Steve: Thanks. My previous failures came from not including the <span class="caps">ITL</span> file, or more specifically as Mark enlightens, I started iTunes up with <em>just</em> an <span class="caps">XML</span> file, no <span class="caps">ITL</span> at all. That cause it to reset to default. The the self-corrupted <span class="caps">ITL</span> as Mark suggested iTunes went into restoration mode and seems to have imported everything as I&#8217;d hope it would.</p>
+<p>Thank you very much both. I can finally sync my iPod again!</p>
+<p>Ben</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-178405">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/adeb5753fe3cba5a4b7152d9f86645e8.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">gr</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-178405">
+        <time class="published" datetime="2007-07-04T06:56:14+00:00">04 Jul 2007, 06:56</time>
+      </a>
+      <div class="entry-content"><p>Um.</p>
+<p>Is there something wrong with doing File -&gt; Import on the iBook side?</p>
+<p>That&#8217;s what it&#8217;s there for. Just import the xml file from you PC, and it will go put things in the right place. Oh.. and you want to import the <span class="caps">XML</span> file produced by File -&gt; Export Library, not necessarily the one you scrounged out manually.</p>
+<p>I just did this (granted, between a PowerBook G4 and a MacBook Pro, both running Mac OS X) and it worked like a charm. The only down side was dupes of all the iTunes-provided smart playlists, so I just ditched the lot of those.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

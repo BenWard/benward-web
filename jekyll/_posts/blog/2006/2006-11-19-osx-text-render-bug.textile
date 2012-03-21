@@ -1,0 +1,110 @@
+---
+layout: blog
+category: blog
+title: "Gah! Mac OSX Text Render Doom!"
+date: "2006-11-19T20:42:08+00:00"
+updated: "2006-11-19T20:42:08+00:00"
+tags: ["technology", "osx", "bugs", "mac", "troubleshooting", "fonts", "rendering"]
+atomid: http://ben-ward.co.uk/journal/osx-text-render-bug/
+---
+Right, for about a week  now I've been having an issue in OSX  whereby text is rendering very badly indeed. At random, characters are missing from blocks of text, be that in Web Pages (in Safari and Firefox) in subject lines in Mail.app, on captions on the Dock. All over. If you go back and forward in the web browser the missing characters usually re-appear.
+
+<img class="screenshot" src="/res/posts/BrokenText.png" alt="For example, on Flickr  I found that a a number of characters are missing from my ‘Recent Comments’ page, but only in the italic variant of the font." />  
+
+I tried clearing my Font Cache using Linotype's Font Explorer, which hasn't resolved the problem. The only possible issue I can think of is that at this exact moment, I do have a <em>a lot</em> of fonts installed on this system. 628, in fact. I'm aware this is a lot. Before I go trawling through enabling, disabling and otherwise organising my Font Library though, can anyone confirm if that sheer number is likely to be a cause of my problem? Like most things, much as it would be pedantic and nice to organise my fonts, it'll take ages and if it's not actually going to fix my problem I'd rather put it off.
+
+Shared experiences much appreciated.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-38307">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/b9df38e93fe38bf670455f57beb064c6.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.stuup.com">Stuart Maynard-Keene</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-38307">
+        <time class="published" datetime="2006-11-20T08:47:29+00:00">20 Nov 2006, 08:47</time>
+      </a>
+      <div class="entry-content"><p>I think having 600+ fonts installed may not help, but before you go ahead and disable all of them just mess about with turning Helvetica Neue on and off I think I recall having problems with this, worth a try!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-42600">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e2bbe31fb94e92f5f404c5cb550c371f.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://david.koontzfamily.org">David Koontz</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-42600">
+        <time class="published" datetime="2006-11-26T01:42:37+00:00">26 Nov 2006, 01:42</time>
+      </a>
+      <div class="entry-content"><p>I had the exact same issue, I thought I had a virus or something.  Disabling Helvetica Neue via the Font Book solved the issue for me.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-48054">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/7a676a8a8885fdbf4e7111be2d8f4d78.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.stefpause.com">Stef</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-48054">
+        <time class="published" datetime="2006-12-05T14:49:41+00:00">05 Dec 2006, 14:49</time>
+      </a>
+      <div class="entry-content"><p>Maybe one step further with FontExplorer?  From the Tools menu item, choose &#8220;Clean System Font Folders&#8221;.  This&#8217;ll take all the non-system fonts out of ~/Library/Fonts, /Library/Fonts and /System/Library/Fonts and move them to your desktop. (And will optionally clean all the caches.)  This&#8217;ll hopefully remove any typefaces that are clashing with any system fonts, so should solve the weird text display after a reboot.  You can then move all the fonts from the desktop back into FontExplorer&#8217;s library.</p>
+<p>Might also be worth using FontExplorer&#8217;s conflict checking tools to scan for dupes, missing printer-font files, etc. while you&#8217;re at it?</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-56906">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/78c7d3981159f40286b4d54c223c752f.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.openaccessmarketing.com">Paul</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-56906">
+        <time class="published" datetime="2007-03-14T19:51:53+00:00">14 Mar 2007, 19:51</time>
+      </a>
+      <div class="entry-content"><p>Many thanks for this &#8211; I was experiencing the exact same issue and disabling Helvetica Neue via the Font Book worked!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-57114">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/928b561d5d92dbf27d46151eb66f41d0.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://zachfine.com/blog">Zach Fine</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-57114">
+        <time class="published" datetime="2007-03-18T23:01:36+00:00">18 Mar 2007, 23:01</time>
+      </a>
+      <div class="entry-content"><p>Same issue here, I&#8217;m going to try disabling Helvetica Neue and see if that helps.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-57195">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/32d17a5caa20e00145af8edf9dd6399b.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ryanhaydendesign.com">Ryan Hayden</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-57195">
+        <time class="published" datetime="2007-03-20T20:51:28+00:00">20 Mar 2007, 20:51</time>
+      </a>
+      <div class="entry-content"><p>Hi, I have been having this problem too.  Every Apple employee that I have spoken too looked at me like I had six heads.  The disabling Helvetica Neue thing seemed to work.  Thanks a lot.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-65354">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/959ec75a677cfcc01645613240adfe75.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Ash</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-65354">
+        <time class="published" datetime="2007-05-23T23:54:15+00:00">23 May 2007, 23:54</time>
+      </a>
+      <div class="entry-content"><p>Getting exactly the same problem funnily enough, but haven&#8217;t installed any fonts on my system at all. Strange, most problematic in adium chats where characters are just randomly dissappeared.</p>
+<p>I wonder what causes it?</p>
+<p>Anyway, I disabled that font family&#8230; will see how that goes :).</p>
+<p>Cheers All.<br />
+Ash.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-197285">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/dfb9dd2d218e0c8380595e6de7fcead6.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://nwnetfx.com">Andy</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-197285">
+        <time class="published" datetime="2007-07-12T04:32:29+00:00">12 Jul 2007, 04:32</time>
+      </a>
+      <div class="entry-content"><p>Most excellent advice, thank you.  Disabling Helvetica Neue via Font Book fixed my missing character problem.</p>
+<p>Maybe Apple should fix this bug with Software Update?</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

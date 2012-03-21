@@ -1,0 +1,52 @@
+---
+layout: blog
+category: blog
+title: "I am… not."
+date: "2007-11-13T01:20:12+00:00"
+updated: "2007-11-13T01:34:13+00:00"
+tags: ["fitness", "ben-ward", "swimming", "weight", "overweight"]
+atomid: http://ben-ward.co.uk/journal/i-am-not/
+---
+This post is going to be rather less effective that I'd perhaps first thought. It was going to be rather blunt and pessimistic.
+
+It was going to take the form: ‘My name is Ben Ward. I'm 23 years old, weigh ø and I'm overweight.’
+
+That, <del>un</del>fortunately isn't quite the case though, making this post rather effective but making the state of me rather less revolting.
+
+My name is Ben Ward. I'm 23 years old, weigh 13 stone and 2 pounds, and I am therefore <strong>not</strong> overweight.
+
+The issue of my weight and fitness has been bubbling and occasionally bubbling over for a while. Too long a while. I fail to stick at it because I'm historically not self-motivated. I know that's inexcusably pathetic; but that's still the reason.
+
+My brain has — I <em>hope</em> — clicked a bit, though. Today I went swimming on the way home from work and I genuinely enjoyed it. I came home, exhausted but motivated to force myself on, draw a line in the sand. There I was, ready to declare to the world that I'm a dangerously fat man. I was contemplating whether I should just photograph my excess baggage, humiliate myself on Flickr and be done with it. But I weighed myself and discovered that I'm not, in fact overweight. That rather takes the edge of it all, and so I'm going to spare my embarrassment for the time being.
+
+The curious thing is that only few months ago, I had weighed myself again. I was approaching 14 stone. In about 6 weeks, without trying, I've lost about eight or nine pounds. That's, pleasing to say the least. Of course I've got lots to do, to work really hard and try to lose another stone, take me to my lightest in about five years. It's a big ask, but I'm feeling really very happy that it's not as bad as I'd feared. Falling onto the borderline of healthy and overweight isn't a disclaimer. It's not an escape from having to actively set things right. But all the same, when compared to my pessimistic expectations it feels <em>good</em>, and I'll take that right now.
+
+This also means I wasn't being entirely delusional when I thought I was slimmer in the mirror. I am, clearly	, a sexy beast.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-223072">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e6e984d5209d0fd381fae0d78c4d0302.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.mattrobin.com">Matt Robin</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-223072">
+        <time class="published" datetime="2007-11-13T01:48:28+00:00">13 Nov 2007, 01:48</time>
+      </a>
+      <div class="entry-content"><p>Dude, sincerely &#8211; I&#8217;ve never once thought of you as being overweight.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-223077">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/abc50d59ef1ac8472737483abc7d870d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Adam</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-223077">
+        <time class="published" datetime="2007-11-13T11:12:58+00:00">13 Nov 2007, 11:12</time>
+      </a>
+      <div class="entry-content"><p>Dude, sincerely – I’ve never once thought of you as being a sexy beast.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

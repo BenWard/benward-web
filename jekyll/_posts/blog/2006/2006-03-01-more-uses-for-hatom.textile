@@ -1,0 +1,50 @@
+---
+layout: blog
+category: blog
+title: "More uses for hAtom"
+date: "2006-03-01T16:51:36+00:00"
+updated: "2006-03-01T17:06:06+00:00"
+summary: "Fatty isn't convinced by my favoured hAtom use-case for providing Comment Feeds, so I've got two more reasons why hAtom might yet save the world."
+tags: ["technology", "feeds", "carson-summit", "microformats", "hatom", "syndication", "%c2%b5f", "pingback", "podcasting"]
+atomid: http://ben-ward.co.uk/journal/more-uses-for-hatom/
+---
+<img class="splash" alt="" src="/media/splashes/hAtom.splash.png"/> <a href="http://fatbusinessman.com">Fatty</a> isn't 100% convinced by my favoured hAtom use-case for providing Comment Feeds. This is understandable as, whilst very useful, it seems targeted towards a subset of bloggers with deficient <abbr title="Content Management Systems">CMS</abbr>.
+
+So, I thought I'd blog about a couple of other uses.
+
+First up regards pingback. Again, not the most widely used technology in the world outside of Wordpress, but there's a benefit to be had. Arguably the lack of wider uptake could be for reasons that hAtom would solve. 
+
+Currently, if I receive a Pingback to my blog, Wordpress will show an extract of the pinging post. It'll attempt to find a relevant part of the article that sent the ping and quote it. It's not a reliable system, often producing incomprehensible text. If the pinging blog used hAtom mark-up in its posts, Wordpress would be able to better extract relevant information from that page.
+
+For example, rather than trying to bodge together a summary as it currently does, Wordpress could extract the <a href="http://microformats.org/wiki/hatom#Entry_Summary">Entry Summary</a> from the pinging post. The summary from a feed will standalone by design. This summary could be analysed further, to see if the link to my blog was contained within it (thus suggesting that the Pinger's post is a direct response, rather than one that mentioned me in passing). That kind of analysis could be used to decide whether to show a summary at all.
+
+hAtom allows for the interoperability of blog content, for uses beyond just reading.
+
+The next example I hit upon concerns the distribution of last month's <a href="http://carsonworkshops.com/summit/">Carson Summit</a> presentations. <a href="http://adactio.com/journal/1091/">Jeremy was less delighted to learn</a> that rather than provide a Podcast for the MP3s as they became available, the summit website just provided static hyperlinks to MP3 files. No iTunes subscription, no iPod syncing… all remarkably low-tech for a Web 2.0 conference. Jeremy went on to roll his own RSS feed for the files (which I've not linked, because the download locations have since changed).
+
+My assumption regarding the lack of a Podcast feed for the summit MP3s is that the page they're linked from is just a standalone page. It's not managed by a CMS and so there's no feed produced for the eight items of MP3 content. The webmaster for the summit page didn't produce a separate XML feed manually and so there was none. This is a prime application for hAtom.
+
+By adding hAtom mark-up into the summit Podcasts page, a feed could be produced for the MP3s, without any need to maintain a separate XML file and without any synchronisation issues arising when the MP3s change location.
+
+Of course, hAtom 0.1 didn't exist when that page went live, but if they were doing it again tomorrow it would prove a good test of hAtom's capability.
+
+So there. Two more reasons why hAtom might yet save the world.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-886">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/abb5e982d97d7539860141b7904ba31a.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://philwilson.org/blog/">Phil Wilson</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-886">
+        <time class="published" datetime="2006-03-11T23:19:17+00:00">11 Mar 2006, 23:19</time>
+      </a>
+      <div class="entry-content"><p>Except that for the example you give, it would have been a million miles easier to write the <span class="caps">RSS</span> file by hand rather than add all that stupid <span class="caps">HTML</span> and get the tags and classes and nesting right.</p>
+<p>I&#8217;m sure hAtom is useful, I just don&#8217;t know <em>how</em> yet.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

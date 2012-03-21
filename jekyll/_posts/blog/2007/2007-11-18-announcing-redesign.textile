@@ -1,0 +1,52 @@
+---
+layout: blog
+category: blog
+title: "Handy"
+date: "2007-11-18T01:28:58+00:00"
+updated: "2007-11-18T01:28:58+00:00"
+tags: ["all", "redesign", "site", "hands"]
+atomid: http://ben-ward.co.uk/journal/announcing-redesign/
+---
+As you may perhaps have noticed, there are some changes afoot, visually. This was all rather done on the spur of the moment so I'm not yet entirely sure what those visual changes are going to be. There are sketches in my Moleskin I'm keen to try out, plus I want to better include Flickr photos and a stream from Tumblr (which is a fantastic way to post impulsively, I've found). I hope it will be awesome.
+
+The animating hand that everyone seems to love will return. You'll have to make do with a static one for now though.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-223139">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e6e984d5209d0fd381fae0d78c4d0302.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.mattrobin.com">Matt Robin</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-223139">
+        <time class="published" datetime="2007-11-19T01:16:57+00:00">19 Nov 2007, 01:16</time>
+      </a>
+      <div class="entry-content"><p>Hehe, looks funky Ben! Can&#8217;t wait to see what you come up with.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-223142">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/7e7b96fd1dd36d2b5f57b570b08ee7d4.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://zaxbypass.com">William Lawrence</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-223142">
+        <time class="published" datetime="2007-11-19T18:33:49+00:00">19 Nov 2007, 18:33</time>
+      </a>
+      <div class="entry-content"><p>Did you trace your hand again? And what, no <span class="caps">YUI</span>!? ;)</p>
+<p>Looks good! I can&#8217;t wait to see how this works out!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-223145">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e18bbcd3c247d26919e3c699e5ea7181.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-223145">
+        <time class="published" datetime="2007-11-19T20:43:43+00:00">19 Nov 2007, 20:43</time>
+      </a>
+      <div class="entry-content"><p>No, the hand isn&#8217;t traced, just sketched. I can sketch, y&#8217;know.</p>
+<p>Trouble is, I don&#8217;t think I&#8217;m strong enough to pull it off for the style of the whole site so I&#8217;m not quite sure that the Real Thing will end up like.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

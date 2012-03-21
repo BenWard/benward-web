@@ -1,0 +1,73 @@
+---
+layout: blog
+category: blog
+title: "OSX with Windows keyboard oddities"
+date: "2006-10-29T23:56:47+00:00"
+updated: "2006-10-29T23:56:47+00:00"
+tags: ["all", "osx", "mac", "keyboard", "problems"]
+atomid: http://ben-ward.co.uk/journal/keyboard-problem/
+---
+I've been using my MacBook Pro at home with a Windows keyboard for a while now. It's been OK, although slightly annoying that the Cmd and Alt keys are reversed (which you can switch over, but that also reverses them on the Apple keyboard I use at work…).
+
+More recently I've had one irritating problem though, namely that the keyboard is intermittently generating additional characters with key-presses. For example, pressing <kbd>space</kbd> just now produced a space character and a letter 'a'. Pressing it just then generated a 'space', followed by an 'a', followed by another 'space'. Pressing the shift, option or arrow key has produced similar results (often a number '3'). It happens more often when entering key combinations, but only sometimes. And it's not just modifier keys either. I got a handful of random characters when I hit 'a' a little while ago.
+
+This is really annoying, since it makes my regular typo-habit seem so much worse. A little help?
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-28502">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/7e7b96fd1dd36d2b5f57b570b08ee7d4.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://zaxbypass.com/">William Lawrence</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-28502">
+        <time class="published" datetime="2006-11-03T18:02:17+00:00">03 Nov 2006, 18:02</time>
+      </a>
+      <div class="entry-content"><p>I had no idea you had a MacBook Pro. Very nice. I don&#8217;t mean to be a drag with my solution, however it&#8217;s a good one. You&#8217;re going to like it. I imagine you&#8217;ve already heard it. Ready? Ditch that windows keyboard and get yourself a nice little bluetooth Apple keyboard. They are so nice, and kinda portable. I&#8217;m hoping that this solution will improve your typo-habit and increase your productivity. Take it from me, I too used to be a windows keyboard witha  mac user until I discovered the joys of using an Apple kbd with an Apple product. If you need help on where and how to get one, let me know, and I&#8217;ll hook you up. Cheers!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-28855">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-28855">
+        <time class="published" datetime="2006-11-04T22:21:32+00:00">04 Nov 2006, 22:21</time>
+      </a>
+      <div class="entry-content"><p>Hi William,</p>
+<p>I&#8217;ve had the MacBook Pro for just over a month now. It&#8217;s not really &#8216;mine&#8217; as such, as work paid. However, for all day-to-day intents and purposes, it&#8217;s mine :-) They can pry it from my cold, dead fingertips (or just ask nicely, I value my life).</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-28856">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-28856">
+        <time class="published" datetime="2006-11-04T22:23:43+00:00">04 Nov 2006, 22:23</time>
+      </a>
+      <div class="entry-content"><p>And indeed, I would get a proper <abbr title="Apple"></abbr> keyboard, but <a href="http://hanniross.com" rel="nofollow">a lovely lady</a> told me not to, for <em>some</em> reason. Hold up… I think I hear sleigh bells…</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-35578">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/7e7b96fd1dd36d2b5f57b570b08ee7d4.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://zaxbypass.com/">William Lawrence</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-35578">
+        <time class="published" datetime="2006-11-16T21:51:12+00:00">16 Nov 2006, 21:51</time>
+      </a>
+      <div class="entry-content"><p>Make sure the stockings are <em>hung by the chimney with care</em>!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-193887">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/906a3b68de43316fe48e677c329d71b3.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://la-honda.buybentleycars.cn/honda-goldwing-valkyrie-for-sale.htm">Manolis</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-193887">
+        <time class="published" datetime="2007-07-11T04:16:58+00:00">11 Jul 2007, 04:16</time>
+      </a>
+      <div class="entry-content"><p>Cool.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

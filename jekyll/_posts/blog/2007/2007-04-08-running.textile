@@ -1,0 +1,45 @@
+---
+layout: blog
+category: blog
+title: "Around in Circles"
+date: "2007-04-08T10:59:33+00:00"
+updated: "2007-04-08T11:27:45+00:00"
+tags: ["fitness", "hanni", "nike", "running"]
+atomid: http://ben-ward.co.uk/journal/running/
+---
+For quite some time now, <a href="http://hanniross.com">She</a> has been prodding me to keep fit. Specifically, she's been encouraging me to start running, since it seems to work for her.
+
+With the nagging fresh in mind, I picked up a new iPod Nano and a Nike+ running kit whilst in Texas. Cabel Sasser's <a href="http://www.cabel.name/2006/08/multiplayer-game-of-year.html">fantastically written</a> piece about the magic of Nike+ as a motivator and as a ‘game’ is already on the net; all I have to add to that it's true.
+
+<blockquote cite="http://www.cabel.name/2006/08/multiplayer-game-of-year.html">In reality, Apple and Nike have invented a system that perfectly connects two sides of my brain that had previously only given each other occasional awkward glances across the fleshy halls of my skull: the nerdy, video gaming part of me, and the part of me that actually kind-of likes (and feels good about) exercise.</blockquote>
+
+I wouldn't keep doing it for the fact that I can see one little distance graph extend towards a very modest first goal (15 miles in a month) and another as I try and keep pace with Hanni in our head-to-head distance challenge.
+
+Each morning when I switch on the laptop I see that she's been running and pushed back into the lead and it really does motivate to go out for 15 minutes just to catch up. Which is one of the importantly notable things about starting out running: It doesn't take very long not to go very far. 30 minutes a day (including shower) is hardly going to be missed. Once I've done this enough to become a glorious specimen of Man (a week or two?) then scheduling might get a little tougher as I have to run further. But right now I'm crap, so it doesn't take very long.
+
+<img src="/res/posts/Nike+.png" alt="Yesterday I just ran 0.86 miles, slowly building up."/>
+
+I'm not running far, nor fast, just slowly building up my body to this idea of keeping fit; something it's not really done for a number of years. So far it's not resisting too much, bar an ache in my calves when I walk down stairs. It can only get better.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-58410">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/d6f4b9513be0393fbb3434328847f7c3.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.jiwok.com/en">denis</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-58410">
+        <time class="published" datetime="2007-04-11T21:00:23+00:00">11 Apr 2007, 21:00</time>
+      </a>
+      <div class="entry-content"><p>Hello.<br />
+I’ve just launched the English version of Jiwok, the blog dedicated to sport to music …particularly running .</p>
+<p>It’s full of great gear, interesting articles concerning Nike+ and good advice and free, user-friendly mp3 workouts to make both training and coaching simple and effective.<br />
+I’ve created mp3 workouts for everything from  Beginners’ Training Sessions to Speed Sessions , including VO2max Tests , and  compiled music for Runs of an hour or more…<br />
+These mp3s could help runners reach their goals.<br />
+Come and see for yourself! http://blog.jiwok.com/en</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

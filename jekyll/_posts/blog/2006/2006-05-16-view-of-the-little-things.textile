@@ -1,0 +1,31 @@
+---
+layout: blog
+category: blog
+title: "A View of the Little Things"
+date: "2006-05-16T18:56:21+00:00"
+updated: "2006-05-20T21:39:53+00:00"
+summary: "Regarding the little things the computer does. Volumes controls and Bluetooth transfers."
+tags: ["technology", "software", "microsoft", "vista", "windows", "design", "osx", "mac", "scoble", "bluetooth", "ui"]
+atomid: http://ben-ward.co.uk/journal/view-of-the-little-things/
+---
+This post is derived from from an email I sent to <a href="http://scobleizer.wordpress.com/">Robert Scoble</a> at Microsoft. He lived up to his reputation of being extremely helpful and as a result I got to have a great conversation with <a href="http://steveball.typepad.com">Steve Ball</a>. He leads the team who implemented the rather nifty new per-application Volume Control in Vista. I said at the time I would blog this and this is the moment that procrastination finally got the better of my Databases 3 revision.
+
+<hr />
+
+I fall into the camp of people who're, to be honest, a little under-excited about Vista. I use both Windows and Mac OSX in fairly equal part and whilst I can plenty appreciate that Vista is going to blow the socks of XP, that isn't enough to make me go 'Wow'.
+
+I suspect that Vista's eye candy is just fine, that two visually different but functionally identical implementations of Alt+Tab are all very well and that as a .NET developer the toys in the back-end will be great. But none of this excites me. At all. Perhaps that's because the Mac has the user experience already sussed, perhaps Microsoft's efforts are going in a different direction from me generally, but all I see when I look around the web for news about Vista fails to grab me.
+
+What does interest me at the moment is the day-to-day user experience working with my computer. Things that (typically) the Mac does very well: Drag and Drop, Bluetooth, Unicode via keyboard shortcuts, consistent and clever UI for the character map and system-wide spell check. These are not glamorous features, but these are tools that I use. More than I use Dashboard or Konfabulator and more than I'm going to use Vista's Sidebar, Gadgets and 5-star file ratings.
+
+What's the one feature of Vista I've seen that's made me think ‘Ooh that's really clever’? The per-application Volume Control. How fantastically cool and useful is that? Possibly the most unglamorous function of any operating system and Vista produces an inventive feature from it. Give the person who did that a medal.
+
+But this leaves me thinking about the places that Windows really sucks. Somewhere, surely there must be someone improving Windows XP's truly awful Bluetooth UI.
+
+For example, I take a lot of photographs with my mobile phone (a Sony Ericsson K750i). I can select a batch of pictures in the phone's file manager and hit ‘Send via Bluetooth’. To transfer them to the Mac I just pick my iBook from the list, the Mac prompts me to receive the files (and offers a check box to 'Accept All').
+
+But, to receive the files on Windows XP I have to <em>open a wizard first</em>, then initiate the transfer from the phone. What's more, it's a wizard to receive <em>just one file at a time</em>. It's an horrific example of underdevelopment. The result is that I barely use Bluetooth on XP.
+
+This has a big impact on the way I work. When I transfer the pictures to the Mac, it's far more convenient to send them directly into iPhoto than copy them over the network to use Picasa on XP. Bluetooth has become a huge point of entry for data onto my computer – more than CDs and memory cards – and XP really sucks at it.
+
+Little things like this make a real difference to me day-to-day. I'd love to see a little light shed on what's going to happen in Vista. For me, it's these little things that will be the difference between upgrading my PC or buying a new iMac.

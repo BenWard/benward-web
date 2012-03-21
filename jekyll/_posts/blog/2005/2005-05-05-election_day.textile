@@ -1,0 +1,87 @@
+---
+layout: blog
+category: blog
+title: "Election Day"
+date: "2005-05-05T09:07:46+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2005-05-05:/blog/election_day
+---
+This is ordinarilly buried under the "Wider Web" sidebar, but since it's election day I think it deserves greater prominence.
+
+<a href="http://www.honourablefiend.com/" title="The Honourable Fiend">The Honourable Fiend</a> has a nice takeoff of the "Choose Life" format: <a href="http://www.honourablefiend.com/archives/2005/05/choose_labour.html" title="Choose Labour - The Honourable Fiend">Choose Labour</a>.
+
+It serves two purposes, firstly as an impressively condensed reminder of Labour's eight years which may or may not be serve as an aid when you vote. Also, if through some epoch defining accident the Tories win (they wont), it will make you feel less bad about it on Friday.
+
+If it hasn't been repeated enough times on the Internet already, do remember that "a vote for the Lib Dems will let the Tories in" is a <strong>lie</strong> and that contrary to Labour party campaigning, you're free to vote for whichever of our political parties you like.
+
+Go vote. Now is good.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-272">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/abc50d59ef1ac8472737483abc7d870d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Adam</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-272">
+        <time class="published" datetime="2005-05-05T12:39:54+00:00">05 May 2005, 12:39</time>
+      </a>
+      <div class="entry-content"><p>Sadly, due to my own failure to apply for a postal vote, I won&#8217;t be able to have my say this time around. Well, I could if i really wanted to, but it would involve a 3 hour round-trip, and given the cost of petrol (grumble grumble) I dont think it&#8217;s worth it!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-273">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/11d4b8e0e0638fe55463628d216c34a8.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://jo.ben-ward.co.uk">Jo</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-273">
+        <time class="published" datetime="2005-05-05T13:52:09+00:00">05 May 2005, 13:52</time>
+      </a>
+      <div class="entry-content"><p>Those of us in student accomodation in London also got voting cards for our London constituency, so those who didn&#8217;t get a postal vote can still vote locally.</p>
+<p>I postal voted last weekend.</p>
+<p>Jo</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-274">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-274">
+        <time class="published" datetime="2005-05-05T14:31:55+00:00">05 May 2005, 14:31</time>
+      </a>
+      <div class="entry-content"><p>Does that mean that you could have two votes if you wanted them?</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-275">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/11d4b8e0e0638fe55463628d216c34a8.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://jo.ben-ward.co.uk">Jo</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-275">
+        <time class="published" datetime="2005-05-05T14:50:11+00:00">05 May 2005, 14:50</time>
+      </a>
+      <div class="entry-content"><p>Yeah, in theory. It&#8217;d be illegal though&#8230; I suspect they would check on their computer, and see that I&#8217;d been granted a postal vote. Kayleigh went to vote. She feels all empowered and grown up!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-276">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/79b63ab9f0ca95c29a8e4f9cb46f166a.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.dk04.com">Jono</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-276">
+        <time class="published" datetime="2005-05-05T19:21:51+00:00">05 May 2005, 19:21</time>
+      </a>
+      <div class="entry-content"><p>i voted! (for the first time, i never got round to it in 2000) and i felt strangely powerful. I <span class="caps">SELECT</span> <span class="caps">WORLD</span> <span class="caps">LEADERS</span>!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-277">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/c510febb9bed68b5cc4a09f076701e0f.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://anon">Tom</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-277">
+        <time class="published" datetime="2005-05-17T20:56:06+00:00">17 May 2005, 20:56</time>
+      </a>
+      <div class="entry-content"><p>Lib dems baby</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

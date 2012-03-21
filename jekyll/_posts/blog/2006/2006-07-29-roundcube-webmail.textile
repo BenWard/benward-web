@@ -1,0 +1,77 @@
+---
+layout: blog
+category: blog
+title: "Roundcube Webmail"
+date: "2006-07-29T17:26:27+00:00"
+updated: "2006-07-29T17:26:27+00:00"
+tags: ["technology", "email", "roundcube", "webmail", "imap"]
+atomid: http://ben-ward.co.uk/journal/roundcube-webmail/
+---
+Some time ago I stopped using Gmail. I was criticising it increasingly regularly and it seemed only right that I should explore alternatives. The alternative I've been settled on since then has been IMAP, in combination with Thunderbird on PC and Mail.app on the Mac. That's worthy of a separate post at some point, but one big step backwards I did find was the occasional need for webmail access.
+
+Now, SquirrelMail I'm not a fan of. With that in mind, I'd been meaning to install <a href="http://roundcube.net">Roundcube</a> for a while. It's a beautiful new webmail system using quite lovely modern mark-up with a smattering of Ajax, drag & drop and a lovely mac-esque Pinstripe theme. It's reasonably responsive, as much as IMAP ever seems to be, and can load up larger IMAP folders without any time outs of memory overuse (a problem I have with SquirrelMail). Certainly it makes for a lovely interface to use when I've away from my main machine.
+
+Disappointingly the JavaScript-licious UI doesn't degrade gracefully which means I can't use Roundcube in Opera Mini. It's a big downside for me, since SquirrelMail sucks in Opera Mini (all the header fields get cleared when you reply to a message). 
+
+So, I'm still looking for a fast, clean and tidy IMAP webapp that functions purely in HTML and CSS. I'm tempted to see if Roundcube's core code is robust enough to build a static HTML interface from, but that requires time I'm unlikely to find. Recommendations?
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-8941">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/99e47381d2f5469b6cd78f6927f96d70.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.36-degrees.co.uk">Stuart</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-8941">
+        <time class="published" datetime="2006-07-29T17:47:43+00:00">29 Jul 2006, 17:47</time>
+      </a>
+      <div class="entry-content"><p>No recommendations sadly, but I feel your pain, I&#8217;m still searching for the ideal email setup, my needs are quite similar to yours (minus the PC) in that I need webmail in addition to app based access from two different machines.</p>
+<p>I was kind of hoping roundcube would be the solution to part 1 of the dilemma, though I don&#8217;t tend to use my phone to check email, so RC might still work well enough for me, otherwise I&#8217;m thinking of headed down the Gmail on my domain route, which I know you aren&#8217;t a fan of!</p>
+<p>How was installing roundcube by the way? I&#8217;ve still not got around to it!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-8943">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-8943">
+        <time class="published" datetime="2006-07-29T17:57:21+00:00">29 Jul 2006, 17:57</time>
+      </a>
+      <div class="entry-content"><p>Roundcube was a doddle actually. I downloaded the latest build from <span class="caps">SVN</span> (which includes search), which admittedly isn&#8217;t the easiest thing ever but once you have the files it&#8217;s like installing any other webapp onto your server. Edit two configuration files (the instructions on the Roundcube site tell you which settings to edit: It&#8217;s just filling in your mail server and database server addresses really) and there&#8217;s one <span class="caps">SQL</span> script to execute through PHPMyAdmin or MySQL Query Browser, whichever is your flavour.</p>
+<p>After that, it just worked. I was amazed.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-8944">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/dc17387f19d96d6aeb53a0a9a02418dd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.jonty.me.uk/">Jonty</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-8944">
+        <time class="published" datetime="2006-07-29T18:15:48+00:00">29 Jul 2006, 18:15</time>
+      </a>
+      <div class="entry-content"><p>Ben, I&#8217;m also in a similar situation (plus I would love to have my contacts shared between Windows Live Messenger, my email client, and my phone). I&#8217;m afraid no webmail solutions spring to mind, but I was wondering if your phone has a native email client that supports <span class="caps">IMAP</span> (or perhaps one could be downloaded), to save you using Opera Mini? That&#8217;s what I currently do, but granted <span class="caps">GPRS</span> is so expensive I really check my emails on the move.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-9049">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-9049">
+        <time class="published" datetime="2006-07-30T20:48:25+00:00">30 Jul 2006, 20:48</time>
+      </a>
+      <div class="entry-content"><p>Jonty – My K750i does have some form of email client built in, but I think that it would use more bandwidth than having the email pre-processed by an efficient web-based client.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-12307">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/70ae715857c36fc26720a71416f06931.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">sclough</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-12307">
+        <time class="published" datetime="2006-08-21T18:01:29+00:00">21 Aug 2006, 18:01</time>
+      </a>
+      <div class="entry-content"><p>You may want to try IlohaMail. (http://blog.ilohamail.org/).  I think round cube is using their pure php based imap implementation.  I ran it for years and  as I remember it was a great, lightweight php webmail client.  Much better than squirrel mail.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

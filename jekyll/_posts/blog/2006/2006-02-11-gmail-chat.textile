@@ -1,0 +1,126 @@
+---
+layout: blog
+category: blog
+title: "Gmail Chat"
+date: "2006-02-11T16:42:59-01:00"
+updated: "2006-02-12T02:25:49-01:00"
+summary: "Google integrates chat logging into Gmail. Produces more shite mark-up."
+tags: ["technology", "google", "tag-soup", "gmail", "google-talk", "conversation-markup", "html"]
+atomid: http://ben-ward.co.uk/?p=308
+---
+Google are currently implementing a new feature into Gmail that allows you to chat over their Google Talk service from within your web browser. It's a neat idea and seems to work.
+
+Furthermore, they've set up Gmail so that you can access and search your chat logs along with other mail. It would be easy at this point to make a point about privacy concerns and the terrifying amount of data they now store about me. Instead, I'm going to talk about mark-up.
+
+Google <em>suck</em> at HTML. This is a fairly well known fact. It's a little amusing, since they recently employed <a href="http://hixie.ch">Ian Hickson</a> (who's writing the HTML5 spec). I guess they've not figured out how to implement an employee-wide hive mind just yet.
+
+I've currently got chat logging enabled for curiosity value. Since I keep local logs though, and since I use multiple protocols (as do my contacts), it's not likely to be much long term use to me. Sometimes curiosity can hurt, though. Here is a 4 line conversation, as marked up by Google:
+
+<pre><code>
+<table cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="font-size: 80%; width: 5em; color: rgb(136, 136, 136);"
+          nowrap="nowrap" valign="top"> 2:52 PM&nbsp;</td>
+      <td style="font-size: 80%; padding-left: 2em; text-indent: -1em;">
+        <span></span> <span style="font-weight: bold;">me</span>: Ello :)
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="font-size: 80%; width: 5em; color: rgb(136, 136, 136);"
+          nowrap="nowrap" valign="top">2:53 PM&nbsp;</td>
+      <td style="font-size: 80%; padding-left: 2em; text-indent: -1em;">
+        <span></span><span style="font-weight: bold;">Hanni</span>: hiya
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="font-size: 80%; width: 5em; color: rgb(136, 136, 136);" 
+          nowrap="nowrap" valign="top">&nbsp;</td>
+      <td style="font-size: 80%; padding-left: 2em; text-indent: -1em;">
+        <span></span> <span style="font-weight: bold;">me</span>: How's you?
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table cellpadding="0" cellspacing="0">
+  <tr>
+    <td nowrap valign="top" style="font-size:80%;width:5em;color:#888">
+    </td>
+    <td style="font-size:80%;padding-left:2em">
+      <span><b>goes to update in itunes</b></span>
+    </td>
+  </tr>
+</table>
+</code></pre>
+
+And here's what�s actually required to describe the same conversation (<a href="http://annevankesteren.nl/2005/10/msn-sessions">via Anne van Kesteren</a>). 
+
+<pre><code>
+<ol>
+  <li>
+    <p>2:52 PM <cite>Me</cite></p>
+    <p><q>Ello</q></p>
+  </li>
+  <li>
+    <p>2:53 PM <cite>Hanni</cite></p>
+    <p><q>Hiya</q></p>
+  </li>
+  <li>
+    <p><cite>Me</cite></p>
+    <p><q>How's you?</q></p>
+  </li>
+  <li>
+    <p><cite>Hanni</cite></p>
+    <p><q class="action">goes to update iTunes</q></p>
+  </li>
+</ol>
+</code></pre>
+
+To be honest, that's not a perfect way of describing Google's specific data and marking up conversations is a bit of a grey area (perhaps until HTML5 specifies it properly, or a Microformat pops up for it). You could also experiment with blockquotes and definition lists.
+
+The point is, that Anne's way is at least better. It's clearer, uses less markup, is far more CSS-friendly and will degrade (not much of a consideration in Gmail�s tag soup, I admit�). Google's way is simply wrong. What bemuses me the most, is that from where I'm sitting it would be <strong>easier</strong> to produce the semantic mark-up than the bizarre table concoction Google is pushing.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-787">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/02cd45622e90350cc061aaaa02229195.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://tantek.com/log/">Tantek</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-787">
+        <time class="published" datetime="2006-02-12T01:34:44-01:00">12 Feb 2006, 01:34</time>
+      </a>
+      <div class="entry-content"><p>Ben,</p>
+<p>Thanks for calling this out.  You&#8217;re absolutely right about the horrid markup &#8211; such an abuse of tables for layout is pathetic.  Anne&#8217;s way is much better in brevity, and in semantics.</p>
+<p>A few other folks have also been asking for a microformat to represent chat conversations online, and the <a href="http://microformats.org/" rel="nofollow">microformats</a> community has been working on researching current examples and formats to form the bases for a chat microformat.</p>
+<p>Take a look:</p>
+<p>http://microformats.org/wiki/chat-examples</p>
+<p>http://microformats.org/wiki/chat-formats</p>
+<p>Thanks for the pointer to Anne&#8217;s markup, I&#8217;ve added it to the chat-examples wiki page.  If you&#8217;re interested in helping research and develop a chat microformat, please join the microformats-discuss list and jump in!</p>
+<p>http://microformats.org/discuss</p>
+<p>Thanks!</p>
+<p>Tantek</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-789">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-789">
+        <time class="published" datetime="2006-02-12T13:13:07-01:00">12 Feb 2006, 13:13</time>
+      </a>
+      <div class="entry-content"><p>Thanks Tantek, I&#8217;ve signed up for the Microformats list. I&#8217;ve been meaning to for an age, so I&#8217;m grateful for the prompting.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

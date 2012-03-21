@@ -1,0 +1,69 @@
+---
+layout: blog
+category: blog
+title: "Au Revoir, N95"
+date: "2007-11-17T01:15:49+00:00"
+updated: "2007-11-22T19:31:27+00:00"
+tags: ["all", "technology", "nokia", "n95"]
+atomid: http://ben-ward.co.uk/journal/n95-gone/
+---
+My T-Mobile contract came to a premature end this week as I moved onto Vodafone, whose call package should permit me to call Hanni with less risk of my belongings being repossessed. The flip is that I've had to send away the Nokia N95 that I was <em>so</em> enjoying.
+
+Small blessings, I suppose. But I never got the chance to do the full criticisms of its worst features that I wanted to. That said, Nokia have just pushed out two new models of N95 with double the RAM — which one would assume will alleviate the multi-tasking gripes I had — and <a href="http://philwilson.org">Phil</a> remains convinced that my handset must've been duff to have been so abysmal. And so, whilst I'm going to do a quick list of the things I hated the most, you should probably take them with a pinch of salt at this point.
+
+<ul>
+<li>The GPS was a waste of space. Standing in a wide open space it took three minutes standing stationary to get a lock. There was no point including the feature at all. There has to be a minimum standard that a feature should meet to be useful, but Nokia seem to have very low standards.</li>
+<li>When you write a text message, you have to browse through the address book to find a recipient. Unlike a Sony Ericsson or Series 40 Nokia, which displays a list of recently used numbers for quick access.</li>
+<li>You can use the number keyboard to jump around menus in <em>some</em> cases, but not all. Again unlike Sony Ericsson's OS, where you can use numbers corresponding to the list order everywhere. When you can't rely on the feature being available everywhere, you tend to adapt to using it no-where, slowing down the whole experience of using the phone.</li>
+<li>On the Missed Calls list, whilst you can see the name of somebody who called you, you can't see the phone number they used.</li>
+<li>The ‘New Text Message’ notification doesn't show the name of the person who texted you.</li>
+<li>The UI, from complex operations like launching applications to simple things likke showing a context menu, is laggy. Everything takes just long enough to be irritating.</li>
+<li>The battery life was hilarious. The handset barely lasted a day, sometimes not even that. In the end I disabled 3G altogether, which at least meant it would go from morning to evening. I think there's some substance in Apple's justification of battery life to exclude 3G from the first iPhone.</li>
+<li>The ‘notes’ feature was quite nice and functional, but there was no way to synchronise it to something on the desktop machine. I'd have liked to synch my TaskPaper todo list, rather than maintain two separate documents.</li>
+<li>There're 6 application icon slots on the standby screen, plus two functions allocated to selection buttons on the face of the phone. The ‘0’ key also works as a shortcut for the web browser. There's the full applications menu, of course. Then, if you slide the phone into landscape mode, a ridiculous graphical launcher appears (slowly). How many application launchers do you need?</li>
+<li>Rotating between profile and landscape views requires you to slide the keypad, rather than being automatic based on the orientation of the device. New cameras, not to mention that fruit phone, all detect the orientation automatically.</li>
+<li>You don't get previews of images in the file browser, but you don't get a directory structure in the fancy Gallery application.</li>
+</ul>
+
+So, that was what ruined my N95 experience. In many ways I hope there was something wrong with my handset, since for Nokia to consciously release something so dysfunctional <em>on purpose</em> would be grossly wrong.
+
+And so concludes my N95 experience. With the move to Vodafone, I went back to Sony Ericsson and picked up the new K850i. It doesn't have the same capabilities or potential as the N95, but so far the user experience has been so very much better I know I'll actually be happy with it.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-223170">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/abb5e982d97d7539860141b7904ba31a.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://philwilson.org/blog/">Phil Wilson</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-223170">
+        <time class="published" datetime="2007-11-22T17:31:50+00:00">22 Nov 2007, 17:31</time>
+      </a>
+      <div class="entry-content"><p>Some agreement here. I think I really need to post about this (also the link on my name is also duff).</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-223172">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e18bbcd3c247d26919e3c699e5ea7181.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-223172">
+        <time class="published" datetime="2007-11-22T19:38:53+00:00">22 Nov 2007, 19:38</time>
+      </a>
+      <div class="entry-content"><p>I&#8217;d definitely be interested to see the ‘other side’ of the N95 presented and see it working well. As I said above, I&#8217;m not going to rant about it being the ‘worst handheld device ever made’ any more, because although my N95 was the worst piece of technology I&#8217;ve ever owned, with Nokia having changed the spec I&#8217;ll not be unfair on whatever improvements they may have made.</p>
+<p>I fixed the link, too. Sorry about that.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-223268">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/abb5e982d97d7539860141b7904ba31a.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://philwilson.org/blog/">Phil Wilson</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-223268">
+        <time class="published" datetime="2007-11-27T00:36:08+00:00">27 Nov 2007, 00:36</time>
+      </a>
+      <div class="entry-content"><p><a href="http://philwilson.org/blog/2007/11/nokia-n95-assessment" rel="nofollow">Done.</a></p></div>
+    </article></li>
+  </ol>
+</div></notextile>

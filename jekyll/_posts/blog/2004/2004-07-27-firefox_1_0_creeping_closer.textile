@@ -1,0 +1,46 @@
+---
+layout: blog
+category: blog
+title: "Firefox 1.0 Creeping Closer"
+date: "2004-07-27T20:20:39+00:00"
+tags: ["technology"]
+atomid: tag:benward.me,2004-07-27:/blog/firefox_1_0_creeping_closer
+---
+<a href="http://weblogs.mozillazine.org/mt/mt-tb.cgi/2468" title="Inside Firefox Blog">Ben Goodger</a> has released details of <a href="http://getfirefox.com" title="Get Firefox">Mozilla Firefox</a> <i>not a beta</i> release prior to 1.0. Firefox <abbr title="nought-point-ten">0.10</abbr> should be out mid-August and see the bug list shrinking dramatically. It's promising news, having personally been a keen follower of the project for probably going a year now (and longer, if you include Mozilla's Suite product as well).
+
+It'll be especially nice, hopefully, to see some polish coming into the product. While overall Firefox is an excellent, nay  <em>wonderful</em> piece of software, it still has many rough edges. The theme still needs finishing, naturally but there're still some things that don't behave quite the way they should. The sound effect that accompanies Find-As-You-Type, for instance. Completely random and ignorant of whether you've chosen the "No Sounds" option in Windows itself.
+I'm also of the view that some of the default options need tweaking, and maybe some "first time" dialogs adding (a choice over the default Download destination, for example).
+
+I've learned to have a lot of faith in the Firefox development team though, and long ago accepted that there would be decisions that wouldn't go the way of the sometimes rather self-important "community". It's sad to see so many threads on Mozillazine constantly "demanding" that Ben Goodger introduce or change some particular feature.
+
+I'm waiting in anticipation for 1.0 and rather looking forward to hearing what feature improvements Mozilla.org have planned post-1.0. That could see a real acceleration in new features which has naturally slowed in recent months as development focuses on stability.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-184">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/0aff2dc64b434342e21355e812f1a8fa.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">ben michael ward</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-184">
+        <time class="published" datetime="2004-08-17T00:55:36+00:00">17 Aug 2004, 00:55</time>
+      </a>
+      <div class="entry-content"><p>Hey mate.</p>
+<p>Boring but true/ i also a ben michael ward, i&#8217;m 27 and a surgeon in edinburgh scotland. anyway, bit of a coincidence. hope your good. all power to the bmw&#8217;!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-185">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-185">
+        <time class="published" datetime="2004-08-17T23:56:56+00:00">17 Aug 2004, 23:56</time>
+      </a>
+      <div class="entry-content"><p>Wow! The strangely curious (and small) world that is being Ben Michael Ward eh?</p>
+<p>As a child, I once spent an afternoon thinking I&#8217;d won a competition on the <span class="caps">BBC</span>&#8230; alas there is some other Ben Ward with a decent sized stash of Teenage Mutant Hero Turtle action figures now&#8230;</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

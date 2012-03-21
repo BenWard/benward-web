@@ -1,0 +1,78 @@
+---
+layout: blog
+category: blog
+title: "Talking Blogs"
+date: "2008-03-06T00:44:19+00:00"
+updated: "2008-03-06T00:44:19+00:00"
+tags: ["all", "technology", "events", "microformats", "speaking", "sxsw", "web", "blogtalk", "webcamp", "webcampsnp", "blogtalk2008"]
+atomid: http://ben-ward.co.uk/journal/talking-blogs/
+---
+Lately I've somewhat failed at blogging. Not in a colloquial meme ‘FAIL’ manner, in an actual if-you-put-me-in-a-competition-and-judged-me way. The lack of activity in both redesign and writing would have this site reclassified as a holding page for some other Ben Ward who would later poach the domain name from my idle mitts.
+
+The advantage to being about being 34,000ft above the Atlantic Ocean is that there's crap all to do. I can listen to music, or I can poke "Steve Marshall":http://nascentguruism.com with a newspaper. Two hours into the flight the latter activity has been exhausted for excitement, and music (Radiohead's magnificent ‘In Rainbows’, by the way) works in the background anyway.
+
+So, MacBook open, and a blogging imbalance to redress. The absurdity of my silence to become abundantly clear in the next few paragraphs as I reveal that my life has been unusually lively of late.
+
+h2. Speaking
+
+From March 2nd to March 4th, WebCamp and "BlogTalk":http://2008.blogtalk.com took place in Cork, Ireland. For the first time in a formal setting (by which I exclude free-for-all BarCamp unconferences) I've been invited to speak. Naturally it's my specialist subject of "microformats":http://microformats.org that's behind the invitation, and I'm sitting on the Mashup's & Microformats Panel during BlogTalk, whilst presenting an ad-hoc introduction to Decentralised Social Networking (using microformats, specifically) at WebCamp the day before.
+
+It's one of those life-bolt-upright events, I think. One of the moments where I cannot modestly hide from the fact that I've achieved something. I do that; excluding myself from general achievement or describing myself below the others around me. I'm pretty sure it irritates people, who in turn generally give me a frustrated look and insist I just concede that I'm good at what I do.
+
+Standing alone by the gate at Heathrow Airport, sending text messages half way around the world to arrange liaisons in Cork, about to embark on an expenses-paid flight and stay in expenses-paid accommodation, I can't hide from the achievement.
+
+There's pride, also anxiety. Going to Ireland separates me from the usual safety net of the London-centred web community. Leaving for a place with no trusted friends in the audience and no one to reassure me that whatever I do will be fine.
+
+I digress with meta wankery. Going to Ireland has been a wonderful experience. My sessions seemed to go down very well, I got lots of very positive feedback and at least one of them was recorded and should be on the internet for me and everyone else to view shortly. WebCamp — a much more structured day than a BarCamp or last month's SemanticCamp — went really well. Uldis and John did a great job organising it, there were lots of fascinating insights into microformats, FOAF and (most revelatory to me) XMPP. XMPP could change the world, seriously.
+
+BlogTalk is a two-day conference, but for my other commitments I could only attend the first day. Whilst WebCamp was down and dirty with technology (not least Dan Brickley's beautiful MacBook Air), BlogTalk provided a much broader look at the industry of blogging in general. Pieces on content, trends and overview outnumbered the technical (although microformats seemed well grasped). It made for a good mix though, with my time in the audience spent appreciating more hits than misses.
+
+h3. On microformats and mashups
+
+My panel on Mashups & Microformats also seemed well received, and I think I presented myself and the microformats community pretty well. I was able to reel off my piece trying to preserve the exclusive association of ‘microformat’ with microformats.org, and push the ever important point that ours is just one way of producing structured patterns in HTML. (Oh, I said ‘patterns’ not ‘POSH’. That derogatory nonsense acronym needs to go.)
+
+Reviving the ‘Mastermind’ metaphor, the panel questions split nicely between a specialist subject of microformats and general knowledge round that gave reign to babble a little about mobile, as well as pull in a fair bit of Yahoo! for the mash-ups focused portions. It has to be said, <acronym title="Yahoo!">Y!</acronym> is a great place to work and get involved in all this stuff.
+
+h3. Clogging the Tubes
+
+My solo slot from WebCamp was recorded by Stephanie Booth, who did a sterling job taking video from most sessions during the day, and in BlogTalk, too. I'm not sure at this point whether the panel was recorded or by who, but I'm hopeful.
+
+I'll link to that when it makes it online.
+
+h2. Cork
+
+Without dragging on at too much length, I was really taken with Cork. "Aral":http://aralbalkan.com and I spent at least an hour wandering the old, pedestrianised streets around {{PLACE}}, soaking up the early evening atmosphere and being thoroughly indecisive about where to sit for dinner; a farcical number of eateries are intensely crammed into an inexplicably small area. I've no idea how Cork supports so many but as a tourist it's excellent. I'm pretty certain that I'll need to come back for a holiday sometime.
+
+h2. American Adventure
+
+Back to a slightly turbulent 34,000ft. I'm en route to Austin, Texas (via Houston) for South By Southwest. It's going to kill me. Not the plane (else you'll never read this to know), but the twelve days. Steve and I decided that if we're going to do this properly we should attend not only the SXSW Interactive conference, but also the music festival that follows. I was physically crushed after just interactive this year. I'm not sure how this year is going to work. I remain defiant in my youth, but there's a twinge of doubt.
+
+It's also looking likely that I'll be spending the Easter week in San Francisco before returning to the UK. I'm all set out for an excellent few weeks.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-225972">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/abb5e982d97d7539860141b7904ba31a.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://philwilson.org/blog/">Phil Wilson</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-225972">
+        <time class="published" datetime="2008-03-06T11:10:26+00:00">06 Mar 2008, 11:10</time>
+      </a>
+      <div class="entry-content"><p>Well done dude, you don&#8217;t get to do something like that without deserving it!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-225983">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/45e47229d60fd5950193a08797701cb9.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.johnbreslin.com/blog/">John Breslin</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-225983">
+        <time class="published" datetime="2008-03-07T09:17:59+00:00">07 Mar 2008, 09:17</time>
+      </a>
+      <div class="entry-content"><p>Great to meet you Ben, and loved the (positive) report!  Enjoy the <span class="caps">USA</span>&#8230;</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

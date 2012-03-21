@@ -1,0 +1,128 @@
+---
+layout: blog
+category: blog
+title: "Computers Suck"
+date: "2005-12-28T23:17:06-01:00"
+updated: "2005-12-29T00:08:56-01:00"
+summary: "The internet is in the middle of a royal kick-up-the-arse as regards usability and accessibility. Bad sites are named and shamed, great design is celebrated. In all of this, we mustn't forget the desktop; the desktop sucks too."
+tags: ["all", "design", "dell", "norton", "pc", "computer", "desktop", "applications", "sucks"]
+atomid: http://ben-ward.co.uk/?p=292
+---
+One of the most regular parts of my Christmas/Easter/Summer break from university is PC maintenance. Something is usually broken and needs fixing on one of the PC's in my household.
+
+This Christmas has been a bumper session: Nathan set his <abbr title="Front Side Bus">FSB</abbr> too high and couldn't boot, the family machine's heatsink was so full of dust that the CPU was running 25� higher than it should and crashing the machine. Also, my Gran got a Dell.
+
+Gran getting a computer is going to take a bit of effort on all sides. She's never had a computer before and needs to learn from the very beginning (�right click or left click?�). That's not a problem though; I'm all for taking a bit of time to teach her to browse the net and send email. The tool for the job, however�
+
+Dell. Not the most reputable retailer in the world, sure, but even so, you expect a certain level of quality. Instead, I find affiliate ISP kickback offers tacked on to the end of the first-time-setup for Windows XP. A disguised set of �special offers� for internet services with AOL, Tiscali and Wanadoo. Now I can accept a bit of bundling (heck, Firefox is included), but this is in a Windows XP set-up where you configure system settings, not sign up for free trials.
+
+Two further attempts to make me sign up for the bundled ISPs follow before I eventually get to the Windows desktop.
+
+Now some trouble. This is why the title is �computers suck�, rather than just singling out Dell for having no soul. Norton Internet Security: Run the automatic update on a fresh install and watch in amazement when, having forced you to restart the computer, it proceeds to spawn an installation error related to Norton Anti-Virus.
+
+It's trying to run a �repair� operation, but the NAV setup app doesn't support repair, so I'm advised to uninstall and install it again. Dell don't provide product CDs, and NAV is actually working fine anyway. The prompt can't be subdued and now it will appear every single time Gran starts up the PC. Her first lesson in �ignoring dialogs and just clicking OK� is complete after only three reboots.
+
+We've got her an email address on Gmail, since I have a theory that we'll be more successful teaching her to use one application (Firefox) rather than two (Firefox and Thunderbird), although it's touch and go given the dubious design of the Gmail UI. At least she can get to it from any computer in future though, which remains my major quibble with desktop email.
+
+Mum sent some pictures. We tried to open them in the default image viewer on the Dell machine. Oh. Good. God. All we wanted was to look at a photograph. No! First we must be greeted by the Paint Shop Pro Studio Library Thing �welcome� wizard, read some tiny text and click a mispositioned �continue� button. Then an EULA, woo! Finally, the image is loaded in the background, whilst a whopping great big �What do you want to do?� splash is popped up over the top of it. It's one of the worst computing experiences I've ever witnessed. Preview.app it ain't.
+
+So today I realised solmething about those quirks of UI design, the faults which those of us more experienced ignore and take for granted. <strong>They're not acceptable and they cannot be allowed to last</strong>.
+
+The internet is in the middle of a royal kick-up-the-arse as regards usability and accessibility. Bad sites are named and shamed, great design is celebrated. In all of this, we mustn't forget the desktop; the desktop sucks too.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-636">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/9c0305a7f7095057ac7a01c376372d3a.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://philrenaud.com">Phil Renaud</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-636">
+        <time class="published" datetime="2005-12-29T09:57:21-01:00">29 Dec 2005, 09:57</time>
+      </a>
+      <div class="entry-content"><p><span class="caps">EVERYTHING</span> sucks.</p>
+<p>:)</p>
+<p>Happy holidays dude</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-639">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/fb7d81b172292b6034f9c1747d5b11e0.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.fatbusinessman.com/">FatBusinessman</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-639">
+        <time class="published" datetime="2005-12-30T12:10:05-01:00">30 Dec 2005, 12:10</time>
+      </a>
+      <div class="entry-content"><blockquote><span class="caps">EVERYTHING</span> sucks.</blockquote>
+<p>Except Macs :-D</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-640">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-640">
+        <time class="published" datetime="2005-12-30T12:57:15-01:00">30 Dec 2005, 12:57</time>
+      </a>
+      <div class="entry-content"><p>On related note: One of the reasons we didn&#8217;t get her a Mac was because it will cause mass confusion when she takes computer classes locally and is taught to use Windows, only to disregard everything that starts with �click on the start menu� at home.</p>
+<p>Has anyone ever heard of general public computer training that uses Macs?</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-641">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/6db1ac4911d03473d52634c979a18041.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.benedictoneill.com/">Ben O'Neill</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-641">
+        <time class="published" datetime="2005-12-31T11:51:46-01:00">31 Dec 2005, 11:51</time>
+      </a>
+      <div class="entry-content"><p>Norton and Dell are the problem, why use either? :)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-642">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">IBBoard</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-642">
+        <time class="published" datetime="2006-01-01T21:04:08-01:00">01 Jan 2006, 21:04</time>
+      </a>
+      <div class="entry-content"><p>Ooooo, Dell, not good! They&#8217;re OK for companies, because they&#8217;ll get lots of sleek looking black computers to impress the managers comparatively cheaply, but I wouldn&#8217;t trust the tech support.</p>
+<p>Saying that, I&#8217;ve never personally owner one (pretty much all home-made PCs or upgrades on them!) so I&#8217;ve never run one from the start. My Acer laptop was fine at first, but that quite quickly became a Linux machine :D</p>
+<p>Now if only there was an easy way of installing and running Mac OS X on my desktop machine&#8230;</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-646">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-646">
+        <time class="published" datetime="2006-01-01T23:13:58-01:00">01 Jan 2006, 23:13</time>
+      </a>
+      <div class="entry-content"><p>There is an easy way: Buy a Mac Mini. Wait 7 days. Plug-in. Enjoy quality-of-life improvement.</p>
+<p>Sorry, am I become a bit of an advocate?</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-650">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">IBBoard</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-650">
+        <time class="published" datetime="2006-01-02T20:04:00-01:00">02 Jan 2006, 20:04</time>
+      </a>
+      <div class="entry-content"><p>Mac Mini at �359 on a student budget when it&#8217;s only been a couple of months since I bought my desktop upgrades? I wish :D</p>
+<p>If I really want Mac-ish-ness, I just need to use my fiancee&#8217;s iBook, or my Linux laptop (with a lot of imagination! It does have a good Mac-rip skin at the moment, though).</p>
+<p>Nah, I&#8217;m just going to have to wait until I have a job and lots of money so that mine and my fiancee/wife&#8217;s (whichever she is at the time) house can have a nice techy room with some good computers and lots of gadgets :) She likes Macs, hates Windows/Microsoft and is even heading towards standards compliance and usability on her website, so I&#8217;ve got support :)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-31066">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e61e777c2b571687f914a02f98d19d1e.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">skwigglz</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-31066">
+        <time class="published" datetime="2006-11-09T06:24:15+00:00">09 Nov 2006, 06:24</time>
+      </a>
+      <div class="entry-content"><p>Having watched over the years as people I know have outlayed thousands of bucks for brand names and then <span class="caps">TORN</span> their proverbial hair out over all the dodgeyness (and let&#8217;s not forget the <span class="caps">PLETHORA</span> of updates &amp; patches; OS <span class="caps">AND</span> drivers &#8211; yuuuk!!!!!!) when I finally entered the digital age about 4 years ago, I bought the cheapest, generic pus bucket I could find brand new for my $500. And although I&#8217;ve literally kicked it to pieces with steel capped boots (microsoft is to blame don&#8217;t look at me like that!!!!) on one occasion; It still works. So all I can say for this matter is that <span class="caps">BRAND</span> <span class="caps">NAMES</span> are a crock of shite!!! Nine times out of ten, the most cost effective option that covers all the bits &amp; bytes your after will outperform the equivalent brand name devices, and quite often last longer too!! As far as I&#8217;m concerned(<span class="caps">SKWIGGLZ</span> &#8211; just some end user with a lot of time on his hands), Intel, microsoft, even Apple have a lot to answer for. These giants built their empires on the sly, expecting that I.T. was going to be monopolised by them, and that they would be answerable to no-one!! It isn&#8217;t working out that way, and the public at large are outraged at having been had all these years. <span class="caps">SKWIGGLZ</span></p></div>
+    </article></li>
+  </ol>
+</div></notextile>

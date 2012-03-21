@@ -1,0 +1,92 @@
+---
+layout: blog
+category: blog
+title: "Microsoft Word vs. Ben"
+date: "2005-11-19T19:20:52-01:00"
+updated: "2005-11-29T22:02:38-01:00"
+tags: ["all", "microsoft-word", "report", "typography", "bugs", "whygodwhy"]
+atomid: http://ben-ward.co.uk/journal/microsoft-word-vs-ben/
+---
+<img class="splash" src="/media/splashes/WordBullets.splash.png" alt="" /> Here I am writing up my final report and Word is doing everything in its power to frustrate me. One of the most irritating of its �features� is related to hung quotes (the use of which <a href="http://nascentgugruism.com">Stevie</a>'s typography quest got me into and and I now respond to indented quotes in my documents with faux choking).
+
+Basically, Word was happy with my unordered list style, but refused to automatically hang numbered lists. Each time I select the style I'd have to drag the number back out into the margin. Minor annoyance. Except that when I choose �restart numbering� for subsequent lists, Word will immediately revert to the default indentation. So I scroll up again and drag each list back in to place.
+
+Then, just now, I restarted numbering on a numbered list again and all my <strong>unordered</strong>, bulleted lists jumped. The bullet sits in the margin, but the text is a centimetre indented.
+
+I swear, it's going to be easier to write the final report in HTML.
+
+Oh, just in case anyone is ready to get pedantic on any terminology; I know my typography lexicon sucks.
+
+Update: And, as if by magic <a href="http://www.alistapart.com/articles/boom" title="Printing a Book with CSS - Boom!">here the creators of CSS write about styling for print</a>. Eerie, eh?
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-442">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/abc50d59ef1ac8472737483abc7d870d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Adam McArdle</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-442">
+        <time class="published" datetime="2005-11-19T21:55:45-01:00">19 Nov 2005, 21:55</time>
+      </a>
+      <div class="entry-content"><p>&#8220;I swear, it�s going to be easier to write the final report in <span class="caps">HTML</span>.&#8221;</p>
+<p>To be honest, it would be easier writing it in binary!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-443">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-443">
+        <time class="published" datetime="2005-11-19T22:04:25-01:00">19 Nov 2005, 22:04</time>
+      </a>
+      <div class="entry-content"><p>Perhaps� I seem to recall that Fatty wrote his final report in LaTex (or however the capitalisation is). I have no experience with it at all. Perhaps in the time between finishing this report and starting the final report I&#8217;ll convert it to something less volatile than Word.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-444">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/6db1ac4911d03473d52634c979a18041.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.benedictoneill.com/">Ben O'Neill</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-444">
+        <time class="published" datetime="2005-11-20T23:43:34-01:00">20 Nov 2005, 23:43</time>
+      </a>
+      <div class="entry-content"><p>I use \latex (see, note the coolness of using latex commands in my comment, haha. sigh.).  It&#8217;s quite easy to use even for someone that&#8217;s never used it (assuming you find a style you like).  I&#8217;ve never actually made my own style from scratch&#8230;</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-445">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-445">
+        <time class="published" datetime="2005-11-21T14:19:38-01:00">21 Nov 2005, 14:19</time>
+      </a>
+      <div class="entry-content"><p>I&#8217;m genuinely starting to think that HTML+CSS is the way to go with this. with Firefox 1.5 supporting <span class="caps">CSS</span> counters for generated content, it covers common presentation like automatic heading numbering, the block level structure for lists is vastly superior to Word&#8217;s styling system and a script to automatically generate a table of contents and table of figures based on heading levels and/or class names would be a doddle.</p>
+<p>I&#8217;ll do a proper assessment of it when my coursework burden is cleared for Christmas. I suspect it will boil down to the level of support I can find for print specific <span class="caps">CSS</span> (page breaks and stuff).</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-450">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e9d51086730df6a160922ea87b335760.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Jimmy Rutter</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-450">
+        <time class="published" datetime="2005-11-25T10:18:43-01:00">25 Nov 2005, 10:18</time>
+      </a>
+      <div class="entry-content"><p>Long time, no see!</p>
+<p>I see you are working hard at your project.  Thankfully I can slide along here in work doing nothing without worrying about my project anymore.</p>
+<p>Unfortunately it means getting up at 6 AM each morning &#8230; I wish I was back at uni so much!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-519">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-519">
+        <time class="published" datetime="2005-11-29T22:03:44-01:00">29 Nov 2005, 22:03</time>
+      </a>
+      <div class="entry-content"><p>6am? Crickey Jim that&#8217;s a touch extreme. I&#8217;d probably take grief with MS Word over that. Probably.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

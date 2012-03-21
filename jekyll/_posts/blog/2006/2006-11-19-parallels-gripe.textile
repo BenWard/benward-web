@@ -1,0 +1,39 @@
+---
+layout: blog
+category: blog
+title: "A 3 pixel gripe about Parallels"
+date: "2006-11-19T17:56:14+00:00"
+updated: "2006-11-19T18:21:00+00:00"
+summary: "In which I complain about the look and feel and Parallels Desktop for Mac OSX.o3"
+tags: ["technology", "software", "design", "osx", "mac", "ui", "parallels", "aesthetics", "polish"]
+atomid: http://ben-ward.co.uk/journal/parallels-gripe/
+---
+I love Parallels. It lets me work as a .NET developer and still use superior MAC OSX tools for everything that isn't Visual Studio. There's not really much to it; a window to pick your Virtual Machine and then a window to display your Virtual Machine. Which is why it annoys me all the more that it doesn't really slip into the Mac look and feel.
+
+There are a few things I'd like enhanced: More keyboard shortcuts for launching/pausing <abbr title="Virtual Machine">VM</abbr>s, the ability to override keyboard shortcuts  (so that <abbr title="command">⌘</abbr>+<abbr title="tab">⇥</abbr> will work even when Windows has focus, for example). But though those would be very functional and useful enhancements, my biggest grip is mostly aesthetic.
+
+<img src="/res/posts/ParallelsCloseUp.jpg" alt="Look closely at the edge of the Parallels window."/> 
+
+On the Mac, windows don't have borders. The edges are instead highlighted by the subtle shadow effect on each window. Parallels, for a reason I don't quite understand, includes 2 pixels of white margin and a 1 pixel black border around the  VM workspace. Frankly, it looks yucky. It also proves a pain when trying to set an  optimal resolution for the VM. Rather than run fullscreen I prefer to run in a custom-sized Window (you can set custom screen resolutions before boot in the Virtual Machine options). 
+
+On my MacBook Pro, this would ideally be 1440<abbr title="by">x</abbr>800 pixels (allowing space for the Parallels title bar, OSX menu bar and my Dock). Unfortunately, the margin and border around the VM workspace pads the Window    out beyond my screen size, so I must instead use a smaller width. But resolution widths must be multiples of 8, so the smaller width doesn't fit flush with the screen width.
+
+Yes, I'm being very pedantic. But really, I don't think it's unreasonable to ask for a bit of polish on the software I use daily.    
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-45648">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/6db1ac4911d03473d52634c979a18041.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.benedictoneill.com/">Ben O'Neill</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-45648">
+        <time class="published" datetime="2006-11-30T21:19:11+00:00">30 Nov 2006, 21:19</time>
+      </a>
+      <div class="entry-content"><p>I like the way the x in your resolution is an acronym for &#8220;by&#8221;. That amused me more than it should have.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

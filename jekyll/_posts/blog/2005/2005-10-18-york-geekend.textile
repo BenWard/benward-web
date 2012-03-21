@@ -1,0 +1,37 @@
+---
+layout: blog
+category: blog
+title: "York Geekend"
+date: "2005-10-18T00:04:28-01:00"
+updated: "2005-10-18T00:05:46-01:00"
+tags: ["all", "photographs", "york", "northern-geekend", "geekend"]
+atomid: http://ben-ward.co.uk/journal/york-geekend/
+---
+Just a short post this one. I had the great pleasure of meeting up with some other like-minded geeks in York on Saturday.
+
+<a href="http://www.flickr.com/photos/search/tags:geekend%2Cyork/tagmode:all/" title="Photos tagged �geekend� and �york� - Flickr">Pictures are now up on Flickr</a>, thus the task of recalling people's names has begun.
+
+I promised at the time that I'd forget names within minutes, as I tend to do, and that promise was predominantly kept. Thankfully other photographers are not so awful as me; with the aid of their Flickr captions I should have it sussed out for the next time.
+
+Also, can anyone suggest a better way of linking to Flickr photos than just a tag search for �york� and �geekend�? It works at the moment, but should we (or anyone else) meet there again, the search results aren't going to be accurate. I can't find a way to limit searches by date�
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-385">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/98234c645fe8c935edc0fec0186d28b8.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://morethanseven.net">gareth</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-385">
+        <time class="published" datetime="2005-10-18T13:38:57-01:00">18 Oct 2005, 13:38</time>
+      </a>
+      <div class="entry-content"><p>Hi Ben. Was good to meet up with everyone. And I&#8217;m pretty sure no one was sure on names but it didn&#8217;t seem to halt the fun.</p>
+<p>I&#8217;ll add any half decent pictures to the flickr when I get round to it.</p>
+<p>Just have to wait for the next one!</p>
+<p>G</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

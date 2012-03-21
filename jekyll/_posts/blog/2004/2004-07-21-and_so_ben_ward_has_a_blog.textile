@@ -1,0 +1,21 @@
+---
+layout: blog
+category: blog
+title: "And so, Ben Ward has a blog"
+date: "2004-07-21T20:34:38+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2004-07-21:/blog/and_so_ben_ward_has_a_blog
+---
+It was, I suppose, inevitable.
+
+I've spent many, many months mumbling on about the incredible CMS I'm going to write, and as per usual there is nothing to show for it. There is, again inevitably, the need to have a website in the time between "Now" and "Then" that I actually brush off PHP and write the thing.
+
+So, welcome to Ben-Ward.co.uk. Hopefully you're here because, at some point in the future I may have written something interesting that led you here. Alternatively you're a close friend or relative who's looking out of sympathy/polite tolerance.
+
+My name is Ben, I'm a 3rd year university student at UMIST, Manchester (UK, not any strange foreign Manchester you might have). I'm from a family of six and and I have a lovely girlfriend called Jo, she's gorgeous.
+
+Currently though I'm working a year out with Fujitsu-Siemens Computers, who are apparently the biggest computer retailer in Europe. Something like that anyway. I'm working in their web team, which essentially involves building the biggest, most complex <acronym title="Content Management System">CMS</acronym> I've ever seen, learning ASP.NET and T-SQL, indulging iTunes shared music across the company network and being paid for it. I also have unique privileges that allow me to break the <a href="http://www.fujitsu-siemens.com/ResellerLocator" title="Fujitsu-Siemens Reseller Locator">Reseller Locator</a> repeatedly without punishment "because I'm new" (and because <a href="http://wintersnight.deviantart.com" title="Winters Night">Naith</a> is leaving soon and can be easily blamed for putting 5 countries live that shouldn't have been. Ahem.
+
+I am, unashamedly, a <em>bit of a geek</em>, although not as much as <a href="http://www.fatbusinessman.com" title="FBM">this man</a>, who has strange, slightly sick desires involving XML and Internet Explorer.
+
+The plan with this blog is to write in it on occasion, hopefully more than my <a href="http://www.studentssocial.co.uk" title="Students' Social">Students' Social</a> column and at some point develop my own super-flash skin/theme/pretty what sit for these pages, in such as way as not to leave me hating Web Development for the rest of my life. What with doing it for a living and all that.

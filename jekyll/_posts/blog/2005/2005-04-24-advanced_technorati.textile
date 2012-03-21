@@ -1,0 +1,31 @@
+---
+layout: blog
+category: blog
+title: "What are Technorati's <q>advanced features</q>?"
+date: "2005-04-24T22:59:51+00:00"
+tags: ["technology"]
+atomid: tag:benward.me,2005-04-24:/blog/advanced_technorati
+---
+I actually looked at <a href="http://www.technorati.com/profile/shovel" title="Technorati: Ben Ward">my Technorati profile</a> again this evening and notice that next to my claimed weblog, it says:
+<blockquote>Claimed with Quick Claim. To enable advanced features, cancel and reclaim by editing your blog template.</blockquote>
+So, what advanced features are these? This must be a stonking example for making words into hyperlinks - the words being "advanced features" and the hyperlink pointing to a page explaining them, please.
+
+Am I missing out on something useful here? I can't figure it out.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-268">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/8e0293544b13499460369217e2a7febd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://charlvn.blogspot.com">Charl van Niekerk</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-268">
+        <time class="published" datetime="2005-04-25T11:49:13+00:00">25 Apr 2005, 11:49</time>
+      </a>
+      <div class="entry-content"><p>Well, if you&#8217;re missing something useful than I&#8217;m missing it too. Functionality is cool, but one shouldn&#8217;t go overboard. These guys are a bit crazy, in my opinion.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

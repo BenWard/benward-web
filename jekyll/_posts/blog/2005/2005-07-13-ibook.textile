@@ -1,0 +1,49 @@
+---
+layout: blog
+category: blog
+title: "iBook"
+date: "2005-07-13T23:30:00+00:00"
+tags: ["technology"]
+atomid: tag:benward.me,2005-07-13:/blog/ibook
+---
+<img class="splash" src="/media/splashes/ibook.splash.jpg" alt="" />As a short follow-up to <a href="http://blog.ben-ward.co.uk/archive/2005/04/12/on_whether_to_take_a_bite" title="On whether or not to take a bite�">my obligatory 'should I get a Mac' post</a>, here's an update.
+
+I got bored waiting for what will (when it comes) be a tiny, tiny update to the <a href="http://www.apple.com/ibook/">iBook</a> line. I'd hoped for a <a href="http://www.apple.com/macosx/features/coreimage/">CoreImage</a> supporting graphics chip, but I've waited two months and further waiting no-longer seems worth it for a small benefit. It's not like I'm waiting for a G5 processor. 
+
+A new education offer in the US (which promotes the iBook a bit) adds strength to the theory that we're not going to see updates until after the start of the academic year anyway, and I want it in time for Uni. Lack of CoreImage isn't so important on a 12" portable, really.
+
+I ordered the machine last week and due to some astonishingly low prices on 256 meg RAM from <a href="http://crucial.com/uk">Crucial</a>, I took an extra upgrade for the 80GB hard-disk. It should arrive <span class="datetime" title="2005-07-14">tomorrow</span>.
+
+I've also bought some odds-and-sods from eBay: a padded sleeve case, Kensington lock and second power supply. Generally a good experience from eBay, although one thing that bugs me incessantly though is the utter crap feedback comments. Other than the somewhat too short 80 character limit, the incessant "A-plus-plus-plus-plus-plus-plus-plus times infinity no returns" type comments left by other buyers is utterly unhelpful to me. <em>Why do people do this</em>?
+
+Of course, if Apple update the iBooks tomorrow, I do reserve the right to go on a bloody and destructive rampage. Such is the risk with Apple� shitcr�pes that they are.
+
+Footnote: I'd also like to dedicate the new word 'shitcr�pes' to John Oxton, a man who has entertained, educated and been generally top-drawer to me over the past few months. He's packed in <a href="http://joshuaink.com">JoshuaInk</a> for a bit to concentrate on Real-Life. Best wishes and good luck to you John, you'll be rather sorely missed. <a href="http://www.hicksdesign.co.uk/journal/this-is-not-the-greatest-blog-in-the-world-this-is-just-a-tribute" title="Hicks Design: This is not the greatest blog in the world, this is just a tribute">Jon Hicks has done a nice tribute</a>.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-307">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/9e286e03c4b751ce85bd0e5ff2a8a7db.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.fatbusinessman.com/">Fatty</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-307">
+        <time class="published" datetime="2005-07-14T10:55:53+00:00">14 Jul 2005, 10:55</time>
+      </a>
+      <div class="entry-content"><p>I think the word you&#8217;re actually looking for is &#8220;shitcr�pes&#8221; � watch your diacritics, boyo.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-308">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-308">
+        <time class="published" datetime="2005-07-14T16:00:27+00:00">14 Jul 2005, 16:00</time>
+      </a>
+      <div class="entry-content"><p>Duly noted.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

@@ -1,0 +1,170 @@
+---
+layout: blog
+category: blog
+title: "How do you organise your files?"
+date: "2005-10-30T14:59:29-01:00"
+updated: "2005-10-30T15:00:39-01:00"
+tags: ["university", "project", "oak", "questionnaire", "desktopsearch"]
+atomid: http://ben-ward.co.uk/journal/how-do-you-organise-your-files/
+---
+OK, I'm in the process of preparing a questionnaire aimed at <strong>users</strong> to establish the final round of functional and non-functional requirements for my Desktop Search project. I'll obviously be linking to it on here when it's live, but I thought I'd give out a last call for questions first.
+
+So, if you wanted to know about how users organise their personal files, short of planting a Trojan on their PC, what would you ask? I'm also interested in file naming habits and how much people use local search (or a Desktop Search add-in like Google, MSN, Copernic etc. Or if you're a Mac user, just whether you use Spotlight/Quicksilver for finding files).
+
+If you can't think of any inspired mind invasive questions but just want to leave a meandering comment about how you organise your personal files, go for it, everything helps me at this point.
+
+Thanks
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-402">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/2a86104d2cf9a6db94a4e8b0b1e542da.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.six-by-nine.org/">Andrea</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-402">
+        <time class="published" datetime="2005-10-31T20:49:05-01:00">31 Oct 2005, 20:49</time>
+      </a>
+      <div class="entry-content"><p>Just wandered by, couldn&#8217;t resist file organization geekery. Hello. :-)</p>
+<p>(I was going to suggest some questions, but as you probably know, it&#8217;s hard to think of stuff to ask, so I&#8217;ll just ramble on for a bit.)</p>
+<p>I have three partitions on my laptop, one for the OS (Win XP), one for programs, one for files. I have no clue why I reserved 10GB for the program partition when I created it; it also serves as a dump for large file downloads now.</p>
+<p>The file partition currently holds ten top-level folders. The most &#8216;buried&#8217; subfolder is four levels away; typically files get placed within the first two levels.</p>
+<p>Path to an mp3 file: E:/Songs/Artist/Artist Name &#8211; Title Of Track.mp3, unless I ripped or bought a complete album, then it&#8217;s /Artist/Album/Artist Name &#8211; Track Of Track.mp3. No track numbers, no underscores, no lowercase.</p>
+<p>I don&#8217;t seem to follow a particular pattern in capitalizing file names and including dates, but try to make the names as descriptive as possible and stick them in the correct folder. Consequently, I don&#8217;t rely on desktop search very much; I have <abbr title="Google Desktop Search"><span class="caps">GDS</span></abbr> installed, but rarely use it. Of course, this is a private computer and I don&#8217;t have to shuffle around vast amounts of important business docs. <span class="caps">GDS</span> says it&#8217;s indexed 181.026 items (of which 10GB = music).</p>
+<p>And if you haven&#8217;t noticed, I really like talking about these things, which is sad, so I&#8217;ll stop now.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-404">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-404">
+        <time class="published" datetime="2005-10-31T22:14:39-01:00">31 Oct 2005, 22:14</time>
+      </a>
+      <div class="entry-content"><p>Thanks very much Andrea, that&#8217;s actually very helpful, especially as regards needing to handle completely custom locations on the desk. Can&#8217;t rely on just indexing the Home directory tree or anything like that. I suspected I&#8217;d need that kind of option, but it&#8217;s good to have confirmation.</p>
+<p>Thanks</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-405">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/2a86104d2cf9a6db94a4e8b0b1e542da.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.six-by-nine.org/">Andrea</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-405">
+        <time class="published" datetime="2005-11-01T00:59:36-01:00">01 Nov 2005, 00:59</time>
+      </a>
+      <div class="entry-content"><p>There&#8217;s one more thing that just occurred to me, re: desktop search. I have quite a collection of e-books on my computer (.txt, .html, .pdf etc.), and since I usually know where to find a given file, I&#8217;d love to have a tool that lets me search the <em>content</em> of those documents, too.</p>
+<p>I know <span class="caps">GDS</span> breaks off indexing after some thousand characters (?), don&#8217;t know about other apps. Any information on how feasible a complete index would be? Or, say, an option to specify certain documents/folders for full-text search? I really have no clue about the implications of such a feature, other than that it would probably slow things down a lot.</p>
+<p>Oh, and welcome. :-)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-406">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-406">
+        <time class="published" datetime="2005-11-01T01:10:35-01:00">01 Nov 2005, 01:10</time>
+      </a>
+      <div class="entry-content"><p>Yeah, that one&#8217;s been suggested to me before as well. It&#8217;s a tough call, since you end up having to cache the entire document (minus any formatting) in the database. Makes for a large cache. That said, if it&#8217;s useful then it&#8217;s worth doing.</p>
+<p>My focus has been on tagging thus far, and potential half-way solution is to have the file be analysed and have the most common words from inside the file be added as some kind of hidden tag. That way you can generate a certain amount of metadata for a text file, even though it has no extra information attached to it.</p>
+<p>All a cause for ponderment, anyway. Thanks again.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-409">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/f6c9d5695aa3cd32c6aed8192e2f8879.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.wintersnight.co.uk/">Nathan Kitchen</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-409">
+        <time class="published" datetime="2005-11-01T14:44:08-01:00">01 Nov 2005, 14:44</time>
+      </a>
+      <div class="entry-content"><p>Something I�ve only recently had to deal with is synchronization. You might want to ask something about that, specifically: �Do you ever need to sync up files?� followed by �Where to?�.</p>
+<p>The particular problem I have in mind is keeping my local website code files in sync with a website. I quickly got tired of updating 3 or 4 files and then trying to upload them. It involves:</p>
+1) Finding the file you changed,
+2) Connecting to my site with <span class="caps">FTP</span>
+3) Finding where you want to put the file
+4) Uploading said file
+<p>Invariably at some point I&#8217;d forget which files I was uploading and break my site. Also: <span class="caps">FOUR</span> <span class="caps">STEPS</span>?! <span class="caps">FOR</span> <span class="caps">EACH</span> <span class="caps">FILE</span>?! What&#8217;s all that about?!</p>
+<p>Solution (c/o some C# and a handy <span class="caps">FTP</span> library) is to create an app that recursively watches a directory (using the aptly named FileSystemWatcher class) and uploads to the relevant location whenever it sees a change made.</p>
+<p>FileSystemWatchers are cool. I think they wrap whatever functionality XP uses to update open explorer windows if you manipulate the filesystem in a different window. Not sure how they&#8217;d be applicable to your scenario, but they&#8217;re useful and would look cool in a demo. All event based, so no directory polling (at least at code level) either.</p>
+<p>And Hi.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-410">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-410">
+        <time class="published" datetime="2005-11-01T17:06:54-01:00">01 Nov 2005, 17:06</time>
+      </a>
+      <div class="entry-content"><p><code>FileSystemWatcher</code> is pretty much responsible for the operation of the indexing in my project. There had better not be any bugs in it� ;-)</p>
+<p>Cheers for that Naith, it&#8217;s nice to hear from you again. I trust life is treating you well!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-411">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/2a86104d2cf9a6db94a4e8b0b1e542da.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.six-by-nine.org/">Andrea</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-411">
+        <time class="published" datetime="2005-11-01T22:55:51-01:00">01 Nov 2005, 22:55</time>
+      </a>
+      <div class="entry-content"><p>Yet another random thought: files on external hard drives? Any way to include them in the cache, e.g. by indexing them on request when the drive is connected to the computer? It might be more practical to keep track of those files with the help of special apps, of course. Just throwing out ideas.</p>
+<p>And ooh, tagging. Nifty idea.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-412">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-412">
+        <time class="published" datetime="2005-11-02T01:09:49-01:00">02 Nov 2005, 01:09</time>
+      </a>
+      <div class="entry-content"><p>Yeah, removable storage is a consideration. For the scope of my final year project I&#8217;m going to leave it out &#8211; handling removable storage gracefully adds a considerable programming complexity, but doesn&#8217;t really demonstrate any functionality that isn&#8217;t already present when handling static disks. Factor in Windows habitual changing of removable drive letters each time you connect them in different combinations and it goes from �difficult� to �pain in the arse� territory.</p>
+<p>That said, I&#8217;ll probably just be having a simple �include additional paths to index� type functionality in there, so I doubt there&#8217;ll be anything stopping a user from trying to index a removable drive.</p>
+<p>Tagging is my current favoured way for adding metadata to files within the index. It has a fantastic attribute of user-side simplicity.</p>
+<p>You obviously lose the ability to catagorise types of metadata (like �Photograph was taken by: Ben� sort of paired descriptions), but I think that it works out better. If you implement a more complicated system, I&#8217;m pretty sure that Jo User is even less likely to bother adding metadata to her files, and if the user finds it too much effort to use the metadata capability then the overall effectiveness of searching and metadata browsing is going to be massively compromised.</p>
+<p>Of course, the system is going to automatically glean metadata from files as well (otherwise there&#8217;d be no chance for it doing anything useful for anyone!).</p>
+<p>Now, please excuse me while I cut and paste this comment into my Interim Report. It&#8217;s fantastic, I can piss about on the internet tending to my blog and still check off hours in my project plan� ahem.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-413">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/844dbb479a45a89cba9249a71650dafb.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">IBBoard</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-413">
+        <time class="published" datetime="2005-11-03T23:31:34-01:00">03 Nov 2005, 23:31</time>
+      </a>
+      <div class="entry-content"><p>I don&#8217;t know if I have a particular naming convention!</p>
+<p>Like Andrea, I have three partitions (although mine are &#8220;Windows/programs-that-won&#8217;t-work-unless-they-live-on-C&#8221;, &#8220;data&#8221; and &#8220;games&#8221;  &#8211; drives C, D and G :D) and things are fairly well sorted into that. Documents tend to live in My Documents, with a sub folder if they require it because of importance (e.g. I have My Documents\UniWork which contains an &#8220;IE&#8221; folder for last year&#8217;s reports and a &#8220;Project&#8221; folder for this year&#8217;s work &#8211; which I should do more on!)</p>
+<p>I don&#8217;t think I have a capitalisation convention &#8211; or not a concious one. I might capitalise the first letters of each work, or else I&#8217;ll go more Linux style and space words with underscores.  One thing I avoid at all costs (partly because of Linux and partly because of websites and some really old issues with some browsers) is putting a space in a file name.</p>
+<p>Other than that, I don&#8217;t know if I can suggest much.  I would give more details/insight, but my g/f is on my desktop at the moment, so I&#8217;m on my Development Laptop running Fedora Core 3 at the moment and I don&#8217;t think the organisation of that would be as much use :D</p>
+<p>Anyway, off to see what&#8217;s on Naith&#8217;s site :)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-414">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">IBBoard</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-414">
+        <time class="published" datetime="2005-11-05T10:43:41-01:00">05 Nov 2005, 10:43</time>
+      </a>
+      <div class="entry-content"><p>Actually, I lied, I am more organised than that :D</p>
+<p>I&#8217;m on my desktop machine now, and my D drive is a little more organised than just a dumping ground.  I have an MP3, Videos and Pics folder, with MP3s being dumped in there for singles ones or foldered however the CD Ripper wanted for albums, Pics are split up into content (Photos, Photoshop work, Dawn of War bits etc) and Videos is not even a dozen videos.</p>
+<p>I then have an Installers folder, which is my normal Firefox download target, or a sub folder if it&#8217;s not an installer but is something I&#8217;m just downloading (like phpBB Mods or something).</p>
+<p>I also have a Visual Themes folder that contains Trillian skins (even though I don&#8217;t use it) and some XP Visual Styles I&#8217;ve tried out at various times.</p>
+<p>The only other semi-important folder on there is Websites, which contains all of the files (except the <span class="caps">PHP</span>, which lives on my Linux laptop) that make up my site images, downloads and test styles.</p>
+<p>Having looked at the names of some files, I don&#8217;t think I have a naming convention :D underscores between words or Pascal Case seems to be entirely dependant on how I&#8217;m feeling and whether it&#8217;d look right in Pascal Case (or whether it ends up with too many capitalised letters together)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-415">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-415">
+        <time class="published" datetime="2005-11-05T16:44:44-01:00">05 Nov 2005, 16:44</time>
+      </a>
+      <div class="entry-content"><p>Cheers based on what you&#8217;ve described there, and my current thinking on how best to implement auto-generation of �useful� tags, it ought to be pretty usable for you :)</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

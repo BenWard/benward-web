@@ -1,0 +1,73 @@
+---
+layout: blog
+category: blog
+title: "Semantic Markup"
+date: "2004-07-27T13:40:21+00:00"
+tags: ["technology"]
+atomid: tag:benward.me,2004-07-27:/blog/semantic_markup
+---
+It appears that in my eagerness to jump on <acronym title="eXtensible HyperText Markup Language">XHTML</acronym>, I'd completely overlooked the meaning of mark-up.
+
+It's a well ignored fact that HTML tags have meaning, rather than just being presentational aids. This is especially true of XML based mark-up, which by definition exists to describe <em>anything</em>.
+
+<a href="http://mpt.net.nz/archive/2004/05/02/b-and-i" title="When semantic mark-up goes bad" rel="">Matthew Thomas</a> puts this straight effectively, and offers a really rather timely reminder that there's more to XHTML than what gets rendered and that &lt;em&gt; is not a replacement for &lt;i&gt; at all.
+
+In fact, at a time when <a href="http://www.microsoft.com" title="Microsoft Corporation">Microsoft</a> are about to move to standard XHTML support with ASP.NET 2.0 (and an inevitable implication that IE will follow, perhaps?), people really should take note of how to use modern mark-up properly and keep the web ticking over.
+
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-180">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/0f0262a334c4108cf6f66a0193cf2c84.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.jonty.me.uk/">Jonty</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-180">
+        <time class="published" datetime="2004-07-27T20:59:01+00:00">27 Jul 2004, 20:59</time>
+      </a>
+      <div class="entry-content"><p>The point about emphasis is a really quite interesting, in a webdev sort of way!</p>
+<p>So often &#8216;em&#8217; is said to be replacement for &#8216;i&#8217;, and is usually rendered as such. So too with &#8216;strong&#8217; and &#8216;b&#8217;. However, look in the specs and there is no mention at all of bold or italics. &#8216;em&#8217; is merely deemed emphasis, and &#8216;strong&#8217; for greater/stronger emphasis. Perhaps we&#8217;d all better add:</p>
+<p>strong { font-weight:bold }</p>
+<p>and such? :)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-181">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-181">
+        <time class="published" datetime="2004-07-27T21:15:37+00:00">27 Jul 2004, 21:15</time>
+      </a>
+      <div class="entry-content"><p>As a general rule, most browsers simply render &#8216;em&#8217; with italics and &#8216;strong&#8217; with bold by default, another possible cause for the assumption.</p>
+<p>Something about the newer tags seemed &#8220;better&#8221;, and therefore naturally assume it to be a replacement. Of course, the actual implications of trying to replace two of the most common tags on the Inter-Web (bar &#8216;html&#8217;, &#8216;head&#8217; and &#8216;body&#8217;, natch) is rather laughable.</p>
+<p>I think the interesting point that comes out of it is that this all fits into the move away from <span class="caps">HTML</span> as visual mark-up. <span class="caps">XHTML</span> is about describing documents, not presenting them. The net result is &#8211; hopefully &#8211; documents that are multi-format and accessible to everything. The fact that <span class="caps">XHTML</span> and WAP2.0 are, to my knowledge, the same thing demonstrates very nicely the scope of the format. A shame that the W3C see fit to produce multiple standards (such as <span class="caps">XHTML</span>/Basic), which rather renders the idea of having a single standard less useful.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-182">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/f021beb1c305cb6c2e8b33b0227c1c57.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://mpt.net.nz/">mpt</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-182">
+        <time class="published" datetime="2004-07-27T23:42:29+00:00">27 Jul 2004, 23:42</time>
+      </a>
+      <div class="entry-content"><blockquote>I think the interesting point that comes out of it is that this all fits into the move away from <span class="caps">HTML</span> as visual mark-up.</blockquote> <p>One of the things I was trying to demonstrate is that that move away can never entirely work. First, a general-purpose markup language like <abbr>(X)<span class="caps">HTML</span></abbr> can&#8217;t possibly include all the semantic reasons people want to use bold or italics. Second, most people don&#8217;t think semantically and you can&#8217;t make them to. And third, requiring such people to guess the correct element (or just substituting all their <code>&amp;lt;i&amp;gt;</code>s for <code>&amp;lt;em&amp;gt;</code>s) does more semantic harm than good.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-183">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-183">
+        <time class="published" datetime="2004-07-28T08:59:22+00:00">28 Jul 2004, 08:59</time>
+      </a>
+      <div class="entry-content"><p>I&#8217;m now very, very impressed with this Blogging technology ;) Thanks very much for commenting!</p>
+<p>I think the idea of pushing out to the boundaries of current web technology is a task that&#8217;s scaled beyond the scope of most web developers, certainly those of us acting alone. The additional work required to carefully design and implement the semantic elements of the design would be gigantic. What if you were then to factor in other <i>fringe</i> web technologies: <span class="caps">CSS</span> speech description, multi-lingual considerations, even just producing a second stylesheet for mobile devices is a massive amount of effort that would certainly be beyond me working alone.</p>
+<p>The only people with the resources for such a size of development are big business, but from a position of working in the Web Team of one right now (Fujitsu-Siemens Computers), I can confidently say that we&#8217;re lucky to have a guy working on <span class="caps">XHTML</span>/<span class="caps">CSS</span> standards compliance for all our version 2 sites, the idea being able to employ/spare someone to work on semantic mark-up would be some kind of magical luxury.</p>
+<p>All of these are obviously completely independent of each other, I don&#8217;t mean to imply that implementing careful semantic mark-up <em>must</em> include implementing fringe <span class="caps">CSS</span> as well, simply that the scale of Hypertext has reached a size where we&#8217;re forced by time to be selective.</p>
+<p>Semantic mark-up however, is something I&#8217;m rather sold on. Thank you :)</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

@@ -1,0 +1,17 @@
+---
+title: Ben Ward
+url: http://benward.me
+shortdomain: http://bnwrd.me
+author:
+  name: Ben Ward
+  url: http://benward.me
+  twitter: benward
+layout: base
+permalink: /:categories/:title.html
+lsi: false
+multiviews: true
+markdown: rdiscount
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'import']
+dateformat: "%b %e %Y, %H:%M (%z)"
+archive_month_index: archive_month.html
+archive_year_index: archive_year.html

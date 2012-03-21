@@ -1,0 +1,27 @@
+---
+layout: blog
+category: blog
+title: "Channel 4 News use Firefox"
+date: "2005-01-06T20:41:29+00:00"
+tags: ["all", "mozilla_firefox"]
+atomid: tag:benward.me,2005-01-06:/blog/channel_4_news_use_firefox
+---
+Didn't manage to get a picture (my TV tuner card doesn't do Channel 4 yet) but Channel 4 News in the UK have taken to using Firefox as their demonstration browser for reports that involve shots of web pages. It's a nice to see it infiltrate the real world :)
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-229">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/abb5e982d97d7539860141b7904ba31a.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://philwilson.org/blog/">Phil Wilson</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-229">
+        <time class="published" datetime="2005-01-17T12:17:50+00:00">17 Jan 2005, 12:17</time>
+      </a>
+      <div class="entry-content"><p>It always makes me laugh that the browser in the Expedia.co.uk ads is Mac IE. :)</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

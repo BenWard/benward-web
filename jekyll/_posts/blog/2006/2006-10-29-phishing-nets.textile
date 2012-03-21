@@ -1,0 +1,18 @@
+---
+layout: blog
+category: blog
+title: "Phishing nets"
+date: "2006-10-29T23:41:48+00:00"
+updated: "2006-10-29T23:41:48+00:00"
+tags: ["all", "osx", "spam", "email", "phishing", "ebay", "paypal", "banking", "scams", "mailapp"]
+atomid: http://ben-ward.co.uk/journal/phishing-nets/
+---
+Phishing. What a stupid word. Lord knows how we'll persuade regular computer consumers to adapt to it. This is quick and techie-friendly anti-phishing technique, and a Mail.app gripe.
+
+For those of us more tech-savvy (and in possession of multiple email aliases), I twigged upon a simple technique to neuter scam mails without causing the spam filter to start mis-filtering legitimate PayPal receipts.
+
+Very simply: I have unique email forwarding addresses for each scam-favoured service I use. Ebay, PayPal and my bank all have unique addresses. Then I have a rule in Mail that checks if an email <em>from</em> PayPal has actually been sent <em>to</em> the genuine PayPal address (they never are). At the moment they highlight mismatching messages in a lovely shade of red, but once I've seen it work properly for a few days I'll start deleting them automatically. It should work so long as said genuine email addresses remain unpublished for spam crawlers to pick up. This isn't perfect, since I know of at least one place that my PayPal address is published right now, but at the very least it will counter *most* of the scams, and the eBay and banking addresses are certainly secret.
+
+PayPal and eBay are easy, it's a one-to-one service domain to email address mapping. Banks should be just as easy, just requiring a list of banking domain names rather than one. Except, for some unfathomable reason, Mail.app on OSX doesn't seem to support boolean expressions in its mail filters. In fact, so simple is Mail's system it only allows you to enforce <em>all</em> conditions or any. This rule must match both (the banks domain and my genuine address), but it looks like I'll have to create a dozen different rules to match the unique bank domains. A quick Google revealed nothing, so does anyone know if Mail can support more advanced string matching? Extensions/stable hacks or scripts are fine, so long as they're run on messages automatically.
+
+Any other techniques you use to avoid breaking your spam filter?

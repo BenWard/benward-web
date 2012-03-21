@@ -1,0 +1,177 @@
+---
+layout: blog
+category: blog
+title: "Concerning Flash and HTML5"
+date: "2009-06-23T10:21:59-08:00"
+updated: "2009-06-23T10:26:50-08:00"
+summary: "An overview of this whole Flash vs. HTML5 brew-ha-ha, and how really the developments concerned are just pragmatic evolution of technology butting up against a couple of short-lived, but lucrative, media opportunities.
+
+HTML 4 supported pictures. HTML 5 supports moving pictures. It's progress."
+tags: ["technology", "w3c", "html", "video", "html5", "flash", "adobe", "whatwg", "audio", "canvas", "jon-downdell", "flash-killer"]
+atomid: http://ben-ward.co.uk/?p=530
+---
+Earlier today I took a certain amount of pleasure "ripping into":http://micro.ben-ward.co.uk/post/128294973 Jon Dowdell's disingenuous "Adobe on HTML5":http://blogs.adobe.com/jd/2009/06/adobe_on_html5.html post from last week. However, I happen to think that there are some useful points to be made about the relationship between Flash and HTML5, and how one affects the other.
+
+It doesn't look good for Flash. But Flash isn't going to die.
+
+Firstly, consider some background. Flash has been around for a very long time, providing a platform for games, vector graphics, animation and media playback. It offers massive market penetration, and of course there is only one Flash player, so it purports to offer a consistent experience across platforms.
+
+However, Flash comes with a number of significant downsides. Firstly, that ‘consistent experience across platforms’ might also be written as ‘inconsistent experiences on every platform’. By taking most of its user interface conventions from Microsoft Windows, the experience of using Flash on a Mac is not the same as using any other app in OSX using native controls. Simple stuff like the behaviour of keyboard chords in text entry controls are different, the text selection colour doesn't match the system selection; low level stuff.
+
+Similarly, the Flash plug-in itself is cited by Google and Apple as being a massive cause of crashes in their browsers, crashes that the browser maker gets the blame for, but is really caused by Flash. "In Google Chrome":http://www.google.com/googlebooks/chrome/small_08.html and "in OSX Snow Leopard":http://twitter.com/daringfireball/status/2078539734, plug-ins are sandboxed away from the main browser process. Mozilla "lists":http://crash-stats.mozilla.com/query/query?do_query=1&product=Firefox&version=Firefox%3A3.5b99&platform=linux&date=&range_value=1&range_unit=weeks&query_search=signature&query_type=contains Flash as the biggest causes of Firefox crashes on Linux.
+
+To top it off, for all the claims of ‘Accessible Flash’ over the past year, Flash content is still _only accessible on Windows_; on Mac OSX, "Flash has no integration with VoiceOver":http://bugs.adobe.com/jira/browse/FP-38. Screen readers are only supported on Microsoft Windows through the <abbr title="Microsoft Active Accessibility">MSAA</abbr> API.
+
+The iPhone shipped two years ago without Flash support. At the time, some said it was a ‘missing feature’. 24 months later, the iPhone seems to be doing just fine without Flash, and users seem very happy. Adobe have stopped making vapourous comments about having ‘Flash for iPhone’ waiting in the wings.
+
+There are two distinct threads to a Flash vs. HTML 5 discussion. Those are ‘Features’ and ‘Philosophy’. Let's tackle them separately.
+
+h2. Features
+
+HTML 5 is gaining mind-share because of a handful of key new features that it offers: <code><video></code>, <code><audio></code> and <code><canvas></code>. 
+
+The first two are quite self-explanatory, they are new elements dedicated to providing video and audio media directly in the browser, and provides a DOM API for controlling the media from JavaScript. Note, the idea is that the media is played back directly by the browser, not through a plug-in like Quicktime or Windows Media Player (which is how video used to work, before Flash).
+    
+This affects Flash because over the past few years, perfectly timed with the rise in available bandwidth to stream audio and video, it provided a solution better than the Quicktime/Windows Media/RealPlayer mangle that came before it. Before, to embed video in pages you needed to provide multiple codecs, depend on bespoke media player UI appearing in your page (all of which was different sizes, and so would break your layout), and half the time your visitors had the wrong version of the plug-in anyway.
+
+Flash stepped in with a solution: Support for more platforms than any one of the other bespoke players, and you could design your own playback UI around it, too.
+
+Flash won video from under the feet of Apple, Microsoft and Real by building something that was better, and bypassing their squabbling over codecs.
+
+But, it's just a better, bespoke solution. It's still vendor dependent. Flash provided the use-case for ‘embedding video with author-defined playback controls’. The purpose of standardisation is to take that feature and define it, such that anyone can implement it. From there, comes <code>video</code> and <code>audio</code> in HTML5.
+
+Flash also provides vector drawing tools. It's another useful use-case (graphing, interactive charts, etc.) Again, the standardisation process for HTML is about taking the use cases from real content on the web and defining it so many people can implement it. <code>canvas</code> (via. Apple) is the implementation for that.
+
+Three major pieces of functionality. Putting them natively into the browser responds to the needs of web developers. That's what the standard is for. Does this mean that HTML 5 ‘kills’ Flash because previously Flash-only functionality is now native? No. But it means that _those major use cases_ no-longer require Flash. There's plenty of other, less trivial functionality that Flash supports for which widespread demand does not exist. But _of course_ really common features of web pages are going to be supported in Open Web technology.
+
+Additionally, you may cite "sifr":http://wiki.novemberborn.net/sifr3/ — using custom typefaces — as a use-case for Flash. That falls outside of HTML5, but is covered by an increasingly well supported CSS3 feature, "<code>@font-face</code>":http://www.css3.info/preview/web-fonts-with-font-face/.
+
+h2. Philosophy
+
+I've avoided linking Jon Dowdell here as a major source because although he titled his post ‘Adobe on HTML5’, his blog also states that his opinions do not represent his company. His post is representative of Adobe's _general philosophy_ toward the web, though.
+
+As far as Adobe are concerned, Flash is _part of_ the web. It's not just an optional, bolt-on plug-in for proprietary content. To Adobe, Flash is as much a part of the web as JavaScript or CSS. They regard is as a legitimate part of the stack.
+
+<blockquote cite="http://blogs.adobe.com/jd/2009/06/adobe_on_html5.html">“the "HTML5" publicity helps marginalize those few who still argue that images, animation, audio/video and rich interactivity have no place on the web. Flash will be able to deliver on those heightened expectations, regardless of what each separate browser engine does.”</blockquote>
+
+The second part of Adobe's philosophy is that consistent support for functionality on the web is non-negotiable.
+
+<blockquote cite="http://blogs.adobe.com/jd/2009/06/adobe_on_html5.html">“we really do need the ability to predictably deploy advanced capability across a range of device brands and browser brands”</blockquote>
+
+This philosophy is wrong. One: _Flash is not part of the web_. The web _is_ the Open Web and anything closed and proprietary is just riding on its back. I don't mean that bespoke plug-ins are unwelcome or even ‘wrong’; they provide all sorts of useful functionality. I do mean that if you are a single-vendor creator of a proprietary, patent and license encumbered, undocumented, closed-source plug-in then you have no claim to be part of the _infrastructure_ of the web. The infrastructure, from TCP/IP upwards, is *open*.
+
+The consistent support aspect also flies in the face of techniques used with every part of the Open Web stack: Graceful degradation, progressive enhancement, and the fight against the misguided demand for pixel perfection are all battles that have been fought and won since "Designing for Web Standards":http://www.zeldman.com/dwws/.
+
+The web is about content. Everything above that is dressing (perhaps think of the web as fresh bread, _perfectly coated_ in balsamic vinegar and olive oil). *The fact that older browsers cannot render all the features of your page but can still provide the content to users is a feature*. It's the most important feature.
+
+The Flash philosophy is opposite. Flash is about a complete experience (singular). It's about every detail being precisely bevelled into place for every viewer. The consequence of this approach is that it resists the availability of content. The goal of perfect consistent rendering can only be achieved through a single version of this single vendor's bespoke plug-in. If you need a feature of Flash 10, Flash 9 users must upgrade to see _any_ of your content, not just the new feature.
+
+The Flash approach is anti-content; anti-web. Adobe present the idea that Flash is a superior offering because the entire suite of features, in one big blob, is a compelling development offering. But the reason to write on the web in the first place is to make content available broadly.
+
+In recent years, through multimedia, fonts and and vector drawing, we've seen more and more blocks of content moved into Flash, in the absence of a robust standards-based mechanism. HTML5 redresses that by supporting those use cases. HTML4 supports pictures. HTML5 supports moving pictures. HTML5 supports what people publish on the web.
+
+h2. Fuss
+
+What is the fuss about? HTML5 doesn't compete with Flash as a product, (you could never produce an implementable specification for so much functionality in one go). It just takes some specific, common use-cases for web _content_ and supports them.
+
+Yet, people on one side are crying for the absolute death of Flash, and clearly some from Adobe are on the defensive to outright dismiss the HTML5 effort.
+
+Critics may be motivated by any number of those negative user-experiences this article opened with, but Flash won't die. If HTML5 takes away one use-case that Flash fulfils, Adobe Flash will add new features that browsers don't have. That's what plug-ins have always done. Flash can and will iterate faster than browsers and can deploy wider all at once. That said, some of those existing use cases — namely video playback — _are_ extremely lucrative for Adobe. Video took Flash from ‘optional’ to ‘essential’ for a certain slice of web content. The video sharing industry is dependent on Flash. 
+
+Adobe will lose their exclusive grip on that. But, what did they expect? That a massively profitable industry would tie themselves to a single vendor?
+
+Flash offers only one advantage to video on the web, and I think this one will be genuinely interesting to see turned into a marketed feature. The HTML5 method of embedding video looks like this:
+
+<code><video src='http://example.org/video/foo.mp4'></video></code>
+
+There's the URL to your video file, right there in the HTML source, downloaded in raw form. What can Adobe offer publishers? Two ‘features’ of software that run absolutely counter to the principals of the open web: DRM and obfuscation.
+
+That could be interesting. The survival of Adobe Flash Video online will require them to take the closed, anti-content consequence of Flash's model, and instead embrace it as a feature for media companies that fear distribution of their content.
+
+Really, I think this whole issue is overblown. Maybe it's all fuelled by scare-mongering from individuals Adobe, maybe it's over-eager Open Web evangelists eager to see closed and proprietary scraped from the face of the web. In reality, it's just the pragmatic, ongoing evolution of the web offering useful new functionality.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-227199">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/64827b31aef81498662e8af4bd6d5157.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://dinnermint.org/">Jon Rohan</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227199">
+        <time class="published" datetime="2009-06-23T10:51:23-08:00">23 Jun 2009, 10:51</time>
+      </a>
+      <div class="entry-content"><p>I&#8217;m really excited for html5 to become more widespread, flash has done well, (considering it was created for ads), but the sexiness of native video, audio, and canvas is nice.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227200">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/23869821e052400dcf7e88fb535165d9.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://jayfienberg.com/">Jay Fienberg</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227200">
+        <time class="published" datetime="2009-06-24T02:56:55-08:00">24 Jun 2009, 02:56</time>
+      </a>
+      <div class="entry-content"><p>Good critique.</p>
+<p>One thing to add, that I think is part of the tide moving video and audio towards <span class="caps">HTML</span> 5, is that more and more of us are using <span class="caps">HTML</span>/<span class="caps">CSS</span> and Javascript to embed and control what happens with the Flash on the page.</p>
+<p>On several sites I&#8217;ve worked on, the only thing the Flash is doing is rendering the audio or video &#8212; all of the interaction is handled via Javascript and much or all of the styling is handled via <span class="caps">HTML</span> / <span class="caps">CSS</span>. On an audio-only player based on <a href="http://www.schillmania.com/projects/soundmanager2/">SoundManager 2</a> , the Flash is totally behind the scenes (no aspect of it is even visible on the page).</p>
+<p>Assuming HTML5 gets implemented to the point that it successfully handles common audio and video codecs cross-browser, on many sites, it will be practical to just swap out the Object elements for Video and/or Audio elements.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227201">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e18bbcd3c247d26919e3c699e5ea7181.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227201">
+        <time class="published" datetime="2009-06-24T04:36:03-08:00">24 Jun 2009, 04:36</time>
+      </a>
+      <div class="entry-content"><p>I don&#8217;t mean to dismiss the general future relevance of Flash. I&#8217;ll stress again, it&#8217;s not going to die because of HTML5. It&#8217;s just certain use-cases becoming commodity, and thus implemented in the open.</p>
+<p>There will always be a higher tier of functionality than open web technologies and browser upgrade cycles can offer; Flash will fill that role with aplomb. But Flash&#8217;s acquired role as the de facto ‘video element for HTML4’ is an anomaly  in my view. The web being reliant on a single-vendor, proprietary solution for a core media type is not right.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227202">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/913ff08f6c53bde5403ca020235516fe.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.jpencola.com/">John Pencola</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227202">
+        <time class="published" datetime="2009-06-30T03:16:42-08:00">30 Jun 2009, 03:16</time>
+      </a>
+      <div class="entry-content"><p>Well put! I&#8217;m excited to see open standards gaining so much momentum.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227203">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/365cac62c78a7833891c1b0e80cd1773.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://svg.startpagina.nl">stelt</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227203">
+        <time class="published" datetime="2009-06-30T05:50:16-08:00">30 Jun 2009, 05:50</time>
+      </a>
+      <div class="entry-content"><p>&gt; vector drawing tools &#8230; canvas &#8230; is the implementation for that</p>
+<p>ehm, what about <span class="caps">SVG</span> ?</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227204">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e18bbcd3c247d26919e3c699e5ea7181.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://benward.me">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227204">
+        <time class="published" datetime="2009-07-01T14:42:58-08:00">01 Jul 2009, 14:42</time>
+      </a>
+      <div class="entry-content"><p>Hi Stelt,</p>
+<p>SVG. Hmm. I don&#8217;t want to get into any kind of canvas/<span class="caps">SVG</span> debate — it&#8217;s the provision of the functionality that counts; I&#8217;m agnostic which of <span class="caps">SVG</span> or Canvas gets used.</p>
+<p><span class="caps">SVG</span> is at a point where it&#8217;s getting viable — and it&#8217;s better designed than Canvas in a number of respects (not being scripting dependent is good, for a start!) — but it&#8217;s also got a rocky co-existance with HTML5. You could fairly read everything in the above as ‘canvas/SVG’  if you liked. The inclusion/removal and doubts over the use of <span class="caps">SVG</span> in <span class="caps">HTML</span> (rather than <span class="caps">XHTML</span>) make it flakier in this context.</p>
+<p>If <span class="caps">SVG</span> makes it, and I hope it does, then that&#8217;s great. Canvas is going to be the driver for runtime, scripting driven graphics, though.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-227224">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/084c2309fd7f7e72c1d1a82061b85c31.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">sfg</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227224">
+        <time class="published" datetime="2009-07-23T19:56:36-08:00">23 Jul 2009, 19:56</time>
+      </a>
+      <div class="entry-content"><p>As far as I am concerned, Flash is going to run on HTML5.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

@@ -1,0 +1,50 @@
+---
+layout: blog
+category: blog
+title: "A Lala Eulogy"
+date: "2010-05-02T03:01:26-08:00"
+updated: "2010-05-02T03:01:26-08:00"
+tags: ["all", "music", "lala", "eulogies"]
+atomid: http://benward.me/blog/a-lala-eulogy
+---
+Some months ago, Apple acquired a music service that I didn't care about: "Lala":http://lala.com. I didn't care because between my personal library in iTunes and on my iPod, Spotify (via proxy), Last.FM, and Hype Machine I was well hydrated for music discovery and appreciation. Lala was famous for its ‘web songs’ model, where you pay a small fraction of the retail price for a song or album in order to stream it repeatedly from its site. Neat, but I'm sceptical of ‘renting music’.
+
+Some time later, I did start using Lala. I discovered, to my delight, a handful of features that were really quite brilliant, and I'm going to miss them.
+
+Firstly, it scrobbles. So "it counts":http://cdn.last.fm/blog/posts/april12/poster_boy.jpg.
+
+Second, the ‘Upload your Library’ feature. It scans through your iTunes library and makes your music available for infinite streaming, for free. I've been able to play back 85% of my music library from anywhere using Lala. It's a similar function to SimplifyMedia, but over a reliable connection, with lots of bandwidth, and without the need to keep my Mac Mini media center turned on all the time.
+
+And finally, it turned out to be the absolute best mechanism for purchasing digital music. For me, at least. You can buy albums easily from the web interface, and it allocates them to your account, and makes them available for streaming. Unlike other stores though, like iTunes and Amazon, it doesn't require you to download the music to your current machine right then. Better yet, the same application that handled ‘uploading’ my music to Lala also monitors my account and downloads new purchases. So I could purchase something at work, or from my laptop, and know that as if by magic, my Mac Mini media center would download the files and add them to iTunes, no matter where I was.
+
+I really hoped that Lala would gain integration with iTunes, and that the Uploader functionality would persist, but no such luck.
+
+It's functionality that falls way into the 20% of the infamous 80:20 rule. Most people don't have media centres. But for me, I regretted being so cynical of Lala, because it turned out to be a great little service.
+
+Their music collection makes a joke out of Spotify, too.
+
+Like most music startups though, income for Lala was difficult, and they could never escape the reality that they didn't actually own the media their business was built on. Apple bought them for a pittance, and I can only hope there's an ‘iTunes Online’ in the works. (And that it doesn't suck.)
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-227345">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/bfbad2da96f40a77deebc11e63d4a5be.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.psonar.com">Richard Urwin</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-227345">
+        <time class="published" datetime="2010-05-19T03:23:55-08:00">19 May 2010, 03:23</time>
+      </a>
+      <div class="entry-content"><p><a href="http://www.psonar.com/" rel="nofollow">Psonar</a> is one worth checking out if you liked the upload facility of Lala.</p>
+<p>It&#8217;s also a cloud-based solution so you can upload the music you own so it is streamable / downloadable everywhere, from any internet-connected device.</p>
+<p>It offers unlimited storage and unlimited streaming for free.</p>
+<p>You can also search and listen to clips of any other track uploaded to the cloud and buy that music if you like.</p>
+<p>Psonar does more though &#8211; it also provides web-based iTunes-style management so that you can drag and drop tracks to any device, such as your iPhone, Android device or MP3 player &#8211; in fact anything that you can connect to a PC via <span class="caps">USB</span>. This means you can have your music on your device when that&#8217;s best, but also in the cloud &#8211; so it&#8217;s also great for backup:</p>
+<p>http://blog.psonar.com/2010/02/26/laptop-dead-music-safe/</p>
+<p>So &#8211; it&#8217;s perfect if you love your old MP3 player, want to keep your music on an inexpensive memory stick or for when you don&#8217;t have an internet connection and thus offers you the best of both worlds.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

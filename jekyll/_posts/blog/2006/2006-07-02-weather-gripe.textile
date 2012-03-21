@@ -1,0 +1,44 @@
+---
+layout: blog
+category: blog
+title: "A very English gripe"
+date: "2006-07-02T22:37:28+00:00"
+updated: "2006-07-02T22:38:07+00:00"
+tags: ["all"]
+atomid: http://ben-ward.co.uk/journal/a-very-english-gripe/
+---
+The make-up of an Englishman varies dramatically depending on the context of the appending blog post, but right now let's say it's 33% fine roast meat, 33% penalty shoot outs and 34% whinging about the weather.
+
+This has been an outstanding week for weather gripes in England. We're having a pretty staggering heat wave and there's no breeze so none of us can sleep in 23˚ temperatures. Yet we still managed to rain off the first day of our annual tennis tournament.
+
+What it is to be English.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-5096">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/abc50d59ef1ac8472737483abc7d870d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Adam</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-5096">
+        <time class="published" datetime="2006-07-05T06:47:03+00:00">05 Jul 2006, 06:47</time>
+      </a>
+      <div class="entry-content"><p>Being English is still considering havnig that barbeque you had planned, even when it looks like <a href="http://www.flickr.com/photos/adammcardle/180601706/" rel="nofollow">this</a> outside</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-5817">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">IBBoard</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-5817">
+        <time class="published" datetime="2006-07-11T09:14:10+00:00">11 Jul 2006, 09:14</time>
+      </a>
+      <div class="entry-content"><p>Adam: That&#8217;s what golfing brollies are for :D</p>
+<p>As for an Englishman&#8217;s makeup, I think it&#8217;s only a select few like Eddie Izzard who go for that look ;)</p>
+<p>On the plus side (since I&#8217;m reading this a little late) Rooney deserved it, and it&#8217;s rained since then, or at least cooled down.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

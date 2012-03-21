@@ -1,0 +1,16 @@
+---
+layout: blog
+category: blog
+title: "Upcoming conferences"
+date: "2007-02-15T23:50:39+00:00"
+updated: "2008-02-28T16:34:11+00:00"
+tags: ["all", "technology", "events", "conferences", "barcamp", "sxsw", "future-of-web-design", "fowd", "travel", "web"]
+atomid: http://ben-ward.co.uk/journal/conferences-2007/
+---
+As the tech world continues to heat up year-on-year, the conference season starts up earlier and earlier. It's reached a point where the entire year becomes one great big geek piss up, with a short break at Christmas to get drunk with our families instead.
+
+In fact, the next few months suddenly look rather busy:
+
+<ul class="vcalendar"><li class="vevent"><span class="summary">BarCamp London 2</span> (<abbr class="dtstart" title="2007-02-17">Saturday</abbr>–<abbr class="dtend" title="2007-02-18">Sunday</abbr>) in <span class="location">London</span></li><li class="vevent"><span class="summary">South by South-West Interactive</span> (<abbr class="dtstart" title="2007-03-07">March 7th</abbr>–<abbr class="dtend" title="2007-03-15">15th</abbr>) in <span class="location">Austin, Texas</span></li><li class="vevent"><span class="summary">Future of Web Design</span> (<abbr class="dtstart" title="2007-04-18">April 18th</abbr>) in <span class="location">Kensington, London</span></li></ul>
+
+BarCamp is going to be a lot of fun. It'll be my second experience of presenting, something that experience and confidence can only improve. Last year, <span class="vcard"><a class="fn url" href="http://nascentguruism.com">Steve Marshall</a></span> and I threw something together on Workflow  and it was tough going when it came to stand up. This time around we're divorcing to do our own thing, which should make it easier; only needing to fill a 30 minute slot rather than 60. I'm also sitting on the <a href="http://microformats.org">microformats</a> panel, so I'm putting together some demo's to introduce that, with a slight new twist.

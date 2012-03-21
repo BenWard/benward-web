@@ -1,0 +1,49 @@
+---
+layout: blog
+category: blog
+title: "d.Construct Placeholder"
+date: "2005-11-12T23:40:13-01:00"
+updated: "2005-11-15T00:54:12-01:00"
+tags: ["all", "dconstruct", "social"]
+atomid: http://ben-ward.co.uk/?p=272
+---
+<img class="splash" src="/media/splashes/dconstruct.splash.png" alt="Regarding d.Construct:" /> A full write-up is coming next week, but here's a handy placeholder for anyone I met (or not) that would like to leave a message.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-437">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/1263bf47b50ccebbadf6bc8c0bf267dc.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://dhs.neuropirate.com/">Dave HS</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-437">
+        <time class="published" datetime="2005-11-14T23:59:06-01:00">14 Nov 2005, 23:59</time>
+      </a>
+      <div class="entry-content"><p>Handy indeed!<br />
+Great to meet you and Steve last week.  In fact, I just clocked this evening that Steve is the Steve from nascentguruism.com!  God, I&#8217;m slow.  (Isn&#8217;t his site one of those irritating ones where you can&#8217;t help thinking &#8220;wish I&#8217;d thought of that&#8221;? That&#8217;s some sort of complement, I suppose.)</p>
+<p>Anyway I could go on with heaps of how awesome d.Construct was but I think I&#8217;ll post about it on my site soon&#8230;</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-438">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-438">
+        <time class="published" datetime="2005-11-15T00:43:01-01:00">15 Nov 2005, 00:43</time>
+      </a>
+      <div class="entry-content"><p>It is indeed the same Steve. And yes, whilst I can soothe my jealousy towards his site with thoughts of �I helped�, I didn&#8217;t really help enough to take any credit away from him. Must try harder next time�</p></div>
+    </article></li>
+  </ol>
+</div></notextile>
+
+<notextile><div class="pingbacks hfeed" id="pingbacks">
+  <h2>Pingbacks</h2>
+  <ul>
+    <li class="hentry" id="pingback-603">
+      <a rel="bookmark" class="entry-title" href="http://ben-ward.co.uk/journal/christmas-is-here-then/">Ben Ward &raquo; Christmas is here, then</a>
+    </li>
+  </ul>
+</div></notextile>

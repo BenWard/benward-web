@@ -1,0 +1,99 @@
+---
+layout: blog
+category: blog
+title: "�Oak Desktop� Requirements:  User Survey"
+date: "2005-11-08T16:38:46-01:00"
+updated: "2005-11-08T16:58:36-01:00"
+summary: "Help me out with the final year project by taking a survey."
+tags: ["university", "project", "oak", "survey"]
+atomid: http://ben-ward.co.uk/journal/oak-desktop-requirements-user-survey/
+---
+<img class="splash" alt="" src="/media/splashes/oakleaves.splash.png" title="Autumn Yellow by gotigersjf"/>
+To help finalise the requirements for my final year project, I've thrown together <a href="http://ben-ward.co.uk/survey/" title="�Oak Desktop� User Survey">a questionnaire</a> about computer usage; more specifically, how and where you save documents, photographs and music on your computer.
+
+Basically, the answers will help me prioritise which file formats to support, which (if any) existing applications to interface with and also help build a reliable means of �auto tagging� existing files.
+
+So, if you've got some minutes spare, <a href="http://ben-ward.co.uk/survey/" title="�Oak Desktop� User Survey">fill the survey in</a>.
+
+Also, for those wondering, �Oak� privately stands for �Order And Chaos�, referring to an application that should help bring order to files, by using freeform (chaotic) tagging to add metadata. Clever eh? As well as naming the application �Oak Desktop�, it also opens the way for a future product website to have an �Oak Log�. It's all enough to make me feel rather _too_ pleased with myself.
+
+Thanks very much for your help.
+
+<p class="footnote">The accompanying image is cropped from �<a href="http://flickr.com/photos/gotigersjf/51389833/">Autumn Yellow</a>� by gotigersjf (Creative Commons).</p>
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-421">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/2a86104d2cf9a6db94a4e8b0b1e542da.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.six-by-nine.org/">Andrea</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-421">
+        <time class="published" datetime="2005-11-09T13:14:25-01:00">09 Nov 2005, 13:14</time>
+      </a>
+      <div class="entry-content"><p>I like how the accompanying picture is so totally not an oak. Very meta. A symbol for the randomness aspect, if you will. Bit of a puzzle, sort of thing.</p>
+<p>&#8230; or not. I&#8217;ll just go fill out the survey.</p>
+<p>(Oak log! Hee!)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-422">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-422">
+        <time class="published" datetime="2005-11-09T13:52:53-01:00">09 Nov 2005, 13:52</time>
+      </a>
+      <div class="entry-content"><p>Hmm, it&#8217;s Flickr tags claim it is, I&#8217;ll admit I wasn&#8217;t thinking much about it. It&#8217;s pretty anyway, even if I don&#8217;t really know if it&#8217;s an Oak or not. Hmm.</p>
+<p>I&#8217;ve got some nice ideas for real logo graphics and the like for the project, but they won&#8217;t get started on until around Christmas time, so random tree pictures from Flickr&#8217;s Creative Commons section are going to suffice until then.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-423">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/2a86104d2cf9a6db94a4e8b0b1e542da.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.six-by-nine.org/">Andrea</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-423">
+        <time class="published" datetime="2005-11-09T15:31:52-01:00">09 Nov 2005, 15:31</time>
+      </a>
+      <div class="entry-content"><p>I&#8217;m rather positive it&#8217;s a maple leaf. If you turn the picture upside down, you can sort of see the Canadian flag in there. I don&#8217;t know much about foliage, but both oaks and maple trees have very distinctively shaped leaves &#8212; you can see a nice example of the former <a href="http://www.flickr.com/photos/ailish_sullivan/50883264/" rel="nofollow">here</a>.</p>
+<p>(And yes, this is not <em>really</em> important, but you started with the tree puns.)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-424">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-424">
+        <time class="published" datetime="2005-11-09T16:26:41-01:00">09 Nov 2005, 16:26</time>
+      </a>
+      <div class="entry-content"><p>I did indeed.</p>
+<p>OK then, well, errrr� How about �Maple Desk�, where the tree is your computer and the software is extracting the pure, sweet syrupy files from the trunk? Wait, come back�</p>
+<p>And now the idea of �sweet, syrupy files� is making me hungry. Great.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-425">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/2a86104d2cf9a6db94a4e8b0b1e542da.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.six-by-nine.org/">Andrea</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-425">
+        <time class="published" datetime="2005-11-09T18:18:12-01:00">09 Nov 2005, 18:18</time>
+      </a>
+      <div class="entry-content"><p>Aw no, I like the oak idea. The search results could have little acorn-shaped bullet points before them. And, like, tag clouds in the shape of a treetop! And stuff!</p>
+<p>&#8230; okay, I just had visions of a squirrel mascot bouncing around. I&#8217;ll stop now.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-426">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-426">
+        <time class="published" datetime="2005-11-09T18:26:36-01:00">09 Nov 2005, 18:26</time>
+      </a>
+      <div class="entry-content"><p>Don&#8217;t worry, Oak is staying. The trouble is that with it being a phonetic name, trying to be cool and Minty by giving all the system components metaphorical names isn&#8217;t really fitting. I quite like referring to system core as the �Trunk� and plug-ins as �Leaves� (that will probably stick), whilst it doesn&#8217;t really hold up under scrutiny, it&#8217;s just nice.</p>
+<p>If I were being literal about the plug-ins metaphor then perhaps �Bird Boxes� would be more appropriate�</p>
+<p>In conclusion, names are silly but fun and they relieve tension whilst writing interim reports.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

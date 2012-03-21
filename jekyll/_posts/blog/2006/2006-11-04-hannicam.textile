@@ -1,0 +1,36 @@
+---
+layout: blog
+category: blog
+title: "She got a new toy"
+date: "2006-11-04T22:57:02+00:00"
+updated: "2006-11-06T09:29:01+00:00"
+tags: ["all", "birthday", "hanni", "camera", "hannaid"]
+atomid: http://ben-ward.co.uk/journal/hannicam/
+---
+Well, it's a special time of year because it's <a href="http://hanniross.com">her</a> birthday on Monday. It's a special kind of age so I was a bit naughty and approached a lot of people to give me money. A wiser man would've stopped there, but with a bit of help from her Dad passing through the states, the money has instead been spent. We've bought her a Canon EOS 400D (or ‘Digital Rebel XTi’ as the nutcase American marketeers have badged it).
+
+Needless to say, I <em>think</em> she was pleased about it:
+
+<a href="http://flickr.com/photos/benward/288659636/"><img class="photograph" src="http://static.flickr.com/105/288659636_0886d6c442.jpg" alt="Photograph of Hanni hugging the box of her new camera"/></a>
+
+I'd like to take the opportunity to say a <strong>huge</strong> thank you to everyone who put money in the pot. I honestly didn't expect us to raise enough for the camera; at best I though it would be a helping push for Hanni's own saving. But the generosity was incredible and she got the real thing instead. Thank you, so much. You've all made her very happy indeed (and me as well, for what that's worth).
+
+The birthday proper is Monday, if you want to bombard her with greetings you'll find she's contactable in many ways from <a href="http://hanniross.com">her website</a>.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-29404">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/ef5706c3cc1de3c1d4393c0f9be5ae51.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://thedailykimchi.blogspot.com/">Gdog</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-29404">
+        <time class="published" datetime="2006-11-06T03:41:59+00:00">06 Nov 2006, 03:41</time>
+      </a>
+      <div class="entry-content"><p>I will be picking up my &#8220;Kiss Digital X&#8221; (you can thank crazy Japanese marketeers) this weekend in Seoul. I can&#8217;t wait. Good choice of present, btw!</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

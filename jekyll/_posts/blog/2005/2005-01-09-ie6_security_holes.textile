@@ -1,0 +1,13 @@
+---
+layout: blog
+category: blog
+title: "It starts... post-<abbr title=\"Windows XP Service Pack 2\">SP2</abbr> Internet Explorer holes emerge"
+date: "2005-01-09T11:45:10+00:00"
+tags: ["all", "technology", "software"]
+atomid: tag:benward.me,2005-01-09:/blog/ie6_security_holes
+---
+See <a href="http://www.virtuelvis.com/archives/507.html" title="Virtuelvis - Stop using Internet Explorer Now!">Virtuelvis</a> for a well written report on the latest, hugely major security hole in Internet Explorer. Basically, it lets a website execute any command they like on your computer. Y'know, like "delete".
+<!--more-->
+You can find an example test-case at <a href="http://www.jmcardle.com/?postid=77" title="Julien McArdle">Julien McArdle</a>'s site. If it's successful then it creates a harmless empty directory on your C-drive. If implemented by the malicious, it could erase your hard disk. Now <em>that's</em> a hole.
+
+The only conceivable way that this wouldn't work for you (in Internet Explorer, on Windows) is if your user account was not an 'administrator' and you did not have permission to write/erase files on your C-drive. By default, all Windows user accounts are administrators and can do <strong>anything at all</strong>. Read that as: You're fucked. <a href="http://getfirefox.com" title="The Firefox web browser">Unless</a><a href="http://www.opera.com" title="The Opera web browser">...</a>

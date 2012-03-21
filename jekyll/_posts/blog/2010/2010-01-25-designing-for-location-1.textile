@@ -1,0 +1,107 @@
+---
+layout: blog
+category: blog
+title: "Designing for Location: Privacy, trust, frequency, accuracy? Oh my!"
+date: "2010-01-25T18:44:19-08:00"
+updated: "2010-01-25T18:46:24-08:00"
+summary: "Part one of my Designing for Location series. Back in 2008 I worked for Yahoo! on Fire Eagle, in 2009 I tried to present everything I'd learned to an audience at Chromatic in San Francisco, and this is the long delayed write-up of what I know."
+tags: ["presentations", "location", "fire-eagle", "articles", "project52"]
+atomid: http://benward.me/?p=576
+---
+One reason I signed up for "Project 52":http://project52.info was to complete and publish content I had drafted last year. This article is derived from a draft I started last summer, and has been broken up into three parts.
+
+<hr>
+
+<img src="/res/posts/location/header.jpg" alt="Designing for Location: You are here. Ish.">
+
+<a class="attribution" href="http://flic.kr/p/3mb1Zu">‘Old Globe’ by Kenneth Lu</a>
+
+This is a write up of my talk ‘Designing for Location’, delivered at "Chromatic":http://bit.ly/chromatic last year. The "slides":http://benward.me/presents/Designing-for-Location.pdf (pdf) and "original notes":http://benward.me/presents/Designing-for-Location.text are also available, but this series of posts hopefully serves to cover everything I said without the context of seeing me speak.
+
+Who am I to talk about location? Well, let's be clear: I am not as qualified as many others. In June of 2008 I joined the "Fire Eagle":http://fireeagle.com team at Yahoo! Brickhouse. In that time I learned a great deal from supremely talented co-workers, who worked out the detail of the Fire Eagle implementation. I was part of the team that launched "Friends on Fire":http://apps.facebook.com/on-fire —a social location application—in December 2008. After that, Yahoo shuffled around and I moved to the "Yahoo Developer Network":http://developer.yahoo.com to do other things. I returned to the Fire Eagle team to develop the second Friends on Fire release at the start of 2009.
+
+That is all to say, I have experience, but I'm indebted to the Brickhouse environment for teaching me so much, so quickly (in particular, "Tom Coates":http://plasticbag.co.uk and Sam Tripodi). Brickhouse contained the most talented, inspiring people I've ever had the pleasure to work with.
+
+I'm writing this up so thoroughly not because I'm an authority on Location Services, but because there's still a lot in my head to get out. I got given a chance to talk about it, and though I stopped working on Location Services full time, the field still immature and I figure that perhaps documenting this set of thoughts is valuable to someone.
+
+I'm going to publish in three parts. First, the introduction and state of obtaining location, followed by the state of location display, and finally an overall “Using Location”. This is part one.
+
+h2. “Location is complex.”
+
+A simple mantra that accompanied the launch and initial explanations of Fire Eagle. Introducing location to the web is a complex problem full of edge cases. The common problem you're trying to solve is very simple: You want to attach a location to another piece of data; add an extra dimension to your application, and do something exciting and insightful for your users.
+
+But, actually getting that data, in a useful way, is not so simple. Technical and social obstacles exist that make location harder at the moment.
+
+h3. Do you speak Geo?
+
+Does your application speak geo? What inputs does it understand? There are human forms of location (city names, countries, names of places) and there are data forms of location (co-ordinates, database IDs). Which ones can your service handle?
+
+Not all your users will have a <abbr title='Global Positioning System'>GPS</abbr> in their pocket. How accurately is their location recorded? With so many different methods of obtaining location, accuracy varies, and so can usefulness.
+
+Your application is going to be flooded with locations of both precise accuracy, and approximate values. Precision from buildings, streets, to locations the size of entire cities. Can your application perform something useful just knowing the city a user is in?
+
+Did the user intend to explicitly ‘check in’, or are they just passing through? Are they in motion? What happens if your user provides _no_ location?
+
+Your depth of understanding location formats affects your interface. If you can't parse all forms of postal addresses, how are you going to communicate that limitation to users? Chances are the quality of that parsing will vary from country to country too, since international address formats are varied. Your interface needs to be robust enough to communicate this variance.
+
+User location is not just about where, but also _when_. What's the context of your location consumption? Is your application only relevant when provided with fresh data? What happens if you get a location update that's a day old? A week old? Preemptively from the future? You'll find a lot of user's won't update their location very often. If you discard locations too aggressively, your dataset will be reduced too far, and only a small slice of you users will see any benefit of location in your application.
+
+And, of course, you have to persuade users to actually share with you in the first place.
+
+This huge variance affects all aspects of your application. How its represented in the page, how you communicate with your users, how you perform data analysis.
+
+Grey Areas. Edge Cases. Multiple facets. This is location on the web.
+
+h2. Original Location UI
+
+Location data has been used on the internet for much longer than the new trend in social-enabled, GPS-enhanced, API-powered services.
+
+Often, websites ask about city and country information, sometimes postal codes, to provide localized content.
+
+Generally, these are commerce scenarios: Localized product listings, directions to local support offerings, addresses for shipping and tax calculations. The functionality depends only on broad locality, and is only relevant to the service for the duration of the user's session. As such, low-fidelity input from users has worked quite well.
+
+The second major use is in shared, personal profiles. Long before we called it social networking, bulletin boards had simple user profile pages and inevitably asked for a ‘hometown’.
+
+This labeling is somewhat important. Your ‘hometown’ is a single, static piece of data, often historical. Systems that instead asked for your ‘city’ exposed a problem: Locality for persistent profile information goes stale. When people move from place to place they don't update their user profiles (understandable, given how many separate profiles they have).
+
+The result is that you can only reliably store manual input for data you don't expect to change. This doesn't stop sites collecting ‘city’ anyway, but does mean that a large number of sites hold inaccurate information.
+
+This level of location interaction is generally focused only on the city and country level of detail, which helps to simplify the input.
+
+<img src="/res/posts/location/samsung-fujitsu.jpg" alt="">
+
+At the simplest, input for persistent locations consists of a text field, and is generally not validated. The result is that the data tends to be illustrative in a profile, rather than a reliable pivotal piece of data. People input <samp>Manchester</samp>, <samp>Manchester, UK</samp> and <samp>Manchester, United Kingdom</samp> all to refer to the same place. This inconsistency, multiplied across all possible locations means that this field is hard to work with as query data. "Flickr":http://flickr.com did something very interesting, where in addition to regular free-text inputs, they also requested an Airport code (e.g. <samp>SFO</samp> or <samp>LHR</samp>). By asking for an approximate but reliable and unique location identifier, they had the option of using it in data processing without disambiguation. Also, it's a vague and quirky enough piece of data that users won't feel violated in sharing it.
+
+The other forms of obtaining a location are crude: Clicking a map (or series of maps at increasing precision), or picking a location from a drop-down menu. Maps can work quite well, but are laborious, whereas picking your country from a drop-down list is rightfully regarded as one of the worst pieces of user interface ever conceived. The problem being that applications need precise input.
+
+Lists fail most spectacularly when handling synonyms. For the purposes of almost all web applications, the United Kingdom, Great Britain, and England refer (inaccurately) to the same country ("Gary Gale can clarify this":http://www.vicchi.org/2010/01/19/is-it-great-britain-the-united-kingdom-the-british-isles-or-what-exactly/, if you like.) ‘United Kingdom’ is most common, but some web applications use other variants. In a list, you have no way of knowing which name the application expects until you start scrolling.
+
+h2. Modern Location UI
+
+With the hardware to identify location becoming commodity, and social and informational applications becoming more sophisticated, location interface has too.
+
+Through mobile phones, users now have access to raw data about their location, and have been given software to share that location with applications. Furthermore, content on the web has been located, with geotagging of photographic, video and text content far more widespread.
+
+Location gathering is no-longer just about city or country level, nor is it just about one-time queries whilst the user is active. Apps can work with location even when the user is away.
+
+This generation of web applications uses persistent location, shares it with people and services, and attaches it to all sorts of content. It's used to filter content, and enhance personal analytics. The means of collecting that location are now broad:
+
+GPS hardware is contained in all new smart-phones. The iPhone, Palm Pre, BlackBerry, Androids and so forth all have location gathering hardware and expose it through simple APIs.
+
+When GPS is unavailable, companies like "Skyhook":http://skyhook.com and "Navizon":http://navizon.com map the wireless networks in urban areas. The signal strength of networks visible to your computer or mobile phone are processed to compute a location with remarkable accuracy. "Clarke":http://tomtaylor.co.uk/projects/clarke/ for Mac OSX and Fire Eagle, "Firefox":http://firefox.com, and the <code>CoreLocation</code> Services API on iPhone and Mac OSX Snow Leopard all make use of Skyhook's service.
+
+Location can also be obtained from databases of IP addresses, again with surprisingly good accuracy—postcode level or better—within urban areas.
+
+Manual input has become more sophisticated; Google Maps focuses on auto-completion and linking string queries with search for street addresses, venue and business names.
+
+By contrast to the breadth of location sources, "Four Square":http://foursquare.com has a specific usage, and so only works with venue names; no other kinds of location input is supported.
+
+Co-ordinates are rarely used in a visible way, since alone they're incomprehensible to humans. However, they represent precise location points, so where interfaces such as Flickr's Organizer application uses drag and drop to precisely place content on a map, co-ordinates are the data created.
+
+All of these can provide quite precise location _points_. Other applications, especially queries, are more about specifying _areas_.
+
+<img src="/res/posts/location/y-local-radius.jpg" alt="">
+
+Yahoo! Local includes a beautiful piece of user interface for editing a location range, illustrating the centre-point of a search and highlight circle for the search range. The radius slider can be dragged to expand of refine the area. It's simple, illustrative and directly manipulatable.
+
+The next article will document the different methods of displaying location back to users.

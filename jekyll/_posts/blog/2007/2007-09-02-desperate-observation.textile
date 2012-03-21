@@ -1,0 +1,30 @@
+---
+layout: blog
+category: blog
+title: "A Desperate Observation"
+date: "2007-09-02T22:58:31+00:00"
+updated: "2007-09-02T22:58:31+00:00"
+tags: ["all"]
+atomid: http://ben-ward.co.uk/journal/desperate-observation/
+---
+A mid-thirties woman, with a skirt too short and cigarette hanging weakly from her lips, is wedging a closing train carriage door open with a high-healed foot. She's struggling as the doors push to close. All so that her knife-scarred boyfriend can force two pinches of tobacco into her purse.
+
+Maybe it was just the dimming evening or the cold, but there was something desperately sad about that.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-218512">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e6e984d5209d0fd381fae0d78c4d0302.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.mattrobin.com">Matt Robin</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-218512">
+        <time class="published" datetime="2007-09-02T23:39:12+00:00">02 Sep 2007, 23:39</time>
+      </a>
+      <div class="entry-content"><p>Yeah, certainly seems sad&#8230;.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

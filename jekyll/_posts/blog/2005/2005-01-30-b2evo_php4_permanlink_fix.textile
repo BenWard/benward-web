@@ -1,0 +1,24 @@
+---
+layout: blog
+category: blog
+title: "\"PHP4\" bug in b2Evolution"
+date: "2005-01-30T23:02:35+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2005-01-30:/blog/b2evo_php4_permanlink_fix
+---
+Some regular visitors might have found a bug in the blog last week that meant you couldn't access the "Comments" page for my entry on PHP4 XML parsers. After some debuggering, I've found the culprit in b2Evo 0.9.0.10's source (not sure if it is present in 0.9.0.11).
+<!--more-->
+The problem is caused by the presence of "php4" at the beginning of the permalink for the post. b2Evo also allows a syntax of "p&lt;pagenumber&gt;" to access posts. It was incorrectly catching the "p4" part of "php4" and trying to load a post number 4 that doesn't appear to exist.
+
+The problem is solved by editing <code>line 115</code> of <code>/b2evocore/_blog_main.php</code> and changing it to read:
+<pre><code>if( preg_match( "/^p([0-9]+)$/", $path_elements[$i], $req_post ) )</code></pre>
+
+Although I've swapped to using the Perl-compatible regex function (which I just prefer) the critical change is the regular expression which goes from:
+<pre><code>"p([0-9]+)"</code></pre>
+to
+<pre><code>"/^p([0-9]+)$/"</code></pre>
+This adds in characters to mark the beginning and end of the string, so no false matches of any strings containing "p1234". The only place that you will break it now is if you manually added the URL title of "p123", that wont work. So don't.
+
+Oh, and the "/ ... /" addition to the regular expression is part of the syntax for <code>preg_match</code> (a start and stop character for the expression itself).
+
+(Cross posted to the b2Evolution forums).

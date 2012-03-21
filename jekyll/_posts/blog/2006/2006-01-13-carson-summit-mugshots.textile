@@ -1,0 +1,30 @@
+---
+layout: blog
+category: blog
+title: "Carson Summit Mugshots"
+date: "2006-01-13T16:52:31-01:00"
+updated: "2006-01-13T16:55:11-01:00"
+tags: ["all", "flickr", "carson-summit"]
+atomid: http://ben-ward.co.uk/?p=296
+---
+The <a href="http://carsonworkshops.com/summit">Carson Summit</a> draws closer and people are starting to make plans for meet-ups and birthday parties. Mostly meet-ups though.
+
+<a href="http://nathanpitman.com">Nathan Pitman</a> has started <a href="http://flickr.com/groups/summit2006/">a handy group on Flickr</a> to pop in a mugshot if you're looking to be recognised.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-696">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/6866532f59a2793cfa7de8f326c91929.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.carsonsystems.com">Ryan Carson</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-696">
+        <time class="published" datetime="2006-01-27T08:31:59-01:00">27 Jan 2006, 08:31</time>
+      </a>
+      <div class="entry-content"><p>Thanks for posting about the Summit :) Hope you&#8217;re going to make it.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

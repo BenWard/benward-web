@@ -1,0 +1,25 @@
+---
+layout: blog
+category: blog
+title: "Sharing keyboards"
+date: "2005-07-20T00:00:02+00:00"
+tags: ["technology"]
+atomid: tag:benward.me,2005-07-20:/blog/sharing_keyboards
+---
+The small problem with buying an Apple portable, is that using it is so much more of a pleasure than using the desktop PC I have. Being a small notebook it is by definition less comfortable to use and a combination of looking down at the desk and using the smaller keyboard too much will ultimately do me an injury.
+
+There are, however, ways of integrating the new toy into my existing set-up, and what follows is a little guide to using your PC peripherals to control the iBook. First up, using <a href="http://realvnc.com">VNC</a> and then getting cleverer with the remarkable <a href="http://synergy2.sourceforge.net">Synergy</a>.
+<!--more-->
+VNC is a well reknowned piece of software for providing crude remote access to another system. Unlike, say, Windows terminal services (or �Remote Desktop Connection� as it is called these days) which gives you a unique session of the computer you're connected to, VNC allows you to remote control the screen of the user who is currently logged on. It still remains useful for getting the Mac up onto my main PC screens though, and allows you to use the PC keyboard and mouse.
+
+It actually works pretty well - everything is there in full colour and you the keyboard modifier keys map up perfectly: �Alt� becomes <kbd class="glyph" title="command">?</kbd>, the Windows key becomes <kbd class="glyph" title="option">?</kbd> and control is the same on both anyway.
+
+The downside is lag. All the smooth effects that MacOS comes loaded with are reduced to chunky, 2-frames-per-second misery and there's a bit of a typing delay too. It's good, but it kinda spoils using the Mac.
+
+Synergy is not the same. In some respects, it's just �part of� what you get with VNC. It allows you to use the PC keyboard and mouse with the mac, whilst the Mac stays on it's own screen. There's no noticeable lag with either peripheral and because the display is still physically connected to the Mac, animations are as smooth as.
+
+Synergy does, sadly, have a bug whereby the wonderful typography shortcuts (for � and �, � and �) don't work, even though the  <kbd class="glyph" title="option">?</kbd> key works fine elsewhere. Bit of a bummer.
+
+The icing, then, is using the dual inputs on my new screens so that the iBook's VGA out goes direct into the display and I get wonderful smooth graphics. Obviously, being a goit with two displays is helpful here, since I can switch Windows into single display mode and have that on the left, with Mac OS on the right. Synergy is set up to move the mouse and keyboard control between machines when moving the mouse to the left and right sides of the respective screens, thus in operation it's exactly like using dual monitors. Fantastic technology (the aforementioned <abbr title="bug">boog</abbr> aside).
+
+There's also a firmware hack out in internetland to allow the iBook to output higher resolution VGA (it's locked to 1024x768 by default). That allows me to run at the monitor native resolution of 1280x1024, but everything snaps back into place when the VGA cable gets unplugged. Did I mention that this machine was a joy to use?

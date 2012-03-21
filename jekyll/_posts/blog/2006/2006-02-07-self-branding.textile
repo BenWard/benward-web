@@ -1,0 +1,65 @@
+---
+layout: blog
+category: blog
+title: "Self Branding"
+date: "2006-02-07T23:37:35-01:00"
+updated: "2006-02-08T00:05:15-01:00"
+summary: "Or: An accident with type"
+tags: ["all", "ben-ward", "carson-summit", "branding", "logo", "business-cards", "badges", "monotype-corsiva"]
+atomid: http://ben-ward.co.uk/?p=306
+---
+Something odd happened yesterday. Knocking out business cards for the Carson Summit has led me to somewhat accidentally brand myself.
+
+<img src="/media/BusinessCardPreview.png" alt="I've created some simple, white business cards with a large grey-blue �b� in Monotype Corsiva on the left, with basic contact detail on the right."/>
+
+With the twilight months of my degree still upon me I'm not doing any major freelance work, I certainly don't have a business. As a result, it's never seemed necessary to create any kind of identity.
+
+What I do have are a bunch of ideas in sketch books, oddball ideas lurking in the back of my mind and a piece of paper that might actually form the basis of my redesign (whenever that comes). Some of these, when used, might even share some consistent and identifiable concepts with one another.
+
+Now, I've completely fallen for the lower-case �b� in <a href="http://www.identifont.com/show?1NM">Monotype Corsiva</a>. It stems from a logo sketch I did about 4 months ago, with extended, flowing serifs on the �b�, �w� and �d� that was to merge into the rounded corners of my site design. Converting it from paper to screen was disastrous though, so the idea was disgarded and I set about looking for professionally produced typeface to use instead. Corsiva is very different from my original concept, but still jumped out for some reason.
+
+Corsiva then slipped into my Hoth blog header over Christmas, when I became impatient at not being able to use it. Since then I created a favicon using the �b�, had that favicon put onto some <a href="http://flickr.com/photos/benward/92818383/">badges</a> (because it looked awesome) and then opted at the last minute to knock out some business cards for promoting my busine�self at tomorrow's Web Apps Summit. (I recall being asked if I had a card at most geek events I've attended and since I've got ? of an eye open for employment related-networking, it all made some kind of sense to get one this time around.)
+
+Which means I've suddenly found myself with a logo. I didn't mean to, I'm just sitting here surrounded by the letter �b� and it's all become suddenly clear. Just as well I like it, really.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-771">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/eb2cf0df0d59d265cca060e2713f615d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.biggrandejatte.co.uk/smallbeds/">jps</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-771">
+        <time class="published" datetime="2006-02-09T20:40:53-01:00">09 Feb 2006, 20:40</time>
+      </a>
+      <div class="entry-content"><p>You crazy fool! You&#8217;ve gone and printed a whole load of &quot;g&quot;s on those badges. <span class="caps">AND</span> you&#8217;ve printed them upside down&#8230;. Oh, wait.</p>
+<p>You&#8217;re just lucky, that&#8217;s all.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-775">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e6e984d5209d0fd381fae0d78c4d0302.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.mattrobin.com">Matt Robin</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-775">
+        <time class="published" datetime="2006-02-10T03:05:24-01:00">10 Feb 2006, 03:05</time>
+      </a>
+      <div class="entry-content"><p>They call him &#8216;6&#8217;&#8230;&#8230;(and he will escape from all the other numbered-people on the strange island!)</p>
+<p>:D</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-783">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-783">
+        <time class="published" datetime="2006-02-11T13:55:02-01:00">11 Feb 2006, 13:55</time>
+      </a>
+      <div class="entry-content"><p>Hauke,</p>
+<p>They&#8217;re pretty much just decorative. I wanted to introduce the blue colour on the right hand side of the card, since without it looked rather unbalanced.</p>
+<p>The spots do tie in with some site-design decoration I&#8217;ve had planned though, so it may hopefully tie in better with the site one day in the future.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

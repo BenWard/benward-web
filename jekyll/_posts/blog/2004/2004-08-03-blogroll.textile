@@ -1,0 +1,11 @@
+---
+layout: blog
+category: blog
+title: "Blogroll"
+date: "2004-08-03T11:43:51+00:00"
+tags: ["technology"]
+atomid: tag:benward.me,2004-08-03:/blog/blogroll
+---
+Last night I adapted a Blogroll for use with this shiny new blog o' mine. It was very nice, got the latest update list from <a href="http://blo.gs" title="blo.gs">blog.gs</a> and it worked.
+
+This morning it doesn't. God I love computers.

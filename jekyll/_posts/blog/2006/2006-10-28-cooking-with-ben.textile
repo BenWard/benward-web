@@ -1,0 +1,64 @@
+---
+layout: blog
+category: blog
+title: "When boredom, curiosity and hunger collide…"
+date: "2006-10-28T23:46:08+00:00"
+updated: "2006-10-28T23:59:35+00:00"
+tags: ["all", "food", "video", "gawker", "time-lapse"]
+atomid: http://ben-ward.co.uk/journal/cooking-with-ben/
+---
+You get ‘Cooking with Ben’. No, you don't ‘get cooking with Ben’, that would be something else entirely (and surely of <a href="http://hanniross.com">restricted</a> participation). Instead you get this:
+
+<object type="application/x-shockwave-flash" data="http://www.vimeo.com/moogaloop.swf?clip_id=113089"width="400" height="300">‘<a href="http://www.vimeo.com/clip=113089">Cooking with Ben</a>’</object>
+‘<a href="http://www.vimeo.com/clip=113089">Cooking with Ben</a>’ on <a href="http://www.vimeo.com">Vimeo</a>
+
+I wanted a play with <a href="gawker.sourceforge.net">Gawker</a>, and figured food preparation was as good a subject as any. Then I went too far. Oh well.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-26481">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/a3af0c7755c36bb7a5ebc4f894e0b9b8.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.meriwilliams.com/">Meri</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-26481">
+        <time class="published" datetime="2006-10-29T10:36:17+00:00">29 Oct 2006, 10:36</time>
+      </a>
+      <div class="entry-content"><p>Hilarious and at once rather strange.</p>
+<p>We love it!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-26515">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-26515">
+        <time class="published" datetime="2006-10-29T13:36:10+00:00">29 Oct 2006, 13:36</time>
+      </a>
+      <div class="entry-content"><p>Ah well I&#8217;m glad it&#8217;s brought some entertainment to someone besides me. If I do it again (which I may) I intend to hunt out a longer loop of music and also get a proper ‘Ping’ sound effect for the stops (like they used to have in those Smirnoff Ice adverts).</p>
+<p>Actually here&#8217;s an idea: I&#8217;ll take recipe suggestions in aid of learning to cook more and edit them into a Cooking with Ben release until such a point as it stops being funny any more. Recipes need to be affordable (no lobster) and, err, that&#8217;s about it.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-27187">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/9f90d0f0e5bd1f0dd822733cf4fbfe54.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Graham Bancroft</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-27187">
+        <time class="published" datetime="2006-10-31T17:53:19+00:00">31 Oct 2006, 17:53</time>
+      </a>
+      <div class="entry-content"><p>Brilliant! That sound track reminds me of Stevie Ray Vaughan and <a href="http://www.youtube.com/watch?v=OcCwMlfXwjk" rel="nofollow">this track of his</a></p></div>
+    </article></li>
+  </ol>
+</div></notextile>
+
+<notextile><div class="pingbacks hfeed" id="pingbacks">
+  <h2>Pingbacks</h2>
+  <ul>
+    <li class="hentry" id="pingback-26619">
+      <a rel="bookmark" class="entry-title" href="http://blog.meriwilliams.com/2006/10/29/links-for-2006-10-29/">Meriblog: Meri Williams&#8217; Weblog &raquo; links for 2006-10-29</a>
+    </li>
+  </ul>
+</div></notextile>

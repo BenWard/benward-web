@@ -1,0 +1,64 @@
+---
+layout: blog
+category: blog
+title: "Happy Camper"
+date: "2006-09-05T00:08:00+00:00"
+updated: "2006-09-05T00:10:48+00:00"
+geo:
+  xy: 51.5140650827166,-0.128517562048561
+tags: ["all", "technology", "events", "conferences", "barcamp", "barcamplondon", "stevemarshall", "presenting", "barcamplondon06", "unconference", "werewolf"]
+atomid: http://ben-ward.co.uk/journal/barcamplondon/
+---
+Well, <a href="http://barcamp.org/BarCampLondon">BarCampLondon</a> has passed in a flurry of excitement, stimulation, free t-shirts and incredible all night games of werewolf.
+
+It was a really good event socially and there were some real gems amongst the presentations and discussions that took place. Standing out for me were:
+
+* The discussion of digital music, which could easily have gone on all day
+* Dave, Guy and the Salted boys doing <a href="http://en.wikipedia.org/wiki/Pechakucha">Pecha Kucha</a> and their incredibly addictive and entertaining <a href="http://http://delicious.salted.com/">Delicious-based Pecha Kucha generator</a> which powered an excellent, audience participation session on Sunday.
+* Whilst the idea of intense personal branding didn't really grab me on a personal level, the follow-up discussion was very interesting indeed about the relationship between people and their companies, the expectations of clients and of what we offer the wider community in our output.
+
+<a href="http://nascentguruism.com">Steve</a> and I presented as well, he spontaneously naming our effort ‘Workflow Fucking Matters’, the potty mouth that he is. Although the audience was small it was still quite difficult presenting, neither of us being especially experienced. I think Steve did fine presenting the theories of workflow design, then I had a crack at providing examples from Wordpress’s rather flawed admin UI and the rather more beautiful Flickr Organizr.
+
+Whilst I'm going refrain from outright self-criticism, I do think that I let BarCamp's laid back attitude come ahead of my lack of experience and that I should have prepared a lot more. I certainly hope I didn't bore anyone too much as I failed to focus enough on each of my points. I did at least have a far less uncomfortable discussion about workflow implementation with David Smalley afterwards, which reassures me about the subject matter at least.
+
+I've not released my slides as they're really nothing without the spoken content. However, Steve videoed it and many other presentations throughout BarCamp as has plans to release them as soon as he can – once he's done being pedantic with the editing anyway. I'm not sure whether he plans to release ours as-is or whether he'll edit it in the interests of making it better viewing (and therefore more useful).
+
+It does all make me wonder about public speaking generally. It's something I'm very keen to do more of, but there's so much experience I need to gain, particularly just with my delivery, that I'm not sure how best to proceed without feeling guilty for those who have to witness earlier efforts as I start out.
+
+I wonder if at a future BarCamp (or similar) some more experienced public speakers would consider adopting someone less experienced to share in their presentations, taking off some of the pressure and providing a bit of mentoring along the way too. I know there are a lot more people than just me who'd appreciate a chance like that if anyone is prepared to offer.
+
+Anyway, self-doubting aside it was a truly excellent weekend and I'm really looking forward to the next. BarCampBirmingham*, anyone?
+
+Thanks to everyone else who came, and thanks of course to Ben Metcalfe, Ian Forrester, Paul Hammond and Murray Rowan who were as ‘in charge’ of a BarCamp as is technically possible.
+
+Roll on d.Construct.
+
+*I'm aware of course that there has already been a <a href="http://barcamp.org/BarCampBirmingham">BarCampBirmingham</a> in the US. I'm referring to Birmingham in the UK, of course.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-15120">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/a489725ad8451b6e87fcb9ed4f189cf9.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.trovster.com">trovster</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-15120">
+        <time class="published" datetime="2006-09-05T08:06:38+00:00">05 Sep 2006, 08:06</time>
+      </a>
+      <div class="entry-content"><p>BarCampBirmingham you say&#8230; maybe that&#8217;s something you could help organise as part of the <a href="http://www.multipack.co.uk" rel="nofollow">Multipack</a>!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-15261">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-15261">
+        <time class="published" datetime="2006-09-05T21:43:36+00:00">05 Sep 2006, 21:43</time>
+      </a>
+      <div class="entry-content"><p>Trovster: I&#8217;d certainly love to help out with such an undertaking, although since Birmingham, and the Midlands generally, are currently somewhat unknown to me (despite having grandparents near Nottingham) I&#8217;m going to be staggering around bewildered for a few weeks first!</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

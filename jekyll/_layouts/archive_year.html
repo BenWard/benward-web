@@ -1,0 +1,30 @@
+---
+layout: base
+---
+<section class="hfeed archives annual">
+  <header>{% include archive_navigation.html %}</header>
+  <h1>Posts from <time>{{page.period['year']}}</time></h1>
+  {% assign section = "0" %}
+  {% for post in page.posts %}
+    {% capture month %}{{post.date | date: '%m'}}{% endcapture %}
+    {% if section != month %}
+      {% if section != "0" %}
+    </ul>
+  </section>
+      {% endif %}
+
+      {% assign section = month %}
+  <section>
+    <h2>{{post.date | date: '%B'}}</h2>
+    <ul>
+    {% endif %}
+    <li><article class="hentry">
+      <h3><a rel="bookmark" href="{{post.url}}">{{post.title}}</a></h3>
+      <time class="published" datetime="{{post.global_date}}">{{post.global_date | date: '%d'}}</time>
+      <div class="entry-summary">{% if post.summary %}{{post.summary}}{% else %}{{post.excerpt}}{% endif %}</div>
+    </article></li></li>
+  {% endfor %}
+    </ul>
+  </section>
+  <footer>{% include archive_navigation.html %}</footer>
+</section>

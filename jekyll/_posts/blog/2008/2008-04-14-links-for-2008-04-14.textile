@@ -1,0 +1,21 @@
+---
+layout: blog
+category: blog
+title: "links for 2008-04-14"
+date: "2008-04-14T10:36:40-01:00"
+updated: "2008-04-14T10:36:40-01:00"
+tags: ["links"]
+atomid: http://ben-ward.co.uk/journal/links-for-2008-04-14/
+---
+<ul class="delicious">
+	<li>
+		<div class="delicious-link"><a href="http://torrentfreak.com/virgin-media-ceo-says-net-neutrality-is-a-load-of-bollocks-080413/">Virgin Media CEO Says Net Neutrality is “A Load of Bollocks”</a></div>
+		<div class="delicious-extended">The process of relegating ISPs into their rightful place as a commodity is going to be a drawn out and ugly one. Hopefully content providers will allow Virgin to break the web for a bit, and leave it up to consumers to choose services that don't try to co</div>
+		<div class="delicious-tags">(tags: <a href="http://del.icio.us/BenWard/NetNeutrality">NetNeutrality</a> <a href="http://del.icio.us/BenWard/Virgin">Virgin</a> <a href="http://del.icio.us/BenWard/VirginMedia">VirginMedia</a> <a href="http://del.icio.us/BenWard/BBC">BBC</a> <a href="http://del.icio.us/BenWard/iPlayer">iPlayer</a>)</div>
+	</li>
+	<li>
+		<div class="delicious-link"><a href="http://www.cityofsound.com/blog/2008/04/monocle-design.html">Monocle.com design notes</a></div>
+		<div class="delicious-extended">A monster article on the design process of Monocle. Haven't read it yet. Suspect I should, since the level of detail cannot be anything but insightful.</div>
+		<div class="delicious-tags">(tags: <a href="http://del.icio.us/BenWard/Monocle">Monocle</a> <a href="http://del.icio.us/BenWard/Design">Design</a> <a href="http://del.icio.us/BenWard/Web">Web</a> <a href="http://del.icio.us/BenWard/tldr">tldr</a>)</div>
+	</li>
+</ul>

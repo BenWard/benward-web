@@ -1,0 +1,25 @@
+---
+layout: blog
+category: blog
+title: "Fun with Automator"
+date: "2006-05-11T09:23:03+00:00"
+updated: "2006-05-11T09:29:08+00:00"
+summary: "On discovering the joy of Tiger's Automator app, and using it to clean up Windows Thumbnail Caches (download included)."
+tags: ["technology", "osx", "hacks", "automator", "tricks", "mac", "thumbsdb"]
+atomid: http://ben-ward.co.uk/journal/fun-with-automator/
+---
+Since I'm only a part-time Mac user I don't often delve too deep into <abbr title="Mac OS 10">OSX</abbr>'s more advanced features. OK, so I once downloaded a script to run iSync that gets triggered by an iCal alarm to keep my phone up to date… but I don't <em>often</em> delve too deep into OSX's advanced features.
+
+What have I taken to is Automator though.
+
+The first experience came as a result of <abbr title="Microsoft Word for Mac">Word:Mac</abbr> having a bit of a fight with OSX's native PDF printing, creating multiple PDF files whenever the page aspect switched from portrait to landscape and back again. Since Automator includes an action to merge PDF documents I began to tinker and "Merge PDF Documents" is now happily installed as a Finder plug-in.
+
+I'm now far happier to turn to Automator if I need a quick fix for something. Automator can give access to the iPhoto browser without loading iPhoto itself, whilst a workflow to send the selected files to a specific Bluetooth device (my Phone) saves many a click and took about 5 minutes to throw together.
+
+My current favourite though - and the one I've snuck up for download - is a quick action to clean up ‘thumbs.db’ files. Because my Mac is on a Windows network, any time a Windows PC browses my Mac it leaves a trail of ‘thumbs.db’ files in every folder containing images. These are normally hidden in Windows, but as the Mac has a very different concept of hidden files to Windows they quickly generate clutter.
+
+My solution is a workflow that searches Spotlight for all the offending ‘thumbs.db’ files in my user space and drops them all in the Trash. It's almost painful in its simplicity.
+
+If, like me, you have ignored Automator on OSX I highly recommend having a play.
+
+I've <a href="http://del.icio.us/BenWard/Automator/">bookmarked a few Automator resources</a> in Delicious and you can <a href="/files/TrashWindowsThumbnails.workflow.zip">download my Trash Windows Thumbnails workflow</a> (I recommend installing it as a Finder Plug-In so you can launch it from the Finder context menu, but in less personal-use networks it could work better as an Application auto-running on start-up).

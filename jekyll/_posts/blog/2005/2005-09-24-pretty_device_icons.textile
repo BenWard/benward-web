@@ -1,0 +1,210 @@
+---
+layout: blog
+category: blog
+title: "Icon prettification for iPods, memory cards, cameras and USB sticks"
+date: "2005-09-24T22:14:59+00:00"
+tags: ["technology"]
+atomid: tag:benward.me,2005-09-24:/blog/pretty_device_icons
+---
+One of the things that I really hate about Windows XP is that it handles external storage like a stone absorbs water.
+
+When you plug in, Windows XP will mount the device with a letter and slap on a generic 'Removable Disk' icon. This is fine if you work with only a couple of external devices, but the moment you plug in a '6 in 1 Card Reader' for example, you suddenly have yourself 4 or more 'Removable Disks' with the same generic icon. Add to that a USB stick, an iPod and a digital camera and Windows Explorer becomes a confusing and unintuitive mess. In the case of the card readers, you can't even tell which of the 4 drive letters your card is plugged in to without trial and error.
+
+<img alt="It's actually possible to have more interesting and specific icons displayed for devices in Windows Explorer" title="A preview of prettified device icons in Windows Explorer" src="/media/xpicons/Preview.png" />
+
+Ordinarily, readers of this blog would expect me to end here with a bit of a whinge. But to break habit, here's a nice solution instead.
+<!--more-->
+CD or DVD media inserted into a PC can often have its own special icon. This is done using Windows 'autorun' mechanism and it transpires that you can use the same method to give your external drives and devices unique icons of their own.
+
+<img alt="" title="A common Windows Explorer view of many 'Removable Drives' with the same identical icon" src="/media/xpicons/GenericIcons.png" />
+
+You need two files in the root of the device: One which must be named <code>autorun.inf</code> and the icon file you'd like displayed.
+
+Autorun is quite powerful and usually used to invoke installation programs. Since this is not so complex, the autorun file for icon changing is actually very simple. Here's the file I use to set the icon of a SecureDigital card:
+
+<pre><code>[autorun]
+icon=sdcard.ico</code></pre>
+
+It should be quite clear that <code>sdcard.ico</code> is the name of the icon file in question
+
+With the text saved as <code>autorun.inf</code> and placed with an icon named <code>sdcard.ico</code> in the root of my SD-Card (in my case this is the <code>R:\</code> device), you should be good to go. Remove the card, wait a few seconds for Windows to remove it from My Computer and then insert it again. After a moment you should hopefully see your new icon appear in My Computer.
+
+If you don't like having the clutter of these extra files on your SD Card you can hide them without impacting the technique. (Right click the file, choose 'Properties' and check the 'Hidden' box).
+
+I created the icon by nabbing a generic SD-Card image from Google, applying a transparent background and then creating a number of separate PNG images (square images of 128px, 64px, 48px, 32px and 16px). I then use a neat (and free) app called <a href="http://www.towofu.net/soft/e-aicon.php">Icon Sushi</a> to merge them into a single .ico resource.
+
+<img alt="By adding custom icons to all your removable storage devices, you can make Windows Explorer more intuitive, and prettier to boot." title="Different devices can actually have different icons" src="/media/xpicons/NiceIcons.png" />
+
+The same technique applies the same to other storage devices like iPods. Place <code>autorun.inf</code> and <code>device.ico</code> in the root, reconnect it and all being well you should have a pretty new icon.
+Basically, if it behaves like an external hard disk, you <em>should</em> be able to do it�
+
+�Although that's not always true. For example, I tried to set up an icon for my Nikon Coolpix 2200 camera (running in 'Mass Storage' mode), but the device is set as read-only, so it's impossible to create the necessary files.
+
+If you have administrator rights on your system you can also set a friendlier label for the disk drive just by renaming it. For unknown reasons, you can't change the label of a removable drive in Windows without Administrator rights. <em>Even one that <strong>you</strong> just plugged in</em>. Probably best responded to with a roll of the eyes, that.
+
+Also if you're a computer administrator, you can use 'Disk Management' to change the drive letters of your external devices. For example, you can assign your iPod to be drive 'I:'. Look under Start -> All Programs -> Administrative Tools -> Computer Management for that.
+
+What I haven't found (but would love to have) is a way to hide drives which are unmounted. That's a shame, because my 6-in-1 card reader has 'drives' just sitting there that I'll probably never use and don't care to see. It's another piece of Apple-ish elegance we can only hope Microsoft 'borrow' in Windows Vista.
+
+I hope that someone out there finds it useful. Hopefully before everyone gives up and just buys a Mac.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-343">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">Stuart</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-343">
+        <time class="published" datetime="2005-09-26T19:55:33+00:00">26 Sep 2005, 19:55</time>
+      </a>
+      <div class="entry-content"><p>Very useful, although I&#8217;m not entirely sure what icon I could use for my removable disk. Or whether I need it when I only have the one removable media. Or whether there&#8217;d be any point at the moment anyway considering the massed-upgrade-without-reinstall seems to have killed my <span class="caps">USB</span> hard disk &#8211; should probably fix that at some point!</p>
+<p>As for the unused drives &#8211; can you not just &#8220;Manage&#8221; the computer, go to Disk Management and then unassign the drive letter? or is that <span class="caps">HDD</span> partitions only. I&#8217;m sure I&#8217;ve seen a way to hide drives :</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-345">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-345">
+        <time class="published" datetime="2005-09-26T23:15:26+00:00">26 Sep 2005, 23:15</time>
+      </a>
+      <div class="entry-content"><p>You can use �Manage� in TweakUI to hide unused drives, that is true. However, that would mean I&#8217;d have to unset their hidden status in the event that I was handed a CompactFlash card to read.</p>
+<p>Further, Windows has a dreadful habit of altering drive letters for devices you add and remove in different combinations, so you might hide something one day and have it reappear under a different letter another time. Worse, you could plug in a different device and have it assigned a letter than <em>was</em> assigned to something else that you hid. �and breathe.</p>
+<p>This is why Windows needs to dump drive letters. I can tolerate them for static partitions since they don&#8217;t change. When they do the alphabet dance on my iPod though, I get tetchy.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-346">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/abc50d59ef1ac8472737483abc7d870d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Adam</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-346">
+        <time class="published" datetime="2005-09-27T11:29:44+00:00">27 Sep 2005, 11:29</time>
+      </a>
+      <div class="entry-content"><p>not like you to get tetchy about Windows is it Ben?!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-347">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">Stuart</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-347">
+        <time class="published" datetime="2005-09-28T16:07:43+00:00">28 Sep 2005, 16:07</time>
+      </a>
+      <div class="entry-content"><p>Yeah, I know what you mean with the &#8220;Doing the Drive Letter Shuffle&#8221; &#8211; Linux style drive mounting with a common root does have it&#8217;s advantages there :)  If you Manage from My Computer in XP (might just be XP Pro) then I found CD drives are listed too, and once you assign a drive it seems to stick with that letter. I&#8217;ve not played around with it much, but it <em>could</em> be possible that you can manage them and fix the drive letters for each drive.</p>
+<p>Then again Windows could be completely awkward and not do it that way and forget as soon as you removed your iPod! Whatever happens it won&#8217;t do the auto-hide-auto-show of the card readers because the &#8216;drive&#8217; is there, even if the media isn&#8217;t :</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-344">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-344">
+        <time class="published" datetime="2005-09-29T23:37:45+00:00">29 Sep 2005, 23:37</time>
+      </a>
+      <div class="entry-content"><p>Once you set a drive it will, usually, stick. However, the problem comes if you set a drive (or in the case of a 6-in-1, four drives) and then plug in a new device, there&#8217;s no mechanism in place to stop Windows assigning it once of those drive letters. You can&#8217;t �exclusively reserve� them.</p>
+<p>So, with new device stealing the letter of your card reader, you then plug the card reader back in and <strong>boom</strong>, your beautiful letter assignments are broken.</p>
+<p>You&#8217;re dead right, the Unix way is far saner, combine with that the way in which MacOSX wraps it all up (only displaying mounted media on the desktop) is positively gorgeous.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-614">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/d45b379dec0f0ea4493f8a6a134568c5.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Andri</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-614">
+        <time class="published" datetime="2005-12-18T17:00:32-01:00">18 Dec 2005, 17:00</time>
+      </a>
+      <div class="entry-content"><p>Is works quit good, but my icons are not so nice. Is it possible to send me a copy of these icons-files. Yours are much better.<br />
+Thanks in advance.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-616">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-616">
+        <time class="published" datetime="2005-12-18T17:47:44-01:00">18 Dec 2005, 17:47</time>
+      </a>
+      <div class="entry-content"><p>Yeah sure. Some of them aren&#8217;t mine to redistribute, so I highly recommend you take a look at <a href="http://rad-e8.com/" rel="nofollow">Sascha H�hne</a>&#8217;s site, where you can find the Minium and SnowE sets which are magnificent.</p>
+<p>If you&#8217;d like a copy of the Secure Digital icon I can send that through to you &#8211; just use one of the addresses on my home page. That icon currently suffers from really bad aliasing though, so it&#8217;ll only look good on white backgrounds (which of course standard Windows setups use so it&#8217;s probably not a problem).</p>
+<p>I vow to polish them up and release them at some point, but shan&#8217;t promise as to when.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-819">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/ba0d435ba237158864b2758255dad5fa.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">stef</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-819">
+        <time class="published" datetime="2006-02-18T11:37:52+00:00">18 Feb 2006, 11:37</time>
+      </a>
+      <div class="entry-content"><p>didn&#8217;t expect it to be that easy, so thx very much :)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-850">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/08f3de00b72cf6e696532dfde7756832.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://N/A">MakGreg</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-850">
+        <time class="published" datetime="2006-02-28T01:50:41+00:00">28 Feb 2006, 01:50</time>
+      </a>
+      <div class="entry-content"><p>Hello,</p>
+<p>Could you just give us more details about the following step:</p>
+<p>&#8220;applying a transparent background&#8221;</p>
+<p>Maybe you can give us an example with &#8220;The Gimp&#8221; ? That&#8217;s would be great !</p>
+<p>I want to make a &#8220;TomTom One&#8221; icon and I&#8217;m blocked at this point&#8230;</p>
+<p>Thanks a lot.<br />
+MakGreg.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-851">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-851">
+        <time class="published" datetime="2006-02-28T02:10:14+00:00">28 Feb 2006, 02:10</time>
+      </a>
+      <div class="entry-content"><p>Hi Mark,</p>
+<p>Ooooh, it&#8217;s a while since I&#8217;ve used Gimp, having nabbed Macromedia&#8217;s Fireworks on Education license last year.</p>
+<p>I don&#8217;t know if I&#8217;ll have time to find you specific instructions, but my quick+dirty technique tends to go like this:</p>
+<ol>
+	<li>Find a good photograph of the product you&#8217;re making an icon of. I like to use shots taken at an angle for larger icons, but a more direct, 2D front-shot works better for the smallest (16&#215;16) sized icon. Pick product photos with a plain white background.</li>
+	<li>Using some sort of selection tool (either a &#8220;Magic Wand&#8221;, &#8220;Select by Colour&#8221; or perhaps &#8220;Select Similar&#8221;), select the background and hit &#8220;Delete&#8221; &#8211; everything that was selected should now be transparent. Try to select any shadow as well, and remove that too.</li>
+	<li>Use the eraser tool to smooth the very edges of the remaining bitmap.</li>
+	<li>If the original photo had shadow, use your shadow effect of choice and recreated it (this will respect the transparency you&#8217;ve created and so create a semi-transparent shadow regardless of your Windows background colour)</li>
+</ol>
+<p>At this point, I tend to save individual PNGs of the icon at 16&#215;16, 24&#215;24, 36&#215;36, 48&#215;48 and sometimes 128&#215;128px (just &#8217;cause you can, really). Then I use <a href="http://www.towofu.net/soft/e-aicon.php" rel="nofollow">Icon Sushi</a> to combine the separated PNGs into a single .ico file, transparency intact.</p>
+<p>I believe Gimp has a function to create combined .ico files naively though: Something along the lines of created each icon size as a separate layer and selecting <span class="caps">ICO</span> from &#8220;Export&#8230;&#8221; if I remember correctly.</p>
+<p>Hope that helps a bit, anyway.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-858">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/08f3de00b72cf6e696532dfde7756832.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://N/A">MakGreg</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-858">
+        <time class="published" datetime="2006-03-01T20:24:22+00:00">01 Mar 2006, 20:24</time>
+      </a>
+      <div class="entry-content"><p>Hi Ben,</p>
+<p>Many thanks for your help.</p>
+<p>I will try it and keep you in touch ;-)</p>
+<p>Regards,<br />
+MakGreg.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-22769">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/84c436ceb0d2a4153180980da6316cb9.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Joonas</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-22769">
+        <time class="published" datetime="2006-10-11T16:19:12+00:00">11 Oct 2006, 16:19</time>
+      </a>
+      <div class="entry-content"><p>Has anyone been able to find a workaround with that Windows-letter-shuffle?</p>
+<p>Is there perhaps a way to assign an enviroment variable that would statically assign certain letters for certain physical devices?</p>
+<p>I&#8217;ve been having troubles with a virtual CD-drive, that keeps changing it&#8217;s letter to F: no matter what I tell it to do. Virtual drive seems to be faster in line to get it&#8217;s drive letter than my hard-drives and it completely messes up my neatly organized drive letters.</p>
+<p>Only thing working is to completely disabling the virtual drive, and that quite isn&#8217;t a working solution :)</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

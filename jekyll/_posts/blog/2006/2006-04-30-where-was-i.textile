@@ -1,0 +1,61 @@
+---
+layout: blog
+category: blog
+title: "Where Was I?"
+date: "2006-04-30T01:35:28+00:00"
+updated: "2006-04-30T13:36:48+00:00"
+tags: ["all", "meme", "wherewasi", "benward"]
+atomid: http://ben-ward.co.uk/journal/where-was-i/
+---
+<a href="http://www.ellythompson.co.uk/blog/2006/04/23/where-was-i/">Elly tagged me</a> a few weeks ago with a quite interesting meme. Life has been terribly busy and it's taken until this attack of insomnia to find time to write it up.
+
+So, without further dawdling, where was I…
+
+<h2>…One year ago?</h2>
+Last year was the industrial placement section of my degree, so rather than mid-term alcoholism in Manchester I was living in Bracknell and working for <a href="http://www.fujitsu-siemens.com">Fujitsu Siemens Computers</a>. Whilst there I met <a href="http://nascentguruism.com">Steve</a> and under his guidence became even nerdier than I already was.
+
+It was a good year, although I would hazard a guess that in April we were still working on a dreadful Microsoft Sharepoint based project that was sapping the life and soul out of all of us. I would later describe Sharepoint deployments as ‘the kind of decision that could drive me out of a job’. This first experience merely drove me out of my mind.
+
+<h2>… Five years ago?</h2>
+At the fine age of seventeen I was studying for my AS-level exams at <a href="http://www.hrsfc.ac.uk">Hills Road Sixth Form College</a> in Cambridge. I was studing Maths, Computing, Modern History and Politics.
+
+Items of interest include meeting <a href="http://fatbusinessman.com">David</a> on my computing course and, errr… hmm.
+
+<h2>… Ten years ago?</h2>
+I was twelve. This places me in the third term of my first year at Sawston Village College secondary school and probably means I had a terrible hair cut.
+
+<h2>Who am I tagging?</h2>
+It's rather late so I'm a bit stumped to think of five names. So for the time being:
+
+* <a href="http://ibboard.co.uk">Stu</a>
+* <a href="http://spaces.msn.com/beardmasterflex">Alex</a>
+* and <a href="http://pinksocks.co.uk">Hanni</a>
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-1833">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/6a21c7c14317c0c394ae6a31e8bd8a06.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Clown</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-1833">
+        <time class="published" datetime="2006-05-02T22:21:16+00:00">02 May 2006, 22:21</time>
+      </a>
+      <div class="entry-content"><p>Each header is the same size as a new news post!</p>
+<p>Hi!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-1835">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-1835">
+        <time class="published" datetime="2006-05-02T23:05:06+00:00">02 May 2006, 23:05</time>
+      </a>
+      <div class="entry-content"><p>Yep. Temporary problem until I update the Wordpress template.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

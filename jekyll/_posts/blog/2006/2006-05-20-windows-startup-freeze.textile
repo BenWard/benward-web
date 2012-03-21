@@ -1,0 +1,104 @@
+---
+layout: blog
+category: blog
+title: "Help? Windows Freezing on Startup"
+date: "2006-05-20T12:52:32+00:00"
+updated: "2006-05-20T12:54:11+00:00"
+tags: ["technology", "windows", "lazy-web", "troubleshooting"]
+atomid: http://ben-ward.co.uk/journal/windows-startup-freeze/
+---
+Little bit of a lazy-web plea this.
+
+My Windows install has a problem whereby if I log in too quickly, most of my background applications like Konfabulator don't load properly and Windows refuses to launch any applications (Firefox, Thunderbird, iTunes or Windows Explorer).
+
+Invoking a shut down causes everything to suddenly spring into life (and then immediately quit and shut down of course) so my conclusion is that there's a rogue process doing something crap. It hasn't crashed, some limited interaction is still possible. Invoked processes are just being queued up behind something else. I think.
+
+Now, by ‘log in too quickly’ I'm referring to the time taken between the Welcome Screen appearing, me typing my password and the desktop appearing. I've found that if I let Windows sit on the Welcome Screen about 30 seconds and then log in the problem tends not to occur. <em>But</em>, if it does freeze up while loading it seems to last indefinitely (e.g. not the same 30 seconds).
+
+So, apart from a brief expression of despair that Microsoft have produced an Operating System that can be crippled by unknown applications in this manner, I'm looking for some tips on how to track down my rogue process and fix it/kill it forever.
+
+Thanks very much.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-2616">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/ce72812a01c992404b450bb351e4dcbe.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://nascentguruism.com/">Steve Marshall</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2616">
+        <time class="published" datetime="2006-05-20T13:25:47+00:00">20 May 2006, 13:25</time>
+      </a>
+      <div class="entry-content"><p>Have you tried disabling system startup stuff, and then progressively reintroducing them, using msconfig (I think?)?</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-2619">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/c545825ca2a0c9cfe926549ed45acb17.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://itsonlyablog.com">Harry</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2619">
+        <time class="published" datetime="2006-05-20T15:17:10+00:00">20 May 2006, 15:17</time>
+      </a>
+      <div class="entry-content"><p>yeah, try what Steve Marshall said, and it is msconfig :)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-2624">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">IBBoard</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2624">
+        <time class="published" datetime="2006-05-20T17:09:09+00:00">20 May 2006, 17:09</time>
+      </a>
+      <div class="entry-content"><p>I&#8217;ve been having similar issues for a while now. Not quite so bad though, so I live with it.</p>
+<p>Boot up Windows, log in quickly and then try running an app as soon as you can and everything grinds to a snail&#8217;s pace &#8211; no app, no tablet drivers, possibly AV after a minute or so&#8230; I&#8217;ve still got to be bothered working out what it is. I&#8217;m sure Windows should be able to boot quicker, but most of the random processes it seems to start from the Services list seem fairly important and Task Manager doesn&#8217;t tell me much.</p>
+<p>Such is Windows, I guess! Stick to the Mac as much as possible ;)</p>
+<p>/me goes off to see more about installing Fedora Core 5 on his desktop with the OpenGL extras</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-2788">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/5a590a71bb9a8d655993a450f6b7fac1.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Steve Jobs</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2788">
+        <time class="published" datetime="2006-05-24T20:18:39+00:00">24 May 2006, 20:18</time>
+      </a>
+      <div class="entry-content"><p>Surely the answer is get a Mac? ;-)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-2790">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2790">
+        <time class="published" datetime="2006-05-24T20:35:16+00:00">24 May 2006, 20:35</time>
+      </a>
+      <div class="entry-content"><blockquote cite="#comment-2788">Surely the answer is get a Mac?</blockquote>
+<p>Cretin…</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-2870">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">IBBoard</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2870">
+        <time class="published" datetime="2006-05-26T15:52:23+00:00">26 May 2006, 15:52</time>
+      </a>
+      <div class="entry-content"><p>It&#8217;s rather strange and could be entirely my imagination, but I seem to have made WinXP boot quicker &#8211; by installing Linux :D</p>
+<p>I now use <span class="caps">GRUB</span> to dual-boot Windows and Fedora Core 5, but once I get in to Windows then all of the icons in the system tray (network connections, <span class="caps">AVG</span>, Zone Alarm etc) are all appearing much sooner than before and I even have volume and &quot;remove hardware icons (for my <span class="caps">SATA</span> drive) as soon as I log in, rather than an empty sys tray.</p>
+<p>Probably entirely coincidental, but it does seem like a faster boot now and no &#8216;major slowdown&#8217; when I run apps just after logging in and before everything has established itself :D</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-53830">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/b65cad08e27c98b42e8d8ac0c903f131.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://asf">mike</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-53830">
+        <time class="published" datetime="2006-12-20T05:20:47+00:00">20 Dec 2006, 05:20</time>
+      </a>
+      <div class="entry-content"><p>i seem to have pretty close problems to yours. On my imac when i hold option at the begging at the startup and when the two drives come up. which is one, macintosh, and the other microsoft. Once i click the microsoft one a black screen comes up says all bunch of stuff about sorry for the inconvinienve that your computer shut down and so on, then asks me how do i want to start my windows, the options are start windows normally, startup with last configuration settings, or the other ones safe mode&#8230; when i click either one o theses, the windows xp loading screen comes up as it should, and starts loading. except that it just stays on that screen and just keeps on loading. it doesnt ever enter my pc, just stays on the loading screen. sometimes the loading bar is going fast sometimes it goes really sketchy&#8230; does anyone know wut the problem with this is, and how i can fix it.. i had just got it back from repaired, so theres no viruses or anything like that on it. and it had worked fine until i had to shut it of cuz it just like froze on me. (its been like an hour , and still the loading screen is still loading. <span class="caps">PLZ</span> <span class="caps">HELP</span></p></div>
+    </article></li>
+  </ol>
+</div></notextile>

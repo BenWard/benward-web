@@ -1,0 +1,120 @@
+---
+layout: blog
+category: blog
+title: "Using Yahoo! Pipes to feed Facebook"
+date: "2007-05-29T22:58:42+00:00"
+updated: "2007-05-29T23:11:45+00:00"
+tags: ["all", "flickr", "feeds", "ben-ward", "yahoo", "pipes", "facebook", "blog", "thetenwordreview"]
+atomid: http://ben-ward.co.uk/journal/using-yahoo-pipes-to-feed-facebook/
+---
+<a href="http://facebook.com">Facebook</a> is everyone's least hated under-one-roof social networking monster. It's aesthetically neutral, perhaps even pretty. It's open with feeds and iCal subscriptions and least evil of all, it allows you to specify an external source for your <a href="http://www.facebook.com/notes.php?id=535575393">Facebook blog</a>.
+
+This is great step out from other social nets like MySpace, which expect you to remain within their grotesquely decorated walled garden at all times. With Facebook you can pipe content in, without actively using the website itself.
+
+It's far from perfect, since blogging (‘Notes’) is the only feature which lets you import external content in this way. Unfortunately you can't set up the <a href="http://www.facebook.com/photos.php?id=535575393">Photos application</a> to import from <a href="htttp://flickr.com/photos/benward">Flickr</a>.
+
+My work-around is to combine my feeds together and import everything into Notes. Come a time that Facebook is more open and flexible, I can always change that. 
+
+This is where <a href="http://pipes.yahoo.com">Yahoo! Pipes</a> comes in, and gets very clever indeed. As well as taking multiple feed sources and merging them, Pipes allows you to manipulate the content of each feed. So I can add a ‘Photo: ’ prefix to the titles of my Flickr photos, and a ‘Ten Word Review: ’ prefix to content from <a href="http://thetenwordreview.com">The Ten Word Review</a>. It all helps to make clearer where the mixed content is coming from. Pipes makes it very easy.
+
+First, take a look at the <a href="http://pipes.yahoo.com/pipes/pipe.info?_id=KG1e6ncN3BGg8VsPmLokhQ">Ben Ward Feed Mungeomatic</a> Pipe. You can clone it to derive your own, or just use it for reference. Yay for sharing.
+
+<img src="/res/posts/pipes/Pipes-Full.png" alt="Pipes presents a clear, visual UI that makes it quite easy to keep track of where the data is moving to, and the order in which alterations are made" title="Yahoo! Pipes"/>
+
+You'll see that there are three separate feed sources. One for each feed (you can put multiple feeds in the same source, but we're manipulating them differently, so separate sources is the way to go). You'll also want to make sure that each source is the <em>same format</em>. Mixing Atom with RSS does not a happy pipe make when it comes to sorting.
+
+<img src="/res/posts/pipes/Pipes-Sources.png" alt="" title="Yahoo! Pipes: Feed Sources"/>
+
+Now, follow the Flickr feed. The primary way to manipulate the content of feed items is using the <code>Regex</code> operator. This threw me at first. In regular programming, regular expressions are always available, but you expect to find simpler string functions like ‘append’ and ‘sub-string’ as well. Pipes just jumps straight to using Regex for all string manipulation. With that understood, the Regex operator should hopefully be quite clear. The <code>^</code> signifies the very start of the string, so replacing with <code>Photos: </code> effectively inserts the text at the beginning. Likewise, replacing <code>$</code> with text will <em>append</em> to the string.
+
+<img src="/res/posts/pipes/Pipes-Regex.png" alt="" title="Yahoo! Pipes: Regex Operator"/>
+
+I only include a subset of photographs, since I don't want Facebook flooded with every picture I take. Since Flickr doesn't have RSS feeds for photosets, though, I send the photos I want Facebooked to a <a href="http://flickr.com/groups/benwardabridged/">personal group</a> and use the RSS feed of that. You could write your own Photoset-to-Feed script using the <a href="http://www.flickr.com/services/api/">Flickr API</a> if you wanted, or just use the feed for your entire photostream.
+
+So as well as modify the title, I'm also altering the content of the Flickr feed item (the <code>description</code>). Putting the photos in a group pool means we find strange and redundant ‘Ben Ward added a photo to the pool’ text in the content. That is removed quickly by matching <code>a .* has added a photo to the pool:</code> and replacing it with an empty string.
+
+Similar tricks are performed on the Ten Word Review content, adding a prefix to the title and slightly rewriting some of the content.
+
+The final piece of trickery — more of a bug fix, really — is on the blog feed itself, using the Rename operator. This allows different fields within the feed item to be renamed. So <code>description</code> becomes <code>summary</code> and <code>content:encoded</code> becomes <code>description</code>. This works around an oddity when importing into Facebook where my blog content was being published with HTML mark-up escaped, but not the content from other feeds. Swapping <code>content:encoded</code> to <code>description</code> made it consistent with the other feeds and seems to have resolved the problem.
+
+<img src="/res/posts/pipes/Pipes-Rename.png" alt="" title="Yahoo! Pipes: Rename Operator"/>
+
+With the feed content altered, the three sources are combined using a <code>Union</code> operator and then sorted by <code>pubDate</code>. The whole lot is then output as one monster feed.
+
+<img src="/res/posts/pipes/Pipes-Sort.png" alt="" title="Yahoo! Pipes: Sort Operator"/>
+
+So far, I've found it reliable, although Pipes doesn't give detailed feedback when it encounters errors, so you'll need to keep <a href="http://feedvalidator.org">Feed Validator</a> on hand during development if you run into parsing problems with your inputs. On the Facebook side, I seem to have a problem whereby the Flickr entries have been duplicated. That's happened before when using other feed merging services too, so I think it's a bug in the Facebook importer.
+
+I hope this is useful, I do recommend having a play with Yahoo! Pipes. It could always be improved with more operators and sources, but right now it does a fine job of mashing content together in neat and tidy ways.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-69595">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/565435145e538c86f07906fd35cfa0a1.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.tomkerswill.co.uk">Tom Kerswill</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-69595">
+        <time class="published" datetime="2007-06-04T00:19:41+00:00">04 Jun 2007, 00:19</time>
+      </a>
+      <div class="entry-content"><p>Nice work! I&#8217;ve really started to love facebook &#8211; breath of fresh air from other sites such as Myspace&#8230; but it can sometimes be restrictive in certain things. I&#8217;m looking forward to playing about with all the new apps that keep appearing&#8230;<br />
+Tom</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-102291">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e6e984d5209d0fd381fae0d78c4d0302.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.mattrobin.com">Matt Robin</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-102291">
+        <time class="published" datetime="2007-06-14T00:46:51+00:00">14 Jun 2007, 00:46</time>
+      </a>
+      <div class="entry-content"><p>This looks awesome! Yahoo Pipes certainly looks intriguing&#8230;hmm.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-201044">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/cd92cd941551d06a41a002537dbd7f7b.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.katemonkey.co.uk/">Kate Bolin</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-201044">
+        <time class="published" datetime="2007-07-13T20:09:52+00:00">13 Jul 2007, 20:09</time>
+      </a>
+      <div class="entry-content"><p>I finally started playing around with Pipes and this has been fabulously helpful.  Thank you!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-217706">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/8c6eb42dfa9b29b522b1336e6bda3d1f.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://fordie.co.uk">Mark Ford</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-217706">
+        <time class="published" datetime="2007-08-20T21:13:33+00:00">20 Aug 2007, 21:13</time>
+      </a>
+      <div class="entry-content"><p>Hi, This is great thanks! I had a play with pipes a while ago, but couldn&#8217;t come up with anything useful for it, this is ideal, because I can&#8217;t be bothered to come up with any additional content for my facebook account!</p>
+<p>Anyway, I seem to have a small problem with my pipe, it was working fine earlier, but since I added my flickr group instead of my basic stream pipes is not picking up my photos. I&#8217;m sure it&#8217;s something really silly I&#8217;ve done &#8211;  but if you could have a quick look I&#8217;d appreciate it: http://pipes.yahoo.com/pipes/pipe.info?_id=QkerxV9P3BG306tbjknRlg</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-217707">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/8c6eb42dfa9b29b522b1336e6bda3d1f.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://fordie.co.uk">Mark Ford</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-217707">
+        <time class="published" datetime="2007-08-20T21:17:22+00:00">20 Aug 2007, 21:17</time>
+      </a>
+      <div class="entry-content"><p>I think the problem must be with pipes or flickr because I&#8217;ve just used the &#8220;feed auto discover&#8221; module &amp; that&#8217;s not picking the photos up either.</p>
+<p>Ah, well&#8230; try again tomorrow.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-217803">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/8c6eb42dfa9b29b522b1336e6bda3d1f.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://fordie.co.uk">Mark Ford</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-217803">
+        <time class="published" datetime="2007-08-22T10:57:03+00:00">22 Aug 2007, 10:57</time>
+      </a>
+      <div class="entry-content"><p>Right, I&#8217;ve worked out that the issue is with the flickr feed. If you&#8217;re not a member of the flickr group you just get an empty feed. Similarly if you visit the group but are not signed in flickr politely tells you to go away.</p>
+<p>How did you get your photos to be publicly visible but prevent others from posting to the group?</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

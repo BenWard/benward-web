@@ -1,0 +1,85 @@
+---
+layout: blog
+category: blog
+title: "Flickr Testing: Some Coverart I made"
+date: "2006-02-25T14:36:25+00:00"
+updated: "2006-02-25T14:44:30+00:00"
+tags: ["all"]
+atomid: http://ben-ward.co.uk/journal/flickr-test-2/
+---
+<dl class="flickr photograph">
+  <dt><a href="http://www.flickr.com/photos/benward/91448893/">Joshuaburn January 2006 (Print version)</a></dt>
+  <dd><a href="http://www.flickr.com/photos/benward/91448893/" title="Joshuaburn January 2006 (Print version) on Flickr">
+    <img src="http://static.flickr.com/33/91448893_70a79908e4_m.jpg" title="Joshuaburn January 2006 (Print version)" alt="" />
+  </a></dd>
+  <dd class="uploader">Originally uploaded by <a href="http://www.flickr.com/people/benward/">Ben Ward</a></dd>
+  <dd><p>Knocking out cover art is one of my small loves in life.</p>
+<p>Not sure if I'll manage a consistent theme throughout the year, but maybe I'll try. Currently the theme is 'photos that I think look really cool'. There's no relation between the picture and the music or anything so clever as that.</p>
+<p>The bottle of Whisky was photographed by me over Christmas, and touched up in Fireworks to account for the terrible focus. It was given to a grandparent as a present, and is comes from the <a href="http://www.smws.co.uk/26malts/">Scotch Malt Whisky Society's 26 Malts</a> series. This particular label was written by Chris Miller and designed by Susanna Freedman.</p></dd>
+</dl>
+
+Apologies if your RSS Reader freaked about a bit this hour. I've taken a short break from C# application programming and set up Flickr's "Blog This" functionality. It's a stop-gap measure until such a time as I write a plug-in to dynamically integrate photographs into my blog stream (yes, redesign!).
+
+Since I need to write CSS for the Flickr layout I've written, this post is actually going to stick around. Of course, you'll have seen it before if you know me on Flickr.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-839">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/6db1ac4911d03473d52634c979a18041.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.benedictoneill.com/">Ben O'Neill</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-839">
+        <time class="published" datetime="2006-02-25T15:40:02+00:00">25 Feb 2006, 15:40</time>
+      </a>
+      <div class="entry-content"><p>I expect phpFlickr (http://phpflickr.com/) will become your friend. Amusingly I&#8217;ve integrated last.fm and flickr into my new design (little &#8220;my pictures&#8221; and &#8220;i&#8217;m listening to&#8221; things at the bottom with thumbnails).  Are you having your flickr images appear in the main blog like blog entries?</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-840">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/1055b2b90f5beb844f28fd909ed45d5f.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.zachinglis.com">Zach</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-840">
+        <time class="published" datetime="2006-02-25T15:47:52+00:00">25 Feb 2006, 15:47</time>
+      </a>
+      <div class="entry-content"><p>I originally thought you meant <span class="caps">RSS</span> feeds so was gonna suggest FeedBurner as it has flickr integration.</p>
+<p>One of my friends has written a handy plugin for flickr, <br />
+http://eightface.com/wordpress/flickrrss/</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-841">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-841">
+        <time class="published" datetime="2006-02-25T16:22:53+00:00">25 Feb 2006, 16:22</time>
+      </a>
+      <div class="entry-content"><p>I haven&#8217;t quite finalised my choice of integration point yet. I suspect I&#8217;ll have some pictures in <em>a</em> sidebar somewhere, but it depends. I quite like the idea of integrating <em>some</em> pictures into my posts frontpage, and I know how to do it but I think it&#8217;ll need a new plug-in.</p>
+<p>I&#8217;m not sure how best to get the photos yet: One option is to use a tag-filtered feed, but that would allow any of my contacts to add the &#8220;BlogThis&#8221; tag and add content to my frontpage. It&#8217;s not likely to happen, and obviously I&#8217;d be able to remove them as a contact afterwards, but it&#8217;s something that needs considering. Flickr don&#8217;t provide feeds for sets (I guess they&#8217;re supposed to be treated static and aren&#8217;t chronological), so I suspect the answer comes from the <span class="caps">API</span>.</p>
+<p>Maybe once beta 1 of Oak is out I might take a day off and and code it. Hmm, my days off from coding consist of coding… looks like I&#8217;m a geek, then.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-844">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/8e0293544b13499460369217e2a7febd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://charlvn.za.net">Charl van Niekerk</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-844">
+        <time class="published" datetime="2006-02-27T16:02:23+00:00">27 Feb 2006, 16:02</time>
+      </a>
+      <div class="entry-content"><p>Personally I have always been very fond of a linklog integrating public bookmarks on del.icio.us or even a custom system in the sidebar of a blog. I&#8217;m definitely going to look into writing something like that for the new WordPress blog I&#8217;m working on.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-845">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-845">
+        <time class="published" datetime="2006-02-27T16:21:44+00:00">27 Feb 2006, 16:21</time>
+      </a>
+      <div class="entry-content"><p>I&#8217;m definitely having Delicous integration for linklogging. I&#8217;ve had <a href="http://del.icio.us/BenWard/@linkblog">a tag for it</a> for yonks, just not gotten around to redesigning the site to integrate it in just yet.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

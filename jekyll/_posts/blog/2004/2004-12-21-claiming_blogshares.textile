@@ -1,0 +1,11 @@
+---
+layout: blog
+category: blog
+title: "Claiming Blogshares"
+date: "2004-12-21T12:15:08+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2004-12-21:/blog/claiming_blogshares
+---
+I'm going through a little 'collect my Blog' phase, having got myself linked into Technorati and - with a bit of luck - the below image will sort out BlogShares. It's nice to mark something as my own. ;)
+
+<a href="http://blogshares.com/blogs.php?blog=http%3A%2F%2Fblog.ben-ward.co.uk&amp;user=23758"><img src="http://blogshares.com/images/blogshares.jpg" alt="Listed on BlogShares" width="117" height="23"/></a>

@@ -1,0 +1,252 @@
+---
+layout: blog
+category: blog
+title: "FAO: RDF"
+date: "2007-02-20T23:32:20+00:00"
+updated: "2008-02-28T16:34:04+00:00"
+tags: ["technology", "tommorris", "semantic-web", "microformats", "barcamp", "barcamplondon", "rdfa", "rdf", "ianforrester", "erdf", "web"]
+atomid: http://ben-ward.co.uk/journal/rdf-2/
+---
+<img src="/res/posts/RDFmF.png" alt="" />
+
+In my <a href="/journal/barcamplondon2">BarCamp round-up</a> I commented on RDF getting a strong showing in presentations. It caught my eye and I came out feeling optimistic about the future of rich data on the web. Don't misinterpret that sentence as RDF enthusiasm yet, though. 
+
+The thing about RDF is that no-one has yet demonstrated any real-world reason to care about it. It fascinates academics who would love — just for the sake of it — to model the entire universe in triples but in the real world of web browsers the value has never really been promoted.
+
+You may wish to watch Ian Forresters recording of the <a href="http://cubicgarden.blip.tv/file/152044/">RDF <abbr title="verses">vs.</abbr> microformats discussion</a>. It's all very tongue in cheek of course, but still exposes some big misconceptions the RDF folks have which are going to hold them back.
+<!--more-->
+In a general sense, I think some in the world of RDF are bitter about microformats. RDF has been in development for so many years and no-one of importance in the consumer world has cared. An upstart technology; hacky, rough around the edges and full of self-proclaimed imperfection bursts onto the scene and in 18 months makes data sexy. Oh, and of course microformats don't require XML.
+
+Here's the thing, if you're passionate about RDF for whatever reason and think microformats has stolen some thunder that you deserved, <strong>you need to get over this. Right now.</strong> Thank you. Now let's continue.
+
+As someone who does enjoy considering academic problems from time to time, I'm not going to dismiss the potential usefulness of RDF. Of course the open ended nature of it <em>could</em> result in some ingenious mash-ups — given enough real world data. But RDF does have big problems that need to be overcome.
+
+The biggest technical barrier for RDF has actually been solved; publishing no-longer  requires XML nor hidden duplication of the data that's already in your page. The microformats mantra of ‘publish once’ could work, thanks to a technique called <a href="http://research.talis.com/2005/erdf/wiki/Main/RdfInHtml"><abbr title="Embedded Resource Description Framework">eRDF</abbr></a>. With technicalities hurdled, what remains is primarily attitude.
+
+First up, XML. While eRDF makes it optional and allows the same HTMLTidy-based parsing techniques as microformats use, it remains that advocates of RDF are somewhat inclined to be advocates of XML, XHTML and (worst) XHTML2 as well. The XML web hasn't happened. It may <em>never</em> happen. Ian Forrester's comment in the linked presentation that ‘we need XHTML’ is both discouraging to publishers and misleading. You don't <em>need</em> it at all. <em>Publishing will always be more important</em>. Publishers find HTML easier to publish than valid, well formed XHTML. If you try and pull XHTML evangelism into RDF evangelism, publishers are going to dismiss both in the same breath. HTML is alive and kicking, and if you want to use our data on the web you're going to have to parse HTML to get it.
+
+Then there's the ‘relationship’ with microformats. Standing up and pushing an agenda of ‘microformats aren't powerful enough, RDF is better’ is strikingly parallel to ‘HTML isn't powerful enough, use XML’. You know how that argument ends — and it <em>has</em> ended. Microformats do their job very well. They know and are designed for their limitations, they're publisher-centric and the tools that have been written to harness them are user-centric. That's what the web is all about and microformats has solved the problem of publishing contact and event information.
+
+Yes, microformats are harder to parse than XML but that's because the people who write parsers are more capable of handling the complexity than publishers are. The philosophy is that parsers only have to be written once, while the format will be published over and over. Any extra hours taken to write a more liberal parser are saved many times over by the thousands of people who are going to publish the data.
+
+Additionally, can we please nip this ‘microformats have better branding; it's all marketing’ attitude <strong>right now</strong>? It's true that microformats have a fantastic website thanks to some very talented people. But the suggestion that a hip logo and high profile evangelists is enough to push adoption of new technology to real people <em>without</em> it being genuinely useful as well is utterly laughable, verging on out-right offensive to those who worked on developing it.
+
+If microformats didn't have the balance of usefulness and ease-of-use right then no bugger would use them. Simple. The evangelists would be dismissed as nerds, the logo stolen for some other purpose and the web would carry on regardless. Summoning <a href="http://hicksdesign.co.uk">Jon Hicks</a> to our — Dan Cederholm produced — green-squared alter for the ritual sacrifice in fire of <em>all the fluffy animals on earth</em> would not rescue a broken technology. Microformats are not broken; the limits are designed.
+
+So lets look ahead. The RDF community is trying to get established in the same world as microformats with eRDF and frankly, good luck to them. The more rich data published on the web the better. The microformats process is not for every application. The process depends on existing real-world publishing; it is <em>designed</em> to rule out the ‘invention’ of new formats. RDF positively embraces people creating their own custom formats on a whim, with an attitude of ‘sink or swim’ instead.
+
+But there are two things. If you're working with RDF, show me something <em>new</em>. Don't just rehash vcard and icalendar into your own format; I'm not interested. I know it makes for a clever demo, but it's a solved problem. People have learned how to do it with microformats and no-one is going to switch to a different syntax just for the sake of it — especially not fellow geeks who know only too well you could just transform the microformat into RDF when you need to. 
+
+New formats that solve new and different problems will attract attention and support though. At the end of the day, no-one cares what the name of the technology is that solves our problems. If it works, is easy enough to publish and provides useful enhancement to people's experience of the web then people will use it. 
+
+Solving the same problems twice won't get that response. In fact, I suspect if someone visits ‘eRDF.org’ and just sees ‘how to write microformats with a different syntax’ then they'll move along quick. The RDF versions of vcard and icalendar need to be a the very bottom of your examples list, if you even publish them at all.
+
+And finally, you've got to make the real-world, end-user benefits available at the same time. Standing up and saying ‘we can do some really vague, open ended stuff with this data’ won't attract anyone.
+
+At the very least you need practical demos that people can download, install and carry with them. Also, web pipes ala Technorati's contact and event converters have been a huge success. Remember, there's no native microformats UI in any web browser, but people can and do use them right now. Just with the addition of a hyperlink in a page microformats become a technology of ‘now’ and not ‘the future’. It's proved the most fantastic interim means of bringing microformat functionality to all users, whilst the browser manufacturers build their native full-scale UI into upcoming releases.
+
+<a href="http://blog.opiumfield.com/">Tom Morris</a> ‘gets it’, I think. He's launching a new effort called <a href="http://getsemantic.com">Get Semantic</a> which aims to organise the public face of RDF and could well provide a vehicle for much of what I've written above to happen. I think it will be worth keeping an eye on.
+
+Penultimately, I want to pre-empt a possible comment. I haven't mentioned <a href="http://www.w3.org/TR/xhtml-rdfa-primer/">RDFa</a> at all in this lengthy piece. This is because RDFa is a rubbish idea.
+
+RDF has gotten a lot of deserved criticism over the years for being too conceptual and focusing only on solving imaginary problems that didn't concern anyone outside academic communities. As mash-up culture promotes the publishing of interoperable data, the number of real-world problems that interoperable data can solve has increased. Microformats is capable of solving some and I think RDF is capable of solving some others. I just hope that the right kind of people get involved to try and make it happen.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-55670">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/6db1ac4911d03473d52634c979a18041.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://benedictoneill.com/">Ben O'Neill</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-55670">
+        <time class="published" datetime="2007-02-21T00:10:15+00:00">21 Feb 2007, 00:10</time>
+      </a>
+      <div class="entry-content"><p>There aren&#8217;t any realworld <span class="caps">RDF</span> applications that I am aware of, or that anyone I&#8217;ve spoken to who does <span class="caps">RDF</span>/Semantic Web related research is aware of either.</p>
+<p>That&#8217;s the problem at the moment. The Computer Science department at my uni publishes loads of <span class="caps">RDF</span> data about the students, research projects etc. &#8211; there just isn&#8217;t an application that you can say &#8220;use this source, use this source too, use this one as well &#8211; now tell me some good stuff&#8221;.</p>
+<p>I believe this is being worked on ;)</p>
+<p>But to be honest, having worked over the summer for the <a href="http://www.aktors.org/akt/" rel="nofollow"><span class="caps">AKT</span></a> project and dealing with <span class="caps">RDF</span>/Semantic Web technologies first hand &#8211; I&#8217;m still quite skeptical if they&#8217;ll ever get popular in the real world.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-55679">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/d0db77deee89b9985d70f107f75a87ff.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://bnode.org/">Benjamin Nowack</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-55679">
+        <time class="published" datetime="2007-02-21T09:04:58+00:00">21 Feb 2007, 09:04</time>
+      </a>
+      <div class="entry-content"><p>One basic thing that&#8217;s still wrong in discussions is comparing <span class="caps">RDF</span> to MFs solely at the syntax level. You are spot on with saying that cloning MF encodings in <span class="caps">RDF</span> are not very helpful (apart from a few exceptions where e.g. using eRDF can be easier to generate key-value-like views from a database), MFs will always be more compact.</p>
+<p>There is a <a href="http://bnode.org/blog/2007/02/10/seenon-timestamp-or-state-of-mind" rel="nofollow">longtail utility</a> coming with (e)<span class="caps">RDF</span>, but the real benefits (<span class="caps">IMO</span>) will be storage, querying, and remixing, which is a lot more straight-forward to implement on the model/triple level. Luckily, RDFers are starting to bring together MFs and <span class="caps">RDF</span> infrastructure (GRDDL+SPARQL, paggr, &#8230;), so we will hopefully get over the &#8220;versus&#8221;-debate soon and move on to discuss synergy effects. <br />
+(sorry for the shameless plugs)</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-55680">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/fb7d81b172292b6034f9c1747d5b11e0.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.fatbusinessman.com/">FatBusinessman</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-55680">
+        <time class="published" datetime="2007-02-21T09:10:50+00:00">21 Feb 2007, 09:10</time>
+      </a>
+      <div class="entry-content"><p>You mention that you think Tom Morris &#8220;gets it&#8221;, but he also comes up with <a href="http://blogs.opml.org/tommorris/2007/02/19#When:12:25:09PM" rel="nofollow">a comment</a> even more laughable and/or offensive than the &#8220;it&#8217;s all marketing&#8221; one.</p>
+<p>Of course, he may well be joking: however, it&#8217;s still pretty offensive, in my opinion, towards both male and female developers who support and use Microformats.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-55682">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/7028f422ca6da0180de6c9d922a3228f.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://dannyayers.com">Danny</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-55682">
+        <time class="published" datetime="2007-02-21T10:48:57+00:00">21 Feb 2007, 10:48</time>
+      </a>
+      <div class="entry-content"><p>[PS. I&#8217;ve pulled most of the links from this post as the anti-spam system complained &#8211; a warning ahead of time would have been appreciated &#8211; anyhow I&#8217;ve left markers]</p>
+<p>Many thanks for this well-argued post. I am a fan of <span class="caps">RDF</span>, but agree with many of your points. Some however could use a little more background. Ok, for starters:</p>
+<p>&#8220;The thing about <span class="caps">RDF</span> is that no-one has yet demonstrated any real-world reason to care about it.&#8221;</p>
+<p>Speaking generally, I&#8217;d say that wasn&#8217;t actually true. For example, one particular area in which <span class="caps">RDF</span> and Semantic Web technologies are finding significant application is around Health Care and the Life Sciences [GoogleMe]. But in the in the context of the &#8220;the real world of web browsers&#8221; you have a point. But I&#8217;d suggest the problem isn&#8217;t really a lack of real-world reasons to care about it, more that its hasn&#8217;t been effectively demonstrated.</p>
+<p>&#8220;<span class="caps">RDF</span> has been in development for so many years and no-one of importance in the consumer world has cared.&#8221;</p>
+<p>Again, that&#8217;s not strictly true. An example there is the <span class="caps">XMP</span> format for embedded metadata, which is a profile of <span class="caps">RDF</span> (many photo tools make use of the stuff, including all of Adobe&#8217;s products). <span class="caps">RDF</span> and associated technologies have been in development for many years, but what they address is the general problem of data on the web, not something solvable overnight. But there are now there are solid core specifications and <a href="http://sites.wiwiss.fu-berlin.de/suhl/bizer/toolkits/" rel="nofollow">tool implementations</a> for all popular programming languages.</p>
+<p>One more point on the general case. Most of the large enterprise-oriented companies are interested in the technologies, for example <span class="caps">IBM</span>  [GoogleMe] HP  [GoogleMe] have ongoing initiatives,  Oracle&#8217;s flagship database has <span class="caps">RDF</span> support  [GoogleMe].</p>
+<p>But ok, your main arguments are in the context of microformats. I&#8217;ve no doubt there is at least skepticism, maybe even bitterness in some corners of the <span class="caps">RDF</span> community about the growth of microformats. But I&#8217;m afraid to extent in this post you yourself have fallen into a similar trap, seeing similarities between <span class="caps">RDF</span> and microformats and assuming it&#8217;s one versus the other. While being able to publish data is one of the core prerequisites of the Semantic Web, the format(s) used is secondary to the data model.</p>
+<p>You say:<br />
+&#8220;The biggest technical barrier for <span class="caps">RDF</span> has actually been solved; publishing no-longer requires <span class="caps">XML</span> nor hidden duplication of the data that’s already in your page. &quot;</p>
+<p>It&#8217;s debatable whether this has been the biggest technical barrier, but you&#8217;re absolutely right in suggesting the problem has been solved. <strong>Microformats are a huge win for <span class="caps">RDF</span></strong>.</p>
+<p>While I don&#8217;t disagree with your points about <span class="caps">XML</span>, I would suggest that until we see a solid revision of non-<span class="caps">XML</span> <span class="caps">HTML</span>, it is a little easier to publish data unambiguously using <span class="caps">XML</span> formats (including <span class="caps">XHTML</span>), thanks to the <span class="caps">XML</span> tool set. But all <span class="caps">RDF</span> needs is something that can be parsed deterministically, the specific format doesn&#8217;t matter. (The Turtle  [GoogleMe] <span class="caps">RDF</span> syntax is popular for handcoding &amp; debugging which is closer to <span class="caps">JSON</span> than <span class="caps">XML</span>). For microformats tools to be useful, they also need to avoid ambiguity. Right now having HTMLTidy or similar in the chain tends to be a necessary evil.</p>
+<p>One slightly tangential issue around here is that a lot of data that could potentially be published on the web is tied up in databases. One of the big problems there is that every database has its own schema, without some kind of common language(s) there&#8217;s no way the material could be published in an interoperable form. There are now a bunch of tools that allow RDBMs to expose the data in an <span class="caps">RDF</span>-friendly fashion (with the help of one-off mappings). Where microformats exist for a particular domain, there&#8217;s no reason they should be used for the published data.</p>
+<p>I agree with you about it being mistaken to push an agenda of &#8217;microformats aren’t powerful enough, <span class="caps">RDF</span> is better’. But while microformats have solved the problems of say publishing contact and event information, they are (intentionally) limited in their coverage. More significantly, <span class="caps">RDF</span> is concerned with the model not the format, the problem space is different.</p>
+<p>Microformats neatly solve the problem of simultaneously publishing information in a human-readable and machine-processable fashion. But they don&#8217;t address the general case, how to publish arbitrary data &#8211; there, as you suggest eRDF can augment them.</p>
+<p>What&#8217;s more, microformats don&#8217;t attempt to address the core purpose of <span class="caps">RDF</span>, which is to be able to say <strong>anything about anything</strong> in a language that is machine-processable in a fashion consistent with the web. The solution <span class="caps">RDF</span> offers is a very simple entity-relationship model with both the entities and relationships being identified using URIs. When data is expressed in this model, there&#8217;s a common language through which data from different sources and expressed in different formats can be integrated.</p>
+<p>When it comes to domain-specific data, anyone can make up their own vocabularies/schemas/ontologies and use them on the web without worrying about conflicts with existing vocabularies because the terms are identified with URIs. But to maximise the value of their data, it makes sense to reuse existing vocabularies. This is entirely consistent with the &#8216;paving of the cowpaths&#8217; around microformats. If I want to talk about an event, it makes sense to use the concept as defined by iCalendar. If I want to express this in <span class="caps">HTML</span> I can use hCalendar. If I want to merge this information with, say, information about government bodies I can use the <span class="caps">RDF</span> model of this information, and query across the combination (using <span class="caps">SPARQL</span>). I&#8217;d probably want to see the results in <span class="caps">HTML</span>, so again it would make sense to use hCalendar to express the event information contained in the results.</p>
+<p>One final attempt at highlighting the non-conflict between <span class="caps">RDF</span> and microformats: <br />
+Would you say microformats have succeeded where Java has failed? After all, you can express business card data in each, <code>class="vcard"</code> or <code>public class VCard {}</code>. Java has the facility for serialisation, and its objects could be presented on the web. Ok, I doubt the serialisations are particularly human-readable, even as <span class="caps">XML</span>. So if you wanted to put the data contained in such objects on the web, your best bet would probably be to use microformats. <span class="caps">RDF</span> is designed for information modelling and data manipulation (i.e. machine-oriented knowledge representation) rather than general programming, but if you wanted to present business card material on the web, similarly you&#8217;d probably be best off using hCard.</p>
+<p>Going back to your earlier statement, that no-one has yet demonstrated any real-world reason to care about <span class="caps">RDF</span>, this is changing. The W3C now has a Semantic Web Education and Outreach group  [GoogleMe], and part of its remit is work on exposing real-world demonstrations. But if you look around a bit, you will see that there already quite a few things around.</p>
+<p>Off the top of my head I&#8217;d suggest dbpedia.org, which allows Wikipedia data to be queried online much in the same fashion as a relational DB. There&#8217;s Tim Berners-Lee&#8217;s Tabulator  [GoogleMe], a &#8220;generic data browser&#8221;, which on the surface is an Ajax-based mashup tool, the difference being that it&#8217;s capable of mashing up fairly arbitrary data. There&#8217;s Revyu  [GoogleMe], an <span class="caps">RDF</span>-based Web 2.0-style review site. The forthcoming <span class="caps">IPTV</span> service Joost  [GoogleMe] (aka The Venice Project) is creating quite a buzz in Web 2.0 circles, and that makes <a href="http://www.leosimons.com/2006/rdf-at-the-venice-project.html" rel="nofollow">extensive use of <span class="caps">RDF</span></a>. (A good place to watch this stuff is <a href="http://planetrdf.com" rel="nofollow">Planet <span class="caps">RDF</span></a>).</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-55683">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/7028f422ca6da0180de6c9d922a3228f.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://dannyayers.com">Danny</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-55683">
+        <time class="published" datetime="2007-02-21T10:50:52+00:00">21 Feb 2007, 10:50</time>
+      </a>
+      <div class="entry-content"><p>Oops, at least one typo:<br />
+&#8220;Where microformats exist for a particular domain, there’s no reason they should be used for the published data.&#8221;<br />
+=&gt;<br />
+&#8220;Where microformats exist for a particular domain, there’s no reason they <strong>shouldn&#8217;t</strong> be used for the published data.&#8221;</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-55684">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-55684">
+        <time class="published" datetime="2007-02-21T11:39:11+00:00">21 Feb 2007, 11:39</time>
+      </a>
+      <div class="entry-content"><p>@ <a href="http://ben-ward.co.uk/journal/fao-rdf/#comment-55680" rel="nofollow">FatBusinessman</a>: I can assure you Tom is definitely joking there. This ‘gets it’ complement is based off the back of having met him at BarCamp.</p>
+<p>Also, the whole ‘girlsofmicroformats’ thing is a tongue in cheek in itself, it doesn&#8217;t strike me as particularly offensive to comment on it likewise. That said though, lots of comments like that at the same time as ‘ooh they&#8217;ve got a pretty logo’ and ‘Jeremy Keith is using his mind-trick to spread them’ and so on all at once is all contributing to the same negative impression of a weak dismissal of microformats.</p>
+<p>@ <a href="http://ben-ward.co.uk/journal/fao-rdf/#comment-55682" rel="nofollow">Danny</a>: I&#8217;m <strong>really</strong> sorry about the links getting blocked. I&#8217;ve immediately disabled that plug-in and will just deal with the extra spam by hand until I come up with a more robust implementation.</p>
+<p>Thank you very much for the thorough response. I shall digest it over the next few hours!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-55686">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/5a96068fd15d7226b7f4aa6d8d7e0c7d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blogs.opml.org/tommorris">Tom Morris</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-55686">
+        <time class="published" datetime="2007-02-21T12:21:59+00:00">21 Feb 2007, 12:21</time>
+      </a>
+      <div class="entry-content"><p>Note for the humour-impaired: I was indeed joking with that post. If it&#8217;s offensive, then I should be offended too since I support, use and develop tools to work with microformats.</p>
+<p>The whole &#8220;versus&#8221; thing is a joke that a few of us at BarCamp thought up. If you had watched the video, you would have seen that there is no &#8220;versus&#8221; at all &#8211; I think microformats are great, and I hope that the GetSemantic project will push microformats heavily for most applications, but also provide &#8220;microformats for the long tail&#8221; (tailformats?).</p>
+<p>May I point out that &#8220;girlsofmicroformats&#8221; was an invention of the microformats community? I&#8217;m sure that if any of the ladies featured in the photos had any problems with it, they would have made a big fuss about it themselves. I was linking to it because it appeared on the #microformats channel and it seemed like a funny, cool and interesting thing to post. The fact that there are people making and selling t-shirts in order to promote a semantic data process is cool.</p>
+<p>When we say &#8220;pretty logo&#8221; and so on, we really mean &#8220;good documentation, tools, implementations and user community&#8221;.</p>
+<p>I also agree with you, Ben, regarding <span class="caps">XHTML</span> and <span class="caps">XML</span>. I&#8217;m an <span class="caps">XML</span> geek, so I&#8217;d love to see more people using <span class="caps">XHTML</span>, but if there&#8217;s the possibility that advocacy of <span class="caps">XHTML</span> is going to prevent people from putting semantic data out there, then I&#8217;ll stop doing it. <span class="caps">XHTML</span> and <span class="caps">XML</span> are personal preferences because they make my life easier, not technical requirements for adoption of eRDF etc.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-55917">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/a3af0c7755c36bb7a5ebc4f894e0b9b8.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.meriwilliams.com/">Meri</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-55917">
+        <time class="published" datetime="2007-02-26T00:23:00+00:00">26 Feb 2007, 00:23</time>
+      </a>
+      <div class="entry-content"><p>Ben, I think you&#8217;ve hit the nail on the head. What I&#8217;m waiting to hear is a succinct, clear explanation of what <span class="caps">RDF</span> can do for me in the real world that Microformats (current or potential) can&#8217;t.</p>
+<p>Given the work I did at university on ontologies and agents, I think there is an answer, but noone is talking it. What <span class="caps">RDF</span> needs is a Simon Willison to give OpenID style clarity and enthusiasm to the debate.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-55972">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/3d4f44f53449c200aa4fa268fea765e4.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://kid666.com/blog">Tom Hughes-Croucher</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-55972">
+        <time class="published" datetime="2007-02-26T22:22:25+00:00">26 Feb 2007, 22:22</time>
+      </a>
+      <div class="entry-content"><p>It&#8217;s an interesting post. I seem to be by far the most loud mouthed person who has been arguing for Semantic Web technology, so for once I&#8217;m going to try and tread carefully.</p>
+<p>The problem with <span class="caps">RDF</span> in the eyes of the web development community is that it isn&#8217;t useful. I would like to challenge that. <span class="caps">RDF</span> is very useful, but think of it a bit like <span class="caps">SGML</span>. Some really smart people love raw <span class="caps">SGML</span> and all the power it gives them, however most of us mere mortal prefer the rather constrained subset of <span class="caps">HTML</span>.</p>
+<p>There are a lot of implementations that use the triple formats to deliver information in the real world, Danny Ayers mentioned some, Adobe are definitely  a good example. Triples are being used effectively, but not so much on the &#8216;web&#8217;. It&#8217;s the &#8216;web&#8217; bit that seems to throw people.</p>
+<p>Timbl&#8217;s original vision was for two webs side by side, one for machines and one for people. The human web we have, the other one we don&#8217;t really have. The problem creating the second one is finding common formats machines can understand and actually producing the data. Since so much of (human) web is produced manually the machine web has become a problem.</p>
+<p>In stepped Microformats. Microformats was a truly brilliant solution, it fit the problem perfectly. It was a great way to combine the web and the need to provide a data source.</p>
+<p>My argument is this, Microformats does the simple cases really well, however the extra &#8220;20%&#8221; as some people put it is achievable with a very small step using eRDF. My worry is not that Microformats isn&#8217;t good, it&#8217;s that something better is so close.</p>
+<p>Web 2.0 wouldn&#8217;t have happened if so many people hadn&#8217;t opened up their APIs not knowing what would happen. Google maps, Flickr, Delicious all these products got more interesting because their data was as available as possible. <span class="caps">RDF</span> has all the egghead scientist doing crazy stuff, but they can only do crazy stuff with data they have. One small step and Microformats would be part of that.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-56457">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/c5ecb9ad937e4c40a50cfb67a33867fe.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.w3.org/People/karl/">karl dubost, w3c</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-56457">
+        <time class="published" datetime="2007-03-06T22:31:14+00:00">06 Mar 2007, 22:31</time>
+      </a>
+      <div class="entry-content"><p>&gt;It fascinates academics who would love — just for the sake of it — to model the entire universe in triples but in the real world of web browsers the value has never really been promoted.</p>
+<p>&gt;There aren’t any realworld <span class="caps">RDF</span> applications that I am aware of…</p>
+<p>Danny gave a very substantial and good answers as usual. Just to add a bit more to the useful infomation he has been given. <strong>All</strong> Adobe suite products puts <span class="caps">RDF</span> in files for more than 4 years, I guess that must be a few millions files by now. Some companies implement the grabbing of this <span class="caps">RDF</span> data. For example, Flickr sucks the <span class="caps">RDF</span> data contained in images and put them into Flickr.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-215781">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/43c99c0255cb8251075fc0e239d9c379.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Ella Rachman</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-215781">
+        <time class="published" datetime="2007-07-25T11:44:04+00:00">25 Jul 2007, 11:44</time>
+      </a>
+      <div class="entry-content"><p>Thank you!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-215808">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/94f4308eeabf7453ff8195daa9b98f0a.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Jasmine Ribeiro</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-215808">
+        <time class="published" datetime="2007-07-25T18:51:03+00:00">25 Jul 2007, 18:51</time>
+      </a>
+      <div class="entry-content"><p>Thank you!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-215822">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/fe90692642c7ab012aeb83803bbd1dca.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="">Natalie Rego</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-215822">
+        <time class="published" datetime="2007-07-25T23:08:24+00:00">25 Jul 2007, 23:08</time>
+      </a>
+      <div class="entry-content"><p>Your are Great. And so is your site! Awesome content. Good job guys!</p></div>
+    </article></li>
+  </ol>
+</div></notextile>
+
+<notextile><div class="pingbacks hfeed" id="pingbacks">
+  <h2>Pingbacks</h2>
+  <ul>
+    <li class="hentry" id="pingback-55967">
+      <a rel="bookmark" class="entry-title" href="http://morethanseven.net/posts/what-erdf-can-learn-from-microformats/">Morethanseven &raquo; What eRDF can learn from Microformats</a>
+    </li>
+  
+    <li class="hentry" id="pingback-55969">
+      <a rel="bookmark" class="entry-title" href="http://blog.meriwilliams.com/2007/02/26/links-for-2007-02-26/">Meriblog: Meri Williams&#8217; Weblog &raquo; links for 2007-02-26</a>
+    </li>
+  
+    <li class="hentry" id="pingback-56262">
+      <a rel="bookmark" class="entry-title" href="http://morethanseven.net/posts/microformats-and-erdf-sitting-in-a-tree/">Morethanseven &raquo; Microformats and eRDF sitting in a tree</a>
+    </li>
+  </ul>
+</div></notextile>

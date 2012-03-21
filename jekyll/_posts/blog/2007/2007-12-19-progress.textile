@@ -1,0 +1,14 @@
+---
+layout: blog
+category: blog
+title: "Progress"
+date: "2007-12-19T00:50:20+00:00"
+updated: "2007-12-19T00:50:20+00:00"
+tags: ["all", "redesign", "ben-wardcouk", "blog"]
+atomid: http://ben-ward.co.uk/journal/progress/
+---
+The blog design has made it's first nervous steps out of default HTML styling. I've worked out the grid, I've got placeholders for some new content and most of the mark-up has been tidied up quite neatly.
+
+Progress is, unsurprisingly, <em>much</em> slower than I'd have intended.
+
+One rule I've imposed is not to alter the font until I've got the foundations down more solidly. I don't want to make the appearance too bearable too soon.

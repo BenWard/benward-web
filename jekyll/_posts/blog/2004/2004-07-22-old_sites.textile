@@ -1,0 +1,11 @@
+---
+layout: blog
+category: blog
+title: "Old Sites"
+date: "2004-07-22T19:28:06+00:00"
+tags: ["technology"]
+atomid: tag:benward.me,2004-07-22:/blog/old_sites
+---
+Those who know me will know that this is far from being my first homepage. In fact, at the last count this is the third. For sake of posterity (and an interesting history of my [x]HTML coding abilities), Versions 1 and 2 of this site have been uploaded to the following locations:
+<ul><li><a href="http://version1.ben-ward.co.uk" title="V1">http://version1.ben-ward.co.uk</a></li>
+<li><a href="http://version2.ben-ward.co.uk" title="V2">http://version2.ben-ward.co.uk</a></li></ul>

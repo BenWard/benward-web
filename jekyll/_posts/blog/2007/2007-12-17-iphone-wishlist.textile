@@ -1,0 +1,24 @@
+---
+layout: blog
+category: blog
+title: "iPhone Application Wishlist"
+date: "2007-12-17T18:12:35+00:00"
+updated: "2007-12-17T21:59:00+00:00"
+tags: ["all", "technology", "software", "iphone", "mocks", "sdk", "wishlist"]
+atomid: http://ben-ward.co.uk/journal/iphone-wishlist/
+---
+I have never been as happy with a piece of electronics as I am with my iPhone. It is the finest example I know of a device which is superior because it performs its limited functions astoundingly well, rather than many functions badly. The absent features (picture messages, sending texts to multiple recipients, an RSS reader…) are simply irrelevant in day to day use when the remaining experience is so good. I said good, not perfect, by the way.
+
+Regardless. Come February Apple will release an SDK for the iPhone, allowing third party developers to officially produce applications (rather than underground, as they do at the moment). I actually think that whilst Apple made an utter mess of explaining the absence of the SDK at launch, it is a justifiable delay: Ironing out the APIs in the first few releases, rather than having to support them from the word go, not to mention being able to encourage some concept of de-facto iPhone <abbr title="Human Interface Guidelines">HIG</abbr>; better have people familar with how the device should work, than have them releasing all sorts of higgledy wild messes of user interface onto users. The delay, on those grounds, seems quite reasonable.
+
+The question is, without having dipped into the iPhone underground at all, what extra applications might I really want? The answer turns out to be not many. Support for <a href="http://last.fm">Last.FM</a> scrobbling over EDGE (for which there is an <em>amazing</em> app already for Jailbroken iPhones), also Yahoo's ZoneTag to provide location aware Flickr upload capability, plus assistance to the Google Maps application. A few base enhancements, really. Background services, in fact.
+
+I'd also like Rogue Amoeba to produce a version of <a href="http://www.rogueamoeba.com/airfoil/mac/">Airfoil</a> for iPhone. Imagine walking home listening to music, walking into your house and into range of your wireless network and Airport Express. A little prompt on the iPhone appears: “Transfer music to stereo?”. To carry on listening to music on loudspeakers from exactly the point I was listening on headphones would be gorgeous.
+
+Finally, the absence of a second camera on the front of the iPhone for video communication, leaves the door wide open for accessory makers to build this:
+
+<img src="/res/posts/iPhoneMocks/Skype.jpg" title="Mock-Up of an iPhone Skype Camera Accessory" alt=""/>
+
+Someone in the IM and <abbr title="Voice over Internet Protocol">VoIP</abbr> space, lets say Skype, should release an inexpensive camera for the iPhone dock connector, supply Skype client software and jump to the head of the queue of iPhone video communication.
+
+All presuming, of course, that the real iPhone SDK permits any of this software to run. But one would  hope.

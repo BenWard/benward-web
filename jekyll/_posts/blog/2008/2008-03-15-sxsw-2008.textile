@@ -1,0 +1,22 @@
+---
+layout: blog
+category: blog
+title: "In praise of physical exhaustion; it's SXSW!"
+date: "2008-03-15T19:16:25+00:00"
+updated: "2008-03-15T19:16:44+00:00"
+tags: ["all", "technology", "music", "events", "twitter", "sxsw", "sxswi", "sxsw-music", "sxsw2008", "oo5"]
+atomid: http://ben-ward.co.uk/journal/in-praise-of-physical-exhaustion-its-sxsw/
+---
+This time last year — that's March — I did something new. Annually, geeks of the web, film and music variety descend upon Austin, Texas for South By Southwest. 2007 was a blast; allowing me to meet a huge roster of new and wonderful people, whilst enjoying seven days in the sun and heat of Texas. It does wonders after a dreary British winter (I miss the days when we got snow). It's replenishing, really.
+
+Replenishment of the mind and soul, that is. The body, for its part in all this madness, will not be thankful. The combined effect of parties late into the night, every night whilst sustained only through a diet of 80% pure beef is not necessarily something doctors of <abbr title="National Heath Service">NHS</abbr> would endorse. This and the sleep depravation left me absolution _shattered_ last year.
+
+It figures I'd want to do it all again. ‘Spring Break for Geeks’ they call it. Taking years off the life of our planet to fly half way around the world for this over-indulgence is just half the battle; you don't win at SXSW unless you take a proportional amount off your own lifespan too. In the interests of a high score, I'm staying on for SXSW Music too.
+
+I have, as is traditional, failed to blog anything at all during the event so far. Interactive has in fact been and gone before this entry was finished, which puts me in a strange pre-present-past tense tangle. Regardless, it's all been very good.
+
+The boxes are all ticked: Wild parties, catching up with friends from all over the world, eating so much tex-mex it makes you ill? Pretty standard and successful trip so far.
+
+I will attempt to do a better write up, of course, but in the mean time your best bet is to "track me on Twitter":http://twitter.com/BenWard. Better yet, now that SXSW Music has started, is to check the _really, really cool_ Out-Of-5 tracker than "Mike Stenhouse":http://donotremove.co.uk/ put together. It's a really brilliantly simply tool to review stuff through Twitter and as well as passing judgement, provides a chronological listing of (mostly) "everything I've seen in Austin":http://oo5.whatiminto.com/reviewers/benward. I highly recommend it.
+
+More soon. Now, more music to see.

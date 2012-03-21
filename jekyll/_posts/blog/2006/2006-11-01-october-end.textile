@@ -1,0 +1,63 @@
+---
+layout: blog
+category: blog
+title: "End of October"
+date: "2006-11-01T12:35:29+00:00"
+updated: "2006-11-01T12:35:29+00:00"
+tags: ["all", "pink", "pinkforoctober", "nbcam", "breastcancer", "awareness", "cancer", "campaigns", "october"]
+atomid: http://ben-ward.co.uk/journal/october-end/
+---
+It's end of October, which means the end of <a href="http://pinkforoctober.org">Pink for October</a>, an effort to promote <a href="http://nbcam.org/">National Breast Cancel Awareness Month</a>.
+
+My 'redesign' was a garish bodge of the regular design so I've lost no hast in switching back to my regular blues. I have a lot of respect for people like <a href="http://ifelse.co.uk/">Phu Ly</a> who created something far more subtle and beautiful for the campaign and now has a pink-tinged design that will look great for months to come.
+
+So, thank you to Matthew Oliphant for organising Pink for October and doing something to really spread awareness (at the very least, to people like me who read up a little before taking part).
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-27610">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/251689727ca3dbf1a4261f8a48b0b179.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.thewatchmakerproject.com/">Matthew Pennell</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-27610">
+        <time class="published" datetime="2006-11-01T14:05:44+00:00">01 Nov 2006, 14:05</time>
+      </a>
+      <div class="entry-content"><p>Whoops &#8211; good point, I&#8217;d completely forgotten I needed to change mine back!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-28034">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/7dd9767f90f21357b8da4e6cdec011f9.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ifelse.co.uk">Phu</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-28034">
+        <time class="published" datetime="2006-11-02T12:23:59+00:00">02 Nov 2006, 12:23</time>
+      </a>
+      <div class="entry-content"><p>Thanks:)<br />
+That does remind me though; I probably ought to revert my site back as well&#8230;</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-28234">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/677ee3767d8eba01ae3314e4f15296c8.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://pinkforoctober.org">Matthew Oliphant</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-28234">
+        <time class="published" datetime="2006-11-02T22:49:56+00:00">02 Nov 2006, 22:49</time>
+      </a>
+      <div class="entry-content"><p>No prob. :)</p>
+<p>Thank you!</p></div>
+    </article></li>
+  </ol>
+</div></notextile>
+
+<notextile><div class="pingbacks hfeed" id="pingbacks">
+  <h2>Pingbacks</h2>
+  <ul>
+    <li class="hentry" id="pingback-27599">
+      <a rel="bookmark" class="entry-title" href="http://blog.meriwilliams.com/2006/11/01/november/">Meriblog: Meri Williams&#8217; Weblog &raquo; November!</a>
+    </li>
+  </ul>
+</div></notextile>

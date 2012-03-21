@@ -1,0 +1,111 @@
+---
+layout: blog
+category: blog
+title: "Cross-Game, International Trading in Settlers of Catan"
+date: "2010-01-11T17:21:07-08:00"
+updated: "2010-01-12T04:08:38-08:00"
+summary: "A draft set of rules for groups playing multiple, simultaneous games of Settlers of Catan, enabling trading of resources between games (and rewarding the establishment of trade routes.)"
+tags: ["games", "wiki", "articles", "project52", "settlers-of-catan", "catan", "rules"]
+atomid: http://benward.me/?p=552
+---
+I adore Settlers of Catan. I'm a rather late convert to the game, but I've become keen. Most weeks I host a game of Seafarers with six players, but this week I got invited elsewhere and we played two simultaneous games. All good fun, but in the course of it there was regular joking about trading resource cards between the separate games.
+
+I have proceeded to take the idea entirely too far, and so here are some Rules for International Trading in Settlers of Catan.
+
+It's the very first draft, it's certainly incomplete, and there are sections where different mechanics are documented that could be applied. However, I think it should be playable in some combination, so if you're so inclined, or just wish to offer further input, here it is.
+
+(At some point in the near future this text will move to my wiki to be revised.)
+
+<blockquote>The Scenario is this: You have multiple simultaneous games of Catan running at the same (presumably quite large) table. The games are operating independently, but the players of course interact socially.
+
+This idea is to add a practical, fun mechanism to the game of Catan to allow interaction within the game; namely trade. This is non-trivial.
+
+h3. Requirements
+
+* Two (or, I guess more) simultaneous games of Settlers of Catan
+* The Seafarers add on.
+
+It is not be necessary for both games to use Seafarers; in non-expanded games the Ships and Chits can be shared between players of both games, and only used to establish International Trade (see below.) Alternatively, Rules for International Trade can be added to simultaneous games of Seafarers.
+
+h3. Aims
+
+* Allow players in one game to trade resources with players of another, independently operating game.
+* Reward players for international trading
+* Do not obsolete local trading.
+* Do not introduce an overly unbalancing aspect whereby a player could bypass their entire local community and only trade with other nations.
+* Don't break the game in any other way.
+
+h3. General Gameplay Mechanic
+
+The idea is this: The two games are played side by side, with boards aligned. Between the boards is a section of water (from the Seafarers expansion). The exact distance between the boards would have to balance the cost/reward of establishing international trade.
+
+At any point in the game, a player from one game may build a Trade Route (using Ships, from Seafarers; costing 1 sheep + 1 wood per ship) from a coastal Settlement on their Catan island and connect to a corresponding coastal Settlement of *another player* on the other island. This establishes an *International Trade Route*.
+
+Once a trade route is established, trading between the two boards may occur.
+
+The only economic transaction enabled is trading. Local economic mechanics (such as rolling a 7 and losing cards; similar to a recession) remain localized events.
+
+h3. Establishing International Trade Routes
+
+* Player builds ships from one island to the other
+* Distance should be non-trivial (maybe 5 ships?)
+* Players from one Island *may not* build on another game's Island (not least because of colour conflicts between the playing pieces)
+* Two players, one from each island, may establish an International Trade Route together by both building shipping lanes extending from their Island and having them meet at some point in the sea.
+* There is no restriction on the number of International Trade Routes that may be established.
+
+Upon establishing an International Trade Route, the player establishing the trade route should receive a reward of *One Victory Point*. This is represented by a Catan Chit (again, from the Seafarers set.)
+
+At this point, I have varying ideas about the mechanics of trading. Either:
+
+# International Trading is only available to the player that established the route, with any player in the Other Island.
+# International Trading is only available to the specific players whose Settlements are connected by the route.
+# International Trading is available to all players of both games as soon as the first International Trade Route is established.
+# International Trading is available to all players of both games as soon as the first International Trade Route is established, but trades may only be initiated in the direction of the Trade Route (e.g. Where Island A connects to Island B, players of Island A may initiate trades with players of Island B, but players of Island B may not initiate trades with Island A until a player from Island B has himself build an International Trade Route to Island A.)
+
+Aside: What if Island A is connected to Island B is connected to Island C? (Answer: Probably nothing.)
+
+If a mechanism is chosen whereby only the owner of the route may trade, that is benefit enough in itself. But, that may limit the feature, and it's unreasonable to expect all eight (or twelve) players to establish separate International Trade Routes given the amount of coast available.
+
+If the establishment of Trade is shared between all players, then there are two options for rewarding the building of the Route:
+
+* The initial Victory Point represents the Nation of Catan ‘purchasing’ the trade route from the Player; after this purchase, the route serves all Players equally.
+* The initial Victory Point is a bonus, but an additional mechanism exists for the Owner of the Route to be rewarded when other Players use his Route for Trade; a Tax.
+
+Tax is interesting. It would have to be balanced carefully, else other players would be discouraged from International Trade except in cases of desperation, and the Route Owner may accelerate to Victory by only trading with the Another Island. On the other hand, where there are two competing Trade Routes, Players would be able to choose which Route to trade over based of the favourability of the Owners.
+
+Tax would take the form of receiving a bonus for every trade that occurs (either per trade, or more generously per resource traded.) That would be indicated by accruing Catan Chits… which in turn would drastically devalue them. Where normally a Chit corresponds to a whole Victory Point, rewarding one Chit-per-Trade would be incorrect. You would end up with a Chit:Point ration of perhaps 5:1, or 7:1. That might affect the use of Chits elsewhere in the scenario, or simply require more Chits than the game provides.
+
+h3. Performing Trades
+
+Local trading normally occurs spontaneously after the dice roll and may be mixed with any amount of building. In larger games there may also be Special Building Phases to allow construction between turns. As per the trade restriction rule for regular Special Building Phase, Players may not Trade Internationally between turns.
+
+In a nutshell, an International Trade operates exactly like a local Trade, but the Player initiating the trade may extend his request/offer to players of Another Island connected by an International Trade Route.
+
+Since the two games of Catan are operating asynchronously, some structure needs to be in place to specify when international trade can occur. These are the current possibilities:
+
+# An explicit International Trading action, occurring immediately after the dice roll. The two active players (that is, the two players whose turn it is on each separate Island) may take it turns to initiate trades involving all players on both Islands. As per local Trading, only the active player may initiate trades (though other players may approach them socially.)
+** The downside here is that you require synchronised dice rolls to act on.
+** If the rolls aren't synchronised, then International Trading is skipped for that turn.
+** That may end up being unfair on some players who miss out on trades. Or, it may balance out over multiple rounds with different players missing International Trade windows at different times.
+# A dedicated International Trading Round — performed once per turn cycle. Rather than relying on synchronisation of individual turns, trigger an International Trading round once per turn cycle; that is, after every player has taken a turn, invoke International Trading before starting the next cycle.
+**  When one game reaches the end of a full cycle of turns, if any of the players on that Island wish to trade, they may wait for the end of the current turn on the Other Island and then proceed with a full round of trading.
+** A ‘round of trading’ would mean that each player, starting with the first player on the island that invoked the International Trading Round gets to invoke a set of trades with all other players in all games. Each player in turn (clockwise around the table?) may offer/request a trade.
+
+I think I favour the former ‘trade if possible’ scenario on the assumption that enough opportunities will come up.
+
+h3.  Disrupting International Trade Routes
+
+International Trade may be temporaily blocked by placing The Pirate adjacent to a Trade Route. Whilst the pirate is blocking an International Trade Route, players may not trade resources with players on the Other Island.
+
+In a full Seafarers expanded game, each board will have its own Pirate, operated by its home Island only. Rules for moving the Pirate operate as normal; the local Pirate may be moved instead of the local Robber, and may be moved to block or unblock the International Trade Route at the independent whim of the Players of each Island.
+
+Aside: Politically, an entire Island could choose to unite for Protectionism and maintain a block on International Trade (requiring a second route to be built out of the range of a single Pirate to overcome the policy.)
+
+In a game where the Seafarers set is shared between games for the purpose of enabling International Trade only, either Island may use a local Knight or local 7-roll to move the Pirate to block an International Trade Route or to move the Pirate away to restore International Trade.
+
+However, in games where the Seafarers set is shared for International Trade only, moving the global Pirate is an optional action *additional* to moving the local Robber; this is to prevent it being used as a way to avoid moving the Robber from a particularly effective hex on the local Island.
+
+h3.  International Waters/Ungoverned Territory
+
+A further modification of this, to add further incentive for building the initial shipping route between Islands, would be to add extra land mass (probably Gold) between the two Islands. Players from both games would be allowed to settle on these Gold isles, and they would behave the same as Gold in Seafarers—when the hex is rolled, each Player with a Settlement gets to choose which Resource they receive.
+</blockquote>

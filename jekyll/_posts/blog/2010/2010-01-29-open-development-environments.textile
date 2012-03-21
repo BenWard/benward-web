@@ -1,0 +1,71 @@
+---
+layout: blog
+category: blog
+title: "On More Open Development Environments"
+date: "2010-01-29T19:32:11-08:00"
+updated: "2010-01-29T19:32:11-08:00"
+summary: "Many of the restrictions around the iPhone OS are well documented and infamous. Here though, I lament the loss of a less regarded capability of open systems; the extensibility of existing applications themselves, and explore the closest alternative on the iPad: The web browser, and the web itself."
+tags: ["technology", "software", "apple", "ipod", "iphone", "sdk", "articles", "ipad", "open", "closed"]
+atomid: http://benward.me/?p=585
+---
+In discussing the iPad device, I was going to turn attention to the meta discussion that has blown up around the expansion of the closed and guarded software platform that extends from the iPhone (and now iPad) <abbr title="Software Development Kit">SDK</abbr>. I want to flip this around, though, and focus on a feature of Mac OSX's more open architecture that I have found immense value in, and that is missed in a close environment.
+
+But first:
+
+bq. If I had an iPad rather than a real computer as a kid, I’d never be a programmer today. 
+
+—<cite><a href="http://al3x.net/2010/01/28/ipad.html">Alex Payne</a></cite>
+
+Alex’ quote has been whipping around today, and when I first picked it up had been distorted to imply: “If I had _only_ an iPad, rather than a real computer, and there were no open computers nearby, or at school, I would have never learned how to programme.” That's a bit different. _Thanks_ Twitter.
+
+Alex goes on to talk about hacking on the machines he grew up with. Breaking them, repairing them. That's a kind of activity that is dead and done in a closed, DRM-encrypted encrypted environment, certainly. However, the sentiment that has been echoed on his behalf (and I don't think this is what he meant), is that people would not become programmers at all. That's bullshit. Even if _every_ computer on earth was a closed environment, people would be learning to programme, it just wouldn't be the same way they do it now.
+
+*If <code>root</code> did not exist, it would be necessary to invent it*. In a world with only closed systems, commercial success would still be tied to the development of third party apps, but the responsibility to train developers and introduce people to programming would fall to the gatekeeper of each system, rather than it being something that can organically _happen_. So, Apple, or Microsoft, or whoever, would be shipping programming sandboxes for their devices; maybe scripting tools, maybe programming games, maybe cut-down versions of the professional development environment. Whatever it would be, if there was no open ecosystem to learn in, a closed system to learn would be created. The idea that people would not become programmers in 1995 because they can't do everything to a single closed system in an otherwise open industry _today_ is a fallacy. If the first computers had been closed, everything would be different, right down to the seeds that inspired our initial passions for software development.
+
+Which is not to say that I think everything would be fine. I think we as an industry, as a species, would be less creative and less innovative without 25 years of open computing. Our world and lives would be worse. But we would still have new programmers. And that is all I have to say about that.
+
+Now, the possibility that we might find ourselves moving into a period of closed devices throws up a number of obvious fears: Apps getting rejected by gatekeepers, and the physical capabilities of devices being locked away behind private APIs, plus the inability to add new capabilities to a device without licensing a proprietary dock connector are three obvious ones. They are not my main cause for concern. They're big roadblocks, but they're also all enforced by policy and could simply cease on any given day.
+
+h2. Allow me to talk about some of favourite software on Mac OSX
+
+"Megazoomer":http://ianhenderson.org/megazoomer.html is an add-in for Mac OSX. It's a single feature, and once installed it injects a new piece of functionality into every Cocoa app; under the <kbd>View</kbd> menu, you can now choose <kbd>Mega Zoom</kbd> (or press <abbr title="Command and Return"><kbd>⌘↩</kbd></abbr>. The window smoothly scales to true full screen, the Dock and Menu Bar slide out of the way, you can switch any application into a tranquil, productive "WriteRoom":http://www.hogbaysoftware.com/products/writeroom.
+
+"Inquisitor":http://www.inquisitorx.com/safari/ was a beautiful hack that added auto-complete search suggestions, inline search results, and search provider customisation. It predated the simpler, native search suggestion that now ships in Safari 4, and is still more polished (without being bloated) than any other search suggest feature I've seen. It stopped being maintained when Snow Leopard forced a change to the Input Manager integration method, but "Glims":http://www.machangout.com/ is a similar replacement.
+
+The "Microformats Plugin for Safari":http://microformats.org/wiki/Safari adds an hCard and hCalendar parser to Safari, and shows an alert when you visit a page containing embedded data. It lists the items, and lets a user add contacts and events to their native Address Book and iCal applications. It was simple, worked pretty well and was a hugely valuable demonstration of how microformats could be exposed in user interface (I wrote similar thoughts about this sort of UI "at the same time":http://benward.me/projects/microformats/uf-web-browser.)
+
+"Airfoil":http://www.rogueamoeba.com/airfoil/mac/ is an application for OSX (and Windows) that allows you to stream any audio, from any application, over your local network to an Airport Express audio hub. It's a feature of iTunes (AirTunes) that allows you to stream what you play there to Airport; this app makes it system-wide. It's a fully supported, commercial piece of software, but one of the ways it works best is by injecting a piece of code into applications called ‘Instant Hijack’; a hook allowing Airfoil to grab audio from a running application right away, rather than having to relaunch the application. It's very, very slick.
+
+I want to draw particular attention to the fact that all of these apps are add-ins for the native, closed-source Mac OSX environment. They're not changes to source code, nor do they use featureful extension mechanisms, like the plug-in interfaces of web browsers. These are hacks, add-ins that use a feature of the Mac's Cocoa framework, able to change user interfaces and inject functionality in a raw way, at run time.
+
+Reading the list, the functions I've highlighted here seem small. They're enhancements; improvements; subtle. In these cases, their creators have developed _single features_ and added them to existing applications. In doing so, they have prototyped and experimented with web browser functionality that may become native and expected in the future, but right now it's new, and to those who install these hacks, they sink or swim based on whether your productivity improves.
+
+In the environment of the iPhone, or the new iPad, it is this kind of development that is completely lost. Each app, locked up inside its own signed bundle, unmodifiable by design. If someone wants to ship a better search interface for a web browser on the iPad, they have to ship an entire browser. If someone want's to ship user interface for microformats in the browser, they would have to build that browser. Some of the earliest demonstrations of microformats came from add-ins like "Tails":https://addons.mozilla.org/en-US/firefox/addon/2240 for Firefox, and later the Safari equivalent. The early success and adoption of microformats simply would not have happened without hackable software; allowing a single feature to be augmented onto a greater whole. The innovations of microformats themselves, the implementations we now see in search engines, as well as the momentum in other structured data mechanisms (RDFa, microdata) can be traced down to early, enthusiastic adoption of practical features like Tails, Operator and the Safari Microformats Plugin. Those plug-ins were not just innovative in themselves, but they supported a much broader effort.
+
+In the case of Airfoil, though the iPad plays music through iPod or Safari, there's no native AirTunes offering. If there were, you'd be beholden to Apple for it to function in third party applications. If they don't ship it, no-one can.
+
+None of these add-ins will exist on the iPhone OS for as long as it remains closed. Of course innovation will happen, of course amazing, standalone applications will be built, but that's just it, they stand alone. Dreams of amazing _features_ cannot be built without also building the whole. The nail for anything even close to this functionality is that current App Store politics dictate that you cannot ship applications that themselves interpret code; it's not permitted for third parties to include extension capabilities in their apps.
+
+No hacks. No scripting interfaces. Just apps. Many exciting things will still happen on this platform, even without policy changes. But I offer a lament to the the loss of extensibility.
+
+h2. The Web
+
+There is _one_ application on the iPhone that supports user scripting, and execution of user extensions, and that application is MobileSafari. Safari, like all web browsers, supports bookmarklets; strings of JavaScript code embedded in a URL, prefixed with the <code>javascript:</code> pseudo-protocol. The JavaScript code executes when you select the bookmark, and is able to manipulate the context of current page, and navigate to new pages.
+
+The iPhone bookmarks interface is fairly clunky, and _adding_ bookmarklets is impossible without preemptive effort by the writer, quoting instructions for installing Twittelator's bookmarklet on iPhone:
+
+bq. I first had to navigate in mobile Safari to the Twittelator iPhone bookmarklet page and follow the lengthy instructions there. Basically you have to save that page as a bookmark, and then go back and edit that bookmark to delete everything before the <code>javascript:window.location=%27twit://%27+window.location</code> part of the URL. Once you do that, the bookmarklet executes the steps to post to Twitter.
+
+—<cite class="vcard"><a href="http://www.contentious.com/2009/03/14/safari-iphone-bookmarklets-clunky-setup-but-very-useful/">Safari iPhone Bookmarklets</a> by <a class="fn url" href="http://www.contentious.com/archives/2007/08/02/who-is-amy-gahran/">Amy Gahran</a></cite>
+
+Not very friendly. The other way to get Bookmarklets onto an iPhone is to add them to regular, desktop Safari and then synchronise your bookmarks using iTunes. As such, the "Tumblr":http://tumblr.com bookmarklet for blogging runs on my iPhone, since it's in my regular browser too. Others have used JavaScript to recreate the useful "Find in Page" functionality you find in desktop browsers. "Lifeclever":http://www.lifeclever.com/17-powerful-bookmarklets-for-your-iphone/ documents that and others.
+
+Since Bookmarklets run in iPhone Safari, it is my assumption they will also run in Safari on iPad. The bookmarks interface there is more conventional; a long menu that pops up over the current page; and as a menu, far more intuitive to pick functionality from. We'll see whether there's an easier way to add bookmarklets on the device itself.
+
+The scenario that remains is this: The only extensible software on the closed iPhone OS is the Web. The only place you can enhance an application, rather than replacing it in entirity, is the Web. The only place your feature and someone else's feature might co-exist is through two bookmarklets on the same website.
+
+What we are heading toward is a reality (hopefully temporary, but I suspect for years) where the Web is the only extensible platform on Apple's consumer devices. There are already components in place for building a JavaScript development environment within the browser; "Bespin":https://bespin.mozilla.com/ is a rich code editor, "Firebug Lite":http://getfirebug.com/lite is a JavaScript bookmarklet to add a DOM explorer and inspection tools. A web application that lets people write and execute code, and inspect the result, is the only real hacking tool we can offer the actual users of these devices.
+
+It is interesting to me as an advocate of the Open Web that the tighter grip on the native environment drives people to web standards as their only alternative (both technical and political motivation.) But, as an admirer of Apple's very polished native UI, and of the Mac hacks I mentioned at the beginning, I'm still disappointed.
+
+It's an exciting, inspiring time. If we are brave, then the imposition of these restrictions can only make us smarter when we work around them.

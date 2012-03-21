@@ -1,0 +1,59 @@
+---
+layout: blog
+category: blog
+title: "What's in your folder of shame?"
+date: "2005-11-07T18:29:31-01:00"
+updated: "2005-11-07T18:31:02-01:00"
+summary: "Jeffrey Veen asks: �What's in your folder of shame?�"
+tags: ["all", "meme", "drafts", "jon-hicks"]
+atomid: http://ben-ward.co.uk/journal/whats-in-your-folder-of-shame/
+---
+<a href="http://www.veen.com/jeff/archives/000811.html" "Jeffrey Veen">Jeffrey Veen asks �What's in your folder of shame?�</a>, referring to the �drafts� folder. Unfinished blogs, second thoughts? We've all got them. Since we're sharing, here's my current list of working titles:
+
+* CSS Inline Lists
+* JavaScript Reflection
+* Working with Web Standards vs. Content Management
+* The influence of Mac
+* Inconsistant design annoys me
+* Scaling graphics
+
+There was another one that might be worth mention for �mild bemusement� value. It contained no text at all, not even a note to remind me what to write, and was entitled �Poor Jon Hicks�. It was very old, but I have not the faintest incling of an idea what it was supposed to say. It's been deleted now, so if <a href="http://hicksdesign.co.uk">Jon</a> was owed any sympathy for something about 6 months ago, I'm afraid he'll just have to cope without.
+
+The rest of those in the list might get finished. Perhaps.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-416">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/1de2a5c9c718ffee405647e016942e8b.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://hicksdesign.co.uk">Jon Hicks</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-416">
+        <time class="published" datetime="2005-11-08T10:37:26-01:00">08 Nov 2005, 10:37</time>
+      </a>
+      <div class="entry-content"><p>I&#8217;m intrigued now!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-432">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">IBBoard</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-432">
+        <time class="published" datetime="2005-11-11T17:47:24-01:00">11 Nov 2005, 17:47</time>
+      </a>
+      <div class="entry-content"><p>I don&#8217;t have a &#8220;folder of shame&#8221;, anything I might want to say tends to either get thought about and either posted or not &#8211; I don&#8217;t like only going half way :D</p></div>
+    </article></li>
+  </ol>
+</div></notextile>
+
+<notextile><div class="pingbacks hfeed" id="pingbacks">
+  <h2>Pingbacks</h2>
+  <ul>
+    <li class="hentry" id="pingback-418">
+      <a rel="bookmark" class="entry-title" href="http://nascentguruism.com/?p=16">What&rsquo;s in your folder of shame? / archive / nascentguruism</a>
+    </li>
+  </ul>
+</div></notextile>

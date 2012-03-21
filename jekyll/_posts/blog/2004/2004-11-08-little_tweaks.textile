@@ -1,0 +1,33 @@
+---
+layout: blog
+category: blog
+title: "Little Tweaks"
+date: "2004-11-08T21:09:02+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2004-11-08:/blog/little_tweaks
+---
+I'm still no nearer to reskinning and enhancing this Blog I'm afraid. Josh's <a href="http://www.resintheband.com" title="Resin">ResinTheBand.com</a> site is still in need of having its content completed and my iTunes-related app is progressing a little each week too.
+
+I have done a little tweaking to the current skin though, was kinda hoping that I could've got the layout to scale with font-size using em measurements, but that's too much for a tweak, sadly. Roll on the rewrite and flexible (or maybe flowing, depending on how arty I feel and how interested I am in writing a flex layout).
+
+Anyway, some redundant links are gone, the "Ben-Ward" at the top will now link you back to the homepage and I've shifted Search up nearer the top where it should be.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-212">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/dc17387f19d96d6aeb53a0a9a02418dd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.jonty.me.uk/">Jonty</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-212">
+        <time class="published" datetime="2004-11-09T08:41:26+00:00">09 Nov 2004, 08:41</time>
+      </a>
+      <div class="entry-content"><p>Talking of &#8216;em&#8217; measurements, I think most browsers should include an implementation of Opera&#8217;s page zoom, which instead of just altering the text size, alters every aspect of the page so it&#8217;s like you&#8217;re viewing and zooming a <span class="caps">PDF</span>/Word document etc. It&#8217;s the best of both worlds, as text size can increase, even pixel sizes I <strong>think</strong>, but designers can rest assured their layout won&#8217;t break. It&#8217;s not perfect, but it is still a very nifty feature :)</p>
+<p>As for the tweaks to this site, they&#8217;re looking good! Just one silly thing, the heading link &#8216;Ben-Ward.co.uk&#8217; appears black on Linux Mozilla 1.0.2 (not my default browser!). Probably just styles overlapping or defaulting, though, nothing major.</p>
+<p>Keep up the good work!</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

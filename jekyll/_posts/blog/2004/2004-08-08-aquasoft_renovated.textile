@@ -1,0 +1,14 @@
+---
+layout: blog
+category: blog
+title: "Aquasoft renovated."
+date: "2004-08-08T22:00:32+00:00"
+tags: ["all", "technology", "general"]
+atomid: tag:benward.me,2004-08-08:/blog/aquasoft_renovated
+---
+The rather lovely <a href="http://www.aqua-soft.org" title="Aqua-Soft">Aqua Soft.org</a> has been relaunched this week with a new B2Evo powered front end and a selection of gorgeous <a href="http://www.apple.com/macosx/tiger/" title="Apple Mac OS X Tiger">Tiger</a> influenced skins.
+
+My personal favourite is probably <a href="http://www.aqua-soft.org/index.php/news?skin=AquaSoft" title="AquaSoft Skin">/AquaSoft</a> by new work colleague and all round nice-bloke StevieBM. He's been working on this through his lunch break for at least a week and although I <i>did</i> break it by resizing the fonts, it remains a damn fine piece of work and a fine example of graphic/web design crossing over.
+I <em>would</em> rather like to see the sidebar slimmed down (much like my Blog one has been/needs to be more) since I still find b2e's somewhat buggy "Recent Referrers" listings a little pointless and irritating (especially for the public view).
+
+Stevie is also solely responsible for my PC looking like a Mac again too... after months of stability using Milk, it all got a bit too grey/white for me so I'm indulging some colour for a bit. Fits in my with the "iPlay" Winamp skin too, which is nice.

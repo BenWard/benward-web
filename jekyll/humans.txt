@@ -1,0 +1,14 @@
+---
+layout: nil
+---
+/* TEAM */
+  Protagonist: Ben Ward
+  URL: http://benward.me/about
+  Twitter: @benward
+  From: Cambridge, United Kingdom
+
+/* SITE */
+  Last update: {{site.time | date_to_xmlschema}}
+  Language: English (British)
+  Doctype: HTML5
+  IDE: TextMate

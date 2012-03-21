@@ -1,0 +1,16 @@
+---
+layout: blog
+category: blog
+title: "Kiss With a Fist"
+date: "2008-06-05T10:38:21-01:00"
+updated: "2008-06-05T10:38:21-01:00"
+summary: "Florence and The Machine is putting out her first single; ‘Kiss With A Fist’. I highly recommend you give it a listen."
+tags: ["music", "video", "florence-and-the-machine", "plugs"]
+atomid: http://ben-ward.co.uk/?p=455
+---
+Much has happened and I've not blogged about any of it. Meanwhile old entries are being spammed by soulless bots and lowlifes. The design isn't done. All in all, my blogging existence is a little unhealthy. I'll try to rectify all of these things one day. But for now, <a href="http://www.myspace.com/florenceandthemachinemusic">Florence and the Machine</a> has her first single out. She was my favourite act at South by South West this year, so enjoy.
+
+<blockquote cite="http://www.youtube.com/watch?v=tpsDegqioVA"><p><embed src="http://www.youtube.com/v/tpsDegqioVA&hl=en" type="application/x-shockwave-flash" width="425" height="344"></embed></p></blockquote>
+<cite href="http://www.youtube.com/watch?v=tpsDegqioVA"><a href="http://www.youtube.com/watch?v=tpsDegqioVA">‘Kiss With a Fist’ by Florence and the Machine on YouTube</a></cite>
+
+<p class="vevent"><span class="summary">Kiss With a Fist</span> is out on <span class="dtstart">Monday 9th June <span class="value">2008-06-09</span></span>, and <a class="url" href="http://www.roughtrade.com/site/shop_detail.lasso?search_type=sku&sku=300355">on sale at Rough Trade</a>.</p>

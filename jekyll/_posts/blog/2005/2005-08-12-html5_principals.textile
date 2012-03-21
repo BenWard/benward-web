@@ -1,0 +1,17 @@
+---
+layout: blog
+category: blog
+title: "Future web standards, early adoption and better practices"
+date: "2005-08-12T19:44:54+00:00"
+tags: ["all", "web_standards"]
+atomid: tag:benward.me,2005-08-12:/blog/html5_principals
+---
+I have been getting more and more excitable about the potential of <a href="http://whatwg.org/current-work/web-apps/">HTML5</a> as a future web standard. Rather than throwing away existing HTML (as XHTML2 will), it attempts the more �CSS like� approach of evolution. It's being specified extremely well, filling in some gaps in HTML4.
+
+Now, this is a year or so away (and browser support may remain tetchy). Interesting now, though, is that the draft re-specification of some HTML elements (<code>i</code>, <code>small</code>) could be applied now. It offers some 'better practice' that could really improve the whole experience of developing for the web.
+
+Some of this �better practice� is an attempt at a backwards compatible (and search engine compatible) version of XHTML 2's new <code>h</code> element for headings. The reason is because having separate <code>h1</code> through <code>h6</code> is, frankly, a really stupid idea. It's a stupid idea that has really hit home in the recent years of mass-adoption of the Content Management System. If I want a subheading in my blog entry, I have to remember which bloody level the headings appear at. If I ever change my template, so that all my headings end up one level higher, or lower, then I have to edit all my content. Bad Thing�.
+
+XHTML2 and HTML5 both have a generic <code>section</code> element, in which you can place a generic heading and the level of that heading is implied by the depth of nesting. In XHTML2, this element is <code>h</code>, in HTML5 the proposal is to reuse <code>h1</code> (and choosing not to use the other �hx� elements), thus ensuring that the element is stylable in older browsers. Clever, eh?
+
+The headings idea is the one that's inspired this post. I'm interested in exploring the arguments against adopting the new practice of only using <code>h1</code>. Is there anything truly �harmful� in adopting such future-practices on HTML4/XHTML1? I dunno�

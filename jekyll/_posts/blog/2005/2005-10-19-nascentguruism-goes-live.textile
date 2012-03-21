@@ -1,0 +1,81 @@
+---
+layout: blog
+category: blog
+title: "Stevie �no blog� Marshall needs a new nickname"
+date: "2005-10-19T20:56:48-01:00"
+updated: "2005-11-05T16:47:22-01:00"
+tags: ["all", "steve-marshall", "nascentguruism", "blogs", "new", "site-launch"]
+atomid: http://ben-ward.co.uk/?p=262
+---
+<a href="http://nascentguruism.com"><img class="splash" alt="" src="/media/splashes/nascentguruism.splash.png"/></a><a href="http://nascentguruism.com"><strong>Nascentguruism has finally gone live</strong></a>.
+
+I <em>urge</em> you to go look at Steve's new design as, frankly, it's a real labour of love and would be a shame not to. Attention to detail is order of the day, with the squeakiest clean mark-up (bar a few transitional hooks), some frankly acrobatic CSS for doing nested quotes �properly� and a nice line in CSS generated content (in the sidebar footer).
+
+He's been designing nascentguruism for most of the time I worked with him at <a href="http://fujitsu-siemens.com">Fujitsu-Siemens</a> and for a good few months since then as well. In that time he's also been reading through the stock books on design, usability and typography, all of which introduced immediate delays as he tried to incorporate the new knowledge. Together we hacked around in Firefox making little CSS tricks dance (though I'm not sure how many of those survived) and generally shared many an afternoon not doing what we were supposed to.
+
+I think his effort's been worth it, so please pay him a visit and welcome him into our corner of this interweb; he's been watching from the outside for some time now. Or you could just write abuse in his comments, whichever.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-390">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/f92443abafe237dd61bab48899689589.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://nascentguruism.com">Steve Marshall</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-390">
+        <time class="published" datetime="2005-10-19T23:05:44-01:00">19 Oct 2005, 23:05</time>
+      </a>
+      <div class="entry-content"><p>It&#8217;s <a href="http://nascentguruism.com" rel="nofollow">nascentguruism</a>, not Nascentguruism, damnit!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-391">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e8fd24416e5ba965b5827b98c92c4b0d.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.ibboard.co.uk">Stuart</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-391">
+        <time class="published" datetime="2005-10-20T19:05:23-01:00">20 Oct 2005, 19:05</time>
+      </a>
+      <div class="entry-content"><p>Why not capital &#8216;N&#8217;? Surely if it&#8217;s the name of a specific thing (i.e. your exact website) then the first letter should always be capitalised ;)</p>
+<p>As for <span class="caps">CSS</span> tricks, which ones did you two play around with? I&#8217;ve seen one or two in my trawls of the Net (generally useful things like :before and :after for rounded corners without the extra markup) but mostly not that useful (or very useful, but completely useless as soon as IE comes into the mix)</p>
+<p>Now, do I have anything useful/reasonable to post on Stevie&#8217;s new blog or do I leave the comments at what I&#8217;ve said here&#8230;decisions, decisions!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-392">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-392">
+        <time class="published" datetime="2005-10-20T21:36:34-01:00">20 Oct 2005, 21:36</time>
+      </a>
+      <div class="entry-content"><p>At one point we had a fabulous search form labeling technique, in the style of the prefilled search boxes that clear using script when you click in them, using pure <span class="caps">CSS</span>. That was neat, but browser support was, err, poor. It would&#8217;ve needed a completely layout in IE.</p>
+<p>Steve has his fair share of simpler generated content tricks in there too, mind.</p>
+<p>Oh, and you actually mean ::before and ::after with two colons, since they&#8217;re pseudo-elements, as opposed to pseudo-classes which use a single colon.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-393">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/3218e487b7fd7b7b0d6f02bef3227e39.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://nascentguruism.com">Steve Marshall</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-393">
+        <time class="published" datetime="2005-10-21T13:54:55-01:00">21 Oct 2005, 13:54</time>
+      </a>
+      <div class="entry-content"><p>&#8216;Why not capital �N�?&#8217;<br />
+Because I like the aesthetic of the long word with the only breaks to the flow being roughtly in the middle.</p>
+<p>To be honest, we didn&#8217;t really use that many cutting-edge <span class="caps">CSS</span> &#8216;tricks&#8217;, per se, save the one Ben mentioned.</p>
+<p>Most of the funk comes from the transitionally-coded stand in for multiple backgrounds/corner images. In short, rather than using fourfteen different divs as wrappers for content, such that I could then use meaty images as backgrounds, I used an element with a class of chrome containing a bunch of other, empty elements (one for each corner or edge). That way, the markup is kept relatively free of cruft, the solution works in most modern browsers (IE included), and doesn&#8217;t rely on JavaScript injection (although could be done equally well as such).</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-2292">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/893b556febfa04a98ae9ea45cfdd605b.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://inderal.drugs-sh.com">inderal</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2292">
+        <time class="published" datetime="2006-05-13T06:24:56+00:00">13 May 2006, 06:24</time>
+      </a>
+      <div class="entry-content"><p>PS I wonder how Blunkett would feel about the fact that this same person explained how she understood this way of using words by saying �it�s the kind of thing Haider does in Austria��</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

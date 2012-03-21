@@ -1,0 +1,31 @@
+---
+layout: blog
+category: blog
+title: "Birthday & Carson Summit"
+date: "2006-02-11T22:57:42-01:00"
+updated: "2006-02-11T23:21:47-01:00"
+tags: ["all", "carson-summit", "future-of-web-apps", "birthday", "dom-scripting", "jeremy-keith", "book"]
+atomid: http://ben-ward.co.uk/?p=307
+---
+This is gonna be pretty short but I should say that I had a great time at the Carson Web Apps Summit. It's always nice to meet up with other geeks and indulge, combining that with my birthday seems to have been a good mix. I should eat at Wagamana more often, too.
+
+Need to say a big thank you to <a href="http://nascentguruism.com">Steve</a> and <a href="http://fatbusinessman.com">Fatty</a> for buying me a copy of <a href="http://domscripting.com">DOM Scripting</a>, and thanks to <a href="http://www.flickr.com/photos/benward/98412052/">everyone who signed it</a>. I was going to list names, but there are names I just can't decipher. Also, if anyone out there finds themselves in possession of <a href="http://www.cssmastery.com/">another Clearleft book</a>, _do_ get <a href="http://adactio.com">Jeremy</a> to sign it as I suspect he'll appreciate the opportunity for witty revenge.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-793">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/8e0293544b13499460369217e2a7febd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://charlvn.za.net">Charl van Niekerk</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-793">
+        <time class="published" datetime="2006-02-13T16:09:07+00:00">13 Feb 2006, 16:09</time>
+      </a>
+      <div class="entry-content"><p>Congrats!!! :)</p>
+<p>I don&#8217;t understand most of the handwriting either on the photo, but I guess that&#8217;s the whole point of having a &#8220;signature&#8221;. :D</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

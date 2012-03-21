@@ -1,0 +1,41 @@
+---
+layout: blog
+category: blog
+title: "Ben Goodger moves to Google"
+date: "2005-01-24T20:25:23+00:00"
+tags: ["all", "mozilla_firefox"]
+atomid: tag:benward.me,2005-01-24:/blog/ben_goodger_moves_to_google
+---
+Firefox lead developer <a href="http://weblogs.mozillazine.org/ben/" title="Inside Firefox">Ben Goodger</a> has taken a job at Google. His role in the Mozilla Foundation remains the same as before and he's <strong>not</strong> leaving or taking a reduced role or anything like that. In fact reading his post you could be forgiven for thinking that Google were employing him to work on Firefox.
+
+Anyway, congratulations Ben, I do hope that Google have got you working on some interesting stuff.
+
+Of course, I do hope he realises that by disclosing this the crazed cries of "Google Browser!!" will have reappeared before I've even finished posting this comment. If I were you, I'd duck right. about. now...
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-234">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/79b63ab9f0ca95c29a8e4f9cb46f166a.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.dk04.com/jono">Jono</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-234">
+        <time class="published" datetime="2005-01-24T22:13:08+00:00">24 Jan 2005, 22:13</time>
+      </a>
+      <div class="entry-content"><p>Certainly interesting news for gbrowser &#8211; if they really are working on it. I imagined Ben would be the one they went for. Good to see that he&#8217;s not leaving the moz foundation, and it&#8217;ll be interesting to see what they get him on if it turns out gbrowser is a dud.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-187582">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/18264762c0df57bfcdecfd5c3e518fef.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://zcwewzaboi.com">zcwewzaboi</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-187582">
+        <time class="published" datetime="2007-07-08T22:03:25+00:00">08 Jul 2007, 22:03</time>
+      </a>
+      <div class="entry-content"><p>Hello! Good Site! Thanks you! zhyrhemftcxjz</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

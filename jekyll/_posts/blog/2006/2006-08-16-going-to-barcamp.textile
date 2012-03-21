@@ -1,0 +1,58 @@
+---
+layout: blog
+category: blog
+title: "Camp it Up (and other cheap puns)"
+date: "2006-08-16T22:44:17+00:00"
+updated: "2006-08-16T23:00:11+00:00"
+geo:
+  xy: 52.1455,.1418
+tags: ["technology", "events", "wordpress", "barcamp", "barcamplondon", "stevemarshall", "presenting", "speaking"]
+atomid: http://ben-ward.co.uk/journal/going-to-barcamp/
+---
+<p class="vevent"><a class="summary" href="http://barcamp.org/">BarCamp</a> is <a class="url" href="http://barcamp.org/BarCampLondon" title="BarCamp London">coming to the UK</a> <abbr class="dtstart" title="2006-09-02">next month</abbr> for <abbr class="dtend" title="2006-09-03">two days</abbr> and <a href="http://www.benmetcalfe.com/wiki/BarCampLondon">many are attending</a>.</p>
+
+<blockquote cite="http://barcamp.org/TheRulesOfBarCamp" title="The Eighth Rule of BarCamp">8th Rule: If this is your first time at BarCamp, you HAVE to present.</blockquote>
+
+Woah scary. I'm not the most experienced of public speakers nor the most confident so I've teamed up with <a href="http://nascentguruism.com" rel="friend met colleague">Steve Marshall</a> and we're going to try and do a short presentation and then incite some sort of discussion. <a href="http://barcamp.org/TheRulesOfBarCamp#therules">Rule 4</a> states that intros must only be 3 words, which at the moment means I'm working to the <em>draft</em> title ‘CMS Workflow Sucks’.
+
+I'm not 100% sure if we're allowed to/supposed not to talk much about presentation content beforehand, but since Steve and I are still just chucking ideas around there's not much more to say that is in the title (maybe it'll stick). Steve knows a lot about workflow, especially from a CMS administration point of view having built at least one large, bespoke CMS that included rather smooth multi-user workflow. I… well I just dislike the way Wordpress has a gazillion different views for managing comments.
+
+From a desire not to be over-ambitious with the speaking side and from a little chat with <a href="http://allinthehead.com" rel="friend met colleague">Drew</a> on the matter, I'm favouring a short two-part presentation. First explaining workflow and why it matters and why neglecting the administration side of your CMS or Web App is Bad™, followed by a small handful of examples (hopefully positive as well as negative). Then try to open it up for audience members to tell us how much we suck and that they like to see their comments displayed in subtly different and varyingly ineffective ways.
+
+If anyone has done this before and would like to advise against such a format, comments are open.
+
+Hoping to see you there. Is sleep expected at these things? Will there be XBox?
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-11411">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/e855c3f0141310d1005c3b89af2c1c7f.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://benmetcalfe.com/blog">Ben Metcalfe</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-11411">
+        <time class="published" datetime="2006-08-17T10:00:27+00:00">17 Aug 2006, 10:00</time>
+      </a>
+      <div class="entry-content"><p>Hi Ben,</p>
+<p>The &#8216;introductions are limited to three words&#8217; referrs to the introductions at the start of the event.</p>
+<p>We&#8217;ll go around and ask everyone to introduce them selves.  But cos there is 100 people, we ask people to restrict it to:</p>
+Name
+What you do (just a few words)
+Three word introduction (basically your &#8216;tags&#8217;)
+<p>Sorry for any confusion.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-55215">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/dcc79878a33ed1e89e682a74f12ce2c5.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://gel.givemesomeuros.info/">Abi</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-55215">
+        <time class="published" datetime="2007-02-03T10:51:07+00:00">03 Feb 2007, 10:51</time>
+      </a>
+      <div class="entry-content"><p>Awesome, man</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

@@ -1,0 +1,55 @@
+---
+layout: blog
+category: blog
+title: "Post-SXSW Caption Competition"
+date: "2007-03-26T11:48:13+00:00"
+updated: "2007-03-26T11:53:45+00:00"
+tags: ["all", "sxsw", "captioncompetition", "davesingleton", "andybaio", "wiitennis"]
+atomid: http://ben-ward.co.uk/journal/sxsw07-caption/
+---
+I'm very late. SXSW was fantastic, that's all needs saying at this point.
+
+I've been busy finding a new job and paying the bills so blogging hasn't been top of my list. However, I wanted to draw more attention to this photo I took at the Virb/Purevolume party.
+
+<a href="http://www.flickr.com/photos/benward/420429069/"><img src="http://farm1.static.flickr.com/166/420429069_eab1d06e35.jpg" width="500" height="375" /></a>
+
+It's Dave Singleton celebrating his Wii Tennis victory over Upcoming.org's Andy Baio in a way that I think only Dave would with a guy he'd only just met. It's Creative Commons licensed, so feel free to download it and draw on speech bubbles and so on.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-57551">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/7ddb00265584e122285cee3673e30e69.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://dsingleton.co.uk">David Singleton</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-57551">
+        <time class="published" datetime="2007-03-26T15:26:07+00:00">26 Mar 2007, 15:26</time>
+      </a>
+      <div class="entry-content"><p>In my defence, this was quite late and i was quite drunk..</p>
+<p>Plus, Wii Tenis is a serious business.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-57574">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/9778692f86edb4232492de3be00ad578.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://waxy.org/">Andy Baio</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-57574">
+        <time class="published" datetime="2007-03-26T23:51:40+00:00">26 Mar 2007, 23:51</time>
+      </a>
+      <div class="entry-content"><p>Man, I was really drunk.  I&#8217;d like to say I held my own, but I didn&#8217;t.  Dave destroyed me.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-58095">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/6d80b6d04e4630903f01eb77cd7fdfde.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://kenwilkkaroo">ken wilkinson</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-58095">
+        <time class="published" datetime="2007-04-05T20:02:57+00:00">05 Apr 2007, 20:02</time>
+      </a>
+      <div class="entry-content"><p>&#8220;The electric shocks convinced Dave it was his round.&#8221;</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

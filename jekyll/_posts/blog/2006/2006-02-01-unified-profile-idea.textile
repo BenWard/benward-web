@@ -1,0 +1,179 @@
+---
+layout: blog
+category: blog
+title: "Unification of Disparate Services: ‘profile.xml’"
+date: "2006-02-01T23:14:49-01:00"
+updated: "2006-05-20T13:04:45+00:00"
+summary: "On trying to join up the internet: Every person's website includes a file called �profile.xml� that describes public profiles and membership of other standalone webservices. It's a very vague sketchy idea and I want to know if it's worth pursuing. Is it _really_ useful? Does it go some way to helping us towards Identity 2.0? Are there glaring architectural flaws that I've just missed?"
+tags: ["technology", "identity", "web-services", "xml", "profile", "myspace"]
+atomid: http://ben-ward.co.uk/?p=304
+---
+Here's an idea that needs shooting down in flames, or rather, discussing to discover architectural flaws. Whichever's your fancy.
+
+This stems from ‘Ben's MySpace Hate’ - which is something I've not blogged yet. But that might be the title.
+
+Currently, blogs and services like Flickr, Upcoming, Last.FM and Delicious aren't unified. They've got no awareness of each other, and as such there's a big difference between them and unified services like MySpace. They lack the feeling of and convenience of being ‘all under one roof’ which in part accounts for the logic-defying success of MySpace over better built standalone services.
+
+I'd like to try and solve this, and I see two ways: One is to sit back and wait for Yahoo to buy everything useful with a ‘2.0’ in it. The other is to find some way of linking together any number of these independent services. Something architecturally agnostic and designed in such a way that it could later be used by non-technical consumer-users.
+
+My rougher-than-a-sketch-of-a-night-out-in-Baghdad idea is this:
+
+Store a file called ‘profile.xml’ in the root of a URI, say ‘http://ben-ward.co.uk/profile.xml’. It's a simple XML file that describes any number of separate web services and includes my screenname and homepage URI for that service. Thus, whilst I'm ‘BenWard’ on Flickr, Delicious and NewsGator, my Last.FM account remains ‘Shovel’. This would cease to matter if all a service needed to do was look up profile.xml using a homepage address I specify when I sign up. Services, or web browsers or scripts can then look up my profile.xml and know how to link to other related sites.
+
+How to know what's related? Perhaps some system of adding categories or tags to each web service in your profile.xml could be employed. Music sites can find other music sites just by searching a profile.xml for the "music" category.
+
+Further, profile.xml could also include all that information that web services encourage you to enter: IM accounts, biographies, locations and avatars could all be defined centrally and you'd never again need to fill it in. Just pick a username/email address, a password and provide the base URI where profile.xml can be found and everything else could be autofilled for you (and kept in sync, too).
+
+It's a very, very vague sketchy idea. But I want to know if it's worth pursuing. Do you think it's _really_ useful? Does it go some way to helping us towards Identity 2.0? Are there glaring architectural flaws that I've just missed? And, the big question: Has it been done already?
+
+Go team.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-725">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/1263bf47b50ccebbadf6bc8c0bf267dc.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://dhs.neuropirate.com/">Dave</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-725">
+        <time class="published" datetime="2006-02-02T01:50:34-01:00">02 Feb 2006, 01:50</time>
+      </a>
+      <div class="entry-content"><p>Hi Ben,<br />
+I wrote out a load of thoughts but now I&#8217;m not sure what the question is&#8230;  We&#8217;re after a &#8220;way of linking together any number of these independent services&#8221;, right?  If you could upload your SuprGlu page to your own site and customise it a bit more would that do the trick?<br />
+The problem with MySpace users is that they don&#8217;t have a problem.  They&#8217;re happy to use all MySpace&#8217;s features as they&#8217;re under one roof and easy to use (if rubbish).<br />
+I&#8217;m intrigued.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-726">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-726">
+        <time class="published" datetime="2006-02-02T01:59:26-01:00">02 Feb 2006, 01:59</time>
+      </a>
+      <div class="entry-content"><p>A more consumer oriented version of SuprGlu would also go some way towards countering the appeal of MySpace.</p>
+<p>Thing is though, if you had a hypothetical �profile.xml� &#8211; a SuprGlu page could be entirely generated from a single <span class="caps">URL</span>. The profile.xml would provide all the information needed to find service feeds for all the different services.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-728">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/6db1ac4911d03473d52634c979a18041.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.benedictoneill.com/">Ben O'Neill</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-728">
+        <time class="published" datetime="2006-02-02T09:23:48-01:00">02 Feb 2006, 09:23</time>
+      </a>
+      <div class="entry-content"><p>What you want is some yummy <span class="caps">RDF</span>, a bit of <span class="caps">FOAF</span> for personal info and make up your own ontology to &#8220;link&#8221; these services together.  Then you just need to get the services to actually use it.</p>
+<p>The only problem with <span class="caps">RDF</span> is working out who is who.  Is the Ben Ward on Flickr the same Ben Ward on Last.fm, that&#8217;s what your <span class="caps">RDF</span> file would say.</p>
+<p>I&#8217;m not sure I see why you&#8217;d want all these sites linked though &#8230;</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-737">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/dc17387f19d96d6aeb53a0a9a02418dd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://www.jonty.me.uk/">Jonty</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-737">
+        <time class="published" datetime="2006-02-03T17:47:35-01:00">03 Feb 2006, 17:47</time>
+      </a>
+      <div class="entry-content"><p>I think it sounds useful. Sure, there are challanges, but I think the idea of convergence remains very popular.</p>
+<p>Forgive me for the example, but Microsoft&#8217;s .<span class="caps">NET</span> Passport and Live services take a similar idea, although the implementation is radically different. Essentially Passport tries/tried to unify useful information which could then be used across a variety of services.</p>
+<p>So too with Live services. For example, my contacts will hopefully at some point be available in my email client, webmail client, Messenger, and on my mobile. A change to one syncronises with all. Windows <span class="caps">RSS</span> is a similar idea, all my <span class="caps">RSS</span> feeds in one place available for any application to use.</p>
+<p>The problem with Microsoft&#8217;s initiatives are they often proprietary or otherwise not easy for developers to quickly and easily implement. Your idea sounds much more viable in that is simple (in a good way) and accessible.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-738">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-738">
+        <time class="published" datetime="2006-02-03T18:24:44-01:00">03 Feb 2006, 18:24</time>
+      </a>
+      <div class="entry-content"><p>The small sphere of Passport-enabled services is actually a reasonable example of what&#8217;s called &#8220;Identity 2.0&#8221;. No, that&#8217;s wrong, it&#8217;s an example of <em>the move towards Identiy 2.0</em>. However, it falls down because (as you say) it&#8217;s not an open system. Fatty has a link to a very good presentation about it which I&#8217;ll poke him to link to in a bit. It explains it all much better than I could.</p>
+<p>Passport failed, really, because Microsoft thought of it and then said &#8220;Hey everyone, get a passport! They&#8217;re great&#8221;. People said &#8220;Why?&#8221; and Microsoft said &#8220;Errrr&#8230;&#8221;. They launched it because they liked the idea (and saw potential for power), not because they actually had any useful services that benefitted from it.</p>
+<p>Google is interesting in all of this, though. They have a unified login across all their services, but you wouldn&#8217;t know it unless you actually use one. So I have a Gmail account,  which is also my Analytics account, allows functionality when using Google Groups and probably all the other services as well. Google&#8217;s works because they just &#8220;did&#8221; it. They don&#8217;t sell &#8220;Unified login&#8221; as a service in its own right, it&#8217;s just part of their architecture.</p>
+<p>Microsoft introducing their &#8220;Live&#8221; services will finally provide some services for Passport that make it useful. It&#8217;s just that it&#8217;s come years after Passport itself. I wouldn&#8217;t be surprised if they rebrand it a &#8220;Live Passport&#8221; either &#8211; I could never figure out the significance of &#8220;.<span class="caps">NET</span>&#8221; in the first rebranding was.</p>
+<p>What I&#8217;d like, really, even if it&#8217;s smaller scale than true &#8220;Identity 2.0&#8221;, is just little, open ways that we can link data and services together. To be honest, even if all it proved good for autofilling sign-up forms, that would be useful enough for me to have one!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-739">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/fb7d81b172292b6034f9c1747d5b11e0.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://blog.fatbusinessman.com/">FatBusinessman</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-739">
+        <time class="published" datetime="2006-02-03T18:29:54-01:00">03 Feb 2006, 18:29</time>
+      </a>
+      <div class="entry-content"><p>Sping! <a href="http://www.identity20.com/media/OSCON2005/" title="OSCON 2005 Keynote - Identity 2.0" rel="nofollow">Presentation linkage</a>!</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-882">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/ec514a902f2a37b9dfdd73d870bfe678.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://coders.co.nz/drupal_development">Dan Morrison</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-882">
+        <time class="published" datetime="2006-03-11T12:34:04+00:00">11 Mar 2006, 12:34</time>
+      </a>
+      <div class="entry-content"><p>I can see why you thought this was a nifty idea, but you missed the real reason it hasn&#8217;t been effectively done before, and a large part of the reason the <span class="caps">MSN</span> Passport failed.</p>
+<p>Trust.</p>
+<p>There was (and still isn&#8217;t really <span class="caps">AFAIK</span>) a widely used way to establish and manage who is able to get access to what information from where.</p>
+<p>I didn&#8217;t tell Hotmail my birthday, or much of the other junk because I didn&#8217;t want it sending me targetted spam, and didn&#8217;t want it sharing that info with its &#8216;affiliates&#8217;. (actually I&#8217;ve recently found the hotmail spam-block to be excellent)</p>
+<p>However I am more forthcoming with thinks like age, interests, work history when registering for an employment site. And I&#8217;d be lying if I didn&#8217;t say <a href="http://www.oldfriends.co.nz/MemberPhoto.aspx?id=236354&amp;first_name=Daniel&amp;last_name=Morrison" rel="nofollow">my profile on the personal networking site</a> used the same head-and-shoulders photo as <a href="http://www.coders.co.nz/cv/" rel="nofollow">my CV</a> or my avatar in several forums.</p>
+<p>Anyway, my point is that I see all the effort going into <span class="caps">FOAF</span> and <span class="caps">XFN</span> type applications, pushed as open, interoperable distribution of personal information, to be about as clever as using your real email on usenet.</p>
+<p>Giving spam-bots access to intensely targetable information is something I will only do on a case-by-case basis</p>
+<p>I&#8217;ll happily use the browsers auto-fill, but I like to choose which sites I tell what about myself.</p>
+<p>(PS, I came here <span class="caps">BTW</span> testing the HCard microformat demos)</p>
+<p>.dan.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-2614">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/58c1ed6fde3dbe3e3a9ec351d95cef15.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://g.is-a-geek.com">Gautam</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2614">
+        <time class="published" datetime="2006-05-20T12:56:09+00:00">20 May 2006, 12:56</time>
+      </a>
+      <div class="entry-content"><p>I&#8217;m all for this idea, in fact i&#8217;ve been trying to do it in my own way, to have everything unified on my homepage&#8230;</p>
+<p>the only thing i&#8217;m strugglign with is the profile section (Oh, what&#8217;d i give for a MySpace profile <span class="caps">XML</span> feed)</p>
+<p>I was almost tempted to write my own <span class="caps">XML</span> schema&#8230;.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-2615">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-2615">
+        <time class="published" datetime="2006-05-20T13:03:15+00:00">20 May 2006, 13:03</time>
+      </a>
+      <div class="entry-content"><p>Gautam.</p>
+<p>Whilst it&#8217;s not something that&#8217;s officially documented as yet, at the moment I think that the hCard Microformat holds most scope for this kind of linking, and already provides much of the reusable profile data I talked about in this post.</p>
+<p>Someone needs to do the work to handle the identification and discovery of remote-content and link catagories, but that&#8217;s the only thing in the way at the moment.</p>
+<p>I intend to do a follow up to this post soon, based within the hCard spec, but only when I&#8217;ve got time to support that with some examples.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-3628">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/58c1ed6fde3dbe3e3a9ec351d95cef15.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://g.is-a-geek.com">Gautam</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-3628">
+        <time class="published" datetime="2006-06-12T09:41:48+00:00">12 Jun 2006, 09:41</time>
+      </a>
+      <div class="entry-content"><p>hey i also found something called the liberty alliance&#8230;.</p>
+<p>the trouble is i want the same info on my myspace (primarily) as on my homepage&#8230; but myspace doesn&#8217;t seem to be written by techies&#8230;else i&#8217;m sure they&#8217;d have some sort of funky XMLing going on</p>
+<p>i really don&#8217;t want to have (and maintain) 20 different online &#8216;profiles&#8217; at myspace, facebook, flickr etc&#8230;.</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-3631">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-3631">
+        <time class="published" datetime="2006-06-12T10:17:43+00:00">12 Jun 2006, 10:17</time>
+      </a>
+      <div class="entry-content"><p>Gautam, it&#8217;s not so much that MySpace isn&#8217;t written by techies, more that its business model is based tightly around locking in your data. Last I checked they didn&#8217;t even offer <span class="caps">RSS</span>/Atom feeds for your MySpace &#8216;blog&#8217;. You can subscribe to those blogs, but only if you have a MySpace account and use MySpace itself to track updates.</p>
+<p>MySpace is not &#8216;2.0&#8217; as it were. They don&#8217;t value open data and at some point maybe they&#8217;ll be superceded by someone who does.</p>
+<p>That said, I&#8217;ve been working on something that needs to have MySpace support and have been toying with using JavaScript includes to dynamically add content to a MySpace page. I&#8217;ve not tried it yet, but from what little I can see on MySpace&#8217;s profile editing instructions it might well work. You could have a JavaScript include to add the content of your real blog/links/profile into MySpace and be able to edit it happily from one location. Treat MySpace as the second-class citizen it is.</p>
+<p>Needs testing, though.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

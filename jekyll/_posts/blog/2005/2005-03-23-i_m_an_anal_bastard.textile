@@ -1,0 +1,42 @@
+---
+layout: blog
+category: blog
+title: "I'm an anal bastard..."
+date: "2005-03-23T22:38:41+00:00"
+tags: ["all", "general"]
+atomid: tag:benward.me,2005-03-23:/blog/i_m_an_anal_bastard
+---
+The <a href="http://www.conservatives.com" title="The Conservative Party">Conservative</a> party in the UK have launched a <a href="http://www.conservatives.com/tile.do?def=party.toolbar.page" title="Conservatives.com Toolbar">toolbar for Internet Explorer</a>. Although they have no chance of getting my vote, I figured I'd test out their ability to respond to anal questions anyway...
+<blockquote>While I'm sure that no Conservative politician has any input into the creation of the "Conservatives.com toolbar", I'm curious to know if there will be versions produced for other web browser software, such as Mozilla's wonderful Firefox browser. 
+
+Surely it is only right that a political party should be encouraging the freedom of choice that Mozilla offer from Microsoft's aged and under-featured product?</blockquote>
+
+Sometimes, the simple pleasures in life are not to be sniffed at.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-247">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/8e0293544b13499460369217e2a7febd.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://charlvn.blogspot.com">Charl van Niekerk</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-247">
+        <time class="published" datetime="2005-03-24T14:22:16+00:00">24 Mar 2005, 14:22</time>
+      </a>
+      <div class="entry-content"><p>Ha, ha!! Please let us know if you get a response&#8230;</p></div>
+    </article></li>
+    <li><article class="hentry" id="comment-246">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/4aa95dc7919bacf375d6739db3a1e714.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://ben-ward.co.uk">Ben</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-246">
+        <time class="published" datetime="2005-04-06T22:10:52+00:00">06 Apr 2005, 22:10</time>
+      </a>
+      <div class="entry-content"><p>It doesn&#8217;t look although they&#8217;re going to be getting back to me. Shame.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>

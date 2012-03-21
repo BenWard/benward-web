@@ -1,0 +1,30 @@
+---
+layout: blog
+category: blog
+title: "Leaders of the <em>Free</em> World"
+date: "2006-11-17T10:33:24+00:00"
+updated: "2006-11-17T11:59:28+00:00"
+tags: ["music", "lastfm", "elbow", "mp3", "download", "free", "leaders-of-the-free-world"]
+atomid: http://ben-ward.co.uk/journal/free-free-world/
+---
+Just the littlest of entries.  I've just discovered that Elbow's ‘Leaders of the Free World’ is a free MP3 download on <a href="http://last.fm">Last.fm</a>. If you've not heard the title track from one of last year's <a href="/journal/2005-review/">albums of the year</a>, go download now!
+
+<a href="http://www.last.fm/music/Elbow/_/Leaders+of+the+Free+World">Leaders of the Free World on Last.FM</a>.
+
+<notextile>
+<div class="hfeed comments" id="comments">
+  <h2>Comments</h2>
+  <p class="about-comments">Previously, I hosted responses and commentary from readers directly on this site, but have decided not to any more. All previous comments and pingbacks are included here, but to post further responses, please refer me to a post on your own blog or other network. See <a href="#respond">instructions and recommendations of ways to do this</a>.</p>
+  <ol>
+    <li><article class="hentry" id="comment-36178">
+      <div class="author vcard">
+        <img class="photo" src="http://gravatar.com/avatar/2d76dcc25e93b3941e7112b666b594eb.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
+        <a class="url fn" href="http://nick-dunn.co.uk">Nick Dunn</a>
+      </div>
+      <a class="permalink" rel="bookmark" href="#comment-36178">
+        <time class="published" datetime="2006-11-17T15:01:22+00:00">17 Nov 2006, 15:01</time>
+      </a>
+      <div class="entry-content"><p>A littlest entry, but a beautiful song. Their finest album to date.</p></div>
+    </article></li>
+  </ol>
+</div></notextile>
