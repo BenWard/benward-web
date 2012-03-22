@@ -22,7 +22,7 @@ layout: base
       <h3><a rel="bookmark" href="{{post.url}}">{{post.title}}</a></h3>
       <time class="published" datetime="{{post.global_date}}">{{post.global_date | date: '%d'}}</time>
       <div class="entry-summary">{% if post.summary %}{{post.summary}}{% else %}{{post.excerpt}}{% endif %}</div>
-    </article></li></li>
+    </article></li>
   {% endfor %}
     </ul>
   </section>
