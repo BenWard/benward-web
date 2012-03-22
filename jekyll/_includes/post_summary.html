@@ -2,4 +2,4 @@
   <h2><a rel="bookmark" href="{{post.url}}">{{post.title}}</a></h2>
   <p class="dateline"><time class="published" datetime="{{post.global_date}}">{{post.global_date | date: site.dateformat}}</time></p>
   <div class="entry-summary">{% if post.summary %}{{post.summary}}{% else %}{{post.excerpt}}{% endif %}</div>
-</article></li>
+</article>

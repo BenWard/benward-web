@@ -9,7 +9,7 @@
 {% else %}
   <a rel="last" href="{{page.last_period | archive_url}}">↳ {{page.last_period | format_archive_date: dateformat}}</a>
 {% endif %}
-{% if page.period['month'] %}<a rel="up" href="/{{page.period['year']}}">↑ {{page.period['year']}}</a>{% endif %}
+{% if page.period['month'] %}<a rel="parent" href="/{{page.period['year']}}">↑ {{page.period['year']}}</a>{% endif %}
 {% if page.next_period %}
   <a rel="next" href="{{page.next_period | archive_url}}">{{page.next_period | format_archive_date: dateformat}} →</a>
 {% else %}

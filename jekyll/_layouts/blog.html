@@ -16,7 +16,7 @@ layout: base
   {% include share.html %}
   <footer><nav>
   {% if page.previous %}<a rel="prev" href="{{page.previous.url}}" title="{{page.previous.title}}">← Older</a>{% endif %}
-  <a rel="up" href="/{{page.date | date: "%Y/%m"}}">↑ {{page.date | date: "%B %Y"}}</a>
+  <a rel="parent" href="/{{page.date | date: "%Y/%m"}}">↑ {{page.date | date: "%B %Y"}}</a>
   {% if page.next %}<a rel="next" href="{{page.next.url}}" title="{{page.next.title}}">Newer →</a>{% endif %}
   </nav></footer>
 </article>
