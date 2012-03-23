@@ -9,7 +9,7 @@ require 'yaml'
 @output = '../_posts/blog'
 @db = Mysql.init
 @db.options(Mysql::SET_CHARSET_NAME, 'utf8')
-@db.real_connect('localhost', 'root', '!mysqlansosr', 'blog2')
+@db.real_connect('localhost', 'blog', '', 'blog2')
 posts = @db.query 'select * from posts where publication_status="publish"'
 
 @comment_template = File.read('comment.liquid')
