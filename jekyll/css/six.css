@@ -50,25 +50,25 @@ article h3 {
 }
 
 article .dateline {
-  font-size: 80%;
   color: #333;
+  margin-bottom: 8px;
 }
 
 h1 {
   font-size: 130%;
   line-height: 150%;
-  margin: 0 0 10px 0;
+  margin: 0 0 8px 0;
 }
 h2 {
   font-size: 110%;
   line-height: 150%;
-  margin: 0 0 5px 0;
+  margin: 0 0 4px 0;
 }
 h3, h4 {
   font-size: 100%;
   line-height: 150%
 }
-h3 { margin: 0 0 5px 0; }
+h3 { margin: 0 0 4px 0; }
 
 a:link {
   color: #A32226;
@@ -78,9 +78,7 @@ a:visited { color: #5A1013; }
 a:hover, a:focus { text-decoration: underline; }
 a:active { text-decoration: underline; }
 
-q {
-  quotes: none;
-}
+q { quotes: none; }
 
 ol, ul, li {
   margin: 0;
@@ -110,7 +108,7 @@ blockquote {
 
 /* Standard margin for article block content: */
 p, dl, ol, ul  {
-  margin: 0 0 12px;
+  margin: 0 0 16px;
 }
 
 kbd, output, samp {
@@ -184,6 +182,10 @@ article header {
   border-width: 0 0 1px 0;
 }
 
+section.hfeed article {
+  margin-bottom: 32px;
+}
+
 section.hfeed nav a,
 article.hentry nav a {
   display: inline-block;
@@ -211,6 +213,21 @@ section.hfeed.recent nav a {
   width: 49%;
 }
 
+/** Section: Archives */
+.archives.annual section article {
+  margin-left: 24px;
+  position: relative;
+}
+
+.archives.annual section li time {
+  position: absolute;
+  top: 2px;
+  left: -48px;
+  font-weight: bold;
+  font-size: 32px;
+  width: 40px;
+  padding-right: 8px;
+}
 
 /** Section: Page Footer */
 body > footer {
@@ -223,7 +240,7 @@ body > footer address {
   font-style: normal;
 }
 
-body > footer  .twitter-follow-button {
+body > footer .twitter-follow-button {
   float: right;
 }
 

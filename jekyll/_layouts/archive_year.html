@@ -5,8 +5,10 @@ layout: base
   <header>{% include archive_navigation.html %}</header>
   <h1>Posts from <time>{{page.period['year']}}</time></h1>
   {% assign section = "0" %}
+  {% assign subsect = "0" %}
   {% for post in page.posts %}
     {% capture month %}{{post.date | date: '%m'}}{% endcapture %}
+    {% capture day %}{{post.date | date: '%e'}}{% endcapture %}
     {% if section != month %}
       {% if section != "0" %}
     </ul>
@@ -20,7 +22,10 @@ layout: base
     {% endif %}
     <li><article class="hentry">
       <h3><a rel="bookmark" href="{{post.url}}">{{post.title}}</a></h3>
-      <time class="published" datetime="{{post.global_date}}">{{post.global_date | date: '%d'}}</time>
+      {% if subsect != day %}
+      <time class="published" datetime="{{post.global_date}}">{{post.global_date | date: '%e'}}</time>
+      {% assign subsect = day %}
+      {% endif %}
       <div class="entry-summary">{% if post.summary %}{{post.summary}}{% else %}{{post.excerpt}}{% endif %}</div>
     </article></li>
   {% endfor %}
