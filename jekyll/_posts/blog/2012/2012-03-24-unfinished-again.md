@@ -2,9 +2,9 @@
 layout: blog
 category: blog
 title: "Unfinished Again"
-date: "2012-03-24T19:30:00-07:00"
+date: "2012-03-25T16:49:00-07:00"
 summary: "This site has been here in some form or other for ten years, most of them as a blog, and seven of those running WordPress. But from time to time you just have to tear it up and start again. Here then begins an adventure in Jekyll-powered, git-stored, version-controlled blogging. Not that it will ever end."
-tags: ["technology", "blogging"]
+tags: [blogging, wordpress, jekyll]
 geo:
   name: "San Francisco"
   xy: 37.77493,122.41942
@@ -26,15 +26,15 @@ I set up WordPress with Textile, so all my posts from 2004 through 2010 are writ
 
 ## Comments.
 
-The commentary on commentary has hit popularism this year, but it boils down to three tangential things that arrive in the same place:
+The commentary on commentary has been a popular meme already this year, but for me it boils down to three tangential things that arrive in the same place:
 
-* Often the quality of comments left on a site are low. Of those that are of high quality, they're trapped in a packed stream of all the others.
+* Often the quality of comments left on my site are low. Of those that are of high quality, they're trapped in a packed stream of all the others.
 * Filtering spam is a ridiculous pass-time.
-* Philosophically, I'm an own your words kinda guy. I think that ideally, everyone should have their own space on the web and they should respond to one another by expanding discussion with something of substance. I think that since hosted blog services are now commodities: Tumblr, WordPress, Posturous, et al, and that this is an accessible enough option for people. For communicating the proliferation of these distributed discussions (and for pieces of feedback that don't warrant an entire post), we have made up for the automated spam infested failures of Trackback and Pingback with the manual, personal success of Twitter.
+* Philosophically, I believe you should own your words. I think that ideally, everyone should have their own space on the web and they should respond to one another by expanding discussion with something of substance. I think that since hosted blog services are now commodities: Tumblr, WordPress, Posturous, et al, and that this is an accessible enough option for people. For communicating the proliferation of these distributed discussions (and for pieces of feedback that don't warrant an entire post), we have made up for the automated spam infested failures of Trackback and Pingback with the manual, human success of Twitter.
 
 Together, these justify not having comments on my blog. All the old discussions are still here—of course—and all have their original `#comment-1234` permalinks on the pages, but they've been exported into the entries now, and I'm not hosting any subsequent discussion.
 
-<aside>All that said, a curious thing happened in the course of rebuilding all my pages though, which is that I went and read a lot of old comments and found them regularly delightful. I wouldn't say that my removal of the function is necessarily final.</aside>
+<aside><p>That said, a curious thing happened in the course of rebuilding all my pages, which is that I went and read a lot of old comments and found a lot of them delightful. I wouldn't say that my removal of the function is necessarily final.</p></aside>
 
 In place of commenting on the site, I'd like people to message me on Twitter (<a href="https://twitter.com/intent/tweet?related=BenWard&amp;screen_name=BenWard">like this</a>), or other systems (email, IM, etc.), and simply tell me about interesting follow-ups they have or have seen. I'm an admirer of other sites (such as [Matt Gemmell](http://mattgemmell.com/2011/11/29/comments-off/)'s, and [John Gruber](http://daringfireball.net)'s) who don't have comments, but who make an effort to post follow-up entires documenting expansion and dissent. I'd like to give it a try.
 
@@ -48,7 +48,7 @@ The second benefit of the content being in git rather than a database is that th
 
 ---
 
-There's an awful lot more to cover about the how and why of building a site this way. There are costs to it to, of course. For now though, I'm really pleased with my redesign. There's infinitely more to do, but I rather hope you like what I've done with it. There's a lot more to write, so here are some forthcoming posts that you should hassle me about if it seems like too much time has passed:
+There's an awful lot more to write about the how and why of building a site this way. There are costs to it to, of course. For now though, I'm really pleased with my redesign. There's more to do, and it will never be “done”, but I rather hope you like what I've made. Here are some forthcoming post summaries that you should hassle me about if it seems like I've forgotten to write them:
 
 * Experience with Jekyll, ruby, git and how everything currently in the back works. There are various hacks and plug-ins I've made for Jekyll I can repackage and share.
 * The design philosophy behind the site. It's very simple, and I want to draw attention to how and why. There's no numerical pagination, for example.
