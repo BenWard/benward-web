@@ -7,7 +7,7 @@ layout: base
   {% if page.updated %}Updated: <time class="updated" datetime="{{page.updated}}">{{page.updated | date: site.dateformat}}</time>.{% endif %}
   {% if page.geo && page.geo.name %}<span class="geo adr">
     <span class="value-title" title="{{page.geo.xy}}"></span>
-    <span class="label">{{page.geo.name}}</span>
+    <span class="label">{{page.geo.name}}</span>.
   </span>{% endif %}</p>
   <div class="entry-content">{{content}}</div>
   <ul class="tags">{% for tag in page.tags %}
