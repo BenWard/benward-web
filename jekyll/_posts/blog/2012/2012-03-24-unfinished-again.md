@@ -2,17 +2,17 @@
 layout: blog
 category: blog
 title: "Unfinished Again"
-date: "2010-03-24T18:00:00-07:00"
+date: "2012-03-24T19:30:00-07:00"
 summary: "This site has been here in some form or other for ten years, most of them as a blog, and seven of those running WordPress. But from time to time you just have to tear it up and start again. Here then begins an adventure in Jekyll-powered, git-stored, version-controlled blogging. Not that it will ever end."
 tags: ["technology", "blogging"]
 geo:
-  label: "San Francisco"
+  name: "San Francisco"
   xy: 37.77493,122.41942
 ---
 
 At the time of writing, the last entry on this site was posted in 2010. That's quite a long while. I've been blogging in other places instead: Tumblr, mostly. My own site has sat here in digital decay because of the ease of writing in other places.
 
-[In 2005](/blog/wordpress_ldelgdilemmal_delg_switch) I switched away from my initial blogging platform, b2Evolution and followed my friends to WordPress, which was clearly the way to go. We scoffed at Movable Type for its static page generation and Perl, and none of us really had the time management, inclination, or understanding of the medium to go and write their own system.
+[In 2005](/blog/wordpress_ldelgdilemmal_delg_switch) I switched away from my initial blogging platform—b2Evolution—and followed my friends to WordPress, which was clearly the way to go. We scoffed at Movable Type for its static page generation and Perl, and none of us really had the time management, inclination, or understanding of blogs as a medium to go and write their own system.
 
 It's worth noting that as far as my experience with writing and technology went, building on WordPress worked out pretty well. I've written more, ever improving content to the point that I'm now quite pleased with my writing ability. I really enjoy the process of it, too. I've had various opportunities to write in other places and for other people as a result of the practice I've gotten from my blog. Currently I'm writing monthly for [The Pastry Box](http://the-pastry-box-project.net).
 
@@ -48,7 +48,7 @@ The second benefit of the content being in git rather than a database is that th
 
 ---
 
-With all that said, I'm really pleased with my redesign. There's infinitely more to do, but I rather hope you like what I've done with the place. There's a lot more to write, so here are some forthcoming posts that you should hassle me about if it seems like too much time has passed:
+There's an awful lot more to cover about the how and why of building a site this way. There are costs to it to, of course. For now though, I'm really pleased with my redesign. There's infinitely more to do, but I rather hope you like what I've done with it. There's a lot more to write, so here are some forthcoming posts that you should hassle me about if it seems like too much time has passed:
 
 * Experience with Jekyll, ruby, git and how everything currently in the back works. There are various hacks and plug-ins I've made for Jekyll I can repackage and share.
 * The design philosophy behind the site. It's very simple, and I want to draw attention to how and why. There's no numerical pagination, for example.
