@@ -11,4 +11,4 @@ layout: nil
   Last update: {{site.time | date_to_xmlschema}}
   Language: English (British)
   Doctype: HTML5
-  IDE: TextMate, Sublime Text 2
+  IDE: TextMate, Sublime Text 2, Byline
