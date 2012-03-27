@@ -25,3 +25,11 @@ namespace :blog do
 
   end
 end
+
+namespace :server do
+  desc "Update apache configuration for the site"
+  task :reconfigure do
+    sh "cp conf/apache/me.benward.conf /etc/apache/sites-available/me.benward.conf"
+    sh "apache2ctl reload"
+  end
+end
