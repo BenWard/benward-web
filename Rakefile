@@ -1,6 +1,7 @@
 require 'date'
 
 def jekyll(opts="", path="")
+  sh "cd jekyll"
   sh "jekyll " + opts
 end
 
@@ -16,9 +17,9 @@ end
 
 task :rebuild => [:clean, :build]
 
-desc "Serve on Localhost with port 4000"
-task :default do
-  jekyll "--server --auto"
+desc "Rebuild the Jekyll site"
+task :default => :build do
+  jekyll
 end
 
 namespace :blog do
