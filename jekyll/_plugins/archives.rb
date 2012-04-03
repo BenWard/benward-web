@@ -13,7 +13,8 @@ module Jekyll
 
   class ArchiveIndex < Page
 
-    def initialize(site, base, dir, posts, period, previous_period, next_period, first_period, last_period)
+    def initialize(site, base, dir, posts, period,
+                   previous_period, next_period, first_period, last_period)
       @site = site
       @base = base
       @dir = dir
