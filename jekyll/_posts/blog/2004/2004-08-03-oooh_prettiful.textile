@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "Oooh, prettiful"
-date: "2004-08-03T23:48:16+00:00"
+date: "2004-08-03T23:48:16+01:00"
 tags: ["technology"]
 atomid: tag:benward.me,2004-08-03:/blog/oooh_prettiful
 ---

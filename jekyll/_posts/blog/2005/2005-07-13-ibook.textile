@@ -2,13 +2,13 @@
 layout: blog
 category: blog
 title: "iBook"
-date: "2005-07-13T23:30:00+00:00"
+date: "2005-07-13T23:30:00+01:00"
 tags: ["technology"]
 atomid: tag:benward.me,2005-07-13:/blog/ibook
 ---
 <img class="splash" src="/media/splashes/ibook.splash.jpg" alt="" />As a short follow-up to <a href="http://blog.ben-ward.co.uk/archive/2005/04/12/on_whether_to_take_a_bite" title="On whether or not to take a bite�">my obligatory 'should I get a Mac' post</a>, here's an update.
 
-I got bored waiting for what will (when it comes) be a tiny, tiny update to the <a href="http://www.apple.com/ibook/">iBook</a> line. I'd hoped for a <a href="http://www.apple.com/macosx/features/coreimage/">CoreImage</a> supporting graphics chip, but I've waited two months and further waiting no-longer seems worth it for a small benefit. It's not like I'm waiting for a G5 processor. 
+I got bored waiting for what will (when it comes) be a tiny, tiny update to the <a href="http://www.apple.com/ibook/">iBook</a> line. I'd hoped for a <a href="http://www.apple.com/macosx/features/coreimage/">CoreImage</a> supporting graphics chip, but I've waited two months and further waiting no-longer seems worth it for a small benefit. It's not like I'm waiting for a G5 processor.
 
 A new education offer in the US (which promotes the iBook a bit) adds strength to the theory that we're not going to see updates until after the start of the academic year anyway, and I want it in time for Uni. Lack of CoreImage isn't so important on a 12" portable, really.
 

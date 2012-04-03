@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "They seek him there..."
-date: "2005-06-21T22:08:37+00:00"
+date: "2005-06-21T22:08:37+01:00"
 tags: ["all", "technology", "general", "music", "software"]
 atomid: tag:benward.me,2005-06-21:/blog/update_20050621
 ---

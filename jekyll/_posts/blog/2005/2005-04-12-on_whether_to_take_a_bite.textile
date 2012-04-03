@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "On whether to take a bite..."
-date: "2005-04-12T23:28:59+00:00"
+date: "2005-04-12T23:28:59+01:00"
 tags: ["all", "general"]
 atomid: tag:benward.me,2005-04-12:/blog/on_whether_to_take_a_bite
 ---

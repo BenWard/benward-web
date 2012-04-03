@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "Sharing keyboards"
-date: "2005-07-20T00:00:02+00:00"
+date: "2005-07-20T00:00:02+01:00"
 tags: ["technology"]
 atomid: tag:benward.me,2005-07-20:/blog/sharing_keyboards
 ---

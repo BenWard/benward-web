@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "Ugh, spammed."
-date: "2004-10-13T13:42:23+00:00"
+date: "2004-10-13T13:42:23+01:00"
 tags: ["all", "general"]
 atomid: tag:benward.me,2004-10-13:/blog/ugh_spammed
 ---

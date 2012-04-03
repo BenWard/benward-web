@@ -2,25 +2,24 @@
 layout: blog
 category: blog
 title: "Quotes about me"
-date: "2005-11-08T01:13:26-01:00"
-updated: "2005-11-08T02:00:32-01:00"
+date: "2005-11-08T01:13:26+00:00"
 summary: "Childish game to ease the coursework anxiety"
 tags: ["all", "quotes", "tongue-in-cheek", "faux-glory", "tantek-celik", "john-oxton"]
 atomid: http://ben-ward.co.uk/journal/quotes-about-me/
 ---
-<a href="http://flickr.com/photos/hicksdesign/57979873/#comment16731791" title="Cheese Camp on Flickr - Comments">This</a> made me smile earlier on in the most childish of ways. 
+<a href="http://flickr.com/photos/hicksdesign/57979873/#comment16731791" title="Cheese Camp on Flickr - Comments">This</a> made me smile earlier on in the most childish of ways.
 
-Apart from that fact that I manged to intuitively guess the operation of the hReview microformat (one which I'm not familar, hCal and hCard are more my thing at the moment), I can now claim the following was said of me by a <a href="http://tantek.com/log/" title="Tantek �elik">highly respected member of internet society</a>:
+Apart from that fact that I manged to intuitively guess the operation of the hReview microformat (one which I'm not familar, hCal and hCard are more my thing at the moment), I can now claim the following was said of me by a <a href="http://tantek.com/log/" title="Tantek Çelik">highly respected member of internet society</a>:
 
 <blockquote cite="http://flickr.com/photos/hicksdesign/57979873/#comment16731791"><p>Ben - you're right</p></blockquote>
 
-Consider the magnatude of it� My CV will be a doddle; references from the McDonald's summer job a thing of a tragic past now forgotten.
+Consider the magnatude of it: My CV will be a doddle; references from the McDonald's summer job a thing of a tragic past now forgotten.
 
 Alternatively, I can displace McDonald's with <a href="http://joshuaink.com">Oxton</a>'s fine endorsement:
 
-<blockquote cite="http://joshuaink.com/blog/499/flowery-fing-flowery"><p>[the] prize goes to Ben Ward for being one of life�s true dingleberries.</p></blockquote>
+<blockquote cite="http://joshuaink.com/blog/499/flowery-fing-flowery"><p>[the] prize goes to Ben Ward for being one of life's true dingleberries.</p></blockquote>
 
-Apparently some other people have been saying that I'm a �nice guy� behind my back, but who needs word-of-mouth endorsements when you can abuse context like this?
+Apparently some other people have been saying that I'm a ‘nice guy’ behind my back, but who needs word-of-mouth endorsements when you can abuse context like this?
 
 Ever had anything good said about you?
 
@@ -58,7 +57,7 @@ Ever had anything good said about you?
       <a class="permalink" rel="bookmark" href="#comment-420">
         <time class="published" datetime="2005-11-08T23:31:17-01:00">08 Nov 2005, 23:31</time>
       </a>
-      <div class="entry-content"><p>�Brit Packer�, reminds me a little too much of Newround&#8217;s junior reporters club matey. I&#8217;d stick to �Proud Members�.</p>
+      <div class="entry-content"><p>‘Brit Packer’, reminds me a little too much of Newround&#8217;s junior reporters club matey. I&#8217;d stick to ‘Proud Members’.</p>
 <p>And yes, I know what a dingleberry is. I felt it was a good one to include in case anyone accidently took me seriously.</p></div>
     </article></li>
   </ol>

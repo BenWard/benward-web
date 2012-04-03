@@ -2,8 +2,8 @@
 layout: blog
 category: blog
 title: "Need a reading list"
-date: "2005-10-12T00:38:59-01:00"
-updated: "2005-10-18T22:57:33-01:00"
+date: "2005-10-12T00:38:59+01:00"
+updated: "2005-10-18T22:57:33+01:00"
 tags: ["all", "university", "project", "books"]
 atomid: http://ben-ward.co.uk/journal/need-a-reading-list/
 ---

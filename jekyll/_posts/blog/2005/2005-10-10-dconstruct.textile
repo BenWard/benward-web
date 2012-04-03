@@ -2,8 +2,8 @@
 layout: blog
 category: blog
 title: "d.Construct"
-date: "2005-10-10T18:09:58-01:00"
-updated: "2005-10-18T22:57:52-01:00"
+date: "2005-10-10T18:09:58+01:00"
+updated: "2005-10-18T22:57:52+01:00"
 tags: ["all", "technology", "web_standards", "steve_marshall", "dconstruct-2005"]
 atomid: http://ben-ward.co.uk/journal/dconstruct/
 ---

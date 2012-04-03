@@ -2,16 +2,15 @@
 layout: blog
 category: blog
 title: "Peanut Butter Crumpets"
-date: "2005-11-10T02:53:26-01:00"
-updated: "2005-11-12T23:33:49-01:00"
+date: "2005-11-10T02:53:26+00:00"
 tags: ["all", "jon-hicks", "food", "mcville"]
 atomid: http://ben-ward.co.uk/journal/peanut-butter-crumpets/
 ---
 <img class="splash" src="/media/splashes/crumpet.splash.png" alt=""/> I'd never eaten peanut butter outside of a Satay sauce before, but Jon Hicks mentioned something in his <a href="http://www.mcville.net/article/26/jon-hicks-interview">mcville interview</a> that made me outrageously hungry:
 
-<blockquote cite="http://www.mcville.net/article/26/jon-hicks-interview">�hot buttered crumpets with big lashings of peanut butter (all melting into the crumpet!)</blockquote>
+<blockquote cite="http://www.mcville.net/article/26/jon-hicks-interview">…hot buttered crumpets with big lashings of peanut butter (all melting into the crumpet!)</blockquote>
 
-All I'm going to say is this: Listen to the man, he knows of what he speaks. 
+All I'm going to say is this: Listen to the man, he knows of what he speaks.
 And now I'm hungry again.
 
 <notextile>
@@ -50,7 +49,7 @@ And now I'm hungry again.
         <time class="published" datetime="2005-11-10T12:43:32-01:00">10 Nov 2005, 12:43</time>
       </a>
       <div class="entry-content"><p>Steve &#8211; hicksdesign.co.uk already exists, why do you need PimpMyDiet?</p>
-<p>mmmFatalCrumpet�</p></div>
+<p>mmmFatalCrumpet…</p></div>
     </article></li>
     <li><article class="hentry" id="comment-430">
       <div class="author vcard">

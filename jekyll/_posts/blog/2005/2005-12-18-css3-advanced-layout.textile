@@ -2,15 +2,15 @@
 layout: blog
 category: blog
 title: "CSS3 Advanced Layout"
-date: "2005-12-18T20:16:58-01:00"
-updated: "2005-12-18T23:09:17-01:00"
+date: "2005-12-18T20:16:58+00:00"
+updated: "2005-12-18T23:09:17+00:00"
 summary: "Can you say \"Grids\"?"
 tags: ["all", "css", "css3", "layout", "advanced-layout", "w3c", "hellyeah"]
 atomid: http://ben-ward.co.uk/?p=290
 ---
 <img class="splash" alt="" src="/media/splashes/grid.splash.png" /> Can you say "Grids"?
 
-Please don't take this the wrong way but CSS �layout� as we know it today� well frankly it sucks a bit. I mean, consider the grief we go through to get multi-column designs working? Hacking around with floats? Changing the order of our content to make it work just right?
+Please don't take this the wrong way but CSS ‘layout’ as we know it today… well frankly it sucks a bit. I mean, consider the grief we go through to get multi-column designs working? Hacking around with floats? Changing the order of our content to make it work just right?
 
 It's more powerful than misusing <code><table /></code> once was (and obviously cross-device compatible, accessible and so forth), but you could have it so much better.
 
@@ -20,29 +20,29 @@ Most interesting in the new module is what's been called <a href="http://www.w3.
 
 Here's an example quoted from the draft (please note that I've reformatted the CSS for legibility):
 
-<blockquote cite="http://www.w3.org/TR/2005/WD-css3-layout-20051215/#template-based">Here is how the �<a href="http://www.csszengarden.com/?cssfile=/026/026.css&page=0">zunflower</a>� design of the Zen Garden could be done:
+<blockquote cite="http://www.w3.org/TR/2005/WD-css3-layout-20051215/#template-based">Here is how the ‘<a href="http://www.csszengarden.com/?cssfile=/026/026.css&page=0">zunflower</a>’ design of the Zen Garden could be done:
 
 <pre><code>#container { display: "abc" }
 
-#intro { 
-  position: a; 
-  margin-right: -2em; 
+#intro {
+  position: a;
+  margin-right: -2em;
   box-shadow: 0.5em 0.5em 0.5em;
 }
 
-#supportingText { 
-  position: b; 
-  box-shadow: 0.5em 0.5em 0.5em 
+#supportingText {
+  position: b;
+  box-shadow: 0.5em 0.5em 0.5em
 }
 
 #linkList { position: c }</code></pre>
 </blockquote>
 
-If you read down the Templates draft you'll notice that the syntax gets rather more advanced that than too, but this preferred syntax isn't really too far removed from drawing the layout with �ASCII art�. Sounds a bit hacky, perhaps even silly but I think it's a good move; it'll be very easy to explain and grasp. Much similar than a reworked implementation of the <code>&lt;table>&lt;tr>&lt;td colspan="12"></code> syntax, certainly.
+If you read down the Templates draft you'll notice that the syntax gets rather more advanced that than too, but this preferred syntax isn't really too far removed from drawing the layout with ‘ASCII art’. Sounds a bit hacky, perhaps even silly but I think it's a good move; it'll be very easy to explain and grasp. Much similar than a reworked implementation of the <code>&lt;table>&lt;tr>&lt;td colspan="12"></code> syntax, certainly.
 
 Another couple of examples, this time mine. This means they might be wrong, but I think I understand it right. You're very welcome to <a href="/wordpress/wp-content/themes/migration/style.css" title="Ben-Ward.co.uk Migration CSS">view the CSS</a> of this page to see how the layout is done at the moment. In theory, layout could be reduced to this:
 
-<pre><code>body { 
+<pre><code>body {
   display: "aa"
            "bc";
            "dd";
@@ -55,7 +55,7 @@ Another couple of examples, this time mine. This means they might be wrong, but 
 
 I hope you can see what I mean when I say that this might just be crazy enough to work. Grids can also be defined for other elements, not just the body (or html). For example, rather than floating the accompanying graphic that appears with my posts, I could (if I wanted) do this:
 
-<pre><code>#content .post { 
+<pre><code>#content .post {
   display: "@a"
            "@@";
 }
@@ -64,11 +64,11 @@ I hope you can see what I mean when I say that this might just be crazy enough t
   position: a;
 }</code></pre>
 
-�@� represents any content that isn't otherwise positioned in a named slot (so the image is placed in �a� and everything else in a post flows through the �@�s). The syntax is then further extended to specify widths on these slots (my examples above aren't complete for rebuilding this site as widths would be divided equally). 
+‘@’ represents any content that isn't otherwise positioned in a named slot (so the image is placed in ‘a’ and everything else in a post flows through the ‘@‘s). The syntax is then further extended to specify widths on these slots (my examples above aren't complete for rebuilding this site as widths would be divided equally).
 
 The benefit in this example over using a float is zero, unless I wanted to include the splash image somewhere else in my code than at the very top. But it has rather fancier applications that can be covered another day.
 
-This is a *huge, huge, huge* thing for CSS. Having a simpler and less quirk-prone layout model will make all of our lives easier, and should make CSS easier to learn as well. Once it's implemented (yes, I know�). 
+This is a *huge, huge, huge* thing for CSS. Having a simpler and less quirk-prone layout model will make all of our lives easier, and should make CSS easier to learn as well. Once it's implemented (yes, I know…).
 
 There's lots of work to be done, and obviously we're a way off seeing an implementation (but if there's demand I guess we may see something testable in medium-term Gecko or WebKit builds). Comments are welcome to the <a href="http://lists.w3.org/Archives/Public/www-style/latest">CSS public mailing list</a> as usual.
 

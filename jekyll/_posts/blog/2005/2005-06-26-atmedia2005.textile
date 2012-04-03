@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "@Media 2005"
-date: "2005-06-26T23:00:00+00:00"
+date: "2005-06-26T23:00:00+01:00"
 tags: ["all", "technology", "general", "web_standards", "mozilla_firefox"]
 atomid: tag:benward.me,2005-06-26:/blog/atmedia2005
 ---

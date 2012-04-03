@@ -1,8 +1,8 @@
 ---
 layout: blog
 category: blog
-title: "WordPress <del>dilemma</del> switch..."
-date: "2005-03-28T00:34:01+00:00"
+title: "WordPress dilemma/switch"
+date: "2005-03-28T00:34:01+01:00"
 tags: ["all", "general"]
 atomid: tag:benward.me,2005-03-28:/blog/wordpress_ldelgdilemmal_delg_switch
 ---

@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "A tiny thought about Open Source software and bloat."
-date: "2005-04-06T21:49:48+00:00"
+date: "2005-04-06T21:49:48+01:00"
 tags: ["all", "general"]
 atomid: tag:benward.me,2005-04-06:/blog/open_source_bloat
 ---

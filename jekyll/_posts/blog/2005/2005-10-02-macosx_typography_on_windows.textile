@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "Mac OSX Typography on Windows"
-date: "2005-10-02T00:50:06+00:00"
+date: "2005-10-02T00:50:06+01:00"
 tags: ["all", "technology", "software", "microsoft", "windows", "osx", "apple"]
 atomid: tag:benward.me,2005-10-02:/blog/macosx_typography_on_windows
 ---
@@ -22,7 +22,7 @@ After installation, <abbr title="AutoHotKey">Ahk</abbr> generates a single scrip
 
 !#::Send {ASC 0171} ; French quotes
 !~::Send {ASC 0187}
- 
+
 !;::Send {ASC 0133} ; Horizontal ellipsis
 
 !6::Send {ASC 0167} ; Section

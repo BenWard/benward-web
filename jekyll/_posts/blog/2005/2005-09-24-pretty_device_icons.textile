@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "Icon prettification for iPods, memory cards, cameras and USB sticks"
-date: "2005-09-24T22:14:59+00:00"
+date: "2005-09-24T22:14:59+01:00"
 tags: ["technology"]
 atomid: tag:benward.me,2005-09-24:/blog/pretty_device_icons
 ---

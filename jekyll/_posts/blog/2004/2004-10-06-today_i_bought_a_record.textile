@@ -2,11 +2,13 @@
 layout: blog
 category: blog
 title: "Today I bought a record"
-date: "2004-10-06T01:15:02+00:00"
+date: "2004-10-06T01:15:02+01:00"
 tags: ["all", "general"]
 atomid: tag:benward.me,2004-10-06:/blog/today_i_bought_a_record
 ---
-<img src="/media/Picture(30).jpg" alt="SFA Record" class="splash" />In my search for the Super Furry Animals "The Man Don't Give A Fuck" super-mega-special-edition-live single today, I failed to find a CD, but HMV did have two copies of the limited edition etched vinyl version.
+<figure class="full-bleed"><img src="/media/Picture(30).jpg" alt="SFA Record" class="splash"></figure>
+
+In my search for the Super Furry Animals "The Man Don't Give A Fuck" super-mega-special-edition-live single today, I failed to find a CD, but HMV did have two copies of the limited edition etched vinyl version.
 
 Now, I know nothing about vinyl. I have no idea if if being 'etched' refers to the way in which it has a number scratched onto it, the way in which it looks thicker than Dad's records used to or the way in which it's only grooved on one side, the other being patchy raw vinyl*. I haven't a clue.
 

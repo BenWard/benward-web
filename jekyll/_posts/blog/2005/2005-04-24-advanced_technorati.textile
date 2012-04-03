@@ -1,8 +1,8 @@
 ---
 layout: blog
 category: blog
-title: "What are Technorati's <q>advanced features</q>?"
-date: "2005-04-24T22:59:51+00:00"
+title: "What are Technorati's ‘advanced features’?"
+date: "2005-04-24T22:59:51+01:00"
 tags: ["technology"]
 atomid: tag:benward.me,2005-04-24:/blog/advanced_technorati
 ---

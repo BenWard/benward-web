@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "Ben Cam"
-date: "2005-08-22T21:53:13+00:00"
+date: "2005-08-22T21:53:13+01:00"
 tags: ["all", "general"]
 atomid: tag:benward.me,2005-08-22:/blog/bencam
 ---

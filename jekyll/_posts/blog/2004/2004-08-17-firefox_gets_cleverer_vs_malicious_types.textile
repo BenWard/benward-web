@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "Firefox gets cleverer vs. malicious types"
-date: "2004-08-17T23:50:37+00:00"
+date: "2004-08-17T23:50:37+01:00"
 tags: ["technology"]
 atomid: tag:benward.me,2004-08-17:/blog/firefox_gets_cleverer_vs_malicious_types
 ---

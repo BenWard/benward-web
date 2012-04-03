@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "Aquasoft renovated."
-date: "2004-08-08T22:00:32+00:00"
+date: "2004-08-08T22:00:32+01:00"
 tags: ["all", "technology", "general"]
 atomid: tag:benward.me,2004-08-08:/blog/aquasoft_renovated
 ---

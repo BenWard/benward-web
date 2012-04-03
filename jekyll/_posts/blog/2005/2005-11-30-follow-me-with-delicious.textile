@@ -1,9 +1,9 @@
 ---
 layout: blog
 category: blog
-title: "Follow me�"
-date: "2005-11-30T02:26:08-01:00"
-updated: "2005-12-18T15:27:28-01:00"
+title: "Follow me"
+date: "2005-11-30T02:26:08+00:00"
+updated: "2005-12-18T15:27:28+00:00"
 summary: "An exercise in internet stalking and comment tracking."
 tags: ["all", "delicious", "blogging", "comments", "tagging", "tracking"]
 atomid: http://ben-ward.co.uk/?p=279
@@ -44,7 +44,7 @@ Edit: The bookmarklet I speak of is a simple modification of the standard Delici
     <li class="hentry" id="pingback-799">
       <a rel="bookmark" class="entry-title" href="http://eightface.com/log/2006/01/22/comment-this/">Comment this // eightface</a>
     </li>
-  
+
     <li class="hentry" id="pingback-801">
       <a rel="bookmark" class="entry-title" href="http://eightface.com/log/2006/02/14/comment-this/">Comment this // eightface</a>
     </li>

@@ -2,11 +2,11 @@
 layout: blog
 category: blog
 title: "Things the BBC should do but don't #1: iCal TV"
-date: "2005-08-09T23:31:10+00:00"
+date: "2005-08-09T23:31:10+01:00"
 tags: ["all"]
 atomid: tag:benward.me,2005-08-09:/blog/ical_tv
 ---
-I've become a big fan of iCal on the Mac. iCal has got a the fine balance of �features vs. simplicity� about right, so suddenly my life is colour coded. 
+I've become a big fan of iCal on the Mac. iCal has got a the fine balance of �features vs. simplicity� about right, so suddenly my life is colour coded.
 
 I've got 9 calendars in it (hence the colour coding). Personal stuff, Birthdays (linked to the Address Book), Coursework tasks and deadlines, Lecture schedules, University events, Work, Gigs, integration with <a href="http://backpackit.com">Backpack</a> and finally �Television�.
 

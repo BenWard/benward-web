@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "Pretty Colours"
-date: "2005-07-01T00:29:48+00:00"
+date: "2005-07-01T00:29:48+01:00"
 tags: ["all", "general"]
 atomid: tag:benward.me,2005-07-01:/blog/pretty_colours
 ---

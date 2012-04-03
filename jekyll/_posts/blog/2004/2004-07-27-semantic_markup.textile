@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "Semantic Markup"
-date: "2004-07-27T13:40:21+00:00"
+date: "2004-07-27T13:40:21+01:00"
 tags: ["technology"]
 atomid: tag:benward.me,2004-07-27:/blog/semantic_markup
 ---

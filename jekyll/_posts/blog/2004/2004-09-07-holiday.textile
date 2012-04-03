@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "Holiday"
-date: "2004-09-07T11:11:50+00:00"
+date: "2004-09-07T11:11:50+01:00"
 tags: ["all", "general"]
 atomid: tag:benward.me,2004-09-07:/blog/holiday
 ---

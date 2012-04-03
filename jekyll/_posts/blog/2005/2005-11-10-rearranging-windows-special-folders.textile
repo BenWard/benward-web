@@ -1,14 +1,13 @@
 ---
 layout: blog
 category: blog
-title: "Rearranging Windows �special� folders"
-date: "2005-11-10T02:39:06-01:00"
-updated: "2005-11-10T02:45:43-01:00"
-summary: "By default, Windows dumps your documents and settings on the C-drive, puts Pictures and Music as subdirectories of Documents and insists on prefixing everything with the word �My�. Here's how to fix it."
+title: "Rearranging Windows ‘special’ folders"
+date: "2005-11-10T02:39:06+00:00"
+summary: "By default, Windows dumps your documents and settings on the C-drive, puts Pictures and Music as subdirectories of Documents and insists on prefixing everything with the word ‘My’. Here's how to fix it."
 tags: ["all", "windowsxp", "macification", "nononsense", "folders"]
 atomid: http://ben-ward.co.uk/journal/rearranging-windows-%e2%80%98special%e2%80%99-folders/
 ---
-By default, a Windows user's �home� directory is an utter mess. Whoever decided that Pictures and Folders should be children of Documents needs to lesson in semantic somethingorother, and a ban from producing nonsense. Thankfully, it can be fixed.
+By default, a Windows user's ‘home’ directory is an utter mess. Whoever decided that Pictures and Folders should be children of Documents needs to lesson in semantic somethingorother, and a ban from producing nonsense. Thankfully, it can be fixed.
 
 Personally, I complicate the process by having as much of my user directory on a separate hard disk partition, but hey, it's all informative. Regardless of where you keep it, you can end up with a home directory that's altogether more unixy (read: sensible), like this:
 
@@ -29,20 +28,20 @@ First up, it's important to understand one of the odd things that Windows does i
 
 What you can do is move and rename any of those folders and Windows won't break. All modern applications will get the path to documents and pictures folders from global variables and when you move one of the above folders, Windows updates the global variable.
 
-There is no real voodoo to this: It's all a glorified exercise in drag and drop. If moving between partitions, remember to hold right-click and choose �Move�, since the default left-click drag action between partitions is to copy. Pictures and Music folders can be moved from �My Documents� to wherever you like and iTunes, Picasa and the like should stay happy.
+There is no real voodoo to this: It's all a glorified exercise in drag and drop. If moving between partitions, remember to hold right-click and choose ‘Move’, since the default left-click drag action between partitions is to copy. Pictures and Music folders can be moved from ‘My Documents’ to wherever you like and iTunes, Picasa and the like should stay happy.
 
-One thing to keep in mind: don't move �Application Data� on a well established user account with lots of installed applications. When I say that Windows won't break, it's not a promise. Firefox (which has its settings stored in �Application Data�) maintains absolute paths to installed extensions (these don't update when you move it), and I suspect some other applications might not be so robust either. With a brand new user account though, you seem to be able to move things around as much as you like.
+One thing to keep in mind: don't move ‘Application Data’ on a well established user account with lots of installed applications. When I say that Windows won't break, it's not a promise. Firefox (which has its settings stored in ‘Application Data’) maintains absolute paths to installed extensions (these don't update when you move it), and I suspect some other applications might not be so robust either. With a brand new user account though, you seem to be able to move things around as much as you like.
 
-A few oddities: �Local Settings�, which is like �Application Settings� (and even has a subdirectory of the same name, for reasons of utter incomprehensibility, I presume). Windows wouldn't let me move that one, I guess something must be permanently in use whilst Windows is running. �My Recent Documents� doesn't want to budge either.
+A few oddities: ‘Local Settings’, which is like ‘Application Settings’ (and even has a subdirectory of the same name, for reasons of utter incomprehensibility, I presume). Windows wouldn't let me move that one, I guess something must be permanently in use whilst Windows is running. ‘My Recent Documents’ doesn't want to budge either.
 
-In the above screenshot, there are some links to �Resources� and �All Users�. That's my version of MacOSX's �Library� and �Shared� files, but with more Windows-esque names. The true �All Users� directories in  Windows (C:\\Documents and Settings\\All Users\\Shared Documents, and so forth) can't be moved at all, so I tend just to ignore them, hide them and slap a �Deny� <abbr ="Access Control List">ACL</abbr> on them. The version in my links toolbar is just a folder of the same name.
+In the above screenshot, there are some links to ‘Resources’ and ‘All Users’. That's my version of MacOSX's ‘Library’ and ‘Shared’ files, but with more Windows-esque names. The true ‘All Users’ directories in  Windows (C:\\Documents and Settings\\All Users\\Shared Documents, and so forth) can't be moved at all, so I tend just to ignore them, hide them and slap a ‘Deny’ <abbr ="Access Control List">ACL</abbr> on them. The version in my links toolbar is just a folder of the same name.
 
 There're a number of things that are immediately rantworthy:
 
 # The fact that Windows XP's default folder arrangement is so mind-warpingly stupid that I even considered moving it around in the first place. Pretty rant-worthy, but they have fixed it for Windows Vista.
 # Why can't you just define a custom location for user profiles when you create them? (And why can't you keep them separate to a Windows install? It would let me to import my complete user account unscathed every time I reinstall Windows).
-# Why �All Users� is so special that it can't be moved
-# And, relating more to the screenshot, <strong>why</strong> when I have Windows set to reuse Explorer windows (�open folders in the same window�) does clicking something on the Links toolbar always open new windows? Why? Seriously? It doesn't do that if I choose something in the ordinary Favourites menu.
+# Why ‘All Users’ is so special that it can't be moved
+# And, relating more to the screenshot, <strong>why</strong> when I have Windows set to reuse Explorer windows (‘open folders in the same window’) does clicking something on the Links toolbar always open new windows? Why? Seriously? It doesn't do that if I choose something in the ordinary Favourites menu.
 
 In conclusion, Windows XP is nonsense, but you can beat it into a slightly smoother shape (some parts more easily than others). Apologies for the rough nature of this write-up, it's more of a spur-of-the-moment job.
 
@@ -84,7 +83,7 @@ In conclusion, Windows XP is nonsense, but you can beat it into a slightly smoot
       <a class="permalink" rel="bookmark" href="#comment-435">
         <time class="published" datetime="2005-11-12T21:30:57-01:00">12 Nov 2005, 21:30</time>
       </a>
-      <div class="entry-content"><p>You can try thinking of it like that, yes. But Windows already has a �Home� directory: the level above My Documents. I worked like that for a while, but came across frustrations that I can&#8217;t recall properly.</p></div>
+      <div class="entry-content"><p>You can try thinking of it like that, yes. But Windows already has a ‘Home’ directory: the level above My Documents. I worked like that for a while, but came across frustrations that I can&#8217;t recall properly.</p></div>
     </article></li>
     <li><article class="hentry" id="comment-527">
       <div class="author vcard">
@@ -106,9 +105,9 @@ In conclusion, Windows XP is nonsense, but you can beat it into a slightly smoot
       <a class="permalink" rel="bookmark" href="#comment-528">
         <time class="published" datetime="2005-12-01T12:37:17-01:00">01 Dec 2005, 12:37</time>
       </a>
-      <div class="entry-content"><p>�Smoke and lights� is probably a good way to describe them. It&#8217;s a shame they&#8217;re so awkward to customise, but hey.</p>
-<p>Personally, my coding projects sit in a folder called �Developer� in my home directory (as in the screenshot) but there&#8217;s nothing special about it under the hood; I just changed the icon using XP&#8217;s standard �Customise� tab.</p>
-<p>I&#8217;m not aware of any way to �make� a special folder, but then again, what exactly do you want to be special about it? Is there a particular behaviour you want to gain over just having an ordinary folder?</p></div>
+      <div class="entry-content"><p>‘Smoke and lights’ is probably a good way to describe them. It&#8217;s a shame they&#8217;re so awkward to customise, but hey.</p>
+<p>Personally, my coding projects sit in a folder called ‘Developer’ in my home directory (as in the screenshot) but there&#8217;s nothing special about it under the hood; I just changed the icon using XP&#8217;s standard ‘Customise’ tab.</p>
+<p>I&#8217;m not aware of any way to ‘make’ a special folder, but then again, what exactly do you want to be special about it? Is there a particular behaviour you want to gain over just having an ordinary folder?</p></div>
     </article></li>
     <li><article class="hentry" id="comment-1448">
       <div class="author vcard">

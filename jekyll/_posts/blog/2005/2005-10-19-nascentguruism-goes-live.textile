@@ -1,7 +1,7 @@
 ---
 layout: blog
 category: blog
-title: "Stevie �no blog� Marshall needs a new nickname"
+title: "Stevie ‘no blog’ Marshall needs a new nickname"
 date: "2005-10-19T20:56:48-01:00"
 updated: "2005-11-05T16:47:22-01:00"
 tags: ["all", "steve-marshall", "nascentguruism", "blogs", "new", "site-launch"]
@@ -9,7 +9,7 @@ atomid: http://ben-ward.co.uk/?p=262
 ---
 <a href="http://nascentguruism.com"><img class="splash" alt="" src="/media/splashes/nascentguruism.splash.png"/></a><a href="http://nascentguruism.com"><strong>Nascentguruism has finally gone live</strong></a>.
 
-I <em>urge</em> you to go look at Steve's new design as, frankly, it's a real labour of love and would be a shame not to. Attention to detail is order of the day, with the squeakiest clean mark-up (bar a few transitional hooks), some frankly acrobatic CSS for doing nested quotes �properly� and a nice line in CSS generated content (in the sidebar footer).
+I <em>urge</em> you to go look at Steve's new design as, frankly, it's a real labour of love and would be a shame not to. Attention to detail is order of the day, with the squeakiest clean mark-up (bar a few transitional hooks), some frankly acrobatic CSS for doing nested quotes ‘properly’ and a nice line in CSS generated content (in the sidebar footer).
 
 He's been designing nascentguruism for most of the time I worked with him at <a href="http://fujitsu-siemens.com">Fujitsu-Siemens</a> and for a good few months since then as well. In that time he's also been reading through the stock books on design, usability and typography, all of which introduced immediate delays as he tried to incorporate the new knowledge. Together we hacked around in Firefox making little CSS tricks dance (though I'm not sure how many of those survived) and generally shared many an afternoon not doing what we were supposed to.
 
@@ -62,20 +62,10 @@ I think his effort's been worth it, so please pay him a visit and welcome him in
       <a class="permalink" rel="bookmark" href="#comment-393">
         <time class="published" datetime="2005-10-21T13:54:55-01:00">21 Oct 2005, 13:54</time>
       </a>
-      <div class="entry-content"><p>&#8216;Why not capital �N�?&#8217;<br />
+      <div class="entry-content"><p>&#8216;Why not capital ‘N’?&#8217;<br />
 Because I like the aesthetic of the long word with the only breaks to the flow being roughtly in the middle.</p>
 <p>To be honest, we didn&#8217;t really use that many cutting-edge <span class="caps">CSS</span> &#8216;tricks&#8217;, per se, save the one Ben mentioned.</p>
 <p>Most of the funk comes from the transitionally-coded stand in for multiple backgrounds/corner images. In short, rather than using fourfteen different divs as wrappers for content, such that I could then use meaty images as backgrounds, I used an element with a class of chrome containing a bunch of other, empty elements (one for each corner or edge). That way, the markup is kept relatively free of cruft, the solution works in most modern browsers (IE included), and doesn&#8217;t rely on JavaScript injection (although could be done equally well as such).</p></div>
-    </article></li>
-    <li><article class="hentry" id="comment-2292">
-      <div class="author vcard">
-        <img class="photo" src="http://gravatar.com/avatar/893b556febfa04a98ae9ea45cfdd605b.jpg?size=50&amp;d=http://benward.me/res/i/avatar.jpg" alt="">
-        <a class="url fn" href="http://inderal.drugs-sh.com">inderal</a>
-      </div>
-      <a class="permalink" rel="bookmark" href="#comment-2292">
-        <time class="published" datetime="2006-05-13T06:24:56+00:00">13 May 2006, 06:24</time>
-      </a>
-      <div class="entry-content"><p>PS I wonder how Blunkett would feel about the fact that this same person explained how she understood this way of using words by saying �it�s the kind of thing Haider does in Austria��</p></div>
     </article></li>
   </ol>
 </div></notextile>

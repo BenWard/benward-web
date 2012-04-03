@@ -2,14 +2,14 @@
 layout: blog
 category: blog
 title: "Microsoft Word vs. Ben"
-date: "2005-11-19T19:20:52-01:00"
+date: "2005-11-19T19:20:52+00:00"
 updated: "2005-11-29T22:02:38-01:00"
 tags: ["all", "microsoft-word", "report", "typography", "bugs", "whygodwhy"]
 atomid: http://ben-ward.co.uk/journal/microsoft-word-vs-ben/
 ---
-<img class="splash" src="/media/splashes/WordBullets.splash.png" alt="" /> Here I am writing up my final report and Word is doing everything in its power to frustrate me. One of the most irritating of its �features� is related to hung quotes (the use of which <a href="http://nascentgugruism.com">Stevie</a>'s typography quest got me into and and I now respond to indented quotes in my documents with faux choking).
+<img class="splash" src="/media/splashes/WordBullets.splash.png" alt="" /> Here I am writing up my final report and Word is doing everything in its power to frustrate me. One of the most irritating of its ‘features’ is related to hung quotes (the use of which <a href="http://nascentgugruism.com">Stevie</a>'s typography quest got me into and and I now respond to indented quotes in my documents with faux choking).
 
-Basically, Word was happy with my unordered list style, but refused to automatically hang numbered lists. Each time I select the style I'd have to drag the number back out into the margin. Minor annoyance. Except that when I choose �restart numbering� for subsequent lists, Word will immediately revert to the default indentation. So I scroll up again and drag each list back in to place.
+Basically, Word was happy with my unordered list style, but refused to automatically hang numbered lists. Each time I select the style I'd have to drag the number back out into the margin. Minor annoyance. Except that when I choose ‘restart numbering’ for subsequent lists, Word will immediately revert to the default indentation. So I scroll up again and drag each list back in to place.
 
 Then, just now, I restarted numbering on a numbered list again and all my <strong>unordered</strong>, bulleted lists jumped. The bullet sits in the margin, but the text is a centimetre indented.
 
@@ -32,7 +32,7 @@ Update: And, as if by magic <a href="http://www.alistapart.com/articles/boom" ti
       <a class="permalink" rel="bookmark" href="#comment-442">
         <time class="published" datetime="2005-11-19T21:55:45-01:00">19 Nov 2005, 21:55</time>
       </a>
-      <div class="entry-content"><p>&#8220;I swear, it�s going to be easier to write the final report in <span class="caps">HTML</span>.&#8221;</p>
+      <div class="entry-content"><p>&#8220;I swear, it's going to be easier to write the final report in <span class="caps">HTML</span>.&#8221;</p>
 <p>To be honest, it would be easier writing it in binary!</p></div>
     </article></li>
     <li><article class="hentry" id="comment-443">
@@ -43,7 +43,7 @@ Update: And, as if by magic <a href="http://www.alistapart.com/articles/boom" ti
       <a class="permalink" rel="bookmark" href="#comment-443">
         <time class="published" datetime="2005-11-19T22:04:25-01:00">19 Nov 2005, 22:04</time>
       </a>
-      <div class="entry-content"><p>Perhaps� I seem to recall that Fatty wrote his final report in LaTex (or however the capitalisation is). I have no experience with it at all. Perhaps in the time between finishing this report and starting the final report I&#8217;ll convert it to something less volatile than Word.</p></div>
+      <div class="entry-content"><p>Perhaps… I seem to recall that Fatty wrote his final report in LaTex (or however the capitalisation is). I have no experience with it at all. Perhaps in the time between finishing this report and starting the final report I&#8217;ll convert it to something less volatile than Word.</p></div>
     </article></li>
     <li><article class="hentry" id="comment-444">
       <div class="author vcard">

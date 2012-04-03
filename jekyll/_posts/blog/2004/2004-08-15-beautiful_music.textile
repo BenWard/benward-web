@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "Beautiful Music"
-date: "2004-08-15T21:40:23+00:00"
+date: "2004-08-15T21:40:23+01:00"
 tags: ["all", "general"]
 atomid: tag:benward.me,2004-08-15:/blog/beautiful_music
 ---

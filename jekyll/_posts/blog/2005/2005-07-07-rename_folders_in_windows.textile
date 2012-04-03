@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "Rename system folders in Windows"
-date: "2005-07-07T00:07:19+00:00"
+date: "2005-07-07T00:07:19+01:00"
 tags: ["all", "general"]
 atomid: tag:benward.me,2005-07-07:/blog/rename_folders_in_windows
 ---

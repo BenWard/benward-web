@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "What I'm up to"
-date: "2004-08-30T22:53:44+00:00"
+date: "2004-08-30T22:53:44+01:00"
 tags: ["technology"]
 atomid: tag:benward.me,2004-08-30:/blog/what_i_m_up_to
 ---
@@ -20,7 +20,7 @@ In the process of this design I'd actually contemplated making a submission for 
 
 I was going to propose an implementation of a 'background collection'. You could have "background: foo" as normal, but then add "background(1): bar", "background(2): blah" and so forth, with higher indexed backgrounds layered above lower indexes, and with 'background' and 'background(0)' being equal for degradation.
 
-Anyway, I today stumbled across a solution that achieves the same thing. CSS3 will add a host of new pseudo-elements, one of which is <a href="http://www.w3.org/TR/2003/WD-css3-content-20030514/#wrapping" title="CSS3: Wrapping Elements in Pseudo-Elements">::outside</a>. As well as lending itself nicely for someone on <a href="http://alistapart.com" title="A List Apart">ALA</a> to write an article entitled "You wanna take that ::outside?", it allows you to style an infinite number of boxes around a single X/HTML element. It goes beyond what a background collection could do, since it allows you to do anything you like that you could do with the normal box model (colours, borders, floating, ::before, ::after and ::hover pseudo-elements). It looks very cool. Naturally, the root non-pseudo element will be the 'compatibility' style. 
+Anyway, I today stumbled across a solution that achieves the same thing. CSS3 will add a host of new pseudo-elements, one of which is <a href="http://www.w3.org/TR/2003/WD-css3-content-20030514/#wrapping" title="CSS3: Wrapping Elements in Pseudo-Elements">::outside</a>. As well as lending itself nicely for someone on <a href="http://alistapart.com" title="A List Apart">ALA</a> to write an article entitled "You wanna take that ::outside?", it allows you to style an infinite number of boxes around a single X/HTML element. It goes beyond what a background collection could do, since it allows you to do anything you like that you could do with the normal box model (colours, borders, floating, ::before, ::after and ::hover pseudo-elements). It looks very cool. Naturally, the root non-pseudo element will be the 'compatibility' style.
 
 I much prefer this to CSS3's plans to include native support for curved corners and drop-shadow. It strikes me as rather limiting, since while pretty, curved corners are simply the flavour of the month. What about reversed, cut-away corners? I can see myself being much happier using ::outside elements to apply more personalised curves and shapes than browser implementations would offer. Hopefully the spec + implements will have things like z-index of pseudo-elements arranged sensibly, mind...
 

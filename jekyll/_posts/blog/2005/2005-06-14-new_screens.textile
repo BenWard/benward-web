@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "New Screens"
-date: "2005-06-14T00:48:05+00:00"
+date: "2005-06-14T00:48:05+01:00"
 tags: ["all", "general"]
 atomid: tag:benward.me,2005-06-14:/blog/new_screens
 ---

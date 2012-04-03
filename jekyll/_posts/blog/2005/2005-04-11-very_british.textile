@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "Very British"
-date: "2005-04-11T00:01:33+00:00"
+date: "2005-04-11T00:01:33+01:00"
 tags: ["all", "general"]
 atomid: tag:benward.me,2005-04-11:/blog/very_british
 ---

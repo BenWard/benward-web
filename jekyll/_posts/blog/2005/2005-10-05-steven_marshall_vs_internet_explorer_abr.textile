@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "Steven Marshall vs. Internet Explorer, abridged"
-date: "2005-10-05T00:18:16+00:00"
+date: "2005-10-05T00:18:16+01:00"
 tags: ["all", "web_standards", "design", "blogging", "steve_marshall", "internet_explorer"]
 atomid: tag:benward.me,2005-10-05:/blog/steven_marshall_vs_internet_explorer_abr
 ---

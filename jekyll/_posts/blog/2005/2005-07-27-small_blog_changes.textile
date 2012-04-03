@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "Small changes"
-date: "2005-07-27T22:01:48+00:00"
+date: "2005-07-27T22:01:48+01:00"
 tags: ["all", "general"]
 atomid: tag:benward.me,2005-07-27:/blog/small_blog_changes
 ---

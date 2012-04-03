@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "Did you see a black cat twice?"
-date: "2005-10-07T00:28:34-01:00"
+date: "2005-10-07T00:28:34+01:00"
 updated: "2005-10-07T01:47:18-01:00"
 tags: ["all", "design", "blogging", "ben_ward", "css_reboot"]
 atomid: http://ben-ward.co.uk/?p=252
@@ -17,7 +17,7 @@ I'll blog the migration process in a few days (including the technical reason fo
 
 Obviously this isn't my CSS:Reboot (though it might be easier for all involved if I said it was). It's the first advance stage of it though and it makes sense to migrate early to make theme development that bit easier.
 
-The best bit for me? That ghastly �Read More� graphic is gone. I never could find which bit of b2Evolution I needed to hack to remove it. 
+The best bit for me? That ghastly �Read More� graphic is gone. I never could find which bit of b2Evolution I needed to hack to remove it.
 
 By all means please click on lots of stuff and see if anything's broken. I'll try and do a round of fixes next week.
 

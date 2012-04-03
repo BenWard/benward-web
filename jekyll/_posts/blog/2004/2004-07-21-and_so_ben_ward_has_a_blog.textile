@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "And so, Ben Ward has a blog"
-date: "2004-07-21T20:34:38+00:00"
+date: "2004-07-21T20:34:38+01:00"
 tags: ["all", "general"]
 atomid: tag:benward.me,2004-07-21:/blog/and_so_ben_ward_has_a_blog
 ---

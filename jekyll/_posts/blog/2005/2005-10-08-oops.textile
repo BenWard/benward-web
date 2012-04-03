@@ -2,8 +2,8 @@
 layout: blog
 category: blog
 title: "Oops"
-date: "2005-10-08T13:55:00-01:00"
-updated: "2005-10-11T23:40:32-01:00"
+date: "2005-10-08T13:55:00+01:00"
+updated: "2005-10-11T23:40:32+01:00"
 tags: ["all", "flickr", "jo_anslow", "kittens"]
 atomid: http://ben-ward.co.uk/journal/oops/
 ---

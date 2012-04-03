@@ -1,14 +1,14 @@
 ---
 layout: blog
 category: blog
-title: "Two Weeks With GMail"
-date: "2004-10-02T17:32:24+00:00"
+title: "Two Weeks With Gmail"
+date: "2004-10-02T17:32:24+01:00"
 tags: ["technology"]
 atomid: tag:benward.me,2004-10-02:/blog/two_weeks_with_gmail
 ---
-Well, I finally started using my GMail account. It took a while as I'm a long term lover of standalone email apps. I've used Outlook mostly but gave Mozilla's Thunderbird a run out for a couple of weeks.
+Well, I finally started using my Gmail account. It took a while as I'm a long term lover of standalone email apps. I've used Outlook mostly but gave Mozilla's Thunderbird a run out for a couple of weeks.
 
-Ultimately, the combination of living in three different places led me to actually give GMail more attention. It's a very good piece of webmail software. In fact, it's a magnificent piece of webmail software. While the GMail software itself is shorter on features than many of the more established brands (it is still in development), what they have implemented so far has been done with such care and attention to detail that it feels more like a standalone application than a website.
+Ultimately, the combination of living in three different places led me to actually give Gmail more attention. It's a very good piece of webmail software. In fact, it's a magnificent piece of webmail software. While the Gmail software itself is shorter on features than many of the more established brands (it is still in development), what they have implemented so far has been done with such care and attention to detail that it feels more like a standalone application than a website.
 
 It's the little things that matter. Things like not have to reload the page to get back to the inbox (a single click takes you back to the inbox, clicking again will reload it to check for new mail). Then there's the default 'conversation' view of messages. Previous messages with the same subject line are 'folded away' on the same page as the new message you're reading and accessible, again, with a single click and without reloading the page.
 
@@ -16,7 +16,7 @@ Reloading of the page is irritating, time consuming and prone to the Internet's 
 
 Also worthy of crediting mention (also minus reloads) is that if you choose "Reply", the reply form expands out on the same page, but if you then realise that you should've clicked "Reply All", it'll just transform the form you're current working on, adding the additional recipients into the To: and Cc: fields instantly and leaving the long reply you've just written intact. Seeing as I have a terrible habit of <strong>always</strong> clicking the wrong 'Reply' button, this is a joy to behold.
 
-GMail now handles all my mail, for this domain and anything else I might have laying around. Missing features and improvements will come with time, but everything that they have done so far shows great things.
+Gmail now handles all my mail, for this domain and anything else I might have laying around. Missing features and improvements will come with time, but everything that they have done so far shows great things.
 
 <notextile>
 <div class="hfeed comments" id="comments">
@@ -31,7 +31,7 @@ GMail now handles all my mail, for this domain and anything else I might have la
       <a class="permalink" rel="bookmark" href="#comment-196">
         <time class="published" datetime="2004-10-02T17:59:34+00:00">02 Oct 2004, 17:59</time>
       </a>
-      <div class="entry-content"><p>GMail is indeed rather lovely. I still use only for testing and such, but I have grown to like it and have managed to &#8216;convert&#8217; a fair few people away from Hotmail.</p>
+      <div class="entry-content"><p>Gmail is indeed rather lovely. I still use only for testing and such, but I have grown to like it and have managed to &#8216;convert&#8217; a fair few people away from Hotmail.</p>
 <p>I particularly like the spell checking and automatic contact-completing features, very swish. I&#8217;m usually averse to massive amounts of Javascript (take a look at the source code, eek!) but maybe this time it&#8217;s worth it (although Opera users would perhaps beg to differ on all but the latest builds).</p>
 <p>Talking of multiple locations and such, how about using Thunderbird and an <span class="caps">IMAP</span> mail server? This has proven a rather lovely experience too (and when Thunderbird isn&#8217;t available, there is usually always a web interface to fall back on).</p></div>
     </article></li>

@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "First thoughts on Microformats"
-date: "2005-06-29T00:02:17+00:00"
+date: "2005-06-29T00:02:17+01:00"
 tags: ["all", "technology", "web_standards"]
 atomid: tag:benward.me,2005-06-29:/blog/simple_microformats
 ---

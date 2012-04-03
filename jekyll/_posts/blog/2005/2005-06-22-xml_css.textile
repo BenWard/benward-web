@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "CSS for designers"
-date: "2005-06-22T01:12:21+00:00"
+date: "2005-06-22T01:12:21+01:00"
 tags: ["all", "web_standards"]
 atomid: tag:benward.me,2005-06-22:/blog/xml_css
 ---

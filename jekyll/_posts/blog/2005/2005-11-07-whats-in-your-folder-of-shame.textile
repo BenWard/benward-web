@@ -2,13 +2,12 @@
 layout: blog
 category: blog
 title: "What's in your folder of shame?"
-date: "2005-11-07T18:29:31-01:00"
-updated: "2005-11-07T18:31:02-01:00"
-summary: "Jeffrey Veen asks: �What's in your folder of shame?�"
+date: "2005-11-07T18:29:31+00:00"
+summary: "Jeffrey Veen asks: ‘What's in your folder of shame?’"
 tags: ["all", "meme", "drafts", "jon-hicks"]
 atomid: http://ben-ward.co.uk/journal/whats-in-your-folder-of-shame/
 ---
-<a href="http://www.veen.com/jeff/archives/000811.html" "Jeffrey Veen">Jeffrey Veen asks �What's in your folder of shame?�</a>, referring to the �drafts� folder. Unfinished blogs, second thoughts? We've all got them. Since we're sharing, here's my current list of working titles:
+<a href="http://www.veen.com/jeff/archives/000811.html" "Jeffrey Veen">Jeffrey Veen asks ‘What's in your folder of shame?’</a>, referring to the ‘drafts’ folder. Unfinished blogs, second thoughts? We've all got them. Since we're sharing, here's my current list of working titles:
 
 * CSS Inline Lists
 * JavaScript Reflection
@@ -17,7 +16,7 @@ atomid: http://ben-ward.co.uk/journal/whats-in-your-folder-of-shame/
 * Inconsistant design annoys me
 * Scaling graphics
 
-There was another one that might be worth mention for �mild bemusement� value. It contained no text at all, not even a note to remind me what to write, and was entitled �Poor Jon Hicks�. It was very old, but I have not the faintest incling of an idea what it was supposed to say. It's been deleted now, so if <a href="http://hicksdesign.co.uk">Jon</a> was owed any sympathy for something about 6 months ago, I'm afraid he'll just have to cope without.
+There was another one that might be worth mention for ‘mild bemusement’ value. It contained no text at all, not even a note to remind me what to write, and was entitled ‘Poor Jon Hicks’. It was very old, but I have not the faintest incling of an idea what it was supposed to say. It's been deleted now, so if <a href="http://hicksdesign.co.uk">Jon</a> was owed any sympathy for something about 6 months ago, I'm afraid he'll just have to cope without.
 
 The rest of those in the list might get finished. Perhaps.
 

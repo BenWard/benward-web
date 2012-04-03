@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "Office �12�; Microsoft waking up"
-date: "2005-10-03T16:42:02+00:00"
+date: "2005-10-03T16:42:02+01:00"
 tags: ["all", "technology", "software", "microsoft", "vista", "windows", "design"]
 atomid: tag:benward.me,2005-10-03:/blog/office_12_first_look
 ---

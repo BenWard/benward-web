@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "I hate computers"
-date: "2004-10-02T17:27:44+00:00"
+date: "2004-10-02T17:27:44+01:00"
 tags: ["technology"]
 atomid: tag:benward.me,2004-10-02:/blog/i_hate_computers
 ---

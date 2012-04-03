@@ -2,8 +2,8 @@
 layout: blog
 category: blog
 title: "Aardman warehouse burns down"
-date: "2005-10-11T00:16:20-01:00"
-updated: "2005-10-11T23:39:26-01:00"
+date: "2005-10-11T00:16:20+01:00"
+updated: "2005-10-11T23:39:26+01:00"
 tags: ["all", "aardman", "wallave-gromit"]
 atomid: http://ben-ward.co.uk/journal/aardman-warehouse-burns-down/
 ---

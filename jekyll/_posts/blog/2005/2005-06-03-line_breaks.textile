@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "Do line breaks really exist?"
-date: "2005-06-03T00:12:34+00:00"
+date: "2005-06-03T00:11:34+01:00"
 tags: ["all", "general"]
 atomid: tag:benward.me,2005-06-03:/blog/line_breaks
 ---

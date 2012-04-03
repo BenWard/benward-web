@@ -2,19 +2,18 @@
 layout: blog
 category: blog
 title: "In advance of the best of 2005"
-date: "2005-12-09T00:47:27-01:00"
-updated: "2005-12-09T00:53:34-01:00"
+date: "2005-12-09T00:47:27-00:00"
 tags: ["all", "music", "2005", "review", "best-of"]
 atomid: http://ben-ward.co.uk/journal/in-advance-of-the-best-of-2005/
 ---
-<img class="splash" src="/media/splashes/AnnualShortlist2005.splash.png" alt="" /> 2006 is just 23 days away, which means that all around the country thousands of people, big and small, are preparing for an onslaught of annual reviews. 
+<img class="splash" src="/media/splashes/AnnualShortlist2005.splash.png" alt="" /> 2006 is just 23 days away, which means that all around the country thousands of people, big and small, are preparing for an onslaught of annual reviews.
 
-Shortlists are being drawn up, and I suspect the new <a href="http://agenzia.co.uk">Agenzia</a> office space has settled on roughly <a href="http://collylogic.com" title="Colly's Music Monthlies must surely deserve a New Year Special">50%</a> �Music Yearly� drafts, 45% client work and 5% Arctic Monkey aura.
+Shortlists are being drawn up, and I suspect the new <a href="http://agenzia.co.uk">Agenzia</a> office space has settled on roughly <a href="http://collylogic.com" title="Colly's Music Monthlies must surely deserve a New Year Special">50%</a> ‘Music Yearly’ drafts, 45% client work and 5% Arctic Monkey aura.
 
 I'll be focusing on music, mostly because I can't for life of me remember any of the films I've seen this year (apart from Star Wars, which was ace). For album of the year, iTunes is sitting primed with a shortlist of 15 from which to choose. To whet the appetite I thought I'd share the pool I'll be picking from.
 
-* Arctic Monkeys - Beneath The Boardwalk (OK so it's a demo, but�)
-* Bloc Party - Silent Alarm  (including �Two More Years� for added awesomeness)
+* Arctic Monkeys - Beneath The Boardwalk (OK so it's a demo, but…)
+* Bloc Party - Silent Alarm  (including ‘Two More Years’ for added awesomeness)
 * Coldplay - X&Y (it's not going to win; I can live without death at the hands of <a href="http://joshuaink.com">John Oxton</a>)
 * Doves - Some Cities
 * Editors - The Back Room
@@ -23,10 +22,10 @@ I'll be focusing on music, mostly because I can't for life of me remember any of
 * Idlewild - Warnings/Promises
 * Low - The Great Destroyer
 * Luke Haines - Luke Haines Is Dead
-* Max�mo Park - A Certain Trigger
+* Maxïmo Park - A Certain Trigger
 * Oasis - Don't Believe The Truth
 * PTA - Greedy Gonzalez (I will force you to listen to this band)
-* Sigur R�s - Takk�
+* Sigur Rós - Takk…
 * Super Furry Animals - Love Kraft
 
 There you go. So, World, what's on your shortlist?
@@ -91,10 +90,10 @@ My personal album of the year is easy to choose, since I mostly listen to &#8220
         <time class="published" datetime="2005-12-18T19:05:55-01:00">18 Dec 2005, 19:05</time>
       </a>
       <div class="entry-content"><p>I was going to be more sarcastic about how much work you may not be doing, but most communications I&#8217;ve have from you lately have featured a reference to being snowed under.</p>
-<p>I do have The Killers album but got tired of it. I remember at the time thinking that the second half just fell flat. Putting the atrocious �Smile like you mean it� out as a single puts a nail in it too; I at least found the first few singles alright for a time.</p>
-<p>Editors are looking like dead certs for my list. Do you reckon it&#8217;s still necessary to include &#8220;Yes I know they sound rather like every other band, but�&#8221; disclaimer? Or do people just imply that now?</p>
-<p>The thing I&#8217;m really finding is that I&#8217;m surrounded by some fabulous pieces of music (the aforementioned Zoom! and Cabin Fever on �Love Kraft� for example), but I&#8217;m struggling to pick out great, complete albums. This could easily turn into a compilation album.</p>
-<p>I&#8217;ve had my �2005� SmartPlaylist on shuffle all afternoon. Just had a couple from Eels �Blinking Lights and Other Revelations� (which is another that I&#8217;ve given no time but feels like it&#8217;s coming good). And lo! As I type I get Lights by Editors. I&#8217;ll end this ramble on that coincidence.</p></div>
+<p>I do have The Killers album but got tired of it. I remember at the time thinking that the second half just fell flat. Putting the atrocious ‘Smile like you mean it’ out as a single puts a nail in it too; I at least found the first few singles alright for a time.</p>
+<p>Editors are looking like dead certs for my list. Do you reckon it&#8217;s still necessary to include &#8220;Yes I know they sound rather like every other band, but…&#8221; disclaimer? Or do people just imply that now?</p>
+<p>The thing I&#8217;m really finding is that I&#8217;m surrounded by some fabulous pieces of music (the aforementioned Zoom! and Cabin Fever on ‘Love Kraft’ for example), but I&#8217;m struggling to pick out great, complete albums. This could easily turn into a compilation album.</p>
+<p>I&#8217;ve had my ‘2005’ SmartPlaylist on shuffle all afternoon. Just had a couple from Eels ‘Blinking Lights and Other Revelations’ (which is another that I&#8217;ve given no time but feels like it&#8217;s coming good). And lo! As I type I get Lights by Editors. I&#8217;ll end this ramble on that coincidence.</p></div>
     </article></li>
     <li><article class="hentry" id="comment-619">
       <div class="author vcard">
@@ -104,7 +103,7 @@ My personal album of the year is easy to choose, since I mostly listen to &#8220
       <a class="permalink" rel="bookmark" href="#comment-619">
         <time class="published" datetime="2005-12-18T19:52:25-01:00">18 Dec 2005, 19:52</time>
       </a>
-      <div class="entry-content"><p>RE Editors: &#8220;Do you reckon it�s still necessary to include �Yes I know they sound rather like every other band, but�� disclaimer?&#8221;</p>
+      <div class="entry-content"><p>RE Editors: &#8220;Do you reckon it's still necessary to include ‘Yes I know they sound rather like every other band, but…’ disclaimer?&#8221;</p>
 <p>Yes.</p>
 <p>I have already written my list &#8211; did it two weeks ago. Just waiting to see if anything changes before the 31st. Note that &#8220;Zoom&#8221; is on my &#8220;Best Tracks&#8221; list at the moment.</p>
 <p>I will <span class="caps">NOT</span> be featuring Killers, Bloc party, Les Ferdinand or Hard Fi &#8211; either don&#8217;t like or have gone off those bands. I&#8217;m very fickle.</p>
@@ -120,7 +119,7 @@ My personal album of the year is easy to choose, since I mostly listen to &#8220
         <time class="published" datetime="2005-12-18T20:06:18-01:00">18 Dec 2005, 20:06</time>
       </a>
       <div class="entry-content"><p>You did show yourself up, but don&#8217;t worry, very few people really visit here (well, the number seems to be rising, but at least you didn&#8217;t say it on <em>your</em> blog).</p>
-<p>I haven&#8217;t heard their album, though the freeview music channels have had �Sounds of the Underground� on one of the �Every Christmas Number 1 since Hell Thawed Out� slots. I fear that if I comment Jo may never let me live it down, but to hell with it: Yes, �Sounds of the Underground� is a bit of a tune.</p>
+<p>I haven&#8217;t heard their album, though the freeview music channels have had ‘Sounds of the Underground’ on one of the ‘Every Christmas Number 1 since Hell Thawed Out’ slots. I fear that if I comment Jo may never let me live it down, but to hell with it: Yes, ‘Sounds of the Underground’ is a bit of a tune.</p>
 <p>There was another a recent one that was fantastically catchy as well (I don&#8217;t know the name though, honestly). That said, the Christmas single does nothing for me.</p></div>
     </article></li>
   </ol>

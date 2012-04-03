@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "Cambridge-based Web Dev Studios"
-date: "2005-04-19T23:55:33+00:00"
+date: "2005-04-19T23:55:33+01:00"
 tags: ["all", "general"]
 atomid: tag:benward.me,2005-04-19:/blog/cambridge_webdev_job
 ---

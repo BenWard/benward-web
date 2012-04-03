@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "Today I dropped my iPod"
-date: "2005-08-01T22:03:50+00:00"
+date: "2005-08-01T22:03:50+01:00"
 tags: ["all", "general"]
 atomid: tag:benward.me,2005-08-01:/blog/today_i_dropped_my_ipod
 ---

@@ -2,8 +2,8 @@
 layout: blog
 category: blog
 title: "The Musical Baton"
-date: "2005-05-19T20:26:03+00:00"
-updated: "2005-10-30T14:46:15-01:00"
+date: "2005-05-19T20:26:03+01:00"
+updated: "2005-10-30T14:46:15+00:00"
 tags: ["all", "music", "meme", "itunes"]
 atomid: tag:benward.me,2005-05-19:/blog/musical_baton
 ---

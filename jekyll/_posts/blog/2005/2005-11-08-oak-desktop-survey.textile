@@ -1,25 +1,24 @@
 ---
 layout: blog
 category: blog
-title: "�Oak Desktop� Requirements:  User Survey"
-date: "2005-11-08T16:38:46-01:00"
-updated: "2005-11-08T16:58:36-01:00"
+title: "‘Oak Desktop’ Requirements:  User Survey"
+date: "2005-11-08T16:38:46+00:00"
 summary: "Help me out with the final year project by taking a survey."
 tags: ["university", "project", "oak", "survey"]
 atomid: http://ben-ward.co.uk/journal/oak-desktop-requirements-user-survey/
 ---
 <img class="splash" alt="" src="/media/splashes/oakleaves.splash.png" title="Autumn Yellow by gotigersjf"/>
-To help finalise the requirements for my final year project, I've thrown together <a href="http://ben-ward.co.uk/survey/" title="�Oak Desktop� User Survey">a questionnaire</a> about computer usage; more specifically, how and where you save documents, photographs and music on your computer.
+To help finalise the requirements for my final year project, I've thrown together <a href="http://ben-ward.co.uk/survey/" title="‘Oak Desktop’ User Survey">a questionnaire</a> about computer usage; more specifically, how and where you save documents, photographs and music on your computer.
 
-Basically, the answers will help me prioritise which file formats to support, which (if any) existing applications to interface with and also help build a reliable means of �auto tagging� existing files.
+Basically, the answers will help me prioritise which file formats to support, which (if any) existing applications to interface with and also help build a reliable means of ‘auto tagging’ existing files.
 
-So, if you've got some minutes spare, <a href="http://ben-ward.co.uk/survey/" title="�Oak Desktop� User Survey">fill the survey in</a>.
+So, if you've got some minutes spare, <a href="http://ben-ward.co.uk/survey/" title="‘Oak Desktop’ User Survey">fill the survey in</a>.
 
-Also, for those wondering, �Oak� privately stands for �Order And Chaos�, referring to an application that should help bring order to files, by using freeform (chaotic) tagging to add metadata. Clever eh? As well as naming the application �Oak Desktop�, it also opens the way for a future product website to have an �Oak Log�. It's all enough to make me feel rather _too_ pleased with myself.
+Also, for those wondering, ‘Oak’ privately stands for ‘Order And Chaos’, referring to an application that should help bring order to files, by using freeform (chaotic) tagging to add metadata. Clever eh? As well as naming the application ‘Oak Desktop’, it also opens the way for a future product website to have an ‘Oak Log’. It's all enough to make me feel rather _too_ pleased with myself.
 
 Thanks very much for your help.
 
-<p class="footnote">The accompanying image is cropped from �<a href="http://flickr.com/photos/gotigersjf/51389833/">Autumn Yellow</a>� by gotigersjf (Creative Commons).</p>
+<p class="footnote">The accompanying image is cropped from ‘<a href="http://flickr.com/photos/gotigersjf/51389833/">Autumn Yellow</a>’ by gotigersjf (Creative Commons).</p>
 
 <notextile>
 <div class="hfeed comments" id="comments">
@@ -69,8 +68,8 @@ Thanks very much for your help.
         <time class="published" datetime="2005-11-09T16:26:41-01:00">09 Nov 2005, 16:26</time>
       </a>
       <div class="entry-content"><p>I did indeed.</p>
-<p>OK then, well, errrr� How about �Maple Desk�, where the tree is your computer and the software is extracting the pure, sweet syrupy files from the trunk? Wait, come back�</p>
-<p>And now the idea of �sweet, syrupy files� is making me hungry. Great.</p></div>
+<p>OK then, well, errrr… How about ‘Maple Desk’, where the tree is your computer and the software is extracting the pure, sweet syrupy files from the trunk? Wait, come back…</p>
+<p>And now the idea of ‘sweet, syrupy files’ is making me hungry. Great.</p></div>
     </article></li>
     <li><article class="hentry" id="comment-425">
       <div class="author vcard">
@@ -91,8 +90,8 @@ Thanks very much for your help.
       <a class="permalink" rel="bookmark" href="#comment-426">
         <time class="published" datetime="2005-11-09T18:26:36-01:00">09 Nov 2005, 18:26</time>
       </a>
-      <div class="entry-content"><p>Don&#8217;t worry, Oak is staying. The trouble is that with it being a phonetic name, trying to be cool and Minty by giving all the system components metaphorical names isn&#8217;t really fitting. I quite like referring to system core as the �Trunk� and plug-ins as �Leaves� (that will probably stick), whilst it doesn&#8217;t really hold up under scrutiny, it&#8217;s just nice.</p>
-<p>If I were being literal about the plug-ins metaphor then perhaps �Bird Boxes� would be more appropriate�</p>
+      <div class="entry-content"><p>Don&#8217;t worry, Oak is staying. The trouble is that with it being a phonetic name, trying to be cool and Minty by giving all the system components metaphorical names isn&#8217;t really fitting. I quite like referring to system core as the ‘Trunk’ and plug-ins as ‘Leaves’ (that will probably stick), whilst it doesn&#8217;t really hold up under scrutiny, it&#8217;s just nice.</p>
+<p>If I were being literal about the plug-ins metaphor then perhaps ‘Bird Boxes’ would be more appropriate…</p>
 <p>In conclusion, names are silly but fun and they relieve tension whilst writing interim reports.</p></div>
     </article></li>
   </ol>

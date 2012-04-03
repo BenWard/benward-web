@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "Super Furry Animals @ Somerset House"
-date: "2005-07-13T00:43:07+00:00"
+date: "2005-07-13T00:43:07+01:00"
 tags: ["all", "music"]
 atomid: tag:benward.me,2005-07-13:/blog/sfa_at_somerset_house_1
 ---

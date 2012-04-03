@@ -2,8 +2,8 @@
 layout: blog
 category: blog
 title: "Reboot Badges"
-date: "2005-08-09T00:18:00+00:00"
-updated: "2006-05-23T21:08:37+00:00"
+date: "2005-08-09T00:18:00+01:00"
+updated: "2006-05-23T21:08:37+01:00"
 tags: ["all", "general"]
 atomid: tag:benward.me,2005-08-09:/blog/reboot_badges
 ---
@@ -15,7 +15,7 @@ Since I'd quite like to display one myself, and since there are currently none, 
 
 If you'd like to use any of these badges you are very welcome (that is, after all the point of publicising their existance), but <strong>please, please, please</strong> copy them to your own server. I don't have any hotlinking protection right now, so please play nice.
 
-The CSS Reboot <span title="Fall">Autumn</span> '05 badges follow. 
+The CSS Reboot <span title="Fall">Autumn</span> '05 badges follow.
 
 <dl><dt>With �Autumn '05� caption</dt>
 <dd><img src="/media/cssreboot/nov05/CSSR-Autumn-200.png" alt="" /></dd>

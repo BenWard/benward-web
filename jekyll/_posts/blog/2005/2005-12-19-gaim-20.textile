@@ -2,20 +2,19 @@
 layout: blog
 category: blog
 title: "Gaim 2.0"
-date: "2005-12-19T02:13:26-01:00"
-updated: "2005-12-19T02:21:24-01:00"
+date: "2005-12-19T02:13:26+00:00"
 tags: ["all", "gaim", "miranda", "im", "backup", "dataloss"]
 atomid: http://ben-ward.co.uk/journal/gaim-20/
 ---
 <img class="splash" alt="" src="/media/splashes/gaim2.splash.png"/> Good news for people still searching for an enjoyable <abbr title="Instant Messenger">IM</abbr> experience on Windows and seething at all the Mac users with Adium. <a href="http://gaim.sourceforge.net">Gaim 2.0</a> is in beta 1 and it's a grand improvement over the 1.x versions.
 
-I've given up with <a href="http://www.miranda-im.org/">Miranda</a>. Finally the obscuficator got the better of me. Did I say obscuficator? I mean �User Interface�. The plug-in based core functionality is an interesting approach, but it just makes the UI even less consistent that it is by default. I know I mock Open Source software for its poor UI rather a lot and <em>I know</em> I could probably do worse than to contribute a helpful email to the related developer lists on the matter. But, despite my best efforts to customise it into something I liked, Miranda was unbearable. The fact I used it for so long is somewhat puzzling, it may be due to denial as a result of spending the best part of a week just setting it up.
+I've given up with <a href="http://www.miranda-im.org/">Miranda</a>. Finally the obscuficator got the better of me. Did I say obscuficator? I mean ‘User Interface’. The plug-in based core functionality is an interesting approach, but it just makes the UI even less consistent that it is by default. I know I mock Open Source software for its poor UI rather a lot and <em>I know</em> I could probably do worse than to contribute a helpful email to the related developer lists on the matter. But, despite my best efforts to customise it into something I liked, Miranda was unbearable. The fact I used it for so long is somewhat puzzling, it may be due to denial as a result of spending the best part of a week just setting it up.
 
-Gaim is more of a �product�, with a lot of overlap with AdiumX on the Mac. This is a good thing, and on the whole its defaut set of preferences make sense. I'd appreciate it if logging was enabled by default, and the box underneath the status selector for setting an away message is obscenely large, but once you actually figure out what it does it's a minor quibble.
+Gaim is more of a ‘product’, with a lot of overlap with AdiumX on the Mac. This is a good thing, and on the whole its defaut set of preferences make sense. I'd appreciate it if logging was enabled by default, and the box underneath the status selector for setting an away message is obscenely large, but once you actually figure out what it does it's a minor quibble.
 
-The reason for blogging this on my way to bed is because I need to put a huge warning in strong emphasis: <strong>For the love of God back up your contact lists</strong>. Do it right now. Done? No, really do it. 
+The reason for blogging this on my way to bed is because I need to put a huge warning in strong emphasis: <strong>For the love of God back up your contact lists</strong>. Do it right now. Done? No, really do it.
 
-When you mess around with groups in Gaim, there's an element of, how you say? Volatility. I managed to lose a handful of contacts this evening by moving contacts around groups and then deleted the groups once Gaim said they were empty. Gaim keeps everything in �Application Settings\.gaim�, just copy the folder elsewhere before you start messing. I was lucky and managed to recover my lost contacts from my Miranda installation, but it was a rather close call.
+When you mess around with groups in Gaim, there's an element of, how you say? Volatility. I managed to lose a handful of contacts this evening by moving contacts around groups and then deleted the groups once Gaim said they were empty. Gaim keeps everything in ‘Application Settings\.gaim’, just copy the folder elsewhere before you start messing. I was lucky and managed to recover my lost contacts from my Miranda installation, but it was a rather close call.
 
 <notextile>
 <div class="hfeed comments" id="comments">
@@ -76,7 +75,7 @@ I&#8217;ve been using it for a long time so I know how to get it to do what I wa
       <a class="permalink" rel="bookmark" href="#comment-647">
         <time class="published" datetime="2006-01-01T23:17:44-01:00">01 Jan 2006, 23:17</time>
       </a>
-      <div class="entry-content"><p>I checked the Gaim development blog last week and they&#8217;re very enthusiastic about the feedback they&#8217;re getting. A lot of it (such as the oversized �Away status� box) is already on the list to fix. It&#8217;s sounding very positive.</p></div>
+      <div class="entry-content"><p>I checked the Gaim development blog last week and they&#8217;re very enthusiastic about the feedback they&#8217;re getting. A lot of it (such as the oversized ‘Away status’ box) is already on the list to fix. It&#8217;s sounding very positive.</p></div>
     </article></li>
     <li><article class="hentry" id="comment-663">
       <div class="author vcard">
@@ -99,7 +98,7 @@ I&#8217;ve been using it for a long time so I know how to get it to do what I wa
         <time class="published" datetime="2006-01-14T12:13:23-01:00">14 Jan 2006, 12:13</time>
       </a>
       <div class="entry-content"><p>Well, I&#8217;m still using Gaim 2.0 on Windows. I agree that being able to make the contact icons smaller, and fit more contacts on the page, would be welcome.</p>
-<p>I hate having to scroll contact windows with a vengeance and at the moment, Gaim 2 is forcing that on me. Overall features and presentation seems to come out above anything else I&#8217;ve found so far. I have Skype for if/when I ever need voice comms, although I tend to prefer using that on the Mac rather than Windows. One of the two operating systems has a Bluetooth stack capable of supporting my headset mic for Skype conversations. Guess which one (it&#8217;s predictable)�  Oh how I&#8217;d love an IntelPowerMac (�Mac Pro�?)</p></div>
+<p>I hate having to scroll contact windows with a vengeance and at the moment, Gaim 2 is forcing that on me. Overall features and presentation seems to come out above anything else I&#8217;ve found so far. I have Skype for if/when I ever need voice comms, although I tend to prefer using that on the Mac rather than Windows. One of the two operating systems has a Bluetooth stack capable of supporting my headset mic for Skype conversations. Guess which one (it&#8217;s predictable)…  Oh how I&#8217;d love an IntelPowerMac (‘Mac Pro’?)</p></div>
     </article></li>
     <li><article class="hentry" id="comment-23766">
       <div class="author vcard">

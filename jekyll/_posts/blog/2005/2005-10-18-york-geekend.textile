@@ -2,8 +2,7 @@
 layout: blog
 category: blog
 title: "York Geekend"
-date: "2005-10-18T00:04:28-01:00"
-updated: "2005-10-18T00:05:46-01:00"
+date: "2005-10-18T00:04:28+01:00"
 tags: ["all", "photographs", "york", "northern-geekend", "geekend"]
 atomid: http://ben-ward.co.uk/journal/york-geekend/
 ---

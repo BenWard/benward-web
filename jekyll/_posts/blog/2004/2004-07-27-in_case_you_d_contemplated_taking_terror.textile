@@ -1,12 +1,12 @@
 ---
 layout: blog
 category: blog
-title: "In case you'd contemplated taking Terrorism seriously..."
-date: "2004-07-27T21:07:35+00:00"
+title: "In case you'd contemplated taking Terrorism seriously…"
+date: "2004-07-27T21:07:35+01:00"
 tags: ["all", "general"]
 atomid: tag:benward.me,2004-07-27:/blog/in_case_you_d_contemplated_taking_terror
 ---
-... I highly recommend you <a href="http://www.preparingforemergencies.co.uk" title="Preparing for Emergencies">Prepare for an Emergency!</a>.
+… I highly recommend you <a href="http://www.preparingforemergencies.co.uk" title="Preparing for Emergencies">Prepare for an Emergency!</a>.
 
 Inspired by a <a href="http://www.preparingforemergencies.gov.uk" title="Preparing for Emergencies.GOV.uk">remarkably similar campaign</a>, PFE offers useful advice on fire: <q>Reduce fire hazards in your home. Children are the worst fire hazards; consider giving them up for adoption.</q>; Bombs:  <q>If you are trapped in debris: Swear profusely. Try not to die.</q>; Emergencies: <q>Look, it's an emergency. How are you supposed to prepare for it? It's in the bloody dictionary. " A serious situation or occurrence that happens unexpectedly and demands immediate action." If you expect it, it's not an emergency, is it? Honestly.</q>
 

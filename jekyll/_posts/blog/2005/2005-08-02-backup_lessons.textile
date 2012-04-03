@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "Reasons to make back-ups #1"
-date: "2005-08-02T00:06:42+00:00"
+date: "2005-08-02T00:06:42+01:00"
 tags: ["all", "general"]
 atomid: tag:benward.me,2005-08-02:/blog/backup_lessons
 ---
@@ -14,7 +14,7 @@ Of course, muggins here had upgraded Jo's Wordpress installation last week and m
 
 However, in a strange change to my normal upgrade routine (overwrite and hope), I actually made back-ups of Jo's site. It must be because I love her so much. I even put said back-up on two different machines and archived it in my Gmail storage. Unusually thorough.
 
-The image has of course been quietly restored before writing this blog post. So, please, do remember to take back-ups (especially of your girlfriend's web site). 
+The image has of course been quietly restored before writing this blog post. So, please, do remember to take back-ups (especially of your girlfriend's web site).
 
 And now, if we're all really quiet, she'll never even know I screwed up�
 

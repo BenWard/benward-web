@@ -2,8 +2,7 @@
 layout: blog
 category: blog
 title: "How do you organise your files?"
-date: "2005-10-30T14:59:29-01:00"
-updated: "2005-10-30T15:00:39-01:00"
+date: "2005-10-30T14:59:29+00:00"
 tags: ["university", "project", "oak", "questionnaire", "desktopsearch"]
 atomid: http://ben-ward.co.uk/journal/how-do-you-organise-your-files/
 ---

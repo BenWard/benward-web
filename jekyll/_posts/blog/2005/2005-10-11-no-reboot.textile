@@ -2,8 +2,7 @@
 layout: blog
 category: blog
 title: "No Reboot"
-date: "2005-10-11T23:37:12-01:00"
-updated: "2005-10-11T23:37:12-01:00"
+date: "2005-10-11T23:37:12+01:00"
 tags: ["all", "css-reboot", "redesign", "web-design", "meta"]
 atomid: http://ben-ward.co.uk/journal/no-reboot/
 ---

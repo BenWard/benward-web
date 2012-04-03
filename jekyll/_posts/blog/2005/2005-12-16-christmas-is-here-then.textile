@@ -2,12 +2,11 @@
 layout: blog
 category: blog
 title: "Christmas is here, then"
-date: "2005-12-16T02:10:30-01:00"
-updated: "2005-12-16T02:10:30-01:00"
+date: "2005-12-16T02:10:30+00:00"
 tags: ["all", "super-furry-animals", "christmas", "star-wars", "guestbook"]
 atomid: http://ben-ward.co.uk/journal/christmas-is-here-then/
 ---
-Christmas has well and truly arrived at chateaux Ben. Being students, we'll all be going home for Christmas-proper. To make the most of our time together then, the tree has been up for a few weeks, fairy lights surround the living room (all of which is actually quite pretty looking, if you ignore the wire tacks that're holding them up). Unfortunately someone has stuck a godawful multi-coloured plastic �candle� thing on the tele, but apparently it's not really Christmas without some real tat. Also, the living room is covered in Roses chocolate wrappers, never have I seen �8 of chocolate devoured so fast.
+Christmas has well and truly arrived at chateaux Ben. Being students, we'll all be going home for Christmas-proper. To make the most of our time together then, the tree has been up for a few weeks, fairy lights surround the living room (all of which is actually quite pretty looking, if you ignore the wire tacks that're holding them up). Unfortunately someone has stuck a godawful multi-coloured plastic ‘candle’ thing on the tele, but apparently it's not really Christmas without some real tat. Also, the living room is covered in Roses chocolate wrappers, never have I seen £8 of chocolate devoured so fast.
 
 Ben-Ward.co.uk is finally getting into the season too. The header includes the <a href="http://flickr.com/photos/benward/73544832/">promised</a> proof of my Star Wars freakery, whilst there's something in the way of a late-nineties rerun happening in the sidebar.
 
@@ -15,4 +14,4 @@ I have a <a href="/guestbook/">guestbook</a>. Not an authentic free one from Lyc
 
 I realised that having not written up d.Construct <a href="http://ben-ward.co.uk/journal/dconstruct-placeholder/">like I intended</a>, anyone that might for some reason have wanted to leave a message wasn't being offered an immediate opportunity to do so. Result: They probably just buggered off. Since I probably won't get any better at writing up events in the future, and a <a href="http://www.carsonworkshops.com/summit/">Carson summit</a> coming up in February, I say "no more"! You never know, it might even work.
 
-On an unrelated note, my �albums of 2005� shortlist and selection process is in trouble. No sooner do I start to cross out the Super Furry Animals �Love Kraft�, I suddenly �get it�. Not sure if the entire record is necessarily outstanding but they say you can still have a great record if you start right (and boy does the very start of �Zoom!� makes me tingle) and end right (�Cabin Fever� has one of the those most precious of delicate piano parts). Whilst the heart-warming pleasure the album now brings me is emotionally wonderful, it does mean I'm not closer to picking a concise list.
+On an unrelated note, my ‘albums of 2005’ shortlist and selection process is in trouble. No sooner do I start to cross out the Super Furry Animals ‘Love Kraft’, I suddenly ‘get it’. Not sure if the entire record is necessarily outstanding but they say you can still have a great record if you start right (and boy does the very start of ‘Zoom!’ makes me tingle) and end right (‘Cabin Fever’ has one of the those most precious of delicate piano parts). Whilst the heart-warming pleasure the album now brings me is emotionally wonderful, it does mean I'm not closer to picking a concise list.

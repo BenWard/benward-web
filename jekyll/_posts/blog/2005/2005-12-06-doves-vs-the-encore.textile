@@ -2,18 +2,17 @@
 layout: blog
 category: blog
 title: "Doves vs. The Encore"
-date: "2005-12-06T12:00:28-01:00"
-updated: "2005-12-07T02:48:45-01:00"
+date: "2005-12-06T12:00:28+00:00"
 tags: ["music", "doves", "live", "super-furry-animals", "colly", "encore"]
 atomid: http://ben-ward.co.uk/journal/doves-vs-the-encore/
 ---
-<img class="splash" src="/media/splashes/SomeCitiesLive.splash.png" alt="" /> I got to see Doves again in Manchester this evening, having missed them back in the spring. The show was very good as ever, but particularly great was their solution to the ever-mundane �encore problem�.
+<img class="splash" src="/media/splashes/SomeCitiesLive.splash.png" alt="" /> I got to see Doves again in Manchester this evening, having missed them back in the spring. The show was very good as ever, but particularly great was their solution to the ever-mundane ‘encore problem’.
 
-Now, I can perfectly accept that after playing 45 minutes or an hour a band is quite entitled to a drink and quick breather before finishing off. But (and here's my problem) I really can't remember the last time I was even slightly inspired by the �shouting for more� encore-routine. At small gigs or with new bands? Sure, but it's not as if a band the size of Doves aren't going to come back if we don't shout.
+Now, I can perfectly accept that after playing 45 minutes or an hour a band is quite entitled to a drink and quick breather before finishing off. But (and here's my problem) I really can't remember the last time I was even slightly inspired by the ‘shouting for more’ encore-routine. At small gigs or with new bands? Sure, but it's not as if a band the size of Doves aren't going to come back if we don't shout.
 
 So instead, when Doves ambled off-stage for their break, the video backdrop kicks in with pre-recorded footage: The band diving out the side exit of the Apollo, jumping into a limo and driving 300 yards down the road to a local pub (cue cheers for local landmarks; they are Mancs after all). They have a pint and a smoke, read the paper and hop back in their limo and return to the venue. The clip ends just as the band hop back on stage to resume the set. Fantastic.
 
-Also, 20% of my visitors now come via <a href="http://collylogic.com" title="Simon Collison">Colly</a>. So in an attempt to satisfy those who wondered �who the fuck is Ben Ward alongside these names I've heard before?�, here's a mention of the Super Furry Animals. What did you expect? Web Standards?
+Also, 20% of my visitors now come via <a href="http://collylogic.com" title="Simon Collison">Colly</a>. So in an attempt to satisfy those who wondered ‘who the fuck is Ben Ward alongside these names I've heard before?’, here's a mention of the Super Furry Animals. What did you expect? Web Standards?
 
 SFA's habit of just slipping offstage during the techno-mind-fuck part(s) of their sets, again avoiding tedium, is my favourite non-encore so far. Cian Ciaran is generally left on stage, but hey, how hard can pressing the techno-mind-fuck button be? (Techno aficionados should <strong>not</strong> lynch me at this point). It also accommodates changing into Yeti costumes, which is also good.
 
@@ -80,9 +79,9 @@ Do you have any encore-evasion favourites? Or do you believe that the encore rou
       <a class="permalink" rel="bookmark" href="#comment-572">
         <time class="published" datetime="2005-12-08T12:57:56-01:00">08 Dec 2005, 12:57</time>
       </a>
-      <div class="entry-content"><p>It&#8217;s true that Dove&#8217;s aren&#8217;t exactly lookers. They seemed to be expressing their stereotypically-northern senses of humour more this time, mind you. They chipped in a line or two of The Doors �Light My Fire�, a cabaret reprise of �The Last Broadcast� (which fell flat,  to good humour). And the encore video, of course.</p>
+      <div class="entry-content"><p>It&#8217;s true that Dove&#8217;s aren&#8217;t exactly lookers. They seemed to be expressing their stereotypically-northern senses of humour more this time, mind you. They chipped in a line or two of The Doors ‘Light My Fire’, a cabaret reprise of ‘The Last Broadcast’ (which fell flat,  to good humour). And the encore video, of course.</p>
 <p>I think it&#8217;s because they&#8217;ve started talking to the crowd more, and that Jimi Goodwin seems to have become a local hero, based on the shouting out from the Mancs around me.</p>
-<p>Strangely, for all their great, bouncier songs the pivotal moments at their gigs for me are always the atmospheric ones: �A house� the last time I saw them, and �Ambition� this time around both exude ghostly brilliance.</p></div>
+<p>Strangely, for all their great, bouncier songs the pivotal moments at their gigs for me are always the atmospheric ones: ‘A house’ the last time I saw them, and ‘Ambition’ this time around both exude ghostly brilliance.</p></div>
     </article></li>
   </ol>
 </div></notextile>

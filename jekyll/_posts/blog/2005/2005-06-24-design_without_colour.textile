@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "The problem of designing without colour"
-date: "2005-06-24T01:20:10+00:00"
+date: "2005-06-24T01:20:10+01:00"
 tags: ["all", "general"]
 atomid: tag:benward.me,2005-06-24:/blog/design_without_colour
 ---

@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "I like shiny things (with high price tags)"
-date: "2004-07-28T21:22:34+00:00"
+date: "2004-07-28T21:22:34+01:00"
 tags: ["technology"]
 atomid: tag:benward.me,2004-07-28:/blog/i_like_shiny_things_with_high_price_tags
 ---

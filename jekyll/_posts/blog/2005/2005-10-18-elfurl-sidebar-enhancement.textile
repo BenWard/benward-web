@@ -2,8 +2,7 @@
 layout: blog
 category: blog
 title: "ElfUrl Sidebar Enhancement"
-date: "2005-10-18T17:02:23-01:00"
-updated: "2005-10-18T20:10:09-01:00"
+date: "2005-10-18T17:02:23+01:00"
 tags: ["all", "camino", "code", "firefox", "mozilla", "usercss", "tinyurl", "elfurl", "hacks"]
 atomid: http://ben-ward.co.uk/journal/elfurl-sidebar-enhancement/
 ---
@@ -25,7 +24,7 @@ To fix it, and enable a whole box of sidebar joy, here's some Firefox 1.5 and Ca
     {
       position: static !important;
     }
-    
+
     #logo img
     {
      max-width: 99% !important;
@@ -35,13 +34,13 @@ To fix it, and enable a whole box of sidebar joy, here's some Firefox 1.5 and Ca
     {
     text-align: left !important;;
     }
-    
+
     #maincolcenter, #maincol, #container
     {
       margin-left: 0; margin-right: 0;
       padding-left: 0; padding-right: 0;
     }
-    
+
     #maincolcenter > table,
     #maincolcenter > table tr,
     #maincolcenter > table td
@@ -57,15 +56,15 @@ To fix it, and enable a whole box of sidebar joy, here's some Firefox 1.5 and Ca
     {
      max-width: 99% !important;;
     }
-    
+
     input[type=text] {
     width: 95% !important;;
     }
-    
+
     input[type=submit] {
     margin: 0 !important;
     }
-    
+
     /* ads will be beyond the vertical scroll anyway, so just  hide them rather than fixing the layout */
     #container > #maincolcenter > table + table *
     {

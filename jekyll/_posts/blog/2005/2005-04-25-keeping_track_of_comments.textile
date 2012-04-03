@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "How to keep track of comments"
-date: "2005-04-25T13:33:25+00:00"
+date: "2005-04-25T13:33:25+01:00"
 tags: ["all", "general"]
 atomid: tag:benward.me,2005-04-25:/blog/keeping_track_of_comments
 ---

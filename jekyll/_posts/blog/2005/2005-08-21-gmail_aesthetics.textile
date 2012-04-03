@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "Tweaking Gmail Aesthetics"
-date: "2005-08-21T20:03:55+00:00"
+date: "2005-08-21T20:03:55+01:00"
 tags: ["technology"]
 atomid: tag:benward.me,2005-08-21:/blog/gmail_aesthetics
 ---

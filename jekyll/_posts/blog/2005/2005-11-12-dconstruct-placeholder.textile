@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "d.Construct Placeholder"
-date: "2005-11-12T23:40:13-01:00"
+date: "2005-11-12T23:40:13+00:00"
 updated: "2005-11-15T00:54:12-01:00"
 tags: ["all", "dconstruct", "social"]
 atomid: http://ben-ward.co.uk/?p=272
@@ -34,7 +34,7 @@ Great to meet you and Steve last week.  In fact, I just clocked this evening tha
       <a class="permalink" rel="bookmark" href="#comment-438">
         <time class="published" datetime="2005-11-15T00:43:01-01:00">15 Nov 2005, 00:43</time>
       </a>
-      <div class="entry-content"><p>It is indeed the same Steve. And yes, whilst I can soothe my jealousy towards his site with thoughts of �I helped�, I didn&#8217;t really help enough to take any credit away from him. Must try harder next time�</p></div>
+      <div class="entry-content"><p>It is indeed the same Steve. And yes, whilst I can soothe my jealousy towards his site with thoughts of ‘I helped’, I didn&#8217;t really help enough to take any credit away from him. Must try harder next time…</p></div>
     </article></li>
   </ol>
 </div></notextile>

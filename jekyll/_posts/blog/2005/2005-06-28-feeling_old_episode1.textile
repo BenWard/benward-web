@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "Things that make you feel old #1"
-date: "2005-06-28T23:14:36+00:00"
+date: "2005-06-28T23:14:36+01:00"
 tags: ["all", "general"]
 atomid: tag:benward.me,2005-06-28:/blog/feeling_old_episode1
 ---

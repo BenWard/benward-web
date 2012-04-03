@@ -1,9 +1,9 @@
 ---
 layout: blog
 category: blog
-title: "Gmail translated into <del>proper</del><ins>British</ins> English"
-date: "2005-06-30T23:01:58+00:00"
-updated: "2005-10-06T22:11:00-01:00"
+title: "Gmail translated into (proper) British English"
+date: "2005-06-30T23:01:58+01:00"
+updated: "2005-10-06T22:11:00+01:00"
 tags: ["all", "general"]
 atomid: tag:benward.me,2005-06-30:/blog/british_gmail
 ---
@@ -13,7 +13,7 @@ Poking through the <a href="http://gmail.com">Gmail</a> settings today I stumble
 
 That said, I've had a dislike for the word 'trash' since childhood days of Sesame Street, so my passion on the matter is maybe not a surprise.
 
-<strong>Update:</strong> It appears that if you choose British rather than American, you lose the improved 'show images' functionality that Gmail introduced last month. 
+<strong>Update:</strong> It appears that if you choose British rather than American, you lose the improved 'show images' functionality that Gmail introduced last month.
 
 Rather than the new 'green' bar, with the option to always show images from particular senders, the British English setting reverts back to the old 'grey' bar without the ability to remember your choice. Stranger still, addresses that I'd authorised to always show images are only remembered when Gmail is in US English, so you can't even work around the shortcoming by temporarily switching between the languages. Very odd.
 

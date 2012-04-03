@@ -2,12 +2,12 @@
 layout: blog
 category: blog
 title: "Read this, it's true."
-date: "2004-07-28T22:19:55+00:00"
+date: "2004-07-28T22:19:55+01:00"
 updated: "2005-12-10T01:13:43-01:00"
 tags: ["technology"]
 atomid: tag:benward.me,2004-07-28:/blog/read_this_it_s_true
 ---
-My <a href="http://jo.ben-ward.co.uk/?p=30" title="Jo Anslow">lovely, long-time geek-enduring girlfriend, Jo</a> has updated her Blog with some cutting comments about a section of the Firefox community. And she's right about it all. Not just because she has an automatic "I'm right" veto, but because it's actually all true.
+My <a href="http://jo.ben-ward.co.uk/?p=30" title="Jo Anslow">geek-enduring girlfriend, Jo</a> has updated her Blog with some cutting comments about a section of the Firefox community. And she's right about it all. Not just because she has an automatic "I'm right" veto, but because it's actually all true.
 
 It struck just how <em>silly</em> blocking out IE to promote a browser based on <em>Open Standards</em> really is. It's actually really rather distressing.
 

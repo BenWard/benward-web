@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "George Bush Corner"
-date: "2004-07-25T23:12:23+00:00"
+date: "2004-07-25T23:12:23+01:00"
 tags: ["all", "general"]
 atomid: tag:benward.me,2004-07-25:/blog/george_bush_corner
 ---

@@ -2,29 +2,29 @@
 layout: blog
 category: blog
 title: "Computers Suck"
-date: "2005-12-28T23:17:06-01:00"
-updated: "2005-12-29T00:08:56-01:00"
+date: "2005-12-28T23:17:06+00:00"
+updated: "2005-12-29T00:08:56+00:00"
 summary: "The internet is in the middle of a royal kick-up-the-arse as regards usability and accessibility. Bad sites are named and shamed, great design is celebrated. In all of this, we mustn't forget the desktop; the desktop sucks too."
 tags: ["all", "design", "dell", "norton", "pc", "computer", "desktop", "applications", "sucks"]
 atomid: http://ben-ward.co.uk/?p=292
 ---
 One of the most regular parts of my Christmas/Easter/Summer break from university is PC maintenance. Something is usually broken and needs fixing on one of the PC's in my household.
 
-This Christmas has been a bumper session: Nathan set his <abbr title="Front Side Bus">FSB</abbr> too high and couldn't boot, the family machine's heatsink was so full of dust that the CPU was running 25� higher than it should and crashing the machine. Also, my Gran got a Dell.
+This Christmas has been a bumper session: Nathan set his <abbr title="Front Side Bus">FSB</abbr> too high and couldn't boot, the family machine's heatsink was so full of dust that the CPU was running 25° higher than it should and crashing the machine. Also, my Gran got a Dell.
 
-Gran getting a computer is going to take a bit of effort on all sides. She's never had a computer before and needs to learn from the very beginning (�right click or left click?�). That's not a problem though; I'm all for taking a bit of time to teach her to browse the net and send email. The tool for the job, however�
+Gran getting a computer is going to take a bit of effort on all sides. She's never had a computer before and needs to learn from the very beginning (‘right click or left click?’). That's not a problem though; I'm all for taking a bit of time to teach her to browse the net and send email. The tool for the job, however…
 
-Dell. Not the most reputable retailer in the world, sure, but even so, you expect a certain level of quality. Instead, I find affiliate ISP kickback offers tacked on to the end of the first-time-setup for Windows XP. A disguised set of �special offers� for internet services with AOL, Tiscali and Wanadoo. Now I can accept a bit of bundling (heck, Firefox is included), but this is in a Windows XP set-up where you configure system settings, not sign up for free trials.
+Dell. Not the most reputable retailer in the world, sure, but even so, you expect a certain level of quality. Instead, I find affiliate ISP kickback offers tacked on to the end of the first-time-setup for Windows XP. A disguised set of ‘special offers’ for internet services with AOL, Tiscali and Wanadoo. Now I can accept a bit of bundling (heck, Firefox is included), but this is in a Windows XP set-up where you configure system settings, not sign up for free trials.
 
 Two further attempts to make me sign up for the bundled ISPs follow before I eventually get to the Windows desktop.
 
-Now some trouble. This is why the title is �computers suck�, rather than just singling out Dell for having no soul. Norton Internet Security: Run the automatic update on a fresh install and watch in amazement when, having forced you to restart the computer, it proceeds to spawn an installation error related to Norton Anti-Virus.
+Now some trouble. This is why the title is ‘computers suck’, rather than just singling out Dell for having no soul. Norton Internet Security: Run the automatic update on a fresh install and watch in amazement when, having forced you to restart the computer, it proceeds to spawn an installation error related to Norton Anti-Virus.
 
-It's trying to run a �repair� operation, but the NAV setup app doesn't support repair, so I'm advised to uninstall and install it again. Dell don't provide product CDs, and NAV is actually working fine anyway. The prompt can't be subdued and now it will appear every single time Gran starts up the PC. Her first lesson in �ignoring dialogs and just clicking OK� is complete after only three reboots.
+It's trying to run a ‘repair’ operation, but the NAV setup app doesn't support repair, so I'm advised to uninstall and install it again. Dell don't provide product CDs, and NAV is actually working fine anyway. The prompt can't be subdued and now it will appear every single time Gran starts up the PC. Her first lesson in ‘ignoring dialogs and just clicking OK’ is complete after only three reboots.
 
 We've got her an email address on Gmail, since I have a theory that we'll be more successful teaching her to use one application (Firefox) rather than two (Firefox and Thunderbird), although it's touch and go given the dubious design of the Gmail UI. At least she can get to it from any computer in future though, which remains my major quibble with desktop email.
 
-Mum sent some pictures. We tried to open them in the default image viewer on the Dell machine. Oh. Good. God. All we wanted was to look at a photograph. No! First we must be greeted by the Paint Shop Pro Studio Library Thing �welcome� wizard, read some tiny text and click a mispositioned �continue� button. Then an EULA, woo! Finally, the image is loaded in the background, whilst a whopping great big �What do you want to do?� splash is popped up over the top of it. It's one of the worst computing experiences I've ever witnessed. Preview.app it ain't.
+Mum sent some pictures. We tried to open them in the default image viewer on the Dell machine. Oh. Good. God. All we wanted was to look at a photograph. No! First we must be greeted by the Paint Shop Pro Studio Library Thing ‘welcome’ wizard, read some tiny text and click a mispositioned ‘continue’ button. Then an EULA, woo! Finally, the image is loaded in the background, whilst a whopping great big ‘What do you want to do?’ splash is popped up over the top of it. It's one of the worst computing experiences I've ever witnessed. Preview.app it ain't.
 
 So today I realised solmething about those quirks of UI design, the faults which those of us more experienced ignore and take for granted. <strong>They're not acceptable and they cannot be allowed to last</strong>.
 
@@ -66,7 +66,7 @@ The internet is in the middle of a royal kick-up-the-arse as regards usability a
       <a class="permalink" rel="bookmark" href="#comment-640">
         <time class="published" datetime="2005-12-30T12:57:15-01:00">30 Dec 2005, 12:57</time>
       </a>
-      <div class="entry-content"><p>On related note: One of the reasons we didn&#8217;t get her a Mac was because it will cause mass confusion when she takes computer classes locally and is taught to use Windows, only to disregard everything that starts with �click on the start menu� at home.</p>
+      <div class="entry-content"><p>On related note: One of the reasons we didn&#8217;t get her a Mac was because it will cause mass confusion when she takes computer classes locally and is taught to use Windows, only to disregard everything that starts with ‘click on the start menu’ at home.</p>
 <p>Has anyone ever heard of general public computer training that uses Macs?</p></div>
     </article></li>
     <li><article class="hentry" id="comment-641">
@@ -110,7 +110,7 @@ The internet is in the middle of a royal kick-up-the-arse as regards usability a
       <a class="permalink" rel="bookmark" href="#comment-650">
         <time class="published" datetime="2006-01-02T20:04:00-01:00">02 Jan 2006, 20:04</time>
       </a>
-      <div class="entry-content"><p>Mac Mini at �359 on a student budget when it&#8217;s only been a couple of months since I bought my desktop upgrades? I wish :D</p>
+      <div class="entry-content"><p>Mac Mini at £359 on a student budget when it&#8217;s only been a couple of months since I bought my desktop upgrades? I wish :D</p>
 <p>If I really want Mac-ish-ness, I just need to use my fiancee&#8217;s iBook, or my Linux laptop (with a lot of imagination! It does have a good Mac-rip skin at the moment, though).</p>
 <p>Nah, I&#8217;m just going to have to wait until I have a job and lots of money so that mine and my fiancee/wife&#8217;s (whichever she is at the time) house can have a nice techy room with some good computers and lots of gadgets :) She likes Macs, hates Windows/Microsoft and is even heading towards standards compliance and usability on her website, so I&#8217;ve got support :)</p></div>
     </article></li>

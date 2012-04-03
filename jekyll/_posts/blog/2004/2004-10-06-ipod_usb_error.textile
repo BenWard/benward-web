@@ -2,13 +2,13 @@
 layout: blog
 category: blog
 title: "iPod. It arrived. Who said it would be easy?"
-date: "2004-10-06T23:59:30+00:00"
+date: "2004-10-06T23:59:30+01:00"
 tags: ["all", "technology", "general", "music"]
 atomid: tag:benward.me,2004-10-06:/blog/ipod_usb_error
 ---
 Somewhere in the cosmos, someone has it in for me.
 
-They couldn't break my iPod in transit, but they could sure as hell give me the fright of my life when it did arrive. 
+They couldn't break my iPod in transit, but they could sure as hell give me the fright of my life when it did arrive.
 Most iPod owners happily admit that the iPod software update program that you have to run to get it working, is a bit cack. Very cack, let's say. Well, it's error handling is also pretty awful.
 
 My new USB2 card wasn't shipping enough power to it to apply the update (or connect into iTunes, for that matter). Rather than inform me of this though, I got an error message reading: "Could not apply firmware. Disk write error". Now, if I got that error on my PC I'd be scared. It screams 'knackered hard disk'. Therefore seeing it on a brand new iPod (which took 2 weeks to be delivered) is positively terrifying. In fact, what it meant to say was "Not enough power, plug me into a powered hub instead please". Why it can't do this is beyond me.

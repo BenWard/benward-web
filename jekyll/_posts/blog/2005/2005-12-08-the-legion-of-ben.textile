@@ -2,8 +2,7 @@
 layout: blog
 category: blog
 title: "The Legion of Ben"
-date: "2005-12-08T23:14:08-01:00"
-updated: "2005-12-08T23:14:49-01:00"
+date: "2005-12-08T23:14:08+00:00"
 tags: ["all", "the-legion-of-ben", "ben", "lastfm"]
 atomid: http://ben-ward.co.uk/journal/the-legion-of-ben/
 ---

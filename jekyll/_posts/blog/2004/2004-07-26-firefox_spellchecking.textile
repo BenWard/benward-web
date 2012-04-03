@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "Firefox Spellchecking"
-date: "2004-07-26T00:25:30+00:00"
+date: "2004-07-26T00:25:30+01:00"
 tags: ["technology"]
 atomid: tag:benward.me,2004-07-26:/blog/firefox_spellchecking
 ---

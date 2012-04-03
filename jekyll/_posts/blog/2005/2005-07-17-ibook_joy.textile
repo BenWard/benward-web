@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "iBook followup: I love�"
-date: "2005-07-17T23:51:08+00:00"
+date: "2005-07-17T23:51:08+01:00"
 tags: ["all", "technology", "general"]
 atomid: tag:benward.me,2005-07-17:/blog/ibook_joy
 ---

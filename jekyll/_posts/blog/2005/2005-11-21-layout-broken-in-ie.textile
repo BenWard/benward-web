@@ -2,8 +2,7 @@
 layout: blog
 category: blog
 title: "Ben-Ward.co.uk in Internet Explorer"
-date: "2005-11-21T14:26:54-01:00"
-updated: "2005-11-21T14:27:50-01:00"
+date: "2005-11-21T14:26:54+00:00"
 tags: ["all", "bugs", "internet-explorer", "google-analytics", "stats"]
 atomid: http://ben-ward.co.uk/journal/internet-explorer/
 ---
@@ -35,8 +34,8 @@ In related news, <a href="http://google.com/analytics">Google Analytics</a> reck
       <a class="permalink" rel="bookmark" href="#comment-447">
         <time class="published" datetime="2005-11-21T17:06:28-01:00">21 Nov 2005, 17:06</time>
       </a>
-      <div class="entry-content"><p>I&#8217;m generally an �any browser� kind of guy, but the issues with IE here were only going to be temporary when I intended to reboot back at the beginning of the month. It seems just to be some mis-sized margins and screwy floats so it&#8217;s probably only an hour&#8217;s work to fix.</p>
-<p>And yes, Analytics seems like another smart aquisition for Google. I do want to try Mint out, but will need to wait until the interactive demo is alive again to judge it. And take a look to see if its �Peppers� are offering up functionality over what Google has going for it. MeasureMap is also of interest, but I&#8217;ve not been invited into the alpha yet.</p></div>
+      <div class="entry-content"><p>I&#8217;m generally an ‘any browser’ kind of guy, but the issues with IE here were only going to be temporary when I intended to reboot back at the beginning of the month. It seems just to be some mis-sized margins and screwy floats so it&#8217;s probably only an hour&#8217;s work to fix.</p>
+<p>And yes, Analytics seems like another smart aquisition for Google. I do want to try Mint out, but will need to wait until the interactive demo is alive again to judge it. And take a look to see if its ‘Peppers’ are offering up functionality over what Google has going for it. MeasureMap is also of interest, but I&#8217;ve not been invited into the alpha yet.</p></div>
     </article></li>
     <li><article class="hentry" id="comment-448">
       <div class="author vcard">
@@ -81,7 +80,7 @@ In related news, <a href="http://google.com/analytics">Google Analytics</a> reck
       <a class="permalink" rel="bookmark" href="#comment-452">
         <time class="published" datetime="2005-11-25T12:45:20-01:00">25 Nov 2005, 12:45</time>
       </a>
-      <div class="entry-content"><p>Sidebars pushed down is 99% likely the IE float margins bug, so a * html rule should be able to correct it. IE7 claims to have fixed it (when they release it next year�)</p></div>
+      <div class="entry-content"><p>Sidebars pushed down is 99% likely the IE float margins bug, so a * html rule should be able to correct it. IE7 claims to have fixed it (when they release it next year…)</p></div>
     </article></li>
     <li><article class="hentry" id="comment-453">
       <div class="author vcard">

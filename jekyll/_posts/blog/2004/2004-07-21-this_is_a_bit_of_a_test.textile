@@ -1,8 +1,8 @@
 ---
 layout: blog
 category: blog
-title: "This is a bit of a test..."
-date: "2004-07-21T23:47:31+00:00"
+title: "This is a bit of a test…"
+date: "2004-07-21T23:47:31+01:00"
 tags: ["technology"]
 atomid: tag:benward.me,2004-07-21:/blog/this_is_a_bit_of_a_test
 ---

@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "iTunes buggerage"
-date: "2005-04-18T00:24:20+00:00"
+date: "2005-04-18T00:24:20+01:00"
 tags: ["technology"]
 atomid: tag:benward.me,2005-04-18:/blog/itunes_bug
 ---

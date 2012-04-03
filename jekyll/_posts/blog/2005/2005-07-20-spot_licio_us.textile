@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "Spot.licio.us"
-date: "2005-07-20T22:00:32+00:00"
+date: "2005-07-20T22:00:32+01:00"
 tags: ["technology"]
 atomid: tag:benward.me,2005-07-20:/blog/spot_licio_us
 ---

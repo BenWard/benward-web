@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "Events in London"
-date: "2005-07-07T13:24:42+00:00"
+date: "2005-07-07T13:24:42+01:00"
 tags: ["all", "general"]
 atomid: tag:benward.me,2005-07-07:/blog/london_bomb
 ---

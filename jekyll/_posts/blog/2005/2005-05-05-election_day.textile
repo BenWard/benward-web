@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "Election Day"
-date: "2005-05-05T09:07:46+00:00"
+date: "2005-05-05T09:07:46+01:00"
 tags: ["all", "general"]
 atomid: tag:benward.me,2005-05-05:/blog/election_day
 ---

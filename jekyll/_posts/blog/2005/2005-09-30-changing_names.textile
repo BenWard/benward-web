@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "The Internet needs deed polls"
-date: "2005-09-30T10:48:00+00:00"
+date: "2005-09-30T10:48:00+01:00"
 tags: ["all", "internet", "blogging", "identity", "ben_ward"]
 atomid: tag:benward.me,2005-09-30:/blog/changing_names
 ---

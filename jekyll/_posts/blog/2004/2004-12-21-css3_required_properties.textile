@@ -3,7 +3,7 @@ layout: blog
 category: blog
 title: "CSS3 Proposal - !required properties and styles"
 date: "2004-12-21T23:32:25+00:00"
-tags: ["all", "web_standards"]
+tags: ["all", "web-standards"]
 atomid: tag:benward.me,2004-12-21:/blog/css3_required_properties
 ---
 This was posted to the CSS public mailing list (www-style) today.
