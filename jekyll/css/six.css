@@ -1,11 +1,10 @@
 /* benward.me v6.0.0 */
-/* I swear that v7 will be the real thing. Maybe. */
 
 html {
   margin: 0 auto;
   max-width: 35em;
   background: #E8EDF1; /*#f4f4f4;*/
-  font: 100%/150% serif;
+  font: 100%/150% "museo-sans-1","museo-sans-2", serif;
 }
 
 body { margin: 0 16px; }
@@ -38,14 +37,14 @@ header h1 a:visited {
 }
 
 article {
-  font-family: serif;
+  font-family: "acuta-1","acuta-2", serif;
   font-weight: 200;
 }
 
 article h1,
 article h2,
 article h3 {
-  font-family: sans-serif;
+  font-family: "museo-sans-1","museo-sans-2", sans-serif;
   font-weight: bold;
 }
 
