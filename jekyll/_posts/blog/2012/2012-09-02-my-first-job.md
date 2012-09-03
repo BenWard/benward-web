@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "A letter to a stranger on choosing your first tech job"
-date: "2012-09-02T19:04:36-07:00"
+date: "2012-09-02T19:51:00-07:00"
 summary: "As a response to [Laura's Branch](http://branch.com/b/first-tech-job-offers-advice), I've expanded on my first two post-graduate experiences working at a pre-launch start-up and working at Yahoo, in the form of advice over which type of company a new graduate might choose to work in."
 tags: [work, startups, tech, employment, experience]
 geo:
