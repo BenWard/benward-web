@@ -17,7 +17,7 @@ layout: nil
  <entry>
    <id>{% if post.atomid %}{{post.atomid}}{% else %}{{post | generate_tag_id}}{% endif %}</id>
    <title>{{post.title}}</title>
-   <link href="{{site.url}}{{post.url}}"/>
+   <link href="{% if post.canonical %}{{post.canonical}}{% else %}{{site.url}}{{post.url}}{% endif %}"/>
    <link rel="shortlink" href="{{short_url}}"/>
    {% if post.updated %}<published>{{post.global_date}}</published>
    <updated>{{post.updated}}</updated>

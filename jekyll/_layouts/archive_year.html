@@ -20,7 +20,7 @@ layout: base
     <ul>
     {% endif %}
     <li><article class="hentry">
-      <h3><a rel="bookmark" href="{{post.url}}">{{post.title}}</a></h3>
+      <h3><a rel="bookmark" href="{% if post.canonical %}{{post.canonical}}{% else %}{{post.url}}{% endif %}">{{post.title}}</a></h3>
       <time class="published" datetime="{{post.global_date}}">{{post.global_date | date: site.dateformat}}</time>
       <div class="entry-summary">{% if post.summary %}{{post.summary}}{% else %}{{post.excerpt}}{% endif %}</div>
     </article></li>
