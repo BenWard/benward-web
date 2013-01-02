@@ -3,7 +3,7 @@ layout: blog
 category: blog
 title: "On Writing"
 date: "2013-01-01T18:39:20+00:00"
-summary: "Throughout 2012 I got to enjoy writing regularly for The Pastry Box. In illustrious company I got to join in the great pleasure of writing for an audience, writing to a deadline, and having people give me ffeedback on my drafts. I had a really really good time doing it, so here's a short reflection on the work noow the year is done and Pastry Box is handing off to new authors." 
+summary: "Throughout 2012 I got to enjoy writing regularly for The Pastry Box. In illustrious company I got to join in the great pleasure of writing for an audience, writing to a deadline, and having people give me feedback on my drafts. I had a really really good time doing it, so here's a short reflection on the work now the year is done and Pastry Box is handing off to new authors." 
 tags: [pastry-box, writing]
 geo:
   name: Cambridge"
