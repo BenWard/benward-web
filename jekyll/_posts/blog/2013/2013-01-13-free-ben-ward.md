@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 title: "Free! Ben Ward"
-date: "2013-01-03T15:47:00+00:00"
+date: "2013-01-13T15:47:00+00:00"
 summary: "So it is that I find myself starting 2013 in London, rather than my regular location of San Francisco. Back on December 19th I stopped by the US embassy for a routine update to the H1-B stamp in my passport, but now I'm still here, having been held up in some additional processing with no specified duration, and very little information upon which to estimate the delay. Here are my thoughts on coping with the simultaneous upset of missing San Francisco, and excitement of being stranded in one of the greatest cities in the world."
 tags: [travel, visa, immigration, london]
 geo:
