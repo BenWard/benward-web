@@ -13,7 +13,7 @@ It should always be in the back of your mind when you take a job in another coun
 
 “No you don't,” came the reply, “you only work here.”
 
-So it is that I find myself starting 2013 in London, rather than my regular location of San Francisco. Back on December 19th I stopped by the US embassy for a routine update to the H1-B stamp in my passport, but now I'm still here, having been held up in some additional processing with no specified duration, and very little information upon which to estimate the delay.
+So it is that I find myself starting 2013 in London, rather than my regular location of San Francisco. Back on December 19th I stopped into the US embassy for a routine update to the H1-B stamp in my passport, but I'm still here, having been held up in  additional processing with no specified duration, and very little information upon which to estimate the delay.
 
 I missed my flight back to the US on January 2nd, and now I'm holed up, nearly a month later, waiting for the column that reads “Pending” to instead read “Send Passport.“ In time I have every confidence that it will.
 
@@ -27,7 +27,7 @@ It's not really so clearly optimistic in my head, but that's the pitch. In reali
 
 The second thing is the denial of decompression. Christmas is a time of year that I enjoy immensely. I'm blessed with a large family who I love, and I make an annual trip at Christmas because we all come home for it. Siblings, grandparents, cousins, aunts and uncles, all in the space of a few days. Plus visiting London as well, sleeping on those floors and temporary beds for a couple of weeks makes for a busy time.
 
-Previously when returning to San Francisco, to the apartment that I rent by myself, I don't rush out to see people. I take a few days and a weekend to unwind, sleep in my own bed, and breathe out. I'm lucky that Christmas is mostly a relaxing time for me, but still, my own space in my own company is rather cherished.
+Previously when returning to San Francisco, to the apartment I rent by myself, I don't rush out to see people. I take a few days and a weekend to unwind, sleep in my own bed, and breathe out. I'm lucky that Christmas is mostly a relaxing time for me, but still, my own space in my own company is rather cherished.
 
 I can't relax like that here. I'm in a perfectly fine AirBnB flat which I've rented for two weeks. Enough to settle down and take a little time to myself I hope, but not so long as to wipe out my savings paying double rent. Its fine, it's functional, but it's certainly not *my* space. New noises, different neighbourhood, strange smells and the overbearing awareness that I don't know how long I'll be here doesn't relax me. I'm getting there slowly, establishing a slightly dull routine, but I wish I could lie on my floor and play records.
 
@@ -37,7 +37,7 @@ Besides the big thing, I'm worried about having to figure out how to do ‘Bill 
 
 I worry about spending my birthday here. Not that it would be bad to, just that it's not what I expected to happen.
 
-I guess, while there's an excited twinkle at some of the opportunities in London—lunches in pubs, the architecture, parks, museums that I never visited before, Indian food and an amble supply of Crunchy Nut Cornflakes—the reality is that it isn't home any more. I can pretend to live here, and that will be fun, but I can't pretend to recover and relax. Much of the mental wellbeing of being in the place where I'm settled will be deferred.
+I guess, while there's an excited twinkle at some of the opportunities in London—lunches in pubs, the architecture, parks, museums that I never visited before, Indian food and an ample supply of Crunchy Nut Cornflakes—the reality is that it isn't home any more. I can pretend to live here, and that will be fun, but I can't pretend to recover and relax. Much of the mental wellbeing of being in the place where I'm settled will be deferred.
 
 “Home” is a weird concept now. I'll save that to write about another day. But regardless, here I am. I'm mostly happy, most of the time. And though the drinks are really very expensive, I'm resolute to make something fun out of this snafu.
 
