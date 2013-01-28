@@ -21,8 +21,8 @@ London even granted me the immense pleasure of snow last week. We watched it fal
 
 We cosied up in pubs like The North Pole, and played Settlers of Catan in dim light, listening to a local jazz singer, and slowly worked down the burgeoning list of of London's darkest independent stout and porter brews.
 
-I doubt it's that London has gotten dramatically more interesting in the past four years—although that may have happened—it's that these friends I kept digging under the surface while I'll was gone. Now when I visit I get pulled past what I know to enjoy everything they've found since. It's like [David](http://dsingleton.co.uk) kept playing our original save game when I left, and now gives me an anachronic summary of what happened since I left off (“After the mini-boss on level five we unlocked a sourdough bakery under London Fields, and all of the beer in our inventory was brewed in the same postcode.”)
+I doubt it's that London has gotten dramatically more interesting in the past four years—although that may have happened—it's that these friends of mine kept digging under the surface while I'll was gone. Now when I visit I get pulled dragged the last checkpoint to enjoy everything they've found since. It's like [David](http://dsingleton.co.uk) kept playing our original save game when I left, and now gives me an anachronic summary of what happened since I left off (“After the mini-boss on level five we unlocked a sourdough bakery under London Fields, and all of the beer in our inventory was brewed in the same postcode.”)
 
-How lucky am I that while stuck in an information vacuum left by the shambolic method of the USCIS, refreshing a page to read back my “pending” status every few days, I can be here. Comfortable, surrounded by friends, casually playing my life. 
+How lucky am I that while stuck in an information vacuum left by the shambolic method of the USCIS, refreshing a page to read back my “pending” status every few days, I can be here. Comfortable, surrounded by friends, casually playing my life.
 
 London is cold. I'm warm.
