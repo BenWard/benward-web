@@ -1,16 +1,13 @@
-<!-- Twitter -->
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-<!-- Typekit -->
-<script>!function(h,config){h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s);}(document.getElementsByTagName("html")[0],{kitId:'dka8sjx',scriptTimeout:3000});</script>
-<!-- Analytics -->
 <script>
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-35757715-1']);
-  _gaq.push(['_setDomainName', 'benward.me']);
-  _gaq.push(['_trackPageview']);
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
+var _gauges = _gauges || [];
+!function(){
+  var d=document,s='script',fjs;
+  function el(t){return d.getElementsByTagName(t)}
+  fjs=el(s)[0];
+  function ex(i){return d.getElementById(i)}
+  function scr(i,src){var r=d.createElement(s);r.id=i;r.src=src;return r}
+  function ins(s){fjs.parentNode.insertBefore(s,fjs)}
+  !function(id){if(!ex(id)){ins(scr(id,"//platform.twitter.com/widgets.js"))}}("twitter-wjs");
+  !function(id){var j=scr(id,'//secure.gaug.es/track.js');j.setAttribute('data-site-id','515a7c52108d7b061f000024');ins(j)}('gauges-js');
+  !function(id,to){var h=el('html')[0],j=scr('tk-js','//use.typekit.net/'+id+'.js'),l=false,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g," ");h.className+=" wf-inactive"},to);h.className+=" wf-loading";j.onload=j.onreadystatechange=function(){var r=this.readyState;if(l||r&&r!="complete"&&r!="loaded")return;l=true;clearTimeout(t);try{Typekit.load({kitId:id,scriptTimeout:to})}catch(b){}};ins(j)}('dka8sjx',3000);
+}();</script>
