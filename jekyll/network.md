@@ -60,4 +60,4 @@ The internet is of a rather fine decentralised construction, and as such you'll 
 ## Alternatives to this site
 
 * <a rel="me alternate feed" type="text/html" href="https://twitter.com/benwwward">@benwwward on Twitter</a> <a class="twitter-follow-button" href="http://twitter.com/benwwward" data-show-count="false" data-show-screen-name="false">(Follow)</a>. Posts links to new entries.
-* <a rel="me" href="https://blog.benward.me">A (presently separate) blog on Tumblr</a>
+* <a rel="me" href="http://blog.benward.me">A (presently separate) blog on Tumblr</a>
