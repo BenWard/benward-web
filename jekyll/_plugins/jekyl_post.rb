@@ -7,6 +7,7 @@ module Jekyll
 
     # Add an additional 'global_date' property to the liquid template that
     # maintains timezones for published dates.
+    # base_liquid doesn't call super, so we alias it instead.
     alias :base_liquid :to_liquid
     def to_liquid
       self.summary ||= if self.data["summary"]
@@ -15,10 +16,14 @@ module Jekyll
         self.summary = html_preview(converter.convert(self.content))
       end
 
+      gitslug = self.site.config['github_slug']
+      gitbase = "/" + (self.site.config['git_base'] || "")
+
       base_liquid.merge({
         "global_date" => self.data["date"].is_a?(String) ? DateTime.parse(self.data["date"]) : self.data["date"],
         "summary" => (self.summary if self.summary),
-        "url" => output_url
+        "url" => output_url,
+        'github_source_url' => "https://github.com/#{gitslug}/tree/master#{gitbase}/_posts/#{@name}"
       })
     end
 
