@@ -4,7 +4,7 @@ title: "Everywhere Else"
 ---
 # Everywhere Else
 
-The internet is of a rather fine decentralised construction, and as such you'll find me not just on my own pages here, but also sharecropping on various other services as convenient and desirable.
+The internet is of a rather fine decentralised construction and as such you'll find me not just on my own pages here, but also sharecropping on various other services as convenient and desirable.
 
 ## Communication and Social Networks
 
@@ -23,6 +23,7 @@ The internet is of a rather fine decentralised construction, and as such you'll 
 
 * <a rel="me" href="http://pinboard.in/u:benward">BenWard on Pinboard</a>
 * <a rel="me" href="http://stellar.io/benward/">benward on Stellar</a>
+* <a rel="me" href="https://lumi.do/user/BenWard">BenWard on Lumi</a>
 
 ## Music
 
@@ -32,11 +33,12 @@ The internet is of a rather fine decentralised construction, and as such you'll 
 * <a rel="me" href="http://www.songkick.com/users/benward">BenWard on Songkick</a>
 * <a rel="me" href="http://www.rdio.com/people/benward/">BenWard on Rdio</a>
 * <a rel="me" href="http://soundcloud.com/bnwrd">bnwrd on Soundcloud</a>
+* <a rel="me" href="http://twitter.com/onvinyl">@onvinyl on Twitter</a> publishes playback from my turntable.
 
 ## Photography and Art
 
 * <a rel="me" href="http://flickr.com/photos/benward">BenWard on Flickr</a>
-* BenWard on Instagram (viewable via <a rel="me" href="http://web.stagram.com/n/benward/">webstagram</a>)
+* <a rel="me" href="http://instagram.com/benward">BenWard on Instagram</a>
 * <a rel="me" href="http://500px.com/benward">BenWard on 500px</a>
 * <a rel="me" href="http://canv.as/user/benward">BenWard on Canvas</a>
 * <a rel="me" href="http://skitch.com/benward">BenWard on Skitch</a>
@@ -60,4 +62,3 @@ The internet is of a rather fine decentralised construction, and as such you'll 
 ## Alternatives to this site
 
 * <a rel="me alternate feed" type="text/html" href="https://twitter.com/benwwward">@benwwward on Twitter</a> <a class="twitter-follow-button" href="http://twitter.com/benwwward" data-show-count="false" data-show-screen-name="false">(Follow)</a>. Posts links to new entries.
-* <a rel="me" href="http://blog.benward.me">A (presently separate) blog on Tumblr</a>
