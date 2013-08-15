@@ -1,7 +1,7 @@
 ---
 layout: base
 ---
-<section class="hfeed archives annual">
+<section class="h-feed archives annual">
   <header>{% include archive_navigation.html %}</header>
   <h1>Posts from <time>{{page.period['year']}}</time></h1>
   {% assign section = "0" %}
@@ -19,10 +19,10 @@ layout: base
     <h2>{{post.date | date: '%B'}}</h2>
     <ul>
     {% endif %}
-    <li><article class="hentry">
-      <h3><a rel="bookmark" href="{% if post.canonical %}{{post.canonical}}{% else %}{{post.url}}{% endif %}">{{post.title}}</a></h3>
-      <time class="published" datetime="{{post.global_date}}">{{post.global_date | date: site.dateformat}}</time>
-      <div class="entry-summary">{% if post.summary %}{{post.summary}}{% else %}{{post.excerpt}}{% endif %}</div>
+    <li><article class="p-entry h-entry">
+      <h3><a class="u-url" rel="bookmark" href="{% if post.canonical %}{{post.canonical}}{% else %}{{post.url}}{% endif %}">{{post.title}}</a></h3>
+      <time class="dt-published" datetime="{{post.global_date}}">{{post.global_date | date: site.dateformat}}</time>
+      <div class="e-summary">{% if post.summary %}{{post.summary}}{% else %}{{post.excerpt}}{% endif %}</div>
     </article></li>
   {% endfor %}
     </ul>

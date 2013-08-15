@@ -1,17 +1,23 @@
 ---
 layout: base
 ---
-<article class="hentry">
-  <h1 class="entry-title">{{page.title}}</h1>
-  <p class="dateline"><time class="published" datetime="{{page.global_date}}">{{page.global_date | date: site.dateformat}}</time>.
-  {% if page.updated %}Updated: <time class="updated" datetime="{{page.updated}}">{{page.updated | date: site.dateformat}}</time>.{% endif %}
-  {% if page.geo && page.geo.name %}<span class="geo adr">
-    <span class="value-title" title="{{page.geo.xy}}"></span>
-    <span class="label">{{page.geo.name}}</span>.
-  </span>{% endif %}</p>
-  <div class="entry-content">{{content}}</div>
+<article class="h-entry">
+  <h1 class="p-name">{{page.title}}</h1>
+  <div class="dateline">
+    <p class="time">
+      <time class="dt-published" datetime="{{page.global_date}}">{{page.global_date | date: site.dateformat}}</time>.
+      {% if page.updated %}Updated: <time class="dt-updated" datetime="{{page.updated}}">{{page.updated | date: site.dateformat}}</time>.{% endif %}
+    </p>
+    {% if page.geo && page.geo.name %}
+    <p class="place">
+      {% if page.geo.xy %}<data clas="p-geo h-geo" value="{{page.geo.xy}}"></data>{% endif %}
+      <span class="p-adr">{{page.geo.name}}</span>
+    </p>
+    {% endif %}
+  </div>
+  <div class="e-content">{{content}}</div>
   <ul class="tags">{% for tag in page.tags %}
-    <li><a rel="tag" href="/tags/{{tag}}">{{tag}}</a></li>{% endfor %}
+    <li><a class="p-category" rel="tag" href="/tags/{{tag}}">{{tag}}</a></li>{% endfor %}
   </ul>
   {% include share.html %}
   <footer><nav>

@@ -1,6 +1,6 @@
-<article class="hentry">
-  <h2><a rel="bookmark" href="{% if post.canonical %}{{post.canonical}}{% else %}{{post.url}}{% endif %}">{{post.title}}</a></h2>
-  <p class="dateline"><time class="published" datetime="{{post.global_date}}">{{post.global_date | date: site.dateformat}}</time></p>
+<article class="h-entry">
+  <h2><a class="u-url" rel="bookmark" href="{% if post.canonical %}{{post.canonical}}{% else %}{{post.url}}{% endif %}">{{post.title}}</a></h2>
+  <p class="dateline"><time class="dt-published" datetime="{{post.global_date}}">{{post.global_date | date: site.dateformat}}</time></p>
   {{post.real_url}}
-  {% if post.summary %}<div class="entry-summary">{{post.summary}}</div>{% endif %}
+  {% if post.summary %}<div class="e-summary">{{post.summary}}</div>{% endif %}
 </article>
