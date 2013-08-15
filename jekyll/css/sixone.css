@@ -1,10 +1,29 @@
-/* benward.me v6.0.0 */
+/* benward.me v6.1.0 */
+
+/* Font Sets */
+
+html,
+h1, h2, h3,
+article .dateline,
+ul.tags {
+  font: 100%/150% "Alte Haas Grotesk", serif;
+}
+
+article {
+  font-family: "Chapparral Pro", "Minion Pro", serif;
+  font-weight: 200;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+/* Site */
 
 html {
   margin: 0 auto;
   max-width: 35em;
   background: #E8EDF1; /*#f4f4f4;*/
-  font: 100%/150% "museo-sans-1","museo-sans-2", serif;
 }
 
 body { margin: 0 16px; }
@@ -19,10 +38,6 @@ body > section {
 body > article,
 body > section {
   background: #fff;
-  -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
-  -o-box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
-  -ms-box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
 }
 
@@ -36,20 +51,13 @@ header h1 a:visited {
   color: #000;
 }
 
-article {
-  font-family: "acuta-1","acuta-2", serif;
-  font-weight: 200;
-}
-
-article h1,
-article h2,
-article h3 {
-  font-family: "museo-sans-1","museo-sans-2", sans-serif;
-  font-weight: bold;
-}
-
 article .dateline {
-  margin-bottom: 24px;
+  margin: 12px 0;
+  font-size: 12px;
+}
+
+article .dateline p {
+  margin: 0 0 8px;
 }
 
 h1 {
@@ -141,7 +149,7 @@ article img {
   margin: 0 -32px;
 }
 
-body > article > .entry-content > blockquote:first-child {
+body > article > .e-content > blockquote:first-child {
   border: 0;
   font-size: 200%;
   line-height: 130%;
@@ -169,51 +177,55 @@ article .pull-right {
 }
 
 /** Section: Archive Navigation */
-section.hfeed header,
 article header,
-section.hfeed footer,
-article footer {
+article footer,
+section.h-feed header,
+section.h-feed footer {
   margin: 16px -32px -32px -32px;
   padding: 0 32px;
   border: 1px #ccc solid;
   border-width: 1px 0 0 0;
 }
 
-section.hfeed header,
+section.h-feed footer.tweets {
+  margin-top: 32px;
+  padding: 20px 20px 16px; /* less the Twitter padding */
+}
+
+section.h-feed header,
 article header {
   margin: -32px -32px 16px -32px;
   border-width: 0 0 1px 0;
 }
 
-section.hfeed article {
+section.h-feed article {
   margin-bottom: 32px;
 }
 
-section.hfeed nav a,
-article.hentry nav a {
+section.h-feed nav a,
+article.h-entry nav a {
   display: inline-block;
   text-align: center;
   margin: 16px 0;
   white-space: nowrap;
 }
 
-section.hfeed nav a:first-child,
+section.h-feed nav a:first-child,
 article nav a:first-child {
   text-align: left;
 }
-section.hfeed nav a:last-child,
+section.h-feed nav a:last-child,
 article nav a:last-child {
   text-align: right;
-  float: right;
 }
 
-section.hfeed nav a,
-article.hentry nav a {
-  width: 32%;
+section.h-feed nav a,
+article.h-entry nav a {
+  width: 33%;
 }
 
-section.hfeed.annual nav a,
-section.hfeed.recent nav a {
+section.h-feed.annual nav a,
+section.h-feed.recent nav a {
   width: 49%;
 }
 
@@ -255,10 +267,6 @@ body > footer .footnote a {
   background-size: 640px auto;
   position: relative;
   color: #fff;
-  -webkit-box-shadow: inset 0 0 24px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: inset 0 0 24px rgba(0, 0, 0, 0.5);
-  -o-box-shadow: inset 0 0 24px rgba(0, 0, 0, 0.5);
-  -ms-box-shadow: inset 0 0 24px rgba(0, 0, 0, 0.5);
   box-shadow: inset 0 0 48px rgba(0, 0, 0, 0.5);
 }
 .cover p {
@@ -284,7 +292,6 @@ body > footer .footnote a {
 
 /** Section: Post tags */
 ul.tags {
-  font-family: Verdana,sans-serif;
   padding: 0;
 }
 ul.tags li {
@@ -294,14 +301,6 @@ ul.tags li {
   list-style: none;
   padding: 3px;
   border-radius: 3px;
-  -ms-box-shadow: 0 0 1px rgba(0,0,0,0.7),
-                  inset 0 0 15px rgba(0, 0, 0, 0.1);
-  -o-box-shadow: 0 0 1px rgba(0,0,0,0.7),
-                 inset 0 0 15px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 0 1px rgba(0,0,0,0.7),
-                  inset 0 0 15px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0 0 1px rgba(0,0,0,0.7),
-                     inset 0 0 15px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 1px rgba(0,0,0,0.7),
               inset 0 0 15px rgba(0, 0, 0, 0.1);
   background: #eee;
@@ -328,6 +327,47 @@ ul.tags li a {
   background: none;
 }
 
+/** Section: Button */
+.button:link,
+.button:active,
+.button:visited,
+.button:hover,
+.button:focus {
+  display: inline-block;
+  background-color: #f8f8f8;
+  background-image: -moz-linear-gradient(top, #fff, #dedede);
+  background-image: -o-linear-gradient(top, #fff, #dedede);
+  background-image: -webkit-linear-gradient(top, #fff, #dedede);
+  background-image: linear-gradient(top, #fff, #dedede);
+  border: #ccc solid 1px;
+  border-radius: 3px;
+  padding: 3px;
+  color: #333;
+  font: bold 11px/18px Helvetica, sans-serif;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+  user-select: none;
+  cursor: pointer;
+  height: 18px;
+}
+
+.button:hover,
+.button:focus {
+  border-color: #A32226;
+}
+
+/** Section: Twitter Feed */
+.tweets {
+  text-align: right;
+}
+.tweets iframe.twitter-timeline-rendered {
+  width: 100%;
+}
+
+.tweets a.twitter-timeline-link {
+  display: inline-block;
+  margin-right: 12px;
+}
+
 /** Section: Legacy comments */
 #comments h2 {
   font-size: 100%;
@@ -351,7 +391,6 @@ ul.tags li a {
   top: 0; left: 0;
   width: 50px; height: 50px;
 }
-/** Section: Legacy pingbacks */
 
 /** Section: Narrow */
 @media (max-width: 420px) {
@@ -360,6 +399,10 @@ ul.tags li a {
   footer,
   body > article,
   body > section { padding: 16px; }
+  section.h-feed footer.tweets {
+  margin-top: 16px;
+  padding: 4px 4px 0; /* less the Twitter padding */
+  }
   header { padding: 32px 16px; }
   .cover { margin: -16px -16px 16px -16px; }
   .cover p { padding: 8px 16px; }
