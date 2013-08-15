@@ -1,15 +1,20 @@
 {% capture short_url %}{{site.shortdomain}}/{{page.global_date | date: "%s" | base_60}}{% endcapture %}
-<div id="respond" class="share">
-  <h2>Share &amp; Respond</h2>
+<div id="respond" class="links">
+  <h2>Links</h2>
   <p>To share this entry, or reference it in commentary of your own, link to the following:</p>
   <ul>
     <li>Permalink: <kbd><a rel="canonical nofollow" href="{{site.url}}{{page.url}}">{{site.url}}{{page.url}}</a></kbd></li>
     <li>Shortlink: <kbd><a rel="shortlink nofollow" href="{{short_url}}">{{short_url}}</a></kbd></li>
   </ul>
-  <p>
+</div>
+<div class="follow-up">
+  <p class="twitter">
     <a class="twitter-share-button" href="http://twitter.com/share?text={{page.title | cgi_escape}}&amp;via={{site.author.twitter | cgi_escape}}" data-count="none" data-align="right">Tweet</a>
     <a class="twitter-mention-button" href="http://twitter.com/intent/tweet?screen_name={{site.author.twitter | cgi_escape}}&amp;related={{site.author.twitter | cgi_escape}}" data-count="none" data-align="right">Tweet to @{{site.author.twitter}}</a>
   </p>
-  <p>You can also file issues or provide corrections via Github:
-    <a href="{{page.github_source_url}}">View source for this post</a>.
+  <p class="github">You can file issues or provide corrections:
+    <a class="button" title="View source for this post"
+       href="{{page.github_source_url}}">View Source on Github</a>.
+    <a href="https://github.com/BenWard/benward/graphs/contributors">Contributor credits.</a>
+  </p>
 </div>
