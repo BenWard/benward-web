@@ -13,7 +13,7 @@ I regularly host games nights. Sometimes we play intricate, grown up games like 
 
 Uno (or “UNO” as my iPhone keeps insisting on autocorrecting) is a game I have fond memories of as a child. Simplicity and family fun, all too easy to discard for complicated games as an adult. It's a bit tame. At work, the rules we play have evolved a bit, and what follows is a combination of those “Twitter Rules”, [Sarah](http://sourjayne.com)'s “Killer Uno” experience, and some others that rolled in as we went along.
 
-We're going to assume that you know how to play [basic Uno](http://en.wikipedia.org/wiki/Uno_(card_game)#Official_rules).
+We're going to assume that you know how to play [basic Uno](http://en.wikipedia.org/wiki/Uno_%28card_game%29#Official_rules).
 
 ## Extra Rules:
 
