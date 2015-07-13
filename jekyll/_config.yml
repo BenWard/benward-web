@@ -1,12 +1,12 @@
 ---
 title: Ben Ward
-url: http://benward.me
+url: https://benward.uk
 shortdomain: http://bnwrd.me
 github_slug: BenWard/benward
 git_base: 'jekyll'
 author:
   name: Ben Ward
-  url: http://benward.me
+  url: https://benward.uk
   twitter: benward
 layout: base
 permalink: /:categories/:title.html
