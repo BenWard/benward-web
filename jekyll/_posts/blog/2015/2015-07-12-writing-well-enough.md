@@ -4,7 +4,7 @@ category: blog
 title: "On Writing Well Enough"
 date: "2015-07-13T00:00:00-07:00"
 summary: >
-  Observations of leaving Goa.
+  I’m a man who rather enjoys the idea of writing and the art of the field more than I act on it. I’m grateful to have read a book that might inspire me to take greater care over writing.
 tags: [writing, blogging]
 geo:
   name: "San Francisco"
