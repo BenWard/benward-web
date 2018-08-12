@@ -20,9 +20,11 @@ layout: base
     <ul>
     {% endif %}
     <li><article class="p-entry h-entry">
-      <h3><a class="u-url" rel="bookmark" href="{% if post.canonical %}{{post.canonical}}{% else %}{{post.url}}{% endif %}">{{post.title}}</a></h3>
-      <time class="dt-published" datetime="{{post.global_date}}">{{post.global_date | date: site.dateformat}}</time>
-      <div class="e-summary">{% if post.summary %}{{post.summary}}{% else %}{{post.excerpt}}{% endif %}</div>
+      <h3><a class="u-url" rel="bookmark" href="{% if post.canonical %}{{post.canonical}}{% else %}{{post.clean_url}}{% endif %}">{{post.title}}</a></h3>
+      <p class="dateline"><time class="dt-published" datetime="{{post.global_date}}" title="{{post.global_date | date: site.dateformat}}">
+          {% if post.date_title %}{{post.global_date | date: site.timeformat}}{% else %}{{post.global_date | date: site.dateformat}}{% endif %}
+        </time></p>
+      {% if post.excerpt %}<div class="e-summary">{{post.excerpt | markdownify}}</div>{% endif %}
     </article></li>
   {% endfor %}
     </ul>
