@@ -1,13 +1,19 @@
 require 'date'
 
 def jekyll(opts="", path="")
-  sh "cd jekyll"
-  sh "jekyll " + opts
+  Dir.chdir('jekyll') do
+    sh "jekyll #{opts}"
+  end
 end
 
 desc "Build site using Jekyll"
 task :build do
-  jekyll
+  jekyll('build')
+end
+
+desc "Serve jekyll test site"
+task :serve do
+  jekyll('serve')
 end
 
 desc "Remove existing _sites directory"
@@ -18,9 +24,7 @@ end
 task :rebuild => [:clean, :build]
 
 desc "Rebuild the Jekyll site"
-task :default => :build do
-  jekyll
-end
+task :default => :build
 
 namespace :blog do
   desc "Create a new entry"
