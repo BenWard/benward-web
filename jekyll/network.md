@@ -56,10 +56,11 @@ The internet is of a rather fine decentralised construction and as such you'll f
 * <a rel="me" href="https://www.tripit.com/people/benward">BenWard on TripIt</a>
 * <a rel="me" href="http://www.dopplr.com/traveller/BenWard">BenWard on Dopplr</a>
 
-## Other Publications
+## Other Publications & Output
 
-* I am a founder and writer at <a rel="me" href="http://munchmun.ch/author/ben-ward/">Munch Munch</a>, a blog about food ([site](http://munchmun.ch).)
-* Throughout 2012 I'm writing a monthly article for <a rel="me" href="http://www.the-pastry-box-project.net/baker/ben-ward/">The Pastry Box</a> ([site](http://www.the-pastry-box-project.net).)
+* I present a weekly radio show, <a rel="me" href="https://bff.fm/shows/eclectic-kettle">Eclectic Kettle</a>, on BFF.fm.
+* I am a founder and writer at <a rel="me" href="http://munchmun.ch/author/ben-ward/">Munch Munch</a>, a blog about food ([site](https://munchmun.ch).)
+* Throughout 2012 I wrote a monthly article for <a rel="me" href="http://www.the-pastry-box-project.net/baker/ben-ward/">The Pastry Box</a> ([site](http://www.the-pastry-box-project.net).)
 
 ## Alternatives to this site
 
