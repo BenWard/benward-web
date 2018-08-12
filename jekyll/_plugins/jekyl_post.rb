@@ -1,55 +1,50 @@
-require 'nokogiri'
-
 module Jekyll
-  class Post
+  # TODO: Break into separate plugins for neatness
+  class BenWardPostHacks < Generator
+    safe true
 
-    attr_accessor :summary
+    def generate(site)
+      site.posts.each do |post|
+        # Add an additional 'global_date' property to the liquid template that
+        # maintains timezones for published dates.
+        post.data["global_date"] = global_date(post)
 
-    # Add an additional 'global_date' property to the liquid template that
-    # maintains timezones for published dates.
-    # base_liquid doesn't call super, so we alias it instead.
-    alias :base_liquid :to_liquid
-    def to_liquid
-      self.summary ||= if self.data["summary"]
-        self.summary = converter.convert(self.data["summary"])
-      else
-        self.summary = html_preview(converter.convert(self.content))
+        # When rendering via multiviews, remove .html extensions from permalinks
+        post.data["clean_url"] = output_url(post, site)
+
+        # Comments and corrections to github, please
+        post.data["github_source_url"] = github_url(post, site)
+
+        # We've been using 'summary' front matter for manual excerpts
+        if post.data["summary"]
+          post.data["excerpt"] = post.data["summary"]
+        end
+
+        # Tumblr posts often don't have titles, so use the timestamp instead
+        unless post.data["title"]
+          post.data["date_title"] = "true"
+          post.data["title"] = generate_title(post)
+        end
       end
+    end
 
-      gitslug = self.site.config['github_slug']
-      gitbase = "/" + (self.site.config['git_base'] || "")
+    def global_date(post)
+      post.data["date"].is_a?(String) ? DateTime.parse(post.data["date"]) : post.data["date"]
+    end
 
-      base_liquid.merge({
-        "global_date" => self.data["date"].is_a?(String) ? DateTime.parse(self.data["date"]) : self.data["date"],
-        "summary" => (self.summary if self.summary),
-        "url" => output_url,
-        'github_source_url' => "https://github.com/#{gitslug}/tree/master#{gitbase}/_posts/#{@name}"
-      })
+    def generate_title(post)
+      DateTime.parse(post.data["date"]).strftime("%B %e, %Y")
     end
 
     # Augment URLs in Liquid when using Apache Multiviews
-    def output_url
-      site.config['multiviews'] ? url.sub(/\.html$/, '') : url
+    def output_url(post, site)
+      site.config['multiviews'] ? post.url.sub(/\.html$/, '') : post.url
     end
 
-    def html_preview(content, paragraphs = 1)
-      frag = Nokogiri::HTML::DocumentFragment.parse content
-      trim_paragraphs(frag.children.first, paragraphs)
+    def github_url(post, site)
+      gitslug = site.config['github_slug']
+      gitbase = "/" + (site.config['git_base'] || "")
+      "https://github.com/#{gitslug}/tree/master#{gitbase}/_posts/#{post.name}"
     end
-
-    private
-
-    def trim_paragraphs(node, total_paragraphs, para = 0)
-      if node.nil?
-        return ""
-      elsif para >= total_paragraphs
-        node.to_html
-      else
-        para += 1 if node.node_name == 'p'
-        node.to_html + trim_paragraphs(node.next, total_paragraphs, para)
-      end
-    end
-
-
   end
 end
