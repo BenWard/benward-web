@@ -45,6 +45,7 @@ module Jekyll
 
   class ArchiveGenerator < Generator
     safe true
+    priority :normal
 
     def generate(site)
       # Write full year index:

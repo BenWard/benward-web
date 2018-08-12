@@ -1,6 +1,5 @@
 module Jekyll
   module RomanNumerals
-
     def romanize(year, numerals=false)
       numerals = numerals || {
           'M' => 1000,

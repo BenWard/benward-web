@@ -1,7 +1,5 @@
 module Liquid
-
   module StandardFilters
-
     # Redfine date: to use DateTime and preserve timezones rather than Time
     def date(input, format)
 
