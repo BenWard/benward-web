@@ -1,12 +1,13 @@
 module Jekyll
   module TagID
-
     def generate_tag_id(post)
       timestamp = post['global_date'].strftime("%F")
-      # TODO: Need to get the site URL from config within a filter. How?
-      "tag:benward.me,#{timestamp}:#{post['url']}"
-    end
 
+      # domains change
+      domain = post['global_date'] > Date.parse('2018-01-01') ? "benward.uk" : "benward.me"
+
+      "tag:#{domain},#{timestamp}:#{post['clean_url']}"
+    end
   end
 end
 
