@@ -1,16 +1,22 @@
-/* benward.me v6.1.0 */
+/* benward.me v6.2.0 */
+/* New colors
+ * Canvas: #912F56
+ * Page:#F7F7FF
+ * Body Text: #2B2D42
+ * Links: #2B6B9E
+ * Accent: #B22D43
+*/
 
 /* Font Sets */
-
 html,
 h1, h2, h3,
 article .dateline,
 ul.tags {
-  font: 100%/150% "Alte Haas Grotesk", serif;
+  font: 20px/28px sans-serif;
 }
 
 article {
-  font-family: "Chapparral Pro", "Minion Pro", serif;
+  font-family: serif;
   font-weight: 200;
 }
 
@@ -19,11 +25,11 @@ h1, h2, h3 {
 }
 
 /* Site */
-
 html {
   margin: 0 auto;
-  max-width: 35em;
-  background: #E8EDF1; /*#f4f4f4;*/
+  max-width: 38em;
+  background: #912F56;
+  color: #2B2D42;
 }
 
 body { margin: 0 16px; }
@@ -37,33 +43,43 @@ body > section {
 
 body > article,
 body > section {
-  background: #fff;
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+  background: #F7F7FF;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
 
 header h1 {
   font-size: 170%;
   margin: 0;
+  color: #F7F7FF;
+  opacity: 0.25;
 }
 
 header h1 a:link,
 header h1 a:visited {
-  color: #000;
+  color: inherit;
+}
+
+article h2 {
+  transform: rotate(-1deg) translateX(-3px);
 }
 
 article .dateline {
-  margin: 12px 0;
-  font-size: 12px;
+  color: #B22D43;
+  margin: 6px 0;
+  font-size: 16px;
+  font-weight: 500;
+
+  transform: rotate(1deg) translateX(-10px) translateY(3px);
 }
 
 article .dateline p {
-  margin: 0 0 8px;
+  margin: 0;
 }
 
 h1 {
   font-size: 130%;
   line-height: 150%;
-  margin: 0 0 8px 0;
+  margin: 0 0 16px 0;
 }
 h2 {
   font-size: 110%;
@@ -77,10 +93,10 @@ h3, h4 {
 h3 { margin: 0 0 4px 0; }
 
 a:link {
-  color: #A32226;
+  color: #2B6B9E;
   text-decoration: none;
 }
-a:visited { color: #5A1013; }
+a:visited { color: #2B6B9E; }
 a:hover, a:focus { text-decoration: underline; }
 a:active { text-decoration: underline; }
 
@@ -108,13 +124,16 @@ article ol li {
 blockquote {
   margin: 6px 12px 6px 0;
   padding-left: 12px;
-  border: 4px solid #ccc;
+  border: 4px solid #B22D43;
   border-width: 0 0 0 4px;
 }
 
 article aside {
-  margin-left: -16px;
-  font-size: 80%;
+  margin: 32px 0 32px -32px;
+  font-size: 90%;
+  background-color: #2B2D42
+  color: #F7F7FF;
+  padding: 16px;
 }
 
 /* Standard margin for article block content: */
@@ -122,18 +141,13 @@ p, dl, ol, ul  {
   margin: 0 0 16px;
 }
 
-kbd, output, samp {
-  font-family: Verdana,sans-serif;
-  font-size: 80%;
-  padding: 0 2px;
-  background: #dadada;
-}
-
-code {
-  background: #dadada;
-  font-size: 80%;
+kbd, output, samp, code {
   font-family: monospace;
-  padding: 0 2px;
+  display: inline-block;
+  font-size: 90%;
+  padding: 2px 4px;
+  color: #B22D43;
+  border-radius: 3px;
 }
 
 pre code {
@@ -183,13 +197,8 @@ section.h-feed header,
 section.h-feed footer {
   margin: 16px -32px -32px -32px;
   padding: 0 32px;
-  border: 1px #ccc solid;
+  border: 1px #2B2D42 solid;
   border-width: 1px 0 0 0;
-}
-
-section.h-feed footer.tweets {
-  margin-top: 32px;
-  padding: 20px 20px 16px; /* less the Twitter padding */
 }
 
 section.h-feed header,
@@ -202,9 +211,14 @@ section.h-feed article {
   margin-bottom: 32px;
 }
 
+section.h-feed nav,
+article.h-entry nav {
+  display: flex;
+}
+
 section.h-feed nav a,
 article.h-entry nav a {
-  display: inline-block;
+  display: block;
   text-align: center;
   margin: 16px 0;
   white-space: nowrap;
@@ -221,12 +235,12 @@ article nav a:last-child {
 
 section.h-feed nav a,
 article.h-entry nav a {
-  width: 33%;
+  flex-basis: 33%;
 }
 
 section.h-feed.annual nav a,
 section.h-feed.recent nav a {
-  width: 49%;
+  flex-basis: 50%;
 }
 
 /** Section: Archives */
@@ -246,6 +260,13 @@ body > footer address {
   font-style: normal;
 }
 
+body > footer a:link,
+body > footer a:visited,
+body > footer a:hover,
+body > footer a:focus {
+  color: #F7F7FF
+}
+
 body > footer .twitter-follow-button {
   float: right;
 }
@@ -254,6 +275,7 @@ body > footer .footnote {
   margin-top: 100%;
   color: rgba(0,0,0,0.4);
   text-shadow: rgba(255,255,255,0.4) -1 0 2px;
+  text-align: center;
 }
 body > footer .footnote a {
   color: rgba(0,0,0,0.4);
@@ -262,11 +284,11 @@ body > footer .footnote a {
 /** Section: Cover Image */
 .cover {
   margin: -32px -32px 16px -32px;
-  height: 293px;
+  height: 320px;
   background: transparent url(../images/records.jpg) no-repeat 0 0;
-  background-size: 640px auto;
+  background-size: 800px auto;
   position: relative;
-  color: #fff;
+  color: #F7F7FF;
   box-shadow: inset 0 0 48px rgba(0, 0, 0, 0.5);
 }
 .cover p {
@@ -283,11 +305,12 @@ body > footer .footnote a {
 }
 .cover a:link,
 .cover a:visited {
-  color: #eee;
+  color: #F7F7FF;
   text-decoration: underline;
 }
 .cover a:hover {
-  color: #fff;
+  background: #F7F7FF;
+  color: #B22D43;
 }
 
 /** Section: Post tags */
@@ -299,18 +322,21 @@ ul.tags li {
   padding: 0;
   display: inline-block;
   list-style: none;
-  padding: 3px;
-  border-radius: 3px;
-  box-shadow: 0 0 1px rgba(0,0,0,0.7),
-              inset 0 0 15px rgba(0, 0, 0, 0.1);
-  background: #eee;
+  padding: 4px;
+  border-radius: 4px;
+  border-bottom-left-radius: 15px 50%;
+  border-top-left-radius: 15px 50%;
+  padding-left: 10px;
+  transform: rotate(-5deg);
+  border: 2px solid #B22D43;
+  color: #B22D43;
+  font-size: 80%;
   margin-bottom: 4px;
-  font-size: 75%;
   line-height: 120%;
 }
 ul.tags li a {
   display: inline-block;
-  color: #000;
+  color: inherit;
 }
 
 /** Section: Sharing */
@@ -318,11 +344,11 @@ ul.tags li a {
   position: relative;
 }
 .share p {
-  font-size: 80%;
+  font-size: 90%;
 }
 .share kbd {
-  font-family: Verdana, sans-serif;
-  font-size: 80%;
+  font-family: sans-serif;
+  font-size: 90%;
   line-height: 100%;
   background: none;
 }
@@ -335,15 +361,12 @@ ul.tags li a {
 .button:focus {
   display: inline-block;
   background-color: #f8f8f8;
-  background-image: -moz-linear-gradient(top, #fff, #dedede);
-  background-image: -o-linear-gradient(top, #fff, #dedede);
-  background-image: -webkit-linear-gradient(top, #fff, #dedede);
-  background-image: linear-gradient(top, #fff, #dedede);
+  background-image: linear-gradient( #fff, #dedede);
   border: #ccc solid 1px;
   border-radius: 3px;
-  padding: 3px;
-  color: #333;
-  font: bold 11px/18px Helvetica, sans-serif;
+  padding: 3px 8px;
+  color: #2B2D42;
+  font: bold 13px/20px Helvetica, sans-serif;
   text-shadow: 0 1px 0 rgba(255,255,255,.5);
   user-select: none;
   cursor: pointer;
@@ -352,20 +375,7 @@ ul.tags li a {
 
 .button:hover,
 .button:focus {
-  border-color: #A32226;
-}
-
-/** Section: Twitter Feed */
-.tweets {
-  text-align: right;
-}
-.tweets iframe.twitter-timeline-rendered {
-  width: 100%;
-}
-
-.tweets a.twitter-timeline-link {
-  display: inline-block;
-  margin-right: 12px;
+  border-color: #2B6B9E;
 }
 
 /** Section: Legacy comments */
@@ -399,10 +409,6 @@ ul.tags li a {
   footer,
   body > article,
   body > section { padding: 16px; }
-  section.h-feed footer.tweets {
-  margin-top: 16px;
-  padding: 4px 4px 0; /* less the Twitter padding */
-  }
   header { padding: 32px 16px; }
   .cover { margin: -16px -16px 16px -16px; }
   .cover p { padding: 8px 16px; }
