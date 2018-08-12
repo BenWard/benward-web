@@ -1,6 +1,6 @@
-# `viewsource://benward.me`
+# `viewsource://benward.uk`
 
-This repo is my personal site, all of it. Everything you can see already in public already at [benward.me](http://benward.me) is here in raw form, such that you might learn from it.
+This repo is my personal site, all of it. Everything you can see already in public already at [benward.uk](http://benward.uk) is here in raw form, such that you might learn from it.
 
 The site is built statically, using [Jekyll](http://jekyllrb.com), and all of that is inside the `/jekyll` subdirectory. There's templates, configuration, a rudimentary `Rakefile` for some basic post operations, and a directory of scrappy hacks that augment the standard Jekyll gem. They're not documented yet, and they really need to be broken out into separate gems in their own right, but one advantage of a static site generator is that there's a low cost to unoptimised, hacky code when all you're trying to do is relaunch your blog. Anyway, please learn from it, or teach me things, too.
 
@@ -17,4 +17,4 @@ If you clone the repo to work with your own Jekyll set-up, please erase the `_po
 
 Plugin code really does need a refactor, but if they help you learn a little about how Jekyll's internals work, or how to augment them with Ruby, then that's all for the better.
 
-Ben <http://benward.me>
+Ben <http://benward.uk>

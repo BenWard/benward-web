@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-gb">
+<html lang="en-gb" id="uk-benward">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width; initial-scale=1.0;">
@@ -11,7 +11,7 @@
 {% include twitter.html %}
   <title>{% if page.title %}{{page.title}} · {% endif %}{{site.title}}</title>
 </head>
-<body id="me-benward">
+<body>
   <header>
     <h1>{% if page.title %}<a rel="home" href="/">{{site.title}}</a>{% else %}{{site.title}}{% endif %}</h1>
   </header>
@@ -20,7 +20,7 @@
     <a rel="me" class="twitter-follow-button" href="https://twitter.com/benward" data-show-count="false">Follow @benward</a>
     <abbr title="Copyright">©</abbr>
     <abbr title="{{site.time | date: '%Y'}}">{{site.time | date: '%Y' | romanize}}</abbr>
-    <address class="h-card"><a class="p-name u-url" href="http://benward.me" rel="me author">Ben Ward</a></address>
+    <address class="h-card"><a class="p-name u-url" href="http://benward.uk" rel="me author">Ben Ward</a></address>
     All rights reserved
     <nav><p>
       <a rel="me" href="/about">About</a>

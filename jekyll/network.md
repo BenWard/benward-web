@@ -9,9 +9,12 @@ The internet is of a rather fine decentralised construction and as such you'll f
 ## Communication and Social Networks
 
 * <a rel="me" href="https://twitter.com/benward">@benward on Twitter</a> <a class="twitter-follow-button" href="http://twitter.com/benward" data-show-count="false" data-show-screen-name="false">(Follow)</a>
-* <a rel="me" href="http://facebook.com/bnwrd">bnwrd on Facebook</a>
-* <a rel="me" href="http://linkedin.com/in/bnwrd">bnwrd on LinkedIn</a>
-* <a rel="me" href="http://about.me/bnwrd">bnwrd on About.me</a>
+* <a rel="me" href="https://twitter.com/quietbenward">@quietbenward on Twitter</a> (private account)<a class="twitter-follow-button" href="http://twitter.com/quietbenward" data-show-count="false" data-show-screen-name="false">(Follow)</a>
+* <a rel="me" href="https://mastodon.cloud/@benward">@benward@mastodon.cloud on Mastodon</a>
+* <a rel="me" href="https://facebook.com/bnwrd">bnwrd on Facebook</a>
+* <a rel="me" href="https://linkedin.com/in/bnwrd">bnwrd on LinkedIn</a>
+* <code>@3Kg3JQtcklFGOfXAzrzlUErNCr/iGggXbtR0Hml3U94=.ed25519</code> on Scuttlebutt.
+
 
 ## Code and Projects
 
@@ -23,35 +26,34 @@ The internet is of a rather fine decentralised construction and as such you'll f
 
 * <a rel="me" href="http://pinboard.in/u:benward">BenWard on Pinboard</a>
 * <a rel="me" href="http://stellar.io/benward/">benward on Stellar</a>
-* <a rel="me" href="https://lumi.do/user/BenWard">BenWard on Lumi</a>
 
 ## Music
 
-* <a rel="me" href="http://last.fm/users/benward">BenWard on Last.FM</a>
+* <a rel="me" href="https://bff.fm/people/benward">BenWard at BFF.fm</a>
+* <a rel="me" href="https://last.fm/users/benward">BenWard on Last.FM</a>
 * <a rel="me" href="http://thisismyjam.com/benward">BenWard on This is my Jam</a>
-* <a rel="me" href="http://hypemachine.com/benward">BenWard on HypeMachine</a>
-* <a rel="me" href="http://www.songkick.com/users/benward">BenWard on Songkick</a>
-* <a rel="me" href="http://www.rdio.com/people/benward/">BenWard on Rdio</a>
-* <a rel="me" href="http://soundcloud.com/bnwrd">bnwrd on Soundcloud</a>
-* <a rel="me" href="http://twitter.com/onvinyl">@onvinyl on Twitter</a> publishes playback from my turntable.
+* <a rel="me" href="https://hypemachine.com/benward">BenWard on HypeMachine</a>
+* <a rel="me" href="https://www.songkick.com/users/benward">BenWard on Songkick</a>
+* <a rel="me" href="https://twitter.com/benlikesnoise">@benlikesnoise on Twitter</a> shares my Songkick plans.
+* <a rel="me" href="https://play.spotify.com/user/bnwrd">BenWard on Spotify</a>
+* <a rel="me" href="https://soundcloud.com/bnwrd">bnwrd on Soundcloud</a>
+* <a rel="me" href="https://twitter.com/onvinyl">@onvinyl on Twitter</a> publishes playback from my turntable.
+* <a rel="me" href="https://www.discogs.com/user/benward">benward on Discogs</a>
 
 ## Photography and Art
 
-* <a rel="me" href="http://flickr.com/photos/benward">BenWard on Flickr</a>
-* <a rel="me" href="http://instagram.com/benward">BenWard on Instagram</a>
-* <a rel="me" href="http://500px.com/benward">BenWard on 500px</a>
-* <a rel="me" href="http://canv.as/user/benward">BenWard on Canvas</a>
-* <a rel="me" href="http://skitch.com/benward">BenWard on Skitch</a>
+* <a rel="me" href="https://instagram.com/benward">BenWard on Instagram</a>
+* <a rel="me" href="https://flickr.com/photos/benward">BenWard on Flickr</a>
+* <a rel="me" href="https://500px.com/benward">BenWard on 500px</a>
 * <a rel="me" href="http://mlkshk.com/user/benward">BenWard on Mlkshk</a>
 
 ## Video and Film
 
-* <a rel="me" href="http://letterboxd.com/benward/">BenWard on Letterboxd</a>
-* <a rel="me" href="https://vimeo.com/benward">BenWard on Vimeo</a>
-* <a rel="me" href="http://www.youtube.com/user/wrdbn">wrdbn on YouTube</a>
+* <a rel="me" href="https://letterboxd.com/benward/">BenWard on Letterboxd</a>
+* <a rel="me" href="https://www.youtube.com/user/wrdbn">wrdbn on YouTube</a>
 
 ## Travel
-
+* <a rel="me" href="https://www.tripit.com/people/benward">BenWard on TripIt</a>
 * <a rel="me" href="http://www.dopplr.com/traveller/BenWard">BenWard on Dopplr</a>
 
 ## Other Publications
