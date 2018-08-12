@@ -1,8 +1,8 @@
 ---
-layout: nil
+layout: null
 ---
 shorturls:
 {% for post in site.posts %}  -
     id: {{post.global_date | date: "%s" | base_60}}
-    url: {% if post.canonical %}{{post.canonical}}{% else %}{{site.url}}{{post.url}}{% endif %}
+    url: {% if post.canonical %}{{post.canonical}}{% else %}{{site.url}}{{post.clean_url}}{% endif %}
 {% endfor %}

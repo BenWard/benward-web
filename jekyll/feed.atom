@@ -1,5 +1,5 @@
 ---
-layout: nil
+layout: null
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
@@ -17,12 +17,12 @@ layout: nil
  <entry>
    <id>{% if post.atomid %}{{post.atomid}}{% else %}{{post | generate_tag_id}}{% endif %}</id>
    <title>{{post.title}}</title>
-   <link href="{% if post.canonical %}{{post.canonical}}{% else %}{{site.url}}{{post.url}}{% endif %}"/>
+   <link href="{% if post.canonical %}{{post.canonical}}{% else %}{{site.url}}{{post.clean_url}}{% endif %}"/>
    <link rel="shortlink" href="{{short_url}}"/>
    {% if post.updated %}<published>{{post.global_date}}</published>
    <updated>{{post.updated}}</updated>
    {% else %}<updated>{{post.global_date}}</updated>{% endif %}
-   {% if post.summary %}<summary type="html">{{post.summary | xml_escape}}</summary>{% endif %}
+   {% if post.excerpt %}<summary type="html">{{post.excerpt | markdownify | xml_escape}}</summary>{% endif %}
    <content type="html">{{post.content | xml_escape}}</content>
  </entry>
  {% endfor %}
