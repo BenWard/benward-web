@@ -11,4 +11,4 @@ layout: null
   Last update: {{site.time | date_to_xmlschema}}
   Language: English (British)
   Doctype: HTML5
-  IDE: Sublime Text, iA Writer
+  IDE: Visual Studio Code, Sublime Text, iA Writer
