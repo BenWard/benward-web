@@ -2,6 +2,7 @@ module Jekyll
   # TODO: Break into separate plugins for neatness
   class BenWardPostHacks < Generator
     safe true
+    priority :highest
 
     def generate(site)
       site.posts.each do |post|
