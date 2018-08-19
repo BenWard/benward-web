@@ -1,8 +1,22 @@
 require 'date'
+require 'json'
+require 'yaml'
 
 def jekyll(opts="", path="")
   Dir.chdir('jekyll') do
     sh "jekyll #{opts}"
+  end
+end
+
+def location_info
+  # Check if CoreLocationCLI is installed
+  `command -v CoreLocationCLI`
+  if  $?.success?
+    location_json = `CoreLocationCLI -format '{ "latitude": %latitude, "longitude": %longitude, "address": "%address" }'`.chomp.gsub("\n", "\\n")
+    JSON.parse(location_json, { :symbolize_names => true })
+  else
+    puts "CoreLocationCLI not installed. Use \"brew cask install corelocationcli\""
+    []
   end
 end
 
@@ -18,7 +32,9 @@ end
 
 desc "Remove existing _sites directory"
 task :clean do
-  sh "rm -r _site"
+  Dir.chdir('jekyll') do
+    `rm -r _site`
+  end
 end
 
 task :rebuild => [:clean, :build]
@@ -28,31 +44,52 @@ task :default => :build
 
 namespace :blog do
   desc "Create a new entry"
-  task :new, [:slug] do |t, args|
+  task :new do |t|
+    puts "What's the title of this post?"
+    title = STDIN.gets.chomp
 
-    raise ArgumentError, "Must specify a slug name" unless args.slug
+    raise Error, "You must provide a title" if title.empty?
+
+    provision_slug = title.downcase.gsub(' ', '-').gsub(/[^\w\-]/, '')
+
+    puts "And the URL-slug? [#{provision_slug}]"
+    slug = STDIN.gets.chomp
+    slug = provision_slug if slug.empty?
 
     date = DateTime.now
-    slug = "#{DateTime.now.strftime("%Y-%m-%d")}-#{args.slug}"
+
+    puts "Tag it? (comma-separated) []"
+    tag_string = STDIN.gets.chomp
+
+    location = location_info
+    puts "Located at #{location[:address].gsub("\n", ', ')}" unless location.empty?
+
+    front_matter = {
+      'layout' => 'blog',
+      'category' => 'blog',
+      'title' => title,
+      'date' => date.iso8601,
+      'summary' => ' ',
+      'tags' => tag_string.empty? ? ' ' : tag_string.split(','),
+      'geo' => location ? {
+        'name' => location[:address].gsub("\n", ", "),
+        'xy' => "#{location[:latitude]},#{location[:longitude]}"
+      } : nil
+    }.reject { |k,v| v.nil? }
+
+    file_name = "#{DateTime.now.strftime("%Y-%m-%d")}-#{slug}.md"
     dir_name = "jekyll/_posts/blog/#{date.year}"
-    file_name = "#{dir_name}/#{slug}.md"
+    path = "#{dir_name}/#{file_name}"
+
     Dir::mkdir dir_name unless FileTest::directory? dir_name
-    File.open file_name, 'w' do |f|
+
+    File.open path, 'w' do |f|
       # Start YML Front Matter
-      f.puts '---'
-      f.puts 'layout: blog'
-      f.puts 'category: blog'
-      f.puts 'title: "New Post"'
-      f.puts "date: \"#{date.iso8601}\""
-      f.puts "summary: "
-      f.puts "tags: []"
-      f.puts "geo:"
-      f.puts '  name: "San Francisco"'
-      f.puts '  xy: "37.77493,122.41942"'
+      f.puts front_matter.to_yaml
       f.puts '---'
       f.puts "\n\n"
     end
-    sh "open #{file_name}"
+    `open #{path}`
   end
 
   desc "Touch a post and set its publication date to now"
