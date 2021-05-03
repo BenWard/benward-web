@@ -17,4 +17,4 @@ If you clone the repo to work with your own Jekyll set-up, please erase the `_po
 
 Plugin code really does need a refactor, but if they help you learn a little about how Jekyll's internals work, or how to augment them with Ruby, then that's all for the better.
 
-Ben <http://benward.uk>
+Ben <https://benward.uk>
