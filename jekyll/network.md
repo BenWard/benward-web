@@ -8,12 +8,10 @@ The internet is of a rather fine decentralised construction and as such you'll f
 
 ## Communication and Social Networks
 
-* <a rel="me" href="https://twitter.com/benward">@benward on Twitter</a> <a class="twitter-follow-button" href="http://twitter.com/benward" data-show-count="false" data-show-screen-name="false">(Follow)</a>
-* <a rel="me" href="https://twitter.com/quietbenward">@quietbenward on Twitter</a> (private account)<a class="twitter-follow-button" href="http://twitter.com/quietbenward" data-show-count="false" data-show-screen-name="false">(Follow)</a>
-* <a rel="me" href="https://mastodon.cloud/@benward">@benward@mastodon.cloud on Mastodon</a>
+* <a rel="me" href="https://benward.social/@benward">@benward@benward.social</a> on Mastodon in the Fediverse
+* <a rel="me" href="https://twitter.com/benward">@benward on Twitter</a>
 * <a rel="me" href="https://facebook.com/bnwrd">bnwrd on Facebook</a>
 * <a rel="me" href="https://linkedin.com/in/bnwrd">bnwrd on LinkedIn</a>
-* <code>@3Kg3JQtcklFGOfXAzrzlUErNCr/iGggXbtR0Hml3U94=.ed25519</code> on Scuttlebutt.
 
 ## Code and Projects
 
@@ -24,7 +22,7 @@ The internet is of a rather fine decentralised construction and as such you'll f
 ## Bookmarks, link sharing
 
 * <a rel="me" href="http://pinboard.in/u:benward">BenWard on Pinboard</a>
-* <a rel="me" href="http://stellar.io/benward/">benward on Stellar</a>
+* <a rel="me" href="https://getpocket.com/@benward">@benward on Pocket</a>
 
 ## Music
 
@@ -34,22 +32,19 @@ The internet is of a rather fine decentralised construction and as such you'll f
 * <a rel="me" href="https://hypemachine.com/benward">BenWard on HypeMachine</a>
 * <a rel="me" href="https://www.songkick.com/users/benward">BenWard on Songkick</a>
 * <a rel="me" href="https://twitter.com/benlikesnoise">@benlikesnoise on Twitter</a> shares my Songkick plans.
-* <a rel="me" href="https://play.spotify.com/user/bnwrd">BenWard on Spotify</a>
+* <a rel="me" href="https://music.apple.com/user/benward">BenWard on Apple Music</a>
+* <a rel="me" href="https://play.spotify.com/user/bnwrd">bnwrd on Spotify</a>
 * <a rel="me" href="https://soundcloud.com/bnwrd">bnwrd on Soundcloud</a>
-* <a rel="me" href="https://twitter.com/onvinyl">@onvinyl on Twitter</a> publishes playback from my turntable.
 * <a rel="me" href="https://www.discogs.com/user/benward">benward on Discogs</a>
 
 ## Photography and Art
 
 * <a rel="me" href="https://instagram.com/benward">BenWard on Instagram</a>
-* <a rel="me" href="https://flickr.com/photos/benward">BenWard on Flickr</a>
-* <a rel="me" href="https://500px.com/benward">BenWard on 500px</a>
-* <a rel="me" href="http://mlkshk.com/user/benward">BenWard on Mlkshk</a>
 
 ## Video and Film
 
 * <a rel="me" href="https://letterboxd.com/benward/">BenWard on Letterboxd</a>
-* <a rel="me" href="https://www.youtube.com/user/wrdbn">wrdbn on YouTube</a>
+* <a rel="me" href="https://www.youtube.com/@bnwrd">@bnwrd on YouTube</a>
 
 ## Travel
 * <a rel="me" href="https://www.tripit.com/people/benward">BenWard on TripIt</a>
@@ -57,10 +52,5 @@ The internet is of a rather fine decentralised construction and as such you'll f
 
 ## Other Publications & Output
 
-* I present a weekly radio show, <a rel="me" href="https://bff.fm/shows/eclectic-kettle">Eclectic Kettle</a>, on BFF.fm.
 * I am a founder and writer at <a rel="me" href="http://munchmun.ch/author/ben-ward/">Munch Munch</a>, a blog about food ([site](https://munchmun.ch).)
-* Throughout 2012 I wrote a monthly article for <a rel="me" href="http://www.the-pastry-box-project.net/baker/ben-ward/">The Pastry Box</a> ([site](http://www.the-pastry-box-project.net).)
-
-## Alternatives to this site
-
-* <a rel="me alternate feed" type="text/html" href="https://twitter.com/benwwward">@benwwward on Twitter</a> <a class="twitter-follow-button" href="http://twitter.com/benwwward" data-show-count="false" data-show-screen-name="false">(Follow)</a>. Posts links to new entries.
+* Throughout 2012 I wrote a monthly article for <a rel="me" href="https://the-pastry-box-project.net/baker/ben-ward">The Pastry Box</a> ([site](http://www.the-pastry-box-project.net).)
