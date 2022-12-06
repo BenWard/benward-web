@@ -4,7 +4,7 @@ category: blog
 title: "The Pastry Box: The measure of success"
 date: "2012-02-24T00:00:00+01:00"
 summary: "If you are fortunate enough to work on your own product, with your own idea, and build it, and ship it, and reach enough people willing to sustain you financially for that immense amount of work, you should be applauded. You have poured in inordinate effort, and succeeded in making something that improved lives."
-canonical: http://the-pastry-box-project.net/ben-ward/2012-february-24/
+canonical: https://the-pastry-box-project.net/ben-ward/2012-february-24
 tags: ["pastry-box"]
 geo:
   name: "San Francisco"

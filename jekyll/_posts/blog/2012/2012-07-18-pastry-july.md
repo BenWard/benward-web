@@ -4,7 +4,7 @@ category: blog
 title: "The Pastry Box: Lucky choices"
 date: "2012-07-18T00:00:00+01:00"
 summary: "There are the choices that we barely make at all. There are the accidents. There are the times you discover some place, or website, or service, or game and for whatever reason you go with it. You want to play chess against your Dad and you just search for it and you pick the third result. Some subtle combination of aesthetics and emotion takes you over the top and now you’re using a service that you knew nothing about, but it’s working for you, and might even grow into a very important piece of your life."
-canonical: http://the-pastry-box-project.net/ben-ward/2012-july-18/
+canonical: https://the-pastry-box-project.net/ben-ward/2012-july-18
 tags: ["pastry-box"]
 geo:
   name: "San Francisco"

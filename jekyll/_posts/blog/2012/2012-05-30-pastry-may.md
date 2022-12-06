@@ -4,7 +4,7 @@ category: blog
 title: "The Pastry Box: Technical Style"
 date: "2012-05-30T00:00:00+01:00"
 summary: "Technical style is just one small piece of building a successful technical platform from the web. If we care about style—and apparently we do—we need to do better at recording it. We need to build better teaching materials, we need to ensure that people can establish a full understanding of the web and its technology, not just the pieces we ring-fenced as ‘safe’. We need to write for our industry’s encyclopedia, not just its tabloid."
-canonical: http://the-pastry-box-project.net/ben-ward/2012-may-30/
+canonical: https://the-pastry-box-project.net/ben-ward/2012-may-30
 tags: ["pastry-box"]
 geo:
   name: "San Francisco"

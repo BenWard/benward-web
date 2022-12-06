@@ -4,7 +4,7 @@ category: blog
 title: "The Pastry Box: Unfinishing"
 date: "2012-03-21T00:00:00+01:00"
 summary: "I've come to understand that this project I can never truly finish comes with creative freedom on a whim. Projects like this are rare in that they demand nothing, yet give you everything. You owe them to nobody but yourself, and I think I've finally learned to embrace that."
-canonical: http://the-pastry-box-project.net/ben-ward/2012-march-21/
+canonical: https://the-pastry-box-project.net/ben-ward/2012-march-21
 tags: ["pastry-box"]
 geo:
   name: "San Francisco"

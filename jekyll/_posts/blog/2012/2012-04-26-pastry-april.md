@@ -4,7 +4,7 @@ category: blog
 title: "The Pastry Box: Moments"
 date: "2012-04-26T00:00:00+01:00"
 summary: "When is something really momentary on the internet? Time was that random, accidental, delightful events would happen to us in the world, or in conversation, or by chance where we stand, and be just that; moments to be remembered."
-canonical: http://the-pastry-box-project.net/ben-ward/2012-april-26/
+canonical: https://the-pastry-box-project.net/ben-ward/2012-april-26
 tags: ["pastry-box"]
 geo:
   name: "San Francisco"

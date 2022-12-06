@@ -4,7 +4,7 @@ category: blog
 title: "The Pastry Box: Browsers"
 date: "2012-01-21T00:00:00+01:00"
 summary: "It has been just over 10 years since I built my first website. 16 years old with a copy of Microsoft FrontPage Express installed by Internet Explorer 4. Cut ahead, I was delighting in the elegance of writing HTML; declarative, simple semantics, expressive enough to be inherently accessible; HTML is a most wonderful invention for the distribution of information to all. All accessed through this strange tool: The browser."
-canonical: http://the-pastry-box-project.net/ben-ward/2012-january-21/
+canonical: https://the-pastry-box-project.net/ben-ward/2012-january-21
 tags: ["pastry-box", web, browsers]
 geo:
   name: "San Francisco"

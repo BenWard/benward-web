@@ -4,7 +4,7 @@ category: blog
 title: "The Pastry Box: ▊"
 date: "2012-12-16T00:00:00+01:00"
 summary: "Concerning the mortality of all things."
-canonical: http://the-pastry-box-project.net/ben-ward/2012-december-16
+canonical: https://the-pastry-box-project.net/ben-ward/2012-december-16
 tags: ["pastry-box"]
 geo:
   name: "San Francisco"

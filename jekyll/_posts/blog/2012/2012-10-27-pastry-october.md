@@ -4,7 +4,7 @@ category: blog
 title: "The Pastry Box: Thinking Local"
 date: "2012-10-27T00:00:00+01:00"
 summary: "I think that it is a natural desire to contribute positively to our local community, and to do so through our work. We want to build things that make a difference to people whose faces we see; those whom we interact with in the course of our daily life. The web can seem like a difficult medium through which to do that, everything is so broad and so big intrinsically."
-canonical: http://the-pastry-box-project.net/ben-ward/2012-october-27/
+canonical: https://the-pastry-box-project.net/ben-ward/2012-october-27
 tags: ["pastry-box"]
 geo:
   name: "San Francisco"

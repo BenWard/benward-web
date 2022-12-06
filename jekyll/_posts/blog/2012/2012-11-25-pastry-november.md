@@ -4,7 +4,7 @@ category: blog
 title: "The Pastry Box: Afraid"
 date: "2012-11-25T00:00:00+01:00"
 summary: "What is there to fear?"
-canonical: http://the-pastry-box-project.net/ben-ward/2012-november-25/
+canonical: https://the-pastry-box-project.net/ben-ward/2012-november-25
 tags: ["pastry-box"]
 geo:
   name: "San Francisco"

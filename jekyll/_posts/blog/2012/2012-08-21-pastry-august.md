@@ -4,7 +4,7 @@ category: blog
 title: "The Pastry Box: Starter Care"
 date: "2012-08-21T00:00:00+01:00"
 summary: "In open source we mostly celebrate singular projects: Centralised entities run in the open, accepting patches from far and wide to strengthen a core. Your JQueries, Bootstraps, and so forth. I want to draw attention to the starters of software; the code that people share not with the intention of getting patches back, but code that provides for someone the superior basis for their own work."
-canonical: http://the-pastry-box-project.net/ben-ward/2012-august-21/
+canonical: https://the-pastry-box-project.net/ben-ward/2012-august-21
 tags: ["pastry-box"]
 geo:
   name: "San Francisco"

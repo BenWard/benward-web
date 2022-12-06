@@ -4,7 +4,7 @@ category: blog
 title: "The Pastry Box: On ownership, services, and APIs"
 date: "2012-06-19T00:00:00+01:00"
 summary: "I’ve been thinking about the intersection of ownership, responsibility, and infrastructure in the development of businesses on the web. Users and potential businesses are involved in a difficult balancing act of ownership, obligation, and expectation. Every new service on the web seems to rub up against this at some point, regardless of the funding model. What’s more, I think that if the lessons of this generation of start-ups are clearly understood, start-ups and applications should be able to take a more fearless footing as they grow."
-canonical: http://the-pastry-box-project.net/ben-ward/2012-june-19/
+canonical: https://the-pastry-box-project.net/ben-ward/2012-june-19
 tags: ["pastry-box"]
 geo:
   name: "San Francisco"
