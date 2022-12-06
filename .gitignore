@@ -1,2 +1,4 @@
+.bundle
+vendor
 jekyll/_site
 .DS_Store
