@@ -34,15 +34,15 @@ The knowledge that my life is not entirely in perfect balance is not supposed to
 
 I've been on a kick lately of listening a lot to The Divine Comedy's 2001 ‘Regeneration’  record (which I shall remark has aged remarkably well), and especially the lead single ‘[Love What You Do](https://www.youtube.com/watch?v=Rz3R1RMlvto)’. The lyrics are quite applicable to this process of adjustment and self renewal.
 
-> Living isn't easy  
-> No need to make it harder  
-> Stretch yourself until you snap  
-> Ditch your superstitions  
-> Lose your inhibitions  
-> Tell them you're not coming back  
-> 
-> If you want it, you can have it  
-> If you need it, go and get it  
-> Whatever it is, you've got to love it  
+> Living isn't easy
+> No need to make it harder
+> Stretch yourself until you snap
+> Ditch your superstitions
+> Lose your inhibitions
+> Tell them you're not coming back
+>
+> If you want it, you can have it
+> If you need it, go and get it
+> Whatever it is, you've got to love it
 
 I have very little to complain about, just a desire to make it all better. Everything's going to be fine.
