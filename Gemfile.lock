@@ -30,6 +30,8 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
+    jekyll-textile-converter (0.1.0)
+      RedCloth (~> 4.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (2.4.0)
@@ -63,6 +65,7 @@ PLATFORMS
 DEPENDENCIES
   RedCloth
   jekyll (~> 3)
+  jekyll-textile-converter
   new_base_60
   rake
   rdiscount (~> 2.2)

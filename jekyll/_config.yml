@@ -19,3 +19,5 @@ dateformat: "%b %e %Y, %k:%M (%z)"
 timeformat: "%k:%M (%z)"
 archive_month_index: archive_month.html
 archive_year_index: archive_year.html
+plugins:
+- jekyll-textile-converter
