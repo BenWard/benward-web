@@ -1,11 +1,18 @@
-/* benward.me v6.2.0 */
-/* New colors
- * Canvas: #912F56
- * Page:#F7F7FF
- * Body Text: #2B2D42
- * Links: #2B6B9E
- * Accent: #B22D43
-*/
+/* benward.me v6.3.0 */
+
+:root {
+  --BenWard-canvasColor: #253820;
+  --BenWard-pageColor: #F7F7FF;
+  --BenWard-bodyTextColor: #2B2D42;
+  --BenWard-linkColor: #2B6B9E;
+  --BenWard-accentColor: #B22D43;
+  --BenWard-asideBackground: #2B2D42;
+  --BenWard-asideTextColor: #F7F7FF;
+  --BenWard-logoColor: #F7F7FF;
+
+  --BenWard-footerTextColor: #c4d9be;
+  --BenWard-footerLinkColor: #F7F7FF;
+}
 
 /* Font Sets */
 html,
@@ -28,8 +35,14 @@ h1, h2, h3 {
 html {
   margin: 0 auto;
   max-width: 38em;
-  background: #912F56;
-  color: #2B2D42;
+
+  background: var(--BenWard-canvasColor);
+  background-image:
+    repeating-linear-gradient(-65deg, rgba(0, 0, 0,0) 1px, rgba(0, 0, 0, .2) 3px, rgba(0, 0, 0,0) 5px),
+    repeating-linear-gradient(65deg, rgba(0, 0, 0 ,0) 0, rgba(0, 0, 0, .2) 3px, rgba(0, 0, 0, 0) 5px),
+    linear-gradient(20deg, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, 0) 100%);
+
+  color: var(--BenWard-bodyTextColor);
 }
 
 body { margin: 0 16px; }
@@ -43,14 +56,14 @@ body > section {
 
 body > article,
 body > section {
-  background: #F7F7FF;
+  background: var(--BenWard-pageColor);
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
 
 header h1 {
   font-size: 170%;
   margin: 0;
-  color: #F7F7FF;
+  color: var(--BenWard-logoColor);
   opacity: 0.25;
   transition: opacity .5s ease-out;
 }
@@ -68,7 +81,7 @@ article h2 {
 }
 
 article .dateline {
-  color: #B22D43;
+  color: var(--BenWard-accentColor);
   margin: 6px 0;
   font-size: 16px;
   font-weight: 500;
@@ -97,10 +110,10 @@ h3, h4 {
 h3 { margin: 0 0 4px 0; }
 
 a:link {
-  color: #2B6B9E;
+  color: var(--BenWard-linkColor);
   text-decoration: none;
 }
-a:visited { color: #2B6B9E; }
+a:visited { color: var(--BenWard-linkColor); }
 a:hover, a:focus { text-decoration: underline; }
 a:active { text-decoration: underline; }
 
@@ -128,15 +141,15 @@ article ol li {
 blockquote {
   margin: 6px 12px 6px 0;
   padding-left: 12px;
-  border: 4px solid #B22D43;
+  border: 4px solid var(--BenWard-accentColor);
   border-width: 0 0 0 4px;
 }
 
 article aside {
   margin: 32px 0 32px -32px;
   font-size: 90%;
-  background-color: #2B2D42
-  color: #F7F7FF;
+  background-color: var(--BenWard-asideBackground);
+  color: var(--BenWard-asideTextColor);
   padding: 16px;
 }
 
@@ -148,9 +161,9 @@ p, dl, ol, ul  {
 kbd, output, samp, code {
   font-family: monospace;
   display: inline-block;
-  font-size: 90%;
-  padding: 2px 4px;
-  color: #B22D43;
+  font-size: 70%;
+  padding: 2px;
+  color: var(--BenWard-accentColor);
   border-radius: 3px;
 }
 
@@ -205,7 +218,7 @@ section.h-feed header,
 section.h-feed footer {
   margin: 16px -32px -32px -32px;
   padding: 0 32px;
-  border: 1px #2B2D42 solid;
+  border: 1px var(--BenWard-bodyTextColor) solid;
   border-width: 1px 0 0 0;
 }
 
@@ -259,6 +272,7 @@ section.h-feed.recent nav a {
 
 /** Section: Page Footer */
 body > footer {
+  color: var(--BenWard-footerTextColor);
   font-size: 80%;
   line-height: 21px; /* match Twitter button */
 }
@@ -272,31 +286,23 @@ body > footer a:link,
 body > footer a:visited,
 body > footer a:hover,
 body > footer a:focus {
-  color: #F7F7FF
-}
-
-body > footer .twitter-follow-button {
-  float: right;
+  color: var(--BenWard-footerLinkColor);
 }
 
 body > footer .footnote {
   margin-top: 100%;
-  color: rgba(0,0,0,0.4);
-  text-shadow: rgba(255,255,255,0.4) -1 0 2px;
+  color: rgba(255,255,255,0.2);
+  text-shadow: rgba(0, 0, 0, 0.7) -1px 0 2px;
   text-align: center;
-}
-body > footer .footnote a {
-  color: rgba(0,0,0,0.4);
 }
 
 /** Section: Cover Image */
 .cover {
   margin: -32px -32px 16px -32px;
-  height: 320px;
-  background: transparent url(../images/records.jpg) no-repeat 0 0;
-  background-size: 800px auto;
+  height: 700px;
+  background: transparent url('https://media.benward.uk/web/yosemite-header.webp') no-repeat 0 0;
+  background-size: cover;
   position: relative;
-  color: #F7F7FF;
   box-shadow: inset 0 0 48px rgba(0, 0, 0, 0.5);
 }
 .cover p {
@@ -305,6 +311,7 @@ body > footer .footnote a {
   margin: 0 0 8px 0;
   padding: 8px 32px;
   background: rgba(0,0,0,0.5);
+  color: var(--BenWard-asideTextColor);
 }
 .cover .photo-credit {
   position: absolute;
@@ -313,12 +320,12 @@ body > footer .footnote a {
 }
 .cover a:link,
 .cover a:visited {
-  color: #F7F7FF;
+  color: var(--BenWard-asideTextColor);
   text-decoration: underline;
 }
 .cover a:hover {
-  background: #F7F7FF;
-  color: #B22D43;
+  background: var(--BenWard-pageColor);
+  color: var(--BenWard-accentColor);
 }
 
 /** Section: Post tags */
@@ -336,8 +343,8 @@ ul.tags li {
   border-top-left-radius: 15px 50%;
   padding-left: 10px;
   transform: rotate(-5deg);
-  border: 2px solid #B22D43;
-  color: #B22D43;
+  border: 2px solid var(--BenWard-accentColor);
+  color: var(--BenWard-accentColor);
   font-size: 80%;
   margin-bottom: 4px;
   line-height: 120%;
@@ -373,7 +380,7 @@ ul.tags li a {
   border: #ccc solid 1px;
   border-radius: 3px;
   padding: 3px 8px;
-  color: #2B2D42;
+  color: var(--BenWard-bodyTextColor);
   font: bold 13px/20px Helvetica, sans-serif;
   text-shadow: 0 1px 0 rgba(255,255,255,.5);
   user-select: none;
@@ -383,7 +390,7 @@ ul.tags li a {
 
 .button:hover,
 .button:focus {
-  border-color: #2B6B9E;
+  border-color: var(--BenWard-linkColor);
 }
 
 /** Section: Legacy comments */
@@ -423,7 +430,6 @@ ul.tags li a {
   article .full-bleed { margin: 0 -16px; }
   article .pull-left { margin: 0 8px 0 -16px; }
   article .pull-right { margin: 0 -16px 0 8px; }
-  body > footer .twitter-follow-button { float: none; }
   section.hfeed header,
   article header,
   section.hfeed footer,
