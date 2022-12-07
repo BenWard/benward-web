@@ -19,9 +19,9 @@ layout: null
    <title>{{post.title}}</title>
    <link href="{% if post.canonical %}{{post.canonical}}{% else %}{{site.url}}{{post.clean_url}}{% endif %}"/>
    <link rel="shortlink" href="{{short_url}}"/>
-   {% if post.updated %}<published>{{post.global_date}}</published>
-   <updated>{{post.updated}}</updated>
-   {% else %}<updated>{{post.global_date}}</updated>{% endif %}
+   {% if post.updated %}<published>{{post.global_date | date: site.isodateformat}}</published>
+   <updated>{{post.updated | date: site.isodateformat }}</updated>
+   {% else %}<updated>{{post.global_date | date: site.isodateformat}}</updated>{% endif %}
    {% if post.excerpt %}<summary type="html">{{post.excerpt | markdownify | xml_escape}}</summary>{% endif %}
    <content type="html">{{post.content | xml_escape}}</content>
  </entry>

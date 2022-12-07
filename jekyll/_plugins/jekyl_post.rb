@@ -5,7 +5,7 @@ module Jekyll
     priority :highest
 
     def generate(site)
-      site.posts.each do |post|
+      site.posts.docs.each do |post|
         # Add an additional 'global_date' property to the liquid template that
         # maintains timezones for published dates.
         post.data["global_date"] = global_date(post)
@@ -34,7 +34,11 @@ module Jekyll
     end
 
     def generate_title(post)
-      DateTime.parse(post.data["date"]).strftime("%B %e, %Y")
+      if post.data["date"]
+        DateTime.parse(post.data["date"]).strftime("%B %e, %Y")
+      else
+        'Post'
+      end
     end
 
     # Augment URLs in Liquid when using Apache Multiviews
@@ -44,8 +48,8 @@ module Jekyll
 
     def github_url(post, site)
       gitslug = site.config['github_slug']
-      gitbase = "/" + (site.config['git_base'] || "")
-      "https://github.com/#{gitslug}/tree/master#{gitbase}/_posts/#{post.name}"
+      gitbase = site.config['git_base'] || ""
+      "https://github.com/#{gitslug}/tree/main/#{gitbase}/#{post.relative_path}"
     end
   end
 end

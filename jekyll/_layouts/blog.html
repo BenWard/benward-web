@@ -8,7 +8,7 @@ layout: base
       <time class="dt-published" datetime="{{page.global_date}}">{{page.global_date | date: site.dateformat}}</time>.
       {% if page.updated %}Updated: <time class="dt-updated" datetime="{{page.updated}}">{{page.updated | date: site.dateformat}}</time>.{% endif %}
     </p>
-    {% if page.geo && page.geo.name %}
+    {% if page.geo and page.geo.name %}
     <p class="place">
       {% if page.geo.xy %}<data clas="p-geo h-geo" value="{{page.geo.xy}}"></data>{% endif %}
       <span class="p-adr">{{page.geo.name}}</span>

@@ -49,9 +49,9 @@ module Jekyll
 
     def generate(site)
       # Write full year index:
-      write_archive site, site.posts.group_by { |c| { 'year' => c.date.year } }
+      write_archive site, site.posts.docs.group_by { |c| { 'year' => c.date.year } }
       # Write monthly breakdown
-      write_archive site, site.posts.group_by { |c| { 'month' => c.date.month, 'year' => c.date.year } }
+      write_archive site, site.posts.docs.group_by { |c| { 'month' => c.date.month, 'year' => c.date.year } }
     end
 
     protected
