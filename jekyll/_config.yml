@@ -12,7 +12,7 @@ layout: base
 permalink: /:categories/:title.html
 lsi: false
 multiviews: true
-markdown: rdiscount
+markdown: kramdown
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'import']
 isodateformat: "%FT%T%:z"
 dateformat: "%b %e %Y, %k:%M (%z)"
