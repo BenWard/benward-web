@@ -235,6 +235,7 @@ section.h-feed article {
 section.h-feed nav,
 article.h-entry nav {
   display: flex;
+  justify-content: space-between;
 }
 
 section.h-feed nav a,
