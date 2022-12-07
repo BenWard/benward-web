@@ -10,7 +10,7 @@ end
 
 # get lat/lon from macOS shortcuts
 def location_shortcut_info
-  latlon = `shortcuts run "Output Lat/Lon JSON"`.chomp
+  latlon = `shortcuts run "getCoreLocationSimple"`.chomp
   unless latlon.empty?
     JSON.parse(latlon, { :symbolize_names => true })
   else
