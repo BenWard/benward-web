@@ -8,6 +8,17 @@ def jekyll(opts="", path="")
   end
 end
 
+# get lat/lon from macOS shortcuts
+def location_shortcut_info
+  latlon = `shortcuts run "Output Lat/Lon JSON"`.chomp
+  unless latlon.empty?
+    JSON.parse(latlon, { :symbolize_names => true })
+  else
+    puts "Output Lat/Lon JSON shortcut unavailable"
+    []
+  end
+end
+
 def location_info
   # Check if CoreLocationCLI is installed
   `command -v CoreLocationCLI`
@@ -61,8 +72,10 @@ namespace :blog do
     puts "Tag it? (comma-separated) []"
     tag_string = STDIN.gets.chomp
 
-    location = location_info
-    puts "Located at #{location[:address].gsub("\n", ', ')}" unless location.empty?
+    location = location_shortcut_info
+    unless location.empty?
+      puts "Located at #{location[:address].gsub("\n", ', ')}" unless location.empty?
+    end
 
     front_matter = {
       'layout' => 'blog',
