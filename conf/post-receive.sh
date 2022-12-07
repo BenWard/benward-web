@@ -21,6 +21,9 @@ cd $DEPLOY_LOCATION
 git reset --hard -q
 git pull -q
 
+# update dependencies
+bundle
+
 # rebuild Jekyll
 bundle exec rake build
 
