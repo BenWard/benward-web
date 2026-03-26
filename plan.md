@@ -131,7 +131,15 @@ redirects: [
 
 ## 4. React Components (`components/`)
 
-Port Jekyll layouts and includes to React server components.
+Port Jekyll layouts and includes to React server components. Each component lives in its own subdirectory with colocated styles, tests, and barrel export:
+
+```
+components/Cover/
+├── Cover.tsx
+├── Cover.module.css
+├── Cover.test.tsx
+└── index.ts          # re-exports Cover
+```
 
 ### Layout Components
 - **`RootLayout`** — port of `base.html`: HTML shell, meta tags, header, footer (with Roman numeral year), nav
@@ -162,14 +170,14 @@ Copy from Jekyll:
 ### CSS Strategy
 Decompose `jekyll/css/sixthree.css` into:
 - **`lib/global.css`** — CSS variables/custom properties, base/reset styles, body/html defaults, typography. Imported in `app/layout.tsx`.
-- **CSS Modules per component** — Each component gets a colocated `.module.css` file:
-  - `components/Cover.module.css` — h-card/bio styles
-  - `components/PostSummary.module.css` — article summary styles
-  - `components/ArchiveNavigation.module.css` — archive nav flexbox
-  - `components/Share.module.css` — share/link section styles
-  - `components/BlogPost.module.css` — h-entry, dateline, geo, tag list styles
-  - `components/ArchiveMonth.module.css` — monthly archive styles
-  - `components/ArchiveYear.module.css` — yearly archive styles
+- **CSS Modules per component** — Each component directory includes a colocated `.module.css`:
+  - `components/Cover/Cover.module.css` — h-card/bio styles
+  - `components/PostSummary/PostSummary.module.css` — article summary styles
+  - `components/ArchiveNavigation/ArchiveNavigation.module.css` — archive nav flexbox
+  - `components/Share/Share.module.css` — share/link section styles
+  - `components/BlogPostLayout/BlogPostLayout.module.css` — h-entry, dateline, geo, tag list styles
+  - `components/ArchiveMonthLayout/ArchiveMonthLayout.module.css` — monthly archive styles
+  - `components/ArchiveYearLayout/ArchiveYearLayout.module.css` — yearly archive styles
   - `app/layout.module.css` — header, footer, page canvas, site nav
 
 Microformat class names (`.h-entry`, `.p-name`, etc.) remain as plain classes in the global CSS since they're semantic markers, not styling hooks. Component-specific visual styles use CSS Modules.
@@ -202,7 +210,8 @@ Use Jest + React Testing Library. **Tests are colocated with their source files*
 ### Config Tests (colocated in `config/`)
 - `config/site.test.ts` — config values
 
-### Component Tests (colocated in `components/`)
+### Component Tests (colocated in each component's subdirectory)
+- e.g. `components/PostSummary/PostSummary.test.tsx`
 - Test key components render correct microformat markup
 - Test archive navigation generates correct links
 - Test post summary handles canonical URLs
