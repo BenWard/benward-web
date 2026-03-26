@@ -1,0 +1,195 @@
+/* benward.uk — Global styles */
+
+:root {
+  --BenWard-canvasColor: #253820;
+  --BenWard-pageColor: #F7F7FF;
+  --BenWard-bodyTextColor: #2B2D42;
+  --BenWard-linkColor: #2B6B9E;
+  --BenWard-accentColor: #B22D43;
+  --BenWard-asideBackground: #2B2D42;
+  --BenWard-asideTextColor: #F7F7FF;
+  --BenWard-logoColor: #F7F7FF;
+  --BenWard-footerTextColor: #c4d9be;
+  --BenWard-footerLinkColor: #F7F7FF;
+}
+
+/* Font Sets */
+html,
+h1, h2, h3,
+article .dateline,
+ul.tags {
+  font: 20px/28px sans-serif;
+}
+
+article {
+  font-family: serif;
+  font-weight: 200;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+/* Site */
+html {
+  margin: 0 auto;
+  max-width: 38em;
+  background: var(--BenWard-canvasColor);
+  background-image:
+    repeating-linear-gradient(-65deg, rgba(0, 0, 0,0) 1px, rgba(0, 0, 0, .2) 3px, rgba(0, 0, 0,0) 5px),
+    repeating-linear-gradient(65deg, rgba(0, 0, 0 ,0) 0, rgba(0, 0, 0, .2) 3px, rgba(0, 0, 0, 0) 5px),
+    linear-gradient(20deg, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, 0) 100%);
+  color: var(--BenWard-bodyTextColor);
+}
+
+body { margin: 0 16px; }
+
+h1 {
+  font-size: 130%;
+  line-height: 150%;
+  margin: 0 0 16px 0;
+}
+h2 {
+  font-size: 110%;
+  line-height: 150%;
+  margin: 0 0 4px 0;
+}
+h3, h4 {
+  font-size: 100%;
+  line-height: 150%;
+}
+h3 { margin: 0 0 4px 0; }
+
+a:link {
+  color: var(--BenWard-linkColor);
+  text-decoration: none;
+}
+a:visited { color: var(--BenWard-linkColor); }
+a:hover, a:focus { text-decoration: underline; }
+a:active { text-decoration: underline; }
+
+q { quotes: none; }
+
+ol, ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+article li {
+  margin: 2px 0 2px 20px;
+  list-style-position: outside;
+}
+article ul li { list-style-type: disc; }
+article ol li { list-style-type: decimal; }
+
+blockquote {
+  margin: 6px 12px 6px 0;
+  padding-left: 12px;
+  border: 4px solid var(--BenWard-accentColor);
+  border-width: 0 0 0 4px;
+}
+
+article aside {
+  margin: 32px 0 32px -32px;
+  font-size: 90%;
+  background-color: var(--BenWard-asideBackground);
+  color: var(--BenWard-asideTextColor);
+  padding: 16px;
+}
+
+p, dl, ol, ul {
+  margin: 0 0 16px;
+}
+
+kbd, output, samp, code {
+  font-family: monospace;
+  display: inline-block;
+  font-size: 70%;
+  padding: 2px;
+  color: var(--BenWard-accentColor);
+  border-radius: 3px;
+}
+
+pre code {
+  display: block;
+  padding: 4px;
+  max-width: 100%;
+  overflow-x: scroll;
+}
+
+article img {
+  text-align: center;
+  max-width: 100%;
+  margin: 0 -32px;
+}
+
+body > article > .e-content > blockquote:first-child {
+  border: 0;
+  font-size: 200%;
+  line-height: 130%;
+  padding: 0;
+  margin: 16px 0;
+}
+
+article .full-bleed { margin: 0 -32px; }
+article .full-bleed img { width: 100%; margin: 0; }
+article .top-full-bleed { margin-top: -32px; }
+article .pull-left { float: left; margin: 0 8px 0 -32px; }
+article .pull-right { float: right; margin: 0 -32px 0 8px; }
+
+/* Button */
+.button:link,
+.button:active,
+.button:visited,
+.button:hover,
+.button:focus {
+  display: inline-block;
+  background-color: #f8f8f8;
+  background-image: linear-gradient( #fff, #dedede);
+  border: #ccc solid 1px;
+  border-radius: 3px;
+  padding: 3px 8px;
+  color: var(--BenWard-bodyTextColor);
+  font: bold 13px/20px Helvetica, sans-serif;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+  user-select: none;
+  cursor: pointer;
+  height: 18px;
+}
+.button:hover,
+.button:focus {
+  border-color: var(--BenWard-linkColor);
+}
+
+/* Legacy comments */
+#comments h2 { font-size: 100%; }
+#comments .about-comments { font-size: 80%; }
+#comments > ol { margin: 0; padding: 0; }
+#comments > ol > li { margin: 0 0 16px 0; list-style: none; }
+#comments .hentry { position: relative; padding-left: 30px; }
+#comments .hentry .photo { position: absolute; top: 0; left: 0; width: 50px; height: 50px; }
+
+/* Narrow */
+@media (max-width: 420px) {
+  body { margin: 0; }
+  header, footer, body > article, body > section { padding: 16px; }
+  header { padding: 32px 16px; }
+  .cover { margin: -16px -16px 16px -16px; }
+  .cover p { padding: 8px 16px; }
+  article .full-bleed { margin: 0 -16px; }
+  article .pull-left { margin: 0 8px 0 -16px; }
+  article .pull-right { margin: 0 -16px 0 8px; }
+  section.h-feed header,
+  article header,
+  section.h-feed footer,
+  article footer {
+    margin: 16px -16px -16px -16px;
+    padding: 0 16px;
+  }
+  section.h-feed header,
+  article header { margin: -16px -16px 16px -16px; }
+  section.h-feed nav a,
+  article.h-entry nav a { font-size: 80%; }
+  article > aside { margin-left: -8px; }
+}

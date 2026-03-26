@@ -1,0 +1,37 @@
+{
+  "name": "benward-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "NODE_OPTIONS='--experimental-vm-modules' jest",
+    "test:watch": "NODE_OPTIONS='--experimental-vm-modules' jest --watch"
+  },
+  "dependencies": {
+    "gray-matter": "^4",
+    "next": "^15",
+    "react": "^19",
+    "react-dom": "^19",
+    "rehype-raw": "^7",
+    "rehype-stringify": "^10",
+    "remark-parse": "^11",
+    "remark-rehype": "^11",
+    "textile-js": "^2",
+    "unified": "^11"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6",
+    "@testing-library/react": "^16",
+    "@types/jest": "^29",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "jest": "^29",
+    "jest-environment-jsdom": "^29",
+    "ts-jest": "^29",
+    "ts-node": "^10.9.2",
+    "typescript": "^5"
+  }
+}

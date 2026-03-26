@@ -1,0 +1,34 @@
+import styles from "./Cover.module.css";
+
+export function Cover() {
+  return (
+    <article className={`${styles.cover} cover h-card`}>
+      <p>
+        Hello! This is the personal website of{" "}
+        <a rel="me" className="p-name u-url" href="http://benward.uk">
+          Ben Ward
+        </a>
+        , a technologist, radio host, and sporadic blogger in San Francisco, CA.{" "}
+        <a rel="me" href="/about">
+          Read more about Ben
+        </a>
+        , check out{" "}
+        <a rel="employer" href="https://knitware.co">
+          Knitware, a product development and software consultancy
+        </a>
+        , read{" "}
+        <a rel="me" href="https://linkedin.com/in/bnwrd">
+          his full resume
+        </a>
+        , or{" "}
+        <a
+          href="https://duckduckgo.com/site:benward.uk"
+          title="Search this site using DuckDuckGo"
+        >
+          search the archives of this site
+        </a>
+        .
+      </p>
+    </article>
+  );
+}

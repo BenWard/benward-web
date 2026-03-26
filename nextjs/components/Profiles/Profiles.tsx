@@ -1,0 +1,16 @@
+export function Profiles() {
+  return (
+    <>
+      <link
+        rel="profile"
+        type="text/html"
+        href="http://microformats.org/profile/hcard"
+      />
+      <link
+        rel="profile"
+        type="text/html"
+        href="http://microformats.org/profile/hatom"
+      />
+    </>
+  );
+}

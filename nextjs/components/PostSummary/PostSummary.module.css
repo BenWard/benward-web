@@ -1,0 +1,10 @@
+.article {
+  margin-bottom: 32px;
+}
+
+.dateline {
+  color: var(--BenWard-accentColor);
+  margin: 6px 0;
+  font-size: 16px;
+  font-weight: 500;
+}

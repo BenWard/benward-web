@@ -1,0 +1,28 @@
+.cover {
+  margin: -32px -32px 16px -32px;
+  height: 700px;
+  background: transparent url('https://media.benward.uk/web/yosemite-header.webp') no-repeat 0 0;
+  background-size: cover;
+  position: relative;
+  box-shadow: inset 0 0 48px rgba(0, 0, 0, 0.5);
+}
+
+.cover p {
+  position: absolute;
+  bottom: 0; left: 0;
+  margin: 0 0 8px 0;
+  padding: 8px 32px;
+  background: rgba(0,0,0,0.5);
+  color: var(--BenWard-asideTextColor);
+}
+
+.cover a:link,
+.cover a:visited {
+  color: var(--BenWard-asideTextColor);
+  text-decoration: underline;
+}
+
+.cover a:hover {
+  background: var(--BenWard-pageColor);
+  color: var(--BenWard-accentColor);
+}
