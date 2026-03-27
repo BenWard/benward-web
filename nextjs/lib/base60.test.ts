@@ -1,3 +1,4 @@
+import { describe, it, expect } from "vitest";
 import { encodeBase60, shortlink } from "./base60";
 
 describe("encodeBase60", () => {

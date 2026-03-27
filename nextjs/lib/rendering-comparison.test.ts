@@ -3,6 +3,7 @@
  * for specific blog posts.
  */
 
+import { describe, it, expect, beforeAll } from "vitest";
 import path from "path";
 import { loadPostSync, renderPost } from "./content";
 import { enrichPost } from "./posts";

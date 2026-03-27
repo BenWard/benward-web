@@ -5,6 +5,7 @@
  * class isn't available in the jsdom test environment.
  */
 
+import { describe, it, expect, beforeAll } from "vitest";
 import { toXmlSchema } from "@/lib/dates";
 
 /** Reproduce the exact content from the route handler */

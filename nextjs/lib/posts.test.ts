@@ -1,3 +1,4 @@
+import { describe, it, expect } from "vitest";
 import { cleanUrl, githubSourceUrl, generateTitle, getExcerpt, enrichPost } from "./posts";
 import type { Post } from "./content";
 

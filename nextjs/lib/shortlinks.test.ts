@@ -1,3 +1,4 @@
+import { describe, it, expect } from "vitest";
 import { decodeBase60, buildShortlinkMap, resolveShortlink } from "./shortlinks";
 import { encodeBase60 } from "./base60";
 
