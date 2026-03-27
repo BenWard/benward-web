@@ -1,0 +1,39 @@
+{
+  "name": "benward-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "packages:sync": "npm install",
+    "packages:upgrade": "npm-check-updates -u --target minor --dep prod,dev,peer,optional && npm run packages:sync && npm run packages:upgrade:check && echo \"MINOR upgrades successfully applied to package.json\"",
+    "packages:upgrade:check": "echo \"Checking for available upgrades.\" && npm-check-updates --target minor --dep prod,dev,peer,optional --format group && echo && echo \"Checking for available MAJOR version updates (may including breaking changes.)\" && echo && npm-check-updates --target latest --dep prod,dev,peer,optional --format group | awk '/Major/ {flag=1} flag' && echo \"MAJOR upgrades must be applied manually by editing package.json. Test carefully!\""
+  },
+  "dependencies": {
+    "gray-matter": "^4",
+    "next": "^16",
+    "react": "^19",
+    "react-dom": "^19",
+    "rehype-raw": "^7",
+    "rehype-stringify": "^10",
+    "remark-parse": "^11",
+    "remark-rehype": "^11",
+    "textile-js": "^2",
+    "unified": "^11"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/node": "^24",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^6.0.1",
+    "jsdom": "^29.0.1",
+    "npm-check-updates": "^19.6.6",
+    "typescript": "^6",
+    "vitest": "^4.1.2"
+  }
+}

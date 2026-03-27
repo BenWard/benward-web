@@ -1,0 +1,13 @@
+.headerFooter {
+  margin: -32px -32px 16px -32px;
+  padding: 0 32px;
+  border: 1px var(--BenWard-bodyTextColor) solid;
+  border-width: 0 0 1px 0;
+}
+
+.footer {
+  margin: 16px -32px -32px -32px;
+  padding: 0 32px;
+  border: 1px var(--BenWard-bodyTextColor) solid;
+  border-width: 1px 0 0 0;
+}

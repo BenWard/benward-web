@@ -1,0 +1,56 @@
+/* Root layout styles: header, footer, page canvas, site nav */
+
+.header,
+.footer,
+.main > article,
+.main > section {
+  padding: 32px;
+}
+
+.main > article,
+.main > section {
+  background: var(--BenWard-pageColor);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.siteTitle {
+  font-size: 170%;
+  margin: 0;
+  color: var(--BenWard-logoColor);
+  opacity: 0.25;
+  transition: opacity .5s ease-out;
+}
+
+.siteTitle a:link,
+.siteTitle a:visited {
+  color: inherit;
+}
+
+.siteTitle:hover {
+  opacity: 0.75;
+}
+
+.footer {
+  color: var(--BenWard-footerTextColor);
+  font-size: 80%;
+  line-height: 21px;
+}
+
+.footer address {
+  display: inline;
+  font-style: normal;
+}
+
+.footer a:link,
+.footer a:visited,
+.footer a:hover,
+.footer a:focus {
+  color: var(--BenWard-footerLinkColor);
+}
+
+.footnote {
+  margin-top: 100%;
+  color: rgba(255,255,255,0.2);
+  text-shadow: rgba(0, 0, 0, 0.7) -1px 0 2px;
+  text-align: center;
+}

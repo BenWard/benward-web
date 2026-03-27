@@ -1,0 +1,71 @@
+.dateline {
+  color: var(--BenWard-accentColor);
+  margin: 6px 0;
+  font-size: 16px;
+  font-weight: 500;
+  transform: rotate(1deg) translateX(-10px) translateY(3px);
+}
+
+.dateline p {
+  margin: 0;
+}
+
+.title {
+  transform: rotate(-1deg) translateX(-3px);
+}
+
+.tags {
+  padding: 0;
+}
+
+.tags li {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  list-style: none;
+  padding: 4px;
+  border-radius: 4px;
+  border-bottom-left-radius: 15px 50%;
+  border-top-left-radius: 15px 50%;
+  padding-left: 10px;
+  transform: rotate(-5deg);
+  border: 2px solid var(--BenWard-accentColor);
+  color: var(--BenWard-accentColor);
+  font-size: 80%;
+  margin-bottom: 4px;
+  line-height: 120%;
+}
+
+.tags li a {
+  display: inline-block;
+  color: inherit;
+}
+
+/* Article header/footer navigation */
+.navFooter {
+  margin: 16px -32px -32px -32px;
+  padding: 0 32px;
+  border: 1px var(--BenWard-bodyTextColor) solid;
+  border-width: 1px 0 0 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav a {
+  display: block;
+  text-align: center;
+  margin: 16px 0;
+  white-space: nowrap;
+  flex-basis: 33%;
+}
+
+.nav a:first-child {
+  text-align: left;
+}
+
+.nav a:last-child {
+  text-align: right;
+}

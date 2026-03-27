@@ -1,0 +1,306 @@
+/*8 Appearence and Layout Style Sheet for TCP Header Diagram */
+@media all {
+  body {
+			 		   font-size: 1em;
+	}
+	#footer  {
+					   float: right;
+						 text-align: right;
+						 
+						 width: 50%;
+						 min-width: 500px;
+						 font-size: 80%;
+						 border-top: 1px solid #EEE;
+	}
+
+	.hidden {
+		 				 display: none;
+	}
+	
+	pre {
+        		 display: block;
+        		 margin-left: 20px; margin-right: 20px;
+        		 padding: 5px;
+        		 border: 1px solid #EEE;
+	}
+	
+	span.pre {
+			       font-family: "courier new", courier, typewriter, fixed;			
+	}
+	
+	.right {
+				 		 float: right;
+	}						 
+}
+
+@media screen {
+  body {
+        		 font-family: Verdana, Tahoma, sans-serif;
+      			 font-size: 1em;
+						 margin: 0px;
+						 
+						 color: #000;
+						 background: #FFF;
+						 
+						 background-image: url("../images/bg_globe.png");
+						 background-repeat: no-repeat;
+						 background-position: bottom right;		
+  }
+	
+	#bodytext {
+						 margin-left: 15px;
+						 padding-left: 5px; padding-right: 5px;
+						 border-left: 3px solid #EEE;
+	}
+	
+	#iemsg * {
+				 	  font-size: 75%;
+	}
+	
+	#menu {
+				 		 position: absolute;
+						 top: 10px;
+						 left: 5px;
+						 width: 100px;
+						 
+						 font-size: 80%;
+						 border: 1px solid #EEE;
+	}
+	
+	#menu ul, #menu li {
+						 display: block;
+						 margin: 0px;
+						 padding: 0px;
+	}
+	.screen-hide {
+      			 display: none;
+	}
+	
+	object.fs {
+      			 width: 95%;
+      			 height: auto;	 
+	}
+	
+	/** Layout the Diagram */
+  	#diagram {
+  					 position: relative;
+						 width: 95%; max-width: 800px;
+						 height: 15em;
+						 margin-left: auto; margin-right: auto;				 
+						 margin-top: 10px; margin-bottom: 10px;
+						 background: #E6D900;
+						 border: 1px solid #000;
+						 z-index: 0;
+  	}
+		
+		/** Hidden Cell Outer */
+		#diagram div.cell {
+						 cursor: pointer;
+						 height: 2.5em;
+						 z-index: 1;
+		}
+		/** Hidden Cell Inner */
+		#diagram div.cell div {
+						 background: #E6D900;
+						 background-image: url("../images/cell_off.png");
+						 background-repeat: repeat-x;
+						 background-position: bottom left;
+						 text-align: center;
+						 vertical-align: middle;
+						 border: 1px solid #000;
+						 
+						 height: inherit;
+						 z-index: 1;		 
+		}
+
+		/** Hover Colour Change */
+		#diagram div.cell:hover div {
+						 background: #CAD8DD;
+						 background-image: url("../images/cell_on.png");
+						 background-repeat: repeat-x;
+						 background-position: bottom left;						 
+		}
+		/** Collapse Content */
+		#diagram div.cell div .btt, #diagram div.cell div p {
+						 display: none;
+						 visibility: hidden;
+		}
+		
+		#diagram div.cell div h3 {
+						 margin: 0px;
+		}
+		/** Expanded Cell Outer */
+		#diagram div.expCell {
+						 cursor: default;
+						 border: 1px solid #000;			
+						 border-top: 0px;
+						 margin-top: 10px;				 
+						 min-width: 50%;
+						 /** On top */
+						 z-index: 2 !important;
+		}
+		
+		/** Expanded Cell Inner */
+		#diagram div.expCell div {
+						 background: #CAD8DD;
+						 background-image: url("../images/cell_on.png");
+						 background-repeat: repeat-x;
+						 background-position: bottom left;	
+						 						 
+						 border-top: 1px solid #000;
+						 padding: 5px;
+						 overflow: scroll;						 
+						 min-height: 8em !important;
+						 max-height: 10em !important;
+						 /** On top */
+						 z-index: 2 !important;						 
+		}
+		#diagram div.expCell h3 {
+						 font-size: 100% !important;
+						 text-align: left !important;
+		}				 
+		
+		/** Override Small cells spans when expanded */
+		#diagram div.expCell span {
+						 display: inline !important;
+						 text-transform: none !important;
+		}
+		
+		/** Small cells with vertical text */
+		#diagram div.smallcell {
+						 padding: 0px;
+		}
+		#diagram div.smallcell div h3 {
+						 font-size: 50%;
+		}
+		#diagram div.smallcell span.vert {
+						 display:block;
+						 padding: 0px; margin: 0px;
+						 text-transform: uppercase;
+		}
+		#diagram div.smallcell span.trim {
+						 display:none;
+		}		
+				
+		/** Unique Cells  -- Positioning only */
+		#diagram #cell_sourceport {
+	 				 position: absolute;
+    				left: 0%;
+    				width: 50%;
+		}
+		#diagram #cell_destinationport {
+  	 				position: absolute;
+    				left: 50%;
+    				width: 50%;
+		}
+		#diagram #cell_seqnum {
+  	 				position: absolute;
+						top: 2.5em;
+						left: 0%;
+    				width: 100%;
+		}		
+		#diagram #cell_acknum {
+  	 				position: absolute;
+    				top: 5em;
+						left: 0%;
+    				width: 100%;
+		}			
+		#diagram #cell_dataoffset {
+  	 				position: absolute;
+    				top: 7.5em;
+						left: 0%;
+    				width: 12.5%;
+		}												
+		#diagram #cell_dataoffset h3 {						
+						 font-size: 80%;
+		}					
+		#diagram #cell_reserved {
+  	 				position: absolute;
+    				top: 7.5em;    				
+						left: 12.5%;
+    				width: 18.75%;
+		}
+		#diagram #cell_urg {
+  	 				position: absolute;
+    				top: 7.5em;
+    				left: 31.25%;
+    				width: 3.125%;
+		}
+		#diagram #cell_ack {
+  	 				position: absolute;
+    				top: 7.5em;
+    				left: 34.375%;
+    				width: 3.125%;
+		}		
+		#diagram #cell_psh {
+  	 				position: absolute;
+    				top: 7.5em;
+    				left: 37.5%;
+    				width: 3.125%;
+		}		
+		#diagram #cell_rst {
+  	 				position: absolute;
+    				top: 7.5em;
+    				left: 40.625%;
+    				width: 3.125%;
+		}
+		#diagram #cell_syn {
+  	 				position: absolute;
+    				top: 7.5em;
+    				left: 43.75%;
+    				width: 3.125%;
+		}
+		#diagram #cell_fin {
+  	 				position: absolute;
+    				top: 7.5em;
+    				left: 46.875%;
+    				width: 3.125%;
+		}
+		#diagram #cell_window {
+  	 				position: absolute;
+    				top: 7.5em;
+    				left: 50%;
+    				width: 50%;
+		}
+		#diagram #cell_checksum {
+  	 				position: absolute;
+    				top: 10em;
+    				left: 0%;
+    				width: 50%;
+		}
+		#diagram #cell_urgpoint {
+  	 				position: absolute;
+    				top: 10em;
+    				left: 50%;
+    				width: 50%;
+		}
+		#diagram #cell_opt {
+  	 				position: absolute;
+    				top: 12.5em;
+    				left: 0%;
+    				width: 100%;
+		}
+		/** Global (exp|colapsed) Diagram Styles */
+		#diagram h3 {
+						 font-size: 100%;
+						 padding-top: 0.5em; padding-bottom: 0.4em;
+						 margin: 0px;
+		}
+		#diagram small {
+		}
+		#diagram .btt {
+						 float: right;
+		}
+	
+}
+/** Printer Friendly Version */
+@media print {
+	body {
+    			 background: #FFF;
+    	     font-family: Georgia, sans-serif;
+	}
+	/** Hide "Back To Top"/"Close" items */
+	#diagram .btt, #menu, #iemsg {
+    			 display: none;
+	}
+}

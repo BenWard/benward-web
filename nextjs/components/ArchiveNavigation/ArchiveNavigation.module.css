@@ -1,0 +1,25 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav a {
+  display: block;
+  text-align: center;
+  margin: 16px 0;
+  white-space: nowrap;
+  flex-basis: 33%;
+}
+
+.nav a:first-child {
+  text-align: left;
+}
+
+.nav a:last-child {
+  text-align: right;
+}
+
+.navAnnual a,
+.navRecent a {
+  flex-basis: 50%;
+}
